@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /admin/
 
-Sitemap: https://ethnos.xyz/sitemap.xml
+Sitemap: https://subversive.eu/sitemap.xml
