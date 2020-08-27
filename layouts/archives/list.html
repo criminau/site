@@ -1,0 +1,29 @@
+{{ define "main" }}
+<!--- Les Archives -->
+<div class="container">
+  <h1 class="text-white font-125 text-center py-2">Archives</h1>
+{{ $paginator := .Paginate (where (where .Site.Pages ".Section" "posts") "Kind" "page") }}
+{{ range first 15 $paginator.Pages }}
+  <div class="row">
+    <div class="col-10 container">
+        <p class="font-125 text-align-left text-white">{{ .Date | dateFormat "2" }}&nbsp;{{ .Date | dateFormat "Jan" }}&nbsp;{{ .Date | dateFormat "2006"}}&nbsp;-&nbsp;<a class="text-white" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a> </p>
+    </div>
+  </div>
+{{ end }}
+<!-- Pagination simple-->
+  {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+  <ul class="text-white pagination justify-content-center">
+    {{ if .Paginator.HasPrev }}
+      <li class="page-item ">
+        <a class="page-link bg-light text-dark" href="{{ .Permalink }}page/{{ .Paginator.Prev.PageNumber }}/">&larr; Précédent</a>
+      </li>
+    {{ end }}
+    {{ if .Paginator.HasNext }}
+      <li class="page-item">
+        <a class="page-link bg-light text-dark" href="{{ .Permalink }}page/{{ .Paginator.Next.PageNumber }}/">Suivant &rarr;</a>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
+</div>
+{{ end }}

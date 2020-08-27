@@ -1,0 +1,80 @@
+<head>
+    <meta content-type="text/html, application/xml" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ .Title }}</title>{{ with .Site.Params.description }}
+    <!-- Balise Meta Simple-->
+    <meta name="description" content="{{ . }}" />{{ end }}{{ with .Site.Params.keyword }}
+    <meta name="keywords" content="{{ . }}" />{{ end }}
+    <meta name="Language" CONTENT="{{ .Site.Params.languageCode }}" />
+    <meta name="robots" content="index,follow" />
+    <meta name="copyright" content="© subversive.eu 2020" />
+    <meta name="publisher" content="Subversive" />
+    <!-- Canonical-->
+    <link rel="canonical" href="{{ .Permalink }}" />
+    <!-- Flux RSS -->{{ with .OutputFormats.Get "rss" -}}{{ printf `
+    <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}{{ end -}}
+    <!--- Stylesheets -->
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css"> <!-- 4.5.2 -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <!--- Les Scripts-->
+    <script src="/js/jquery-3.5.1.min.js"></script> <!-- 3.5.1-->
+    <script src="/bootstrap/js/bootstrap.min.js"></script> <!--- 4.5.2-->
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "Subversive",
+        "url": "https://www.subversive.eu",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "{search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+        }
+    </script>
+    <!-- Meta property OpenGraph Protocol -->
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+{{- $var := newScratch -}}{{ with $.Params.images }}{{ $var.Set "imgurl" (index . 0) }} 
+{{- if $.Site.Params.imagesFolder -}}{{ $var.Set "imgurl" (print $.Site.Params.imagesFolder "/" (index . 0))}}
+{{- end -}} {{ range first 6 . -}}
+    <meta property="og:image" content="{{ $var.Get "imgurl" | absURL }}" />
+{{ end }}{{ else -}}{{- $images := $.Resources.ByType "image" -}}{{- $featured := $images.GetMatch "*feature*" -}}
+{{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}{{- with $featured -}}
+    <meta property="og:image" content="{{ $featured.Permalink }}"/>
+{{ else -}}{{- with $.Site.Params.images -}}
+    <meta property="og:image" content="{{ index . 0 | absURL }}"/>
+{{ end }}{{ end }}{{ end }}{{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}{{- if .IsPage }}{{- if not .PublishDate.IsZero }}
+    <meta property="article:published_time" {{ .PublishDate.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ else if not .Date.IsZero }}
+    <meta property="article:published_time" {{ .Date.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
+{{ end }}{{- if not .Lastmod.IsZero }}
+    <meta property="article:modified_time" {{ .Lastmod.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end }}
+{{- else }}{{- if not .Date.IsZero }}
+    <meta property="og:updated_time" {{ .Date.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
+{{- end }}{{- end }}{{/* .IsPage */}}{{- with .Params.audio }}
+    <meta property="og:audio" content="{{ . }}" />{{ end }}{{- with .Params.locale }}
+    <meta property="og:locale" content="{{ . }}" />{{ end }}{{- with .Site.Params.title }}
+    <meta property="og:site_name" content="{{ . }}" />{{ end }}
+{{- with .Params.videos }}{{- range . }}
+    <meta property="og:video" content="{{ . | absURL }}" />
+{{ end }}{{ end }}
+
+</head>

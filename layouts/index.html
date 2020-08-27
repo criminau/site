@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="container">
+
+    <div id="" class="hoverable p-3 jumbotron text-center bg-dark text-white">
+      <h1>{{ .Title }}</h1>
+      <p class="font-125 text-justify">{{ .Site.Params.homeText | markdownify }}</p>
+    </div>
+    {{ range first .Site.Params.paginate (where (where .Site.Pages ".Section" "posts") "Kind" "page") }}
+      <div id="" class="hoverable p-3 m-3 card bg-dark text-white">
+        {{ partial "preview.html" . }}
+      </div>
+    {{ end }}
+    
+</div>
+{{ end }}
