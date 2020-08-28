@@ -1,0 +1,50 @@
+baseURL = "https://subversive.eu/"
+languageCode = "fr"
+title = "Subversive"
+
+[params]
+  homeText = "La vie est un jeu, un jeu injuste. L’on me dit que je survie, mais eux, ils vivent, ils se battent pour avoir la meilleure place, qu’elle soit sociale, budgétaire, ou juste au premier rang, ils veulent la défaite de leurs frères mais pas la leur. Ils veulent l’injustice pour avoir la meilleure place, mais ils veulent la justice pour ne pas avoir la dernière. Ils acceptent le jeu, car ils ne veulent pas changer les règles, alors qu’ils sont les joueurs, tous, et que sans eux le jeu n’existe pas. Ils trouvent ça beau. Les modérateurs, eux-même joueurs, joueurs dont l’injustice les a positionné modérateurs, n’ont pas compris, que cette même injustice dont ils ne veulent pas la fin, celle-là les mènent à leur perte. Ils survivent comme les autres, en espérant que l’injustice ne se verra pas trop durant leur tour. Eux-aussi ils trouvent ça beau. "
+  date_format = "2 Jan 2006"
+  time_format = "HH:mm:ss"
+  description = "Subversive est un site accueillant un blog, développant un avis critique de nos sociétés."
+  keyword = "Subversif, Subsersive, Démocratie, Géopolitique, Liberté, Energie, Environnement, Histoire, Informatique, Internet, Blog personnel"
+  paginate = "5" # Number of posts per page
+  paginatearchive = "16" # Number of posts per page for Archive page ne fonctionne pas
+  languageCode = "fr"
+  imagesFolder = 'img' # OpenGraph Protocol
+
+[sitemap]
+  ChangeFreq = "daily"
+  Priority = "1"
+
+[[params.nav]]
+  identifier = "about"
+  name = "A propos"
+  icon = "user"
+  url = "/about/"
+  weight = 3
+  color = "text-warning"
+
+[[params.nav]]
+  identifier = "categories"
+  name = "Category"
+  icon = "tag"
+  url = "/categories/"
+  weight = 3
+  color = "text-success"
+
+[[params.nav]]
+  identifier = "archives"
+  name = "Archives"
+  icon = "archive"
+  url = "/archives/"
+  weight = 3
+  color = "text-white"
+
+[[params.navd]]
+  identifier = ""
+  name = "subversive.eu"
+  icon = "fas fa-archive fa-lg"
+  url = ""
+  weight = 3
+  color = "text-white"

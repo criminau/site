@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="fr">
+
+    <head>
+    <meta content-type="text/html, application/xml" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Créer un site internet statique en 2020</title>
+    
+    <meta name="description" content="Rappel Méthode utilisée pour ce site.
+La création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.
+A télécharger et installer 7-zip - Traitement de dossier -
+Nodejs - Traitement JS -
+Un compteGithub - Votre dépôt internet -
+Un peu de place dans vos documents - Votre dépôt local -
+Git - Gestion de dépôt -
+Un thème hexo -
+Un éditeur de code, dans l&rsquo;exemple nous prendrons sublime text -" />
+    <meta name="keywords" content="Subversif, Subsersive, Démocratie, Géopolitique, Liberté, Energie, Environnement, Histoire, Informatique, Internet, Blog personnel" />
+    <meta name="Language" CONTENT="fr" />
+    <meta name="robots" content="index,follow" />
+    <meta name="copyright" content="© subversive.eu 2020" />
+    <meta name="publisher" content="Subversive" />
+    
+    <link rel="canonical" href="https://subversive.eu/posts/creer-un-site-internet-statique-en-2020/" />
+    
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="/css/style.css" />
+    
+    <script src="/js/jquery-3.5.1.min.js"></script> 
+    <script src="/bootstrap/js/bootstrap.min.js"></script> 
+    
+    <link rel="icon" href="/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "Subversive",
+        "url": "https://www.subversive.eu",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "{search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+        }
+    </script>
+    
+    <meta property="og:title" content="Créer un site internet statique en 2020" />
+    <meta property="og:description" content="Rappel Méthode utilisée pour ce site.
+La création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.
+A télécharger et installer 7-zip - Traitement de dossier -
+Nodejs - Traitement JS -
+Un compteGithub - Votre dépôt internet -
+Un peu de place dans vos documents - Votre dépôt local -
+Git - Gestion de dépôt -
+Un thème hexo -
+Un éditeur de code, dans l&rsquo;exemple nous prendrons sublime text -" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://subversive.eu/posts/creer-un-site-internet-statique-en-2020/" />
+    <meta property="article:published_time" content="2020-03-06T18:00:00+00:00" />
+    <meta property="article:modified_time" content="2020-03-06T18:00:00+00:00" />
+    
+    <meta name="twitter:site" content="Subversive">
+    <meta name="twitter:creator" content="subversive.eu">
+    <meta name="twitter:url" content="https://subversive.eu/posts/creer-un-site-internet-statique-en-2020/">
+    <meta name="twitter:title" content="Créer un site internet statique en 2020">
+    <meta name="twitter:description" content="Rappel Méthode utilisée pour ce site.
+La création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.
+A télécharger et installer 7-zip - Traitement de dossier -
+Nodejs - Traitement JS -
+Un compteGithub - Votre dépôt internet -
+Un peu de place dans vos documents - Votre dépôt local -
+Git - Gestion de dépôt -
+Un thème hexo -
+Un éditeur de code, dans l&rsquo;exemple nous prendrons sublime text -">
+</head>
+
+    
+<div class="bs-example sticky-top m-4"><div class="container">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark " >
+      <a href="https://subversive.eu/" class="navbar-brand">
+          <img src="/images/logo.png" height="28" alt="Ethnos">
+      </a>
+      <button name="afficher-menu" type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav">
+            
+            
+            
+            <a class="nav-item nav-link text-warning" href="/about/" name="A propos"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a>
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="nav-item nav-link text-success" href="/categories/" name="Category"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg></a>
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="nav-item nav-link text-white" href="/archives/" name="Archives"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-archive"><polyline points="21 8 21 21 3 21 3 8"></polyline><rect x="1" y="3" width="22" height="5"></rect><line x1="10" y1="12" x2="14" y2="12"></line></svg></a>
+            
+            
+            
+
+<a class="nav-item nav-link text-secondary" rel="noopener noreferrer" target="_blank" href="https://subversive.eu/posts/index.xml" name="Flux RSS">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>
+</a>
+
+<a class="nav-item nav-link text-secondary" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/site" name="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+
+</div>
+          <div class="navbar-nav ml-auto">
+            
+              <a href="/" name="subversive.eu" class="nav-item nav-link">subversive.eu</a>
+            
+            </div>
+      </div>
+    </nav>
+    </div>
+  </div>
+
+<div class="sidenav bg-dark">
+  
+    <a
+    style="background: #3B5998;"
+    target="_blank" rel="noopener noreferrer"
+    name="Facebook"
+    class="text-danger share-link"
+    href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fsubversive.eu%2fposts%2fcreer-un-site-internet-statique-en-2020%2f">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+    </a>
+    <a
+    style="background: #55acee"
+    name="Twitter"
+    target="_blank" rel="noopener noreferrer"
+    class="text-danger share-link"
+    href="https://twitter.com/share?url=https%3a%2f%2fsubversive.eu%2fposts%2fcreer-un-site-internet-statique-en-2020%2f&text=Cr%c3%a9er%20un%20site%20internet%20statique%20en%202020&hashtags=subversive.eu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+    </a>
+    <a
+    style="background: #4875B4;"
+    name="Linkedin"
+    target="_blank" rel="noopener noreferrer"
+    class="text-danger share-link"
+    href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fsubversive.eu%2fposts%2fcreer-un-site-internet-statique-en-2020%2f&title=Cr%c3%a9er%20un%20site%20internet%20statique%20en%202020&summary=Rappel%20M%c3%a9thode%20utilis%c3%a9e%20pour%20ce%20site.%0aLa%20cr%c3%a9ation%20d%e2%80%99un%20site%20n%e2%80%99est%20pas%20une%20ligne%20parfaite%2c%20vous%20devrez%20affronter%20des%20inconv%c3%a9nients%20techniques.%0aA%20t%c3%a9l%c3%a9charger%20et%20installer%207-zip%20-%20Traitement%20de%20dossier%20-%0aNodejs%20-%20Traitement%20JS%20-%0aUn%20compteGithub%20-%20Votre%20d%c3%a9p%c3%b4t%20internet%20-%0aUn%20peu%20de%20place%20dans%20vos%20documents%20-%20Votre%20d%c3%a9p%c3%b4t%20local%20-%0aGit%20-%20Gestion%20de%20d%c3%a9p%c3%b4t%20-%0aUn%20th%c3%a8me%20hexo%20-%0aUn%20%c3%a9diteur%20de%20code%2c%20dans%20l%26rsquo%3bexemple%20nous%20prendrons%20sublime%20text%20-&source=https://subversive.eu/">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+    </a>
+    <a
+    style="background: ;"
+    name="Copy URL"
+    onclick="copyshare()"
+    class="text-danger share-link bg-secondary"
+    href="https://subversive.eu/posts/creer-un-site-internet-statique-en-2020/">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+    </a>
+    <a
+    style="background: #444444;"
+    name="Mail"
+    class="text-danger share-link"
+    href="mailto:?subject=Cr%c3%a9er%20un%20site%20internet%20statique%20en%202020&body=Rendez-vous à l'adresse : https%3a%2f%2fsubversive.eu%2fposts%2fcreer-un-site-internet-statique-en-2020%2f Voici un résumé : Rappel%20M%c3%a9thode%20utilis%c3%a9e%20pour%20ce%20site.%0aLa%20cr%c3%a9ation%20d%e2%80%99un%20site%20n%e2%80%99est%20pas%20une%20ligne%20parfaite%2c%20vous%20devrez%20affronter%20des%20inconv%c3%a9nients%20techniques.%0aA%20t%c3%a9l%c3%a9charger%20et%20installer%207-zip%20-%20Traitement%20de%20dossier%20-%0aNodejs%20-%20Traitement%20JS%20-%0aUn%20compteGithub%20-%20Votre%20d%c3%a9p%c3%b4t%20internet%20-%0aUn%20peu%20de%20place%20dans%20vos%20documents%20-%20Votre%20d%c3%a9p%c3%b4t%20local%20-%0aGit%20-%20Gestion%20de%20d%c3%a9p%c3%b4t%20-%0aUn%20th%c3%a8me%20hexo%20-%0aUn%20%c3%a9diteur%20de%20code%2c%20dans%20l%26rsquo%3bexemple%20nous%20prendrons%20sublime%20text%20-">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+    </a>
+    <a
+    emedia="screen and (min-device-width: 800px)"
+    style="background: #4875B4;"
+    name="SMS"
+    class="text-danger share-link sms-link"
+    href="sms:?&body=https%3a%2f%2fsubversive.eu%2fposts%2fcreer-un-site-internet-statique-en-2020%2f">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+    </a>
+    
+  </div>
+  
+
+<body class="bg-dark">
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Haut de page</button>
+
+
+<div class="container">
+    <div id="" class="hoverable p-3 jumbotron bg-dark text-white text-justify">
+      <h1 class="text-center">Créer un site internet statique en 2020</h1>
+      <p class="font-125 text-justify"><h2 id="rappel">Rappel</h2>
+<p>Méthode utilisée pour ce site.<br>
+La création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.</p>
+<h3 id="a-télécharger-et-installer">A télécharger et installer</h3>
+<p><a class="" rel="noopener noreferrer" target="_blank" href="https://www.7-zip.org/" >7-zip</a> - Traitement de dossier -<br>
+<a class="" rel="noopener noreferrer" target="_blank" href="https://nodejs.org/en/" >Nodejs</a> - Traitement JS -<br>
+Un compte<a class="" rel="noopener noreferrer" target="_blank" href="https://github.com/" >Github</a> - Votre dépôt internet -<br>
+Un peu de place dans vos documents - Votre dépôt local -<br>
+<a class="" rel="noopener noreferrer" target="_blank" href="https://git-scm.com/" >Git</a> - Gestion de dépôt -<br>
+Un <a class="" rel="noopener noreferrer" target="_blank" href="https://hexo.io/themes/" >thème hexo</a> -<br>
+Un éditeur de code, dans l&rsquo;exemple nous prendrons <a class="" rel="noopener noreferrer" target="_blank" href="https://www.sublimetext.com/" >sublime text</a> -</p>
+<p>Créez votre compte, téléchargez les applications, choisissez votre thème.</p>
+<p>Installez 7-zip.<br>
+NodeJS puis Git.</p>
+<p>Creer un Dossier Hexo (par exemple dans vos documents), lancez cmd depuis l&rsquo;adresse du dossier (tapez cmd puis la touche Entrée).</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">npm install hexo-cli -g
+hexo init blog
+cd blog
+npm install
+</code></pre></div><p>Votre blog est créé.</p>
+<h2 id="design">Design</h2>
+<p>Vous avez choisi un thème, ou plusieurs.<br>
+Attention ! Certains n&rsquo;ont pas de menu&hellip;
+Télécharger les avec git :<br>
+Par cette méthode, vous ne pourrez les modifier, mais il sera facile de le tenir à jour.
+Sur le dépôt GitHub du site, a droite, cliquez sur le bouton vert &ldquo;Clone or Download&rdquo;, copiez le lien.
+Retourner sur votre explorateur de fichier, cliquez sur themes dans le dossier de votre blog.
+Puis clic droit &ldquo;Git Bash Here&rdquo;.
+Pour coller le lien dans git bash : Clic droit, Paste.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">git clone votreliendutheme
+</code></pre></div><h3 id="configuration">Configuration</h3>
+<p>Ouvrez votre editeur de text, ouvrez le dossier de votre blog, puis ouvrez le fichier config.yml.
+Pour le thème, mettez le nom du dossier de votre thème choisi.<br>
+Pour Deploy, ne mettez rien, nous passerons par git.<br>
+Langage, fr.<br>
+Vérifier bien le format des dates, mettez les en français pour une lecture plus rapide de vos utilisateurs.</p>
+<h2 id="déploiement">Déploiement</h2>
+<p>Clé SSH :</p>
+<p>Allez dans Github settings sous votre profil -&gt; SSH and GPG -&gt; New SSH key. Donnez y un nom.<br>
+Retourner dans le dossier de votre site -&gt; clic droit -&gt; git bash here.<br>
+Commande :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">ssh-keygen -t rsa -b <span style="color:#ae81ff">4096</span> -C <span style="color:#e6db74">&#34;votremail@mail.com&#34;</span> | Changez par le mail de votre compte github
+
+Enter a file in which to save the key (/c/Users/you/.ssh/id_rsa):[Press enter] | Appuyez sur Entrée
+<span style="color:#66d9ef">Enter passphrase (empty for no passphrase)</span>: [Type a passphrase] | Créez un mot de passe
+<span style="color:#66d9ef">Enter same passphrase again</span>: [Type passphrase again] | Vérification du mot de passe
+
+clip &lt; ~/.ssh/id_rsa.pub
+
+</code></pre></div><p>Retournez sur Github collez votre clé. Validez.</p>
+<p>Sur Github créez un nouveau dépôt (en anglais repository). Vous arrivez ensuite sur la page du dépôt qui est vide. Stoppez l&rsquo;activité en local de votre site.
+Dans le dossier de votre Blog, clic droit, Git Bash Here. Stoppez l&rsquo;activité en local de votre site.</p>
+<p>Poursuivons sur votre dépôt :</p>
+<p>PS: Pour coller du texte dans Git, clic droit paste.</p>
+<p>Hugo/Blog -&gt; clic droit -&gt; git bash here.<br>
+Commandes :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">git init  
+git remote add origin git@github.com:moncompte/Blog.git  
+git add .  
+git commit -m <span style="color:#e6db74">&#34;Premier envoi&#34;</span>  
+git push -u origin master  
+</code></pre></div><p>Votre Dépôt est à jour. Continuons. Allez sur <a class="" rel="noopener noreferrer" target="_blank" href="https://www.netlify.com/" >Netlify</a>. -&gt; Get Started for free. Connectez-vous via Github.
+Puis New site from Github. Sélectionnez votre compte Github. Puis le dépôt de votre Blog. Déployez-le.
+Le site déployé dans notre exemple fonctionne. Votre site est normalement sur le net.</p>
+<h2 id="intégration-payant-pas-obligatoire">Intégration (payant, pas obligatoire)</h2>
+<p>La première chose à faire est de renommer votre domaine. Allez dans site settings -&gt; change site name. Vous vous retrouvez avec exemple-blog.netlify.com . Changez votre baseUrl dans config, en local comme sur Github.</p>
+<p>Pour ceux ne souhaitant pas payer, sautez ce chapitre.</p>
+<p>Si vous ne possédez pas de nom de domaine, achetez-en un. Désactivez le protocole DNSSEC. Enregistrez quatre Serveurs DNS externes :</p>
+<p>dns1.p02.nsone.net<br>
+dns2.p02.nsone.net<br>
+dns3.p02.nsone.net<br>
+dns4.p02.nsone.net</p>
+<p>Retournez sur la page overview de votre site netlify -&gt; Domain settings -&gt; add custom domain -&gt; collez le vôtre. Forcez et/ou attendez la mise en route HTTPS.</p>
+<p>Nous allons tenter une redirection de votre domaine netlify vers votre domaine externe, pour cela rendez-vous dans le dossier static de votre site sur le dépôt github :<br>
+Ouvrez le EDIWeb, créer un fichier &ldquo;_redirects&rdquo; Copiez-y :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#75715e"># Redirect default Netlify subdomain to primary domain</span>
+https://votresite.netlify.com/* https://votredomaine.fr/:splat <span style="color:#ae81ff">301</span>!
+http://votresite.netlify.com/* https://votredomaine.fr/:splat <span style="color:#ae81ff">301</span>!
+
+</code></pre></div><p>Enregistrer dans la branche master.
+Penser à mettre le dossier sur votre disque local au même endroit - static -.</p>
+<p>Voilà votre site tourne !
+A vous de jouer pour obtenir du trafic ! Chacun sa méthode.</p>
+<p>Dernière chose pour ne pas vous laisser dans l&rsquo;embarras.</p>
+<h2 id="mettre-à-jour-son-site">Mettre à jour son site</h2>
+<p>Assez complexe, tout d&rsquo;abords ne changez jamais le nom du dépôt Github. Ainsi que le local.
+Exercez votre mise à jour avec &lsquo;hugo server -D&rsquo; désactivé via le cmd.</p>
+<p>Puis clic droit -&gt; GitBash here. Voici la suite de commande :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">git status
+git add .  
+git commit -m <span style="color:#e6db74">&#34;nomdelamiseajour&#34;</span>
+git push -u origin master ou git push -f origin master  
+</code></pre></div><p>Normalement votre site se met à jour directement via le dépôt Github.</p>
+<p>Pensez à vérifier de temps en temps sur netlify, que les mises à jour soient bien publiées, il peut-y avoir des surprises !</p>
+</p>
+    </div>
+    <div class="card bg-dark text-white hoverable p-3 m-3" >
+      
+<div class="">
+  <a name ="Imprimer" class="card-link text-warning" href="javascript:if(window.print)window.print()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-printer"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg></a>
+  <a name="Télécharger" class="card-link text-warning" href="/pdf/Cr%c3%a9er%20un%20site%20internet%20statique%20en%202020.pdf" target="_blank" rel="noopener noreferrer" download><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></a>
+</div>
+    </div>
+    <div class="card bg-dark text-white hoverable p-3 m-3" >
+       
+            <nav class="">
+        <a class="text-info float-left" href="/posts/les-acteurs-de-demain/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><polyline points="11 17 6 12 11 7"></polyline><polyline points="18 17 13 12 18 7"></polyline></svg> 
+            Les acteurs de demain
+          </a>
+        <a class="text-info float-right" href="/posts/legion-etrangere-rapide-tour-du-proprietaire/">
+            Légion Etrangère, rapide tour du propriétaire
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><polyline points="13 17 18 12 13 7"></polyline><polyline points="6 17 11 12 6 7"></polyline></svg>
+          </a>
+      </nav>
+    </div>
+    <div class="card bg-dark text-white hoverable p-3 m-3" >
+      <section id="comments">
+
+  <div id="graphcomment"></div>
+  <script type="text/javascript">
+  
+     
+  
+    
+    window.gc_params = {
+      graphcomment_id: 'subversive-eu',
+  
+      
+      fixed_header_height: 0,
+    };
+  
+     
+  
+    
+    (function() {
+      var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+      gc.src = 'https://graphcomment.com/js/integration.js?' + Math.round(Math.random() * 1e8);
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+    })();
+  
+  </script>
+</section>
+    </div>
+</div>
+
+</body>
+<footer>
+    <div class="footer-copyright text-center py-3 text-white">
+      Copyright © 2020 subversive.eu
+    </div>
+
+<script src="/js/script.js"></script>
+  </footer></html>
