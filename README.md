@@ -7,7 +7,7 @@
 ### v.00.4
 
 - Barre de partage
-- Optimissation de l'architecture
+- Optimisation de l'architecture
 
 ### v.00.3
 
