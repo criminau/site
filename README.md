@@ -4,6 +4,11 @@
 
 ## Realeases
 
+### v.00.5
+
+- Nouvelle Intégration
+- Suppression espace commentaire
+
 ### v.00.4
 
 - Barre de partage
