@@ -6,6 +6,16 @@
 
 ### v.00.5
 
+- Dégrader SEO
+- Retirer barre de partage
+- Retirer robots
+- Modification du menu
+- Table des matières
+- Lecture optimisée
+- Rendu style optimisé
+
+### v.00.5
+
 - Nouvelle Intégration
 - Suppression espace commentaire
 

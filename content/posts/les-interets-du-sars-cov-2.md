@@ -5,7 +5,8 @@ tags: []
 categories:
   - Démocratie
 date: 2020-08-02 18:00:00
----
+------
+
 ## Introduction
 
 Nous sommes le 02 Août, le virus SArs-cov-2 responsable de la maladie covid19 (maladie infectieuse) ne semble toujours pas stoppé. Tous les pays de l'hémisphère nord ont passé leur pic respectif. La première particularité est la diversité des chiffres selon les pays, quelque chose d’affolant que tout le monde semble oublier. S’en suit une explosion de la folie et une confusion générale.
@@ -105,4 +106,4 @@ En Chine, il y aura plus de vie sauvée de la pollution que de mort du covid-19.
 [Différente souche du virus en Iran](https://www.naturalnews.com/2020-02-25-iranian-strain-coronavirus-morphed-version-wuhan.html)  
 [Virus artificiel](https://www.biorxiv.org/content/10.1101/2020.01.30.927871v1.full.pdf)  
 [EuroMOMO](http://euromomo.eu)  
-[Virus artificiel](https://youtu.be/Gdd7dtDaYmM)  
+[Virus artificiel](https://youtu.be/Gdd7dtDaYmM)

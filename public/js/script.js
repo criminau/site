@@ -17,7 +17,3 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-// Copy to clipboard Url of page. Share Sidebar. 
-function copyshare() {
-  prompt('Presse Ctrl + C, puis Entrée pour copier dans le presse-papier', window.location.href)
-}

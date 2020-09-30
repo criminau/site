@@ -1,14 +1,15 @@
 {{ define "main" }}
 <div class="container">
-    <div id="" class="hoverable p-3 jumbotron text-center bg-dark text-white">
-      <h1>{{ .Title }}</h1>
-      <p class="font-125 text-justify">{{ .Site.Params.homeText | markdownify }}</p>
+  <div class="page-classic">
+    <h1 class="text-white text-center">Subversive</h1>
+    <p class="text-courier text-justify text-white">
+      {{ .Site.Params.homeText | markdownify }}
+    </p>
+      {{ range first .Site.Params.paginate (where (where .Site.Pages ".Section" "posts") "Kind" "page") }}
+    <div class="carte-preview text-courier text-justify text-white">
+      {{ partial "preview.html" . }}
     </div>
-    {{ range first .Site.Params.paginate (where (where .Site.Pages ".Section" "posts") "Kind" "page") }}
-      <div id="" class="hoverable p-3 m-3 card bg-dark text-white">
-        {{ partial "preview.html" . }}
-      </div>
-    {{ end }}
-    
+      {{ end }}
+
 </div>
 {{ end }}

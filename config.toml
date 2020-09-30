@@ -17,34 +17,3 @@ title = "Subversive"
   ChangeFreq = "daily"
   Priority = "1"
 
-[[params.nav]]
-  identifier = "about"
-  name = "A propos"
-  icon = "user"
-  url = "/about/"
-  weight = 3
-  color = "text-warning"
-
-[[params.nav]]
-  identifier = "categories"
-  name = "Category"
-  icon = "tag"
-  url = "/categories/"
-  weight = 3
-  color = "text-success"
-
-[[params.nav]]
-  identifier = "archives"
-  name = "Archives"
-  icon = "archive"
-  url = "/archives/"
-  weight = 3
-  color = "text-white"
-
-[[params.navd]]
-  identifier = ""
-  name = "subversive.eu"
-  icon = "fas fa-archive fa-lg"
-  url = ""
-  weight = 3
-  color = "text-white"

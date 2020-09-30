@@ -1,26 +1,25 @@
 {{ define "main" }}
 <!-- Affiche les posts selon la cétegories dans l'url.-->
-<h1 class="text-white font-125 text-center py-2">{{ .Title }}</h1>
-{{ range .Data.Pages }}
-<div class="row">
-    <div class="col-10 container">
-        <p class="font-125 text-justify text-align-left text-white">{{ .Date | dateFormat "2" }}&nbsp;{{ .Date | dateFormat "Jan" }}&nbsp;{{ .Date | dateFormat "2006"}}&nbsp;-&nbsp;<a class="text-white" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a> </p>
-    </div>    
+<div class="container">
+  <div class="page-classic">
+    <h1 class="text-white">{{ .Title }}</h1>
+    {{ range .Data.Pages }}
+    <p class="text-courier text-white">{{ .Date | dateFormat "2" }}&nbsp;{{ .Date | dateFormat "Jan" }}&nbsp;{{ .Date | dateFormat "2006"}}&nbsp;-&nbsp;<a class="text-white article-link-simple" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a> </p>
+    {{ end }}
+  </div>
 </div>
-{{ end }}
 <!-- Pagination simple-->
 {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
-<ul class="text-white pagination justify-content-center">
-  {{ if .Paginator.HasPrev }}
-    <li class="page-item ">
-      <a class="page-link bg-light text-dark" href="{{ .Permalink }}page/{{ .Paginator.Prev.PageNumber }}/">&larr; Précédent</a>
-    </li>
-  {{ end }}
-  {{ if .Paginator.HasNext }}
-    <li class="page-item">
-      <a class="page-link bg-light text-dark" href="{{ .Permalink }}page/{{ .Paginator.Next.PageNumber }}/">Suivant &rarr;</a>
-    </li>
-  {{ end }}
-</ul>
+{{ if .Paginator.HasPrev }}
+<div class="pagination-item row">
+    <a class="pagination-link bg-light text-dark text-courier" href="{{ .Permalink }}page/{{ .Paginator.Prev.PageNumber }}/">Précédent</a>
+</div>
 {{ end }}
+{{ if .Paginator.HasNext }}
+<div class="pagination-item row">
+    <a class="pagination-link bg-light text-dark text-courier" href="{{ .Permalink }}page/{{ .Paginator.Next.PageNumber }}/">Suivant</a>
+</div>
+{{ end }}
+{{ end }}
+</div>
 {{ end }}

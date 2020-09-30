@@ -1,30 +1,29 @@
-<div class=" pt-3 pt-md-3 pt-xl-3">
-  <!-- Date + Catégorie-->
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>&nbsp;{{ .Lastmod.Format ( .Site.Params.dateformat | default "2 Jan 2006") }}
+<!-- Date + Catégorie-->
+<div class="div-carte-preview">
+{{ .Lastmod.Format ( .Site.Params.dateformat | default "2 Jan 2006") }}
     {{ if .Params.categories }}
-      &nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>&nbsp;
-      {{ range .Params.categories }}
-        <a rel="noopener noreferrer" class ="text-success font-weight-bold h5" href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}/">{{ . }}</a>&nbsp;
-      {{ end }}
+    {{ range .Params.categories }}
+<a rel="noopener noreferrer" class ="text-success" href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+    {{ end }}
     {{ end }}
 </div>
-<div class="card-title pt-3 pt-md-3 pt-xl-3">
+<div class="div-carte-preview">
   <!-- Titre -->
-  <a href="{{ .Permalink }}">
-    <h2 class="text-info">{{ .Title }}</h2>
-</a>
+  <a rel="noopener noreferrer" class="text-info no-deco" href="{{ .Permalink }}">
+    <h2>{{ .Title }}</h2>
+  </a>
 </div>
 {{ if .Truncated }}
-<p class="card-body text-justify pt-3 pt-md-3 pt-xl-3">
+<p class="div-carte-preview">
   <!-- Post-introduction-->
 {{ .Summary }}
 </p>
-<p class="card-body">
+<p class="div-carte-preview">
   <!-- link read more-->
-  <a class="" rel="noopener noreferrer" href="{{ .Permalink }}" class=""><button type="button" class="btn btn-secondary">Lire l'article</button></a>
+  <a class="" rel="noopener noreferrer" href="{{ .Permalink }}"><button type="button" class="btn-lire-article">Lire l'article</button></a>
 </p>
 {{ end }}
-<div class="pt-3 pt-md-3 pt-xl-3">
+<div class="div-carte-preview">
   <!-- postmeta-->
   {{ partial "postmeta.html" . }}
 </div>

@@ -31,7 +31,21 @@
   </url>
   
   <url>
+    <loc>https://subversive.eu/apropos/apropos/</loc>
+    <lastmod>2020-08-08T14:39:04+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  
+  <url>
     <loc>https://subversive.eu/about/</loc>
+    <lastmod>2020-08-08T14:39:04+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/apropos/</loc>
     <lastmod>2020-08-08T14:39:04+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>

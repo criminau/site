@@ -1,17 +1,21 @@
 {{ define "main" }}
+<aside class="toc no-deco">
+  <h3 class="text-white text-courier text-center">Table des Matières</h3>
+  {{ .TableOfContents }}
+</aside>
 <div class="container">
-    <div id="" class="hoverable p-3 jumbotron bg-dark text-white text-justify">
-      <h1 class="text-center">{{ .Title }}</h1>
-      <p class="font-125 text-justify">{{ .Content }}</p>
-    </div>
-    <div class="card bg-dark text-white hoverable p-3 m-3" >
+  <div class="page-classic text-justify">
+    <div class="non-mobile-lecture">
+    <h1 class="text-white text-courier text-center">{{ .Title }}</h1>
+
+      <p class="texte-size">{{ .Content }}</p>
+    <div class="bg-dark carte-nav-post">
       {{ partial "postmeta.html" .}}
     </div>
-    <div class="card bg-dark text-white hoverable p-3 m-3" >
+    <div class="bg-dark carte-nav-post">
       {{ partial "nav-posts.html" .}}
     </div>
-    <div class="card bg-dark text-white hoverable p-3 m-3" >
-      {{ partial "comments.html" .}}
-    </div>
+  </div>
+  </div>
 </div>
 {{ end }}
