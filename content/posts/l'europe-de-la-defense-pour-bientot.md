@@ -5,12 +5,10 @@ tags: []
 categories:
   - Géopolitique
 date: 2020-02-26 18:00:00
--------
-
-## Introduction
+---
 
 Mr Maas a annoncé qu’il travaillait étroitement avec son homologue Mr Le Drian, afin de présenter pour le second trimestre 2020, lors de la présidence allemande, un Conseil Européen de Sécurité. 
-<!-- more -->
+<!--more-->
 
 ## Pas un peu tard ?
 

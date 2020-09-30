@@ -5,9 +5,7 @@ tags: []
 categories:
   - Géopolitique
 date: 2020-03-12 18:00:00
--------
-
-## Introduction
+---
 
 Leur nombre a explosé après 2008, face à la faillite des banques riches, malgré une baisse du brut, les fonds souverain ont la côte. Ils gèrent toujours plus de cash. Le premier fut français en 1816, la Caisse des Dépôts et Consignation (CDC), qui gère plus de 30 milliards €. En 2008, la France en a créé un nouveau, le FSI ( Fonds Stratégique d’Investissement ), fermé en 2013, remplacé par BpiFrance fin 2012, doté de 19 Milliards €. 
 <!-- more -->

@@ -5,13 +5,12 @@ tags: []
 categories:
   - Internet
 date: 2020-03-06 18:00:00
-------
-
-## Rappel
+---
 
 Méthode utilisée pour ce site.  
 La création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.
 
+<!--more-->
 ### A télécharger et installer
 
 [7-zip](https://www.7-zip.org/) - Traitement de dossier -  

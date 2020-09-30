@@ -5,12 +5,10 @@ tags: []
 categories:
   - Géopolitique
 date: 2020-06-30 18:00:00
-------
-
-## Introduction
+---
 
 Cet article ne mettra pas en cause l'inflation dans la chute d'une civilisation, mais essaiera de collaborer le fait qu'elle soit là avant la décadence. Qu'elle soit la cause ou bien une conséquence. Ainsi nous ferons un détour historique assez flou, nous étudierons l'Histoire, analyserons les raisons des chutes et pour finir nous reviendrons dans l'actualité.
-<!-- more -->
+<!--more-->
 
 De par l'histoire, l'inflation est un processus de hausse cumulative et auto-entretenue du niveau général des prix. Il lui faut une multitude de paramètres, des variables de longue durée pour évoluer. Voyons cela.
  
@@ -168,9 +166,9 @@ Il semble essentiel pour le monde de demain d'être une puissance régionale afi
 
 ## Conclusion
 
-Je ne pense pas que l'universalité soit d'actualité ?. Personne ne peut aller contre la foi, il n'y a rien de plus fort. En réalité il serait vous mentir que la réponse a l'article sera formulé ici. Car il y a une différence d'échelle, en effet l'inflation reflète plus l'échelle d'un peuple, d'une zone économique particulière, alors qu'une civilisation traite d'une plus grande superficie et s'observe de manière plus large.
+Je ne pense pas que l'universalité soit d'actualité ?. Personne ne peut aller contre la foi, il n'y a rien de plus fort. En réalité il serait vous mentir que la réponse a l'article sera formulé ici. Car il y a une différence d'échelle, en effet l'inflation reflète plus l'échelle d'un peuple, d'une zone économique particulière, alors qu'une civilisation traite d'une plus grande superficie et s'observe de manière plus large.  
  
-Ce que j'observe c'est le phénomène intrinsèquement lié entre inflation, modernité et chute de civilisation. Même si bien que je ne rattache pas l'inflation dans une chute de civilisation. Je considère alors que la richesse (par la modernité) entraîne la déculturation. Celle-ci par la richesse, par le commerce, la prospérité, par la technologie, l'avidité et la connaissance, entraîne une forme de laïcité civilisationnelle. Ainsi l'Histoire tourne à partir d'un certain seuil, lorsque l'écart est trop grand, quand la religion n'est plus le pilier essentiel de la civilisation. Mais cela ne signifie pas la fin immédiate et encore moins la fin totale.
+Ce que j'observe c'est le phénomène intrinsèquement lié entre inflation, modernité et chute de civilisation. Même si bien que je ne rattache pas l'inflation dans une chute de civilisation. Je considère alors que la richesse (par la modernité) entraîne la déculturation. Celle-ci par la richesse, par le commerce, la prospérité, par la technologie, l'avidité et la connaissance, entraîne une forme de laïcité civilisationnelle. Ainsi l'Histoire tourne à partir d'un certain seuil, lorsque l'écart est trop grand, quand la religion n'est plus le pilier essentiel de la civilisation. Mais cela ne signifie pas la fin immédiate et encore moins la fin totale.  
  
 Pour cela il faut la destruction totale et l'assassinat des peuples.
  

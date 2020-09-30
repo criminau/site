@@ -4,12 +4,10 @@ author: subversive.eu
 categories:
   - Energie
 date: 2019-11-09 18:00:00
-------
-
-## Introduction
+---
   
 Commençons par un petit rappel, EDF, Electricité De France, deuxième productrice d’électricité de la planète qui appartient a plus de 70% à l’Etat français va subir une restructuration. Tous les médias nous présentent la nouvelle comme une bonne nouvelle, une renationalisation, mais vous allez découvrir en réalité une bien belle mascarade.
-<!-- more -->
+<!--more-->
 
 Voyons les faits : Ne croyait pas qu'EDF est une entreprise comme les autres, c'est avant tout une multinationale d'une puissance colossale, elle est présente sur tous les continents de la planète avec ses filiales toutes aussi imposantes les unes que les autres. En Inde, via des parcs éoliens et solaires, en Belgique avec ses réacteurs nucléaires, de même en Angleterre, en Chine, Brésil, bref partout.
 

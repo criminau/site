@@ -5,14 +5,13 @@ tags: []
 categories:
   - Histoire
 date: 2020-04-24 18:00:00
-------
-
-## Introduction
+---
 
 Occitanie, Occitània. Béziers fut la première ville de France. La plus vieille donc.  
 Vient du Diocèse de Vienne de l’Empire romain en - 300 av Jc. 
 
 En 400 ap Jc, il existe 7 provinces, le Diocèse des Septs Provinces (en latin Septem Provinciae).
+<!--more-->
 
 ## Unification possible
 

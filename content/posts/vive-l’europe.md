@@ -5,12 +5,10 @@ tags: []
 categories:
   - Géopolitique
 date: 2019-11-25 18:00:00
-------
-
-## Introduction
+---
 
 Alors que le monde se divise de plus en plus, qu’il se dessine sous des pseudos « corporations », la « Corporation Europe » se porte bien.
-<!-- more -->
+<!--more-->
 Préserver les intérêts français est très dur, surtout seul, dans un monde en guerre permanente pour les ressources, les technologies, les richesses. Mais unis, avec l’Europe poussée par bientôt 27 pays, chacun à leur poste, donc 3 très puissants (Allemagne, France, Italie), nous sommes prêts à tenir, soudés dernière cette corporation Europe, quand celle chinoise devient de plus en plus agressive, celle États-Unienne toujours aussi forte. Mais que vaut l’Europe ?
 
 ## Economique

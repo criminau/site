@@ -6,12 +6,10 @@ tags: []
 categories:
   - Démocratie
 date: 2019-11-09 18:01:00
-------
-
-## Introduction
+---
 
 Vous avez dit Démocratie ? Ceux donc qui décident pour leur communauté. Alors que l’Europe, vient de demander à la France d’ouvrir à la concurrence son parc de barrages hydrauliques, la démocratie n’est pas remise en question. Mais qui est cette Europe qui nous impose des objectifs, des politiques économiques ?
-<!-- more -->
+<!--more-->
 
 ## Traités Européens
 

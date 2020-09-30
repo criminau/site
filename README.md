@@ -4,7 +4,11 @@
 
 ## Realeases
 
-### v.00.5
+### v.00.7
+
+- Corrections mineures
+
+### v.00.6
 
 - Dégrader SEO
 - Retirer barre de partage

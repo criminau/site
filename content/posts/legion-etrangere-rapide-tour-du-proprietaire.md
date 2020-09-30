@@ -5,9 +5,7 @@ tags: []
 categories:
   - Géopolitique
 date: 2020-02-28 18:00:00
--------
-
-## Introduction
+---
 
 La Légion Etrangère est une armée privée de l'État français. Je vous propose un petit tour rapide de géopolitique. Depuis que la guerre existe, tous se posent la question : Comment gérer le courage et le moral de nos troupes ? 
 <!-- more -->

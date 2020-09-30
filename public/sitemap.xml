@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://subversive.eu/categories/</loc>
+    <lastmod>2020-09-29T18:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/posts/conseiller-en-relations-publiques/</loc>
+    <lastmod>2020-09-29T18:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/categories/d%C3%A9mocratie/</loc>
+    <lastmod>2020-09-29T18:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/posts/</loc>
+    <lastmod>2020-09-29T18:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/</loc>
+    <lastmod>2020-09-29T18:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  
+  <url>
     <loc>https://subversive.eu/archives/archives/</loc>
     <lastmod>2020-08-08T15:00:10+02:00</lastmod>
     <changefreq>daily</changefreq>
@@ -11,13 +46,6 @@
   
   <url>
     <loc>https://subversive.eu/archives/</loc>
-    <lastmod>2020-08-08T15:00:10+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  
-  <url>
-    <loc>https://subversive.eu/</loc>
     <lastmod>2020-08-08T15:00:10+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
@@ -52,28 +80,7 @@
   </url>
   
   <url>
-    <loc>https://subversive.eu/categories/</loc>
-    <lastmod>2020-08-02T18:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  
-  <url>
-    <loc>https://subversive.eu/categories/d%C3%A9mocratie/</loc>
-    <lastmod>2020-08-02T18:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  
-  <url>
     <loc>https://subversive.eu/posts/les-interets-du-sars-cov-2/</loc>
-    <lastmod>2020-08-02T18:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  
-  <url>
-    <loc>https://subversive.eu/posts/</loc>
     <lastmod>2020-08-02T18:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>

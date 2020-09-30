@@ -5,13 +5,11 @@ tags: []
 categories:
   - Géopolitique
 date: 2020-01-15 18:00:00
-------
-
-## Introduction
+---
 
 Alors que l’Histoire tourne, les Hommes de la Terre continuent d’en écrire une toujours aussi sombre.  
 Les Hommes de la Terre passent leur temps a s’entretuer, s’accaparer du pouvoir et de la richesse matérielle. Un esprit de compétition règne dès notre plus jeune âge. Il aura fallu connaître la Seconde Guerre Mondiale pour qu’enfin certains dirigeants notamment Européens se disent qu’il ne faudrait plus avoir de guerre sur notre continent.
-<!-- more -->
+<!--more-->
 
 ## La guerre
 

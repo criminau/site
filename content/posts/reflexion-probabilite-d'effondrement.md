@@ -5,12 +5,10 @@ tags: []
 categories:
   - Liberté
 date: 2020-02-05 18:00:00
-------
-
-## Introduction
+---
 
 Comment définir un effondrement ? Celui d’une civilisation, c’est cela donc il sera question ici. On peut le traduire par une survie des individus, qui ont fuis une région. Une éradication de leur culture et tradition, la langue, les rites et croyances. Leur disparition totale. 
-<!-- more -->
+<!--more-->
 
 ## Causes
 

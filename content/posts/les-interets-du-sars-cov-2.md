@@ -5,12 +5,11 @@ tags: []
 categories:
   - Démocratie
 date: 2020-08-02 18:00:00
-------
-
-## Introduction
+---
 
 Nous sommes le 02 Août, le virus SArs-cov-2 responsable de la maladie covid19 (maladie infectieuse) ne semble toujours pas stoppé. Tous les pays de l'hémisphère nord ont passé leur pic respectif. La première particularité est la diversité des chiffres selon les pays, quelque chose d’affolant que tout le monde semble oublier. S’en suit une explosion de la folie et une confusion générale.
-<!-- more -->
+<!--more-->
+
 ## Diversité entre pays
 
 Entre le Japon et la Nouvelle-Zélande, il y a très peu de contaminé et très de peu de mortalité. Cependant les techniques pour protéger la population ne sont radicalement pas les mêmes, d’un côté le confinement total et strict pour tous dans l’hémisphère sud et de l’autre rien, très peu de mesure, une forte densité mais pas de covid-19. Sachant que le Japon a une population très vieille. Ce week-end la hausse des cas au Japon provient des bases américaines du secteur.

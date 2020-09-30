@@ -5,10 +5,7 @@ tags: []
 categories:
   - Géopolitique
 date: 2020-05-04 18:00:00
-------
-
-
-## Introduction
+---
 
 Données prise le 24/04/2020 21:30  
 Sources : covinfo.fr + IHU Marseille + Google Data.  
@@ -18,7 +15,7 @@ Monde :
 / Absence  
 0.0033 % Contaminé  
 6.76 % de mortalité  
-<!-- more -->
+<!--more-->
 
 France : 184 140 / 22 150  
 / Absence  
