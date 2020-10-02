@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Internet on subversive.eu</title>
-    <link>http://www.subversive.eu/categories/internet/</link>
+    <link>https://subversive.eu/categories/internet/</link>
     <description>Recent content in Internet on subversive.eu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <lastBuildDate>Fri, 06 Mar 2020 18:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.subversive.eu/categories/internet/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://subversive.eu/categories/internet/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Créer un site internet statique en 2020</title>
-      <link>http://www.subversive.eu/posts/creer-un-site-internet-statique-en-2020/</link>
+      <link>https://subversive.eu/posts/creer-un-site-internet-statique-en-2020/</link>
       <pubDate>Fri, 06 Mar 2020 18:00:00 +0000</pubDate>
       
-      <guid>http://www.subversive.eu/posts/creer-un-site-internet-statique-en-2020/</guid>
+      <guid>https://subversive.eu/posts/creer-un-site-internet-statique-en-2020/</guid>
       <description>&lt;p&gt;Méthode utilisée pour ce site.&lt;br&gt;
 La création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Créer son blog ou son site internet</title>
-      <link>http://www.subversive.eu/posts/creer-son-blog-ou-son-site-internet/</link>
+      <link>https://subversive.eu/posts/creer-son-blog-ou-son-site-internet/</link>
       <pubDate>Wed, 11 Dec 2019 18:00:00 +0000</pubDate>
       
-      <guid>http://www.subversive.eu/posts/creer-son-blog-ou-son-site-internet/</guid>
+      <guid>https://subversive.eu/posts/creer-son-blog-ou-son-site-internet/</guid>
       <description>&lt;p&gt;Ouvrir un site internet sur le domaine public vous engage à respecter les lois en vigueur sur le territoire de votre résidence. Si vous ne souhaitez pas subir le droit en vigueur, vous pouvez vous orienter vers un site caché, .onion.&lt;br&gt;
 J’ai utilisé cette méthode, je souhaitai donc vous la partager.&lt;br&gt;
 Elle n’est pas recommandable pour un site à but lucratif car il s’agit ici d’un CMS statique.&lt;br&gt;
