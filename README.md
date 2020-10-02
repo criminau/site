@@ -11,3 +11,4 @@
 - Render-image
 - Render-videos
 - Lighthouse 100%
+- Page 404
