@@ -237,3 +237,5 @@ params:
       render-image.html  
       render-link.html  
     
+    <!-- Generator -->
+{{- hugo.Generator }}

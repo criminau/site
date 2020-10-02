@@ -53,19 +53,6 @@ menu:
     - name: A propos
       url: /apropos/
       weight: 15
-# Menu Console Theme
-  navlinks:
-    - name: archives/
-      url: /archives/
-      weight: 5
-    - name: categories/
-      url: /categories/
-      weight: 10 
-    - name: apropos/
-      url: /apropos/
-      weight: 15
-
-
 
 taxonomies:
    category: categories

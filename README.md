@@ -4,7 +4,11 @@
 
 ## Realeases
 
-### v.00.9
+### v.01.0
 
-- Sélection par catégorie, en bas de l'article
-- Console theme en test
+- Css simplifiée
+- Page A propos modifiée
+- Barre de partage design
+- En-tête optimisée
+- Thème PaperMod intégré
+- Hugo version 0.75.1

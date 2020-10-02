@@ -39,13 +39,14 @@ Les formats PDF sont les plus à jour et propre .
 #### Thème(s)
 
 * [PaperMod](https://github.com/adityatelange/hugo-PaperMod/)
-* [Console](https://github.com/mrmierzejewski/hugo-theme-console/)
 
 ### Droits
 
 Application complète du [Règlement général sur la protection des données](https://gohugo.io/about/hugo-and-gdpr/) .
 
 L'ensemble de l'oeuvre (l'intégralité du contenu) est sous [Creative Commons License](https://creativecommons.org/licenses/by-nc/4.0/deed.fr) .
+
+Aucune action pour suivre les visiteurs.
 
 
 
