@@ -1,7 +1,8 @@
 ---
 title: Alternatives open source
 author: subversive.eu
-tags: []
+ShowToc: true
+draft: false
 categories:
   - Informatique
 date: 2019-12-18 18:00:00
@@ -13,7 +14,7 @@ Avant de commencer il faut préciser qu’il est assez difficile d’évoluer vi
 
 ## La base
 
-Commençons par la base, les sytèmes d'exploitation (OS) open source : Un rapide tour sur la toile pour obtenir une liste brève. On a testé [PureOS](https://pureos.net/) et [Fedora](https://getfedora.org/fr/). PureOs est assez complexe à installer, peu de personnes l’utilise il y a donc peu de tutoriel. Fedora possède une communauté plus dense, donc est plus ouvert aux novices. Il faut maîtriser le langage des terminaux ainsi que l’anglais, le français est disponible mais les terminaux restent en anglais. Sur Linux, je vous recommande d’utiliser [Snapcraft](https://snapcraft.io/) peu importe votre OS, a moins bien sur les plus utilisés du grand public. Snapcraft a son propre terminal qui vous permet d’installer rapidement et assez facilement leurs applications distribuées. Comme [ProtonVPN](https://protonvpn.com/) qui vous offre un VPN gratuit, c’est déjà ça ! Pour les fans de Windows10, ou les joueurs il existe ça : [W10Privacy](https://www.winprivacy.de/english-home/).
+Commençons par la base, les systèmes d'exploitation (OS) open source : Un rapide tour sur la toile pour obtenir une liste brève. On a testé [PureOS](https://pureos.net/) et [Fedora](https://getfedora.org/fr/). PureOs est assez complexe à installer, peu de personnes l’utilise il y a donc peu de tutoriel. Fedora possède une communauté plus dense, donc est plus ouvert aux novices. Il faut maîtriser le langage des terminaux ainsi que l’anglais, le français est disponible mais les terminaux restent en anglais. Sur Linux, je vous recommande d’utiliser [Snapcraft](https://snapcraft.io/) peu importe votre OS, a moins bien sur les plus utilisés du grand public. Snapcraft a son propre terminal qui vous permet d’installer rapidement et assez facilement leurs applications distribuées. Comme [ProtonVPN](https://protonvpn.com/) qui vous offre un VPN gratuit, c’est déjà ça ! Pour les fans de Windows10, ou les joueurs il existe ça : [W10Privacy](https://www.winprivacy.de/english-home/).
 
 ## Communication
 
@@ -25,7 +26,7 @@ Conseil numéro un sur mobile, quittez Android et iOS. Il existe un dépôt comm
 
 ## Sécurité
 
-Pas de secret, suite aux révélations concernant l’espionnage des deux grands leader du marché de la sécurité, inutile de vous dire que les outils de défense sur le marché sont potentiellement inefficace. La clé est ailleurs, il ne faut pas faire n’importe quoi, garder tout toujours à jour, en open source comme en classique, ses OS et ses outils. N’importe quoi signifie de ne pas aller sur des sites qui grouillent de pub, ne pas ouvrir les fenêtres. Lire les objets et les expéditeurs des mails que l’on reçoit. Si suspect jetez les. Ne pas donner son adresse email à n’importe qui et n’importe où. Lors des téléchargements vérifiez le fournisseur. Et si vous faites preuve de bon sens, et que vous n’avez rien à vous reprocher, tout se passera bien.  
+Pas de secret, suite aux révélations concernant l’espionnage des deux grands leader du marché de la sécurité, inutile de vous dire que les outils de défense sur le marché sont potentiellement inefficace. La clé est ailleurs, il ne faut pas faire n’importe quoi, garder tout toujours à jour, en open source comme en classique, ses OS et ses outils. N’importe quoi signifie de ne pas aller sur des sites qui grouillent de pub, ne pas ouvrir les fenêtres. Lire les objets et les expéditeurs des mails que l’on reçoit. Si suspect jetez les. Ne pas donner son adresse e-mail à n’importe qui et n’importe où. Lors des téléchargements vérifiez le fournisseur. Et si vous faites preuve de bon sens, et que vous n’avez rien à vous reprocher, tout se passera bien.  
 Petit logiciel bien utile et rapide [Adwcleaner](https://fr.malwarebytes.com/adwcleaner/), malheureusement racheté. Vous avez aussi les bloqueurs de pubs comme µBlockOrigin, qui ne fonctionne plus trop depuis que Google a mis à jour sa politique d’hébergement des extensions. Faut patienter. Il existe aussi Désactivation de Google Analytics, Unblock Youtube qui permet d’éviter la censure. Si vous avez la sensation que votre ordinateur est mal en point, niveaux malware par exemple, allez faire un tour chez [Nicolas Coolman](https://www.nicolascoolman.com/fr/en/), il y a tout pour un petit nettoyage.
 
 ## Sauvegarde 

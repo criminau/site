@@ -1,7 +1,8 @@
 ---
 title: Créer un site internet statique en 2020
 author: subversive.eu
-tags: []
+ShowToc: true
+draft: false
 categories:
   - Internet
 date: 2020-03-06 18:00:00

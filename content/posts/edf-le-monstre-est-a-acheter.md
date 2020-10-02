@@ -1,6 +1,8 @@
 ---
 title: EDF le monstre est à acheter
 author: subversive.eu
+ShowToc: true
+draft: false
 categories:
   - Energie
 date: 2019-11-09 18:00:00

@@ -1,7 +1,8 @@
 ---
 title: Réflexion probabilité d'effondrement
 author: subversive.eu
-tags: []
+ShowToc: true
+draft: false
 categories:
   - Liberté
 date: 2020-02-05 18:00:00

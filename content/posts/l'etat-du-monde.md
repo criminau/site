@@ -1,7 +1,8 @@
 ---
 title: L'état du Monde
 author: subversive.eu
-tags: []
+ShowToc: true
+draft: false
 categories:
   - Géopolitique
 date: 2020-01-15 18:00:00

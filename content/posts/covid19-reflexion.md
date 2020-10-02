@@ -1,7 +1,8 @@
 ---
 title: Covid19 Réflexion
 author: subversive.eu
-tags: []
+ShowToc: true
+draft: false
 categories:
   - Géopolitique
 date: 2020-05-04 18:00:00

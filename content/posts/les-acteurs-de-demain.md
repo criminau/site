@@ -1,7 +1,8 @@
 ---
 title: Les acteurs de demain
 author: subversive.eu
-tags: []
+ShowToc: true
+draft: false
 categories:
   - Géopolitique
 date: 2020-03-12 18:00:00

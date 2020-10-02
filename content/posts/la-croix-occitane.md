@@ -1,7 +1,8 @@
 ---
 title: La croix occitane (crotz occitana)
 author: subversive.eu
-tags: []
+ShowToc: true
+draft: false
 categories:
   - Histoire
 date: 2020-04-24 18:00:00

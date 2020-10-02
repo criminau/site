@@ -1,16 +1,14 @@
 ---
 title: "Conseiller en relations publiques"
 author: subversive.eu
+ShowToc: true
 draft: false
-toc: true
-sitemap_exclude: false
-tags: []
 categories:
   - Démocratie
 date: 2020-09-29 18:00:00
 ---
 
-Résumé bref, et précis du métier de conseiller en relations publiques(CRP), un métier indispensable dans les démocraties actuelles.
+Résumé bref, et précis du métier de conseiller en relations publiques (CRP), un métier indispensable dans les démocraties actuelles.
 Suite à la lecture du livre Propaganda de Bernays, l'aperçu et l'appréciation d'une réalité, celle d'un métier sans équivalent, capable de transcender les foules comme les élus.
 <!--more-->
 
@@ -38,7 +36,7 @@ Ensuite il vous faudra penser à bien gérer l'encadrement de votre travail
 
 ### Analyser le problème
 
-* Etudier le produit
+* Étudier le produit
   Le Marché
   La réaction du public au produit
 

@@ -1,15 +1,11 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-author: subversive.eu
+author: "{{- .Params.author | default .Site.Params.author }}"
+ShowToc: true
 draft: false
-toc: true
-sitemap_exclude: false
-tags: []
 categories:
-  -
+ - 
 date: {{ .Date }}
-------
+---
 
-## Introduction
-
-<!-- More -->
+<!--more-->

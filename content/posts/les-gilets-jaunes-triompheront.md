@@ -1,7 +1,8 @@
 ---
 title: Les gilets jaunes triompheront
 author: subversive.eu
-tags: []
+ShowToc: true
+draft: false
 categories:
   - Démocratie
 date: 2019-11-09 18:03:00

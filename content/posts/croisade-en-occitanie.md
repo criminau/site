@@ -1,7 +1,8 @@
 ---
 title: Croisade en Occitanie
 author: subversive.eu
-tags: []
+ShowToc: true
+draft: false
 categories:
   - Histoire
 date: 2020-01-22 18:00:00

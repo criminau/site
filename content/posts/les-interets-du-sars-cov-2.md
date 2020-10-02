@@ -1,7 +1,8 @@
 ---
 title: Les intérêts du sars-cov-2
 author: subversive.eu
-tags: []
+ShowToc: true
+draft: false
 categories:
   - Démocratie
 date: 2020-08-02 18:00:00

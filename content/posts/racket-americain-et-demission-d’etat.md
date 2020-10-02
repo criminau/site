@@ -1,7 +1,8 @@
 ---
 title: Racket américain et démission d’état
 author: subversive.eu
-tags: []
+ShowToc: true
+draft: false
 categories:
   - Géopolitique
 date: 2019-12-06 18:00:00

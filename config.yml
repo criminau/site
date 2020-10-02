@@ -1,0 +1,83 @@
+baseURL: 'http://www.subversive.eu/'
+title: subversive.eu
+author: subversive.eu
+paginate: 5
+languageCode: fr
+DefaultContentLanguage: fr
+enableInlineShortcodes: true
+theme: PaperMod
+
+params:
+  description: 'Subversive est un site accueillant un blog, développant un avis critique de nos sociétés.'
+  ShowReadingTime: true
+  contentTypeName: posts
+  defaultTheme: auto
+  ShowShareButtons: true
+  author: subversive.eu
+  keyword: 'Subversif, Subsersive, Démocratie, Géopolitique, Liberté, Energie, Environnement, Histoire, Informatique, Internet, Blog personnel'
+
+  homeInfoParams:
+    Title: "Bonjour 👋"
+    Content: Bienvenue sur mon blog
+
+  socialIcons:
+    - name: rss
+      url: 'https://subversive.eu/posts/index.xml'
+    - name: github
+      url: 'https://github.com/subversive-eu/site'
+
+markup:
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 1
+
+sitemap:
+  changefreq: dayly
+  filename: sitemap.xml
+  priority: 0.5
+
+menu:
+  main:
+    - name: Archives
+      url: /archives/
+      weight: 5
+    - name: Catégories
+      url: /categories/
+      weight: 10
+#    - name: Catégories
+#      url: /tags/
+#      weight: 15
+    - name: A propos
+      url: /apropos/
+      weight: 15
+
+taxonomies:
+   category: categories
+#  tag: tags
+#  series: series
+
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    anonymizeIP: false
+    disable: false
+    respectDoNotTrack: false
+    useSessionStorage: false
+  instagram:
+    disable: false
+    simple: false
+  twitter:
+    disable: false
+    enableDNT: false
+    simple: false
+  vimeo:
+    disable: false
+    simple: false
+  youtube:
+    disable: false
+    privacyEnhanced: false
+
+
+layout: "archives"
