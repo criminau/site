@@ -4,6 +4,8 @@ author: subversive.eu
 ShowToc: true
 draft: false
 date: 2020-10-01T08:37:55+02:00
+type: myabouttype
+url: "/apropos/"
 ---
 
 ### Auteur :
@@ -37,6 +39,7 @@ Les formats PDF sont les plus à jour et propre .
 #### Thème(s)
 
 * [PaperMod](https://github.com/adityatelange/hugo-PaperMod/)
+* [Console](https://github.com/mrmierzejewski/hugo-theme-console/)
 
 ### Droits
 

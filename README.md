@@ -4,11 +4,7 @@
 
 ## Realeases
 
-### v.00.8
+### v.00.9
 
-- Nouveau thème
-- Article Ebook
-- Render-image
-- Render-videos
-- Lighthouse 100%
-- Page 404
+- Sélection par catégorie, en bas de l'article
+- Console theme en test

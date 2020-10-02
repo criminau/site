@@ -6,11 +6,7 @@
     <description>Recent content on subversive.eu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 29 Sep 2020 18:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://subversive.eu/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 29 Sep 2020 18:00:00 +0000</lastBuildDate><atom:link href="https://subversive.eu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Archive</title>
       <link>https://subversive.eu/archives/</link>
@@ -22,10 +18,10 @@
     
     <item>
       <title>A Propos</title>
-      <link>https://subversive.eu/apropos.html</link>
+      <link>https://subversive.eu/apropos/</link>
       <pubDate>Thu, 01 Oct 2020 08:37:55 +0200</pubDate>
       
-      <guid>https://subversive.eu/apropos.html</guid>
+      <guid>https://subversive.eu/apropos/</guid>
       <description>Auteur : Le site subversive.eu a été développé par une seule personne, dans le but d’offrir un avis très critique de notre environnement social .
 Aujourd’hui il s’oriente vers un blog personnel, touchant de nombreux sujets .
 Subversive en anglais signifie subversif en français. C&amp;rsquo;est à la fois le féminin subversive en français .

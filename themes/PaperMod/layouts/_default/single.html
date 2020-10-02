@@ -50,10 +50,10 @@
   {{- end }}
   <div class="post-content">{{ .Content }}</div>
   <footer class="post-footer">
-    {{- if .Params.tags }}
+    {{- if .Params.categories }}
     <ul class="post-tags">
-      {{- range .Params.tags }}
-      {{- $href := print (absLangURL "tags/") (urlize .) }}
+      {{- range .Params.categories }}
+      {{- $href := print (absLangURL "categories/") (urlize .) }}
       <li><a href="{{ $href }}">{{ . }}</a></li>
       {{- end }}
     </ul>

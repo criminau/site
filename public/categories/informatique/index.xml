@@ -6,11 +6,7 @@
     <description>Recent content in Informatique on subversive.eu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 18 Dec 2019 18:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://subversive.eu/categories/informatique/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 18 Dec 2019 18:00:00 +0000</lastBuildDate><atom:link href="https://subversive.eu/categories/informatique/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alternatives open source</title>
       <link>https://subversive.eu/posts/alternatives-open-source.html</link>

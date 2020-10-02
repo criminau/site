@@ -6,11 +6,7 @@
     <description>Recent content in Internet on subversive.eu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 06 Mar 2020 18:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://subversive.eu/categories/internet/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 06 Mar 2020 18:00:00 +0000</lastBuildDate><atom:link href="https://subversive.eu/categories/internet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Créer un site internet statique en 2020</title>
       <link>https://subversive.eu/posts/creer-un-site-internet-statique-en-2020.html</link>

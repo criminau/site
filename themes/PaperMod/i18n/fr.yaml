@@ -3,3 +3,6 @@
 
 - id: next_page
   translation: "Page Suivante"
+
+- id: toc
+  translation: "Table des matières"
