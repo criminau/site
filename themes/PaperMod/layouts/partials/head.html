@@ -18,9 +18,8 @@
 
 <!--- Style Officiel 2 regroupé -->
 {{- $all := resources.Get "css/style.css" | minify }}
-{{- $stylesheet := slice $all | resources.Concat "css/stylesheet.css" | minify | fingerprint }}
-<link href="{{ $stylesheet.Permalink }}" integrity="{{ $stylesheet.Data.Integrity }}" rel="preload stylesheet"
-    as="style">
+{{- $stylesheet := slice $all | resources.Concat "css/stylesheet.css" | minify }}
+<link href="{{ $stylesheet.Permalink }}" rel="stylesheet">
 
 <!-- Favicons -->
 <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}">
