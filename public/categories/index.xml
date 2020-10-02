@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on subversive.eu</title>
-    <link>https://subversive.eu/categories/</link>
+    <link>https://subversive.eu/categories.html</link>
     <description>Recent content in Categories on subversive.eu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
@@ -13,73 +13,73 @@
     
     <item>
       <title>Démocratie</title>
-      <link>https://subversive.eu/categories/d%C3%A9mocratie/</link>
+      <link>https://subversive.eu/categories/d%C3%A9mocratie.html</link>
       <pubDate>Tue, 29 Sep 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/categories/d%C3%A9mocratie/</guid>
+      <guid>https://subversive.eu/categories/d%C3%A9mocratie.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Géopolitique</title>
-      <link>https://subversive.eu/categories/g%C3%A9opolitique/</link>
+      <link>https://subversive.eu/categories/g%C3%A9opolitique.html</link>
       <pubDate>Tue, 30 Jun 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/categories/g%C3%A9opolitique/</guid>
+      <guid>https://subversive.eu/categories/g%C3%A9opolitique.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Histoire</title>
-      <link>https://subversive.eu/categories/histoire/</link>
+      <link>https://subversive.eu/categories/histoire.html</link>
       <pubDate>Fri, 24 Apr 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/categories/histoire/</guid>
+      <guid>https://subversive.eu/categories/histoire.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Internet</title>
-      <link>https://subversive.eu/categories/internet/</link>
+      <link>https://subversive.eu/categories/internet.html</link>
       <pubDate>Fri, 06 Mar 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/categories/internet/</guid>
+      <guid>https://subversive.eu/categories/internet.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Liberté</title>
-      <link>https://subversive.eu/categories/libert%C3%A9/</link>
+      <link>https://subversive.eu/categories/libert%C3%A9.html</link>
       <pubDate>Wed, 05 Feb 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/categories/libert%C3%A9/</guid>
+      <guid>https://subversive.eu/categories/libert%C3%A9.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Informatique</title>
-      <link>https://subversive.eu/categories/informatique/</link>
+      <link>https://subversive.eu/categories/informatique.html</link>
       <pubDate>Wed, 18 Dec 2019 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/categories/informatique/</guid>
+      <guid>https://subversive.eu/categories/informatique.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Environnement</title>
-      <link>https://subversive.eu/categories/environnement/</link>
+      <link>https://subversive.eu/categories/environnement.html</link>
       <pubDate>Mon, 25 Nov 2019 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/categories/environnement/</guid>
+      <guid>https://subversive.eu/categories/environnement.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Energie</title>
-      <link>https://subversive.eu/categories/energie/</link>
+      <link>https://subversive.eu/categories/energie.html</link>
       <pubDate>Sat, 09 Nov 2019 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/categories/energie/</guid>
+      <guid>https://subversive.eu/categories/energie.html</guid>
       <description></description>
     </item>
     

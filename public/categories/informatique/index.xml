@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Informatique on subversive.eu</title>
-    <link>https://subversive.eu/categories/informatique/</link>
+    <link>https://subversive.eu/categories/informatique.html</link>
     <description>Recent content in Informatique on subversive.eu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Alternatives open source</title>
-      <link>https://subversive.eu/posts/alternatives-open-source/</link>
+      <link>https://subversive.eu/posts/alternatives-open-source.html</link>
       <pubDate>Wed, 18 Dec 2019 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/posts/alternatives-open-source/</guid>
+      <guid>https://subversive.eu/posts/alternatives-open-source.html</guid>
       <description>&lt;p&gt;Destiné à ceux qui souhaitent s’embêter pour fuir la surveillance de masse.&lt;br&gt;
 Avant de commencer il faut préciser qu’il est assez difficile d’évoluer via ses outils différents. Il faut une maîtrise minimale des langages informatiques adaptés.&lt;/p&gt;</description>
     </item>

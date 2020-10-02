@@ -1,4 +1,6 @@
 baseURL: 'https://subversive.eu/'
+relativeURLs: true
+uglyURLs: true
 title: subversive.eu
 author: subversive.eu
 paginate: 5
