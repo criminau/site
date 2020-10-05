@@ -9,8 +9,9 @@ date: 2020-09-29 18:00:00
 ---
 
 Résumé bref, et précis du métier de conseiller en relations publiques (CRP), un métier indispensable dans les démocraties actuelles.
-Suite à la lecture du livre Propaganda de Bernays, l'aperçu et l'appréciation d'une réalité, celle d'un métier sans équivalent, capable de transcender les foules comme les élus.
 <!--more-->
+Suite à la lecture du livre Propaganda de Bernays, l'aperçu et l'appréciation d'une réalité, celle d'un métier sans équivalent, capable de transcender les foules comme les élus.
+
 
 ## Plan de travail
 
@@ -77,5 +78,6 @@ Que votre objectif principal est de traduire la nature même de l'entreprise.
 
 ## Conclusion
 
-Les films soulignent et exagèrent les tendances populaires au lieu de stimuler l'apparition de nouvelles manières de voir et de penser. Le cinéma ne sert que les idées et les faits à la mode. Le cinéma a pour vocation de distraire.  
+Les films soulignent et exagèrent les tendances populaires au lieu de stimuler l'apparition de nouvelles manières de voir et de penser. Le cinéma ne sert que les idées et les faits à la mode. Le cinéma a pour vocation de distraire.
+
 La propagande ne cessera jamais d'exister. Les esprits intelligents doivent comprendre qu'elle leur offre l'outil moderne dont ils doivent se saisir à des fins productives, pour créer de l'ordre à partir du chaos.

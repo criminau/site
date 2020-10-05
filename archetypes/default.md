@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 author: "{{- .Params.author | default .Site.Params.author }}"
-ShowToc: true
+ShowToc: false
 draft: false
 categories:
  - 

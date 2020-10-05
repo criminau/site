@@ -8,8 +8,10 @@ categories:
 date: 2019-12-06 18:00:00
 ---
 
-Le 19 Décembre 2014 l’assemblée générale des actionnaires d'Alstom a adopté l’accord de cession des activités de sa branche Énergie à General Electric (GE). Pourtant ce département du groupe français réunissait des savoir-faire stratégiques pour l'indépendance militaire et énergétique de notre pays. Il paraît donc étonnant que la France ait cédé sans état d’âme cette branche. 
+Le 19 Décembre 2014 l’assemblée générale des actionnaires d'Alstom a adopté l’accord de cession des activités de sa branche Énergie à General Electric (GE).
 <!--more-->
+Pourtant ce département du groupe français réunissait des savoir-faire stratégiques pour l'indépendance militaire et énergétique de notre pays. Il paraît donc étonnant que la France ait cédé sans état d’âme cette branche. 
+
 
 ## Enjeux, Prédisposition et Guerre économique
 

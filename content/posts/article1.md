@@ -10,33 +10,21 @@ fig_width: 6
 fig_height: 4 
 ---
 
-# Sauvegarde
+
 ## Image
-<img src="/media/2018/08/kitten.jpg" alt="Kitten"
-	title="A cute kitten" width="150" height="100" />
-![Kitten](/media/2018/08/kitten.jpg "A cute kitten")
-![Kitten](/media/2018/08/kitten.jpg =150x100)
 
 ![Drag Racing](/media/logo.png "coucou")
-/grandeur nature test
 
 ![](/media/roman300AD.png "roman empire")
 
 ## PostMeta
 
-links
+links :  
 <a name="Télécharger" href="/pdf/{{ .Title }}.pdf" target="_blank" rel="noopener noreferrer" download>télécharger le pdf</a>
 &nbsp;·&nbsp;
 <a name ="Imprimer" href="javascript:if(window.print)window.print()">imprimer</a>
 &nbsp;·&nbsp;
 <a name="Télécharger" href="/epub/{{ .Title }}.epub" target="_blank" rel="noopener noreferrer" download>télécharger format epub</a>
-  
-## head 
-* RSS
-<link rel="alternate" type="application/rss+xml" href="https://subversive.eu/posts/index.xml" title="subversive.eu">
-{{- range .AlternativeOutputFormats -}}
-{{- printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-{{- end -}}
 
 ## Cover for a post
 
@@ -46,10 +34,7 @@ cover = "<absolute image url>"
 
 / Permet d'ajouter une image au post.
 
-## youtube
-
-
-/ dernier test
+## youtube
 
 {{< youtube DWcJFNfaw9c >}}
 

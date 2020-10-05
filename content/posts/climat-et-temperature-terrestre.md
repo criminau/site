@@ -9,8 +9,8 @@ date: 2019-11-25 18:00:00
 ---
 
 La plupart du temps, le noyau de la Terre réchauffe la planète.
-Cependant, l'augmentation des émissions atmosphériques de gaz à effet de serre, auxquels les éruptions volcaniques et les feux de forêt sont fortement associés, ont également contribué à environ 29 % du réchauffement planétaire depuis 1976, avec d'énormes variations annuelles.
 <!--more-->
+Cependant, l'augmentation des émissions atmosphériques de gaz à effet de serre, auxquels les éruptions volcaniques et les feux de forêt sont fortement associés, ont également contribué à environ 29 % du réchauffement planétaire depuis 1976, avec d'énormes variations annuelles.
 
 ## Influence
 

@@ -8,8 +8,9 @@ categories:
 date: 2020-01-09 18:00:00
 ---
  
-L’Histoire fait et est ce que nous sommes Hommes de la Terre. L’Histoire tourne avec le temps, comme notre planète, elle ne s’arrête jamais, quoi qu’il arrive tant que quelqu’un essayera de la lire, elle existera, même si nous ne sommes plus là. L’Histoire telle qu’on la connaît évolue chaque jour en fonction de nos découvertes et de nos réflexions.
+L’Histoire fait et est ce que nous sommes Hommes de la Terre. L’Histoire tourne avec le temps, comme notre planète, elle ne s’arrête jamais, quoi qu’il arrive tant que quelqu’un essayera de la lire, elle existera, même si nous ne sommes plus là.
 <!--more-->
+L’Histoire telle qu’on la connaît évolue chaque jour en fonction de nos découvertes et de nos réflexions.
 
 ## Bref résumé
 

@@ -16,7 +16,7 @@ La création d’un site n’est pas une ligne parfaite, vous devrez affronter d
 
 [7-zip](https://www.7-zip.org/) - Traitement de dossier -  
 [Nodejs](https://nodejs.org/en/) - Traitement JS -  
-Un compte[Github](https://github.com/) - Votre dépôt internet -  
+Un compte [Github](https://github.com/) - Votre dépôt internet -  
 Un peu de place dans vos documents - Votre dépôt local -  
 [Git](https://git-scm.com/) - Gestion de dépôt -  
 Un [thème hexo](https://hexo.io/themes/) -  

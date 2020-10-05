@@ -9,10 +9,11 @@ date: 2019-12-11 18:00:00
 ---
 
 Ouvrir un site internet sur le domaine public vous engage à respecter les lois en vigueur sur le territoire de votre résidence. Si vous ne souhaitez pas subir le droit en vigueur, vous pouvez vous orienter vers un site caché, .onion.  
+<!--more-->
 J’ai utilisé cette méthode, je souhaitai donc vous la partager.  
 Elle n’est pas recommandable pour un site à but lucratif car il s’agit ici d’un CMS statique.  
 Bien évidemment, la création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.
-<!--more-->
+
 
 ## Préparation
 

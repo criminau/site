@@ -8,10 +8,12 @@ categories:
 date: 2020-06-30 18:00:00
 ---
 
-Cet article ne mettra pas en cause l'inflation dans la chute d'une civilisation, mais essaiera de collaborer le fait qu'elle soit là avant la décadence. Qu'elle soit la cause ou bien une conséquence. Ainsi nous ferons un détour historique assez flou, nous étudierons l'Histoire, analyserons les raisons des chutes et pour finir nous reviendrons dans l'actualité.
+Cet article ne mettra pas en cause l'inflation dans la chute d'une civilisation, mais essaiera de collaborer le fait qu'elle soit là avant la décadence. 
 <!--more-->
+Qu'elle soit la cause ou bien une conséquence. Ainsi nous ferons un détour historique assez flou, nous étudierons l'Histoire, analyserons les raisons des chutes et pour finir nous reviendrons dans l'actualité.  
 
-De par l'histoire, l'inflation est un processus de hausse cumulative et auto-entretenue du niveau général des prix. Il lui faut une multitude de paramètres, des variables de longue durée pour évoluer. Voyons cela.
+
+De par l'histoire, l'inflation est un processus de hausse cumulative et auto-entretenue du niveau général des prix. Il lui faut une multitude de paramètres, des variables de longue durée pour évoluer. Voyons cela.  
  
 Imaginez une feuille blanche, a gauche une colonne symbolise l'offre (la production), a droite l'autre colonne marque la demande (la consommation + l'investissement). La production prend plusieurs variables que nous notons ainsi : la main d'œuvre (population active) + le capital (les outils, bâtiments, machines, ...) + la productivité multifactorielle (la technologie). La consommation c'est la capacité d'un peuple à acheter (plus il est riche + il consomme), l'investissement c'est la capacité à créer la production (ce n'est pas la finance avec la bourse ni l'immobilier, ...).
 Par ce schéma, si l'offre est plus forte que la demande, le prix monte (faites une flèche de la droite vers la gauche : représente l'évolution du prix). Si la demande est plus forte que l'offre alors le prix baisse. Il existe des outils pour faire évoluer les deux repères comme le crédit, l'achat d'obligation, l'indexation (et/ou désindexation) sur une matière première, souvent l'or, augmenter la production par l'investissement, par les stocks, la durée de transport, ...

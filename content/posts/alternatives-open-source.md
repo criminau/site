@@ -9,8 +9,9 @@ date: 2019-12-18 18:00:00
 ---
 
 Destiné à ceux qui souhaitent s’embêter pour fuir la surveillance de masse.  
-Avant de commencer il faut préciser qu’il est assez difficile d’évoluer via ses outils différents. Il faut une maîtrise minimale des langages informatiques adaptés.
-<!--more-->
+Avant de commencer il faut préciser qu’il est assez difficile d’évoluer via ses outils différents.<!--more-->
+Il faut une maîtrise minimale des langages informatiques adaptés.
+
 
 ## La base
 
