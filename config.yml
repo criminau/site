@@ -7,7 +7,7 @@ paginate: 5
 languageCode: fr
 DefaultContentLanguage: fr
 enableInlineShortcodes: true
-theme: Subversive
+theme: PaperMod
 
 params:
   description: 'Subversive est un site accueillant un blog, développant un avis critique de nos sociétés.'
