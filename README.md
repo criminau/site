@@ -4,6 +4,13 @@
 
 ## Releases
 
+### v.01.1
+
+- Nouveau thème en phase de test
+- default.md, plus d'options
+- apropos.md
+- Préparation générale, hugo-theme-subversive
+
 ### v.01.0
 
 - Css simplifiée

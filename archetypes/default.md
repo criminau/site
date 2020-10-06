@@ -1,8 +1,11 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-author: "{{- .Params.author | default .Site.Params.author }}"
-ShowToc: false
+author: "{{ .Site.Params.author }}"
+ShowToc: true
 draft: false
+hidemeta: false
+tocopen: false
+disableShare: false
 categories:
  - 
 date: {{ .Date }}

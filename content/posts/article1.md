@@ -3,14 +3,18 @@ title: "Article1"
 author: subversive.eu
 ShowToc: true
 draft: true
+hidemeta: false
+tocopen: false
+disableShare: false
 categories:
  - Démocratie
 date: 2020-09-30T17:44:04+02:00
-fig_width: 6 
-fig_height: 4 
+cover: "https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png"
 ---
 
+Cet article permet de tester des markups, des shortcodes, des variables et environnements
 
+<!--more-->
 ## Image
 
 ![Drag Racing](/media/logo.png "coucou")
@@ -49,178 +53,10 @@ cover = "<absolute image url>"
 ## Instagram
 {{< instagram BWNjjyYFxVx hidecaption >}}
 {{< instagram BWNjjyYFxVx >}}
-# END
-AdwCleaner
 
-Roguekiller
-
-Ucheck
+## Footer hugo theme
 
 
-ZHPdiag
-
-
-Diag adlice
-
-ZHPCleaner
-
-ZHPSuite
-
-Geek uninstaller
-
-Treesize
-
-Bleachbit
-
-HDD wipe tool
-
-Aomei
-Iobit
-
-baseURL: 'http://www.subversive.eu/'
-
-title: subversive.eu
-
-author: subversive.eu
-
-paginate: 5
-
-languageCode: fr
-
-DefaultContentLanguage: fr
-
-enableInlineShortcodes: true
-
-theme: PaperMod
-
-params:
-  description: 'Theme PaperMod -
-   https://github.com/adityatelange/hugo-PaperMod'
-  ShowReadingTime: true
-
-  contentTypeName: posts
-
-  defaultTheme: dark
-
-  ShowShareButtons: true
-
-
-
-
-
-  homeInfoParams:
-
-    Title: "Bienvenue"
-    Content: Welcome to my blog
-### styles test
-    
-    <!-- Styles 
-{{- $anoldhope := resources.Get "css/an-old-hope.min.css" | minify }}
-{{- $theme := resources.Get "css/theme-vars.css" | minify }}
-{{- $reset := resources.Get "css/reset.css" | minify }}
-{{- $header := resources.Get "css/header.css" | minify }}
-{{- $main := resources.Get "css/main.css" | minify }}
-{{- $postentry := resources.Get "css/post-entry.css" | minify }}
-{{- $postsingle := resources.Get "css/post-single.css" | minify }}
-{{- $terms := resources.Get "css/terms.css" | minify }}
-{{- $archive := resources.Get "css/archive.css" | minify }}
-{{- $footer := resources.Get "css/footer.css" | minify }}
-{{- $404 := resources.Get "css/404.css" | minify }}
-{{- $style := slice $theme $reset $header $main $postentry $postsingle $terms $archive $footer $404 | resources.Concat "stylesheet.css" | minify }}
-{{- $stylesheet := slice $anoldhope $style | resources.Concat "css/stylesheet.css" | minify | fingerprint }}
-<link href="{{ $stylesheet.Permalink }}" integrity="{{ $stylesheet.Data.Integrity }}" rel="preload stylesheet"
-    as="style">
-{{- if (and (.Site.Params.profileMode.enabled) (.IsHome)) }}
-{{- $profileMode := resources.Get "css/profile-mode.css" | minify | fingerprint }}
-<link href="{{ $profileMode.Permalink }}" integrity="{{ $profileMode.Data.Integrity }}" rel="preload stylesheet"
-    as="style">
-{{- end }}-->
-
-#### suite
-
-<!--- Style Officiel 2 regroupé 
-    # Fonctionne mais applique tout au centre de la page.
-    # Donc fonctionne mal.
-
-{{- $all := resources.Get "css/style.css" | minify }}
-{{- $stylesheet := slice $all | resources.Concat "css/stylesheet.css" | minify }}
-<link href="{{ $stylesheet.Permalink }}" rel="stylesheet">
--->
-
-
-## config.toml Console theme
-
-[params]
-  # Cutting off the page title to two chars for mobile (console-demo -> co)
-  titleCutting = true
-
-  [[params.navlinks]]
-  name = "about/"
-  url = "about/"
-
-  [[params.navlinks]]
-  name = "posts/"
-  url = "posts/"
-  
-  [[params.navlinks]]
-  name = "photos/"
-  url = "photos/"
-
-  ### config.yaml console theme
-
-  / il casse le home info du papermod
-
-  # menu du thème console
-params:
-  navlinks:
-    - name: apropos/
-      url: apropos/
-    - name: posts/
-      url: posts/
-    - name: categories/
-      url: categories/
-      # menu du thème console
-      
-  navlinks:
-    - name: apropos/
-      url: apropos/
-    - name: posts/
-      url: posts/
-    - name: categories/
-      url: categories/
-      
-### Schema papermod 
-
-* layouts  
-  404.html  
-  sitemap.xml  
-  * shortcodes  
-    blockquote.html  
-    collapse.html  
-    rawhtml.html  
-    youtube.html  
-  * myarchivetype  
-    single.html  
-  * partials  
-    comments.html  
-    footer.html  
-    head.html  
-    header.html  
-    home_info.html  
-    index_profile.html  
-    share_icons.html  
-    social_icons.html  
-    svg.html  
-    toc.html  
-  * _default  
-    terms.html  
-    single.html  
-    list.html  
-    baseof.html  
-    archives.html  
-    * _markup  
-      render-image.html  
-      render-link.html  
-    
-    <!-- Generator -->
-{{- hugo.Generator }}
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo️️</a>️</span>
+    <span>&middot;</span>
+    <span>Theme️ <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>

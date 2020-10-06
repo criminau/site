@@ -8,6 +8,7 @@ type: myabouttype
 url: "/apropos/"
 hidemeta: true
 tocopen: true
+disableShare: false
 ---
 
 ### Auteur :
@@ -41,6 +42,7 @@ Les formats PDF sont les plus à jour et propre .
 #### Thème(s)
 
 * [PaperMod](https://github.com/adityatelange/hugo-PaperMod/)
+* [Subversive](https://github.com/subversive-eu/hugo-subversive/)
 
 ### Droits
 
