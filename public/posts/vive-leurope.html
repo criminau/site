@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 
-<head>    
+        
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,7 +15,9 @@
     <link rel="canonical" href="https://subversive.eu/posts/vive-leurope.html" />
     
     
-    <link href="https://subversive.eu/css/stylesheet.min.css" rel="stylesheet" as="style">
+    
+    
+    <link href="https://subversive.eu/css/all.min.css" rel="stylesheet preload prefetch" as="style">
     
     <link rel="apple-touch-icon" href="https://subversive.eu/apple-touch-icon.png">
     <link rel="icon" href="https://subversive.eu/favicon.ico">
@@ -23,61 +25,128 @@
     
     <link rel="alternate" type="application/rss+xml" href="https://subversive.eu/posts/index.xml" title="subversive.eu">
     
-</head>
 
-<body class="single" id="top">
-<script>
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-</script>
-<header class="header">
-    <nav class="nav">
-        <p class="logo"><a href="https://subversive.eu/">subversive.eu</a></p>
-        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
-            <li>
-                <a href="https://subversive.eu/archives/">
-                    <span>
-                        Archives
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a href="https://subversive.eu/categories/">
-                    <span>
-                        Catégories
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a href="https://subversive.eu/apropos/">
-                    <span>
-                        A propos
-                    </span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
-    <main class="main">
+    <nav class="navbar" id="sticky-top">
+    <ul class="float-right"><li class="no-deco ">
+    <a class="link-svg-item" href="https://subversive.eu/posts/index.xml" rel="noopener noreferrer"
+    title="Rss"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity">
+    <path d="M4 11a9 9 0 0 1 9 9"></path>
+    <path d="M4 4a16 16 0 0 1 16 16"></path>
+    <circle cx="5" cy="19" r="1"></circle>
+</svg></a>
+</li><li class="no-deco ">
+    <a class="link-svg-item" href="https://github.com/subversive-eu/site" rel="noopener noreferrer"
+    title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg></a>
+</li>
+    </ul>
+    <ul class=""><li class="no-deco ">
+    <a class="link-svg-item" href="../" rel="noopener noreferrer"
+    title="Home"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+  <polyline points="9 22 9 12 15 12 15 22" />
+</svg></a>
+</li><li class="no-deco ">
+    <a class="link-svg-item" href="../apropos/" rel="noopener noreferrer"
+    title="Info"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <line x1="12" y1="16" x2="12" y2="12" />
+  <line x1="12" y1="8" x2="12.01" y2="8" />
+</svg></a>
+</li><li class="no-deco ">
+    <a class="link-svg-item" href="../categories/" rel="noopener noreferrer"
+    title="Categorie"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+</svg></a>
+</li><li class="no-deco ">
+    <a class="link-svg-item" href="../archives/" rel="noopener noreferrer"
+    title="Archive"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <polyline points="21 8 21 21 3 21 3 8" />
+  <rect x="1" y="3" width="22" height="5" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg></a>
+</li>
+    </ul>
 
-<article class="post-single">
-  <header class="post-header">
+</nav>
+
+
+
+<body>
+
+    
+<button onclick="topFunction()" id="myBtn" title="Go to top">Haut de page</button>
+
+
+<div class="container">
+  <div class="post-header">
+    <div class="post-meta">
+      &nbsp;·&nbsp;
+      <time>November 25, 2019</time>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;subversive.eu
+      
+      
+      &nbsp;·&nbsp;
+      <button class="sample-btn">
+      <a name="Télécharger" href="../pdf/Vive%20L%e2%80%99europe%20!.pdf" target="_blank" rel="noopener noreferrer" download>Télécharger le pdf</a>
+      </button>&nbsp;·&nbsp;<button class="sample-btn">
+      <a name ="Imprimer" href="javascript:if(window.print)window.print()">imprimer</a>
+      </button>&nbsp;·&nbsp;<button class="sample-btn">
+        <a name="Télécharger" href="../epub/Vive%20L%e2%80%99europe%20!.epub" target="_blank" rel="noopener noreferrer" download>Télécharger ebook</a>
+      </button>&nbsp;·&nbsp;
+    </div>
     <h1 class="post-title">
       Vive L’europe !
     </h1>
-    <div class="post-meta">
-      <time>November 25, 2019</time>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;subversive.eu&nbsp;·&nbsp;
-      <a name="Télécharger" href="../pdf/Vive%20L%e2%80%99europe%20!.pdf" target="_blank" rel="noopener noreferrer" download>télécharger le pdf</a>
-      &nbsp;·&nbsp;
-      <a name ="Imprimer" href="javascript:if(window.print)window.print()">imprimer</a>
-      &nbsp;·&nbsp;
-      <a name="Télécharger" href="../epub/Vive%20L%e2%80%99europe%20!.epub" target="_blank" rel="noopener noreferrer" download>télécharger ebook</a>
-    </div>
-  </header>
-  <div class="toc">
-    <details >
-      <summary>
+  </div>
+  
+  <div class="toc text-light bg-dark">
+    <details  class="">
+      <summary class="">
         <div class="details">Table des matières</div>
       </summary>
       <blockquote><ul><li>
@@ -87,6 +156,8 @@
       </blockquote>
     </details>
   </div>
+  
+  
   <div class="post-content"><p>Alors que le monde se divise de plus en plus, qu’il se dessine sous des pseudos « corporations », la « Corporation Europe » se porte bien.</p>
 <p>Préserver les intérêts français est très dur, surtout seul, dans un monde en guerre permanente pour les ressources, les technologies, les richesses. Mais unis, avec l’Europe poussée par bientôt 27 pays, chacun à leur poste, donc 3 très puissants (Allemagne, France, Italie), nous sommes prêts à tenir, soudés dernière cette corporation Europe, quand celle chinoise devient de plus en plus agressive, celle États-Unienne toujours aussi forte. Mais que vaut l’Europe ?</p>
 <h2 id="economique">Economique</h2>
@@ -96,10 +167,31 @@
 <p>Avec l’Allemagne nous réunissons la première puissance automobile et chimique de la planète. Les pays de l’est exportent de la viande en grande quantité. Mais l’Europe a ses problèmes qui pourraient lui causer bien des dangers. Le premier est sa démographie malgré l’arrivé d’immigrés, vieillissante, très vieillissante, que faire, surtout quand nous avons un bien triste exemple au Japon de l’avenir qui nous attend. Le second est le modèle économique, sociétal, environnemental, mais ici ce n’est pas le sujet.</p>
 <h2 id="stratégique">Stratégique</h2>
 <p>Grâce au Traité de coopération et d’intégration franco-allemand d’Aix-la-Chapelle, certes nous perdons de la souveraineté, mais nous gagnons un allié fidèle avec qui nous sommes battus pendant des siècles. Qu’y a t&rsquo;il de plus beau qu’un continent qui après avoir fait la guerre arrive à s’entendre de mieux en mieux, et à communiquer et coopérer ? Le vieux continent continue de montrer l’exemple.</p></div>
-  <footer class="post-footer">
-    <ul class="post-tags">
-      <li><a href="https://subversive.eu/categories/g%C3%A9opolitique">Géopolitique</a></li>
+
+  
+  
+  <div class="post-footer">
+
+    <ul class="float-lef">
+      
+      <li>
+        <button class="sample-btn"><a href="https://subversive.eu/categories/g%C3%A9opolitique">Géopolitique</a></button>&nbsp;·&nbsp;
+      </li>
     </ul>
+      <ul class="float-let">
+      
+      <li>
+      </li>
+    </ul>
+    <ul class="float-lft">
+      
+      <li>
+    </li>
+    </ul>
+  </div>
+  
+
+   
 <div class="share-buttons">
     
     <a class="share-button-single" target="_blank" rel="noopener noreferrer"
@@ -157,62 +249,22 @@
         </svg>
     </a>
 </div>
-  </footer>
-</article>
-    </main><footer class="footer">
-    <span>&copy; 2020 <a href="https://subversive.eu/">subversive.eu</a></span>
-    <span>&middot;</span>
-    <span></span><a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/deed.fr">Creative Commons License</a></span>
 
-    
 
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top">
-    <button class="top-link" id="top-link" type="button">
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <polyline points="18 15 12 9 6 15" />
-</svg>
-    </button>
-</a>
-<script src="https://subversive.eu/js/highlight.min.min.js" ></script>
-<script>hljs.initHighlightingOnLoad();</script>
-<script>
-    window.onload = function () {
-        if (localStorage.getItem("menu-scroll-position")) {
-            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
-        }
-    }
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-
-            document.querySelector(this.getAttribute("href")).scrollIntoView({
-                behavior: "smooth"
-            });
-        });
-    });
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-    function menu_on_scroll() {
-        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
-    }
-</script>
+</div> 
 </body>
 
+<div class="footer text-center">
+  <span>&copy; 2020 <a href="https://subversive.eu/">subversive.eu</a></span>
+
+  <span>&middot;</span>
+
+    <span></span><a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/deed.fr">Creative Commons License</a></span>
+
+
+
+
+
+<script src="https://subversive.eu/js/script.min.js" rel="stylesheet" as="style"></script>
+</div>
 </html>

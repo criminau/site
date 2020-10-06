@@ -1,0 +1,117 @@
+{{- define "main" }}
+<div class="container">
+  <div class="post-header">
+    {{- if .Params.hideMeta }}{{ else }}
+    <div class="post-meta">
+      &nbsp;·&nbsp;
+      <time>{{ .Date.Format "January 2, 2006" }}</time>
+      {{- if $.Site.Params.ShowReadingTime -}}&nbsp;·&nbsp;
+      {{- $default_txt := print .ReadingTime " " "min" }}
+      {{- i18n "read_time" .ReadingTime | default  $default_txt  }}{{ end }}
+      {{- if or .Params.author .Site.Params.author }}&nbsp;·&nbsp;{{- .Params.author | default .Site.Params.author }}{{ end }}
+      <!-- translated-->
+      {{- if .IsTranslated -}}
+      &nbsp;|&nbsp;
+      <ul class="i18n_list">
+        {{- i18n "translations" | default "Translations"}}:
+        {{- range .Translations }}
+        <li>
+          <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+        </li>
+        {{- end }}
+      </ul>
+      {{- end }}
+      <!--- This is the end of meta. not for me. I add some download options + printer option -->
+      &nbsp;·&nbsp;
+      <button class="sample-btn">
+      <a name="Télécharger" href="/pdf/{{ .Title }}.pdf" target="_blank" rel="noopener noreferrer" download>{{ i18n "pdf" }}</a>
+      </button>&nbsp;·&nbsp;<button class="sample-btn">
+      <a name ="Imprimer" href="javascript:if(window.print)window.print()">{{ i18n "print" }}</a>
+      </button>&nbsp;·&nbsp;<button class="sample-btn">
+        <a name="Télécharger" href="/epub/{{ .Title }}.epub" target="_blank" rel="noopener noreferrer" download>{{ i18n "ebook" }}</a>
+      </button>&nbsp;·&nbsp;
+    </div>
+    {{- end}}
+    <h1 class="post-title">
+      {{ .Title }}
+      {{- if .Draft }}
+      <div class="entry-isdraft"><sup>&nbsp;&nbsp;[{{ i18n "draft" }}]</sup></div>{{- end }}
+    </h1>
+  </div>
+  <!--- Table of contents -->
+  {{- if .Params.ShowToc }}
+  <div class="toc text-light bg-dark">
+    <details {{if .Params.TocOpen }} open{{ end }} class="">
+      <summary class="">
+        <div class="details">{{- i18n "toc" }}</div>
+      </summary>
+      <blockquote>
+        {{- partial "toc.html" . }}
+      </blockquote>
+    </details>
+  </div>
+  {{- end }}
+  <!-- cover params -->
+  {{- if .Params.cover }}
+  <figure class="entry-cover">
+    <img src="{{ .Params.cover | absURL }}" alt="cover image for {{ .Title | plainify }}">
+  </figure>
+  {{- end }}
+  <!-- post content -->
+  <div class="post-content">{{ .Content }}</div>
+
+  <!-- post-footer =  Terms + Comments checkout by hidemeta -->
+  <!-- Terms = tags + series + categories -->
+  {{- if .Params.hideMeta }}{{ else }}
+  <div class="post-footer">
+    {{- if .Params.categories }}
+
+    <ul class="float-lef">
+      <!-- here we use <li> for lighthouse accessibility .thx.-->
+      <li>
+        {{- range .Params.categories }}
+        {{- $href := print (absLangURL "categories/") (urlize .) }}
+        <button class="sample-btn"><a href="{{ $href }}">{{ . }}</a></button>&nbsp;·&nbsp;
+        {{- end }}
+      </li>
+    </ul>
+      <ul class="float-let">
+      
+      <li>
+      {{- range .Params.tags }}
+      {{- $href := print (absLangURL "tags/") (urlize .) }}
+      <button class="sample-btn"><a href="{{ $href }}">{{ . }}</a></button>&nbsp;·&nbsp;
+      {{- end }}
+      </li>
+    </ul>
+    <ul class="float-lft">
+      
+      <li>
+      {{- range .Params.series }}
+      {{- $href := print (absLangURL "series/") (urlize .) }}
+      <button class="sample-btn"><a href="{{ $href }}">{{ . }}</a></button>&nbsp;·&nbsp;
+      {{- end }}
+    </li>
+    </ul>
+    {{- end }}
+  </div>
+  <!-- comments sector -->
+  {{- if $.Site.Params.comments }}
+  <div class="post-comments">
+    {{- partial "comments.html" . }}
+  </div>
+  {{- end }}
+
+
+  {{- end }}<!-- end of hidemeta secondsector -->
+
+   <!-- Navbar share -->    
+   {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true) ) }}
+   {{- partial "share_icons.html" .}}
+   {{- end }}
+
+
+</div> <!-- end container -->
+
+
+{{- end  }}{{/* end main */}}

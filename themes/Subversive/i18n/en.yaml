@@ -1,0 +1,22 @@
+- id: print
+  translation: "print"
+- id: translations
+  translation: "translations"
+- id: read_time
+  translation:
+    one : "1 min"
+    other: "{{ .Count }} min"
+- id: toc
+  translation: "Table of contents"
+- id: prev_page
+  translation: "Previous page"
+- id: next_page
+  translation: "Next page"
+- id: read_more
+  translation: "Read the article !"
+- id: draft
+  translation: "draft"
+- id: ebook
+  translation: "Download ebook"
+- id: pdf
+  translation: "Download the pdf"

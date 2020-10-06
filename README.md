@@ -4,7 +4,7 @@
 
 ## Releases
 
-### v.01.1
+### v.01.2
 
 - Nouveau thème en phase de test
 - default.md, plus d'options

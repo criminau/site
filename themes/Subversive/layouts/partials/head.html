@@ -1,0 +1,41 @@
+    <!-- Page Meta-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+    <title>{{ if .IsHome }}{{else}}{{ if .Title }}{{ .Title }} - {{ end }}{{end}}{{ .Site.Title }}</title>
+    <!-- Meta Simple -->
+    {{- if in site.Params.mainSections .Type }}
+    <meta name="description" content="{{ .Summary }}">
+    {{- else }}
+    <meta name="description" content="{{if .IsHome}}{{ .Site.Params.description }}{{else}}{{ .Title }} - {{ .Site.Title }}{{end}}">
+    {{- end }}
+    <meta name="author" content="{{ .Params.author | default .Site.Params.author }}">
+    <meta name="keywords" content="{{ .Params.keyword | default .Site.Params.keyword }}">
+    <!-- Canonical -->
+    <link rel="canonical" href="{{ .Permalink }}" />
+    <!-- Google Analytics -->
+    {{- if .Site.Params.analytics.google.SiteVerificationTag }}
+    <meta name="google-site-verification" content="{{ .Site.Params.analytics.google.SiteVerificationTag }}" />
+    {{- end}}
+    <!-- Styles -->
+    {{ $css := resources.Get "css/all.css" }}
+    {{ $stylesheet := $css | resources.Minify }}
+    <link href="{{ $stylesheet.Permalink }}" rel="stylesheet preload prefetch" as="style">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}">
+    <link rel="icon" href="{{ "favicon.ico" | absURL }}">
+    <!-- Generator -->
+    {{- hugo.Generator }}
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}posts/index.xml" title="subversive.eu">
+    <!-- Misc -->
+    {{- if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
+    {{- template "_internal/google_analytics_async.html" . }}
+    {{- template "_internal/opengraph.html" . }}
+    {{- template "_internal/twitter_cards.html" . }}
+    {{- template "_internal/schema.html" . }}
+    <!-- Google News -->
+    google news
+    {{ template "_internal/google_news.html" . }}
+    {{- end }}

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode }}">
+<!-- Head -->
+    {{ partial "head.html" .}}
+<!-- Navbar (Header) -->
+    {{ partial "header.html" .}}
+
+<!-- Page Content -->
+<body>
+<!--- Bouton retour vers le haut de la page-->
+    {{ partial "scrolltotopbutton.html" .}}
+<!--Corps de texte.
+Dépends du dossier. 
+Chaque /dossier/ dans l'Url correspond a un dossier dans layouts -->
+    {{- block "main" . }}{{- end }}
+</body>
+
+<!-- Pied de page-->
+    {{- partial "footer.html" . -}}
+</html>
