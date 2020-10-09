@@ -1,0 +1,6 @@
+/en/* /en/404.html 404
+/de/* /de/404.html 404
+
+# Redirect default Netlify subdomain to primary domain
+https://goofy-tesla-61455c.netlify.app/* https://www.subversive.eu/:splat 301!
+http://goofy-tesla-61455c.netlify.app/* https://www.subversive.eu/:splat 301!
