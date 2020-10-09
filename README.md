@@ -4,11 +4,15 @@
 
 ## Releases
 
-### v.01.3
+### v.01.3
 
 - nouveau logo
 - <head> optimisé
--
+- No-cache
+- Thème intégré
+- html minify
+- Full SEO
+- More responsive
 
 ### v.01.2
 
