@@ -14,3 +14,7 @@
   translation: "Next page"
 - id: draft
   translation: "draft"
+- id: pdf
+  translation: "Download the pdf"
+- id: ebook
+  translation: "Download ebook"

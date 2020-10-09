@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://subversive.eu/categories.html</loc>
+    <lastmod>2020-10-09T13:19:18+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/categories/g%C3%A9opolitique.html</loc>
+    <lastmod>2020-10-09T13:19:18+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/posts.html</loc>
+    <lastmod>2020-10-09T13:19:18+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/</loc>
+    <lastmod>2020-10-09T13:19:18+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/posts/trump-n-est-pas-un-danger-pour-le-commerce-international.html</loc>
+    <lastmod>2020-10-09T13:19:18+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://subversive.eu/archives/</loc>
     <lastmod>2020-10-01T09:41:48+02:00</lastmod>
     <changefreq>dayly</changefreq>
@@ -12,13 +47,6 @@
   <url>
     <loc>https://subversive.eu/apropos/</loc>
     <lastmod>2020-10-01T08:37:55+02:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://subversive.eu/categories.html</loc>
-    <lastmod>2020-09-29T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -38,20 +66,6 @@
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts.html</loc>
-    <lastmod>2020-09-29T18:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://subversive.eu/</loc>
-    <lastmod>2020-09-29T18:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://subversive.eu/posts/les-interets-du-sars-cov-2.html</loc>
     <lastmod>2020-08-02T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
@@ -60,13 +74,6 @@
   
   <url>
     <loc>https://subversive.eu/posts/correlation-entre-inlfation-et-chute-de-civilisation.html</loc>
-    <lastmod>2020-06-30T18:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://subversive.eu/categories/g%C3%A9opolitique.html</loc>
     <lastmod>2020-06-30T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.5</priority>

@@ -21,11 +21,16 @@
         {{- end }}
       </ul>
       {{- end }}
-      <!--- This is the end of meta. not for me. I add  printer option -->
-      &nbsp;·&nbsp;<button class="sample-btn">
+      <!--- This is the end of meta. not for me. I add some download options + printer option -->
+      &nbsp;·&nbsp;
+      <button class="sample-btn">
+      <a name="Télécharger" href="/pdf/{{ .Title }}.pdf" target="_blank" rel="noopener noreferrer" download>{{ i18n "pdf" }}</a>
+      </button>&nbsp;·&nbsp;<button class="sample-btn">
       <a name ="Imprimer" href="javascript:if(window.print)window.print()">{{ i18n "print" }}</a>
+      </button>&nbsp;·&nbsp;<button class="sample-btn">
+        <a name="Télécharger" href="/epub/{{ .Title }}.epub" target="_blank" rel="noopener noreferrer" download>{{ i18n "ebook" }}</a>
       </button>&nbsp;·&nbsp;
-    </div><!--- This is the end of meta. not for me. I add  printer option -->
+    </div><!--- This is the end of meta. not for me. I add some download options + printer option -->
     {{- end}}
     <h1 class="post-title">
       {{ .Title }}

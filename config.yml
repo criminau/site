@@ -7,9 +7,14 @@ paginate: 5
 languageCode: fr
 DefaultContentLanguage: fr
 enableInlineShortcodes: true
-theme: Subversive
+theme: PaperMod
+
+enableRobotsTXT: true
+buildFuture: false
+buildExpored: false
 
 params:
+  env: production # enable google analytics, opengraph, twitter-cards and schema.
   description: 'Subversive est un site accueillant un blog, développant un avis critique de nos sociétés.'
   ShowReadingTime: true
   comments: false
@@ -54,7 +59,19 @@ markup:
     endLevel: 3
     ordered: false
     startLevel: 1
-
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
+    
 sitemap:
   changefreq: dayly
   filename: sitemap.xml
@@ -88,24 +105,21 @@ privacy:
     disable: false
     respectDoNotTrack: false
     useSessionStorage: false
-  instagram:
-    disable: false
-    simple: false
-  twitter:
-    disable: false
-    enableDNT: false
-    simple: false
   vimeo:
-    disable: false
-    simple: false
+    disabled: false
+    simple: true
+  twitter:
+    disabled: false
+    enableDNT: false
+  instagram:
+    disabled: false
   youtube:
-    disable: false
+    disabled: false
+    simple: true
     privacyEnhanced: false
- 
+
 services:
   instagram:
     disableInlineCSS: true
   twitter:
-    disableInlineCSS: true
-
-
+    disableInlineCSS: false
