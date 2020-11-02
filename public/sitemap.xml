@@ -3,28 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://subversive.eu/categories.html</loc>
-    <lastmod>2020-10-09T13:19:18+02:00</lastmod>
+    <loc>https://subversive.eu/posts/bitcoin-monnaie-universelle.html</loc>
+    <lastmod>2020-11-01T18:00:00+01:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/categories/g%C3%A9opolitique.html</loc>
-    <lastmod>2020-10-09T13:19:18+02:00</lastmod>
+    <loc>https://subversive.eu/categories.html</loc>
+    <lastmod>2020-11-01T18:00:00+01:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/categories/libert%C3%A9.html</loc>
+    <lastmod>2020-11-01T18:00:00+01:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://subversive.eu/posts.html</loc>
-    <lastmod>2020-10-09T13:19:18+02:00</lastmod>
+    <lastmod>2020-11-01T18:00:00+01:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://subversive.eu/</loc>
+    <lastmod>2020-11-01T18:00:00+01:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/categories/g%C3%A9opolitique.html</loc>
     <lastmod>2020-10-09T13:19:18+02:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.5</priority>
@@ -138,13 +152,6 @@
   <url>
     <loc>https://subversive.eu/posts/leurope-de-la-defense-pour-bientot.html</loc>
     <lastmod>2020-02-26T18:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://subversive.eu/categories/libert%C3%A9.html</loc>
-    <lastmod>2020-02-05T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.5</priority>
   </url>
