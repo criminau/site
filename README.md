@@ -4,7 +4,7 @@
 
 Sample Blog.
 
-Check more :   <https://subversive.eu/about/>
+Check more :   <https://subversive.eu/apropos/>
 
 ## Last release
 
