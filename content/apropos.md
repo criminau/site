@@ -44,6 +44,10 @@ Les formats PDF sont les plus à jour et propre .
 * [PaperMod](https://github.com/adityatelange/hugo-PaperMod/)
 * [Subversive](https://github.com/subversive-eu/hugo-subversive/)
 
+#### Commentaires
+
+* [Graphcomment](https://graphcomment.com/)
+
 ### Droits
 
 Application complète du [Règlement général sur la protection des données](https://gohugo.io/about/hugo-and-gdpr/) .

@@ -24,13 +24,13 @@
       <description>&lt;p&gt;Méthode utilisée pour ce site.&lt;br&gt;
 La création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.&lt;/p&gt;
 &lt;h3 id=&#34;a-télécharger-et-installer&#34;&gt;A télécharger et installer&lt;/h3&gt;
-&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.7-zip.org/&#34; &gt;7-zip&lt;/a&gt; - Traitement de dossier -&lt;br&gt;
-&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://nodejs.org/en/&#34; &gt;Nodejs&lt;/a&gt; - Traitement JS -&lt;br&gt;
-Un compte &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/&#34; &gt;Github&lt;/a&gt; - Votre dépôt internet -&lt;br&gt;
+&lt;p&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.7-zip.org/&#34; &gt;7-zip&lt;/a&gt; - Traitement de dossier -&lt;br&gt;
+&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://nodejs.org/en/&#34; &gt;Nodejs&lt;/a&gt; - Traitement JS -&lt;br&gt;
+Un compte &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/&#34; &gt;Github&lt;/a&gt; - Votre dépôt internet -&lt;br&gt;
 Un peu de place dans vos documents - Votre dépôt local -&lt;br&gt;
-&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://git-scm.com/&#34; &gt;Git&lt;/a&gt; - Gestion de dépôt -&lt;br&gt;
-Un &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://hexo.io/themes/&#34; &gt;thème hexo&lt;/a&gt; -&lt;br&gt;
-Un éditeur de code, dans l&amp;rsquo;exemple nous prendrons &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.sublimetext.com/&#34; &gt;sublime text&lt;/a&gt; -&lt;/p&gt;
+&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://git-scm.com/&#34; &gt;Git&lt;/a&gt; - Gestion de dépôt -&lt;br&gt;
+Un &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://hexo.io/themes/&#34; &gt;thème hexo&lt;/a&gt; -&lt;br&gt;
+Un éditeur de code, dans l&amp;rsquo;exemple nous prendrons &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.sublimetext.com/&#34; &gt;sublime text&lt;/a&gt; -&lt;/p&gt;
 &lt;p&gt;Créez votre compte, téléchargez les applications, choisissez votre thème.&lt;/p&gt;
 &lt;p&gt;Installez 7-zip.&lt;br&gt;
 NodeJS puis Git.&lt;/p&gt;
@@ -81,7 +81,7 @@ Commandes :&lt;/p&gt;
 &lt;span style=&#34;color:#ae81ff&#34;&gt;git add .  &lt;/span&gt;
 &lt;span style=&#34;color:#ae81ff&#34;&gt;git commit -m &amp;#34;Premier envoi&amp;#34;  &lt;/span&gt;
 &lt;span style=&#34;color:#ae81ff&#34;&gt;git push -u origin master  &lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Votre Dépôt est à jour. Continuons. Allez sur &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.netlify.com/&#34; &gt;Netlify&lt;/a&gt;. -&amp;gt; Get Started for free. Connectez-vous via Github.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Votre Dépôt est à jour. Continuons. Allez sur &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.netlify.com/&#34; &gt;Netlify&lt;/a&gt;. -&amp;gt; Get Started for free. Connectez-vous via Github.
 Puis New site from Github. Sélectionnez votre compte Github. Puis le dépôt de votre Blog. Déployez-le.
 Le site déployé dans notre exemple fonctionne. Votre site est normalement sur le net.&lt;/p&gt;
 &lt;h2 id=&#34;intégration-payant-pas-obligatoire&#34;&gt;Intégration (payant, pas obligatoire)&lt;/h2&gt;
@@ -127,13 +127,13 @@ Exercez votre mise à jour avec &amp;lsquo;hugo server -D&amp;rsquo; désactivé
 Elle n’est pas recommandable pour un site à but lucratif car il s’agit ici d’un CMS statique.&lt;br&gt;
 Bien évidemment, la création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.&lt;/p&gt;
 &lt;h2 id=&#34;préparation&#34;&gt;Préparation&lt;/h2&gt;
-&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.7-zip.org/&#34; &gt;7-zip&lt;/a&gt; - Traitement de dossier -&lt;br&gt;
-&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/gohugoio/hugo/releases&#34; &gt;Hugo&lt;/a&gt; - CMS -&lt;br&gt;
-Un compte &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/&#34; &gt;Github&lt;/a&gt; - Votre dépôt internet -&lt;br&gt;
+&lt;p&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.7-zip.org/&#34; &gt;7-zip&lt;/a&gt; - Traitement de dossier -&lt;br&gt;
+&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/gohugoio/hugo/releases&#34; &gt;Hugo&lt;/a&gt; - CMS -&lt;br&gt;
+Un compte &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/&#34; &gt;Github&lt;/a&gt; - Votre dépôt internet -&lt;br&gt;
 Un peu de place dans vos documents - Votre dépôt local -&lt;br&gt;
-&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://git-scm.com/&#34; &gt;Git&lt;/a&gt; - Gestion de dépôt -&lt;br&gt;
-Un &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://themes.gohugo.io/&#34; &gt;thème hugo&lt;/a&gt; -&lt;br&gt;
-Un éditeur de code, dans l&amp;rsquo;exemple nous prendrons &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.sublimetext.com/&#34; &gt;sublime text&lt;/a&gt; -&lt;/p&gt;
+&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://git-scm.com/&#34; &gt;Git&lt;/a&gt; - Gestion de dépôt -&lt;br&gt;
+Un &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://themes.gohugo.io/&#34; &gt;thème hugo&lt;/a&gt; -&lt;br&gt;
+Un éditeur de code, dans l&amp;rsquo;exemple nous prendrons &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.sublimetext.com/&#34; &gt;sublime text&lt;/a&gt; -&lt;/p&gt;
 &lt;p&gt;Créez votre compte, téléchargez les applications, choisissez votre thème -Il est possible d&amp;rsquo;en avoir plusieurs bien sur).&lt;/p&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;p&gt;Installez 7-zip.&lt;br&gt;
@@ -148,7 +148,7 @@ Allez dans le dossier bin, en haut dans l&amp;rsquo;adresse locale, tapez cmd, p
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;hugo new site Blog&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Votre Site est créé. Il est dans le fichier Blog.&lt;/p&gt;
 &lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;
-&lt;p&gt;Nous allons utiliser pour l&amp;rsquo;exemple un seul thème, &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://themes.gohugo.io/hermit/&#34; &gt;Hermit&lt;/a&gt;.&lt;br&gt;
+&lt;p&gt;Nous allons utiliser pour l&amp;rsquo;exemple un seul thème, &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://themes.gohugo.io/hermit/&#34; &gt;Hermit&lt;/a&gt;.&lt;br&gt;
 Pour plus de souplesse, nous n&amp;rsquo;allons pas suivre la procédure recommandé par le créateur du thème.&lt;br&gt;
 Cliquez sur download, puis sur github téléchargez-le :&lt;/p&gt;
 &lt;p&gt;Faites extraire. Allez dans les dossiers du thème. Chaque thème est unique. Afin de pouvoir le modifier, ainsi que l&amp;rsquo;optimiser à ses goûts, nous allons procéder à des petites modifications.&lt;br&gt;
@@ -224,7 +224,7 @@ Commandes :&lt;/p&gt;
 &lt;span style=&#34;color:#ae81ff&#34;&gt;git add .  &lt;/span&gt;
 &lt;span style=&#34;color:#ae81ff&#34;&gt;git commit -m &amp;#34;Premier envoi&amp;#34;  &lt;/span&gt;
 &lt;span style=&#34;color:#ae81ff&#34;&gt;git push -u origin master  &lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Votre Dépôt est à jour. Continuons. Allez sur &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.netlify.com/&#34; &gt;Netlify&lt;/a&gt;. -&amp;gt; Get Started for free. Connectez-vous via Github.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Votre Dépôt est à jour. Continuons. Allez sur &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.netlify.com/&#34; &gt;Netlify&lt;/a&gt;. -&amp;gt; Get Started for free. Connectez-vous via Github.
 Puis New site from Github. Sélectionnez votre compte Github. Puis le dépôt de votre Blog. Déployez-le.
 Le site déployé dans notre exemple fonctionne. Votre site est normalement sur le net.&lt;/p&gt;
 &lt;h2 id=&#34;intégration&#34;&gt;Intégration&lt;/h2&gt;
