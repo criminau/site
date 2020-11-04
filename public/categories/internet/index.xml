@@ -23,101 +23,99 @@
       <pubDate>Fri, 06 Mar 2020 18:00:00 +0000</pubDate>
       
       <guid>https://subversive.eu/posts/creer-un-site-internet-statique-en-2020.html</guid>
-      <description>&lt;p&gt;Méthode utilisée pour ce site.&lt;br&gt;
-La création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.&lt;/p&gt;</description>
-      <content>&lt;p&gt;Méthode utilisée pour ce site.&lt;br&gt;
-La création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.&lt;/p&gt;
-&lt;h3 id=&#34;a-télécharger-et-installer&#34;&gt;A télécharger et installer&lt;/h3&gt;
-&lt;p&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.7-zip.org/&#34; &gt;7-zip&lt;/a&gt; - Traitement de dossier -&lt;br&gt;
-&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://nodejs.org/en/&#34; &gt;Nodejs&lt;/a&gt; - Traitement JS -&lt;br&gt;
-Un compte &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/&#34; &gt;Github&lt;/a&gt; - Votre dépôt internet -&lt;br&gt;
-Un peu de place dans vos documents - Votre dépôt local -&lt;br&gt;
-&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://git-scm.com/&#34; &gt;Git&lt;/a&gt; - Gestion de dépôt -&lt;br&gt;
-Un &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://hexo.io/themes/&#34; &gt;thème hexo&lt;/a&gt; -&lt;br&gt;
-Un éditeur de code, dans l&amp;rsquo;exemple nous prendrons &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.sublimetext.com/&#34; &gt;sublime text&lt;/a&gt; -&lt;/p&gt;
-&lt;p&gt;Créez votre compte, téléchargez les applications, choisissez votre thème.&lt;/p&gt;
-&lt;p&gt;Installez 7-zip.&lt;br&gt;
-NodeJS puis Git.&lt;/p&gt;
-&lt;p&gt;Creer un Dossier Hexo (par exemple dans vos documents), lancez cmd depuis l&amp;rsquo;adresse du dossier (tapez cmd puis la touche Entrée).&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;npm install hexo-cli -g&lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;hexo init blog&lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;cd blog&lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;npm install&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Votre blog est créé.&lt;/p&gt;
-&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;
-&lt;p&gt;Vous avez choisi un thème, ou plusieurs.&lt;br&gt;
-Attention ! Certains n&amp;rsquo;ont pas de menu&amp;hellip;
-Télécharger les avec git :&lt;br&gt;
+      <description><p>Méthode utilisée pour ce site.<br>
+La création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.</p>
+<h3 id="a-télécharger-et-installer">A télécharger et installer</h3>
+<p><a class="" rel="noopener noreferrer" target="_blank" href="https://www.7-zip.org/" >7-zip</a> - Traitement de dossier -<br>
+<a class="" rel="noopener noreferrer" target="_blank" href="https://nodejs.org/en/" >Nodejs</a> - Traitement JS -<br>
+Un compte <a class="" rel="noopener noreferrer" target="_blank" href="https://github.com/" >Github</a> - Votre dépôt internet -<br>
+Un peu de place dans vos documents - Votre dépôt local -<br>
+<a class="" rel="noopener noreferrer" target="_blank" href="https://git-scm.com/" >Git</a> - Gestion de dépôt -<br>
+Un <a class="" rel="noopener noreferrer" target="_blank" href="https://hexo.io/themes/" >thème hexo</a> -<br>
+Un éditeur de code, dans l&rsquo;exemple nous prendrons <a class="" rel="noopener noreferrer" target="_blank" href="https://www.sublimetext.com/" >sublime text</a> -</p>
+<p>Créez votre compte, téléchargez les applications, choisissez votre thème.</p>
+<p>Installez 7-zip.<br>
+NodeJS puis Git.</p>
+<p>Creer un Dossier Hexo (par exemple dans vos documents), lancez cmd depuis l&rsquo;adresse du dossier (tapez cmd puis la touche Entrée).</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ae81ff">npm install hexo-cli -g</span>
+<span style="color:#ae81ff">hexo init blog</span>
+<span style="color:#ae81ff">cd blog</span>
+<span style="color:#ae81ff">npm install</span>
+</code></pre></div><p>Votre blog est créé.</p>
+<h2 id="design">Design</h2>
+<p>Vous avez choisi un thème, ou plusieurs.<br>
+Attention ! Certains n&rsquo;ont pas de menu&hellip;
+Télécharger les avec git :<br>
 Par cette méthode, vous ne pourrez les modifier, mais il sera facile de le tenir à jour.
-Sur le dépôt GitHub du site, a droite, cliquez sur le bouton vert &amp;ldquo;Clone or Download&amp;rdquo;, copiez le lien.
+Sur le dépôt GitHub du site, a droite, cliquez sur le bouton vert &ldquo;Clone or Download&rdquo;, copiez le lien.
 Retourner sur votre explorateur de fichier, cliquez sur themes dans le dossier de votre blog.
-Puis clic droit &amp;ldquo;Git Bash Here&amp;rdquo;.
-Pour coller le lien dans git bash : Clic droit, Paste.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;git clone votreliendutheme&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;configuration&#34;&gt;Configuration&lt;/h3&gt;
-&lt;p&gt;Ouvrez votre editeur de text, ouvrez le dossier de votre blog, puis ouvrez le fichier config.yml.
-Pour le thème, mettez le nom du dossier de votre thème choisi.&lt;br&gt;
-Pour Deploy, ne mettez rien, nous passerons par git.&lt;br&gt;
-Langage, fr.&lt;br&gt;
-Vérifier bien le format des dates, mettez les en français pour une lecture plus rapide de vos utilisateurs.&lt;/p&gt;
-&lt;h2 id=&#34;déploiement&#34;&gt;Déploiement&lt;/h2&gt;
-&lt;p&gt;Clé SSH :&lt;/p&gt;
-&lt;p&gt;Allez dans Github settings sous votre profil -&amp;gt; SSH and GPG -&amp;gt; New SSH key. Donnez y un nom.&lt;br&gt;
-Retourner dans le dossier de votre site -&amp;gt; clic droit -&amp;gt; git bash here.&lt;br&gt;
-Commande :&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;ssh-keygen -t rsa -b 4096 -C &amp;#34;votremail@mail.com&amp;#34; | Changez par le mail de votre compte github&lt;/span&gt;
+Puis clic droit &ldquo;Git Bash Here&rdquo;.
+Pour coller le lien dans git bash : Clic droit, Paste.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ae81ff">git clone votreliendutheme</span>
+</code></pre></div><h3 id="configuration">Configuration</h3>
+<p>Ouvrez votre editeur de text, ouvrez le dossier de votre blog, puis ouvrez le fichier config.yml.
+Pour le thème, mettez le nom du dossier de votre thème choisi.<br>
+Pour Deploy, ne mettez rien, nous passerons par git.<br>
+Langage, fr.<br>
+Vérifier bien le format des dates, mettez les en français pour une lecture plus rapide de vos utilisateurs.</p>
+<h2 id="déploiement">Déploiement</h2>
+<p>Clé SSH :</p>
+<p>Allez dans Github settings sous votre profil -&gt; SSH and GPG -&gt; New SSH key. Donnez y un nom.<br>
+Retourner dans le dossier de votre site -&gt; clic droit -&gt; git bash here.<br>
+Commande :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ae81ff">ssh-keygen -t rsa -b 4096 -C &#34;votremail@mail.com&#34; | Changez par le mail de votre compte github</span>
 
-&lt;span style=&#34;color:#ae81ff&#34;&gt;Enter a file in which to save the key (/c/Users/you/.ssh/id_rsa):[Press enter] | Appuyez sur Entrée&lt;/span&gt;
-&lt;span style=&#34;color:#f92672&#34;&gt;Enter passphrase (empty for no passphrase)&lt;/span&gt;: [&lt;span style=&#34;color:#ae81ff&#34;&gt;Type a passphrase] | Créez un mot de passe&lt;/span&gt;
-&lt;span style=&#34;color:#f92672&#34;&gt;Enter same passphrase again&lt;/span&gt;: [&lt;span style=&#34;color:#ae81ff&#34;&gt;Type passphrase again] | Vérification du mot de passe&lt;/span&gt;
+<span style="color:#ae81ff">Enter a file in which to save the key (/c/Users/you/.ssh/id_rsa):[Press enter] | Appuyez sur Entrée</span>
+<span style="color:#f92672">Enter passphrase (empty for no passphrase)</span>: [<span style="color:#ae81ff">Type a passphrase] | Créez un mot de passe</span>
+<span style="color:#f92672">Enter same passphrase again</span>: [<span style="color:#ae81ff">Type passphrase again] | Vérification du mot de passe</span>
 
-&lt;span style=&#34;color:#ae81ff&#34;&gt;clip &amp;lt; ~/.ssh/id_rsa.pub&lt;/span&gt;
+<span style="color:#ae81ff">clip &lt; ~/.ssh/id_rsa.pub</span>
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Retournez sur Github collez votre clé. Validez.&lt;/p&gt;
-&lt;p&gt;Sur Github créez un nouveau dépôt (en anglais repository). Vous arrivez ensuite sur la page du dépôt qui est vide. Stoppez l&amp;rsquo;activité en local de votre site.
-Dans le dossier de votre Blog, clic droit, Git Bash Here. Stoppez l&amp;rsquo;activité en local de votre site.&lt;/p&gt;
-&lt;p&gt;Poursuivons sur votre dépôt :&lt;/p&gt;
-&lt;p&gt;PS: Pour coller du texte dans Git, clic droit paste.&lt;/p&gt;
-&lt;p&gt;Hugo/Blog -&amp;gt; clic droit -&amp;gt; git bash here.&lt;br&gt;
-Commandes :&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;git init  &lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;git remote add origin git@github.com:moncompte/Blog.git  &lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;git add .  &lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;git commit -m &amp;#34;Premier envoi&amp;#34;  &lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;git push -u origin master  &lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Votre Dépôt est à jour. Continuons. Allez sur &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.netlify.com/&#34; &gt;Netlify&lt;/a&gt;. -&amp;gt; Get Started for free. Connectez-vous via Github.
+</code></pre></div><p>Retournez sur Github collez votre clé. Validez.</p>
+<p>Sur Github créez un nouveau dépôt (en anglais repository). Vous arrivez ensuite sur la page du dépôt qui est vide. Stoppez l&rsquo;activité en local de votre site.
+Dans le dossier de votre Blog, clic droit, Git Bash Here. Stoppez l&rsquo;activité en local de votre site.</p>
+<p>Poursuivons sur votre dépôt :</p>
+<p>PS: Pour coller du texte dans Git, clic droit paste.</p>
+<p>Hugo/Blog -&gt; clic droit -&gt; git bash here.<br>
+Commandes :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ae81ff">git init  </span>
+<span style="color:#ae81ff">git remote add origin git@github.com:moncompte/Blog.git  </span>
+<span style="color:#ae81ff">git add .  </span>
+<span style="color:#ae81ff">git commit -m &#34;Premier envoi&#34;  </span>
+<span style="color:#ae81ff">git push -u origin master  </span>
+</code></pre></div><p>Votre Dépôt est à jour. Continuons. Allez sur <a class="" rel="noopener noreferrer" target="_blank" href="https://www.netlify.com/" >Netlify</a>. -&gt; Get Started for free. Connectez-vous via Github.
 Puis New site from Github. Sélectionnez votre compte Github. Puis le dépôt de votre Blog. Déployez-le.
-Le site déployé dans notre exemple fonctionne. Votre site est normalement sur le net.&lt;/p&gt;
-&lt;h2 id=&#34;intégration-payant-pas-obligatoire&#34;&gt;Intégration (payant, pas obligatoire)&lt;/h2&gt;
-&lt;p&gt;La première chose à faire est de renommer votre domaine. Allez dans site settings -&amp;gt; change site name. Vous vous retrouvez avec exemple-blog.netlify.com . Changez votre baseUrl dans config, en local comme sur Github.&lt;/p&gt;
-&lt;p&gt;Pour ceux ne souhaitant pas payer, sautez ce chapitre.&lt;/p&gt;
-&lt;p&gt;Si vous ne possédez pas de nom de domaine, achetez-en un. Désactivez le protocole DNSSEC. Enregistrez quatre Serveurs DNS externes :&lt;/p&gt;
-&lt;p&gt;dns1.p02.nsone.net&lt;br&gt;
-dns2.p02.nsone.net&lt;br&gt;
-dns3.p02.nsone.net&lt;br&gt;
-dns4.p02.nsone.net&lt;/p&gt;
-&lt;p&gt;Retournez sur la page overview de votre site netlify -&amp;gt; Domain settings -&amp;gt; add custom domain -&amp;gt; collez le vôtre. Forcez et/ou attendez la mise en route HTTPS.&lt;/p&gt;
-&lt;p&gt;Nous allons tenter une redirection de votre domaine netlify vers votre domaine externe, pour cela rendez-vous dans le dossier static de votre site sur le dépôt github :&lt;br&gt;
-Ouvrez le EDIWeb, créer un fichier &amp;ldquo;_redirects&amp;rdquo; Copiez-y :&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Redirect default Netlify subdomain to primary domain&lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;https://votresite.netlify.com/* https://votredomaine.fr/:splat 301!&lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;http://votresite.netlify.com/* https://votredomaine.fr/:splat 301!&lt;/span&gt;
+Le site déployé dans notre exemple fonctionne. Votre site est normalement sur le net.</p>
+<h2 id="intégration-payant-pas-obligatoire">Intégration (payant, pas obligatoire)</h2>
+<p>La première chose à faire est de renommer votre domaine. Allez dans site settings -&gt; change site name. Vous vous retrouvez avec exemple-blog.netlify.com . Changez votre baseUrl dans config, en local comme sur Github.</p>
+<p>Pour ceux ne souhaitant pas payer, sautez ce chapitre.</p>
+<p>Si vous ne possédez pas de nom de domaine, achetez-en un. Désactivez le protocole DNSSEC. Enregistrez quatre Serveurs DNS externes :</p>
+<p>dns1.p02.nsone.net<br>
+dns2.p02.nsone.net<br>
+dns3.p02.nsone.net<br>
+dns4.p02.nsone.net</p>
+<p>Retournez sur la page overview de votre site netlify -&gt; Domain settings -&gt; add custom domain -&gt; collez le vôtre. Forcez et/ou attendez la mise en route HTTPS.</p>
+<p>Nous allons tenter une redirection de votre domaine netlify vers votre domaine externe, pour cela rendez-vous dans le dossier static de votre site sur le dépôt github :<br>
+Ouvrez le EDIWeb, créer un fichier &ldquo;_redirects&rdquo; Copiez-y :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#75715e"># Redirect default Netlify subdomain to primary domain</span>
+<span style="color:#ae81ff">https://votresite.netlify.com/* https://votredomaine.fr/:splat 301!</span>
+<span style="color:#ae81ff">http://votresite.netlify.com/* https://votredomaine.fr/:splat 301!</span>
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Enregistrer dans la branche master.
-Penser à mettre le dossier sur votre disque local au même endroit - static -.&lt;/p&gt;
-&lt;p&gt;Voilà votre site tourne !
-A vous de jouer pour obtenir du trafic ! Chacun sa méthode.&lt;/p&gt;
-&lt;p&gt;Dernière chose pour ne pas vous laisser dans l&amp;rsquo;embarras.&lt;/p&gt;
-&lt;h2 id=&#34;mettre-à-jour-son-site&#34;&gt;Mettre à jour son site&lt;/h2&gt;
-&lt;p&gt;Assez complexe, tout d&amp;rsquo;abords ne changez jamais le nom du dépôt Github. Ainsi que le local.
-Exercez votre mise à jour avec &amp;lsquo;hugo server -D&amp;rsquo; désactivé via le cmd.&lt;/p&gt;
-&lt;p&gt;Puis clic droit -&amp;gt; GitBash here. Voici la suite de commande :&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;git status&lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;git add .  &lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;git commit -m &amp;#34;nomdelamiseajour&amp;#34;&lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;git push -u origin master ou git push -f origin master  &lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Normalement votre site se met à jour directement via le dépôt Github.&lt;/p&gt;
-&lt;p&gt;Pensez à vérifier de temps en temps sur netlify, que les mises à jour soient bien publiées, il peut-y avoir des surprises !&lt;/p&gt;</content>
+</code></pre></div><p>Enregistrer dans la branche master.
+Penser à mettre le dossier sur votre disque local au même endroit - static -.</p>
+<p>Voilà votre site tourne !
+A vous de jouer pour obtenir du trafic ! Chacun sa méthode.</p>
+<p>Dernière chose pour ne pas vous laisser dans l&rsquo;embarras.</p>
+<h2 id="mettre-à-jour-son-site">Mettre à jour son site</h2>
+<p>Assez complexe, tout d&rsquo;abords ne changez jamais le nom du dépôt Github. Ainsi que le local.
+Exercez votre mise à jour avec &lsquo;hugo server -D&rsquo; désactivé via le cmd.</p>
+<p>Puis clic droit -&gt; GitBash here. Voici la suite de commande :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ae81ff">git status</span>
+<span style="color:#ae81ff">git add .  </span>
+<span style="color:#ae81ff">git commit -m &#34;nomdelamiseajour&#34;</span>
+<span style="color:#ae81ff">git push -u origin master ou git push -f origin master  </span>
+</code></pre></div><p>Normalement votre site se met à jour directement via le dépôt Github.</p>
+<p>Pensez à vérifier de temps en temps sur netlify, que les mises à jour soient bien publiées, il peut-y avoir des surprises !</p></description>
       
       <category>Internet</category>
       
@@ -129,143 +127,142 @@ Exercez votre mise à jour avec &amp;lsquo;hugo server -D&amp;rsquo; désactivé
       <pubDate>Wed, 11 Dec 2019 18:00:00 +0000</pubDate>
       
       <guid>https://subversive.eu/posts/creer-son-blog-ou-son-site-internet.html</guid>
-      <description>&lt;p&gt;Ouvrir un site internet sur le domaine public vous engage à respecter les lois en vigueur sur le territoire de votre résidence. Si vous ne souhaitez pas subir le droit en vigueur, vous pouvez vous orienter vers un site caché, .onion.&lt;/p&gt;</description>
-      <content>&lt;p&gt;Ouvrir un site internet sur le domaine public vous engage à respecter les lois en vigueur sur le territoire de votre résidence. Si vous ne souhaitez pas subir le droit en vigueur, vous pouvez vous orienter vers un site caché, .onion.&lt;/p&gt;
-&lt;p&gt;J’ai utilisé cette méthode, je souhaitai donc vous la partager.&lt;br&gt;
-Elle n’est pas recommandable pour un site à but lucratif car il s’agit ici d’un CMS statique.&lt;br&gt;
-Bien évidemment, la création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.&lt;/p&gt;
-&lt;h2 id=&#34;préparation&#34;&gt;Préparation&lt;/h2&gt;
-&lt;p&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.7-zip.org/&#34; &gt;7-zip&lt;/a&gt; - Traitement de dossier -&lt;br&gt;
-&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/gohugoio/hugo/releases&#34; &gt;Hugo&lt;/a&gt; - CMS -&lt;br&gt;
-Un compte &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/&#34; &gt;Github&lt;/a&gt; - Votre dépôt internet -&lt;br&gt;
-Un peu de place dans vos documents - Votre dépôt local -&lt;br&gt;
-&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://git-scm.com/&#34; &gt;Git&lt;/a&gt; - Gestion de dépôt -&lt;br&gt;
-Un &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://themes.gohugo.io/&#34; &gt;thème hugo&lt;/a&gt; -&lt;br&gt;
-Un éditeur de code, dans l&amp;rsquo;exemple nous prendrons &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.sublimetext.com/&#34; &gt;sublime text&lt;/a&gt; -&lt;/p&gt;
-&lt;p&gt;Créez votre compte, téléchargez les applications, choisissez votre thème -Il est possible d&amp;rsquo;en avoir plusieurs bien sur).&lt;/p&gt;
-&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
-&lt;p&gt;Installez 7-zip.&lt;br&gt;
-Installez Git.&lt;br&gt;
-Sur Github, téléchargez la dernière release Hugo pour votre OS, dans notre exemple, on prendra 60.1-Windows-64bit.&lt;br&gt;
-Extraire le dossier.&lt;br&gt;
-Dans vos documents créez un dossier que vous nommez &amp;lsquo;Hugo&amp;rsquo; (respectez la majuscule).&lt;br&gt;
-Dans ce dossier, créez un dossier &amp;lsquo;bin&amp;rsquo;, copiez-y les fichiers extraits de la release Hugo.
-Allez dans le dossier bin, en haut dans l&amp;rsquo;adresse locale, tapez cmd, puis entrée. Une fois dans l&amp;rsquo;invite de commande(cmd) collez-y :&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;set PATH=%PATH%;C:\Hugo\bin&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Fermez l&amp;rsquo;onglet cmd, allez dans le dossier Hugo, ouvrez-y cmd.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;hugo new site Blog&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Votre Site est créé. Il est dans le fichier Blog.&lt;/p&gt;
-&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;
-&lt;p&gt;Nous allons utiliser pour l&amp;rsquo;exemple un seul thème, &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://themes.gohugo.io/hermit/&#34; &gt;Hermit&lt;/a&gt;.&lt;br&gt;
-Pour plus de souplesse, nous n&amp;rsquo;allons pas suivre la procédure recommandé par le créateur du thème.&lt;br&gt;
-Cliquez sur download, puis sur github téléchargez-le :&lt;/p&gt;
-&lt;p&gt;Faites extraire. Allez dans les dossiers du thème. Chaque thème est unique. Afin de pouvoir le modifier, ainsi que l&amp;rsquo;optimiser à ses goûts, nous allons procéder à des petites modifications.&lt;br&gt;
-Créez un dossier &amp;lsquo;theme1&amp;rsquo;, puis y insérez les dossiers et fichiers du thème :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;archetypes&lt;/li&gt;
-&lt;li&gt;assets&lt;/li&gt;
-&lt;li&gt;i18n&lt;/li&gt;
-&lt;li&gt;layouts&lt;/li&gt;
-&lt;li&gt;.editorconfig&lt;/li&gt;
-&lt;li&gt;.gitattributes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Allez dans le dossier de votre site hugo/Blog, lancez le cmd. Dictez les commandes :&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;hugo new about.md&lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;hugo new posts/article1.md&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Copiez votre dossier theme1, puis collez le dans Hugo/Blog/thèmes/ .&lt;/p&gt;
-&lt;p&gt;Copiez le dossier static du thème et collez-le dans votre Blog. Faites de-même pour le dossier resources.&lt;br&gt;
-Egalement pour le fichier config.toml dans examplesite. Remplacez-le. Ouvrez-le avec votre éditeur de code.&lt;/p&gt;
-&lt;p&gt;Nous allons le configurer :&lt;/p&gt;
-&lt;p&gt;Allez dans archetypes/default.md, mettez draft : false. Faites de même dans theme1/archetypes/default.md et posts.md .
-Laissez vide la baseUrl pour l&amp;rsquo;instant. Nommez le titre de votre Blog. Nommez &amp;lsquo;theme1&amp;rsquo; pour votre thème. Mettez le en français &amp;lsquo;fr&amp;rsquo;.&lt;/p&gt;
-&lt;p&gt;Config :&lt;/p&gt;
-&lt;p&gt;Bien votre site tourne ! Testez le via cmd depuis Hugo/Blog, tapez &amp;lsquo;hugo server -D&amp;rsquo;, rendez vous dans votre navigateur a l&amp;rsquo;adresse : http://localhost:1313/.&lt;/p&gt;
-&lt;p&gt;Maintenant peaufinez votre site, via config.toml, et dans votre thème dossier layouts. Si vous avez plusieurs thèmes, il est très recommandable d&amp;rsquo;avoir un fichier config pour chaque thème et de le changer à chaque changement de thème. Dans config, le # permet de désactiver les commandes.&lt;/p&gt;
-&lt;p&gt;On ne va pas rentrer dans les détails chaque thème est différent.
-Pour écrire des articles, des pages, vous utiliserez le cmd et la commande hugo new pour créer une page ou hugo new posts/nomdupost.md, ensuite utilisez un éditeur de code pour enregistrer vos modifications. Laissez tourner le serveur hugo pendant la réalisation de cette étape car à chaque enregistrement, il se met à jour très rapidement.&lt;/p&gt;
-&lt;h2 id=&#34;déploiement&#34;&gt;Déploiement&lt;/h2&gt;
-&lt;p&gt;Dans cette étape, nous allons utiliser une technique peu coûteuse, vous pouvez si vous le souhaitez ne pas payer. Nous utiliserons Github.&lt;/p&gt;
-&lt;p&gt;Avant toute chose, dans le dossier de votre blog, créez un fichier netlify.toml et copiez-y :&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;
-[&lt;span style=&#34;color:#ae81ff&#34;&gt;build]&lt;/span&gt;
-  &lt;span style=&#34;color:#ae81ff&#34;&gt;publish = &amp;#34;public&amp;#34;&lt;/span&gt;
-  &lt;span style=&#34;color:#ae81ff&#34;&gt;command = &amp;#34;hugo&amp;#34;&lt;/span&gt;
+      <description><p>Ouvrir un site internet sur le domaine public vous engage à respecter les lois en vigueur sur le territoire de votre résidence. Si vous ne souhaitez pas subir le droit en vigueur, vous pouvez vous orienter vers un site caché, .onion.</p>
+<p>J’ai utilisé cette méthode, je souhaitai donc vous la partager.<br>
+Elle n’est pas recommandable pour un site à but lucratif car il s’agit ici d’un CMS statique.<br>
+Bien évidemment, la création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.</p>
+<h2 id="préparation">Préparation</h2>
+<p><a class="" rel="noopener noreferrer" target="_blank" href="https://www.7-zip.org/" >7-zip</a> - Traitement de dossier -<br>
+<a class="" rel="noopener noreferrer" target="_blank" href="https://github.com/gohugoio/hugo/releases" >Hugo</a> - CMS -<br>
+Un compte <a class="" rel="noopener noreferrer" target="_blank" href="https://github.com/" >Github</a> - Votre dépôt internet -<br>
+Un peu de place dans vos documents - Votre dépôt local -<br>
+<a class="" rel="noopener noreferrer" target="_blank" href="https://git-scm.com/" >Git</a> - Gestion de dépôt -<br>
+Un <a class="" rel="noopener noreferrer" target="_blank" href="https://themes.gohugo.io/" >thème hugo</a> -<br>
+Un éditeur de code, dans l&rsquo;exemple nous prendrons <a class="" rel="noopener noreferrer" target="_blank" href="https://www.sublimetext.com/" >sublime text</a> -</p>
+<p>Créez votre compte, téléchargez les applications, choisissez votre thème -Il est possible d&rsquo;en avoir plusieurs bien sur).</p>
+<h2 id="installation">Installation</h2>
+<p>Installez 7-zip.<br>
+Installez Git.<br>
+Sur Github, téléchargez la dernière release Hugo pour votre OS, dans notre exemple, on prendra 60.1-Windows-64bit.<br>
+Extraire le dossier.<br>
+Dans vos documents créez un dossier que vous nommez &lsquo;Hugo&rsquo; (respectez la majuscule).<br>
+Dans ce dossier, créez un dossier &lsquo;bin&rsquo;, copiez-y les fichiers extraits de la release Hugo.
+Allez dans le dossier bin, en haut dans l&rsquo;adresse locale, tapez cmd, puis entrée. Une fois dans l&rsquo;invite de commande(cmd) collez-y :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ae81ff">set PATH=%PATH%;C:\Hugo\bin</span>
+</code></pre></div><p>Fermez l&rsquo;onglet cmd, allez dans le dossier Hugo, ouvrez-y cmd.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ae81ff">hugo new site Blog</span>
+</code></pre></div><p>Votre Site est créé. Il est dans le fichier Blog.</p>
+<h2 id="design">Design</h2>
+<p>Nous allons utiliser pour l&rsquo;exemple un seul thème, <a class="" rel="noopener noreferrer" target="_blank" href="https://themes.gohugo.io/hermit/" >Hermit</a>.<br>
+Pour plus de souplesse, nous n&rsquo;allons pas suivre la procédure recommandé par le créateur du thème.<br>
+Cliquez sur download, puis sur github téléchargez-le :</p>
+<p>Faites extraire. Allez dans les dossiers du thème. Chaque thème est unique. Afin de pouvoir le modifier, ainsi que l&rsquo;optimiser à ses goûts, nous allons procéder à des petites modifications.<br>
+Créez un dossier &lsquo;theme1&rsquo;, puis y insérez les dossiers et fichiers du thème :</p>
+<ul>
+<li>archetypes</li>
+<li>assets</li>
+<li>i18n</li>
+<li>layouts</li>
+<li>.editorconfig</li>
+<li>.gitattributes</li>
+</ul>
+<p>Allez dans le dossier de votre site hugo/Blog, lancez le cmd. Dictez les commandes :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ae81ff">hugo new about.md</span>
+<span style="color:#ae81ff">hugo new posts/article1.md</span>
+</code></pre></div><p>Copiez votre dossier theme1, puis collez le dans Hugo/Blog/thèmes/ .</p>
+<p>Copiez le dossier static du thème et collez-le dans votre Blog. Faites de-même pour le dossier resources.<br>
+Egalement pour le fichier config.toml dans examplesite. Remplacez-le. Ouvrez-le avec votre éditeur de code.</p>
+<p>Nous allons le configurer :</p>
+<p>Allez dans archetypes/default.md, mettez draft : false. Faites de même dans theme1/archetypes/default.md et posts.md .
+Laissez vide la baseUrl pour l&rsquo;instant. Nommez le titre de votre Blog. Nommez &lsquo;theme1&rsquo; pour votre thème. Mettez le en français &lsquo;fr&rsquo;.</p>
+<p>Config :</p>
+<p>Bien votre site tourne ! Testez le via cmd depuis Hugo/Blog, tapez &lsquo;hugo server -D&rsquo;, rendez vous dans votre navigateur a l&rsquo;adresse : http://localhost:1313/.</p>
+<p>Maintenant peaufinez votre site, via config.toml, et dans votre thème dossier layouts. Si vous avez plusieurs thèmes, il est très recommandable d&rsquo;avoir un fichier config pour chaque thème et de le changer à chaque changement de thème. Dans config, le # permet de désactiver les commandes.</p>
+<p>On ne va pas rentrer dans les détails chaque thème est différent.
+Pour écrire des articles, des pages, vous utiliserez le cmd et la commande hugo new pour créer une page ou hugo new posts/nomdupost.md, ensuite utilisez un éditeur de code pour enregistrer vos modifications. Laissez tourner le serveur hugo pendant la réalisation de cette étape car à chaque enregistrement, il se met à jour très rapidement.</p>
+<h2 id="déploiement">Déploiement</h2>
+<p>Dans cette étape, nous allons utiliser une technique peu coûteuse, vous pouvez si vous le souhaitez ne pas payer. Nous utiliserons Github.</p>
+<p>Avant toute chose, dans le dossier de votre blog, créez un fichier netlify.toml et copiez-y :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">
+[<span style="color:#ae81ff">build]</span>
+  <span style="color:#ae81ff">publish = &#34;public&#34;</span>
+  <span style="color:#ae81ff">command = &#34;hugo&#34;</span>
 
-[&lt;span style=&#34;color:#ae81ff&#34;&gt;context.production.environment]&lt;/span&gt;
-  &lt;span style=&#34;color:#ae81ff&#34;&gt;HUGO_VERSION = &amp;#34;0.60.1&amp;#34;&lt;/span&gt;
-  &lt;span style=&#34;color:#ae81ff&#34;&gt;HUGO_ENV = &amp;#34;production&amp;#34;&lt;/span&gt;
-  &lt;span style=&#34;color:#ae81ff&#34;&gt;HUGO_ENABLEGITINFO = &amp;#34;true&amp;#34;&lt;/span&gt;
+[<span style="color:#ae81ff">context.production.environment]</span>
+  <span style="color:#ae81ff">HUGO_VERSION = &#34;0.60.1&#34;</span>
+  <span style="color:#ae81ff">HUGO_ENV = &#34;production&#34;</span>
+  <span style="color:#ae81ff">HUGO_ENABLEGITINFO = &#34;true&#34;</span>
   
-[&lt;span style=&#34;color:#ae81ff&#34;&gt;context.branch-deploy.environment]&lt;/span&gt;
-  &lt;span style=&#34;color:#ae81ff&#34;&gt;HUGO_VERSION = &amp;#34;0.60.1&amp;#34;&lt;/span&gt;
+[<span style="color:#ae81ff">context.branch-deploy.environment]</span>
+  <span style="color:#ae81ff">HUGO_VERSION = &#34;0.60.1&#34;</span>
 
-[&lt;span style=&#34;color:#ae81ff&#34;&gt;context.deploy-preview.environment]&lt;/span&gt;
-  &lt;span style=&#34;color:#ae81ff&#34;&gt;HUGO_VERSION = &amp;#34;0.60.1&amp;#34;&lt;/span&gt;
+[<span style="color:#ae81ff">context.deploy-preview.environment]</span>
+  <span style="color:#ae81ff">HUGO_VERSION = &#34;0.60.1&#34;</span>
   
-[&lt;span style=&#34;color:#ae81ff&#34;&gt;context.deploy-preview]&lt;/span&gt;
-  &lt;span style=&#34;color:#ae81ff&#34;&gt;command = &amp;#34;hugo -b $DEPLOY_PRIME_URL --buildFuture&amp;#34;&lt;/span&gt;
+[<span style="color:#ae81ff">context.deploy-preview]</span>
+  <span style="color:#ae81ff">command = &#34;hugo -b $DEPLOY_PRIME_URL --buildFuture&#34;</span>
 
-[&lt;span style=&#34;color:#ae81ff&#34;&gt;context.branch-deploy]&lt;/span&gt;
-  &lt;span style=&#34;color:#ae81ff&#34;&gt;command = &amp;#34;hugo -b $DEPLOY_PRIME_URL --buildFuture&amp;#34;&lt;/span&gt;
+[<span style="color:#ae81ff">context.branch-deploy]</span>
+  <span style="color:#ae81ff">command = &#34;hugo -b $DEPLOY_PRIME_URL --buildFuture&#34;</span>
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Changez la version de hugo par celle que vous utilisez.&lt;/p&gt;
-&lt;p&gt;Clé SSH :&lt;/p&gt;
-&lt;p&gt;Allez dans Github settings sous votre profil → SSH and GPG → New SSH key. Donnez y un nom.&lt;br&gt;
-Retourner dans le dossier de votre site → clic droit → git bash here.&lt;br&gt;
-Commande :&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;ssh-keygen -t rsa -b 4096 -C &amp;#34;votremail@mail.com&amp;#34; | Changez par le mail de votre compte github&lt;/span&gt;
+</code></pre></div><p>Changez la version de hugo par celle que vous utilisez.</p>
+<p>Clé SSH :</p>
+<p>Allez dans Github settings sous votre profil → SSH and GPG → New SSH key. Donnez y un nom.<br>
+Retourner dans le dossier de votre site → clic droit → git bash here.<br>
+Commande :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ae81ff">ssh-keygen -t rsa -b 4096 -C &#34;votremail@mail.com&#34; | Changez par le mail de votre compte github</span>
 
-&lt;span style=&#34;color:#ae81ff&#34;&gt;Enter a file in which to save the key (/c/Users/you/.ssh/id_rsa):[Press enter] | Appuyez sur Entrée&lt;/span&gt;
-&lt;span style=&#34;color:#f92672&#34;&gt;Enter passphrase (empty for no passphrase)&lt;/span&gt;: [&lt;span style=&#34;color:#ae81ff&#34;&gt;Type a passphrase] | Créez un mot de passe&lt;/span&gt;
-&lt;span style=&#34;color:#f92672&#34;&gt;Enter same passphrase again&lt;/span&gt;: [&lt;span style=&#34;color:#ae81ff&#34;&gt;Type passphrase again] | Vérification du mot de passe&lt;/span&gt;
+<span style="color:#ae81ff">Enter a file in which to save the key (/c/Users/you/.ssh/id_rsa):[Press enter] | Appuyez sur Entrée</span>
+<span style="color:#f92672">Enter passphrase (empty for no passphrase)</span>: [<span style="color:#ae81ff">Type a passphrase] | Créez un mot de passe</span>
+<span style="color:#f92672">Enter same passphrase again</span>: [<span style="color:#ae81ff">Type passphrase again] | Vérification du mot de passe</span>
 
-&lt;span style=&#34;color:#ae81ff&#34;&gt;clip &amp;lt; ~/.ssh/id_rsa.pub&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Retournez sur Github collez votre clé. Validez.&lt;/p&gt;
-&lt;p&gt;Sur Github créez un nouveau projet Blog. Vous arrivez ensuite sur la page du dépôt qui est vide.&lt;br&gt;
-Dans le dossier de votre Blog, clic droit, Git Bash Here. Stoppez l&amp;rsquo;activité en local de votre site.&lt;/p&gt;
-&lt;p&gt;Poursuivons sur votre dépôt :&lt;/p&gt;
-&lt;p&gt;PS: Pour coller du texte dans Git, clic droit paste.&lt;/p&gt;
-&lt;p&gt;Hugo/Blog -&amp;gt; clic droit -&amp;gt; git bash here.&lt;br&gt;
-Commandes :&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;git init  &lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;git remote add origin git@github.com:moncompte/Blog.git  &lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;git add .  &lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;git commit -m &amp;#34;Premier envoi&amp;#34;  &lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;git push -u origin master  &lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Votre Dépôt est à jour. Continuons. Allez sur &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.netlify.com/&#34; &gt;Netlify&lt;/a&gt;. -&amp;gt; Get Started for free. Connectez-vous via Github.
+<span style="color:#ae81ff">clip &lt; ~/.ssh/id_rsa.pub</span>
+</code></pre></div><p>Retournez sur Github collez votre clé. Validez.</p>
+<p>Sur Github créez un nouveau projet Blog. Vous arrivez ensuite sur la page du dépôt qui est vide.<br>
+Dans le dossier de votre Blog, clic droit, Git Bash Here. Stoppez l&rsquo;activité en local de votre site.</p>
+<p>Poursuivons sur votre dépôt :</p>
+<p>PS: Pour coller du texte dans Git, clic droit paste.</p>
+<p>Hugo/Blog -&gt; clic droit -&gt; git bash here.<br>
+Commandes :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ae81ff">git init  </span>
+<span style="color:#ae81ff">git remote add origin git@github.com:moncompte/Blog.git  </span>
+<span style="color:#ae81ff">git add .  </span>
+<span style="color:#ae81ff">git commit -m &#34;Premier envoi&#34;  </span>
+<span style="color:#ae81ff">git push -u origin master  </span>
+</code></pre></div><p>Votre Dépôt est à jour. Continuons. Allez sur <a class="" rel="noopener noreferrer" target="_blank" href="https://www.netlify.com/" >Netlify</a>. -&gt; Get Started for free. Connectez-vous via Github.
 Puis New site from Github. Sélectionnez votre compte Github. Puis le dépôt de votre Blog. Déployez-le.
-Le site déployé dans notre exemple fonctionne. Votre site est normalement sur le net.&lt;/p&gt;
-&lt;h2 id=&#34;intégration&#34;&gt;Intégration&lt;/h2&gt;
-&lt;p&gt;La première chose à faire est de renommer votre domaine. Allez dans site settings -&amp;gt; change site name. Vous vous retrouvez avec exemple-blog.netlify.com . Changez votre baseUrl dans config, en local comme sur Github.&lt;/p&gt;
-&lt;p&gt;Pour ceux ne souhaitant pas payer, la suite n&amp;rsquo;est pas pour vous.&lt;/p&gt;
-&lt;p&gt;Si vous ne possédez pas de nom de domaine, achetez-en un. Désactivez le protocole DNSSEC. Enregistrez quatre Serveurs DNS externes :&lt;/p&gt;
-&lt;p&gt;dns1.p02.nsone.net&lt;br&gt;
-dns2.p02.nsone.net&lt;br&gt;
-dns3.p02.nsone.net&lt;br&gt;
-dns4.p02.nsone.net&lt;/p&gt;
-&lt;p&gt;Retournez sur la page overview de votre site netlify -&amp;gt; Domain settings -&amp;gt; add custom domain -&amp;gt; collez le vôtre. Forcez et/ou attendez la mise en route HTTPS.&lt;/p&gt;
-&lt;p&gt;Nous allons tenter une redirection de votre domaine netlify vers votre domaine externe, pour cela rendez-vous dans le dossier static de votre site sur le dépôt github :&lt;br&gt;
-Ouvrez le EDIWeb, créer un fichier &amp;ldquo;_redirects&amp;rdquo; Copiez-y :&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;
-&lt;span style=&#34;color:#75715e&#34;&gt;# Redirect default Netlify subdomain to primary domain&lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;https://votresite.netlify.com/* https://votredomaine.fr/:splat 301!&lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;http://votresite.netlify.com/* https://votredomaine.fr/:splat 301!&lt;/span&gt;
+Le site déployé dans notre exemple fonctionne. Votre site est normalement sur le net.</p>
+<h2 id="intégration">Intégration</h2>
+<p>La première chose à faire est de renommer votre domaine. Allez dans site settings -&gt; change site name. Vous vous retrouvez avec exemple-blog.netlify.com . Changez votre baseUrl dans config, en local comme sur Github.</p>
+<p>Pour ceux ne souhaitant pas payer, la suite n&rsquo;est pas pour vous.</p>
+<p>Si vous ne possédez pas de nom de domaine, achetez-en un. Désactivez le protocole DNSSEC. Enregistrez quatre Serveurs DNS externes :</p>
+<p>dns1.p02.nsone.net<br>
+dns2.p02.nsone.net<br>
+dns3.p02.nsone.net<br>
+dns4.p02.nsone.net</p>
+<p>Retournez sur la page overview de votre site netlify -&gt; Domain settings -&gt; add custom domain -&gt; collez le vôtre. Forcez et/ou attendez la mise en route HTTPS.</p>
+<p>Nous allons tenter une redirection de votre domaine netlify vers votre domaine externe, pour cela rendez-vous dans le dossier static de votre site sur le dépôt github :<br>
+Ouvrez le EDIWeb, créer un fichier &ldquo;_redirects&rdquo; Copiez-y :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">
+<span style="color:#75715e"># Redirect default Netlify subdomain to primary domain</span>
+<span style="color:#ae81ff">https://votresite.netlify.com/* https://votredomaine.fr/:splat 301!</span>
+<span style="color:#ae81ff">http://votresite.netlify.com/* https://votredomaine.fr/:splat 301!</span>
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Enregistrer dans la branche master.
-Penser à mettre le dossier sur votre disque local au même endroit (static).&lt;/p&gt;
-&lt;p&gt;Voilà votre site tourne !
-A vous de jouer pour obtenir du trafic ! Chacun sa méthode.&lt;/p&gt;
-&lt;p&gt;Dernière chose pour ne pas vous laisser dans l&amp;rsquo;embarras.&lt;/p&gt;
-&lt;h2 id=&#34;mettre-à-jour-son-site&#34;&gt;Mettre à jour son site&lt;/h2&gt;
-&lt;p&gt;Assez complexe, tout d&amp;rsquo;abords ne changez jamais le nom du dépôt Github. Ainsi que le local.
-Exercez votre mise à jour avec &amp;lsquo;hugo server -D&amp;rsquo; désactivé via le cmd.&lt;/p&gt;
-&lt;p&gt;Puis clic droit -&amp;gt; GitBash here. Voici la suite de commande :&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;git status&lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;git add .  &lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;git commit -m &amp;#34;nomdelamiseajour&amp;#34;   &lt;/span&gt;
-&lt;span style=&#34;color:#ae81ff&#34;&gt;git push -u origin master ou git push -f origin master  &lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Normalement votre site se met à jour directement via le dépôt Github.&lt;/p&gt;
-&lt;p&gt;Pensez à vérifier de temps en temps sur netlify, que les mises à jour soient bien publiées, il peut-y avoir des surprises !&lt;/p&gt;</content>
+</code></pre></div><p>Enregistrer dans la branche master.
+Penser à mettre le dossier sur votre disque local au même endroit (static).</p>
+<p>Voilà votre site tourne !
+A vous de jouer pour obtenir du trafic ! Chacun sa méthode.</p>
+<p>Dernière chose pour ne pas vous laisser dans l&rsquo;embarras.</p>
+<h2 id="mettre-à-jour-son-site">Mettre à jour son site</h2>
+<p>Assez complexe, tout d&rsquo;abords ne changez jamais le nom du dépôt Github. Ainsi que le local.
+Exercez votre mise à jour avec &lsquo;hugo server -D&rsquo; désactivé via le cmd.</p>
+<p>Puis clic droit -&gt; GitBash here. Voici la suite de commande :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ae81ff">git status</span>
+<span style="color:#ae81ff">git add .  </span>
+<span style="color:#ae81ff">git commit -m &#34;nomdelamiseajour&#34;   </span>
+<span style="color:#ae81ff">git push -u origin master ou git push -f origin master  </span>
+</code></pre></div><p>Normalement votre site se met à jour directement via le dépôt Github.</p>
+<p>Pensez à vérifier de temps en temps sur netlify, que les mises à jour soient bien publiées, il peut-y avoir des surprises !</p></description>
       
       <category>Internet</category>
       
