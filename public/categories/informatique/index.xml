@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Subversive</title>
@@ -7,18 +8,15 @@
       <link>www.subversive.eu</link>
     </image>
     <link>https://subversive.eu/categories/informatique.html</link>
-    <description>Subversive est un site accueillant un blog, développant un avis critique de nos sociétés.</description>
 
+    <description>Subversive est un site accueillant un blog, développant un avis critique de nos sociétés.</description>
     <language>fr</language>
     
     
     
+
     
-    <lastBuildDate>Wed, 18 Dec 2019 18:00:00 +0000</lastBuildDate>
-    
-        <atom:link href="https://subversive.eu/categories/informatique/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 18 Dec 2019 18:00:00 +0000</lastBuildDate><atom:link href="https://subversive.eu/categories/informatique/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alternatives open source</title>
       <link>https://subversive.eu/posts/alternatives-open-source.html</link>

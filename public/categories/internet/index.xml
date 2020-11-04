@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Subversive</title>
@@ -7,18 +8,15 @@
       <link>www.subversive.eu</link>
     </image>
     <link>https://subversive.eu/categories/internet.html</link>
-    <description>Subversive est un site accueillant un blog, développant un avis critique de nos sociétés.</description>
 
+    <description>Subversive est un site accueillant un blog, développant un avis critique de nos sociétés.</description>
     <language>fr</language>
     
     
     
+
     
-    <lastBuildDate>Fri, 06 Mar 2020 18:00:00 +0000</lastBuildDate>
-    
-        <atom:link href="https://subversive.eu/categories/internet/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 06 Mar 2020 18:00:00 +0000</lastBuildDate><atom:link href="https://subversive.eu/categories/internet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Créer un site internet statique en 2020</title>
       <link>https://subversive.eu/posts/creer-un-site-internet-statique-en-2020.html</link>

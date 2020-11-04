@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Subversive</title>
@@ -7,18 +8,15 @@
       <link>www.subversive.eu</link>
     </image>
     <link>https://subversive.eu/posts.html</link>
-    <description>Subversive est un site accueillant un blog, développant un avis critique de nos sociétés.</description>
 
+    <description>Subversive est un site accueillant un blog, développant un avis critique de nos sociétés.</description>
     <language>fr</language>
     
     
     
+
     
-    <lastBuildDate>Sun, 01 Nov 2020 18:00:00 +0100</lastBuildDate>
-    
-        <atom:link href="https://subversive.eu/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 01 Nov 2020 18:00:00 +0100</lastBuildDate><atom:link href="https://subversive.eu/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bitcoin Monnaie Universelle</title>
       <link>https://subversive.eu/posts/bitcoin-monnaie-universelle.html</link>
