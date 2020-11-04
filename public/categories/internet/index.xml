@@ -24,6 +24,8 @@
       
       <guid>https://subversive.eu/posts/creer-un-site-internet-statique-en-2020.html</guid>
       <description>&lt;p&gt;Méthode utilisée pour ce site.&lt;br&gt;
+La création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Méthode utilisée pour ce site.&lt;br&gt;
 La création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.&lt;/p&gt;
 &lt;h3 id=&#34;a-télécharger-et-installer&#34;&gt;A télécharger et installer&lt;/h3&gt;
 &lt;p&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.7-zip.org/&#34; &gt;7-zip&lt;/a&gt; - Traitement de dossier -&lt;br&gt;
@@ -115,7 +117,10 @@ Exercez votre mise à jour avec &amp;lsquo;hugo server -D&amp;rsquo; désactivé
 &lt;span style=&#34;color:#ae81ff&#34;&gt;git commit -m &amp;#34;nomdelamiseajour&amp;#34;&lt;/span&gt;
 &lt;span style=&#34;color:#ae81ff&#34;&gt;git push -u origin master ou git push -f origin master  &lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Normalement votre site se met à jour directement via le dépôt Github.&lt;/p&gt;
-&lt;p&gt;Pensez à vérifier de temps en temps sur netlify, que les mises à jour soient bien publiées, il peut-y avoir des surprises !&lt;/p&gt;</description>
+&lt;p&gt;Pensez à vérifier de temps en temps sur netlify, que les mises à jour soient bien publiées, il peut-y avoir des surprises !&lt;/p&gt;</content>
+      
+      <category>Internet</category>
+      
     </item>
     
     <item>
@@ -124,7 +129,8 @@ Exercez votre mise à jour avec &amp;lsquo;hugo server -D&amp;rsquo; désactivé
       <pubDate>Wed, 11 Dec 2019 18:00:00 +0000</pubDate>
       
       <guid>https://subversive.eu/posts/creer-son-blog-ou-son-site-internet.html</guid>
-      <description>&lt;p&gt;Ouvrir un site internet sur le domaine public vous engage à respecter les lois en vigueur sur le territoire de votre résidence. Si vous ne souhaitez pas subir le droit en vigueur, vous pouvez vous orienter vers un site caché, .onion.&lt;/p&gt;
+      <description>&lt;p&gt;Ouvrir un site internet sur le domaine public vous engage à respecter les lois en vigueur sur le territoire de votre résidence. Si vous ne souhaitez pas subir le droit en vigueur, vous pouvez vous orienter vers un site caché, .onion.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Ouvrir un site internet sur le domaine public vous engage à respecter les lois en vigueur sur le territoire de votre résidence. Si vous ne souhaitez pas subir le droit en vigueur, vous pouvez vous orienter vers un site caché, .onion.&lt;/p&gt;
 &lt;p&gt;J’ai utilisé cette méthode, je souhaitai donc vous la partager.&lt;br&gt;
 Elle n’est pas recommandable pour un site à but lucratif car il s’agit ici d’un CMS statique.&lt;br&gt;
 Bien évidemment, la création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.&lt;/p&gt;
@@ -259,7 +265,10 @@ Exercez votre mise à jour avec &amp;lsquo;hugo server -D&amp;rsquo; désactivé
 &lt;span style=&#34;color:#ae81ff&#34;&gt;git commit -m &amp;#34;nomdelamiseajour&amp;#34;   &lt;/span&gt;
 &lt;span style=&#34;color:#ae81ff&#34;&gt;git push -u origin master ou git push -f origin master  &lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Normalement votre site se met à jour directement via le dépôt Github.&lt;/p&gt;
-&lt;p&gt;Pensez à vérifier de temps en temps sur netlify, que les mises à jour soient bien publiées, il peut-y avoir des surprises !&lt;/p&gt;</description>
+&lt;p&gt;Pensez à vérifier de temps en temps sur netlify, que les mises à jour soient bien publiées, il peut-y avoir des surprises !&lt;/p&gt;</content>
+      
+      <category>Internet</category>
+      
     </item>
     
   </channel>

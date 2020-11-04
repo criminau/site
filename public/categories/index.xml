@@ -24,6 +24,8 @@
       
       <guid>https://subversive.eu/categories/libert%C3%A9.html</guid>
       <description></description>
+      <content></content>
+      
     </item>
     
     <item>
@@ -33,6 +35,8 @@
       
       <guid>https://subversive.eu/categories/g%C3%A9opolitique.html</guid>
       <description></description>
+      <content></content>
+      
     </item>
     
     <item>
@@ -42,6 +46,8 @@
       
       <guid>https://subversive.eu/categories/d%C3%A9mocratie.html</guid>
       <description></description>
+      <content></content>
+      
     </item>
     
     <item>
@@ -51,6 +57,8 @@
       
       <guid>https://subversive.eu/categories/histoire.html</guid>
       <description></description>
+      <content></content>
+      
     </item>
     
     <item>
@@ -60,6 +68,8 @@
       
       <guid>https://subversive.eu/categories/internet.html</guid>
       <description></description>
+      <content></content>
+      
     </item>
     
     <item>
@@ -69,6 +79,8 @@
       
       <guid>https://subversive.eu/categories/informatique.html</guid>
       <description></description>
+      <content></content>
+      
     </item>
     
     <item>
@@ -78,6 +90,8 @@
       
       <guid>https://subversive.eu/categories/environnement.html</guid>
       <description></description>
+      <content></content>
+      
     </item>
     
     <item>
@@ -87,6 +101,8 @@
       
       <guid>https://subversive.eu/categories/energie.html</guid>
       <description></description>
+      <content></content>
+      
     </item>
     
   </channel>
