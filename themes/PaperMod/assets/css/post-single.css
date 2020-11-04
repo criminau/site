@@ -266,7 +266,7 @@
     fill: currentColor;
     height: 30px;
     width: 30px;
-    margin: 0 10px;
+    margin: 10px;
 }
 
 .share-button-single:hover svg {
