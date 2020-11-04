@@ -23,3 +23,8 @@ Check more :   <https://subversive.eu/apropos/>
 - Flux Rss
 - Commentaires
 - Share Button css
+- Thème Optimisé (soon)
+    - shortcodes
+    - css post content
+    - css toc
+    - css sharebuttons
