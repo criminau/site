@@ -1,12 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 
-<head>    
+        
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <title>Créer un site internet statique en 2020 - subversive.eu</title>
+    
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     
     <meta name="description" content="Méthode utilisée pour ce site.
 La création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.">
@@ -16,8 +20,9 @@ La création d’un site n’est pas une ligne parfaite, vous devrez affronter d
     <link rel="canonical" href="https://subversive.eu/posts/creer-un-site-internet-statique-en-2020.html" />
     
     
-    <link href="https://subversive.eu/css/stylesheet.min.css" rel="stylesheet" as="style">
     
+    
+    <link href="https://subversive.eu/css/all.min.css" rel="stylesheet preload prefetch" as="style">
     
     <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
@@ -50,61 +55,129 @@ La création d’un site n’est pas une ligne parfaite, vous devrez affronter d
 
     
     
-</head>
 
-<body class="single" id="top">
-<script>
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-</script>
-<header class="header">
-    <nav class="nav">
-        <p class="logo"><a href="https://subversive.eu/">subversive.eu</a></p>
-        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
-            <li>
-                <a href="https://subversive.eu/archives/">
-                    <span>
-                        Archives
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a href="https://subversive.eu/categories/">
-                    <span>
-                        Catégories
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a href="https://subversive.eu/apropos/">
-                    <span>
-                        A propos
-                    </span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
-    <main class="main">
 
-<article class="post-single">
-  <header class="post-header">
+    <nav class="navbar" id="sticky-top">
+    <ul class="float-right"><li class="no-deco ">
+    <a class="link-svg-item" href="https://subversive.eu/posts/index.xml" rel="noopener noreferrer"
+    title="Rss"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity">
+    <path d="M4 11a9 9 0 0 1 9 9"></path>
+    <path d="M4 4a16 16 0 0 1 16 16"></path>
+    <circle cx="5" cy="19" r="1"></circle>
+</svg></a>
+</li><li class="no-deco ">
+    <a class="link-svg-item" href="https://github.com/subversive-eu/site" rel="noopener noreferrer"
+    title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg></a>
+</li>
+    </ul>
+    <ul class=""><li class="no-deco ">
+    <a class="link-svg-item" href="../" rel="noopener noreferrer"
+    title="Home"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+  <polyline points="9 22 9 12 15 12 15 22" />
+</svg></a>
+</li><li class="no-deco ">
+    <a class="link-svg-item" href="../apropos/" rel="noopener noreferrer"
+    title="Info"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <line x1="12" y1="16" x2="12" y2="12" />
+  <line x1="12" y1="8" x2="12.01" y2="8" />
+</svg></a>
+</li><li class="no-deco ">
+    <a class="link-svg-item" href="../categories/" rel="noopener noreferrer"
+    title="Categorie"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+</svg></a>
+</li><li class="no-deco ">
+    <a class="link-svg-item" href="../archives/" rel="noopener noreferrer"
+    title="Archive"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <polyline points="21 8 21 21 3 21 3 8" />
+  <rect x="1" y="3" width="22" height="5" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg></a>
+</li>
+    </ul>
+
+</nav>
+
+
+
+<body>
+
+    
+<button onclick="topFunction()" id="myBtn" title="Go to top">Haut de page</button>
+
+
+<div class="container">
+  <div class="post-header">
+    <div class="post-meta">
+      &nbsp;·&nbsp;
+      <time>March 6, 2020</time>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;subversive.eu
+      
+      
+      &nbsp;·&nbsp;
+      <button class="sample-btn">
+      <a name="Télécharger" href="../pdf/Cr%c3%a9er%20un%20site%20internet%20statique%20en%202020.pdf" target="_blank" rel="noopener noreferrer" download>Télécharger le pdf</a>
+      </button>&nbsp;·&nbsp;<button class="sample-btn">
+      <a name ="Imprimer" href="javascript:if(window.print)window.print()">imprimer</a>
+      </button>&nbsp;·&nbsp;<button class="sample-btn">
+        <a name="Télécharger" href="../epub/Cr%c3%a9er%20un%20site%20internet%20statique%20en%202020.epub" target="_blank" rel="noopener noreferrer" download>Téléchager ebook</a>
+      </button>&nbsp;·&nbsp;
+    </div>
     <h1 class="post-title">
       Créer un site internet statique en 2020
     </h1>
-    <div class="post-meta">
-      <time>March 6, 2020</time>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;subversive.eu&nbsp;·&nbsp;
-      <a name="Télécharger" href="../pdf/Cr%c3%a9er%20un%20site%20internet%20statique%20en%202020.pdf" target="_blank" rel="noopener noreferrer" download>télécharger le pdf</a>
-      &nbsp;·&nbsp;
-      <a name ="Imprimer" href="javascript:if(window.print)window.print()">imprimer</a>
-      &nbsp;·&nbsp;
-      <a name="Télécharger" href="../epub/Cr%c3%a9er%20un%20site%20internet%20statique%20en%202020.epub" target="_blank" rel="noopener noreferrer" download>télécharger ebook</a>
-    </div>
-  </header>
-  <div class="toc">
-    <details >
-      <summary>
+  </div>
+  
+  <div class="toc text-light bg-dark">
+    <details  class="">
+      <summary class="">
         <div class="details">Table des matières</div>
       </summary>
       <blockquote><ul><ul><li>
@@ -120,16 +193,18 @@ La création d’un site n’est pas une ligne parfaite, vous devrez affronter d
       </blockquote>
     </details>
   </div>
+  
+  
   <div class="post-content"><p>Méthode utilisée pour ce site.<br>
 La création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.</p>
 <h3 id="a-télécharger-et-installer">A télécharger et installer</h3>
-<p><a class="" rel="noopener noreferrer" target="_blank" href="https://www.7-zip.org/" >7-zip</a> - Traitement de dossier -<br>
-<a class="" rel="noopener noreferrer" target="_blank" href="https://nodejs.org/en/" >Nodejs</a> - Traitement JS -<br>
-Un compte <a class="" rel="noopener noreferrer" target="_blank" href="https://github.com/" >Github</a> - Votre dépôt internet -<br>
+<p><a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://www.7-zip.org/" >7-zip</a> - Traitement de dossier -<br>
+<a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://nodejs.org/en/" >Nodejs</a> - Traitement JS -<br>
+Un compte <a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/" >Github</a> - Votre dépôt internet -<br>
 Un peu de place dans vos documents - Votre dépôt local -<br>
-<a class="" rel="noopener noreferrer" target="_blank" href="https://git-scm.com/" >Git</a> - Gestion de dépôt -<br>
-Un <a class="" rel="noopener noreferrer" target="_blank" href="https://hexo.io/themes/" >thème hexo</a> -<br>
-Un éditeur de code, dans l&rsquo;exemple nous prendrons <a class="" rel="noopener noreferrer" target="_blank" href="https://www.sublimetext.com/" >sublime text</a> -</p>
+<a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://git-scm.com/" >Git</a> - Gestion de dépôt -<br>
+Un <a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://hexo.io/themes/" >thème hexo</a> -<br>
+Un éditeur de code, dans l&rsquo;exemple nous prendrons <a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://www.sublimetext.com/" >sublime text</a> -</p>
 <p>Créez votre compte, téléchargez les applications, choisissez votre thème.</p>
 <p>Installez 7-zip.<br>
 NodeJS puis Git.</p>
@@ -180,7 +255,7 @@ Commandes :</p>
 <span style="color:#ae81ff">git add .  </span>
 <span style="color:#ae81ff">git commit -m &#34;Premier envoi&#34;  </span>
 <span style="color:#ae81ff">git push -u origin master  </span>
-</code></pre></div><p>Votre Dépôt est à jour. Continuons. Allez sur <a class="" rel="noopener noreferrer" target="_blank" href="https://www.netlify.com/" >Netlify</a>. -&gt; Get Started for free. Connectez-vous via Github.
+</code></pre></div><p>Votre Dépôt est à jour. Continuons. Allez sur <a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://www.netlify.com/" >Netlify</a>. -&gt; Get Started for free. Connectez-vous via Github.
 Puis New site from Github. Sélectionnez votre compte Github. Puis le dépôt de votre Blog. Déployez-le.
 Le site déployé dans notre exemple fonctionne. Votre site est normalement sur le net.</p>
 <h2 id="intégration-payant-pas-obligatoire">Intégration (payant, pas obligatoire)</h2>
@@ -213,10 +288,57 @@ Exercez votre mise à jour avec &lsquo;hugo server -D&rsquo; désactivé via le 
 <span style="color:#ae81ff">git push -u origin master ou git push -f origin master  </span>
 </code></pre></div><p>Normalement votre site se met à jour directement via le dépôt Github.</p>
 <p>Pensez à vérifier de temps en temps sur netlify, que les mises à jour soient bien publiées, il peut-y avoir des surprises !</p></div>
-  <footer class="post-footer">
-    <ul class="post-tags">
-      <li><a href="https://subversive.eu/categories/internet">Internet</a></li>
+
+  
+  
+  <div class="post-footer">
+
+    <ul class="">
+      
+      <li>
+        <button class="sample-btn"><a href="https://subversive.eu/categories/internet">Internet</a></button>&nbsp;·&nbsp;
+      </li>
     </ul>
+      <ul class="">
+      
+      <li>
+      </li>
+    </ul>
+    <ul class="">
+      
+      <li>
+    </li>
+    </ul>
+  </div>
+  
+  <div class="post-comments">
+
+<div id="graphcomment"></div>
+<script type="text/javascript">
+
+   
+
+  
+  window.gc_params = {
+    graphcomment_id: 'subversive',
+
+    
+    fixed_header_height: 0,
+  };
+
+   
+
+  
+  (function() {
+    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+    gc.src = 'https://graphcomment.com/js/integration.js?' + Math.round(Math.random() * 1e8);
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+  })();
+
+</script>
+  </div>
+
+   
 <div class="share-buttons">
     
     <a class="share-button-single" target="_blank" rel="noopener noreferrer"
@@ -274,86 +396,20 @@ Exercez votre mise à jour avec &lsquo;hugo server -D&rsquo; désactivé via le 
         </svg>
     </a>
 </div>
-  </footer>
 
-<div id="graphcomment"></div>
-<script type="text/javascript">
 
-   
-
-  
-  window.gc_params = {
-    graphcomment_id: 'subversive',
-
-    
-    fixed_header_height: 0,
-  };
-
-   
-
-  
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.src = 'https://graphcomment.com/js/integration.js?' + Math.round(Math.random() * 1e8);
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-
-</script>
-</article>
-    </main><footer class="footer">
-    <span>&copy; 2020 <a href="https://subversive.eu/">subversive.eu</a></span>
-    <span>&middot;</span>
-    <span></span><a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/deed.fr">Creative Commons License</a></span>
-
-    
-
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top">
-    <button class="top-link" id="top-link" type="button">
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <polyline points="18 15 12 9 6 15" />
-</svg>
-    </button>
-</a>
-<script src="https://subversive.eu/js/highlight.min.min.js" ></script>
-<script>hljs.initHighlightingOnLoad();</script>
-<script>
-    window.onload = function () {
-        if (localStorage.getItem("menu-scroll-position")) {
-            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
-        }
-    }
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-
-            document.querySelector(this.getAttribute("href")).scrollIntoView({
-                behavior: "smooth"
-            });
-        });
-    });
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-    function menu_on_scroll() {
-        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
-    }
-</script>
+</div> 
 </body>
 
+<div class="footer text-center">
+  <span>&copy; 2020 <a href="https://subversive.eu/">subversive.eu</a></span>
+
+  <span>&middot;</span>
+
+  <span></span><a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/deed.fr">Creative Commons License</a></span>
+
+
+
+<script src="https://subversive.eu/js/script.min.js" rel="stylesheet" as="style"></script>
+</div>
 </html>

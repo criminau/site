@@ -146,11 +146,8 @@ Exemple : si le cours passe sous le support, remonte et ne passe pas la résista
 et économique à tous les citoyens du monde en offrant un système de paiment
 décentralisé. Mais les Hommes avides et cupides risquent tous de ne pas en profiter.&lt;/p&gt;
 &lt;h3 id=&#34;sources&#34;&gt;Sources&lt;/h3&gt;
-&lt;p&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.bitcoincours.com/p/livre-blanc-bitcoin.html?m=1&#34; &gt;Le livre Blanc&lt;/a&gt;&lt;br&gt;
-&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://bitcoin.org/fr/&#34; &gt;Site Officiel fr&lt;/a&gt;&lt;/p&gt;</description>
-      
-      <category>Liberté</category>
-      
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.bitcoincours.com/p/livre-blanc-bitcoin.html?m=1&#34; &gt;Le livre Blanc&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://bitcoin.org/fr/&#34; &gt;Site Officiel fr&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -213,9 +210,6 @@ D’une part, les puissances économiques mondiales ont su réagir et mettre en 
 &lt;p&gt;Les états organisent à grande échelle, les acteurs font le boulot. Cela garantit plus de commerce.&lt;/p&gt;
 &lt;h2 id=&#34;pour-penser-plus-loin&#34;&gt;Pour penser plus loin&lt;/h2&gt;
 &lt;p&gt;C&amp;rsquo;est probablement pour cela que cela ce met en place, la hausse des échanges entraînent une modification de la gestion. Prenons la réflexion à l&amp;rsquo;envers.&lt;/p&gt;</description>
-      
-      <category>Géopolitique</category>
-      
     </item>
     
     <item>
@@ -225,7 +219,6 @@ D’une part, les puissances économiques mondiales ont su réagir et mettre en 
       
       <guid>https://subversive.eu/archives/</guid>
       <description></description>
-      
     </item>
     
     <item>
@@ -242,34 +235,33 @@ D’une part, les puissances économiques mondiales ont su réagir et mettre en 
 &lt;p&gt;Les formats PDF sont les plus à jour et propre .&lt;/p&gt;
 &lt;h3 id=&#34;journal-des-modifications-et-version&#34;&gt;Journal des modifications et version&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/site/releases&#34; &gt;Lisez-moi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/site/releases&#34; &gt;Lisez-moi&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;outils&#34;&gt;Outils&lt;/h3&gt;
 &lt;h4 id=&#34;cms&#34;&gt;CMS&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://gohugo.io&#34; &gt;Hugo CMS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/site&#34; &gt;Code source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://gohugo.io&#34; &gt;Hugo CMS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/site&#34; &gt;Code source&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;hébergement&#34;&gt;Hébergement&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://netlify.com&#34; &gt;Netlify&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://netlify.com&#34; &gt;Netlify&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Le domaine subversive.eu est financé intégralement par l&amp;rsquo;auteur de l&amp;rsquo;oeuvre .&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;thèmes&#34;&gt;Thème(s)&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/adityatelange/hugo-PaperMod/&#34; &gt;PaperMod&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/hugo-subversive/&#34; &gt;Subversive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/adityatelange/hugo-PaperMod/&#34; &gt;PaperMod&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/hugo-subversive/&#34; &gt;Subversive&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;commentaires&#34;&gt;Commentaires&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://graphcomment.com/&#34; &gt;Graphcomment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://graphcomment.com/&#34; &gt;Graphcomment&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;droits&#34;&gt;Droits&lt;/h3&gt;
-&lt;p&gt;Application complète du &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34; &gt;Règlement général sur la protection des données&lt;/a&gt; .&lt;/p&gt;
-&lt;p&gt;L&amp;rsquo;ensemble de l&amp;rsquo;oeuvre (l&amp;rsquo;intégralité du contenu) est sous &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://creativecommons.org/licenses/by-nc/4.0/deed.fr&#34; &gt;Creative Commons License&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;Application complète du &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34; &gt;Règlement général sur la protection des données&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;ensemble de l&amp;rsquo;oeuvre (l&amp;rsquo;intégralité du contenu) est sous &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://creativecommons.org/licenses/by-nc/4.0/deed.fr&#34; &gt;Creative Commons License&lt;/a&gt; .&lt;/p&gt;
 &lt;p&gt;Aucune action pour suivre les visiteurs.&lt;/p&gt;
 </description>
-      
     </item>
     
     <item>
@@ -353,9 +345,6 @@ Que votre objectif principal est de traduire la nature même de l&amp;rsquo;entr
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;Les films soulignent et exagèrent les tendances populaires au lieu de stimuler l&amp;rsquo;apparition de nouvelles manières de voir et de penser. Le cinéma ne sert que les idées et les faits à la mode. Le cinéma a pour vocation de distraire.&lt;/p&gt;
 &lt;p&gt;La propagande ne cessera jamais d&amp;rsquo;exister. Les esprits intelligents doivent comprendre qu&amp;rsquo;elle leur offre l&amp;rsquo;outil moderne dont ils doivent se saisir à des fins productives, pour créer de l&amp;rsquo;ordre à partir du chaos.&lt;/p&gt;</description>
-      
-      <category>Démocratie</category>
-      
     </item>
     
     <item>
@@ -420,13 +409,10 @@ L’opération DefenderEurope20 est probablement responsable d’un surplus en E
 En quelques jours tous les gouvernants du monde se sont affolés subitement aux propos de cette maladie.&lt;br&gt;
 En Chine, il y aura plus de vie sauvée de la pollution que de mort du covid-19.&lt;/p&gt;
 &lt;h3 id=&#34;sources&#34;&gt;Sources&lt;/h3&gt;
-&lt;p&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.naturalnews.com/2020-02-25-iranian-strain-coronavirus-morphed-version-wuhan.html&#34; &gt;Différente souche du virus en Iran&lt;/a&gt;&lt;br&gt;
-&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.biorxiv.org/content/10.1101/2020.01.30.927871v1.full.pdf&#34; &gt;Virus artificiel&lt;/a&gt;&lt;br&gt;
-&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://euromomo.eu&#34; &gt;EuroMOMO&lt;/a&gt;&lt;br&gt;
-&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://youtu.be/Gdd7dtDaYmM&#34; &gt;Virus artificiel&lt;/a&gt;&lt;/p&gt;</description>
-      
-      <category>Démocratie</category>
-      
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.naturalnews.com/2020-02-25-iranian-strain-coronavirus-morphed-version-wuhan.html&#34; &gt;Différente souche du virus en Iran&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.biorxiv.org/content/10.1101/2020.01.30.927871v1.full.pdf&#34; &gt;Virus artificiel&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://euromomo.eu&#34; &gt;EuroMOMO&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://youtu.be/Gdd7dtDaYmM&#34; &gt;Virus artificiel&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -537,9 +523,6 @@ Des théories affirment que la modernisation permet la domination, or la récent
 &lt;p&gt;Le monde semble bien parti pour un nouveau tour de passe-passe entre civilisations, lorsqu&amp;rsquo;une vaincra je crois alors que la paix régnera, s&amp;rsquo;en suivra une bataille sociale qui nous mènera tout droit vers la fin, cette fois-ci de notre propre espèce.&lt;/p&gt;
 &lt;p&gt;Nous avons été capable de s’admettre et de compenser à s’entendre entre peuple, il me semble admissible d’imaginer de nous entendre entre civilisations de même race.&lt;/p&gt;
 &lt;p&gt;Afin de réduire les risques des facteurs climatiques, je pense que produire sous terre reste la meilleure solution. Protection contre les éruptions solaire, contre l’absence de lumière, protection de la nature, protection visuelle, &amp;hellip; Bien sur il nous faudra revoir nos outils de production, notre transformation d’énergie, sa gestion et sa distribution.&lt;/p&gt;</description>
-      
-      <category>Géopolitique</category>
-      
     </item>
     
     <item>
@@ -565,9 +548,6 @@ Des théories affirment que la modernisation permet la domination, or la récent
 &lt;p&gt;Le rapprochement avec la Russie de l&amp;rsquo;Allemagne et la France, montre que les Usa ne font plus peur mais que la menace vient d&amp;rsquo;ailleurs. Malgré leurs grognements, l&amp;rsquo;Europe de la défense continue son chemin, les agressions turques nous permettrons de nous souder, le nouveau cloud européen ajoute la notion de corporation et de superpuissance. La France a son rôle à jouer car elle est la seule à posséder et maîtriser une armée invincible. Il nous faudra donc négocier avec les Allemands afin d&amp;rsquo;envisager, une défense plus approfondie, je ne pense pas que nous soyons prêt, et que les nations européennes le soit aussi, a prêter et utiliser notre bombe. Dès 2016, la France disait à l&amp;rsquo;OTAN que la menace n&amp;rsquo;était plus la Russie d&amp;rsquo;après elle. Et on le voit aujourd&amp;rsquo;hui. Les tentatives d&amp;rsquo;accords entre la France et les Anglais sur l&amp;rsquo;arme atomique nous témoigne que nous ne sommes toujours pas prêt à partager notre arme. Mais nul doute que personne n&amp;rsquo;osera taper un pays de l&amp;rsquo;Europe tant qu&amp;rsquo;un possède la bombe. C&amp;rsquo;est sur ce point là, notamment vis à vis de la Grèce, que le Sultan Turc ne viendra pas en face à face.&lt;/p&gt;
 &lt;h2 id=&#34;pour-penser-plus-loin&#34;&gt;Pour penser plus loin.&lt;/h2&gt;
 &lt;p&gt;Il faut une bonne dose de chauvinisme pour lire et comprendre cet article. Je pense que les Européens ont bien compris qu&amp;rsquo;être les premiers est trop compliqué, mieux vaut suivre sereinement. Les Russes et Japonais probablement. Mais pour les autres, l&amp;rsquo;Histoire nous le dira.&lt;/p&gt;</description>
-      
-      <category>Géopolitique</category>
-      
     </item>
     
     <item>
@@ -659,9 +639,6 @@ Est-il envisageable que cette maladie soit un énième coup de Trafalgar de nos 
 Durant ce confinement, j&amp;rsquo;ai eu confirmation que 30 000 ans d&amp;rsquo;histoire n&amp;rsquo;assure pas une évolution cérébrale telle que la différence sautera aux yeux.&lt;/p&gt;
 &lt;h2 id=&#34;pour-conclure&#34;&gt;Pour conclure&lt;/h2&gt;
 &lt;p&gt;Vous retiendrez ce qui vous intéresse.&lt;/p&gt;</description>
-      
-      <category>Géopolitique</category>
-      
     </item>
     
     <item>
@@ -704,12 +681,9 @@ Au XIIIème siècle, l’Occitanie accueille une grande diversité de culture, o
 &lt;h2 id=&#34;pour-penser-plus-loin&#34;&gt;Pour penser plus loin&lt;/h2&gt;
 &lt;p&gt;Au cours de l’Histoire, l’Occitanie que l’on nomme aujourd’hui connu d’autre termes, l’Aquitaine, le Comté de Province, on nous surnomme aussi la petite France, du fait de nos attraits géographique. Inutile de vous expliquer les raisons des deux croisades. Rome et Paris étaient sont et resteront vos capitales religieuse et politique.&lt;/p&gt;
 &lt;h3 id=&#34;sources&#34;&gt;Sources&lt;/h3&gt;
-&lt;p&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://gallica.bnf.fr/ark:/12148/bpt6k5772863h/f19.image&#34; &gt;Histoire du Béarn&lt;/a&gt; - Emile Garet&lt;br&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://gallica.bnf.fr/ark:/12148/bpt6k5772863h/f19.image&#34; &gt;Histoire du Béarn&lt;/a&gt; - Emile Garet&lt;br&gt;
 Albigeois et Cathares - Fernand Niel&lt;br&gt;
 Histoire des Aquitains - Antoine Lebègue&lt;/p&gt;</description>
-      
-      <category>Histoire</category>
-      
     </item>
     
     <item>
@@ -740,9 +714,6 @@ pour soutenir leur États, entre 20 et 30%, ainsi ils négligent les placements 
 &lt;p&gt;Les fonds ont des avantages et des inconvénients pour tous. A nous Européens de modifier notre espace afin de gérer et contrôler les fonds étranger. A nous de profiter de cette manne afin d’améliorer nos coopérations bilatérales. A nous d’espérer que nos dirigeants face de même pour nous assurer prospérité.&lt;/p&gt;
 &lt;p&gt;Encore une fois, on voit bien que personne ne pense au peuple, au nord c’est priorité au libéralisme, on préfère la dette et la croissance. Au sud, on préfère enrichir sa famille sur la croissance des pays pauvres.&lt;/p&gt;
 </description>
-      
-      <category>Géopolitique</category>
-      
     </item>
     
     <item>
@@ -754,13 +725,13 @@ pour soutenir leur États, entre 20 et 30%, ainsi ils négligent les placements 
       <description>&lt;p&gt;Méthode utilisée pour ce site.&lt;br&gt;
 La création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.&lt;/p&gt;
 &lt;h3 id=&#34;a-télécharger-et-installer&#34;&gt;A télécharger et installer&lt;/h3&gt;
-&lt;p&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.7-zip.org/&#34; &gt;7-zip&lt;/a&gt; - Traitement de dossier -&lt;br&gt;
-&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://nodejs.org/en/&#34; &gt;Nodejs&lt;/a&gt; - Traitement JS -&lt;br&gt;
-Un compte &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/&#34; &gt;Github&lt;/a&gt; - Votre dépôt internet -&lt;br&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.7-zip.org/&#34; &gt;7-zip&lt;/a&gt; - Traitement de dossier -&lt;br&gt;
+&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://nodejs.org/en/&#34; &gt;Nodejs&lt;/a&gt; - Traitement JS -&lt;br&gt;
+Un compte &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/&#34; &gt;Github&lt;/a&gt; - Votre dépôt internet -&lt;br&gt;
 Un peu de place dans vos documents - Votre dépôt local -&lt;br&gt;
-&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://git-scm.com/&#34; &gt;Git&lt;/a&gt; - Gestion de dépôt -&lt;br&gt;
-Un &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://hexo.io/themes/&#34; &gt;thème hexo&lt;/a&gt; -&lt;br&gt;
-Un éditeur de code, dans l&amp;rsquo;exemple nous prendrons &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.sublimetext.com/&#34; &gt;sublime text&lt;/a&gt; -&lt;/p&gt;
+&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://git-scm.com/&#34; &gt;Git&lt;/a&gt; - Gestion de dépôt -&lt;br&gt;
+Un &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://hexo.io/themes/&#34; &gt;thème hexo&lt;/a&gt; -&lt;br&gt;
+Un éditeur de code, dans l&amp;rsquo;exemple nous prendrons &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.sublimetext.com/&#34; &gt;sublime text&lt;/a&gt; -&lt;/p&gt;
 &lt;p&gt;Créez votre compte, téléchargez les applications, choisissez votre thème.&lt;/p&gt;
 &lt;p&gt;Installez 7-zip.&lt;br&gt;
 NodeJS puis Git.&lt;/p&gt;
@@ -811,7 +782,7 @@ Commandes :&lt;/p&gt;
 &lt;span style=&#34;color:#ae81ff&#34;&gt;git add .  &lt;/span&gt;
 &lt;span style=&#34;color:#ae81ff&#34;&gt;git commit -m &amp;#34;Premier envoi&amp;#34;  &lt;/span&gt;
 &lt;span style=&#34;color:#ae81ff&#34;&gt;git push -u origin master  &lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Votre Dépôt est à jour. Continuons. Allez sur &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.netlify.com/&#34; &gt;Netlify&lt;/a&gt;. -&amp;gt; Get Started for free. Connectez-vous via Github.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Votre Dépôt est à jour. Continuons. Allez sur &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.netlify.com/&#34; &gt;Netlify&lt;/a&gt;. -&amp;gt; Get Started for free. Connectez-vous via Github.
 Puis New site from Github. Sélectionnez votre compte Github. Puis le dépôt de votre Blog. Déployez-le.
 Le site déployé dans notre exemple fonctionne. Votre site est normalement sur le net.&lt;/p&gt;
 &lt;h2 id=&#34;intégration-payant-pas-obligatoire&#34;&gt;Intégration (payant, pas obligatoire)&lt;/h2&gt;
@@ -844,9 +815,6 @@ Exercez votre mise à jour avec &amp;lsquo;hugo server -D&amp;rsquo; désactivé
 &lt;span style=&#34;color:#ae81ff&#34;&gt;git push -u origin master ou git push -f origin master  &lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Normalement votre site se met à jour directement via le dépôt Github.&lt;/p&gt;
 &lt;p&gt;Pensez à vérifier de temps en temps sur netlify, que les mises à jour soient bien publiées, il peut-y avoir des surprises !&lt;/p&gt;</description>
-      
-      <category>Internet</category>
-      
     </item>
     
     <item>
@@ -869,9 +837,6 @@ Exercez votre mise à jour avec &amp;lsquo;hugo server -D&amp;rsquo; désactivé
 &lt;p&gt;Bien sur, la coopération militaire entre les Européens est forte et solide. Nous utilisons au Sahel (par exemple) des moyens aéroportés de transport anglais, des instructeurs pour les soldats maliens Allemands et Italiens.&lt;br&gt;
 La protection des bases et convois de ravitaillement est réalisé par des troupes d’élites estonienne (oui).&lt;/p&gt;
 &lt;p&gt;Ainsi la paix dure. D’ouvrir nos armées à des personnels étrangers est un bon début si on regarde loin dans l’avenir, celui de partager nos capacités militaire entre européens semble inévitable.&lt;/p&gt;</description>
-      
-      <category>Géopolitique</category>
-      
     </item>
     
     <item>
@@ -897,9 +862,6 @@ La protection des bases et convois de ravitaillement est réalisé par des troup
 &lt;p&gt;L’OTAN connaît une phase difficile, n’en déplaise a certain, la Turquie rêve d’un nouvel empire.. Seul le russe semble pouvoir le contenir. Les intérêts divergent, l’Allemagne y reste dépendante et solidement arrimée. La France semble avoir compris que seule l’Europe peut nous permettre d’être fort, seul nous n’y arriverons pas. Face au réticence et peur Allemande qu’allons nous faire ? Le temps joue contre nous tout de même, il ne faut pas le négliger, tout va très vite aujourd’hui.&lt;/p&gt;
 &lt;h3 id=&#34;pour-penser-plus-loin&#34;&gt;Pour penser plus loin&lt;/h3&gt;
 &lt;p&gt;Celui qui vient trop tard punit la vie.&lt;/p&gt;</description>
-      
-      <category>Géopolitique</category>
-      
     </item>
     
     <item>
@@ -919,9 +881,6 @@ La protection des bases et convois de ravitaillement est réalisé par des troup
 &lt;h2 id=&#34;corrélation&#34;&gt;Corrélation&lt;/h2&gt;
 &lt;p&gt;Aujourd’hui avec les évènements actuels, le mouvement dit véganisme, et certes correct, nous ne pouvons nous passer de viande d’origine animale si nous souhaitons nous assurer un apport juste et proportionné pour notre corps.&lt;/p&gt;
 &lt;p&gt;Qui plus ait est financé par des multinationales commerçant et produisant des plats tout prêt, pratique, peu cher à la production. Au port d’amsterdam, arrive des céréaliers rempli de maïs, où est extrait la cellulose pour en faire des plats tout prêt.&lt;/p&gt;</description>
-      
-      <category>Liberté</category>
-      
     </item>
     
     <item>
@@ -951,9 +910,6 @@ Pourtant nous leur attribuons bien la notion de vie, puisque l’on y attribue l
 &lt;h2 id=&#34;pour-penser-plus-loin&#34;&gt;Pour penser plus loin&lt;/h2&gt;
 &lt;p&gt;Nous pourrions donc définir plusieurs sens de la vie, mais cela est-il correct ? Le premier serait celui des Hommes, agrandir leur champ relationnel, mais en y réfléchissant cela leur permet de survivre. Et nous revenons donc à l’idée apportée aux animaux, celui de la survie. Logique puisque nous sommes des animaux.&lt;/p&gt;
 &lt;p&gt;Ainsi il serait acceptable de répondre à la question, qu’attends la vie de nous, de survivre. Nous pourrions très bien ouvrir le débat sur la manière d’améliorer notre survie, mais ce n’est pas le sujet ici.&lt;/p&gt;</description>
-      
-      <category>Liberté</category>
-      
     </item>
     
     <item>
@@ -996,12 +952,9 @@ Au XIIIème siècle, l’Occitanie accueille une grande diversité de culture, o
 &lt;h2 id=&#34;pour-penser-plus-loin&#34;&gt;Pour penser plus loin&lt;/h2&gt;
 &lt;p&gt;Au cours de l’Histoire, l’Occitanie que l’on nomme aujourd’hui connu d’autre termes, l’Aquitaine, le Comté de Province, on nous surnomme aussi la petite France, du fait de nos attraits géographique. Inutile de vous expliquer les raisons des deux croisades. Rome et Paris étaient sont et resteront vos capitales religieuse et politique.&lt;/p&gt;
 &lt;h3 id=&#34;sources&#34;&gt;Sources&lt;/h3&gt;
-&lt;p&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://gallica.bnf.fr/ark:/12148/bpt6k5772863h/f19.image&#34; &gt;Histoire du Béarn&lt;/a&gt; - Emile Garet&lt;br&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://gallica.bnf.fr/ark:/12148/bpt6k5772863h/f19.image&#34; &gt;Histoire du Béarn&lt;/a&gt; - Emile Garet&lt;br&gt;
 Albigeois et Cathares - Fernand Niel&lt;br&gt;
 Histoire des Aquitains - Antoine Lebègue&lt;/p&gt;</description>
-      
-      <category>Histoire</category>
-      
     </item>
     
     <item>
@@ -1072,9 +1025,6 @@ Israël et la Palestine ont cessé les négociations de Paris il y a fort longte
 L’ennemi intérieur - Mathieu Rigouste&lt;br&gt;
 Le XXe siècle - René rémond&lt;br&gt;
 DébatDoc - LCP&lt;/p&gt;</description>
-      
-      <category>Géopolitique</category>
-      
     </item>
     
     <item>
@@ -1102,9 +1052,6 @@ DébatDoc - LCP&lt;/p&gt;</description>
 &lt;p&gt;Résumons, les chasseurs-cueilleurs en -30 000 ans avaient un cerveau capable de spiritualité, l’appel à la spiritualité fut trop fort, ils durent développer l’agriculture. Des civilisations pacifiques existent mais un DRIAS les fait disparaître, cependant certains transmettent leur existence, via la bible, des textes sacrés égyptien, grecs et Hindou, ainsi que leur technique. A la suite du changement climatique les Hommes sont retombés dans l’animosité et la barbarie. Ils ont mis du temps à se reconstruire mais continuent d’exister. Ils ont développé une spiritualité polythéiste avant de se rassembler au nom des textes anciens en religions monothéistes preuvent de leur animosité et barbarie dans une soif absolu de pouvoir.&lt;/p&gt;
 &lt;h2 id=&#34;pour-penser-plus-loin&#34;&gt;Pour penser plus loin&lt;/h2&gt;
 &lt;p&gt;Pour la gloire, ils ont fait tuer des gens pour l’Histoire. Aujourd’hui, lorsque l’on visite ces grands temples, ces cathédrales, on trouve cela beau mais aucune pensées n’iront aux hommes qui sont mort pour la gloire, enfin pour pas grand chose. Ils ont construit des pyramides qui permet de faire monter l’âme vers l’au delà… Bref, c’était pour la gloire. La folie régnait-elle avant le grand déluge ?&lt;/p&gt;</description>
-      
-      <category>Histoire</category>
-      
     </item>
     
     <item>
@@ -1117,23 +1064,20 @@ DébatDoc - LCP&lt;/p&gt;</description>
 Avant de commencer il faut préciser qu’il est assez difficile d’évoluer via ses outils différents.&lt;/p&gt;
 &lt;p&gt;Il faut une maîtrise minimale des langages informatiques adaptés.&lt;/p&gt;
 &lt;h2 id=&#34;la-base&#34;&gt;La base&lt;/h2&gt;
-&lt;p&gt;Commençons par la base, les systèmes d&amp;rsquo;exploitation (OS) open source : Un rapide tour sur la toile pour obtenir une liste brève. On a testé &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://pureos.net/&#34; &gt;PureOS&lt;/a&gt; et &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://getfedora.org/fr/&#34; &gt;Fedora&lt;/a&gt;. PureOs est assez complexe à installer, peu de personnes l’utilise il y a donc peu de tutoriel. Fedora possède une communauté plus dense, donc est plus ouvert aux novices. Il faut maîtriser le langage des terminaux ainsi que l’anglais, le français est disponible mais les terminaux restent en anglais. Sur Linux, je vous recommande d’utiliser &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://snapcraft.io/&#34; &gt;Snapcraft&lt;/a&gt; peu importe votre OS, a moins bien sur les plus utilisés du grand public. Snapcraft a son propre terminal qui vous permet d’installer rapidement et assez facilement leurs applications distribuées. Comme &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://protonvpn.com/&#34; &gt;ProtonVPN&lt;/a&gt; qui vous offre un VPN gratuit, c’est déjà ça ! Pour les fans de Windows10, ou les joueurs il existe ça : &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.winprivacy.de/english-home/&#34; &gt;W10Privacy&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Commençons par la base, les systèmes d&amp;rsquo;exploitation (OS) open source : Un rapide tour sur la toile pour obtenir une liste brève. On a testé &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://pureos.net/&#34; &gt;PureOS&lt;/a&gt; et &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://getfedora.org/fr/&#34; &gt;Fedora&lt;/a&gt;. PureOs est assez complexe à installer, peu de personnes l’utilise il y a donc peu de tutoriel. Fedora possède une communauté plus dense, donc est plus ouvert aux novices. Il faut maîtriser le langage des terminaux ainsi que l’anglais, le français est disponible mais les terminaux restent en anglais. Sur Linux, je vous recommande d’utiliser &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://snapcraft.io/&#34; &gt;Snapcraft&lt;/a&gt; peu importe votre OS, a moins bien sur les plus utilisés du grand public. Snapcraft a son propre terminal qui vous permet d’installer rapidement et assez facilement leurs applications distribuées. Comme &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://protonvpn.com/&#34; &gt;ProtonVPN&lt;/a&gt; qui vous offre un VPN gratuit, c’est déjà ça ! Pour les fans de Windows10, ou les joueurs il existe ça : &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.winprivacy.de/english-home/&#34; &gt;W10Privacy&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;communication&#34;&gt;Communication&lt;/h2&gt;
-&lt;p&gt;N’oubliez pas vous avez également chez eux la messagerie &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://protonmail.com/&#34; &gt;ProtonMail&lt;/a&gt; un peu plus sécurisée que les classiques. Restons dans le partage et continuons notre découverte. Pour échanger avec plus de sécurité vous pouvez utiliser &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://retroshare.cc/&#34; &gt;RetroSahre&lt;/a&gt; et pour partager des fichiers lourd vous avez &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://onionshare.org/&#34; &gt;OnionShare&lt;/a&gt;. Malheureusement il y a très peu d’utilisateur, et il existe une grande quantité d’autres applications. Essayez de convaincre vos proches dans leur utilisation. Il existe également des plateformes pour manipuler du texte, des classeurs, des sondages à plusieurs bien sécurisées comme &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://cryptpad.fr/&#34; &gt;CryptPad&lt;/a&gt;. Des alternatives à youtube ça existe aussi comme &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://peertube.fr/&#34; &gt;PeerTube&lt;/a&gt;, &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.bitchute.com/&#34; &gt;bitChute&lt;/a&gt;, SolidTube (&lt;a href=&#34;https://solid.tube/)&#34;&gt;https://solid.tube/)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;N’oubliez pas vous avez également chez eux la messagerie &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://protonmail.com/&#34; &gt;ProtonMail&lt;/a&gt; un peu plus sécurisée que les classiques. Restons dans le partage et continuons notre découverte. Pour échanger avec plus de sécurité vous pouvez utiliser &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://retroshare.cc/&#34; &gt;RetroSahre&lt;/a&gt; et pour partager des fichiers lourd vous avez &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://onionshare.org/&#34; &gt;OnionShare&lt;/a&gt;. Malheureusement il y a très peu d’utilisateur, et il existe une grande quantité d’autres applications. Essayez de convaincre vos proches dans leur utilisation. Il existe également des plateformes pour manipuler du texte, des classeurs, des sondages à plusieurs bien sécurisées comme &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://cryptpad.fr/&#34; &gt;CryptPad&lt;/a&gt;. Des alternatives à youtube ça existe aussi comme &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://peertube.fr/&#34; &gt;PeerTube&lt;/a&gt;, &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.bitchute.com/&#34; &gt;bitChute&lt;/a&gt;, SolidTube (&lt;a href=&#34;https://solid.tube/)&#34;&gt;https://solid.tube/)&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;smartphone&#34;&gt;Smartphone&lt;/h2&gt;
-&lt;p&gt;Conseil numéro un sur mobile, quittez Android et iOS. Il existe un dépôt comme google play mais en version open source français &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://f-droid.org/&#34; &gt;F-Droid&lt;/a&gt;, vous y retrouverez &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.simplemobiletools.com/&#34; &gt;SimpleMobileTools&lt;/a&gt; ainsi que le [GuardianProject]https://guardianproject.info/). Vous pouvez installer &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://exodus-privacy.eu.org/fr/&#34; &gt;Exodus Privacy&lt;/a&gt; et observer qui surveille vos données. Comme navigateur nous avons tester &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://play.google.com/store/apps/details?id=com.androidbull.incognito.browser&amp;amp;hl=fr&#34; &gt;Incognito Browser&lt;/a&gt; ainsi que &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://play.google.com/store/apps/details?id=org.mozilla.firefox&amp;amp;hl=fr&#34; &gt;Firefox&lt;/a&gt; - n’oubliez pas de le configurer -. Changer également le moteur de recherche, &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.qwant.com/?l=fr&#34; &gt;Qwant&lt;/a&gt; reste très bien, dans un cas de recherche de documents &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.bing.com/&#34; &gt;Bing&lt;/a&gt; est très bien adapté. Pour connaître qui vous espionne sans connaissance, utilisez &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://play.google.com/store/apps/details?id=com.arcane.incognito&amp;amp;hl=fr&#34; &gt;Incognito&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Conseil numéro un sur mobile, quittez Android et iOS. Il existe un dépôt comme google play mais en version open source français &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://f-droid.org/&#34; &gt;F-Droid&lt;/a&gt;, vous y retrouverez &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.simplemobiletools.com/&#34; &gt;SimpleMobileTools&lt;/a&gt; ainsi que le [GuardianProject]https://guardianproject.info/). Vous pouvez installer &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://exodus-privacy.eu.org/fr/&#34; &gt;Exodus Privacy&lt;/a&gt; et observer qui surveille vos données. Comme navigateur nous avons tester &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://play.google.com/store/apps/details?id=com.androidbull.incognito.browser&amp;amp;hl=fr&#34; &gt;Incognito Browser&lt;/a&gt; ainsi que &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://play.google.com/store/apps/details?id=org.mozilla.firefox&amp;amp;hl=fr&#34; &gt;Firefox&lt;/a&gt; - n’oubliez pas de le configurer -. Changer également le moteur de recherche, &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.qwant.com/?l=fr&#34; &gt;Qwant&lt;/a&gt; reste très bien, dans un cas de recherche de documents &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.bing.com/&#34; &gt;Bing&lt;/a&gt; est très bien adapté. Pour connaître qui vous espionne sans connaissance, utilisez &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://play.google.com/store/apps/details?id=com.arcane.incognito&amp;amp;hl=fr&#34; &gt;Incognito&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;sécurité&#34;&gt;Sécurité&lt;/h2&gt;
 &lt;p&gt;Pas de secret, suite aux révélations concernant l’espionnage des deux grands leader du marché de la sécurité, inutile de vous dire que les outils de défense sur le marché sont potentiellement inefficace. La clé est ailleurs, il ne faut pas faire n’importe quoi, garder tout toujours à jour, en open source comme en classique, ses OS et ses outils. N’importe quoi signifie de ne pas aller sur des sites qui grouillent de pub, ne pas ouvrir les fenêtres. Lire les objets et les expéditeurs des mails que l’on reçoit. Si suspect jetez les. Ne pas donner son adresse e-mail à n’importe qui et n’importe où. Lors des téléchargements vérifiez le fournisseur. Et si vous faites preuve de bon sens, et que vous n’avez rien à vous reprocher, tout se passera bien.&lt;br&gt;
-Petit logiciel bien utile et rapide &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://fr.malwarebytes.com/adwcleaner/&#34; &gt;Adwcleaner&lt;/a&gt;, malheureusement racheté. Vous avez aussi les bloqueurs de pubs comme µBlockOrigin, qui ne fonctionne plus trop depuis que Google a mis à jour sa politique d’hébergement des extensions. Faut patienter. Il existe aussi Désactivation de Google Analytics, Unblock Youtube qui permet d’éviter la censure. Si vous avez la sensation que votre ordinateur est mal en point, niveaux malware par exemple, allez faire un tour chez &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.nicolascoolman.com/fr/en/&#34; &gt;Nicolas Coolman&lt;/a&gt;, il y a tout pour un petit nettoyage.&lt;/p&gt;
+Petit logiciel bien utile et rapide &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://fr.malwarebytes.com/adwcleaner/&#34; &gt;Adwcleaner&lt;/a&gt;, malheureusement racheté. Vous avez aussi les bloqueurs de pubs comme µBlockOrigin, qui ne fonctionne plus trop depuis que Google a mis à jour sa politique d’hébergement des extensions. Faut patienter. Il existe aussi Désactivation de Google Analytics, Unblock Youtube qui permet d’éviter la censure. Si vous avez la sensation que votre ordinateur est mal en point, niveaux malware par exemple, allez faire un tour chez &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.nicolascoolman.com/fr/en/&#34; &gt;Nicolas Coolman&lt;/a&gt;, il y a tout pour un petit nettoyage.&lt;/p&gt;
 &lt;h2 id=&#34;sauvegarde&#34;&gt;Sauvegarde&lt;/h2&gt;
-&lt;p&gt;Stocker vos fichiers sur plusieurs disques dur, USB, Disque dur externes, autre PC ou Ordinateur Bureau, téléphone. Cela réduit le risque de pertes totales. Il y a la solution du cloud, avec &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://mega.nz/&#34; &gt;Mega&lt;/a&gt;. Vous avez également la possibilité de crypter vos données via &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://cryptomator.org/&#34; &gt;Cryptomator&lt;/a&gt; et les envoyés sur un cloud, ou bien les crypter directement sur vos disques via &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.veracrypt.fr/en/Home.html&#34; &gt;VeraCrypt&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Stocker vos fichiers sur plusieurs disques dur, USB, Disque dur externes, autre PC ou Ordinateur Bureau, téléphone. Cela réduit le risque de pertes totales. Il y a la solution du cloud, avec &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://mega.nz/&#34; &gt;Mega&lt;/a&gt;. Vous avez également la possibilité de crypter vos données via &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://cryptomator.org/&#34; &gt;Cryptomator&lt;/a&gt; et les envoyés sur un cloud, ou bien les crypter directement sur vos disques via &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.veracrypt.fr/en/Home.html&#34; &gt;VeraCrypt&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;pour-aller-plus-loin&#34;&gt;Pour aller plus loin&lt;/h2&gt;
 &lt;p&gt;Pourquoi pas envisager un tutoriel, aller sur le darknet et non le deepweb. N’oubliez pas il existe toujours un moyen de contourner. L’anonymat n’existe pas, puisque nous ne faisons que décaler les preuves. En sécurité vous ne serez jamais mieux servit que par vous-même.&lt;br&gt;
-Deux liens très utiles &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.privacytools.io/&#34; &gt;PrivacyTools&lt;/a&gt;.&lt;br&gt;
-Pour les élus(ues) de la République : &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://www.openmairie.org/&#34; &gt;OpenMairie&lt;/a&gt;.&lt;/p&gt;</description>
-      
-      <category>Informatique</category>
-      
+Deux liens très utiles &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.privacytools.io/&#34; &gt;PrivacyTools&lt;/a&gt;.&lt;br&gt;
+Pour les élus(ues) de la République : &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://www.openmairie.org/&#34; &gt;OpenMairie&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1147,13 +1091,13 @@ Pour les élus(ues) de la République : &lt;a class=&#34;&#34; rel=&#34;noopener
 Elle n’est pas recommandable pour un site à but lucratif car il s’agit ici d’un CMS statique.&lt;br&gt;
 Bien évidemment, la création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.&lt;/p&gt;
 &lt;h2 id=&#34;préparation&#34;&gt;Préparation&lt;/h2&gt;
-&lt;p&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.7-zip.org/&#34; &gt;7-zip&lt;/a&gt; - Traitement de dossier -&lt;br&gt;
-&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/gohugoio/hugo/releases&#34; &gt;Hugo&lt;/a&gt; - CMS -&lt;br&gt;
-Un compte &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/&#34; &gt;Github&lt;/a&gt; - Votre dépôt internet -&lt;br&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.7-zip.org/&#34; &gt;7-zip&lt;/a&gt; - Traitement de dossier -&lt;br&gt;
+&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/gohugoio/hugo/releases&#34; &gt;Hugo&lt;/a&gt; - CMS -&lt;br&gt;
+Un compte &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/&#34; &gt;Github&lt;/a&gt; - Votre dépôt internet -&lt;br&gt;
 Un peu de place dans vos documents - Votre dépôt local -&lt;br&gt;
-&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://git-scm.com/&#34; &gt;Git&lt;/a&gt; - Gestion de dépôt -&lt;br&gt;
-Un &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://themes.gohugo.io/&#34; &gt;thème hugo&lt;/a&gt; -&lt;br&gt;
-Un éditeur de code, dans l&amp;rsquo;exemple nous prendrons &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.sublimetext.com/&#34; &gt;sublime text&lt;/a&gt; -&lt;/p&gt;
+&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://git-scm.com/&#34; &gt;Git&lt;/a&gt; - Gestion de dépôt -&lt;br&gt;
+Un &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://themes.gohugo.io/&#34; &gt;thème hugo&lt;/a&gt; -&lt;br&gt;
+Un éditeur de code, dans l&amp;rsquo;exemple nous prendrons &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.sublimetext.com/&#34; &gt;sublime text&lt;/a&gt; -&lt;/p&gt;
 &lt;p&gt;Créez votre compte, téléchargez les applications, choisissez votre thème -Il est possible d&amp;rsquo;en avoir plusieurs bien sur).&lt;/p&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;p&gt;Installez 7-zip.&lt;br&gt;
@@ -1168,7 +1112,7 @@ Allez dans le dossier bin, en haut dans l&amp;rsquo;adresse locale, tapez cmd, p
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;hugo new site Blog&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Votre Site est créé. Il est dans le fichier Blog.&lt;/p&gt;
 &lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;
-&lt;p&gt;Nous allons utiliser pour l&amp;rsquo;exemple un seul thème, &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://themes.gohugo.io/hermit/&#34; &gt;Hermit&lt;/a&gt;.&lt;br&gt;
+&lt;p&gt;Nous allons utiliser pour l&amp;rsquo;exemple un seul thème, &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://themes.gohugo.io/hermit/&#34; &gt;Hermit&lt;/a&gt;.&lt;br&gt;
 Pour plus de souplesse, nous n&amp;rsquo;allons pas suivre la procédure recommandé par le créateur du thème.&lt;br&gt;
 Cliquez sur download, puis sur github téléchargez-le :&lt;/p&gt;
 &lt;p&gt;Faites extraire. Allez dans les dossiers du thème. Chaque thème est unique. Afin de pouvoir le modifier, ainsi que l&amp;rsquo;optimiser à ses goûts, nous allons procéder à des petites modifications.&lt;br&gt;
@@ -1244,7 +1188,7 @@ Commandes :&lt;/p&gt;
 &lt;span style=&#34;color:#ae81ff&#34;&gt;git add .  &lt;/span&gt;
 &lt;span style=&#34;color:#ae81ff&#34;&gt;git commit -m &amp;#34;Premier envoi&amp;#34;  &lt;/span&gt;
 &lt;span style=&#34;color:#ae81ff&#34;&gt;git push -u origin master  &lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Votre Dépôt est à jour. Continuons. Allez sur &lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.netlify.com/&#34; &gt;Netlify&lt;/a&gt;. -&amp;gt; Get Started for free. Connectez-vous via Github.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Votre Dépôt est à jour. Continuons. Allez sur &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.netlify.com/&#34; &gt;Netlify&lt;/a&gt;. -&amp;gt; Get Started for free. Connectez-vous via Github.
 Puis New site from Github. Sélectionnez votre compte Github. Puis le dépôt de votre Blog. Déployez-le.
 Le site déployé dans notre exemple fonctionne. Votre site est normalement sur le net.&lt;/p&gt;
 &lt;h2 id=&#34;intégration&#34;&gt;Intégration&lt;/h2&gt;
@@ -1278,9 +1222,6 @@ Exercez votre mise à jour avec &amp;lsquo;hugo server -D&amp;rsquo; désactivé
 &lt;span style=&#34;color:#ae81ff&#34;&gt;git push -u origin master ou git push -f origin master  &lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Normalement votre site se met à jour directement via le dépôt Github.&lt;/p&gt;
 &lt;p&gt;Pensez à vérifier de temps en temps sur netlify, que les mises à jour soient bien publiées, il peut-y avoir des surprises !&lt;/p&gt;</description>
-      
-      <category>Internet</category>
-      
     </item>
     
     <item>
@@ -1318,9 +1259,6 @@ Exercez votre mise à jour avec &amp;lsquo;hugo server -D&amp;rsquo; désactivé
 &lt;p&gt;D&amp;rsquo;une part, l&amp;rsquo;attitude de nos « élites » qui, derrière un discours circonstancié sur la mondialisation mais en réalité motivées par la satisfaction d&amp;rsquo;intérêts personnels ou la dissimulation d&amp;rsquo;erreurs stratégiques sont en train de vendre nos joyaux industriels à l‘étranger, n&amp;rsquo;hésitant pas à sacrifier notre indépendance militaire et nucléaire.&lt;br&gt;
 D&amp;rsquo;autre part, l&amp;rsquo;incompétence et l&amp;rsquo;impuissance des politiques, qui n&amp;rsquo;ont toujours pas compris ce qu&amp;rsquo;était la guerre économique moderne et se révèlent incapables de défendre nos intérêts.
 Dans ce dossier, rien n&amp;rsquo;a été fait pour sauver Alstom, le gouvernement n’a pas été à la hauteur des enjeux.&lt;/p&gt;</description>
-      
-      <category>Géopolitique</category>
-      
     </item>
     
     <item>
@@ -1345,12 +1283,9 @@ Dans ce dossier, rien n&amp;rsquo;a été fait pour sauver Alstom, le gouverneme
 &lt;p&gt;Le réchauffement climatique, qui est une réalité, résulte principalement d&amp;rsquo;une réduction de la capacité des océans, réchauffés par les fonds marins et saturés de polymères organiques flottants et de résidus d&amp;rsquo;hydrocarbures, à récupérer la chaleur et le dioxyde de carbone de l&amp;rsquo;atmosphère.&lt;/p&gt;
 &lt;p&gt;Bref le reste, c’est du flan.&lt;/p&gt;
 &lt;h3 id=&#34;sources&#34;&gt;Sources&lt;/h3&gt;
-&lt;p&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.emse.fr/~bouchardon/enseignement/processus-naturels/up1/web/wiki/Q%20-%20Energie%20interne%20-%20la%20chaleur%20interne%20sur%20Terre%20-%20Letellier.htm&#34; &gt;D’où provient la chaleur interne sur Terre ?&lt;/a&gt;&lt;br&gt;
-&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.nature.com/articles/s41598-018-19244-x&#34; &gt;Le réchauffement au Groenland&lt;/a&gt;&lt;br&gt;
-&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://appinsys.com/globalwarming/SixtyYearCycle.htm&#34; &gt;Cycle de variation de la température moyenne Terrestre&lt;/a&gt;&lt;/p&gt;</description>
-      
-      <category>Environnement</category>
-      
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.emse.fr/~bouchardon/enseignement/processus-naturels/up1/web/wiki/Q%20-%20Energie%20interne%20-%20la%20chaleur%20interne%20sur%20Terre%20-%20Letellier.htm&#34; &gt;D’où provient la chaleur interne sur Terre ?&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.nature.com/articles/s41598-018-19244-x&#34; &gt;Le réchauffement au Groenland&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://appinsys.com/globalwarming/SixtyYearCycle.htm&#34; &gt;Cycle de variation de la température moyenne Terrestre&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1368,9 +1303,6 @@ Dans ce dossier, rien n&amp;rsquo;a été fait pour sauver Alstom, le gouverneme
 &lt;p&gt;Avec l’Allemagne nous réunissons la première puissance automobile et chimique de la planète. Les pays de l’est exportent de la viande en grande quantité. Mais l’Europe a ses problèmes qui pourraient lui causer bien des dangers. Le premier est sa démographie malgré l’arrivé d’immigrés, vieillissante, très vieillissante, que faire, surtout quand nous avons un bien triste exemple au Japon de l’avenir qui nous attend. Le second est le modèle économique, sociétal, environnemental, mais ici ce n’est pas le sujet.&lt;/p&gt;
 &lt;h2 id=&#34;stratégique&#34;&gt;Stratégique&lt;/h2&gt;
 &lt;p&gt;Grâce au Traité de coopération et d’intégration franco-allemand d’Aix-la-Chapelle, certes nous perdons de la souveraineté, mais nous gagnons un allié fidèle avec qui nous sommes battus pendant des siècles. Qu’y a t&amp;rsquo;il de plus beau qu’un continent qui après avoir fait la guerre arrive à s’entendre de mieux en mieux, et à communiquer et coopérer ? Le vieux continent continue de montrer l’exemple.&lt;/p&gt;</description>
-      
-      <category>Géopolitique</category>
-      
     </item>
     
     <item>
@@ -1384,9 +1316,6 @@ Dans ce dossier, rien n&amp;rsquo;a été fait pour sauver Alstom, le gouverneme
 &lt;p&gt;Dix mois plus tard, ce même président fait demie-tour concernant une réforme. Voilà que les bourgeois et les installés, voilà que les pilleurs et les profiteurs, se mettaient à trembler. Voilà que ceux qui s’étaient allègrement, joyeusement, sans ne jamais craindre de contrecoup, compromis, se trouvaient exposés. Voilà que les spécialistes planétaires de la répression; de la guerre contre-subversive, aujourd’hui de l’ordre républicain, de la sécurité pour la liberté; entrent en scène, les maîtres vont donner un cours de pur génie militaire.&lt;/p&gt;
 &lt;p&gt;Et ils font bien, ils appliquent leurs outils, avec dextérité et précision. Voilà que la Russie déjà bien engagée dans la répression continue, fait face elle aussi, a un mécontentement. Les russes tiennent. Voilà qu’à Hong Kong eux aussi ne sont pas contents, mais qu’ont-ils, ils ne sont pas les deux cents milles à crever de faim comme chez nous. Voilà qu’ils sont trop instruits. Voilà que le jeu tourne un peu trop vite pour certains, trop lentement pour d’autres.&lt;/p&gt;
 &lt;p&gt;Voilà qu’un gouvernement plie, et fait demie-tour. Voilà les élèves qui n’ont pas suivi le cours. Voilà pourquoi Le Monde tremble tant à l’idée de l’appuyer. Voilà pourquoi Les Gilets Jaunes Triompheront.&lt;/p&gt;</description>
-      
-      <category>Démocratie</category>
-      
     </item>
     
     <item>
@@ -1400,10 +1329,10 @@ Dans ce dossier, rien n&amp;rsquo;a été fait pour sauver Alstom, le gouverneme
 &lt;h2 id=&#34;traités-européens&#34;&gt;Traités Européens&lt;/h2&gt;
 &lt;p&gt;L’Europe a été créé le 1 novembre 1993 par six pays fondateurs, elle est régulée par des traités signés et validés par les états membres. Aujourd’hui il y a quatre traités en vigueur :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://eur-lex.europa.eu/collection/eu-law/treaties/treaties-force.html?locale=fr#new-2-51&#34; &gt;Traité sur l’Union Européenne&lt;/a&gt; (2016)&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://eur-lex.europa.eu/collection/eu-law/treaties/treaties-force.html?locale=fr#new-2-52&#34; &gt;Traité sur le Fonctionnement de l’Union Européenne&lt;/a&gt; (version consolidée 2016)&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://eur-lex.europa.eu/collection/eu-law/treaties/treaties-force.html?locale=fr#new-2-53&#34; &gt;Traité instituant la Communauté européenne de l’énergie atomique&lt;/a&gt; (2016)&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://eur-lex.europa.eu/collection/eu-law/treaties/treaties-force.html?locale=fr#new-2-54&#34; &gt;Charte des Droits Fondamentaux de l’Union Européenne&lt;/a&gt; (2016)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://eur-lex.europa.eu/collection/eu-law/treaties/treaties-force.html?locale=fr#new-2-51&#34; &gt;Traité sur l’Union Européenne&lt;/a&gt; (2016)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://eur-lex.europa.eu/collection/eu-law/treaties/treaties-force.html?locale=fr#new-2-52&#34; &gt;Traité sur le Fonctionnement de l’Union Européenne&lt;/a&gt; (version consolidée 2016)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://eur-lex.europa.eu/collection/eu-law/treaties/treaties-force.html?locale=fr#new-2-53&#34; &gt;Traité instituant la Communauté européenne de l’énergie atomique&lt;/a&gt; (2016)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://eur-lex.europa.eu/collection/eu-law/treaties/treaties-force.html?locale=fr#new-2-54&#34; &gt;Charte des Droits Fondamentaux de l’Union Européenne&lt;/a&gt; (2016)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;détails&#34;&gt;Détails&lt;/h2&gt;
 &lt;p&gt;Je cite : TFUE (vc) - 2016 :&lt;/p&gt;
@@ -1444,9 +1373,6 @@ Dans ce dossier, rien n&amp;rsquo;a été fait pour sauver Alstom, le gouverneme
 &lt;h4 id=&#34;la-démocratie-une-erreur-&#34;&gt;La Démocratie, une erreur ?&lt;/h4&gt;
 &lt;p&gt;Alors que le monde est une guerre permanente, elle prend la forme de guerre économique, psychologique, militaire. L’union fait la force, vous connaissez. L’Europe réponds très bien à ce souhait là, ils s’unissent après de longues guerres, presque 1000 ans de guerre continue.&lt;/p&gt;
 &lt;p&gt;Une union qui ne peut fonctionner que si chacun fait son boulot, que si les directives vont vite. Et sous cette europe peu démocratique, elles vont vites, très vite, c’est très avantageux sur la scène internationale, cela permet de ne pas perdre de temps face à des dictateurs comme en Chine, ou Russie, ainsi l’Europe conserve sa puissance et l’améliore à l’unisson. Ainsi elle ne perds pas de temps, et ne subit pas de désavantage avec les autres nations.&lt;/p&gt;</description>
-      
-      <category>Démocratie</category>
-      
     </item>
     
     <item>
@@ -1470,9 +1396,6 @@ Dans ce dossier, rien n&amp;rsquo;a été fait pour sauver Alstom, le gouverneme
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;Bien sûr nous ne faisons aucunement mentions des conseils que nous donnent Bruxelles concernant les barrages français. L&amp;rsquo;eau ressource inépuisable, surtout dans les lieux où se trouvent les barrages, source d&amp;rsquo;énergie donc très conséquente. Cela assure une rente fiable à 100% pour tout barrage dédié à la production d&amp;rsquo;énergie. Tout est déjà fait, il ne reste plus qu&amp;rsquo;à se gaver, magnifique coup !&lt;/p&gt;
 &lt;p&gt;Il semblerait évident que nos gouvernants souhaitant éviter la catastrophe gardent les producteurs d’énergie sous leur contrôle pour optimiser la capacité d’autonomie du pays – la souveraineté – et surtout ne pas subir des pressions externes d’autres pays voir d’investisseurs particuliers.&lt;/p&gt;</description>
-      
-      <category>Energie</category>
-      
     </item>
     
   </channel>
