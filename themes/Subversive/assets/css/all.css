@@ -268,6 +268,11 @@ a{
   width: 100%;
   height: 100%;
 }
+.post-comments{
+  margin: 10px;
+  width: 100%;
+  height: 100%;
+}
 .post-footer ul {
   list-style-type: none;
 }

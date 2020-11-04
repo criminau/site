@@ -1,19 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Environnement on subversive.eu</title>
+    <title>Subversive</title>
+
     <link>https://subversive.eu/categories/environnement.html</link>
-    <description>Recent content in Environnement on subversive.eu</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Subversive est un site accueillant un blog, développant un avis critique de nos sociétés.</description>
+
     <language>fr</language>
-    <lastBuildDate>Mon, 25 Nov 2019 18:00:00 +0000</lastBuildDate><atom:link href="https://subversive.eu/categories/environnement/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    
+    <lastBuildDate>Mon, 25 Nov 2019 18:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://subversive.eu/categories/environnement/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Climat et température terrestre</title>
       <link>https://subversive.eu/posts/climat-et-temperature-terrestre.html</link>
       <pubDate>Mon, 25 Nov 2019 18:00:00 +0000</pubDate>
       
       <guid>https://subversive.eu/posts/climat-et-temperature-terrestre.html</guid>
-      <description>&lt;p&gt;La plupart du temps, le noyau de la Terre réchauffe la planète.&lt;/p&gt;</description>
+      <description>&lt;p&gt;La plupart du temps, le noyau de la Terre réchauffe la planète.&lt;/p&gt;
+&lt;p&gt;Cependant, l&amp;rsquo;augmentation des émissions atmosphériques de gaz à effet de serre, auxquels les éruptions volcaniques et les feux de forêt sont fortement associés, ont également contribué à environ 29 % du réchauffement planétaire depuis 1976, avec d&amp;rsquo;énormes variations annuelles.&lt;/p&gt;
+&lt;h2 id=&#34;influence&#34;&gt;Influence&lt;/h2&gt;
+&lt;p&gt;La température du cœur de la Terre est inﬂuencée par trois facteurs principaux :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;une pression interne élevée induisant une compression de la structure cristalline de fer.&lt;/li&gt;
+&lt;li&gt;les inﬂuences gravitationnelles de la Lune et du Soleil induisant de petites ﬂuctuations cycliques à la frontière solide/liquide.&lt;/li&gt;
+&lt;li&gt;les interactions avec une quantité signiﬁcative de neutrinos traversant le treillis cristallin du noyau interne.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Les deux premiers facteurs maintiennent l&amp;rsquo;ensemble du noyau dans un état d&amp;rsquo;équilibre relativement stable avec des variations de seulement quelques dizaines de degrés (°K).&lt;/p&gt;
+&lt;p&gt;Seuls les changements dans le ﬂux solaire de neutrinos peuvent avoir une inﬂuence significative sur une plage de centaines de degrés.&lt;/p&gt;
+&lt;p&gt;Au contraire, lorsque l&amp;rsquo;activité solaire diminue, le noyau planétaire refroidi assez soudainement avec des réajustements endothermiques de la structure cubique. Les couches supérieures sont affectées progressivement par la même relative et soudaine baisse de température.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Le réchauffement climatique, qui est une réalité, résulte principalement d&amp;rsquo;une réduction de la capacité des océans, réchauffés par les fonds marins et saturés de polymères organiques flottants et de résidus d&amp;rsquo;hydrocarbures, à récupérer la chaleur et le dioxyde de carbone de l&amp;rsquo;atmosphère.&lt;/p&gt;
+&lt;p&gt;Bref le reste, c’est du flan.&lt;/p&gt;
+&lt;h3 id=&#34;sources&#34;&gt;Sources&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.emse.fr/~bouchardon/enseignement/processus-naturels/up1/web/wiki/Q%20-%20Energie%20interne%20-%20la%20chaleur%20interne%20sur%20Terre%20-%20Letellier.htm&#34; &gt;D’où provient la chaleur interne sur Terre ?&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.nature.com/articles/s41598-018-19244-x&#34; &gt;Le réchauffement au Groenland&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://appinsys.com/globalwarming/SixtyYearCycle.htm&#34; &gt;Cycle de variation de la température moyenne Terrestre&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

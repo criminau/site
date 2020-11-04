@@ -17,3 +17,10 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+// Nested comments
+
+function changeValue(elementName, newValue){
+  document.getElementsByName(elementName)[0].value=newValue;
+  window.location.hash = "#comment-form";
+};
