@@ -20,5 +20,5 @@ Check more :   <https://subversive.eu/apropos/>
 
 ### v.01.4
 
-- rss
-- comments
+- Flux Rss
+- Commentaires
