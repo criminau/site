@@ -17,3 +17,8 @@ Check more :   <https://subversive.eu/apropos/>
 - html minify
 - Full SEO
 - More responsive
+
+### v.01.4
+
+- rss
+- comments

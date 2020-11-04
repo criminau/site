@@ -17,7 +17,7 @@ params:
   env: production # enable google analytics, opengraph, twitter-cards and schema.
   description: 'Subversive est un site accueillant un blog, développant un avis critique de nos sociétés.'
   ShowReadingTime: true
-  comments: false
+  comments: true
   contentTypeName: posts
   defaultTheme: auto
   ShowShareButtons: true
