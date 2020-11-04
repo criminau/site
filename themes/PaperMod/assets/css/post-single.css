@@ -255,7 +255,6 @@
 }
 
 .share-buttons {
-    margin: 4px 0;
     text-align: center;
     background: var(--code-bg);
     border-radius: var(--radius);
