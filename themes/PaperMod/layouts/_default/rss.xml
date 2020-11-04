@@ -25,7 +25,7 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author }}<author>by {{.}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
-      <description>{{ .Content | html }}</description>
+      <description>{{- .Content | html -}}</description>
     </item>
     {{ end }}
   </channel>
