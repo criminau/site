@@ -1,0 +1,304 @@
+/* MArKdoWn !! -----------------------------------------------------------------------------*/
+.post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+    margin: 24px 0 16px 0;
+}
+.post-content h1 {
+    margin: 40px auto 32px auto;
+    font-size: 40px;
+}
+.post-content h2 {
+    margin: 32px auto 24px auto;
+    font-size: 32px;
+    margin-left: 1%;
+}
+.post-content h3 {
+    font-size: 24px;
+    margin-left: 2%;
+}
+.post-content h4 {
+    font-size: 16px;
+    margin-left: 3%;
+}
+.post-content h5 {
+    font-size: 14px;
+    margin-left: 4%;
+}
+.post-content h6 {
+    font-size: 12px;
+    margin-left: 5%;
+}
+.post-content a {
+    box-shadow: 0 1px 0 var(--primary);
+}
+.post-content a code {
+    margin: auto 0;
+    border-radius: 0;
+    box-shadow: 0 -1px 0 var(--primary) inset;
+}
+.post-content del {
+    text-decoration: none;
+    background: linear-gradient(to right, var(--primary) 100%, transparent 0) 0 50% / 1px 1px repeat-x;
+}
+.post-content p, .post-content ul, .post-content ol, .post-content dl {
+    margin-bottom: var(--content-gap);
+}
+.post-content ul, .post-content ol {
+    padding-left: 20px;
+}
+.post-content li {
+    margin-top: 5px;
+}
+.post-content li p {
+    margin-bottom: 0;
+}
+.post-content dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.post-content dt {
+    width: 25%;
+    font-weight: 700;
+}
+.post-content dd {
+    width: 75%;
+    margin-left: 0;
+    padding-left: 10px;
+}
+.post-content dt~dt, .post-content dd~dd {
+    margin-top: 10px;
+}
+.post-content table{
+    margin-bottom: 32px;
+    margin-top: 32px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    width: 100%;
+    max-width: 100%;
+}
+.post-content th, td{
+    padding: 1.5%;
+    border: 1px solid;
+}
+.post-content th {
+    font-weight: 700;
+    vertical-align: bottom;
+}
+.post-content .highlight, .post-content pre {
+    margin: auto calc(var(--gap) * -1) 32px calc(var(--gap) * -1);
+    background: var(--hljs-bg) !important;
+    border-radius: var(--radius);
+    background-color: yellow;
+}
+.post-content li>.highlight {
+    margin-right: 0 
+}
+.post-content ul pre {
+    margin-left: calc(var(--gap) * -2);
+}
+.post-content .highlight pre {
+    margin: 0;
+}
+.post-content .highlighttable {
+    table-layout: fixed;
+}
+.post-content .highlighttable td:first-child {
+    width: 40px;
+}
+.post-content .highlighttable td .linenodiv {
+    padding-right: 0 !important;
+}
+.post-content .highlighttable td .linenodiv pre, .post-content .highlighttable td .highlight {
+    margin-bottom: 0;
+}
+.post-content .highlighttable td .highlight pre code::-webkit-scrollbar {
+    display: none;
+}
+.post-content .highlight span {
+    background: transparent !important;
+}
+.post-content code {
+    margin: auto 4px;
+    padding: 5px;
+    font-family: Menlo, Monaco, 'Courier New', Courier, monospace;
+    font-size: 0.78em;
+    line-height: 1.5;
+    color: white;
+    background: #282D32;
+    border-radius: 2px;
+}
+.post-content pre code {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    font-family: Menlo, Monaco, 'Courier New', Courier, monospace;
+    font-size: 0.78em;
+    line-height: 1.5;
+    color: white;
+    background:#282D32;
+    border-radius: 2px;
+    overflow-x: auto;
+}
+.post-content blockquote {
+    padding: 0 32px;
+    border-left: 2px solid grey;
+}
+.post-content hr {
+    margin: 2rem;
+    height: 3px;
+    background: rgba(0, 0, 0, 0.16);
+    border: 0;
+    border-radius: 4px;
+}
+/* END MARKDOWN */
+/* Add figure css tricks */
+.post-content figure{
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.post-content figure p{
+    font-size: .8em;
+    font-style: italic;
+}
+.post-content figure.left{
+    float: left;
+    margin-right: 1.5em;
+    max-width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.post-content figure.right{
+    float: right;
+    margin-left: 1.5em;
+    max-width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.post-content figure.big{
+    max-width: 100vw;
+}
+.post-content img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 4px;
+}
+/* {
+   {
+       < tabs >
+   }
+}
+*/
+.book-tabs {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.book-tabs label{
+    display: inline-block;
+    margin: 7px;
+    padding: 8px 16px;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: #343a40;
+    background-color: #f8f9fa;
+    border: 2px solid #343a40;
+    border-radius: 4px;
+}
+.book-tabs .book-tabs-content {
+    order: 999;
+    width: 100%;
+    border-top: 1px solid grey;
+    padding: 16px;
+    display: none;
+}
+.book-tabs input[type="radio"]{
+    display: none;
+}
+.book-tabs input[type="radio"]:checked + label{
+    background-color: #343a40;
+    color: #f8f9fa;
+    border: 2px solid #e7e7e7;
+    border-radius: 6px;
+}
+.book-tabs input[type="radio"]:checked + label + .book-tabs-content {
+    display: block;
+}
+/* {
+   {
+       < columns >
+   }
+}
+*/
+.book-columns {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.book-columns div {
+    margin: 5px;
+    min-width: 100px;
+    padding: 1px;
+    text-align: left;
+}
+/* {
+   {
+       < expand "Label" "icon" >
+   }
+}
+*/
+.book-expand {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.book-expand .book-expand-head {
+    background: grey;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.book-expand .book-expand-content {
+    display: none;
+    padding: 16px;
+}
+.book-expand input[type="checkbox"]{
+    display: none;
+}
+.book-expand input[type="checkbox"]:checked + .book-expand-content {
+    display: block;
+}
+/* Add Code copy buttons css */
+.highlight{
+    position: relative;
+}
+.highlight .highlight-copy-btn {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    border: 0;
+    border-radius: 4px;
+    padding: 1px;
+    font-size: 0.7em;
+    line-height: 1.8;
+    color: #fff;
+    background-color: #777;
+    opacity: 0.6;
+    min-width: 55px;
+    text-align: center;
+    cursor:pointer;
+}
+.highlight .highlight-copy-btn:hover {
+    background-color: #666;
+}

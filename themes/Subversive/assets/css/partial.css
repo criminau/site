@@ -1,0 +1,109 @@
+ 
+/* Archive html myarchivetype/single.html --------------------------------------- */
+.archive-posts {
+	width: 100%;
+	font-size: 16px;
+}
+.archive-year {
+	margin-top: 40px;
+}
+.archive-year:not(:last-of-type) {
+	border-bottom: 2px solid var(--border);
+}
+.archive-month {
+	display: flex;
+	align-items: flex-start;
+	padding: 10px 0;
+}
+.archive-month-header {
+	margin: 25px 0;
+	width: 200px;
+}
+.archive-month:not(:last-of-type) {
+	border-bottom: 1px solid var(--border);
+}
+.archive-entry {
+	position: relative;
+	padding: 5px;
+	margin: 10px 0;
+}
+.archive-entry-title {
+	margin: 5px 0;
+	font-weight: 400;
+}
+.archive-meta {
+	color: #f8f9fa;
+	font-size: 14px;
+}
+.archive-count {
+	color:#f8f9fa;
+	font-size: 14px;
+}
+/* official button ---------------------------------- */
+.sample-btn{
+	margin:4px;
+	padding: 8px 16px;
+	text-align: center;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	color: #343a40;
+	background-color: #f8f9fa;
+	border: 2px solid #343a40;
+	border-radius: 4px;
+}
+.sample-btn:visited{
+	margin:4px;
+	padding: 8px 16px;
+	text-align: center;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	color: #343a40;
+	background-color: #f8f9fa;
+	border: 2px solid #343a40;
+	border-radius: 4px;
+}
+.sample-btn:hover{
+	background-color: #343a40;
+	color: #f8f9fa;
+	border: 2px solid #e7e7e7;
+	border-radius: 6px;
+}
+/* buttons.html */
+.btn-right{
+	float: right;
+}
+/* share_icons.html */
+.share-buttons{
+	transition: 0.4s;
+	background-color: #282D32;
+	border:1px solid rgba(0,0,0,.125);
+	border-radius:.25rem;
+	margin: 0.5rem;
+	padding: 0.5rem;
+}
+.share-buttons a{
+	display: inline-block;
+}
+.share-button-single:hover svg {
+	opacity: 0.9;
+}
+/* scrooltotopbutton.html -------------------------------------------------------------------- */
+#myBtn {
+	position: fixed;
+	right: 1rem;
+	top: 1rem;
+	display: none;
+	border-radius: 0.25rem;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	color: #f8f9fa;
+	background-color: #555;
+	height: 55px;
+	width: 55px;
+	margin:10px;
+	cursor: pointer;
+	z-index: 11;
+}
+#myBtn:hover {
+	background-color:#343a40;
+   /* Add a dark-grey background on hover */
+}

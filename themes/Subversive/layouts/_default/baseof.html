@@ -1,20 +1,58 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
-<!-- Head -->
-    {{ partial "head.html" .}}
-<!-- Navbar (Header) -->
-    {{ partial "header.html" .}}
 
-<!-- Page Content -->
+    {{ partial "head.html" .}}
+
 <body>
-<!--- Bouton retour vers le haut de la page-->
+
     {{ partial "scrolltotopbutton.html" .}}
-<!--Corps de texte.
-Dépends du dossier. 
-Chaque /dossier/ dans l'Url correspond a un dossier dans layouts -->
-    {{- block "main" . }}{{- end }}
+
+<!-- sidebar -->
+
+
+<div class="sidebar">
+ 
+    <div class="sidebar-about">
+        {{- partial "home_info.html" . }}
+    </div>
+  
+    <nav class="sidebar-nav">
+      <div class="share-buttons"><!-- menu sidebar-nav-item-->
+            {{- with $.Site.Params.menu }}
+            {{- partial "social_icons.html" . }}
+            {{- end }}
+          </div>
+      <div class="share-buttons"><!-- socialicons-->
+            {{- with $.Site.Params.socialIcons }}
+            {{- partial "social_icons.html" . }}
+            {{- end }}
+          </div>
+
+        <!-- navbar share -->    
+      {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true) ) }}
+      <div class="share-buttons text-center">
+      {{- partial "share_icons.html" .}} 
+      </div>
+      {{- end }}
+
+    </nav>
+        <!-- footer visibility-off-less-700-->
+        <div class="footer text-center no-deco visibility-off-less-700">
+{{- partial "footer.html" . -}}
+        </div>
+     
+</div>
+
+
+    <div class="content">
+     {{- block "main" . }}{{- end }}    
+    </div>
+
+      <!-- footer visibility-on-less-700-->
+      <div class="footer text-center no-deco visibility-on-less-700">
+      {{- partial "footer.html" . -}}
+      </div>
+
 </body>
 
-<!-- Pied de page-->
-    {{- partial "footer.html" . -}}
 </html>

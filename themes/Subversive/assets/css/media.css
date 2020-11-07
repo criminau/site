@@ -1,0 +1,359 @@
+ 
+/* Sticky sidebar * * Add the `sidebar-sticky` class to the sidebar's container to affix it the * contents to the bottom of the sidebar in tablets and up. */
+/* 1500 ++ */
+.visibility-on-less-700{
+  display:none 
+}
+@media only screen and (max-width: 1500px){
+ /* 1400 - 1500 */
+}
+@media only screen and (max-width: 1400px){
+ /* 1300 + ici = mon ecran*/
+  .sidebar{
+      position: fixed;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      padding: 16px;
+      padding-top: 8.4%;
+      width: 33.8%;
+ }
+  .content {
+      width: 50.7%;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      margin-left: 8%;
+ }
+  .post-content{
+      font-size: 18px;
+ }
+  .share-button-single svg {
+      fill: currentColor;
+      height: 28.8px;
+      width: 28.8px;
+      margin: 6.4px;
+ }
+  .sidebar-nav-item svg{
+      height: 28px;
+      width: 28px;
+      margin: 5px;
+ }
+}
+@media only screen and (max-width: 1300px){
+  .sidebar{
+      position: fixed;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      padding: 16px;
+      padding-top: 8.9%;
+      width: 33.8%;
+ }
+  .content {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      margin-left: 7.5%;
+      width: 50.7%;
+ }
+  .post-content{
+      font-size: 18px;
+ }
+  .share-button-single svg {
+      fill: currentColor;
+      height: 28.8px;
+      width: 28.8px;
+      margin: 6.4px;
+ }
+  .sidebar-nav-item svg{
+      height: 28px;
+      width: 28px;
+      margin: 5px;
+ }
+}
+@media only screen and (max-width: 1200px){
+  .sidebar{
+      position: fixed;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      padding: 16px;
+      padding-top: 6%;
+      width: 33.8%;
+ }
+  .content {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      margin-left: 7%;
+      width: 50.7%;
+ }
+  .post-content{
+      font-size: 18px;
+ }
+  .share-button-single svg {
+      fill: currentColor;
+      height: 25.6px;
+      width: 25.6px;
+      margin: 4.8px;
+ }
+  .sidebar-nav-item svg{
+      height: 25px;
+      width: 25px;
+      margin: 4.8px;
+ }
+}
+@media only screen and (max-width: 1100px){
+  .sidebar{
+      position: fixed;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      padding: 16px;
+      padding-top: 6%;
+      width: 33.8%;
+ }
+  .content {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      margin-left: 6%;
+      width: 50.7%;
+ }
+  .post-content{
+      font-size: 18px;
+ }
+  .share-button-single svg {
+      fill: currentColor;
+      height: 24px;
+      width: 24px;
+      margin: 4.5px;
+ }
+  .sidebar-nav-item svg{
+      height: 23.5px;
+      width: 23.5px;
+      margin: 4.3px;
+ }
+}
+/* up is worked OK 1000 + */
+@media only screen and (max-width: 1000px){
+  .sidebar{
+      position: fixed;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      padding: 16px;
+      padding-top: 6%;
+      width: 33.8%;
+ }
+  .content {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-left: 3%;
+      width: 53.3%;
+ }
+  .post-content{
+      font-size: 18px;
+ }
+  .share-button-single svg {
+      fill: currentColor;
+      height: 24px;
+      width: 24px;
+      margin: 4.5px;
+ }
+  .sidebar-nav-item svg{
+      height: 23.5px;
+      width: 23.5px;
+      margin: 4.3px;
+ }
+}
+@media only screen and (max-width: 900px){
+  .sidebar{
+      position: fixed;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      padding: 12px;
+      padding-top: 6%;
+      width: 33.8%;
+ }
+  .content {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-left: 1%;
+      width: 60%;
+ }
+  .post-content{
+      font-size: 18px;
+ }
+  .share-button-single svg {
+      fill: currentColor;
+      height: 24px;
+      width: 24px;
+      margin: 4.5px;
+ }
+  .share-buttons{
+      margin: 6px;
+      padding: 6px;
+ }
+  .sidebar-nav-item svg{
+      height: 23.5px;
+      width: 23.5px;
+      margin: 4.3px;
+ }
+}
+@media only screen and (max-width: 800px){
+  .sidebar{
+      position: fixed;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      padding: 6px;
+      padding-top: 3.8%;
+      width: 28.8%;
+ }
+  .content {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-left: 0.5%;
+      width: 68%;
+ }
+  .post-content{
+      font-size: 18px;
+ }
+  .share-button-single svg {
+      fill: currentColor;
+      height: 24px;
+      width: 24px;
+      margin: 2.3px;
+ }
+  .share-buttons{
+      margin: 3px;
+      padding: 3px;
+ }
+  .sidebar-nav-item svg{
+      height: 23.5px;
+      width: 23.5px;
+      margin: 2px;
+ }
+  #myBtn {
+      position: fixed;
+      right: 1rem;
+      bottom: 1rem;
+      top: auto;
+      display: none;
+      border-radius: 0.25rem;
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      color: #f8f9fa;
+      background-color: #555;
+      height: 45px;
+      width: 45px;
+      margin:10px;
+      cursor: pointer;
+      z-index: 11;
+ }
+}
+@media only screen and (max-width: 700px){
+  .sidebar{
+      position: relative;
+      padding: 6px;
+      margin:0;
+      width: inherit;
+ }
+  .sidebar-about{
+      text-align: center;
+ }
+  .content {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin:auto;
+      width: 90%;
+ }
+  .post-content{
+      font-size: 18px;
+ }
+  .share-button-single svg {
+      fill: currentColor;
+      height: 24px;
+      width: 24px;
+      margin: 2.3px;
+      margin-left: 5px;
+ }
+  nav.sidebar-nav div{
+      text-align:center;
+ }
+  .share-buttons{
+      padding: 3px;
+      margin: auto;
+      margin-top: 3px;
+      width: 80%;
+ }
+  .sidebar-nav-item svg{
+      height: 23.5px;
+      width: 23.5px;
+      margin: 2px;
+ }
+  #myBtn {
+      position: fixed;
+      right: 1rem;
+      bottom: 1rem;
+      top: auto;
+      display: none;
+      border-radius: 0.25rem;
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      color: #f8f9fa;
+      background-color: #555;
+      height: 45px;
+      width: 45px;
+      margin:10px;
+      cursor: pointer;
+      z-index: 11;
+ }
+  .visibility-off-less-700{
+      display:none 
+ }
+  .visibility-on-less-700{
+      display: block;
+      padding-bottom: 10px;
+      margin-top: 20px;
+ }
+}
+@media only screen and (max-width: 600px){
+  .share-button-single svg {
+      margin-left: 10px;
+ }
+  .sidebar-nav-item svg{
+      margin-left:10px;
+ }
+  .content {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin:auto;
+      width: 95%;
+ }
+  #myBtn {
+      position: fixed;
+      right: 1rem;
+      bottom: 2rem;
+ }
+}
+@media only screen and (max-width: 500px){
+  .content {
+      margin:auto;
+      width: 97%;
+ }
+}
+@media only screen and (max-width: 400px){
+  .share-button-single svg {
+      margin: 3px;
+      margin-left: 7px;
+ }
+  .share-buttons{
+      padding: 2px;
+      margin: auto;
+      margin-top: 3px;
+      width: 80%;
+ }
+  #myBtn {
+      position: fixed;
+      right: 1rem;
+      bottom: 2.4rem;
+ }
+}

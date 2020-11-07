@@ -6,6 +6,8 @@ Sample Blog.
 
 Check more :   <https://subversive.eu/apropos/>
 
+Theme : [Hugo-Subversive](https://github.com/subversive-eu/hugo-subversive/#hugo-theme-subversive)
+
 ## Last release
 
 ### v.01.3
@@ -20,11 +22,11 @@ Check more :   <https://subversive.eu/apropos/>
 
 ### v.01.4
 
-- Flux Rss
+- Flux Rss (limit 15)
 - Commentaires
-- Share Button css
-- Thème Optimisé (soon)
-    - shortcodes
-    - css post content
-    - css toc
-    - css sharebuttons
+- Fin de disponibilités fichier epub
+- Thème dédié
+- Soon ?
+    - Anchor link
+    - SMS share ?
+    - Syndication url ?

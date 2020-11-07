@@ -14,7 +14,7 @@
   translation: "Page Suivante"
 - id: draft
   translation: "brouillon"
+- id: expand
+  translation: "Développer"
 - id: pdf
   translation: "Télécharger le pdf"
-- id: ebook
-  translation: "Téléchager ebook"

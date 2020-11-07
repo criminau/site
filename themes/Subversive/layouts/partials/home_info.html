@@ -1,12 +1,8 @@
 {{- with $.Site.Params.homeInfoParams }}
-<div class="div-home-info">
 
-    <div class=" ">
-    <h2>{{- .Title }}</h2>
-</div>
-<div class="">
-    <p>{{- .Content | markdownify }}</p>
-</div>
-</div>
+    <h1 class="rem">{{- .Title }}</h1>
+
+    <p class="rem">{{- .Content | markdownify }}</p>
+
 
 {{- end}}

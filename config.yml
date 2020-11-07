@@ -7,7 +7,7 @@ paginate: 5
 languageCode: fr
 DefaultContentLanguage: fr
 enableInlineShortcodes: true
-theme: PaperMod
+theme: Subversive
 
 enableRobotsTXT: true
 buildFuture: false
@@ -41,15 +41,9 @@ params:
     - name: info
       url: /apropos/
       weight: 10
-#    - name: tag
-#      url: /tags/
-#      weight: 15
     - name: categorie
       url: /categories/
       weight: 20
-#    - name: serie
-#      url: /series/
-#      weight: 25
     - name: archive   
       url: /archives/
       weight: 30
@@ -85,41 +79,30 @@ menu:
     - name: Catégories
       url: /categories/
       weight: 10
-#    - name: Catégories
-#      url: /tags/
-#      weight: 15
     - name: A propos
       url: /apropos/
       weight: 15
 
 taxonomies:
    category: categories
-#  tag: tags
-#  series: series
 
 privacy:
-  disqus:
-    disable: false
-  googleAnalytics:
-    anonymizeIP: false
-    disable: false
-    respectDoNotTrack: false
-    useSessionStorage: false
   vimeo:
-    disabled: false
-    simple: true
+    disable: false
+    enableDNT: true
+    simple: false
   twitter:
-    disabled: false
-    enableDNT: false
-  instagram:
-    disabled: false
+    disable: false
+    enableDNT: true
+    simple: false
   youtube:
-    disabled: false
-    simple: true
-    privacyEnhanced: false
+    disable: false
+    privacyEnhanced: true
 
-services:
-  instagram:
-    disableInlineCSS: true
-  twitter:
-    disableInlineCSS: false
+# RSS feed
+rsslimit: 15
+
+# rise perfomance
+minify:
+  disableXML: true
+  minifyOutput: true

@@ -100,6 +100,6 @@ De manière triviale :
 
 Les états organisent à grande échelle, les acteurs font le boulot. Cela garantit plus de commerce.
 
-## Pour penser plus loin
+### Pour penser plus loin
 
 C'est probablement pour cela que cela ce met en place, la hausse des échanges entraînent une modification de la gestion. Prenons la réflexion à l'envers.

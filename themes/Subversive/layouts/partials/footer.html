@@ -1,10 +1,11 @@
-<div class="footer text-center">
+
   <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a></span>
 
   <span>&middot;</span>
 
   <span></span><a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/deed.fr">Creative Commons License</a></span>
-<!-- All scripts at the end of the page -->
+
+  <!-- All scripts at the end of the page -->
 {{ $js := resources.Get "js/script.js" }}
 {{ $scriptsheet := $js | resources.Minify }}
 <script src="{{ $scriptsheet.Permalink }}" rel="stylesheet" as="style"></script>

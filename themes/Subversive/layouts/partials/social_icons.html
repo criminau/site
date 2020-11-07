@@ -1,7 +1,6 @@
 {{- range . -}}
-<li class="no-deco ">
-    <a class="link-svg-item" href="{{ .url }}" rel="noopener noreferrer"
-    title="{{ .name | humanize }}">{{ partial "svg.html" . }}</a>
-</li>
 
-{{- end -}}          
+    <a class="sidebar-nav-item" href="{{ .url }}" rel="noopener noreferrer"
+    title="{{ .name | humanize }}">{{ partial "svg.html" . }}</a>
+
+{{- end -}}        

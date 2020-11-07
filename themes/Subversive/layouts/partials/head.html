@@ -4,10 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title -->
     <title>{{ if .IsHome }}{{else}}{{ if .Title }}{{ .Title }} - {{ end }}{{end}}{{ .Site.Title }}</title>
-    <!-- Meta No Cache -->
-    <meta http-equiv="Cache-Control" content="no-cache" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
+    <!-- Meta Cache ON -->
+    <meta http-equiv="Cache-Control" content="Public" />
     <!-- Meta Simple -->
     {{- if in site.Params.mainSections .Type }}
     <meta name="description" content="{{ .Summary }}">
@@ -23,8 +21,12 @@
     <meta name="google-site-verification" content="{{ .Site.Params.analytics.google.SiteVerificationTag }}" />
     {{- end}}
     <!-- Styles -->
-    {{ $css := resources.Get "css/all.css" }}
-    {{ $stylesheet := $css | resources.Minify }}
+
+    {{ $media := resources.Get "css/media.css" | minify }}
+    {{ $partial := resources.Get "css/partial.css" | minify }}
+    {{ $markdown := resources.Get "css/markdown.css" | minify }}
+    {{ $default := resources.Get "css/default.css" | minify }}
+    {{ $stylesheet := slice $partial $markdown $default $media | resources.Concat "css/stylesheet.css" | minify }}
     <link href="{{ $stylesheet.Permalink }}" rel="stylesheet preload prefetch" as="style">
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
