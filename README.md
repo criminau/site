@@ -27,6 +27,5 @@ Theme : [Hugo-Subversive](https://github.com/subversive-eu/hugo-subversive/#hugo
 - Fin de disponibilités fichier epub
 - Thème dédié
 - Soon ?
-    - Anchor link
     - SMS share ?
     - Syndication url ?
