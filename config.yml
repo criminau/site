@@ -10,8 +10,9 @@ enableInlineShortcodes: true
 theme: Subversive
 
 enableRobotsTXT: true
-buildFuture: true
+buildFuture: false # Test ok / functionnal
 buildExpored: false
+buildDraft: false
 
 params:
   env: production # enable google analytics, opengraph, twitter-cards and schema.
