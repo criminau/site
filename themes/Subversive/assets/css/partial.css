@@ -107,3 +107,19 @@
 	background-color:#343a40;
    /* Add a dark-grey background on hover */
 }
+/* youtube.html */
+.video-responsive { 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow:hidden; 
+	padding-bottom:56.25%; 
+	position:relative; 
+	height:0;
+}
+.video-responsive iframe {
+	left:0; 
+	top:0; 
+	height:100%;
+	width:100%;
+	position:absolute;
+}

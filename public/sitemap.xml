@@ -3,41 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://subversive.eu/categories.html</loc>
-    <lastmod>2020-11-10T18:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://subversive.eu/categories/environnement.html</loc>
-    <lastmod>2020-11-10T18:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://subversive.eu/posts/la-lune-la-seule-responsable.html</loc>
-    <lastmod>2020-11-10T18:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://subversive.eu/posts.html</loc>
-    <lastmod>2020-11-10T18:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://subversive.eu/</loc>
-    <lastmod>2020-11-10T18:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://subversive.eu/posts/bitcoin-monnaie-universelle.html</loc>
     <lastmod>2020-11-01T18:00:00+01:00</lastmod>
     <changefreq>dayly</changefreq>
@@ -45,7 +10,28 @@
   </url>
   
   <url>
+    <loc>https://subversive.eu/categories.html</loc>
+    <lastmod>2020-11-01T18:00:00+01:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://subversive.eu/categories/libert%C3%A9.html</loc>
+    <lastmod>2020-11-01T18:00:00+01:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/posts.html</loc>
+    <lastmod>2020-11-01T18:00:00+01:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/</loc>
     <lastmod>2020-11-01T18:00:00+01:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.5</priority>
@@ -235,6 +221,13 @@
   
   <url>
     <loc>https://subversive.eu/posts/climat-et-temperature-terrestre.html</loc>
+    <lastmod>2019-11-25T18:00:00+00:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/categories/environnement.html</loc>
     <lastmod>2019-11-25T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.5</priority>
