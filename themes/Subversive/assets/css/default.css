@@ -163,6 +163,12 @@ body{
 .sources-link{
 	text-decoration: underline;
 }
+.my-link-anchor{
+	transition: 0.4s;
+	height: 24px;
+	width: 24px;
+	margin-right: 10px;
+}
 /* Terms.html Tags + Categories + Series ------------------------------------ */
 .terms-title{
 	margin: 10px;

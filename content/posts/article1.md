@@ -8,16 +8,18 @@ tocopen: false
 disableShare: false
 categories:
  - Démocratie
-date: 2020-09-30T17:44:04+02:00
+date: 2020-11-03T17:44:04+02:00
 cover: "https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png"
 ---
 
-
 I will show you some extras about Markdown, css, and shortcode.
 There is backup of simple tricks too.
+
 <!--more-->
 
 Example post for demonstration.
+
+## Introduction {#introduction}
 
 See [raw article](https://raw.githubusercontent.com/subversive-eu/hugo-subversive/exampleSite/content/posts/example.md)
 
