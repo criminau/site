@@ -10,7 +10,7 @@ enableInlineShortcodes: true
 theme: Subversive
 
 enableRobotsTXT: true
-buildFuture: false
+buildFuture: true
 buildExpored: false
 
 params:

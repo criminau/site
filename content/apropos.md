@@ -7,7 +7,6 @@ date: 2020-10-01T08:37:55+02:00
 type: myabouttype
 url: "/apropos/"
 hidemeta: true
-tocopen: true
 disableShare: false
 ---
 
