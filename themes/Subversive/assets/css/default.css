@@ -44,6 +44,9 @@ body{
 .justify-between{
 	justify-content:space-between;
 }
+.no-display{
+	display:none;
+}
 /* baseof.html * Sidebar */
 .sidebar {
 	text-align: left;

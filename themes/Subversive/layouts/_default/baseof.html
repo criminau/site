@@ -1,7 +1,17 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
-
-    {{ partial "head.html" .}}
+<head>
+    <!-- head -->
+    {{ partial "head.html" . }}
+    <!-- Schema.org -->
+    {{ partial "schema.html" . }}
+    <!-- Google News -->
+    {{ partial "google_news.html" . }}
+    <!-- Twitter Cards -->
+    {{ partial "twitter_cards.html" . }}
+    <!-- Open Graph Protocol -->
+    {{ partial "opengraph.html" . }}
+</head>
 
 <body>
 
@@ -38,21 +48,17 @@
     </nav>
         <!-- footer visibility-off-less-700-->
         <div class="footer text-center no-deco visibility-off-less-700">
-{{- partial "footer.html" . -}}
+        {{- partial "footer.html" . -}}
         </div>
      
 </div>
-
-
-    <div class="content">
-     {{- block "main" . }}{{- end }}    
-    </div>
-
-      <!-- footer visibility-on-less-700-->
-      <div class="footer text-center no-deco visibility-on-less-700">
-      {{- partial "footer.html" . -}}
-      </div>
-
+            <div class="content">
+            {{- block "main" . }}{{- end }}    
+            </div>
+    
+          <!-- footer visibility-on-less-700-->
+          <div class="footer text-center no-deco visibility-on-less-700">
+          {{- partial "footer.html" . -}}
+          </div>
 </body>
-
 </html>

@@ -23,12 +23,8 @@
     <meta name="keywords" content="{{ .Params.keyword | default .Site.Params.keyword }}">
     <!-- Canonical -->
     <link rel="canonical" href="{{ .Permalink }}" />
-    <!-- Google Analytics -->
-    {{- if .Site.Params.analytics.google.SiteVerificationTag }}
-    <meta name="google-site-verification" content="{{ .Site.Params.analytics.google.SiteVerificationTag }}" />
-    {{- end}}
-    <!-- Styles -->
 
+    <!-- Styles -->
     {{ $media := resources.Get "css/media.css" | minify }}
     {{ $partial := resources.Get "css/partial.css" | minify }}
     {{ $markdown := resources.Get "css/markdown.css" | minify }}
@@ -44,12 +40,4 @@
     {{- hugo.Generator }}
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}posts/index.xml" title="subversive.eu">
-    <!-- Misc -->
-    {{- if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
-    {{- template "_internal/google_analytics_async.html" . }}
-    {{- template "_internal/opengraph.html" . }}
-    {{- template "_internal/twitter_cards.html" . }}
-    {{- template "_internal/schema.html" . }}
-    <!-- Google News -->
-    {{ template "_internal/google_news.html" . }}
-    {{- end }}
+    
