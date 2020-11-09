@@ -1,7 +1,7 @@
 baseURL: 'https://subversive.eu/'
 relativeURLs: true
 uglyURLs: true
-title: subversive.eu
+title: subversive.eu | Blog subversif
 author: subversive.eu
 paginate: 5
 languageCode: fr
@@ -9,25 +9,30 @@ DefaultContentLanguage: fr
 enableInlineShortcodes: true
 theme: Subversive
 
-enableRobotsTXT: true
+# enableRobotsTXT: true
 buildFuture: false # Test ok / functionnal
 buildExpored: false
 buildDraft: false
 
+
+
 params:
   env: production # enable google analytics, opengraph, twitter-cards and schema.
-  description: 'Subversive est un site accueillant un blog, développant un avis critique de nos sociétés.'
+  description: 'Subversive est un site accueillant un blog, développant un avis critique de nos sociétés. Les articles abordent beaucoup de sujets différents pour approfondir votre culture subversive.
+  Ce blog offre un avis très critique de notre environnement social. Aujourd’hui il s’oriente vers un blog personnel, touchant de nombreux sujets.'
   ShowReadingTime: true
   comments: true
   contentTypeName: posts
   defaultTheme: auto
   ShowShareButtons: true
   author: subversive.eu
-  keyword: 'Subversif, Subsersive, Démocratie, Géopolitique, Liberté, Energie, Environnement, Histoire, Informatique, Internet, Blog personnel'
+  keyword: 'Subversif, Subsersive, Démocratie, Géopolitique, Liberté, Energie, Environnement, Histoire, Informatique, Internet, Blog personnel, Système bancaire, Dette, Despotisme, Servage, Esclavage, Monnaie, Argent, Crise, Sécurité, Monde, Politique, Dictature, Europe, Occident, Ras-le-bol, Gilets-jaune'
+  images:
+  - android-chrome-512x512.png
 
-  homeInfoParams:
-    Title: "Bonjour 👋"
-    Content: Bienvenue sur mon blog
+  sideInfoParams:
+    TitleHome: "Bonjour 👋"
+    ContentHome: "Bienvenue sur mon blog !"
 
   socialIcons:
     - name: rss
@@ -70,7 +75,7 @@ markup:
 sitemap:
   changefreq: dayly
   filename: sitemap.xml
-  priority: 0.5
+  priority: 1
 
 menu:
   main:
@@ -96,9 +101,6 @@ privacy:
     disable: false
     enableDNT: true
     simple: false
-  youtube:
-    disable: false
-    privacyEnhanced: true
 
 # RSS feed
 rsslimit: 15
@@ -107,3 +109,8 @@ rsslimit: 15
 minify:
   disableXML: true
   minifyOutput: true
+
+# Image jpeg quality
+imaging:
+  quality: 100
+  anchor: "smart"

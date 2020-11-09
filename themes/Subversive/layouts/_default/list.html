@@ -6,19 +6,20 @@
 
 
 {{- if not .IsHome | and .Title }}
-<header class="list-header">
-  <h1>{{ .Title }}</h1>
-</header>
+
 {{- end }}
 {{- $pages := .RegularPages }}
 {{- if .IsHome }}
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+<header class="list-header">
+  <h1>{{ .Site.Title }}</h1>
+</header>
 {{- end}}
 {{ $paginator := .Paginate $pages }}
 {{- range $index, $page := $paginator.Pages }}
 {{- $class := "post-entry" }}
 {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0)) }}
-{{- if .Site.Params.homeInfoParams | or .Site.Params.disableSpecial1stPost}}
+{{- if .Site.Params.sideInfoParams | or .Site.Params.disableSpecial1stPost}}
 
 {{- else}}
 {{- $class = "first-entry" }}

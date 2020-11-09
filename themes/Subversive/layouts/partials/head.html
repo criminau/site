@@ -6,6 +6,13 @@
     <title>{{ if .IsHome }}{{else}}{{ if .Title }}{{ .Title }} - {{ end }}{{end}}{{ .Site.Title }}</title>
     <!-- Meta Cache ON -->
     <meta http-equiv="Cache-Control" content="Public" />
+    <!-- Meta robots -->
+    <meta name="robots" content="index,follow"/>
+    <meta name="robots" content="all"/>
+    <!-- Meta hreflang -->
+    <link rel="alternate" hreflang="fr-be" href="{{ .Permalink }}"/>
+    <link rel="alternate" hreflang="fr-fr" href="{{ .Permalink }}"/>
+    <link rel="alternate" hreflang="fr-ch" href="{{ .Permalink }}"/>
     <!-- Meta Simple -->
     {{- if in site.Params.mainSections .Type }}
     <meta name="description" content="{{ .Summary }}">

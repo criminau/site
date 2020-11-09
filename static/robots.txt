@@ -1,3 +1,9 @@
+# Groupe Google
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+# Groupe Tous
 User-agent: *
-Disallow:
-Sitemap: https://subversive.eu/sitemap.xml
+Allow: /
+
+Sitemap: https://www.subversive.eu/sitemap.xml

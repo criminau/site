@@ -19,7 +19,6 @@ There is backup of simple tricks too.
 
 Example post for demonstration.
 
-## Introduction {#introduction}
 
 See [raw article](https://raw.githubusercontent.com/subversive-eu/hugo-subversive/exampleSite/content/posts/example.md)
 

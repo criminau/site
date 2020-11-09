@@ -7,6 +7,8 @@ categories:
   - Environnement
 date: 2020-11-10 18:00:00
 cover: "https://subversive.eu/media/the-moon-cover.jpg"
+images:
+ - the-moon-cover.jpg
 ---
 Les Hommes ne vivent toujours pas comme des frères malgré quatre millions d’années d’évolution. Quels en sont les raisons et leurs probabilités ? Pourquoi autant de haine ? La Lune aurait-elle son importance ?
 <!--more-->
@@ -15,7 +17,7 @@ Elle joue un rôle pourtant bien précis d’après nos anciens en agronomie, le
 
 ## Le point de départ
 
-{{< figure src="https://subversive.eu/media/giant-impact.jpg" alt="image" caption="Choc entre la Terre et la Lune" class="right" >}}
+{{< figure src="https://subversive.eu/giant-impact.jpg" alt="image" caption="Choc entre la Terre et la Lune" class="right" >}}
 Il y a environ 4,468 milliards d’années, la Lune se serait formée par un choc entre deux planètes. Anodin non ? Pas tant que ça, cet impact serait à l’origine de la vie sur Terre.
 
 Ainsi la Terre par sa plus grande masse aurait amassé plus d’atmosphère indispensable à la vie. De même que le noyau de la Terre, alors plus gros nous protégea mieux des vents solaires. Une planète trop petite ne pourrait donc abriter de la vie. Mais ce qui me semble essentiel a été oublié.

@@ -8,6 +8,7 @@ type: myabouttype
 url: "/apropos/"
 hidemeta: true
 disableShare: false
+description: "Pour en savoir plus du blog www.subversive.eu à propos des outils comme : Hébergement, Financement, Développement. Ainsi que vos droits. Tout savoir sur le site, de l'origine à la conception."
 ---
 
 ### Auteur :

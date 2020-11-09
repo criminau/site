@@ -4,9 +4,11 @@ author: subversive.eu
 ShowToc: true
 draft: false
 categories:
-  - Environnement
+ - Environnement
 date: 2020-11-15 18:00:00
 cover: "https://subversive.eu/media/the-neurons-cover.jpg"
+images: 
+ - the-neurons-cover.jpg
 ---
 
 L'intelligence se mesure-t-elle ? Comme un objet dans le ciel ?
@@ -66,7 +68,7 @@ Pistons donc le cortex cérébral..
 
 Le cortex cérébral tourne grâce aux neurones. Ces neurones communiquent entre elles via un courant électrique traversant les fibres nerveuses.
 
-{{< figure src="https://subversive.eu/media/the-oligodendrocytes.jpg" alt="image" caption="Les oligodendrocytes protègent les axones des neurones en formant la gaine de myéline" class="right" >}}
+{{< figure src="https://subversive.eu/the-oligodendrocytes.jpg" alt="image" caption="Les oligodendrocytes protègent les axones des neurones en formant la gaine de myéline" class="right" >}}
 Certaines fibres sont recouvertes d'une gaine de myéline isolante constituée d'une spirale à tours jointifs de membrane plasmique particulièrement riche en lipides (cholestérol, phospholipides, glycolipides) qui leur permet d'augmenter la vitesse des signaux électriques qu'elles véhiculent.
 
 Plus le diamètre des gaines de myéline est large, plus la vitesse est élevée.
