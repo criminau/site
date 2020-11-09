@@ -1,7 +1,7 @@
 baseURL: 'https://subversive.eu/'
 relativeURLs: true
 uglyURLs: true
-title: subversive.eu | Blog subversif
+title: subversive.eu | Blog subversif 
 author: subversive.eu
 paginate: 5
 languageCode: fr
@@ -15,8 +15,7 @@ buildExpored: false
 buildDraft: false
 
 params:
-  description: 'Subversive est un site accueillant un blog, développant un avis critique de nos sociétés. Les articles abordent beaucoup de sujets différents pour approfondir votre culture subversive.
-  Ce blog offre un avis très critique de notre environnement social. Aujourd’hui il s’oriente vers un blog personnel, touchant de nombreux sujets.'
+  description: 'Subversive est un site accueillant un blog, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent beaucoup de sujets différents pour approfondir votre culture subversive.'
   ShowReadingTime: true
   comments: true
   contentTypeName: posts
@@ -25,20 +24,21 @@ params:
   author: subversive.eu
   keyword: 'Subversif, Subsersive, Démocratie, Géopolitique, Liberté, Energie, Environnement, Histoire, Informatique, Internet, Blog personnel, Système bancaire, Dette, Despotisme, Servage, Esclavage, Monnaie, Argent, Crise, Sécurité, Monde, Politique, Dictature, Europe, Occident, Ras-le-bol, Gilets-jaune'
   images:
-    - android-chrome-512x512.png
+    - android-chrome-192x192.png
   copyright: 'https://creativecommons.org/licenses/by-nc/4.0/deed.fr'
 
 # Schema.org
   logo:
-    - android-chrome-512x512.png
+    - android-chrome-192x192.png
   header: 'subversive.eu | Blog subversif'
   github: 'subversive-eu'
   githubreposit: 'site'
   twitter: '@Soon'
 
   sideInfoParams:
-    TitleHome: "Bonjour 👋"
-    ContentHome: "Bienvenue sur mon blog !"
+    Title: "Bonjour 👋"
+    Content: "Bienvenue sur mon blog !"
+    Titlehome: ""
 
   socialIcons:
     - name: rss

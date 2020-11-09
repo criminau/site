@@ -7,8 +7,8 @@ categories:
   - Environnement
 date: 2020-11-10 18:00:00
 cover: "https://subversive.eu/media/the-moon-cover.jpg"
-images:
- - the-moon-cover.jpg
+images: 
+ - media/the-moon-cover.jpg
 ---
 Les Hommes ne vivent toujours pas comme des frères malgré quatre millions d’années d’évolution. Quels en sont les raisons et leurs probabilités ? Pourquoi autant de haine ? La Lune aurait-elle son importance ?
 <!--more-->

@@ -10,6 +10,8 @@ categories:
  - Démocratie
 date: 2020-11-03T17:44:04+02:00
 cover: "https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png"
+images:
+ - media/the-neurons-cover.jpg
 ---
 
 I will show you some extras about Markdown, css, and shortcode.

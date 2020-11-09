@@ -11,9 +11,11 @@
 {{- $pages := .RegularPages }}
 {{- if .IsHome }}
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- with $.Site.Params.sideInfoParams }}
 <header class="list-header">
-  <h1>{{ .Site.Title }}</h1>
+  <h1>{{- .Titlehome }}</h1>
 </header>
+{{- end }}
 {{- end}}
 {{ $paginator := .Paginate $pages }}
 {{- range $index, $page := $paginator.Pages }}

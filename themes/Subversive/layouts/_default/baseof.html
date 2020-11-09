@@ -21,30 +21,36 @@
 
 
 <div class="sidebar">
- 
+
     <div class="sidebar-about">
-        {{- partial "home_info.html" . }}
+    {{- partial "home_info.html" . }}
     </div>
   
     <nav class="sidebar-nav">
-      <div class="share-buttons"><!-- menu sidebar-nav-item-->
-            {{- with $.Site.Params.menu }}
-            {{- partial "social_icons.html" . }}
-            {{- end }}
-          </div>
-      <div class="share-buttons"><!-- socialicons-->
-            {{- with $.Site.Params.socialIcons }}
-            {{- partial "social_icons.html" . }}
-            {{- end }}
+        <div class="share-buttons"><!-- menu sidebar-nav-item-->
+        {{- with $.Site.Params.menu }}
+        {{- partial "social_icons.html" . }}
+        {{- end }}
+        </div>
+
+        <!-- my-social-icons-links-->
+        <div class="share-buttons">
+          {{- with $.Site.Params.socialIcons }}
+          {{- partial "social_icons.html" . }}
+          
+          {{- end }}
           </div>
 
-        <!-- navbar share -->    
-      {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true) ) }}
-      <div class="share-buttons text-center">
-      {{- partial "share_icons.html" .}} 
-      </div>
-      {{- end }}
+        <!-- navbar share -->
+        {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true) ) }}
+        <div class="share-buttons text-center">
+        {{- partial "share_icons.html" .}} 
+        </div>
+        {{- end }}
 
+
+
+  
     </nav>
         <!-- footer visibility-off-less-700-->
         <div class="footer text-center no-deco visibility-off-less-700">

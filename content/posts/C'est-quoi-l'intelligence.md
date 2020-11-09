@@ -7,8 +7,8 @@ categories:
  - Environnement
 date: 2020-11-15 18:00:00
 cover: "https://subversive.eu/media/the-neurons-cover.jpg"
-images: 
- - the-neurons-cover.jpg
+images:
+ - media/the-neurons-cover.jpg
 ---
 
 L'intelligence se mesure-t-elle ? Comme un objet dans le ciel ?

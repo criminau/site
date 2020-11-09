@@ -9,7 +9,7 @@
     </image>
     <link>https://subversive.eu/</link>
 
-    <description>Subversive est un site accueillant un blog, développant un avis critique de nos sociétés. Les articles abordent beaucoup de sujets différents pour approfondir votre culture subversive. Ce blog offre un avis très critique de notre environnement social. Aujourd’hui il s’oriente vers un blog personnel, touchant de nombreux sujets.</description>
+    <description>Subversive est un site accueillant un blog, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent beaucoup de sujets différents pour approfondir votre culture subversive.</description>
     <language>fr</language>
     
     
@@ -210,58 +210,6 @@ D’une part, les puissances économiques mondiales ont su réagir et mettre en 
 &lt;p&gt;Les états organisent à grande échelle, les acteurs font le boulot. Cela garantit plus de commerce.&lt;/p&gt;
 &lt;h3 id=&#34;pour-penser-plus-loin&#34;&gt;Pour penser plus loin&lt;/h3&gt;
 &lt;p&gt;C&amp;rsquo;est probablement pour cela que cela ce met en place, la hausse des échanges entraînent une modification de la gestion. Prenons la réflexion à l&amp;rsquo;envers.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Archive</title>
-      <link>https://subversive.eu/archives/</link>
-      <pubDate>Thu, 01 Oct 2020 09:41:48 +0200</pubDate>
-      
-      <guid>https://subversive.eu/archives/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Propos</title>
-      <link>https://subversive.eu/apropos/</link>
-      <pubDate>Thu, 01 Oct 2020 08:37:55 +0200</pubDate>
-      
-      <guid>https://subversive.eu/apropos/</guid>
-      <description>&lt;h3 id=&#34;auteur-&#34;&gt;Auteur :&lt;/h3&gt;
-&lt;p&gt;Le site subversive.eu a été développé par une seule personne, dans le but d’offrir un avis très critique de notre environnement social .&lt;/p&gt;
-&lt;p&gt;Aujourd’hui il s’oriente vers un blog personnel, touchant de nombreux sujets .&lt;/p&gt;
-&lt;p&gt;Subversive en anglais signifie subversif en français. C&amp;rsquo;est à la fois le féminin subversive en français .&lt;/p&gt;
-&lt;p&gt;Les articles sont suceptibles d’être modifié .&lt;/p&gt;
-&lt;p&gt;Les formats PDF sont les plus à jour et propre .&lt;/p&gt;
-&lt;h3 id=&#34;journal-des-modifications-et-version&#34;&gt;Journal des modifications et version&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/site/releases&#34; &gt;Lisez-moi&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;outils&#34;&gt;Outils&lt;/h3&gt;
-&lt;h4 id=&#34;cms&#34;&gt;CMS&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://gohugo.io&#34; &gt;Hugo CMS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/site&#34; &gt;Code source&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;hébergement&#34;&gt;Hébergement&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://netlify.com&#34; &gt;Netlify&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Le domaine subversive.eu est financé intégralement par l&amp;rsquo;auteur de l&amp;rsquo;oeuvre .&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;thèmes&#34;&gt;Thème(s)&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/adityatelange/hugo-PaperMod/&#34; &gt;PaperMod&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/hugo-subversive/#readme&#34; &gt;Subversive&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;commentaires&#34;&gt;Commentaires&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://graphcomment.com/&#34; &gt;Graphcomment&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;droits&#34;&gt;Droits&lt;/h3&gt;
-&lt;p&gt;Application complète du &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34; &gt;Règlement général sur la protection des données&lt;/a&gt; .&lt;/p&gt;
-&lt;p&gt;L&amp;rsquo;ensemble de l&amp;rsquo;oeuvre (l&amp;rsquo;intégralité du contenu) est sous &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://creativecommons.org/licenses/by-nc/4.0/deed.fr&#34; &gt;Creative Commons License&lt;/a&gt; .&lt;/p&gt;
-&lt;p&gt;Aucune action pour suivre les visiteurs.&lt;/p&gt;
-</description>
     </item>
     
     <item>
@@ -881,6 +829,80 @@ La protection des bases et convois de ravitaillement est réalisé par des troup
 &lt;h2 id=&#34;corrélation&#34;&gt;Corrélation&lt;/h2&gt;
 &lt;p&gt;Aujourd’hui avec les évènements actuels, le mouvement dit véganisme, et certes correct, nous ne pouvons nous passer de viande d’origine animale si nous souhaitons nous assurer un apport juste et proportionné pour notre corps.&lt;/p&gt;
 &lt;p&gt;Qui plus ait est financé par des multinationales commerçant et produisant des plats tout prêt, pratique, peu cher à la production. Au port d’amsterdam, arrive des céréaliers rempli de maïs, où est extrait la cellulose pour en faire des plats tout prêt.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Un sens à la Vie</title>
+      <link>https://subversive.eu/posts/un-sens-a-la-vie.html</link>
+      <pubDate>Wed, 29 Jan 2020 18:00:00 +0000</pubDate>
+      
+      <guid>https://subversive.eu/posts/un-sens-a-la-vie.html</guid>
+      <description>&lt;p&gt;De réflexion en réflexion, je me suis penché sur le sens de la vie ? Mais qu’est-ce que la vie ? Comment la définir ? Pourrions nous admettre qu’elle ait un sens ?&lt;/p&gt;
+&lt;p&gt;Vie, vient du latin vita, qui s’étends sur plusieurs notions, la période de la naissance à la mort d’un être humain. En passant par son rapport à sa subsistance. En passant par des personnes qui nous sont chères. Ainsi le terme reste flou et large. Couplée avec sens, la notion s’oriente vers un chemin, une destinée fixée ou suivie.&lt;/p&gt;
+&lt;p&gt;La notion scientifique est simple, c’est la capacité à se reproduire d’un objet, un organisme, donc de perpétuer. Logique après tout, les peuples se révoltent quand ils ont peur, parce que la faim cri dans leur ventre, parce que leur environnement pourrait ne plus devenir viable. La peur, émotion primaire, rempli son objectif de perpétuer la vie.&lt;/p&gt;
+&lt;p&gt;Dans ce sens, la vie est à l’échelle de la Terre, notre capacité à survivre dans le temps, il faut considérer des durées très longues, difficilement concevable, de plusieurs millions d’années.&lt;/p&gt;
+&lt;h2 id=&#34;étendre-son-champ-relationnel&#34;&gt;Étendre son champ relationnel&lt;/h2&gt;
+&lt;p&gt;Ainsi en regardant l’histoire, on constate que la vie réponds à une soif d’étendre son champ relationnel. Il faut comprendre par là, que chaque organisme, et l’on peut considérer que nous, Hommes de la Terre sommes un organisme, étends son champ relationnel afin de prospérer. Nos chasseur-cueilleurs ne communiquent pas sur de grande distance, aujourd’hui l’on peut le faire avec des sud-américains par exemple.&lt;/p&gt;
+&lt;p&gt;L’on peut imaginer et accepter de se voir offrir la possibilités de rencontrer de la vie extraterrestre. Ainsi, notre champ relationnel irait toujours plus loin, a notre galaxie, puis à notre univers. Bon, admettons, et quand même chaque être humain de cette Terre, collabore-t-il à ce but ? Sûrement de manière inconsciente alors. D’ailleurs la vie nous assure-t-elle un but ? Nous le donne-t-elle ? Sous qu’elle forme ? N’ayant pas l’impression de l’avoir décrypté, nous allons continuer notre réflexion.&lt;/p&gt;
+&lt;p&gt;Comment se fait-il que dès notre naissance, nous fassions tout pour survivre ? Qu’elle est la réponse de la science à cela ? Je ne l’ai pas trouvée, la vie réponds a une soif de survivre. Ainsi sans trouver de réponse claire et précise, J’ai volontairement retourner la question. Qu’attends de nous la vie ? Je me suis retrouvé face à un mur immense, une question sans réponse.&lt;/p&gt;
+&lt;p&gt;Vous me direz, bon une de plus. Sauf que celle ci est toute particulière car elle sous-entends une vérité absolu celle où l’évolution des Hommes ne peut-être que positive. Car que vous le vouliez ou non, vous n’allez pas admettre que la vie attende de vous de la mettre en déroute. Même en changeant d’échelle, plus petite, celle d’un vie humaine ou même plus grande, une race. Cette question est catégorique.&lt;/p&gt;
+&lt;p&gt;Sa faiblesse réside dans la définition de la vie et son sens dans la question. En posant la question ainsi, l’on réduit la vie à une entité, on la personnalise. On réduit sa capacité d’action. On modifie notre façon de réfléchir puisque l’on va l’associer a un potentiel rapport entre individus.&lt;/p&gt;
+&lt;h2 id=&#34;réfutation-&#34;&gt;Réfutation ?&lt;/h2&gt;
+&lt;p&gt;De manière sérieuse la question deviendrait, la vie peut-elle attendre quelque chose de nous ? Bon sincèrement cette question est aussi un mur, plus haut que la précédente. Cela revient à définir la vie. Puisque nous le savons, l’humanité, suite à une évolution cérébrale, va disparaître par un taux de natalité ridiculement faible provoquant notre disparition.&lt;/p&gt;
+&lt;p&gt;De manière concrète la vie pourrait attendre de nous, du temps de notre existence de la rendre meilleur ? Et de transmettre nos capacités à la rendre meilleure à d’autres. Cela semble logique. Mais la vie tourne dans un univers, un univers lui aussi voué à disparaître, aurions nous la capacité technologique de le fuir ? Si la réponse advient que non, alors pourquoi ? Qu’est-ce que donc cette mascarade ?&lt;/p&gt;
+&lt;p&gt;D’autres attribueront à la vie, et à la réponse à la question de ce qu’elle attends de nous, des objectifs plus concret, plus pragmatique. D’être heureux, de partager. Pourquoi pas, mais n’y-t-il pas là, une erreur de commise ? Celle où à l’époque des dinosaures, sans animaux doués de raison comme nous, ils ont eux aussi continuer à vivre, sans pour autant étendre leur champ relationnel, comme le font nos animaux sur Terre.&lt;br&gt;
+Pourtant nous leur attribuons bien la notion de vie, puisque l’on y attribue la notion de mort. La vie ne serait finalement pas simplement le fait de survivre, notre rôle serait alors de pas l’offenser, de ne pas mettre en péril notre survie ? C’est une réponse facile et rapide.&lt;/p&gt;
+&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;/h2&gt;
+&lt;p&gt;En réalité il y a un malentendu, j’entends par le mot vie, la vie, une notion à l’échelle universelle, qui touche l’Homme, comme la bactérie. Le fait même qu’il y ait des êtres vivants dans l’univers. Je n’attribue pas la vie à l’échelle, de l’Homme, de son histoire ou pire, de ma vie, de ma naissance à ma mort, de votre naissance à votre mort.&lt;/p&gt;
+&lt;p&gt;Vous comprendrez que j’apporte plus d’intérêt à réfléchir à une plus grand échelle que certains d’entre nous. Mais là est le défie que nous retiendrons pour définir ce qu&amp;rsquo;attends la vie de nous. Car par le fait même de voir trop grand, trop loin, nous n’y répondrons jamais (en tous cas je n’ai pas trouvé la réponse), on accordera donc l’existence de Dieu, de la création.&lt;/p&gt;
+&lt;h2 id=&#34;pour-penser-plus-loin&#34;&gt;Pour penser plus loin&lt;/h2&gt;
+&lt;p&gt;Nous pourrions donc définir plusieurs sens de la vie, mais cela est-il correct ? Le premier serait celui des Hommes, agrandir leur champ relationnel, mais en y réfléchissant cela leur permet de survivre. Et nous revenons donc à l’idée apportée aux animaux, celui de la survie. Logique puisque nous sommes des animaux.&lt;/p&gt;
+&lt;p&gt;Ainsi il serait acceptable de répondre à la question, qu’attends la vie de nous, de survivre. Nous pourrions très bien ouvrir le débat sur la manière d’améliorer notre survie, mais ce n’est pas le sujet ici.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Croisade en Occitanie</title>
+      <link>https://subversive.eu/posts/croisade-en-occitanie.html</link>
+      <pubDate>Wed, 22 Jan 2020 18:00:00 +0000</pubDate>
+      
+      <guid>https://subversive.eu/posts/croisade-en-occitanie.html</guid>
+      <description>&lt;p&gt;Occitanie, Occitània. Béziers fut la première ville de France. La plus vieille donc.&lt;br&gt;
+Vient du Diocèse de Vienne de l’Empire romain en - 300 av Jc.&lt;/p&gt;
+&lt;p&gt;En 400 ap Jc, il existe 7 provinces, le Diocèse des Septs Provinces (en latin Septem Provinciae).&lt;/p&gt;
+&lt;h2 id=&#34;unification-possible&#34;&gt;Unification possible&lt;/h2&gt;
+&lt;p&gt;Fin du Douzième siècle, trois grandes Maisons dominent le Monde, elles sont Occitanes, on y retrouve :&lt;/p&gt;
+&lt;p&gt;Les comtes de Poitiers ont autorité sur la « Grande Aquitaine » qui s&amp;rsquo;étend des Pyrénées à la Loire et jusqu&amp;rsquo;au Massif Central.&lt;br&gt;
+Les comtes de Barcelone dirigent leur comté, ainsi que le royaume d&amp;rsquo;Aragon et le comté de Provence.&lt;br&gt;
+La Maison de Saint-Gilles contrôle le comté de Toulouse (de Marmande à Avignon) et le marquisat de Provence.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Toutes trois sont alors parmi les plus puissantes de l&amp;rsquo;Europe : elles ont toutes trois une vocation européenne ; elles sont riches ; leurs terres sont bien défrichées par les campagnes de colonisation monastique ; elles sont traversées par les routes des grands pèlerinages, surtout Saint-Jacques-de-Compostelle ; leurs villes, leurs entrepôts, leurs ports, Toulouse, Marseille, Bordeaux, Auch, Bayonne, Beaucaire, Narbonne, Poitiers, Carcassonne, Béziers, Avignon, Saint-Gilles, Fréjus, Saragosse, Barcelone, sont parmi les plus actifs et les plus brillants. Attirantes, bien urbanisées, ces terres sont, comme la Sicile, l&amp;rsquo;objet de la convoitise des puissances ambitieuses que sont la royauté française et l&amp;rsquo;Empire.&amp;rdquo; — Réalités de l&amp;rsquo;Occitanie, p. 27&lt;/p&gt;
+&lt;p&gt;Toulouse est en réalité, toute comme Béziers à plus petite échelle, une capitale européenne, derrière Venise et Rome, dotée d’une République Toulousaine démocratique et libre, où les Capitouls dirigent le comté malgré ses pouvoirs.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Les comtes [de Toulouse] ont donc la grande ville, qui est pour eux à la fois une force et une faiblesse. Elle leur vaut d&amp;rsquo;importants revenus ; elle est une vraie capitale, plus puissante, et plus rayonnante que Paris. Mais elle est habitée par une bourgeoisie opulente, qui s&amp;rsquo;est donnée ses propres institutions et, en fait, le comte n&amp;rsquo;est maître de Toulouse qu&amp;rsquo;autant que les bourgeois le veulent bien. Il faut donc se représenter Toulouse comme une libre République, en tout semblable aux Républiques italiennes de la même époque, mais qui vit dans une paix relative avec le comte ; et c&amp;rsquo;est là une des grandes originalités de la situation.&amp;rdquo; — Jacques Madaule, Le Drame albigeois et l&amp;rsquo;Unité française, 1973, p. 27&lt;/p&gt;
+&lt;h2 id=&#34;xiiième-siècle&#34;&gt;XIIIème siècle&lt;/h2&gt;
+&lt;p&gt;En 1209, l’Occitanie est grande et rayonne via le Comte de Toulouse, Raymond VI de Toulouse, possédant par testament le comté de Melgueil, puis épouse une Trencavel, d’où le frère est vicomte de Carcassonne, la place forte du Carcassès, et vicomte de Béziers, une ville riche et puissante, où le commerce y fait bon vivre.&lt;br&gt;
+En 1202, il se lie au Royaume d’Aragon, par un mariage. Espérant ainsi le calme et la sagesse de l’Eglise.&lt;/p&gt;
+&lt;h2 id=&#34;catharisme-et-hérésie&#34;&gt;Catharisme et Hérésie&lt;/h2&gt;
+&lt;p&gt;Le Catharisme qui vient du grec signifiant pur. A l’époque, l’eglise les nomme hérétiques, et les Occitans, les Albigeois, d’où le nom donnée à la Croisade des Albigeois.
+Au XIIIème siècle, l’Occitanie accueille une grande diversité de culture, ouverte au monde, elle regroupe ainsi, Juif fuyant l’église, Islam venue d’Espagne, et Chrétien Arien.&lt;/p&gt;
+&lt;p&gt;Le Catharisme n’a pas de mal à évoluer en terre Occitane et n’est pas rejeté par la population. De plus, de part ses pratiques, le peuple y trouve son compte, en effet le catharisme est contre la propriété privée et rejette la féodalité. Ils rejettent également la guerre, les sacrements chrétiens, l’enfer et l’incarnation. Jusque là l’Eglise contrôlant indirectement les comtes et vicomtes via le royaume de France, laisse faire.&lt;/p&gt;
+&lt;p&gt;Petit à petit le vicomte Trencavel, lui-même cathare, attire les foudres de l’Eglise qui les considères alors comme protecteurs d’hérétiques. La proximité des Cathares avec le peuple commence alors à faire de l’ombre aux finances et au rayonnement de l’Eglise, même si malgré eux, le catharisme se définit en chrétienté.&lt;/p&gt;
+&lt;h2 id=&#34;la-croisade-des-albigeois&#34;&gt;La Croisade des Albigeois&lt;/h2&gt;
+&lt;p&gt;En 1209 donc, l’Eglise lança la Croisade des Albigeois, elle regroupe une puissante armée d’au moins 50 milles hommes, un “ost”, on y retrouve, les seigneurs du nord et leurs vassaux, français d’île de france, Bretons, Bourguignons, Picards mais aussi des hommes venus de Rhénanie, d’Angleterre et des Flamands.  A sa tête, le légat du Pape Innocent III, Arnaud Amaury, le chef spirituel de cette expédition. Raymond VI comte de Toulouse, pas trop fou, se retourne contre le languedoc et ainsi rejoint la croisade avec une centaine de Chevaliers, mais n’y participe pas de trop.&lt;/p&gt;
+&lt;p&gt;Le vicomte de Trencavel alors à Béziers, rentra vite à Carcassonne, capitale, riche et puissante ville, pour y organiser la défense espérant que Béziers tiennent quelques semaines. Mais il n’en fut pas Béziers tenue seulement deux jours, sans seulement établir un siège.&lt;/p&gt;
+&lt;p&gt;Le 22 Juillet, une horde de brigands sortie harceler les troupes ennemis, (c’est courant au douzième siècle lors des établissements de sièges), prise en chasse, elle rejoignit la porte principale mais ce fut trop tard, une colonne ou plutôt un flot incessant de scélérats (parce qu’au XIIIème siècle une armée se compose de professionnel : les chevaliers, les artilleurs et les archers, les autres sont des brigands, sorte de mercenaires qui s’enrichissent en pillant)  entra dans Béziers, les gardes ne purent rien faire, et béziers tomba sans qu’un cailloux ne soit tiré. Trencavel savait qu&amp;rsquo;à cet instant, tenir seul avec Carcassonne serait compliqué.&lt;/p&gt;
+&lt;p&gt;En plein mois d&amp;rsquo;Août, l’eau commencera à manquer dans les puits de la cité. Il commis une erreur stratégique que le Roi Pierre II d’Aragon (ne pas confondre avec la petite bourgade d’Aragon - nord de l’Aude) lui rappela lors des négociations du siège de la cité de Carcassonne. Il fit entrée, en bon Seigneur Cathare, tout son peuple dans la cité, ce qui restreint ses capacités de siège.&lt;/p&gt;
+&lt;p&gt;Le 15 Août sonne la reddition de la cité, un pacte est signé par le médiateur Roi d’Aragon, suzerain des provinces de la Maison Trencavel et Maison de Toulouse. Les habitants et chevaliers sont libre en échange de l’emprisonnement du vicomte Trencavel, un brave homme.&lt;/p&gt;
+&lt;h2 id=&#34;velléités&#34;&gt;Velléités&lt;/h2&gt;
+&lt;p&gt;Simon IV de Montfort fut nommé vicomte de Carcassonne, Albi et Béziers, dans le but de continuer la lutte contre l&amp;rsquo;hérésie. Dès l’année 1210, la lutte se concentra sur les terres reculées, Minerve tomba, Lastours,.. Raymond VI de Toulouse ne faisant rien pour lutter contre l’hérésie fut la cible de l’Eglise, mais le Roi Pierre II d’Aragon, allié historique du comté de Toulouse, ne peut laisser partir ses terres, dont il est le suzerain, à Simon de Montfort.&lt;/p&gt;
+&lt;p&gt;En 1213, lors de la bataille de Muret, le Roi est tué, Raymond VI pris la fuite, lâche qu’il a toujours était. Arnaud Amaury, mis Simon IV de  Montfort, comte de Toulouse, vicomte de Foix. Ainsi il fit sa fortune sur le dos de l’Eglise.&lt;/p&gt;
+&lt;p&gt;En 1218, une révolte surprend de Montfort qui décéda, laissant la place aux deux  Raimonds ( Raimond de Trencavel et Raymond VII de Toulouse). Personne ne peut alors lutter contre leur puissance et leur richesse.&lt;/p&gt;
+&lt;p&gt;En 1226 le Roi de France lança la Croisade du Capétien contre l’Occitanie, enfin à l’époque, le languedoc et l’albigeois. La région est alors très affaibli de 10 années de guerre et de révoltes, et se laisse vaincre avec peu de résistance par la couronne de France.&lt;/p&gt;
+&lt;p&gt;Jusqu&amp;rsquo;en 1249 les comtes de Toulouse et Trencavel luttent pour tenter des révoltes contre le Roi envain qui instaura les administrations du royaume pour réduire les pouvoirs des seigneuries.&lt;/p&gt;
+&lt;h2 id=&#34;pour-penser-plus-loin&#34;&gt;Pour penser plus loin&lt;/h2&gt;
+&lt;p&gt;Au cours de l’Histoire, l’Occitanie que l’on nomme aujourd’hui connu d’autre termes, l’Aquitaine, le Comté de Province, on nous surnomme aussi la petite France, du fait de nos attraits géographique. Inutile de vous expliquer les raisons des deux croisades. Rome et Paris étaient sont et resteront vos capitales religieuse et politique.&lt;/p&gt;
+&lt;h3 id=&#34;sources&#34;&gt;Sources&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://gallica.bnf.fr/ark:/12148/bpt6k5772863h/f19.image&#34; &gt;Histoire du Béarn&lt;/a&gt; - Emile Garet&lt;br&gt;
+Albigeois et Cathares - Fernand Niel&lt;br&gt;
+Histoire des Aquitains - Antoine Lebègue&lt;/p&gt;</description>
     </item>
     
   </channel>
