@@ -12,7 +12,7 @@ theme: PaperMod
 # enableRobotsTXT: true 
 buildFuture: false # Test ok / functionnal
 buildExpored: false
-buildDraft: true
+buildDraft: false
 
 # Perf Active later.
 #minify:
@@ -39,14 +39,6 @@ params:
     responsiveImages: false   # Perf
     linkFullImages: true
   
-# Schema.org / subversive theme
-  logo:
-    - android-chrome-192x192.png
-  header: 'subversive.eu | Blog subversif'
-  github: 'subversive-eu'
-  githubreposit: 'site'
-  twitter: '@Soon'
-
   homeInfoParams:
     Title: "Bonjour 👋"
     Content: "Bienvenue sur mon blog !"
@@ -74,25 +66,7 @@ params:
     - name: archive   
       url: /archives/
       weight: 30
-  
-markup:
-  tableOfContents:
-    endLevel: 3
-    ordered: false
-    startLevel: 1
-  highlight:
-    anchorLineNos: false
-    codeFences: true
-    guessSyntax: false
-    hl_Lines: ""
-    lineAnchors: ""
-    lineNoStart: 1
-    lineNos: false
-    lineNumbersInTable: true
-    noClasses: true
-    style: monokai
-    tabWidth: 4
-    
+      
 sitemap:
   changefreq: dayly
   filename: sitemap.xml
@@ -116,11 +90,6 @@ taxonomies:
 
 # RSS feed
 rsslimit: 15
-
-# Image jpeg quality
-imaging:
-  quality: 100
-  anchor: "smart"
 
 privacy:
   vimeo:
