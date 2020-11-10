@@ -10,8 +10,12 @@ Check more :   <https://subversive.eu/apropos/>
 
 ### v.01.()
 
-- Automatisation rss optimisé
+- Automatisation RSS optimisé
 - Automatisation SEO :
     - Twitter Card
     - Opengraph
-    - Schema
+    - Schema.org
+- Implication des tags
+- SEO full discovery
+    - alt
+    - title
