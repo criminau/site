@@ -10,11 +10,11 @@ tags:
  - Liberté
 date: 2020-11-01T18:00:00+02:00
 cover:
-    image: "media/bitcoin-cover.jpg"
+    image: "media/bitcoin-cover-min.jpg"
     alt: "Bitcoin cryptomonnaie"
     Caption: ""
 images:
- - 'media/bitcoin-cover.jpg'
+ - 'media/bitcoin-cover-min.jpg'
 keyword: 'Bitcoin, Cryptomonnaie, TEST, TEST'
 pdfname: ''
 ---
