@@ -1,48 +1,60 @@
-<script>
-    window.onload = function () {
-        if (localStorage.getItem("menu-scroll-position")) {
-            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
-        }
-    }
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
 
-            document.querySelector(this.getAttribute("href")).scrollIntoView({
-                behavior: "smooth"
-            });
+// copybutton Js
+/**
+ * Utils
+ */
+
+// Add code-copy buttons using progressive enhancement
+// © 2019. Tom Spencer
+// https://www.fiznool.com/blog/2018/09/14/adding-click-to-copy-buttons-to-a-hugo-powered-blog/
+(function() {
+    'use strict';
+
+    if (!document.queryCommandSupported('copy')) {
+        return;
+    }
+
+    function flashCopyMessage(el, msg) {
+        el.textContent = msg;
+        setTimeout(function() {
+            el.textContent = "Copy";
+        }, 1000);
+    }
+
+    function selectText(node) {
+        var selection = window.getSelection();
+        var range = document.createRange();
+        range.selectNodeContents(node);
+        selection.removeAllRanges();
+        selection.addRange(range);
+        return selection;
+    }
+
+    function addCopyButton(containerEl) {
+        var copyBtn = document.createElement("button");
+        copyBtn.className = "highlight-copy-btn";
+        copyBtn.textContent = "Copy";
+
+        var codeEl = containerEl.firstElementChild;
+        copyBtn.addEventListener('click', function() {
+            try {
+                var selection = selectText(codeEl);
+                document.execCommand('copy');
+                selection.removeAllRanges();
+
+                flashCopyMessage(copyBtn, 'Copied!')
+            } catch (e) {
+                console && console.log(e);
+                flashCopyMessage(copyBtn, 'Failed :\'(')
+            }
         });
-    });
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-    function menu_on_scroll() {
-        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
-    }
-</script>
 
-{{- if (and (not .Site.Params.disableThemeToggle) (not (or (eq .Site.Params.defaultTheme "light") (eq .Site.Params.defaultTheme "dark")))) }}
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-</script>
-{{- else -}}
-<!-- case where owner disables theme button after deployment, this resets the stored theme -->
-<script>
-    localStorage.removeItem("pref-theme");
-</script>
-{{- end }}
+        containerEl.appendChild(copyBtn);
+    }
+
+    // Add copy button to code blocks
+    var highlightBlocks = document.getElementsByClassName('highlight');
+    Array.prototype.forEach.call(highlightBlocks, addCopyButton);
+})();
+
+// END copybutton Js

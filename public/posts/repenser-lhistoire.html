@@ -191,7 +191,7 @@
       </blockquote>
     </details>
   </div>
-  <div class="post-content"><p>L’Histoire fait et est ce que nous sommes Hommes de la Terre. L’Histoire tourne avec le temps, comme notre planète, elle ne s’arrête jamais, quoi qu’il arrive tant que quelqu’un essayera de la lire, elle existera, même si nous ne sommes plus là.</p>
+  <div class="post-content text-justify"><p>L’Histoire fait et est ce que nous sommes Hommes de la Terre. L’Histoire tourne avec le temps, comme notre planète, elle ne s’arrête jamais, quoi qu’il arrive tant que quelqu’un essayera de la lire, elle existera, même si nous ne sommes plus là.</p>
 <p>L’Histoire telle qu’on la connaît évolue chaque jour en fonction de nos découvertes et de nos réflexions.</p>
 <h2 id="bref-résumé">Bref résumé</h2>
 <p>Il y a 400 millions d’années la vie est apparue, 235 millions d’années plus tard a commencé l’ère des dinosaures. Il y a 65 millions d’années, un période glaciaire a achevé les dinosaures. En cause un astéroïde. Les premiers Hommes seraient nés il y a 4 millions d’années en Ethiopie, la fameuse Lucy. Vers -950 000 ans Homo Erectus est arrivé en Europe. La Terre a connu de violentes périodes de glaciation comme celle de güntz ou Mindel. A chaque fois les Hommes ont survécu et se sont déplacés. Des échanges de possible colliers ou peaux d’animaux ont été trouvé entre l’Espagne et la France. L’Homme déjà échangeait. Les premières tombes ou fosses datent de -33 000 ans, les Hommes y ajoutent de la nourriture, lors du rituel d’enterrement. Des traces de statues date au plus tôt de - 22 000 ans, des figurines de déesses.</p>
@@ -302,6 +302,46 @@
 <script src="https://subversive.eu/assets/js/highlight.min.e7afc2928c0925d65c4732dfebe147014d91299a98e819e4b42f25c4fa68e91c.js" integrity="sha256-56/CkowJJdZcRzLf6&#43;FHAU2RKZqY6BnktC8lxPpo6Rw="></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+</script>
 
   
   

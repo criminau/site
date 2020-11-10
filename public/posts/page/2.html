@@ -139,25 +139,6 @@
 
   <header class="entry-header">
     <h2>
-      Covid19 Réflexion
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>Données prise le 24/04/2020 21:30
-Sources : covinfo.fr &#43; IHU Marseille &#43; Google Data.
-Echantillon, toute la population.
-...</p>
-  </section>
-  <footer class="entry-footer">
-
-4 May, 2020&nbsp;·&nbsp;5 min&nbsp;·&nbsp;subversive.eu
-</footer>
-  <a class="entry-link" aria-label="post link to Covid19 Réflexion" href="https://subversive.eu/posts/covid19-reflexion.html"></a>
-</article>
-<article class="post-entry"> 
-
-  <header class="entry-header">
-    <h2>
       La croix occitane (crotz occitana)
     </h2>
   </header>
@@ -257,6 +238,23 @@ La création d’un site n’est pas une ligne parfaite, vous devrez affronter d
 </footer>
   <a class="entry-link" aria-label="post link to Réflexion probabilité d&#39;effondrement" href="https://subversive.eu/posts/reflexion-probabilite-deffondrement.html"></a>
 </article>
+<article class="post-entry"> 
+
+  <header class="entry-header">
+    <h2>
+      Un sens à la Vie
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>De réflexion en réflexion, je me suis penché sur le sens de la vie ? Mais qu’est-ce que la vie ? Comment la définir ? Pourrions nous admettre qu’elle ait un sens ?
+...</p>
+  </section>
+  <footer class="entry-footer">
+
+29 Jan, 2020&nbsp;·&nbsp;5 min&nbsp;·&nbsp;subversive.eu
+</footer>
+  <a class="entry-link" aria-label="post link to Un sens à la Vie" href="https://subversive.eu/posts/un-sens-a-la-vie.html"></a>
+</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="../../posts.html">« Page Précédente</a>
@@ -281,6 +279,46 @@ La création d’un site n’est pas une ligne parfaite, vous devrez affronter d
 <script src="https://subversive.eu/assets/js/highlight.min.e7afc2928c0925d65c4732dfebe147014d91299a98e819e4b42f25c4fa68e91c.js" integrity="sha256-56/CkowJJdZcRzLf6&#43;FHAU2RKZqY6BnktC8lxPpo6Rw="></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+</script>
 
   
   

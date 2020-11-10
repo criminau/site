@@ -189,7 +189,7 @@
       </blockquote>
     </details>
   </div>
-  <div class="post-content"><p>Alors que le monde se divise de plus en plus, qu’il se dessine sous des pseudos « corporations », la « Corporation Europe » se porte bien.</p>
+  <div class="post-content text-justify"><p>Alors que le monde se divise de plus en plus, qu’il se dessine sous des pseudos « corporations », la « Corporation Europe » se porte bien.</p>
 <p>Préserver les intérêts français est très dur, surtout seul, dans un monde en guerre permanente pour les ressources, les technologies, les richesses. Mais unis, avec l’Europe poussée par bientôt 27 pays, chacun à leur poste, donc 3 très puissants (Allemagne, France, Italie), nous sommes prêts à tenir, soudés dernière cette corporation Europe, quand celle chinoise devient de plus en plus agressive, celle États-Unienne toujours aussi forte. Mais que vaut l’Europe ?</p>
 <h2 id="economique">Economique</h2>
 <p>2ième PIB de la planète derrière les Etats-Unis (eua), la plus grande balance courante (433 milliards $), l’euro est la deuxième monnaie du monde, nous sommes les champions commerciaux, avec 4600 milliards $ d’exportations de biens manufacturés. Nous représentons 38% des échanges commerciaux de la planète pour seulement 800 millions d’individus. Elle est le premier investisseur mondial avec 10 600 milliards $ et nous accueillons le plus d’investissement étranger de la planète.</p>
@@ -290,6 +290,46 @@
 <script src="https://subversive.eu/assets/js/highlight.min.e7afc2928c0925d65c4732dfebe147014d91299a98e819e4b42f25c4fa68e91c.js" integrity="sha256-56/CkowJJdZcRzLf6&#43;FHAU2RKZqY6BnktC8lxPpo6Rw="></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+</script>
 
   
   

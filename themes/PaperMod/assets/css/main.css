@@ -63,3 +63,23 @@
 code {
     direction: ltr;
 }
+/* Add css tricks 
+------------------------------------------------------------------------- */
+.flex{
+	display:flex;
+}
+.flex-even{
+	flex:1 1;
+}
+.flex-wrap{
+	flex-wrap:wrap;
+}
+.justify-between{
+	justify-content:space-between;
+}
+.text-justify{
+    text-align: justify;
+}
+.btn-right{
+	float: right;
+}

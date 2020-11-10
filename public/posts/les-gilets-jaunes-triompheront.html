@@ -186,7 +186,7 @@
       </blockquote>
     </details>
   </div>
-  <div class="post-content"><p>Souvenez-vous, nous sommes le 24 Novembre 2018, en début d’après-midi, c’est un peu nuageux, la télé est allumée, BFMTV affiche à l’antenne un tag noir sur l’Arc de Triomphe : “ Les Gilets Jaunes Triompheront “.</p>
+  <div class="post-content text-justify"><p>Souvenez-vous, nous sommes le 24 Novembre 2018, en début d’après-midi, c’est un peu nuageux, la télé est allumée, BFMTV affiche à l’antenne un tag noir sur l’Arc de Triomphe : “ Les Gilets Jaunes Triompheront “.</p>
 <p>Au milieu des fourgons de flic, des gazs, des casseurs, des gilets jaunes, des reporters, et divers personnages, ils vont taguer en noir un message pro-gilets jaunes. Voilà que quelques semaines plus tard, la quatrième banque mondiale assure un geste pour calmer le jeu au nom de toutes les autres, un président annonce des mesures, blanc à l’image, fatigué à la voix, pas sur à la gestuelle.</p>
 <p>Dix mois plus tard, ce même président fait demie-tour concernant une réforme. Voilà que les bourgeois et les installés, voilà que les pilleurs et les profiteurs, se mettaient à trembler. Voilà que ceux qui s’étaient allègrement, joyeusement, sans ne jamais craindre de contrecoup, compromis, se trouvaient exposés. Voilà que les spécialistes planétaires de la répression; de la guerre contre-subversive, aujourd’hui de l’ordre républicain, de la sécurité pour la liberté; entrent en scène, les maîtres vont donner un cours de pur génie militaire.</p>
 <p>Et ils font bien, ils appliquent leurs outils, avec dextérité et précision. Voilà que la Russie déjà bien engagée dans la répression continue, fait face elle aussi, a un mécontentement. Les russes tiennent. Voilà qu’à Hong Kong eux aussi ne sont pas contents, mais qu’ont-ils, ils ne sont pas les deux cents milles à crever de faim comme chez nous. Voilà qu’ils sont trop instruits. Voilà que le jeu tourne un peu trop vite pour certains, trop lentement pour d’autres.</p>
@@ -283,6 +283,46 @@
 <script src="https://subversive.eu/assets/js/highlight.min.e7afc2928c0925d65c4732dfebe147014d91299a98e819e4b42f25c4fa68e91c.js" integrity="sha256-56/CkowJJdZcRzLf6&#43;FHAU2RKZqY6BnktC8lxPpo6Rw="></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+</script>
 
   
   

@@ -219,23 +219,6 @@
 
   <header class="entry-header">
     <h2>
-      Markdown Syntax
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
-...</p>
-  </section>
-  <footer class="entry-footer">
-
-4 Oct, 2020&nbsp;·&nbsp;6 min&nbsp;·&nbsp;Subversive Theme Authors
-</footer>
-  <a class="entry-link" aria-label="post link to Markdown Syntax" href="https://subversive.eu/posts/markdownsyntax.html"></a>
-</article>
-<article class="post-entry"> 
-
-  <header class="entry-header">
-    <h2>
       Conseiller en relations publiques
     </h2>
   </header>
@@ -300,6 +283,25 @@
 </footer>
   <a class="entry-link" aria-label="post link to La fin de l&#39;hégémonie us" href="https://subversive.eu/posts/la-fin-de-lhegemonie-us.html"></a>
 </article>
+<article class="post-entry"> 
+
+  <header class="entry-header">
+    <h2>
+      Covid19 Réflexion
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>Données prise le 24/04/2020 21:30
+Sources : covinfo.fr &#43; IHU Marseille &#43; Google Data.
+Echantillon, toute la population.
+...</p>
+  </section>
+  <footer class="entry-footer">
+
+4 May, 2020&nbsp;·&nbsp;5 min&nbsp;·&nbsp;subversive.eu
+</footer>
+  <a class="entry-link" aria-label="post link to Covid19 Réflexion" href="https://subversive.eu/posts/covid19-reflexion.html"></a>
+</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="next" href="./page/2.html">Page Suivante »</a>
@@ -322,6 +324,46 @@
 
 
 
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+</script>
 
   
   

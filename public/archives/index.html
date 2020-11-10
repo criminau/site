@@ -169,7 +169,7 @@
   <h1>Archive</h1>
 </header>
 <div class="archive-year">
-  <h2 class="archive-year-header">2020<sup class="archive-count">&nbsp;&nbsp;18</sup>
+  <h2 class="archive-year-header">2020<sup class="archive-count">&nbsp;&nbsp;17</sup>
   </h2>
   <div class="archive-month">
     <h3 class="archive-month-header">November<sup class="archive-count">&nbsp;&nbsp;1</h3>
@@ -186,7 +186,7 @@
     </div>
   </div>
   <div class="archive-month">
-    <h3 class="archive-month-header">October<sup class="archive-count">&nbsp;&nbsp;2</h3>
+    <h3 class="archive-month-header">October<sup class="archive-count">&nbsp;&nbsp;1</h3>
     <div class="archive-posts">
       <div class="archive-entry">
         <h3 class="archive-entry-title">Trump n&rsquo;est pas un danger pour le commerce international
@@ -196,15 +196,6 @@
 9 Oct, 2020&nbsp;·&nbsp;9 min&nbsp;·&nbsp;real subversive
 </div>
         <a class="entry-link" aria-label="post link to Trump n&#39;est pas un danger pour le commerce international" href="https://subversive.eu/posts/trump-n-est-pas-un-danger-pour-le-commerce-international.html"></a>
-      </div>
-      <div class="archive-entry">
-        <h3 class="archive-entry-title">Markdown Syntax
-        </h3>
-        <div class="archive-meta">
-
-4 Oct, 2020&nbsp;·&nbsp;6 min&nbsp;·&nbsp;Subversive Theme Authors
-</div>
-        <a class="entry-link" aria-label="post link to Markdown Syntax" href="https://subversive.eu/posts/markdownsyntax.html"></a>
       </div>
     </div>
   </div>
@@ -486,6 +477,46 @@
 
 
 
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+</script>
 
   
   

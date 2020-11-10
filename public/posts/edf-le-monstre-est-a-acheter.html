@@ -189,7 +189,7 @@
       </blockquote>
     </details>
   </div>
-  <div class="post-content"><p>Commençons par un petit rappel, EDF, Electricité De France, deuxième productrice d’électricité de la planète qui appartient a plus de 70% à l’Etat français va subir une restructuration.</p>
+  <div class="post-content text-justify"><p>Commençons par un petit rappel, EDF, Electricité De France, deuxième productrice d’électricité de la planète qui appartient a plus de 70% à l’Etat français va subir une restructuration.</p>
 <p>Tous les médias nous présentent la nouvelle comme une bonne nouvelle, une renationalisation, mais vous allez découvrir en réalité une bien belle mascarade.</p>
 <p>Voyons les faits : Ne croyait pas qu&rsquo;EDF est une entreprise comme les autres, c&rsquo;est avant tout une multinationale d&rsquo;une puissance colossale, elle est présente sur tous les continents de la planète avec ses filiales toutes aussi imposantes les unes que les autres. En Inde, via des parcs éoliens et solaires, en Belgique avec ses réacteurs nucléaires, de même en Angleterre, en Chine, Brésil, bref partout.</p>
 <p>Gestionnaire de réseaux de distribution comme c’est le cas en France, de réseaux de production, notamment avec son parc nucléaire gigantesque, de ses parcs éoliens ou solaires, sur la terre ferme ou bientôt en mer, de la quantité de barrages en gestion, EDF est partout aux quatre coins de la planète.</p>
@@ -296,6 +296,46 @@
 <script src="https://subversive.eu/assets/js/highlight.min.e7afc2928c0925d65c4732dfebe147014d91299a98e819e4b42f25c4fa68e91c.js" integrity="sha256-56/CkowJJdZcRzLf6&#43;FHAU2RKZqY6BnktC8lxPpo6Rw="></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+</script>
 
   
   

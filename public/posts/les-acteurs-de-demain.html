@@ -191,7 +191,7 @@
       </blockquote>
     </details>
   </div>
-  <div class="post-content"><p>Leur nombre a explosé après 2008, face à la faillite des banques riches, malgré une baisse du brut, les fonds souverain ont la côte. <!-- raw HTML omitted -->
+  <div class="post-content text-justify"><p>Leur nombre a explosé après 2008, face à la faillite des banques riches, malgré une baisse du brut, les fonds souverain ont la côte. <!-- raw HTML omitted -->
 Ils gèrent toujours plus de cash. Le premier fut français en 1816, la Caisse des Dépôts et Consignation (CDC), qui gère plus de 30 milliards €.
 En 2008, la France en a créé un nouveau, le FSI ( Fonds Stratégique d’Investissement ), fermé en 2013, remplacé par BpiFrance fin 2012, doté de 19 Milliards €.</p>
 <h2 id="a-la-lutte-">A la lutte ?</h2>
@@ -305,6 +305,46 @@ pour soutenir leur États, entre 20 et 30%, ainsi ils négligent les placements 
 <script src="https://subversive.eu/assets/js/highlight.min.e7afc2928c0925d65c4732dfebe147014d91299a98e819e4b42f25c4fa68e91c.js" integrity="sha256-56/CkowJJdZcRzLf6&#43;FHAU2RKZqY6BnktC8lxPpo6Rw="></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+</script>
 
   
   

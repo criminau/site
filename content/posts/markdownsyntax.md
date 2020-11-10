@@ -1,15 +1,25 @@
 ---
-title: "Markdown Syntax"
+title: "Markdown Syntax - How to use figure with HTML + CSS and tabs"
 author: Subversive Theme Authors
-description: 'Sample article showcasing basic Markdown syntax and formatting for HTML elements.'
 ShowToc: true
-draft: false
-categories:
+draft: true
+date: 2020-11-09T17:44:04+02:00
+hidemeta: false
+tocopen: false
+disableShare: false
+tags:
  - Markdown
-date: 2020-10-04T17:44:04+02:00
+cover:
+    image: "media/markdown-cover-min.jpg"
+    alt: "Bitcoin cryptomonnaie"
+    Caption: ""
+images:
+ - 'media/markdown-cover-min.jpg'
+keyword: 'Markdown syntax, copy button, figure, details, expand, columns, tabs, blockquote, youtube responsive, HTML, CSS, HUGO, hugo authors'
+pdfname: ''
 ---
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+This article offers basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS like figure.
 <!--more-->
 
 # H1
@@ -289,3 +299,22 @@ Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the ses
 
 Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
 
+## youtube
+
+{{< youtube "8IZ9Cqi2rGM" >}}
+
+## tweeter
+
+* With mobile, Tweeter appear simple blockquote.
+
+{{< tweet 877500564405444608 >}}
+
+## vimeo
+
+{{< vimeo 146022717 >}}
+
+## Ifram PDF
+
+{{< iframepdf gt-metrix-report >}}
+
+---
