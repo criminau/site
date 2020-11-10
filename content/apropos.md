@@ -4,12 +4,11 @@ author: subversive.eu
 ShowToc: true
 draft: false
 date: 2019-11-19T08:37:55+02:00
-type: myabouttype
 url: "/apropos/"
 hidemeta: true
 disableShare: true
 tocopen: true
-description: "Pour en savoir plus du blog www.subversive.eu à propos des outils comme : Hébergement, Financement, Développement. Ainsi que vos droits. Tout savoir sur le site, de l'origine à la conception."
+description: "A propos du blog subversive.eu, de l'origine à la conception. Observons, les outils ( Développement, Hébergement, ... ), le financement, ainsi que vos droits."
 ---
 
 ### Auteur :

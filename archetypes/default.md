@@ -6,7 +6,7 @@ ShowToc: true
 hidemeta: false
 disableShare: false
 tocopen: false
-categories:
+tags:
  - 
 date: {{ .Date }}
 cover:

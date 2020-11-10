@@ -6,9 +6,17 @@ draft: false
 hidemeta: false
 tocopen: false
 disableShare: false
-categories:
+tags:
  - Liberté
 date: 2020-11-01T18:00:00+02:00
+cover:
+    image: "media/bitcoin-cover.jpg"
+    # can also paste direct link from external site
+    # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+    alt: "Papermod profile Mod"
+    caption: "Légende"
+images:
+ - 'media/bitcoin-cover.jpg'
 ---
 
 
