@@ -18,6 +18,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Subversive</title>
+    {{ with .Site.LanguageCode }}
+    <language>{{.}}</language>
+    {{end}}
     <image>
       <url>https://www.subversive.eu/apple-touch-icon.png</url>
       <title>subversive.eu</title>
@@ -47,26 +50,32 @@
       <!-- Content with Image -->
 
 {{- $content := replaceRE "a href=\"(#.*?)\"" (printf "%s%s%s" "a href=\"" .Permalink "$1\"") .Content -}}
-
+{{- $content = replaceRE "img src=\"(.*?)\"" (printf "%s%s%s" "img src=\"" .Permalink "$1\"") $content -}}
       <description>{{ $content | html }}</description>
-      <!-- Post individual image -->
+      
+      <!-- Post individual image from opengraph -->
 
-{{- $pagePermalink := .Permalink -}}
-{{- with .Params.images -}}
-{{- $img := index . 0 -}}
-<enclosure url="{{ printf "%s%s" $pagePermalink $img }}" type="image/jpg"></enclosure>
-{{ else -}}
-{{- $images := .Resources.ByType "image" -}}
+{{- if .Params.cover.image -}}
+{{- if (ne .Params.cover.relative true) }}
+<enclosure url="{{ .Params.cover.image | absURL }}" type="image/jpg"></enclosure>
+{{- else}}
+<enclosure url="{{ (path.Join .RelPermalink .Params.cover.image ) | absURL }}" type="image/jpg"></enclosure>
+{{- end}}
+{{- else }}
+{{ with $.Params.images }}{{ range first 6 . -}}
+<enclosure url="{{ . | absURL }}" type="image/jpg"></enclosure>
+{{ end }}{{ else -}}
+{{- $images := $.Resources.ByType "image" -}}
 {{- $featured := $images.GetMatch "*feature*" -}}
 {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
 {{- with $featured -}}
 <enclosure url="{{ $featured.Permalink }}" type="image/jpg"></enclosure>
-{{- else -}}
-{{- with .Site.Params.images -}}
+{{ else -}}
+{{- with $.Site.Params.images -}}
 <enclosure url="{{ index . 0 | absURL }}" type="image/jpg"></enclosure>
-{{- end -}}
-{{- end -}}
+{{ end }}{{ end }}{{ end }}
 {{- end }}
+
 
     </item>
     {{ end }}

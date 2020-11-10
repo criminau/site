@@ -2,6 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Subversive</title>
+    
+    <language>fr-FR</language>
+    
     <image>
       <url>https://www.subversive.eu/apple-touch-icon.png</url>
       <title>subversive.eu</title>
@@ -148,7 +151,9 @@ décentralisé. Mais les Hommes avides et cupides risquent tous de ne pas en pro
 &lt;h3 id=&#34;sources&#34;&gt;Sources&lt;/h3&gt;
 &lt;p&gt;&lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.bitcoincours.com/p/livre-blanc-bitcoin.html?m=1&#34; title=&#34;Liens vers Le livre Blanc&#34; &gt;Le livre Blanc&lt;/a&gt;&lt;br&gt;
 &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://bitcoin.org/fr/&#34; title=&#34;Liens vers Site Officiel fr&#34; &gt;Site Officiel fr&lt;/a&gt;&lt;/p&gt;</description>
-      <enclosure url="https://subversive.eu/posts/bitcoin-monnaie-universelle.htmlmedia/bitcoin-cover-min.jpg" type="image/jpg"></enclosure>
+      
+      
+<enclosure url="https://subversive.eu/media/bitcoin-cover-min.jpg" type="image/jpg"></enclosure>
 
 
     </item>

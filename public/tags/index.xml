@@ -2,6 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Subversive</title>
+    
+    <language>fr-FR</language>
+    
     <image>
       <url>https://www.subversive.eu/apple-touch-icon.png</url>
       <title>subversive.eu</title>
@@ -24,7 +27,11 @@
       
       <guid>https://subversive.eu/tags/libert%C3%A9.html</guid>
       <description></description>
-      <enclosure url="https://subversive.eu/android-chrome-192x192.png" type="image/jpg"></enclosure>
+      
+      
+<enclosure url="https://subversive.eu/android-chrome-192x192.png" type="image/jpg"></enclosure>
+
+
 
     </item>
     
