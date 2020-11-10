@@ -9,7 +9,7 @@
     </image>
     <link>https://subversive.eu/</link>
 
-    <description>Subversive est un site accueillant un blog, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent beaucoup de sujets différents pour approfondir votre culture subversive.</description>
+    <description>Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description>
     <language>fr</language>
     
     
@@ -19,10 +19,10 @@
     <lastBuildDate>Sun, 01 Nov 2020 18:00:00 +0200</lastBuildDate><atom:link href="https://subversive.eu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bitcoin Monnaie Universelle</title>
-      <link>https://subversive.eu/posts/bitcoin-monnaie-universelle/</link>
+      <link>https://subversive.eu/posts/bitcoin-monnaie-universelle.html</link>
       <pubDate>Sun, 01 Nov 2020 18:00:00 +0200</pubDate>
       
-      <guid>https://subversive.eu/posts/bitcoin-monnaie-universelle/</guid>
+      <guid>https://subversive.eu/posts/bitcoin-monnaie-universelle.html</guid>
       <description>&lt;p&gt;Le BTC, Bitcoin, est une cryptomonnaie internationale la plus connue de toute celle qui a
 le plus de valeur.&lt;/p&gt;
 &lt;p&gt;Aujourd’hui il est reconnu comme un simple actif, mais il s’agit de bien plus, la
@@ -152,10 +152,10 @@ décentralisé. Mais les Hommes avides et cupides risquent tous de ne pas en pro
     
     <item>
       <title>Trump n&#39;est pas un danger pour le commerce international</title>
-      <link>https://subversive.eu/posts/trump-n-est-pas-un-danger-pour-le-commerce-international/</link>
+      <link>https://subversive.eu/posts/trump-n-est-pas-un-danger-pour-le-commerce-international.html</link>
       <pubDate>Fri, 09 Oct 2020 13:19:18 +0200</pubDate>
       
-      <guid>https://subversive.eu/posts/trump-n-est-pas-un-danger-pour-le-commerce-international/</guid>
+      <guid>https://subversive.eu/posts/trump-n-est-pas-un-danger-pour-le-commerce-international.html</guid>
       <description>&lt;p&gt;TRUMP n&amp;rsquo;est pas un danger pour le commerce international.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Copie d&#39;une plaidoirie en droit des affaires.&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;TRUMP n&amp;rsquo;est pas un danger pour le commerce international.&lt;/p&gt;
@@ -214,10 +214,10 @@ D’une part, les puissances économiques mondiales ont su réagir et mettre en 
     
     <item>
       <title>Markdown Syntax</title>
-      <link>https://subversive.eu/posts/markdownsyntax/</link>
+      <link>https://subversive.eu/posts/markdownsyntax.html</link>
       <pubDate>Sun, 04 Oct 2020 17:44:04 +0200</pubDate>
       
-      <guid>https://subversive.eu/posts/markdownsyntax/</guid>
+      <guid>https://subversive.eu/posts/markdownsyntax.html</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
 &lt;h1 id=&#34;h1&#34;&gt;H1&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.markdownguide.org/basic-syntax/&#34;&gt;Link&lt;/a&gt; to the best Markdown Syntax Guide Ever !&lt;/p&gt;
@@ -819,10 +819,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     
     <item>
       <title>Conseiller en relations publiques</title>
-      <link>https://subversive.eu/posts/conseiller-en-relations-publiques/</link>
+      <link>https://subversive.eu/posts/conseiller-en-relations-publiques.html</link>
       <pubDate>Tue, 29 Sep 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/posts/conseiller-en-relations-publiques/</guid>
+      <guid>https://subversive.eu/posts/conseiller-en-relations-publiques.html</guid>
       <description>&lt;p&gt;Résumé bref, et précis du métier de conseiller en relations publiques (CRP), un métier indispensable dans les démocraties actuelles.&lt;/p&gt;
 &lt;p&gt;Suite à la lecture du livre Propaganda de Bernays, l&amp;rsquo;aperçu et l&amp;rsquo;appréciation d&amp;rsquo;une réalité, celle d&amp;rsquo;un métier sans équivalent, capable de transcender les foules comme les élus.&lt;/p&gt;
 &lt;h2 id=&#34;plan-de-travail&#34;&gt;Plan de travail&lt;/h2&gt;
@@ -902,10 +902,10 @@ Que votre objectif principal est de traduire la nature même de l&amp;rsquo;entr
     
     <item>
       <title>Les intérêts du sars-cov-2</title>
-      <link>https://subversive.eu/posts/les-interets-du-sars-cov-2/</link>
+      <link>https://subversive.eu/posts/les-interets-du-sars-cov-2.html</link>
       <pubDate>Sun, 02 Aug 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/posts/les-interets-du-sars-cov-2/</guid>
+      <guid>https://subversive.eu/posts/les-interets-du-sars-cov-2.html</guid>
       <description>&lt;p&gt;Nous sommes le 02 Août, le virus SArs-cov-2 responsable de la maladie covid19 (maladie infectieuse) ne semble toujours pas stoppé. Tous les pays de l&amp;rsquo;hémisphère nord ont passé leur pic respectif.&lt;/p&gt;
 &lt;p&gt;La première particularité est la diversité des chiffres selon les pays, quelque chose d’affolant que tout le monde semble oublier. S’en suit une explosion de la folie et une confusion générale.&lt;/p&gt;
 &lt;h2 id=&#34;diversité-entre-pays&#34;&gt;Diversité entre pays&lt;/h2&gt;
@@ -970,10 +970,10 @@ En Chine, il y aura plus de vie sauvée de la pollution que de mort du covid-19.
     
     <item>
       <title>Corrélation entre inflation et chute des civilisations</title>
-      <link>https://subversive.eu/posts/correlation-entre-inlfation-et-chute-de-civilisation/</link>
+      <link>https://subversive.eu/posts/correlation-entre-inlfation-et-chute-de-civilisation.html</link>
       <pubDate>Tue, 30 Jun 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/posts/correlation-entre-inlfation-et-chute-de-civilisation/</guid>
+      <guid>https://subversive.eu/posts/correlation-entre-inlfation-et-chute-de-civilisation.html</guid>
       <description>&lt;p&gt;Cet article ne mettra pas en cause l&amp;rsquo;inflation dans la chute d&amp;rsquo;une civilisation, mais essaiera de collaborer le fait qu&amp;rsquo;elle soit là avant la décadence.&lt;/p&gt;
 &lt;p&gt;Qu&amp;rsquo;elle soit la cause ou bien une conséquence. Ainsi nous ferons un détour historique assez flou, nous étudierons l&amp;rsquo;Histoire, analyserons les raisons des chutes et pour finir nous reviendrons dans l&amp;rsquo;actualité.&lt;/p&gt;
 &lt;p&gt;De par l&amp;rsquo;histoire, l&amp;rsquo;inflation est un processus de hausse cumulative et auto-entretenue du niveau général des prix. Il lui faut une multitude de paramètres, des variables de longue durée pour évoluer. Voyons cela.&lt;/p&gt;
@@ -1080,10 +1080,10 @@ Des théories affirment que la modernisation permet la domination, or la récent
     
     <item>
       <title>La fin de l&#39;hégémonie us</title>
-      <link>https://subversive.eu/posts/la-fin-de-lhegemonie-us/</link>
+      <link>https://subversive.eu/posts/la-fin-de-lhegemonie-us.html</link>
       <pubDate>Tue, 23 Jun 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/posts/la-fin-de-lhegemonie-us/</guid>
+      <guid>https://subversive.eu/posts/la-fin-de-lhegemonie-us.html</guid>
       <description>&lt;p&gt;Tout le monde en a entendu parler, la taxe gafa initiée par la France est en route à travers le globe. Certes elle ne représente rien réellement, en termes financiers que de maigre sommes comparées aux cibles à atteindre.&lt;/p&gt;
 &lt;p&gt;Mais elle invite Washington à se poser les bonnes questions sur l&amp;rsquo;avenir de sa superpuissance. Elle appuie la thèse supposée de la fin de l&amp;rsquo;hégémonie us sur la Terre. Elle amorce la question des outils européens de défense commerciale.&lt;/p&gt;
 &lt;h2 id=&#34;les-outils-de-défense-commerciale-enjeu-de-puissance&#34;&gt;Les outils de défense commerciale, enjeu de puissance&lt;/h2&gt;
@@ -1105,10 +1105,10 @@ Des théories affirment que la modernisation permet la domination, or la récent
     
     <item>
       <title>Covid19 Réflexion</title>
-      <link>https://subversive.eu/posts/covid19-reflexion/</link>
+      <link>https://subversive.eu/posts/covid19-reflexion.html</link>
       <pubDate>Mon, 04 May 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/posts/covid19-reflexion/</guid>
+      <guid>https://subversive.eu/posts/covid19-reflexion.html</guid>
       <description>&lt;p&gt;Données prise le 24/04/2020 21:30&lt;br&gt;
 Sources : covinfo.fr + IHU Marseille + Google Data.&lt;br&gt;
 Echantillon, toute la population.&lt;/p&gt;
@@ -1196,10 +1196,10 @@ Durant ce confinement, j&amp;rsquo;ai eu confirmation que 30 000 ans d&amp;rsquo
     
     <item>
       <title>La croix occitane (crotz occitana)</title>
-      <link>https://subversive.eu/posts/la-croix-occitane/</link>
+      <link>https://subversive.eu/posts/la-croix-occitane.html</link>
       <pubDate>Fri, 24 Apr 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/posts/la-croix-occitane/</guid>
+      <guid>https://subversive.eu/posts/la-croix-occitane.html</guid>
       <description>&lt;p&gt;Occitanie, Occitània. Béziers fut la première ville de France. La plus vieille donc.&lt;br&gt;
 Vient du Diocèse de Vienne de l’Empire romain en - 300 av Jc.&lt;/p&gt;
 &lt;p&gt;En 400 ap Jc, il existe 7 provinces, le Diocèse des Septs Provinces (en latin Septem Provinciae).&lt;/p&gt;
@@ -1241,10 +1241,10 @@ Histoire des Aquitains - Antoine Lebègue&lt;/p&gt;</description>
     
     <item>
       <title>Les acteurs de demain</title>
-      <link>https://subversive.eu/posts/les-acteurs-de-demain/</link>
+      <link>https://subversive.eu/posts/les-acteurs-de-demain.html</link>
       <pubDate>Thu, 12 Mar 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/posts/les-acteurs-de-demain/</guid>
+      <guid>https://subversive.eu/posts/les-acteurs-de-demain.html</guid>
       <description>&lt;p&gt;Leur nombre a explosé après 2008, face à la faillite des banques riches, malgré une baisse du brut, les fonds souverain ont la côte. &lt;!-- raw HTML omitted --&gt;
 Ils gèrent toujours plus de cash. Le premier fut français en 1816, la Caisse des Dépôts et Consignation (CDC), qui gère plus de 30 milliards €.
 En 2008, la France en a créé un nouveau, le FSI ( Fonds Stratégique d’Investissement ), fermé en 2013, remplacé par BpiFrance fin 2012, doté de 19 Milliards €.&lt;/p&gt;
@@ -1271,10 +1271,10 @@ pour soutenir leur États, entre 20 et 30%, ainsi ils négligent les placements 
     
     <item>
       <title>Créer un site internet statique en 2020</title>
-      <link>https://subversive.eu/posts/creer-un-site-internet-statique-en-2020/</link>
+      <link>https://subversive.eu/posts/creer-un-site-internet-statique-en-2020.html</link>
       <pubDate>Fri, 06 Mar 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/posts/creer-un-site-internet-statique-en-2020/</guid>
+      <guid>https://subversive.eu/posts/creer-un-site-internet-statique-en-2020.html</guid>
       <description>&lt;p&gt;Méthode utilisée pour ce site.&lt;br&gt;
 La création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.&lt;/p&gt;
 &lt;h3 id=&#34;a-télécharger-et-installer&#34;&gt;A télécharger et installer&lt;/h3&gt;
@@ -1372,10 +1372,10 @@ Exercez votre mise à jour avec &amp;lsquo;hugo server -D&amp;rsquo; désactivé
     
     <item>
       <title>Légion Etrangère, rapide tour du propriétaire</title>
-      <link>https://subversive.eu/posts/legion-etrangere-rapide-tour-du-proprietaire/</link>
+      <link>https://subversive.eu/posts/legion-etrangere-rapide-tour-du-proprietaire.html</link>
       <pubDate>Fri, 28 Feb 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/posts/legion-etrangere-rapide-tour-du-proprietaire/</guid>
+      <guid>https://subversive.eu/posts/legion-etrangere-rapide-tour-du-proprietaire.html</guid>
       <description>&lt;p&gt;La Légion Etrangère est une armée privée de l&amp;rsquo;État français. Je vous propose un petit tour rapide de géopolitique. Depuis que la guerre existe, tous se posent la question : Comment gérer le courage et le moral de nos troupes ?&lt;/p&gt;
 &lt;h2 id=&#34;résumé&#34;&gt;Résumé&lt;/h2&gt;
 &lt;p&gt;A Sparte, les Grecs avaient des troupes d’élites avec des couples homosexuels. Ainsi chaque membre se bat pour son conjoint. L’amour les tiens. C’est une bonne doctrine qui servira d’alimenter la puissance de Sparte. La Légion a trouvé l’autre solution, il faut que les hommes soient soudés par la souffrance commune, l’amour vous lie et la souffrance aussi. Dans ces débuts, l’Etat possédait d’autres régiments Étrangers comme les infanteries Suisses, Polonaises. Rien de bien différent.&lt;/p&gt;
@@ -1394,10 +1394,10 @@ La protection des bases et convois de ravitaillement est réalisé par des troup
     
     <item>
       <title>L&#39;Europe de la défense, pour bientôt</title>
-      <link>https://subversive.eu/posts/leurope-de-la-defense-pour-bientot/</link>
+      <link>https://subversive.eu/posts/leurope-de-la-defense-pour-bientot.html</link>
       <pubDate>Wed, 26 Feb 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/posts/leurope-de-la-defense-pour-bientot/</guid>
+      <guid>https://subversive.eu/posts/leurope-de-la-defense-pour-bientot.html</guid>
       <description>&lt;p&gt;Mr Maas a annoncé qu’il travaillait étroitement avec son homologue Mr Le Drian, afin de présenter pour le second trimestre 2020, lors de la présidence allemande, un Conseil Européen de Sécurité.&lt;/p&gt;
 &lt;h2 id=&#34;pas-un-peu-tard-&#34;&gt;Pas un peu tard ?&lt;/h2&gt;
 &lt;p&gt;Face au monde demain, la France a compris que ses intérêts étaient ceux de l’Europe, dans un monde multipolaire. Paris a toujours cherché à être dans les deux camps, et elle va continuer. L’Allemagne réticente à toute modification de l’Europe, ralentit les négociations d’une Europe de la Défense. Noté qu’on parle de sécurité et non de défense.&lt;/p&gt;
@@ -1419,10 +1419,10 @@ La protection des bases et convois de ravitaillement est réalisé par des troup
     
     <item>
       <title>Réflexion probabilité d&#39;effondrement</title>
-      <link>https://subversive.eu/posts/reflexion-probabilite-deffondrement/</link>
+      <link>https://subversive.eu/posts/reflexion-probabilite-deffondrement.html</link>
       <pubDate>Wed, 05 Feb 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/posts/reflexion-probabilite-deffondrement/</guid>
+      <guid>https://subversive.eu/posts/reflexion-probabilite-deffondrement.html</guid>
       <description>&lt;p&gt;Comment définir un effondrement ? Celui d’une civilisation, c’est cela donc il sera question ici. On peut le traduire par une survie des individus, qui ont fuis une région. Une éradication de leur culture et tradition, la langue, les rites et croyances. Leur disparition totale.&lt;/p&gt;
 &lt;h2 id=&#34;causes&#34;&gt;Causes&lt;/h2&gt;
 &lt;p&gt;Posons nous donc les causes, et les raisons qui provoquent cela. La faim, facile, l&amp;rsquo;extermination, facile. Ces deux causes peuvent survenir à la suite d’un changement climatique, comme cela a été le cas pour l’égypte antique, à la suite d’une éruption volcanique, le cas de la première révolution française. Le peuple crevant de faim fuit, meurt ou se révolte.&lt;/p&gt;
@@ -1438,10 +1438,10 @@ La protection des bases et convois de ravitaillement est réalisé par des troup
     
     <item>
       <title>Un sens à la Vie</title>
-      <link>https://subversive.eu/posts/un-sens-a-la-vie/</link>
+      <link>https://subversive.eu/posts/un-sens-a-la-vie.html</link>
       <pubDate>Wed, 29 Jan 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/posts/un-sens-a-la-vie/</guid>
+      <guid>https://subversive.eu/posts/un-sens-a-la-vie.html</guid>
       <description>&lt;p&gt;De réflexion en réflexion, je me suis penché sur le sens de la vie ? Mais qu’est-ce que la vie ? Comment la définir ? Pourrions nous admettre qu’elle ait un sens ?&lt;/p&gt;
 &lt;p&gt;Vie, vient du latin vita, qui s’étends sur plusieurs notions, la période de la naissance à la mort d’un être humain. En passant par son rapport à sa subsistance. En passant par des personnes qui nous sont chères. Ainsi le terme reste flou et large. Couplée avec sens, la notion s’oriente vers un chemin, une destinée fixée ou suivie.&lt;/p&gt;
 &lt;p&gt;La notion scientifique est simple, c’est la capacité à se reproduire d’un objet, un organisme, donc de perpétuer. Logique après tout, les peuples se révoltent quand ils ont peur, parce que la faim cri dans leur ventre, parce que leur environnement pourrait ne plus devenir viable. La peur, émotion primaire, rempli son objectif de perpétuer la vie.&lt;/p&gt;

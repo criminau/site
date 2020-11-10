@@ -5,9 +5,8 @@
     <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a></span>
     {{- end }}
     <span>&middot;</span>
-    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo️️</a>️</span>
-    <span>&middot;</span>
-    <span>Theme️ <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+    <span><a href="https://creativecommons.org/licenses/by-nc/4.0/deed.fr" rel="noopener noreferrer" target="_blank">License</a>️</span>
+    
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top">
     <button class="top-link" id="top-link" type="button">
@@ -68,3 +67,9 @@
     localStorage.removeItem("pref-theme");
 </script>
 {{- end }}
+
+
+  <!-- All scripts at the end of the page -->
+  {{ $js := resources.Get "js/script.js" }}
+  {{ $scriptsheet := $js | resources.Minify }}
+  <script src="{{ $scriptsheet.Permalink }}" rel="stylesheet" as="style"></script>
