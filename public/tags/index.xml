@@ -20,13 +20,11 @@
     <item>
       <title>Liberté</title>
       <link>https://subversive.eu/tags/libert%C3%A9.html</link>
+      <dc:creator></dc:creator>
       <pubDate>Sun, 01 Nov 2020 18:00:00 +0200</pubDate>
       
       <guid>https://subversive.eu/tags/libert%C3%A9.html</guid>
       <description></description>
-
-      <media:content type="image/jpeg" medium="image" width="900" height="600"
-      url="https://subversive.eu/" />
     </item>
     
   </channel>
