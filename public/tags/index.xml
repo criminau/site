@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Subversive</title>
+    <image>
+      <url>https://www.subversive.eu/apple-touch-icon.png</url>
+      <title>subversive.eu</title>
+      <link>www.subversive.eu</link>
+    </image>
+    <link>https://subversive.eu/tags/</link>
+
+    <description>Subversive est un site accueillant un blog, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent beaucoup de sujets différents pour approfondir votre culture subversive.</description>
+    <language>fr</language>
+    
+    
+    
+
+    <atom:link href="https://subversive.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
