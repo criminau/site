@@ -1,33 +1,44 @@
 baseURL: 'https://subversive.eu/'
 relativeURLs: true
 uglyURLs: true
-title: subversive.eu | Blog subversif 
+title: subversive.eu
 author: subversive.eu
-paginate: 5
+paginate: 7
 languageCode: fr
 DefaultContentLanguage: fr
 enableInlineShortcodes: true
-theme: Subversive
+theme: PaperMod
 
 # enableRobotsTXT: true
 buildFuture: false # Test ok / functionnal
 buildExpored: false
 buildDraft: false
 
+# Perf Active later.
+#minify:
+#  disableXML: true
+#  minifyOutput: true
+
 params:
   description: 'Subversive est un site accueillant un blog, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent beaucoup de sujets différents pour approfondir votre culture subversive.'
+  keyword: 'Subversif, Subsersive, Démocratie, Géopolitique, Liberté, Energie, Environnement, Histoire, Informatique, Internet, Blog personnel, Système bancaire, Dette, Despotisme, Servage, Esclavage, Monnaie, Argent, Crise, Sécurité, Monde, Politique, Dictature, Europe, Occident, Ras-le-bol, Gilets-jaune'
+  images:
+    - android-chrome-192x192.png
   ShowReadingTime: true
   comments: true
   contentTypeName: posts
   defaultTheme: auto
   ShowShareButtons: true
   author: subversive.eu
-  keyword: 'Subversif, Subsersive, Démocratie, Géopolitique, Liberté, Energie, Environnement, Histoire, Informatique, Internet, Blog personnel, Système bancaire, Dette, Despotisme, Servage, Esclavage, Monnaie, Argent, Crise, Sécurité, Monde, Politique, Dictature, Europe, Occident, Ras-le-bol, Gilets-jaune'
-  images:
-    - android-chrome-192x192.png
   copyright: 'https://creativecommons.org/licenses/by-nc/4.0/deed.fr'
 
-# Schema.org
+# Paper Mod
+  env: production
+  cover:
+    responsiveImages: false   # Perf
+    linkFullImages: true
+  
+# Schema.org / subversive theme
   logo:
     - android-chrome-192x192.png
   header: 'subversive.eu | Blog subversif'
@@ -35,17 +46,20 @@ params:
   githubreposit: 'site'
   twitter: '@Soon'
 
-  sideInfoParams:
+  homeInfoParams:
     Title: "Bonjour 👋"
     Content: "Bienvenue sur mon blog !"
-    Titlehome: ""
 
   socialIcons:
     - name: rss
-      url: 'https://subversive.eu/posts/index.xml'
+      url: 'https://subversive.eu/index.xml'
     - name: github
       url: 'https://github.com/subversive-eu/site'
-      
+    - name: 'twitter'
+      url: '@Soon'
+    - name: 'email'
+      url: 'mailto:webmaster.subversive.eu@gmail.com'
+
   menu:
     - name: home
       url: '/'
@@ -53,8 +67,8 @@ params:
     - name: info
       url: /apropos/
       weight: 10
-    - name: categorie
-      url: /categories/
+    - name: tags
+      url: /tags/
       weight: 20
     - name: archive   
       url: /archives/
@@ -83,40 +97,50 @@ sitemap:
   filename: sitemap.xml
   priority: 1
 
+# PaperMod Menu
 menu:
   main:
     - name: Archives
       url: /archives/
       weight: 5
-    - name: Catégories
-      url: /categories/
+    - name: Tags
+      url: /tags/
       weight: 10
     - name: A propos
       url: /apropos/
       weight: 15
 
 taxonomies:
-   category: categories
-
-privacy:
-  vimeo:
-    disable: false
-    enableDNT: true
-    simple: false
-  twitter:
-    disable: false
-    enableDNT: true
-    simple: false
+   tags: tags
 
 # RSS feed
 rsslimit: 15
-
-# rise perfomance
-minify:
-  disableXML: true
-  minifyOutput: true
 
 # Image jpeg quality
 imaging:
   quality: 100
   anchor: "smart"
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: true
+    simple: true
+
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true

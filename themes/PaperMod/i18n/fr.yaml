@@ -4,5 +4,13 @@
 - id: next_page
   translation: "Page Suivante"
 
+- id: read_time
+  translation:
+    one : "1 min"
+    other: "{{ .Count }} min"
+
 - id: toc
   translation: "Table des matières"
+
+- id: translations
+  translation: "Traductions"

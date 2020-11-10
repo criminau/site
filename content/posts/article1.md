@@ -4,14 +4,19 @@ author: subversive.eu
 ShowToc: true
 draft: true
 hidemeta: false
-tocopen: false
+tocopen: true
 disableShare: false
-categories:
+tags:
  - Démocratie
 date: 2020-11-03T17:44:04+02:00
-cover: "https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png"
+cover:
+    image: "https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png"
+    # can also paste direct link from external site
+    # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+    alt: "Papermod profile Mod"
+    caption: "Légende"
 images:
- - media/the-neurons-cover.jpg
+ - 'media/default-image.jpg'
 ---
 
 I will show you some extras about Markdown, css, and shortcode.

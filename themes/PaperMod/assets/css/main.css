@@ -36,35 +36,30 @@
 }
 
 .pagination .next {
-    margin-left: auto;
+    margin-inline-start: auto;
 }
 
-.toc {
-    margin-bottom: 40px;
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: .5em;
+.social-icons {
+    padding: 12px 0;
 }
 
-.toc details summary {
-    cursor: zoom-in;
+.social-icons a:not(:last-of-type) {
+    margin-inline-end: 12px;
 }
 
-.toc details[open] summary {
-    cursor: zoom-out;
+.social-icons a svg {
+    height: 26px;
+    width: 26px;
 }
 
-.toc .details {
-    display: inline;
-    font-weight: 500;
+.direction-rtl {
+    direction: rtl;
 }
 
-.toc blockquote {
-    border-left: 2px solid;
-    margin: 20px;
-    padding: 10px 40px;
+.direction-ltr {
+    direction: ltr;
 }
 
-.toc li ul {
-    margin-left: var(--gap);
+code {
+    direction: ltr;
 }

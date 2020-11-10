@@ -8,11 +8,7 @@
     </h1>
     {{- if .Params.hideMeta }}{{ else }}
     <div class="post-meta">
-      <time>{{ .Date.Format "January 2, 2006" }}</time>
-      {{- if $.Site.Params.ShowReadingTime -}}&nbsp;·&nbsp;
-      {{- $default_txt := print .ReadingTime " " "min" }}
-      {{- i18n "read_time" .ReadingTime | default  $default_txt  }}{{ end }}
-      {{- if or .Params.author .Site.Params.author }}&nbsp;·&nbsp;{{- .Params.author | default .Site.Params.author }}{{ end }}
+      {{- partial "post_meta.html" . -}}
       {{- if .IsTranslated -}}&nbsp;|&nbsp;
       <ul class="i18n_list">
         {{- i18n "translations" | default "Translations"}}:
@@ -22,20 +18,11 @@
         </li>
         {{- end }}
       </ul>
-      {{- end }}&nbsp;·&nbsp;
-      <a name="Télécharger" href="/pdf/{{ .Title }}.pdf" target="_blank" rel="noopener noreferrer" download>télécharger le pdf</a>
-      &nbsp;·&nbsp;
-      <a name ="Imprimer" href="javascript:if(window.print)window.print()">imprimer</a>
-      &nbsp;·&nbsp;
-      <a name="Télécharger" href="/epub/{{ .Title }}.epub" target="_blank" rel="noopener noreferrer" download>télécharger ebook</a>
+      {{- end }}
     </div>
     {{- end}}
   </header>
-  {{- if .Params.cover }}
-  <figure class="entry-cover">
-    <img src="{{ .Params.cover | absURL }}" alt="cover image for {{ .Title | plainify }}">
-  </figure>
-  {{- end }}
+  {{- partial "cover.html" (dict "cxt" . "IsHome" false) }}
   {{- if .Params.ShowToc }}
   <div class="toc">
     <details {{if .Params.TocOpen }} open{{ end }}>
@@ -50,10 +37,10 @@
   {{- end }}
   <div class="post-content">{{ .Content }}</div>
   <footer class="post-footer">
-    {{- if .Params.categories }}
+    {{- if .Params.tags }}
     <ul class="post-tags">
-      {{- range .Params.categories }}
-      {{- $href := print (absLangURL "categories/") (urlize .) }}
+      {{- range .Params.tags }}
+      {{- $href := print (absLangURL "tags/") (urlize .) }}
       <li><a href="{{ $href }}">{{ . }}</a></li>
       {{- end }}
     </ul>
@@ -63,7 +50,7 @@
     {{- end }}
   </footer>
 
-  {{- if $.Site.Params.comments }}
+  {{- if and ($.Site.Params.comments) (ne .Params.comments false) }}
   {{- partial "comments.html" . }}
   {{- end }}
 </article>

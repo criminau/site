@@ -1,14 +1,18 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 author: "{{ .Site.Params.author }}"
-ShowToc: true
 draft: false
+ShowToc: true
 hidemeta: false
 disableShare: false
+tocopen: false
 categories:
  - 
 date: {{ .Date }}
-cover: ""
+cover:
+    image: ""
+    alt: "Description de l'image"
+    caption: "Légende"
 images:
  - 
 ---

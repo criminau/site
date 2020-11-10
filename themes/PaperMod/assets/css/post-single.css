@@ -3,6 +3,7 @@
 .post-header {
     margin: 24px auto var(--content-gap) auto
 }
+
 .post-title {
     margin-bottom: 2px;
     font-size: 40px;
@@ -15,9 +16,7 @@
     display: flex;
     flex-wrap: wrap;
 }
-.post-meta a{
-    color: var(--secondary);
-}
+
 .post-meta .i18n_list li {
     display: inline-flex;
     list-style: none;
@@ -27,7 +26,6 @@
 
 .post-content {
     color: var(--content);
-    text-align: justify;
 }
 
 .post-content h3,
@@ -87,7 +85,7 @@
 
 .post-content ul,
 .post-content ol {
-    padding-left: 20px;
+    padding-inline-start: 20px;
 }
 
 .post-content li {
@@ -111,8 +109,8 @@
 
 .post-content dd {
     width: 75%;
-    margin-left: 0;
-    padding-left: 10px;
+    margin-inline-start: 0;
+    padding-inline-start: 10px;
 }
 
 .post-content dt~dt,
@@ -134,7 +132,7 @@
 
 .post-content table th {
     font-size: 14px;
-    text-align: left;
+    text-align: start;
 }
 
 .post-content table:not(.highlighttable) td code:only-child {
@@ -149,11 +147,11 @@
 }
 
 .post-content li>.highlight {
-    margin-right: 0
+    margin-inline-end: 0
 }
 
 .post-content ul pre {
-    margin-left: calc(var(--gap) * -2);
+    margin-inline-start: calc(var(--gap) * -2);
 }
 
 .post-content .highlight pre {
@@ -170,7 +168,7 @@
 }
 
 .post-content .highlighttable td .linenodiv {
-    padding-right: 0 !important;
+    padding-inline-end: 0 !important;
 }
 
 .post-content .highlighttable td .linenodiv pre,
@@ -210,7 +208,7 @@
 .post-content blockquote {
     margin: 0 calc(var(--gap) * -1);
     padding: 0 32px;
-    border-left: 2px solid var(--primary);
+    border-inline-start: 2px solid var(--primary);
 }
 
 .post-content hr {
@@ -229,25 +227,56 @@
     border-radius: 4px;
 }
 
+.toc {
+    margin-bottom: 40px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: .5em;
+}
+
+.toc details summary {
+    cursor: zoom-in;
+    margin-inline-start: 20px;
+}
+
+.toc details[open] summary {
+    cursor: zoom-out;
+}
+
+.toc .details {
+    display: inline;
+    font-weight: 500;
+}
+
+.toc blockquote {
+    margin: 0 20px;
+    padding: 10px 20px;
+}
+
+.toc li ul {
+    margin-inline-start: var(--gap);
+}
+
 .post-footer {
     margin-top: 56px;
 }
 
 .post-tags li {
     display: inline-block;
-    margin-right: 3px;
+    margin-inline-end: 3px;
     margin-bottom: 5px;
 }
 
 .post-tags a {
     display: block;
-    padding-left: 14px;
-    padding-right: 14px;
+    padding-inline-start: 14px;
+    padding-inline-end: 14px;
     color: var(--secondary);
     font-size: 14px;
     line-height: 34px;
     background: var(--code-bg);
     border-radius: 4px;
+    border: 1px solid var(--tertiary);
 }
 
 .post-tags a:hover {
@@ -255,21 +284,31 @@
 }
 
 .share-buttons {
-    text-align: center;
-    background: var(--code-bg);
+    margin-top: var(--gap);
+    border: 1px solid var(--tertiary);
+    padding-inline-start: var(--radius);
     border-radius: var(--radius);
-    margin-top: 24px;
+    display: flex;
+    overflow-x: auto;
 }
 
-.share-button-single svg {
-    fill: currentColor;
+.share-buttons a {
+    margin-top: 10px;
+}
+
+.share-buttons a:not(:last-of-type) {
+    margin-inline-end: 12px;
+}
+
+.share-buttons a svg {
     height: 30px;
     width: 30px;
-    margin: 10px;
+    fill: currentColor;
+    transition: transform 0.1s;
 }
 
-.share-button-single:hover svg {
-    opacity: 0.9;
+.share-buttons svg:hover {
+    transform: scale(0.96);
 }
 
 @media screen and (max-width: 600px) {

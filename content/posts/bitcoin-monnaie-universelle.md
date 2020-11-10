@@ -8,8 +8,10 @@ tocopen: false
 disableShare: false
 categories:
  - Liberté
-date: 2020-11-01T18:00:00+01:00
+date: 2020-11-01T18:00:00+02:00
 ---
+
+
 Le BTC, Bitcoin, est une cryptomonnaie internationale la plus connue de toute celle qui a
 le plus de valeur.
 <!--more-->
