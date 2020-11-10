@@ -77,6 +77,11 @@
     font-size: 13px;
 }
 
+.entry-footer a{
+    color: var(--secondary);
+    font-size: 13px;
+}
+
 .entry-link {
     position: absolute;
     left: 0;
