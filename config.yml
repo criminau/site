@@ -31,7 +31,7 @@ params:
   ShowShareButtons: true
   titleHome: 'subversive.eu Blog pour entretenir votre culture subversive'
   author: subversive.eu
-  copyright: 'https://creativecommons.org/licenses/by-nc/4.0/deed.fr'
+  copyright: 'Attribution - Pas d’Utilisation Commerciale 4.0 International (CC BY-NC 4.0)'
 
 # Paper Mod
   env: production
