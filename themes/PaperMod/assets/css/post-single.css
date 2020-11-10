@@ -16,7 +16,12 @@
     display: flex;
     flex-wrap: wrap;
 }
-
+.post-meta a{
+    color: var(--secondary);
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+}
 .post-meta .i18n_list li {
     display: inline-flex;
     list-style: none;

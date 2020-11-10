@@ -24,7 +24,7 @@
         <div class="archive-meta">
           {{- partial "post_meta.html" . -}}
         </div>
-        <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+        <a title="Liens vers {{ .Title | plainify }}" class="entry-link" aria-label="Liens vers {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
       </div>
       {{- end }}
       {{- end }}

@@ -17,3 +17,12 @@
 
 - id: expand
   translation: "Expandre"
+
+- id: print
+  translation: "imprimer"
+
+- id: pdf
+  translation: "pdf"
+
+- id: draft
+  translation: "brouillon"

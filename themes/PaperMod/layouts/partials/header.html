@@ -33,7 +33,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="{{ "" | absLangURL }}">
+            <a Title="Page d'accueil du site subversive.eu" href="{{ "" | absLangURL }}">
                 {{- if .Site.Params.label.icon }}
                 <img src="{{- .Site.Params.label.icon -}}" alt="logo" aria-label="logo"
                     height="{{- .Site.Params.label.iconHeight | default "30px" -}}">
@@ -43,7 +43,7 @@
             <span class="logo-switches">
                 {{- if (and (not .Site.Params.disableThemeToggle) (not (or (eq .Site.Params.defaultTheme "light") (eq .Site.Params.defaultTheme "dark")))) }}
                 <span class="theme-toggle">
-                    <a id="theme-toggle">
+                    <a title="Changer le thème" id="theme-toggle">
                         <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round">
@@ -95,7 +95,7 @@
             {{- $menu_item_url := .URL | relLangURL }}
             {{- $page_url:= $currentPage.RelPermalink | relLangURL }}
             <li>
-                <a href="{{ .URL | absLangURL }}">
+                <a Title="{{ .Name }}" href="{{ .URL | absLangURL }}">
                     <span {{- if eq $menu_item_url $page_url }}
                         {{- /* the menu item links to the current page (with relLangURL) */}} class="active" {{- end }}>
                         {{ .Name }}

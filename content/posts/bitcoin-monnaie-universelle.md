@@ -16,7 +16,7 @@ cover:
 images:
  - 'media/bitcoin-cover-min.jpg'
 keyword: 'Bitcoin, Cryptomonnaie, TEST, TEST'
-pdfname: ''
+pdfname: 'Bitcoin Monnaie Universelle'
 ---
 
 

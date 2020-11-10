@@ -12,6 +12,18 @@
 {{ $scratch.Add "meta" (slice .)}}
 {{end}}
 
+{{ with (partial "print.html" . ) }}
+{{ $scratch.Add "meta" . }} 
+{{ end }}
+
+{{ with (partial "pdf.html" . ) }}
+{{ $scratch.Add "meta" . }} 
+{{ end }}
+
 {{- with ($scratch.Get "meta")}}
 {{- delimit . "&nbsp;·&nbsp;"}}
 {{- end }}
+
+
+
+

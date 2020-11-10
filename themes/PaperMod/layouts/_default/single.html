@@ -14,7 +14,7 @@
         {{- i18n "translations" | default "Translations"}}:
         {{- range .Translations }}
         <li>
-          <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+          <a Title="Autres Languages" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
         </li>
         {{- end }}
       </ul>
@@ -41,7 +41,7 @@
     <ul class="post-tags">
       {{- range .Params.tags }}
       {{- $href := print (absLangURL "tags/") (urlize .) }}
-      <li><a href="{{ $href }}">{{ . }}</a></li>
+      <li><a rel="noopener noreferrer" Title="Tous les articles concernant le tag {{ . }}" href="{{ $href }}">{{ . }}</a></li>
       {{- end }}
     </ul>
     {{- end }}

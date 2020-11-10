@@ -2,13 +2,13 @@
     {{- if .Site.Copyright }}
     <span>{{ .Site.Copyright | markdownify }}</span>
     {{- else }}
-    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a></span>
+    <span>&copy; {{ now.Year }} <a Title="Retour vers la page d'accueil" href="{{ "" | absLangURL }}">{{ .Site.Title }}</a></span>
     {{- end }}
     <span>&middot;</span>
-    <span><a href="https://creativecommons.org/licenses/by-nc/4.0/deed.fr" rel="noopener noreferrer" target="_blank">License</a>️</span>
+    <span><a title="Lire la License" href="https://creativecommons.org/licenses/by-nc/4.0/deed.fr" rel="noopener noreferrer" target="_blank">License</a>️</span>
     
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top">
+<a href="#top" aria-label="go to top" title="retour en haut de la page">
     <button class="top-link" id="top-link" type="button">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
             <path d="M12 6H0l6-6z" /></svg>
