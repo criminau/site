@@ -83,3 +83,8 @@ code {
 .btn-right{
 	float: right;
 }
+:target {
+	margin-top: -25px;
+	border-top: 60px solid transparent;
+	background-clip: padding-box;
+}

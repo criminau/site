@@ -58,9 +58,9 @@ Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat str
 
 ## Buttons
 
-{{< button href="https://youtu.be/QRcrsHro6xI" class="" >}}Go Home{{< /button >}}
+{{< button href="https://youtu.be/QRcrsHro6xI" title="Go Home Fucking Tourists" >}}Go Home{{< /button >}}
 
-{{< button href="https://github.com/subversive-eu/hugo-subversive" class="" >}}Contribute{{< /button >}}
+{{< button href="https://github.com/subversive-eu/hugo-subversive" title="Contribute button" >}}Contribute{{< /button >}}
 
 ## Colunms
 
@@ -160,6 +160,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {{< figure src="https://via.placeholder.com/400x280" alt="image" caption="figure-left" class="left" >}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 {{< figure src="https://via.placeholder.com/1600x800" alt="image" caption="figure-normal (without any classes)" >}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -328,3 +329,4 @@ Internet
 ## Link
 
 [Histoire du Béarn](https://gallica.bnf.fr/ark:/12148/bpt6k5772863h/f19.image)
+

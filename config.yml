@@ -4,7 +4,7 @@ uglyURLs: true
 title: subversive.eu
 author: subversive.eu
 paginate: 7
-languageCode: fr
+languageCode: fr-FR
 DefaultContentLanguage: fr
 enableInlineShortcodes: true
 theme: PaperMod

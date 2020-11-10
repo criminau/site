@@ -10,7 +10,7 @@
     <link>https://subversive.eu/tags.html</link>
 
     <description>Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description>
-    <language>fr</language>
+    <language>fr-FR</language>
     
     
     
@@ -24,6 +24,9 @@
       
       <guid>https://subversive.eu/tags/libert%C3%A9.html</guid>
       <description></description>
+
+      <media:content type="image/jpeg" medium="image" width="900" height="600"
+      url="https://subversive.eu/" />
     </item>
     
   </channel>
