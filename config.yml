@@ -2,6 +2,7 @@ baseURL: 'https://subversive.eu/'
 relativeURLs: true
 uglyURLs: true
 title: subversive.eu
+
 author: subversive.eu
 paginate: 7
 languageCode: fr
@@ -29,6 +30,7 @@ params:
   contentTypeName: posts
   defaultTheme: auto
   ShowShareButtons: true
+  titleHome: 'subversive.eu Blog pour entretenir votre culture subversive'
   author: subversive.eu
   copyright: 'https://creativecommons.org/licenses/by-nc/4.0/deed.fr'
 

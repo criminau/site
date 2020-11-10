@@ -15,6 +15,8 @@ cover:
     caption: "Légende"
 images:
  - 
+keyword: ''
+pdfname: ''
 ---
 
 <!--more-->
