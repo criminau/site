@@ -3,7 +3,7 @@ title: Repenser l'Histoire
 author: subversive.eu
 ShowToc: true
 draft: false
-categories:
+tags:
   - Histoire
 date: 2020-01-09 18:00:00
 ---

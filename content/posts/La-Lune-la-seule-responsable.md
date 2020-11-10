@@ -3,12 +3,17 @@ title: La Lune seule responsable
 author: subversive.eu
 ShowToc: true
 draft: false
-categories:
+tags:
   - Environnement
 date: 2020-11-10 18:00:00
-cover: "https://subversive.eu/media/the-moon-cover.jpg"
-images: 
- - media/the-moon-cover.jpg
+cover:
+    image: "media/the-moon-cover.jpg"
+    alt: "La lune Responsable du malheur des Hommes ?"
+    Caption: ""
+images:
+ - 'media/the-moon-cover.jpg'
+keyword: 'La lune'
+pdfname: 'La Lune seule responsable'
 ---
 Les Hommes ne vivent toujours pas comme des frères malgré quatre millions d’années d’évolution. Quels en sont les raisons et leurs probabilités ? Pourquoi autant de haine ? La Lune aurait-elle son importance ?
 <!--more-->

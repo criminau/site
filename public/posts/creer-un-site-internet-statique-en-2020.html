@@ -58,7 +58,7 @@ La création d’un site n’est pas une ligne parfaite, vous devrez affronter d
   "name": "Créer un site internet statique en 2020",
   "description": "Méthode utilisée pour ce site.\nLa création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.\n",
   "keywords": [
-    
+    "Internet"
   ],
   "articleBody": "Méthode utilisée pour ce site.\nLa création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.\nA télécharger et installer 7-zip - Traitement de dossier -\nNodejs - Traitement JS -\nUn compte Github - Votre dépôt internet -\nUn peu de place dans vos documents - Votre dépôt local -\nGit - Gestion de dépôt -\nUn thème hexo -\nUn éditeur de code, dans l’exemple nous prendrons sublime text -\nCréez votre compte, téléchargez les applications, choisissez votre thème.\nInstallez 7-zip.\nNodeJS puis Git.\nCreer un Dossier Hexo (par exemple dans vos documents), lancez cmd depuis l’adresse du dossier (tapez cmd puis la touche Entrée).\nnpm install hexo-cli -g hexo init blog cd blog npm install Votre blog est créé.\nDesign Vous avez choisi un thème, ou plusieurs.\nAttention ! Certains n’ont pas de menu… Télécharger les avec git :\nPar cette méthode, vous ne pourrez les modifier, mais il sera facile de le tenir à jour. Sur le dépôt GitHub du site, a droite, cliquez sur le bouton vert “Clone or Download”, copiez le lien. Retourner sur votre explorateur de fichier, cliquez sur themes dans le dossier de votre blog. Puis clic droit “Git Bash Here”. Pour coller le lien dans git bash : Clic droit, Paste.\ngit clone votreliendutheme Configuration Ouvrez votre editeur de text, ouvrez le dossier de votre blog, puis ouvrez le fichier config.yml. Pour le thème, mettez le nom du dossier de votre thème choisi.\nPour Deploy, ne mettez rien, nous passerons par git.\nLangage, fr.\nVérifier bien le format des dates, mettez les en français pour une lecture plus rapide de vos utilisateurs.\nDéploiement Clé SSH :\nAllez dans Github settings sous votre profil - SSH and GPG - New SSH key. Donnez y un nom.\nRetourner dans le dossier de votre site - clic droit - git bash here.\nCommande :\nssh-keygen -t rsa -b 4096 -C \"votremail@mail.com\" | Changez par le mail de votre compte github Enter a file in which to save the key (/c/Users/you/.ssh/id_rsa):[Press enter] | Appuyez sur Entrée Enter passphrase (empty for no passphrase): [Type a passphrase] | Créez un mot de passe Enter same passphrase again: [Type passphrase again] | Vérification du mot de passe clip Retournez sur Github collez votre clé. Validez.\nSur Github créez un nouveau dépôt (en anglais repository). Vous arrivez ensuite sur la page du dépôt qui est vide. Stoppez l’activité en local de votre site. Dans le dossier de votre Blog, clic droit, Git Bash Here. Stoppez l’activité en local de votre site.\nPoursuivons sur votre dépôt :\nPS: Pour coller du texte dans Git, clic droit paste.\nHugo/Blog - clic droit - git bash here.\nCommandes :\ngit init  git remote add origin git@github.com:moncompte/Blog.git  git add .  git commit -m \"Premier envoi\"  git push -u origin master  Votre Dépôt est à jour. Continuons. Allez sur Netlify. - Get Started for free. Connectez-vous via Github. Puis New site from Github. Sélectionnez votre compte Github. Puis le dépôt de votre Blog. Déployez-le. Le site déployé dans notre exemple fonctionne. Votre site est normalement sur le net.\nIntégration (payant, pas obligatoire) La première chose à faire est de renommer votre domaine. Allez dans site settings - change site name. Vous vous retrouvez avec exemple-blog.netlify.com . Changez votre baseUrl dans config, en local comme sur Github.\nPour ceux ne souhaitant pas payer, sautez ce chapitre.\nSi vous ne possédez pas de nom de domaine, achetez-en un. Désactivez le protocole DNSSEC. Enregistrez quatre Serveurs DNS externes :\ndns1.p02.nsone.net\ndns2.p02.nsone.net\ndns3.p02.nsone.net\ndns4.p02.nsone.net\nRetournez sur la page overview de votre site netlify - Domain settings - add custom domain - collez le vôtre. Forcez et/ou attendez la mise en route HTTPS.\nNous allons tenter une redirection de votre domaine netlify vers votre domaine externe, pour cela rendez-vous dans le dossier static de votre site sur le dépôt github :\nOuvrez le EDIWeb, créer un fichier “_redirects” Copiez-y :\n# Redirect default Netlify subdomain to primary domain https://votresite.netlify.com/* https://votredomaine.fr/:splat 301! http://votresite.netlify.com/* https://votredomaine.fr/:splat 301! Enregistrer dans la branche master. Penser à mettre le dossier sur votre disque local au même endroit - static -.\nVoilà votre site tourne ! A vous de jouer pour obtenir du trafic ! Chacun sa méthode.\nDernière chose pour ne pas vous laisser dans l’embarras.\nMettre à jour son site Assez complexe, tout d’abords ne changez jamais le nom du dépôt Github. Ainsi que le local. Exercez votre mise à jour avec ‘hugo server -D’ désactivé via le cmd.\nPuis clic droit - GitBash here. Voici la suite de commande :\ngit status git add .  git commit -m \"nomdelamiseajour\" git push -u origin master ou git push -f origin master  Normalement votre site se met à jour directement via le dépôt Github.\nPensez à vérifier de temps en temps sur netlify, que les mises à jour soient bien publiées, il peut-y avoir des surprises !\n",
   "wordCount" : "818",
@@ -177,12 +177,7 @@ La création d’un site n’est pas une ligne parfaite, vous devrez affronter d
 
 
 
-
- 
-
-
-6 Mar, 2020&nbsp;·&nbsp;4 min&nbsp;·&nbsp;subversive.eu&nbsp;·&nbsp;<a name ="Imprimer" href="javascript:if(window.print)window.print()" title="imprimer la page" >imprimer</a>
-
+6 Mar, 2020&nbsp;·&nbsp;4 min&nbsp;·&nbsp;subversive.eu
 
 
 
@@ -303,12 +298,18 @@ Exercez votre mise à jour avec &lsquo;hugo server -D&rsquo; désactivé via le 
 </code></pre></div><p>Normalement votre site se met à jour directement via le dépôt Github.</p>
 <p>Pensez à vérifier de temps en temps sur netlify, que les mises à jour soient bien publiées, il peut-y avoir des surprises !</p></div>
   <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a rel="noopener noreferrer" Title="Tous les articles concernant le tag Internet" href="https://subversive.eu/tags/internet">Internet</a></li>
+    </ul>
+
+
+
 
 
 
 <div class="share-buttons">
     <a title="Partager via Twitter" target="_blank" rel="noopener noreferrer" aria-label="share Créer un site internet statique en 2020 on twitter"
-        href="https://twitter.com/intent/tweet/?text=Cr%c3%a9er%20un%20site%20internet%20statique%20en%202020&amp;url=https%3a%2f%2fsubversive.eu%2fposts%2fcreer-un-site-internet-statique-en-2020.html&amp;hashtags=">
+        href="https://twitter.com/intent/tweet/?text=Cr%c3%a9er%20un%20site%20internet%20statique%20en%202020&amp;url=https%3a%2f%2fsubversive.eu%2fposts%2fcreer-un-site-internet-statique-en-2020.html&amp;hashtags=Internet">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />

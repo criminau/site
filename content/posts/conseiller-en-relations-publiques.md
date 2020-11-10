@@ -3,7 +3,7 @@ title: "Conseiller en relations publiques"
 author: subversive.eu
 ShowToc: true
 draft: false
-categories:
+tags:
   - Démocratie
 date: 2020-09-29 18:00:00
 ---

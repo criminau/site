@@ -3,7 +3,7 @@ title: L'Europe de la défense, pour bientôt
 author: subversive.eu
 ShowToc: true
 draft: false
-categories:
+tags:
   - Géopolitique
 date: 2020-02-26 18:00:00
 ---

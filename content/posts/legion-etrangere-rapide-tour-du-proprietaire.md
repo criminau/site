@@ -3,7 +3,7 @@ title: Légion Etrangère, rapide tour du propriétaire
 author: subversive.eu
 ShowToc: true
 draft: false
-categories:
+tags:
   - Géopolitique
 date: 2020-02-28 18:00:00
 ---

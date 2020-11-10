@@ -3,7 +3,7 @@ title: Climat et température terrestre
 author: subversive.eu
 ShowToc: true
 draft: false
-categories:
+tags:
   - Environnement
 date: 2019-11-25 18:00:00
 ---

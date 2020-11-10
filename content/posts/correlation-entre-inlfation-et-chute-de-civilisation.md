@@ -3,7 +3,7 @@ title: Corrélation entre inflation et chute des civilisations
 author: subversive.eu
 ShowToc: true
 draft: false
-categories:
+tags:
   - Géopolitique
 date: 2020-06-30 18:00:00
 ---

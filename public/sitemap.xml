@@ -38,6 +38,13 @@
   </url>
   
   <url>
+    <loc>https://subversive.eu/tags/g%C3%A9opolitique.html</loc>
+    <lastmod>2020-10-09T13:19:18+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>1</priority>
+  </url>
+  
+  <url>
     <loc>https://subversive.eu/posts/trump-n-est-pas-un-danger-pour-le-commerce-international.html</loc>
     <lastmod>2020-10-09T13:19:18+02:00</lastmod>
     <changefreq>dayly</changefreq>
@@ -46,6 +53,13 @@
   
   <url>
     <loc>https://subversive.eu/posts/conseiller-en-relations-publiques.html</loc>
+    <lastmod>2020-09-29T18:00:00+00:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>1</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/tags/d%C3%A9mocratie.html</loc>
     <lastmod>2020-09-29T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
@@ -80,6 +94,13 @@
   </url>
   
   <url>
+    <loc>https://subversive.eu/tags/histoire.html</loc>
+    <lastmod>2020-04-24T18:00:00+00:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>1</priority>
+  </url>
+  
+  <url>
     <loc>https://subversive.eu/posts/la-croix-occitane.html</loc>
     <lastmod>2020-04-24T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
@@ -95,6 +116,13 @@
   
   <url>
     <loc>https://subversive.eu/posts/creer-un-site-internet-statique-en-2020.html</loc>
+    <lastmod>2020-03-06T18:00:00+00:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>1</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/tags/internet.html</loc>
     <lastmod>2020-03-06T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
@@ -157,6 +185,13 @@
   </url>
   
   <url>
+    <loc>https://subversive.eu/tags/informatique.html</loc>
+    <lastmod>2019-12-18T18:00:00+00:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>1</priority>
+  </url>
+  
+  <url>
     <loc>https://subversive.eu/posts/creer-son-blog-ou-son-site-internet.html</loc>
     <lastmod>2019-12-11T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
@@ -172,6 +207,13 @@
   
   <url>
     <loc>https://subversive.eu/posts/climat-et-temperature-terrestre.html</loc>
+    <lastmod>2019-11-25T18:00:00+00:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>1</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/tags/environnement.html</loc>
     <lastmod>2019-11-25T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
@@ -214,6 +256,13 @@
   
   <url>
     <loc>https://subversive.eu/posts/edf-le-monstre-est-a-acheter.html</loc>
+    <lastmod>2019-11-09T18:00:00+00:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>1</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/tags/energie.html</loc>
     <lastmod>2019-11-09T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>

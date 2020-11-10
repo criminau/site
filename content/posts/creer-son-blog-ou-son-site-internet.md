@@ -3,7 +3,7 @@ title: Créer son blog ou son site internet
 author: subversive.eu
 ShowToc: true
 draft: false
-categories:
+tags:
   - Internet
 date: 2019-12-11 18:00:00
 ---

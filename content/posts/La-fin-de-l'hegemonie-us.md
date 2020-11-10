@@ -3,7 +3,7 @@ title: La fin de l'hégémonie us
 author: subversive.eu
 ShowToc: true
 draft: false
-categories:
+tags:
   - Géopolitique
 date: 2020-06-23 18:00:00
 ---

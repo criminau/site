@@ -6,7 +6,7 @@ draft: false
 hidemeta: false
 tocopen: false
 disableShare: false
-categories:
+tags:
  - Géopolitique
 date: 2020-10-09T13:19:18+02:00
 ---

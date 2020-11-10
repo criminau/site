@@ -3,7 +3,7 @@ title: Vive L’europe !
 author: subversive.eu
 ShowToc: true
 draft: false
-categories:
+tags:
   - Géopolitique
 date: 2019-11-25 18:00:00
 ---

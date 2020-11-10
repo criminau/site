@@ -3,8 +3,8 @@ title: C'est quoi l'intelligence
 author: subversive.eu
 ShowToc: true
 draft: false
-categories:
- - Environnement
+tags:
+ - Liberté
 date: 2020-11-15 18:00:00
 cover: "https://subversive.eu/media/the-neurons-cover.jpg"
 images:

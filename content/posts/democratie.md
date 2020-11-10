@@ -3,7 +3,7 @@ title: Démocratie
 author: subversive.eu
 ShowToc: true
 draft: false
-categories:
+tags:
   - Démocratie
 date: 2019-11-09 18:01:00
 ---

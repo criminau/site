@@ -4,5 +4,5 @@ author: subversive.eu
 date: 2019-11-19T09:41:48+02:00
 type: myarchivetype
 url: "/archives/"
-description: "Cette page regroupe l'ensemble des articles du site, classés par date de publication, triés par années et mois. Facile d'ulisation sans pagination. N'hésitez pas à jeter un oeuil aux vieux articles ! Les indices affichent le nombre d'article pour chaque période."
+description: "La page archive regroupe tous les articles, classés par date de publication. Facile d'ulisation sans pagination. Les indices affichent le nombre d'article."
 ---

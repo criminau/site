@@ -3,7 +3,7 @@ title: Alternatives open source
 author: subversive.eu
 ShowToc: true
 draft: false
-categories:
+tags:
   - Informatique
 date: 2019-12-18 18:00:00
 ---

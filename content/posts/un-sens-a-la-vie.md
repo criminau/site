@@ -3,7 +3,7 @@ title: Un sens à la Vie
 author: subversive.eu
 ShowToc: true
 draft: false
-categories:
+tags:
   - Liberté
 date: 2020-01-29 18:00:00
 ---

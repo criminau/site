@@ -10,13 +10,13 @@ tags:
  - 
 date: {{ .Date }}
 cover:
-    image: ""
+    image: "media/"
     alt: "Description de l'image"
     caption: "Légende"
 images:
- - 
+ - 'media/'
 keyword: ''
-pdfname: ''
+pdfname: '{{ replace .Name "-" " " | title }}'
 ---
 
 <!--more-->
