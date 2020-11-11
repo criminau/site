@@ -8,9 +8,10 @@ Check more :   <https://subversive.eu/apropos/>
 
 ## Last release
 
-### v.01.()
+### v.01.5
 
 - Automatisation RSS optimisé
+    - Image enclosure
 - Automatisation SEO :
     - Twitter Card
     - Opengraph
@@ -20,3 +21,4 @@ Check more :   <https://subversive.eu/apropos/>
     - alt
     - title
     - no /posts/ folder
+- pdf implication
