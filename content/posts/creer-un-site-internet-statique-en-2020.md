@@ -1,5 +1,5 @@
 ---
-title: Créer un site internet statique en 2020
+title: Creer un site internet statique en 2020
 author: subversive.eu
 ShowToc: true
 draft: false

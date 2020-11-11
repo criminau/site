@@ -1,5 +1,5 @@
 ---
-title: Créer son blog ou son site internet
+title: Creer son blog ou son site internet
 author: subversive.eu
 ShowToc: true
 draft: false

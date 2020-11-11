@@ -18,7 +18,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Subversive</title>
-    <language>fr</language>
+    <language>fr-FR</language>
     <image>
       <url>https://www.subversive.eu/apple-touch-icon.png</url>
       <title>Subversive</title>
@@ -27,7 +27,7 @@
     <link>{{ .Permalink }}</link>
 
     {{ with .Site.Params.description }}<description>{{.}}</description>{{end}}
-    <language>fr</language>
+    
     {{ with $.Site.Author.name }}<managingEditor> {{.}}</managingEditor>{{end}}
     {{ with $.Site.Author.name }}<webMaster>{{.}}</webMaster>{{end}}
     {{ with .Site.Copyright }}<copyright>{{.}}</copyright>{{end}}
