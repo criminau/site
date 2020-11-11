@@ -10,6 +10,7 @@ disableShare: false
 tags:
  - Markdown
 cover:
+    relative: true
     image: "media/markdown-cover-min.jpg"
     alt: "Bitcoin cryptomonnaie"
     Caption: ""

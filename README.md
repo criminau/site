@@ -19,3 +19,4 @@ Check more :   <https://subversive.eu/apropos/>
 - SEO full discovery
     - alt
     - title
+    - no /posts/ folder

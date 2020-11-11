@@ -10,6 +10,7 @@ tags:
  - Liberté
 date: 2020-11-01T18:00:00+02:00
 cover:
+    relative: true
     image: "media/bitcoin-cover-min.jpg"
     alt: "Bitcoin cryptomonnaie"
     Caption: ""
@@ -17,6 +18,7 @@ images:
  - 'media/bitcoin-cover-min.jpg'
 keyword: 'Bitcoin, Cryptomonnaie, TEST, TEST'
 pdfname: 'Bitcoin Monnaie Universelle'
+url: "/bitcoin-monnaie-universelle/"
 ---
 
 

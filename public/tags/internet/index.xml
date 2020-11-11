@@ -22,10 +22,10 @@
     <lastBuildDate>Fri, 06 Mar 2020 18:00:00 +0000</lastBuildDate><atom:link href="https://subversive.eu/tags/internet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Créer un site internet statique en 2020</title>
-      <link>https://subversive.eu/posts/creer-un-site-internet-statique-en-2020.html</link>
+      <link>https://subversive.eu/cr%C3%A9er-un-site-internet-statique-en-2020.html</link>
       <pubDate>Fri, 06 Mar 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/posts/creer-un-site-internet-statique-en-2020.html</guid>
+      <guid>https://subversive.eu/cr%C3%A9er-un-site-internet-statique-en-2020.html</guid>
       <description>&lt;p&gt;Méthode utilisée pour ce site.&lt;br&gt;
 La création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.&lt;/p&gt;
 &lt;h3 id=&#34;a-télécharger-et-installer&#34;&gt;A télécharger et installer&lt;/h3&gt;
@@ -129,10 +129,10 @@ Exercez votre mise à jour avec &amp;lsquo;hugo server -D&amp;rsquo; désactivé
     
     <item>
       <title>Créer son blog ou son site internet</title>
-      <link>https://subversive.eu/posts/creer-son-blog-ou-son-site-internet.html</link>
+      <link>https://subversive.eu/cr%C3%A9er-son-blog-ou-son-site-internet.html</link>
       <pubDate>Wed, 11 Dec 2019 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/posts/creer-son-blog-ou-son-site-internet.html</guid>
+      <guid>https://subversive.eu/cr%C3%A9er-son-blog-ou-son-site-internet.html</guid>
       <description>&lt;p&gt;Ouvrir un site internet sur le domaine public vous engage à respecter les lois en vigueur sur le territoire de votre résidence. Si vous ne souhaitez pas subir le droit en vigueur, vous pouvez vous orienter vers un site caché, .onion.&lt;/p&gt;
 &lt;p&gt;J’ai utilisé cette méthode, je souhaitai donc vous la partager.&lt;br&gt;
 Elle n’est pas recommandable pour un site à but lucratif car il s’agit ici d’un CMS statique.&lt;br&gt;

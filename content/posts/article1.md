@@ -10,6 +10,7 @@ tags:
  - Démocratie
 date: 2020-11-03T17:44:04+02:00
 cover:
+    relative: false
     image: "https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png"
     # can also paste direct link from external site
     # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png

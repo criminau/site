@@ -2,34 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Subversive</title>
-    
-    <language>fr-FR</language>
-    
+    <language>fr</language>
     <image>
       <url>https://www.subversive.eu/apple-touch-icon.png</url>
-      <title>subversive.eu</title>
-      <link>www.subversive.eu</link>
+      <title>Subversive</title>
+      <link>https://subversive.eu/tags.html</link>
     </image>
     <link>https://subversive.eu/tags.html</link>
 
     <description>Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description>
-    <language>fr-FR</language>
+    <language>fr</language>
     
     
     
 
     
-    <lastBuildDate>Sun, 01 Nov 2020 18:00:00 +0200</lastBuildDate><atom:link href="https://subversive.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2020 18:00:00 +0000</lastBuildDate><atom:link href="https://subversive.eu/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Liberté</title>
-      <link>https://subversive.eu/tags/libert%C3%A9.html</link>
-      <pubDate>Sun, 01 Nov 2020 18:00:00 +0200</pubDate>
+      <title>Histoire</title>
+      <link>https://subversive.eu/.html</link>
+      <pubDate>Tue, 10 Nov 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/tags/libert%C3%A9.html</guid>
+      <guid>https://subversive.eu/.html</guid>
       <description></description>
       
       
-<enclosure url="https://subversive.eu/android-chrome-192x192.png" type="image/jpg"></enclosure>
+
+
+
+
+
+
+<enclosure url="https://subversive.eu/android-chrome-192x192.png"  length="5241" type="image/png" />
+
+
+
+
+    </item>
+    
+    <item>
+      <title>Liberté</title>
+      <link>https://subversive.eu/.html</link>
+      <pubDate>Sun, 01 Nov 2020 18:00:00 +0200</pubDate>
+      
+      <guid>https://subversive.eu/.html</guid>
+      <description></description>
+      
+      
+
+
+
+
+
+
+<enclosure url="https://subversive.eu/android-chrome-192x192.png"  length="5241" type="image/png" />
+
 
 
 
@@ -37,14 +64,21 @@
     
     <item>
       <title>Géopolitique</title>
-      <link>https://subversive.eu/tags/g%C3%A9opolitique.html</link>
+      <link>https://subversive.eu/.html</link>
       <pubDate>Fri, 09 Oct 2020 13:19:18 +0200</pubDate>
       
-      <guid>https://subversive.eu/tags/g%C3%A9opolitique.html</guid>
+      <guid>https://subversive.eu/.html</guid>
       <description></description>
       
       
-<enclosure url="https://subversive.eu/android-chrome-192x192.png" type="image/jpg"></enclosure>
+
+
+
+
+
+
+<enclosure url="https://subversive.eu/android-chrome-192x192.png"  length="5241" type="image/png" />
+
 
 
 
@@ -52,29 +86,21 @@
     
     <item>
       <title>Démocratie</title>
-      <link>https://subversive.eu/tags/d%C3%A9mocratie.html</link>
+      <link>https://subversive.eu/.html</link>
       <pubDate>Tue, 29 Sep 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/tags/d%C3%A9mocratie.html</guid>
+      <guid>https://subversive.eu/.html</guid>
       <description></description>
       
       
-<enclosure url="https://subversive.eu/android-chrome-192x192.png" type="image/jpg"></enclosure>
 
 
 
-    </item>
-    
-    <item>
-      <title>Histoire</title>
-      <link>https://subversive.eu/tags/histoire.html</link>
-      <pubDate>Fri, 24 Apr 2020 18:00:00 +0000</pubDate>
-      
-      <guid>https://subversive.eu/tags/histoire.html</guid>
-      <description></description>
-      
-      
-<enclosure url="https://subversive.eu/android-chrome-192x192.png" type="image/jpg"></enclosure>
+
+
+
+<enclosure url="https://subversive.eu/android-chrome-192x192.png"  length="5241" type="image/png" />
+
 
 
 
@@ -82,59 +108,21 @@
     
     <item>
       <title>Internet</title>
-      <link>https://subversive.eu/tags/internet.html</link>
+      <link>https://subversive.eu/.html</link>
       <pubDate>Fri, 06 Mar 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/tags/internet.html</guid>
+      <guid>https://subversive.eu/.html</guid>
       <description></description>
       
       
-<enclosure url="https://subversive.eu/android-chrome-192x192.png" type="image/jpg"></enclosure>
 
 
 
-    </item>
-    
-    <item>
-      <title>Informatique</title>
-      <link>https://subversive.eu/tags/informatique.html</link>
-      <pubDate>Wed, 18 Dec 2019 18:00:00 +0000</pubDate>
-      
-      <guid>https://subversive.eu/tags/informatique.html</guid>
-      <description></description>
-      
-      
-<enclosure url="https://subversive.eu/android-chrome-192x192.png" type="image/jpg"></enclosure>
 
 
 
-    </item>
-    
-    <item>
-      <title>Environnement</title>
-      <link>https://subversive.eu/tags/environnement.html</link>
-      <pubDate>Mon, 25 Nov 2019 18:00:00 +0000</pubDate>
-      
-      <guid>https://subversive.eu/tags/environnement.html</guid>
-      <description></description>
-      
-      
-<enclosure url="https://subversive.eu/android-chrome-192x192.png" type="image/jpg"></enclosure>
+<enclosure url="https://subversive.eu/android-chrome-192x192.png"  length="5241" type="image/png" />
 
-
-
-    </item>
-    
-    <item>
-      <title>Energie</title>
-      <link>https://subversive.eu/tags/energie.html</link>
-      <pubDate>Sat, 09 Nov 2019 18:00:00 +0000</pubDate>
-      
-      <guid>https://subversive.eu/tags/energie.html</guid>
-      <description></description>
-      
-      
-<enclosure url="https://subversive.eu/android-chrome-192x192.png" type="image/jpg"></enclosure>
 
 
 

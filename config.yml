@@ -26,7 +26,7 @@ params:
     - android-chrome-192x192.png
   ShowReadingTime: true
   comments: true
-  contentTypeName: posts
+  imagesdefault: 'android-chrome-192x192.png'
   defaultTheme: auto
   ShowShareButtons: true
   titleHome: 'subversive.eu Blog pour entretenir votre culture subversive'
@@ -87,6 +87,15 @@ menu:
 
 taxonomies:
    tags: tags
+
+# SEO
+permalinks:
+  posts: /:slug/
+  tags: /:filename:/
+  categories: /:filename:/
+  
+
+category_dir: /
 
 # RSS feed
 rsslimit: 15

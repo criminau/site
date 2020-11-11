@@ -8,6 +8,7 @@ url: "/apropos/"
 hidemeta: true
 disableShare: true
 tocopen: true
+comments: false
 description: "A propos du blog subversive.eu, de l'origine à la conception. Observons, les outils ( Développement, Hébergement, ... ), le financement, ainsi que vos droits."
 ---
 

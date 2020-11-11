@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Subversive</title>
+    
+    <language>fr-FR</language>
+    
+    <image>
+      <url>https://www.subversive.eu/apple-touch-icon.png</url>
+      <title>subversive.eu</title>
+      <link>www.subversive.eu</link>
+    </image>
+    <link>https://subversive.eu/libert%C3%A9.html</link>
+
+    <description>Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description>
+    <language>fr-FR</language>
+    
+    
+    
+
+    
+    <lastBuildDate>Sun, 01 Nov 2020 18:00:00 +0200</lastBuildDate><atom:link href="https://subversive.eu/libert%C3%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bitcoin Cryptomonnaie Universelle ? Ou Simple Monnaie ?</title>
+      <link>https://subversive.eu/bitcoin-cryptomonnaie-universelle-ou-simple-monnaie.html</link>
+      <pubDate>Sun, 01 Nov 2020 18:00:00 +0200</pubDate>
+      
+      <guid>https://subversive.eu/bitcoin-cryptomonnaie-universelle-ou-simple-monnaie.html</guid>
+      <description>&lt;p&gt;Le BTC, Bitcoin, est une cryptomonnaie internationale la plus connue de toutes, celle qui a
+le plus de valeur. Est-elle la monnaie universelle de demain ?&lt;/p&gt;
+&lt;p&gt;Aujourd’hui il est reconnu comme un simple actif, mais il s’agit de bien plus, la
+philosophie bitcoin est plus technique.&lt;/p&gt;
+&lt;p&gt;Au travers de cet article nous allons étudier la probabilité d’utilisation de masse de cette
+monnaie.&lt;/p&gt;
+&lt;h2 id=&#34;fonctionnement&#34;&gt;Fonctionnement&lt;/h2&gt;
+&lt;p&gt;Par exemple: Tu vis dans un village SubversiveLand, tout repose sur une blockchain, et
+une cryptomonnaie qui est le moyen de paiement officiel, le SubversiveCoin. Si tu veux
+acquérir une voiture comptant, tu enverra directement et sans intermédiaire tes
+SubversiveCoin au vendeur de la voiture !&lt;/p&gt;
+&lt;p&gt;Le banquier est donc supprimé.&lt;/p&gt;
+&lt;p&gt;Imaginez que dans le village, tout le monde va écrire dans son petit cahier que cette
+transaction de vente a eu lieu a telle heure, tel jour pour tel montant de X vers Y. Et c’est
+en comparant ce qu’il y a dans tous les petits cahiers (les noeuds) que l’on valide une
+transaction. Si la majorité des cahiers sont identiques et qu’un certains nombres de
+règles établies (le protocole) sont respectées, alors le réseau enregistre le transfert
+d’argent (le peer-to-peer).&lt;/p&gt;
+&lt;p&gt;Cette monnaie est stockée dans un wallet (portefeuille), le SubversiveCoin peut être
+stocké dans des portefeuilles froid (cold wallet), c’est à a dire en dehors de toute
+connexion internet. Ou bien sur des portefeuilles numériques. La différence avec la
+monnaie des banques centrales que vous stockez chez des banques privées, ici votre
+monnaie vous appartient.&lt;/p&gt;
+&lt;p&gt;Ainsi les cryptomonnaies permettent grâce à la blockchain de supprimer beaucoup
+d’intermédiaires tout en garantissant la fiabilité de l’information.&lt;/p&gt;
+&lt;h2 id=&#34;atout&#34;&gt;Atout&lt;/h2&gt;
+&lt;h3 id=&#34;la-sécurité&#34;&gt;La sécurité&lt;/h3&gt;
+&lt;p&gt;2 mécanismes :
+• La cryptographie : le code de chaque bloc est lié au code de celui qui le précéde, la
+modification d’un bloc entrainerait ainsi la modification de toute la chaîne.
+• Un aspect décentralisé qui implique une réplique de l’ensemble des blocs dans chaque
+noeud du réseau, cela permet de ne pas risquer une perte de données.&lt;/p&gt;
+&lt;h3 id=&#34;désintermédiation-&#34;&gt;Désintermédiation :&lt;/h3&gt;
+&lt;p&gt;Pas de banque, pas de notaires&amp;hellip;&lt;/p&gt;
+&lt;h3 id=&#34;autonomie-&#34;&gt;Autonomie :&lt;/h3&gt;
+&lt;p&gt;• Les mineurs, ceux qui assurent le fonctionnement des transactions sur la blockchain, ils
+fournissement la puissance de calcul et l’espace de calcul, sont rémunérés par des frais
+de minage a chaque transaction.&lt;/p&gt;
+&lt;p&gt;• Il n’y a pas de leader, sans leader impossible de négocier, impossible de diviser une
+idée, impossible d’iconiser une idée.&lt;/p&gt;
+&lt;h2 id=&#34;hégémonie-monétaire&#34;&gt;Hégémonie monétaire&lt;/h2&gt;
+&lt;p&gt;Le dollard ($) est toujours la monnaie la plus utilisée de la planète, la monnaie utilisée
+pour acheter du pétrole, et bien sur les plus grandes réserves de cash sont en dollard.&lt;/p&gt;
+&lt;p&gt;C’est une monnaie hégémonique et l’on voit mal les USA lancer leur dollard digital alors
+que le dollard est la monnaie internationale par excellence. On comprend pourquoi,
+lorsque la zone euro a obtenu le pouvoir de payer le pétrole irakien en euro, les USA ont
+détruit le pays. Même si l’Europe a empêché la déconnexion des irakiens du réseau
+SWIFT, rien n’a arrếté l’armée américaine.&lt;/p&gt;
+&lt;p&gt;Ainsi en 1971, en prenant en otage l’Arabie Saoudite, ils ont obligé le monde entier à
+acheter du pétrole en dollard.&lt;/p&gt;
+&lt;p&gt;Lorsque mr Musk lance des milliers de satellites internet gratuit dans le monde entier,
+c’est bien pour assurer une main basse sur la monnaie digitale électronique à l’échelle
+internationnale.&lt;/p&gt;
+&lt;p&gt;Une monnaie exclusivement sous contrôle US.&lt;/p&gt;
+&lt;p&gt;Aujourd’hui la Chine en lançant sa propre monnaie digitale, souhaite délaisser le dollard
+le long de la route de la soie dans un premier temps puis acheter du pétrole en Yuan
+Chinois Digital aux iraniens et russes.&lt;/p&gt;
+&lt;p&gt;Mais toutes ses futures “cryptomonnaies étatiques” ne sont en réalité que des enjeux et
+velléités de puissances hégémonique.&lt;/p&gt;
+&lt;p&gt;Et c’est là que le BTC est différent :
+• Un offre maximale de BTC disponible de 21 millions d’unités x 10^8.
+• Faible probabilité de s’accaparer 50% de la blockchain pour prendre le contrôle.&lt;/p&gt;
+&lt;h2 id=&#34;défauts-majeurs-du-btc&#34;&gt;Défauts majeurs du BTC&lt;/h2&gt;
+&lt;h3 id=&#34;la-psychologie-humaine&#34;&gt;La psychologie humaine&lt;/h3&gt;
+&lt;p&gt;N’oubliez pas que nous sommes sur Terre avec 4,5 millions d’années d’évolution. Les
+gens verront plus dans le BTC une manière de s’enrichir personnellement que d’établir
+une économie populaire (sans contrôle).&lt;/p&gt;
+&lt;p&gt;On le voit aujourd’hui, les personnes qui minent du BTC ou qui en possèdent préfèrent
+spéculer dessus, acheter à la baisse et revendre à la hausse. Plutôt que d’y voir une
+oppotunité de s’affranchir du système bancaire actuel.&lt;/p&gt;
+&lt;h3 id=&#34;les-conditions-climatiques&#34;&gt;Les conditions climatiques&lt;/h3&gt;
+&lt;p&gt;Vous pourrez observer une forte variation du hash rate lors de la saison des pluies en
+Asie. Les mineurs déplacent leurs machines ou les stoppent car ils tournent à perte du
+fait de la hausse du prix de l’électricité.&lt;/p&gt;
+&lt;h3 id=&#34;les-institutions-le-refuseront-toujours&#34;&gt;Les institutions le refuseront toujours&lt;/h3&gt;
+&lt;p&gt;Qui acceptera et encouragera une monnaie décentralisé à prospérer sur son territoire ? Personne.&lt;/p&gt;
+&lt;p&gt;Qui des gros commerçants autorisera à payer en BTC ses courses, ses voitures, loisirs ? Personne.&lt;/p&gt;
+&lt;p&gt;Surtout que depuis fin Octobre le confinement vise à tuer les petites structures et
+promouvoir les grandes. Mais la probabilité est bien plus faible de voir les grandes
+adhérer au BTC..&lt;/p&gt;
+&lt;p&gt;Ainsi qui va s’embêter à posséder du BTC, alors que celui-ci ne sera accepté nulle part ?&lt;/p&gt;
+&lt;p&gt;N’oubliez pas que même si vous possédez du BTC sur une clé usb, les états peuvent
+déclarer la posséssion illégale, comme ils sont fait avec l’or de l’avant guerre. Et pire
+vous proposer de le récupérer contre une poigné d’euro.&lt;/p&gt;
+&lt;h3 id=&#34;lénergie&#34;&gt;L’énergie&lt;/h3&gt;
+&lt;p&gt;La chaîne de block tourne grâce aux mineurs qui consomment de l’énergie sous forme
+électrique. Ainsi celui qui contrôle l’apport de l’électricité régule les mineurs et donc le
+BTC. La chance est que par un hasard, tout le monde ne vit pas au même endroit et donc
+la blockchain se réajuste en permanence.&lt;/p&gt;
+&lt;p&gt;Mais un gouvernement bien conseillé, supprime l’électricité à une grande partie des
+mineurs, alors le BTC s’effondrera faute de puissance de calcul.&lt;/p&gt;
+&lt;h3 id=&#34;les-futures&#34;&gt;Les futures&lt;/h3&gt;
+&lt;p&gt;Arcane Research a confirmé l’existence d’une tendance baissière du BTC (aux environs
+de 2%) avant les règlements des contrats à terme (futures Bitcoin) du CME, et ce, avec
+une répétition (presque systématique) assez remarquable. Pour sa part, TrustNodes s’est
+penché sur le même sujet durant les quatre derniers 4 mois, avant de tomber sur le
+même résultat.&lt;/p&gt;
+&lt;p&gt;Dans 75% des cas, le CME futures Bitcoin est impliqué dans une tendance baissière&amp;hellip;
+Et pire encore, les marchés à terme de marchandise existent de très longue date. Ils
+permettent de négocier le prix d’un pétrole brut pour livraison dans le futur grâce à
+l’achat ou la vente de produits standardisés, des Futures.&lt;/p&gt;
+&lt;p&gt;Ces contrats sont des outils pratiques pour les producteurs comme pour les raffineurs pour se couvrir contre les risques de variations de prix.&lt;/p&gt;
+&lt;p&gt;Les volumes échangés sur ses marchés futures représentent des volumes beaucoup plus
+importants que les marchés spot, afin de diminuer la volatilité (réduires les risques) et
+augmenter les gains. Ainsi ce sont eux qui régulent les marchés spot.&lt;/p&gt;
+&lt;p&gt;Dans une optique d’enrichissement, le bitcoin pourra-t-il tenir ?&lt;/p&gt;
+&lt;h2 id=&#34;analyse-technique-résistance-et-support&#34;&gt;Analyse technique, Résistance et Support.&lt;/h2&gt;
+&lt;p&gt;Pour bien vous rappeler votre avidité. Voici la base.&lt;/p&gt;
+&lt;p&gt;Résistance c’est quand un cours s’écroule toujours à la même valeur.
+Les vendeurs résistent et ne laisse pas acheter au delà de ce cours.&lt;/p&gt;
+&lt;p&gt;Support c’est une résistance qui empêche de descendre lorsque les acheteurs
+empêchent la vente.&lt;/p&gt;
+&lt;p&gt;Quand les résistances deviennent des supports il faut acheter au plus bas des nouveaux
+supports.&lt;/p&gt;
+&lt;p&gt;Arrivé à la résistance, il faut vendre sait-on jamais.&lt;/p&gt;
+&lt;p&gt;Cassure de supports, lorsque le support n’est pas tenu il faut vendre, très vite.&lt;/p&gt;
+&lt;p&gt;Si des supports deviennent des résistances, il faut vendre encore plus vite.
+Exemple : si le cours passe sous le support, remonte et ne passe pas la résistance.&lt;/p&gt;
+&lt;h2 id=&#34;pour-conclure&#34;&gt;Pour conclure&lt;/h2&gt;
+&lt;p&gt;Bitcoin est une réserve technologique qui vise à redonner le pouvoir financier, monétaire
+et économique à tous les citoyens du monde en offrant un système de paiment
+décentralisé. Mais les Hommes avides et cupides risquent tous de ne pas en profiter.&lt;/p&gt;
+&lt;h3 id=&#34;sources&#34;&gt;Sources&lt;/h3&gt;
+&lt;p&gt;&lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.bitcoincours.com/p/livre-blanc-bitcoin.html?m=1&#34; title=&#34;Liens vers Le livre Blanc&#34; &gt;Le livre Blanc&lt;/a&gt;&lt;br&gt;
+&lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://bitcoin.org/fr/&#34; title=&#34;Liens vers Site Officiel fr&#34; &gt;Site Officiel fr&lt;/a&gt;&lt;/p&gt;</description>
+      
+      
+<enclosure url="https://subversive.eu/media/bitcoin-cover-min.jpg" type="image/jpg"></enclosure>
+
+
+    </item>
+    
+    <item>
+      <title>Réflexion probabilité d&#39;effondrement</title>
+      <link>https://subversive.eu/r%C3%A9flexion-probabilit%C3%A9-deffondrement.html</link>
+      <pubDate>Wed, 05 Feb 2020 18:00:00 +0000</pubDate>
+      
+      <guid>https://subversive.eu/r%C3%A9flexion-probabilit%C3%A9-deffondrement.html</guid>
+      <description>&lt;p&gt;Comment définir un effondrement ? Celui d’une civilisation, c’est cela donc il sera question ici. On peut le traduire par une survie des individus, qui ont fuis une région. Une éradication de leur culture et tradition, la langue, les rites et croyances. Leur disparition totale.&lt;/p&gt;
+&lt;h2 id=&#34;causes&#34;&gt;Causes&lt;/h2&gt;
+&lt;p&gt;Posons nous donc les causes, et les raisons qui provoquent cela. La faim, facile, l&amp;rsquo;extermination, facile. Ces deux causes peuvent survenir à la suite d’un changement climatique, comme cela a été le cas pour l’égypte antique, à la suite d’une éruption volcanique, le cas de la première révolution française. Le peuple crevant de faim fuit, meurt ou se révolte.&lt;/p&gt;
+&lt;p&gt;Il y aussi la guerre, les armées détruisent tout sur leur passage, semant la faim. Le vainqueur se voit la possibilité d’exterminer totalement la population adverse, pour ainsi faire disparaître leur culture qu’il juge néfaste, exemple en crimée où Staline a envoyé de nombreux criméens dans les camps sibériens. Ainsi aujourd’hui il est compréhensible que le référendum soit passé facilement, puisque Staline a remplacé la population, donc la culture.&lt;/p&gt;
+&lt;h2 id=&#34;la-peur&#34;&gt;La peur&lt;/h2&gt;
+&lt;p&gt;Revenons, un changement climatique peut venir du soleil, d’une éruption, d’un astéroïde. Une extermination, provient du cas précédent, de la guerre, une évolution cérébrale à son terme, donc une incapacité à se reproduire, ainsi que de maladies ravageuses, comme lorsque les colons ont débarqués sur des îles du Pacifique, exterminant par maladie toutes les populations.&lt;/p&gt;
+&lt;p&gt;A ces faits, il y a un facteur à ne pas négliger, la peur, probablement la seule émotion que les Hommes ressentent à l’échelle d’un peuple. je veux dire par là, la seule émotion  commune, une forme d’inspiration commune lorsque le danger se présente. la peur correspond aux problèmes précédents, la faim arrive, le peuple a peur, il se révolte.&lt;/p&gt;
+&lt;p&gt;Mais la peur joue un double rôle celui de protéger, ainsi la révolte engendrée par elle, communique aux dirigeants, le danger présent, qu’il le maîtrise ou non. Celui aussi de provoquer l’effondrement, personne ne sait les causes de la fin de l’empire Maya, il reste probable que la peur ait fait fuir le peuple. Donc celle-ci peut nous sauver comme nous renverser. Difficile de prévoir.&lt;/p&gt;
+&lt;h2 id=&#34;corrélation&#34;&gt;Corrélation&lt;/h2&gt;
+&lt;p&gt;Aujourd’hui avec les évènements actuels, le mouvement dit véganisme, et certes correct, nous ne pouvons nous passer de viande d’origine animale si nous souhaitons nous assurer un apport juste et proportionné pour notre corps.&lt;/p&gt;
+&lt;p&gt;Qui plus ait est financé par des multinationales commerçant et produisant des plats tout prêt, pratique, peu cher à la production. Au port d’amsterdam, arrive des céréaliers rempli de maïs, où est extrait la cellulose pour en faire des plats tout prêt.&lt;/p&gt;</description>
+      
+      
+<enclosure url="https://subversive.eu/android-chrome-192x192.png" type="image/jpg"></enclosure>
+
+
+
+    </item>
+    
+    <item>
+      <title>Un sens à la Vie</title>
+      <link>https://subversive.eu/un-sens-%C3%A0-la-vie.html</link>
+      <pubDate>Wed, 29 Jan 2020 18:00:00 +0000</pubDate>
+      
+      <guid>https://subversive.eu/un-sens-%C3%A0-la-vie.html</guid>
+      <description>&lt;p&gt;De réflexion en réflexion, je me suis penché sur le sens de la vie ? Mais qu’est-ce que la vie ? Comment la définir ? Pourrions nous admettre qu’elle ait un sens ?&lt;/p&gt;
+&lt;p&gt;Vie, vient du latin vita, qui s’étends sur plusieurs notions, la période de la naissance à la mort d’un être humain. En passant par son rapport à sa subsistance. En passant par des personnes qui nous sont chères. Ainsi le terme reste flou et large. Couplée avec sens, la notion s’oriente vers un chemin, une destinée fixée ou suivie.&lt;/p&gt;
+&lt;p&gt;La notion scientifique est simple, c’est la capacité à se reproduire d’un objet, un organisme, donc de perpétuer. Logique après tout, les peuples se révoltent quand ils ont peur, parce que la faim cri dans leur ventre, parce que leur environnement pourrait ne plus devenir viable. La peur, émotion primaire, rempli son objectif de perpétuer la vie.&lt;/p&gt;
+&lt;p&gt;Dans ce sens, la vie est à l’échelle de la Terre, notre capacité à survivre dans le temps, il faut considérer des durées très longues, difficilement concevable, de plusieurs millions d’années.&lt;/p&gt;
+&lt;h2 id=&#34;étendre-son-champ-relationnel&#34;&gt;Étendre son champ relationnel&lt;/h2&gt;
+&lt;p&gt;Ainsi en regardant l’histoire, on constate que la vie réponds à une soif d’étendre son champ relationnel. Il faut comprendre par là, que chaque organisme, et l’on peut considérer que nous, Hommes de la Terre sommes un organisme, étends son champ relationnel afin de prospérer. Nos chasseur-cueilleurs ne communiquent pas sur de grande distance, aujourd’hui l’on peut le faire avec des sud-américains par exemple.&lt;/p&gt;
+&lt;p&gt;L’on peut imaginer et accepter de se voir offrir la possibilités de rencontrer de la vie extraterrestre. Ainsi, notre champ relationnel irait toujours plus loin, a notre galaxie, puis à notre univers. Bon, admettons, et quand même chaque être humain de cette Terre, collabore-t-il à ce but ? Sûrement de manière inconsciente alors. D’ailleurs la vie nous assure-t-elle un but ? Nous le donne-t-elle ? Sous qu’elle forme ? N’ayant pas l’impression de l’avoir décrypté, nous allons continuer notre réflexion.&lt;/p&gt;
+&lt;p&gt;Comment se fait-il que dès notre naissance, nous fassions tout pour survivre ? Qu’elle est la réponse de la science à cela ? Je ne l’ai pas trouvée, la vie réponds a une soif de survivre. Ainsi sans trouver de réponse claire et précise, J’ai volontairement retourner la question. Qu’attends de nous la vie ? Je me suis retrouvé face à un mur immense, une question sans réponse.&lt;/p&gt;
+&lt;p&gt;Vous me direz, bon une de plus. Sauf que celle ci est toute particulière car elle sous-entends une vérité absolu celle où l’évolution des Hommes ne peut-être que positive. Car que vous le vouliez ou non, vous n’allez pas admettre que la vie attende de vous de la mettre en déroute. Même en changeant d’échelle, plus petite, celle d’un vie humaine ou même plus grande, une race. Cette question est catégorique.&lt;/p&gt;
+&lt;p&gt;Sa faiblesse réside dans la définition de la vie et son sens dans la question. En posant la question ainsi, l’on réduit la vie à une entité, on la personnalise. On réduit sa capacité d’action. On modifie notre façon de réfléchir puisque l’on va l’associer a un potentiel rapport entre individus.&lt;/p&gt;
+&lt;h2 id=&#34;réfutation-&#34;&gt;Réfutation ?&lt;/h2&gt;
+&lt;p&gt;De manière sérieuse la question deviendrait, la vie peut-elle attendre quelque chose de nous ? Bon sincèrement cette question est aussi un mur, plus haut que la précédente. Cela revient à définir la vie. Puisque nous le savons, l’humanité, suite à une évolution cérébrale, va disparaître par un taux de natalité ridiculement faible provoquant notre disparition.&lt;/p&gt;
+&lt;p&gt;De manière concrète la vie pourrait attendre de nous, du temps de notre existence de la rendre meilleur ? Et de transmettre nos capacités à la rendre meilleure à d’autres. Cela semble logique. Mais la vie tourne dans un univers, un univers lui aussi voué à disparaître, aurions nous la capacité technologique de le fuir ? Si la réponse advient que non, alors pourquoi ? Qu’est-ce que donc cette mascarade ?&lt;/p&gt;
+&lt;p&gt;D’autres attribueront à la vie, et à la réponse à la question de ce qu’elle attends de nous, des objectifs plus concret, plus pragmatique. D’être heureux, de partager. Pourquoi pas, mais n’y-t-il pas là, une erreur de commise ? Celle où à l’époque des dinosaures, sans animaux doués de raison comme nous, ils ont eux aussi continuer à vivre, sans pour autant étendre leur champ relationnel, comme le font nos animaux sur Terre.&lt;br&gt;
+Pourtant nous leur attribuons bien la notion de vie, puisque l’on y attribue la notion de mort. La vie ne serait finalement pas simplement le fait de survivre, notre rôle serait alors de pas l’offenser, de ne pas mettre en péril notre survie ? C’est une réponse facile et rapide.&lt;/p&gt;
+&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;/h2&gt;
+&lt;p&gt;En réalité il y a un malentendu, j’entends par le mot vie, la vie, une notion à l’échelle universelle, qui touche l’Homme, comme la bactérie. Le fait même qu’il y ait des êtres vivants dans l’univers. Je n’attribue pas la vie à l’échelle, de l’Homme, de son histoire ou pire, de ma vie, de ma naissance à ma mort, de votre naissance à votre mort.&lt;/p&gt;
+&lt;p&gt;Vous comprendrez que j’apporte plus d’intérêt à réfléchir à une plus grand échelle que certains d’entre nous. Mais là est le défie que nous retiendrons pour définir ce qu&amp;rsquo;attends la vie de nous. Car par le fait même de voir trop grand, trop loin, nous n’y répondrons jamais (en tous cas je n’ai pas trouvé la réponse), on accordera donc l’existence de Dieu, de la création.&lt;/p&gt;
+&lt;h2 id=&#34;pour-penser-plus-loin&#34;&gt;Pour penser plus loin&lt;/h2&gt;
+&lt;p&gt;Nous pourrions donc définir plusieurs sens de la vie, mais cela est-il correct ? Le premier serait celui des Hommes, agrandir leur champ relationnel, mais en y réfléchissant cela leur permet de survivre. Et nous revenons donc à l’idée apportée aux animaux, celui de la survie. Logique puisque nous sommes des animaux.&lt;/p&gt;
+&lt;p&gt;Ainsi il serait acceptable de répondre à la question, qu’attends la vie de nous, de survivre. Nous pourrions très bien ouvrir le débat sur la manière d’améliorer notre survie, mais ce n’est pas le sujet ici.&lt;/p&gt;</description>
+      
+      
+<enclosure url="https://subversive.eu/android-chrome-192x192.png" type="image/jpg"></enclosure>
+
+
+
+    </item>
+    
+  </channel>
+</rss>

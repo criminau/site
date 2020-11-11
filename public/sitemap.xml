@@ -3,224 +3,217 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://subversive.eu/posts/bitcoin-monnaie-universelle.html</loc>
-    <lastmod>2020-11-01T18:00:00+02:00</lastmod>
+    <loc>https://subversive.eu/.html</loc>
+    <lastmod>2020-11-10T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/tags/libert%C3%A9.html</loc>
-    <lastmod>2020-11-01T18:00:00+02:00</lastmod>
+    <loc>https://subversive.eu/la-lune-seule-responsable.html</loc>
+    <lastmod>2020-11-10T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
     <loc>https://subversive.eu/posts.html</loc>
-    <lastmod>2020-11-01T18:00:00+02:00</lastmod>
+    <lastmod>2020-11-10T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
     <loc>https://subversive.eu/</loc>
-    <lastmod>2020-11-01T18:00:00+02:00</lastmod>
+    <lastmod>2020-11-10T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
     <loc>https://subversive.eu/tags.html</loc>
+    <lastmod>2020-11-10T18:00:00+00:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>1</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/bitcoin-monnaie-universelle/</loc>
     <lastmod>2020-11-01T18:00:00+02:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/tags/g%C3%A9opolitique.html</loc>
+    <loc>https://subversive.eu/.html</loc>
+    <lastmod>2020-11-01T18:00:00+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>1</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/.html</loc>
     <lastmod>2020-10-09T13:19:18+02:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/trump-n-est-pas-un-danger-pour-le-commerce-international.html</loc>
+    <loc>https://subversive.eu/trump-nest-pas-un-danger-pour-le-commerce-international.html</loc>
     <lastmod>2020-10-09T13:19:18+02:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/conseiller-en-relations-publiques.html</loc>
+    <loc>https://subversive.eu/conseiller-en-relations-publiques.html</loc>
     <lastmod>2020-09-29T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/tags/d%C3%A9mocratie.html</loc>
+    <loc>https://subversive.eu/.html</loc>
     <lastmod>2020-09-29T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/les-interets-du-sars-cov-2.html</loc>
+    <loc>https://subversive.eu/les-int%C3%A9r%C3%AAts-du-sars-cov-2.html</loc>
     <lastmod>2020-08-02T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/correlation-entre-inlfation-et-chute-de-civilisation.html</loc>
+    <loc>https://subversive.eu/corr%C3%A9lation-entre-inflation-et-chute-des-civilisations.html</loc>
     <lastmod>2020-06-30T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/la-fin-de-lhegemonie-us.html</loc>
+    <loc>https://subversive.eu/la-fin-de-lh%C3%A9g%C3%A9monie-us.html</loc>
     <lastmod>2020-06-23T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/covid19-reflexion.html</loc>
+    <loc>https://subversive.eu/covid19-r%C3%A9flexion.html</loc>
     <lastmod>2020-05-04T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/tags/histoire.html</loc>
+    <loc>https://subversive.eu/la-croix-occitane-crotz-occitana.html</loc>
     <lastmod>2020-04-24T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/la-croix-occitane.html</loc>
-    <lastmod>2020-04-24T18:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>1</priority>
-  </url>
-  
-  <url>
-    <loc>https://subversive.eu/posts/les-acteurs-de-demain.html</loc>
+    <loc>https://subversive.eu/les-acteurs-de-demain.html</loc>
     <lastmod>2020-03-12T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/creer-un-site-internet-statique-en-2020.html</loc>
+    <loc>https://subversive.eu/cr%C3%A9er-un-site-internet-statique-en-2020.html</loc>
     <lastmod>2020-03-06T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/tags/internet.html</loc>
+    <loc>https://subversive.eu/.html</loc>
     <lastmod>2020-03-06T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/legion-etrangere-rapide-tour-du-proprietaire.html</loc>
+    <loc>https://subversive.eu/l%C3%A9gion-etrang%C3%A8re-rapide-tour-du-propri%C3%A9taire.html</loc>
     <lastmod>2020-02-28T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/leurope-de-la-defense-pour-bientot.html</loc>
+    <loc>https://subversive.eu/leurope-de-la-d%C3%A9fense-pour-bient%C3%B4t.html</loc>
     <lastmod>2020-02-26T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/reflexion-probabilite-deffondrement.html</loc>
+    <loc>https://subversive.eu/r%C3%A9flexion-probabilit%C3%A9-deffondrement.html</loc>
     <lastmod>2020-02-05T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/un-sens-a-la-vie.html</loc>
+    <loc>https://subversive.eu/un-sens-%C3%A0-la-vie.html</loc>
     <lastmod>2020-01-29T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/croisade-en-occitanie.html</loc>
+    <loc>https://subversive.eu/croisade-en-occitanie.html</loc>
     <lastmod>2020-01-22T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/letat-du-monde.html</loc>
+    <loc>https://subversive.eu/l%C3%A9tat-du-monde.html</loc>
     <lastmod>2020-01-15T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/repenser-lhistoire.html</loc>
+    <loc>https://subversive.eu/repenser-lhistoire.html</loc>
     <lastmod>2020-01-09T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/alternatives-open-source.html</loc>
+    <loc>https://subversive.eu/alternatives-open-source.html</loc>
     <lastmod>2019-12-18T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/tags/informatique.html</loc>
-    <lastmod>2019-12-18T18:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>1</priority>
-  </url>
-  
-  <url>
-    <loc>https://subversive.eu/posts/creer-son-blog-ou-son-site-internet.html</loc>
+    <loc>https://subversive.eu/cr%C3%A9er-son-blog-ou-son-site-internet.html</loc>
     <lastmod>2019-12-11T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/racket-americain-et-demission-detat.html</loc>
+    <loc>https://subversive.eu/racket-am%C3%A9ricain-et-d%C3%A9mission-d%C3%A9tat.html</loc>
     <lastmod>2019-12-06T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/climat-et-temperature-terrestre.html</loc>
+    <loc>https://subversive.eu/climat-et-temp%C3%A9rature-terrestre.html</loc>
     <lastmod>2019-11-25T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/tags/environnement.html</loc>
-    <lastmod>2019-11-25T18:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>1</priority>
-  </url>
-  
-  <url>
-    <loc>https://subversive.eu/posts/vive-leurope.html</loc>
+    <loc>https://subversive.eu/vive-leurope.html</loc>
     <lastmod>2019-11-25T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
@@ -241,28 +234,21 @@
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/les-gilets-jaunes-triompheront.html</loc>
+    <loc>https://subversive.eu/les-gilets-jaunes-triompheront.html</loc>
     <lastmod>2019-11-09T18:03:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/democratie.html</loc>
+    <loc>https://subversive.eu/d%C3%A9mocratie.html</loc>
     <lastmod>2019-11-09T18:01:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/posts/edf-le-monstre-est-a-acheter.html</loc>
-    <lastmod>2019-11-09T18:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>1</priority>
-  </url>
-  
-  <url>
-    <loc>https://subversive.eu/tags/energie.html</loc>
+    <loc>https://subversive.eu/edf-le-monstre-est-%C3%A0-acheter.html</loc>
     <lastmod>2019-11-09T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>

@@ -4,9 +4,10 @@ author: subversive.eu
 ShowToc: true
 draft: false
 tags:
-  - Environnement
+  - Histoire
 date: 2020-11-10 18:00:00
 cover:
+    relative: true
     image: "media/the-moon-cover.jpg"
     alt: "La lune Responsable du malheur des Hommes ?"
     Caption: ""
