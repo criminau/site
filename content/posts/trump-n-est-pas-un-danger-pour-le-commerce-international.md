@@ -8,7 +8,11 @@ tocopen: false
 disableShare: false
 tags:
  - Géopolitique
-date: 2020-10-09T13:19:18+02:00
+date: 2020-10-09T18:00:00+02:00
+images: "media/trump-cover-min.jpg"
+keyword: "Trump n'est pas un danger pour le commerce international, trump, commerce, internationnal, guerre commerciale, nuire au commerce, make america great again, impact défavorable pour le commerce, trump guerre commerciale, trump tarif douanier, "
+pdfname: "Trump n'est pas un danger pour le commerce international"
+url: "/Trump-n'est-pas-un-danger-pour-le-commerce-international/"
 ---
 
 TRUMP n'est pas un danger pour le commerce international.

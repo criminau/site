@@ -1,11 +1,17 @@
 ---
-title: Creer un site internet statique en 2020
+title: Creer un site internet ou un blog statique en 2020
 author: subversive.eu
 ShowToc: true
 draft: false
+hidemeta: false
+tocopen: false
+disableShare: false
 tags:
   - Internet
-date: 2020-03-06 18:00:00
+date: 2020-03-06T18:00:00+02:00
+keyword: "Créer un site internet en 2020, créer un blog statique, créer un site internet statique, creer un site statique, créer un site, hugo cms, hugo, gohugo, cms statique, website"
+pdfname: "Creer un site internet statique en 2020"
+url: "/creer-un-site-internet-statique-en-2020/"
 ---
 
 Méthode utilisée pour ce site.  

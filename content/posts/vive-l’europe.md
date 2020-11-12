@@ -1,15 +1,24 @@
 ---
-title: Vive L’europe !
-author: subversive.eu
+title: "A qui l'europe bénéficie-t-elle ? Est-ce un atout géopolitique"
+author: "subversive.eu"
 ShowToc: true
 draft: false
+hidemeta: false
+tocopen: false
+disableShare: false
 tags:
   - Géopolitique
-date: 2019-11-25 18:00:00
+date: 2019-11-25T18:00:00+02:00
+keyword: "Europe, Investisseur, Communauté europpéenne, géopolitique, zoen euro, Bénéfice, Intérêts, atout géopolitique, puissance européenne, intérêts français"
+pdfname: "Vive l'europe !"
+url: "/a-qui-l'europe-bénéficie-t-elle/"
 ---
 
-Alors que le monde se divise de plus en plus, qu’il se dessine sous des pseudos « corporations », la « Corporation Europe » se porte bien.
+Quels sont les intérêts géopolitique européen ? A qui cette Europe forte bénéficie-t-elle ? Elle prend la forme d'une corporation dans un monde qui se fracture.
 <!--more-->
+
+Alors que le monde se divise de plus en plus, qu’il se dessine sous des pseudos « corporations », la « Corporation Europe » se porte bien.
+
 Préserver les intérêts français est très dur, surtout seul, dans un monde en guerre permanente pour les ressources, les technologies, les richesses. Mais unis, avec l’Europe poussée par bientôt 27 pays, chacun à leur poste, donc 3 très puissants (Allemagne, France, Italie), nous sommes prêts à tenir, soudés dernière cette corporation Europe, quand celle chinoise devient de plus en plus agressive, celle États-Unienne toujours aussi forte. Mais que vaut l’Europe ?
 
 ## Economique

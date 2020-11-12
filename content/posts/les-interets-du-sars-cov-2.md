@@ -1,15 +1,22 @@
 ---
-title: Les intérêts du sars-cov-2
-author: subversive.eu
+title: "Les intérêts du sars-cov-2 covid19 l'arnaque du siècle"
+author: "subversive.eu"
 ShowToc: true
 draft: false
+hidemeta: false
+tocopen: false
+disableShare: false
 tags:
   - Démocratie
-date: 2020-08-02 18:00:00
+date: 2020-08-02T18:00:00+02:00
+keyword: "covid19, arnaque du siècle, casse du siècle, sars-cov-2, a qui profite le covid, les élites et le covid, les intérêts des élites pour le covid, le virus sars-cov-2, maladie infectieuse, "
+pdfname: "Les interets du sars-cov-2"
+url: "/les-interets-du-sars-cov-2/"
 ---
 
-Nous sommes le 02 Août, le virus SArs-cov-2 responsable de la maladie covid19 (maladie infectieuse) ne semble toujours pas stoppé. Tous les pays de l'hémisphère nord ont passé leur pic respectif.  
+Le virus SArs-cov-2 responsable de la maladie covid19 (maladie infectieuse) ne semble pas stoppé. Tous les pays de l’hémisphère nord ont passé leur pic.
 <!--more-->
+
 La première particularité est la diversité des chiffres selon les pays, quelque chose d’affolant que tout le monde semble oublier. S’en suit une explosion de la folie et une confusion générale.  
 
 ## Diversité entre pays

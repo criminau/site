@@ -15,7 +15,7 @@ cover:
     alt: "Bitcoin cryptomonnaie"
     Caption: ""
 images: "media/bitcoin-cover-min.jpg"
-keyword: "Bitcoin, Cryptomonnaie, TEST, TEST"
+keyword: "Bitcoin, Cryptomonnaie, monnaie, monnaie universelle, monnaie du futur, futur des monnaies, BTC, BTC/USD, décentralsiation, désintermédiation, Blockchain, autonomie bitcoin, futures, CME futures, BTC/EUR, liberté avec le bitcoin"
 pdfname: "Bitcoin Monnaie Universelle"
 url: "/bitcoin-monnaie-universelle/"
 ---

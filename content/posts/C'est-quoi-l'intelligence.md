@@ -1,5 +1,5 @@
 ---
-title: "C'est quoi l'intelligence"
+title: "C'est quoi l'intelligence - Comment la définir ?"
 author: "subversive.eu"
 ShowToc: true
 draft: true
@@ -8,23 +8,25 @@ tocopen: false
 disableShare: false
 tags:
  - Liberté
-date: 2020-11-151T18:00:00+02:00
+date: 2020-11-20 18:00
 cover:
     relative: true
     image: "media/the-neurons-cover.jpg"
-    alt: "Les neurones"
+    alt: "neurone dans le cerveau"
     Caption: ""
 images: "media/the-neurons-cover.jpg"
-keyword: ""
+keyword: "Intelligence, Liberté, c'est quoi l'intelligence, comment définir l'intelligence, c'est quoi le QI, QI, conscience de soi, conscience, "
 pdfname: "C'est quoi l'intelligence"
 url: "/c'est-quoi-l'intelligence/"
 ---
 
 L'intelligence se mesure-t-elle ? Comme un objet dans le ciel ?
-Et-elle quantifiable ? Se traduit-elle par des mécanismes précis ? Découle-t-elle de facteurs physiques mesurables ?
+Et-elle quantifiable ? Se traduit-elle par des mécanismes précis ?
+<!--more-->
+
+Découle-t-elle de facteurs physiques mesurables ?
 
 Posons-nous la question.
-<!--more-->
 
 Et si elle n'était pas ce que l'on croit ?
 Je suis partit à la recherche de l'intelligence. Nous la définirons, essaierons d'en comprendre les causes, de définir une limite et de nous interroger sur la manière universelle de la quantifier.

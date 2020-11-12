@@ -23,12 +23,14 @@
 
     
     <item>
-      <title>La Lune seule responsable</title>
-      <link>https://subversive.eu/la-lune-seule-responsable.html</link>
+      <title>La Lune seule responsable du malheur des Hommes</title>
+      <link>https://subversive.eu/la-lune-seule-responsable/</link>
+      <author>map[]</author>
       <pubDate>Tue, 10 Nov 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/la-lune-seule-responsable.html</guid>
-      <description>&lt;p&gt;Les Hommes ne vivent toujours pas comme des frères malgré quatre millions d’années d’évolution. Quels en sont les raisons et leurs probabilités ? Pourquoi autant de haine ? La Lune aurait-elle son importance ?&lt;/p&gt;
+      <guid>https://subversive.eu/la-lune-seule-responsable/</guid>
+      <description>&lt;p&gt;Les Hommes ne vivent toujours pas comme des frères malgré quatre millions d’années d’évolution. Quels en sont les raisons et leurs probabilités ?&lt;/p&gt;
+&lt;p&gt;Pourquoi autant de haine ? La Lune aurait-elle son importance ?&lt;/p&gt;
 &lt;p&gt;Elle joue un rôle pourtant bien précis d’après nos anciens en agronomie, le calendrier lunaire serait source d’abondance. Elle régule les marées par sa masse. Mais quel est donc le rapport avec les Hommes et leur bêtise ?&lt;/p&gt;
 &lt;h2 id=&#34;le-point-de-départ&#34;&gt;Le point de départ&lt;/h2&gt;
 &lt;p&gt;&lt;figure class=&#34;right&#34;&gt;
@@ -78,8 +80,711 @@ allowfullscreen
     </item>
     
     <item>
+      <title>Markdown Syntax - How to use figure with HTML &#43; CSS and tabs</title>
+      <link>https://subversive.eu/markdown-syntax/</link>
+      <author>map[]</author>
+      <pubDate>Mon, 09 Nov 2020 17:44:04 +0200</pubDate>
+      
+      <guid>https://subversive.eu/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS like figure.&lt;/p&gt;
+&lt;p&gt;PS: Le document PDF est complet sans modification.
+PS [EN]: PDF doc is full, no changes.&lt;/p&gt;
+&lt;h1 id=&#34;h1&#34;&gt;H1&lt;/h1&gt;
+&lt;p&gt;&lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.markdownguide.org/basic-syntax/&#34; title=&#34;Liens vers Link&#34; &gt;Link&lt;/a&gt; to the best Markdown Syntax Guide Ever !&lt;/p&gt;
+&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;
+&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
+&lt;h2 id=&#34;h2&#34;&gt;H2&lt;/h2&gt;
+&lt;h3 id=&#34;h3&#34;&gt;H3&lt;/h3&gt;
+&lt;h4 id=&#34;h4&#34;&gt;H4&lt;/h4&gt;
+&lt;h5 id=&#34;h5&#34;&gt;H5&lt;/h5&gt;
+&lt;h6 id=&#34;h6&#34;&gt;H6&lt;/h6&gt;
+&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
+&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;
+&lt;p&gt;Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p&gt;
+&lt;h2 id=&#34;tabs&#34;&gt;Tabs&lt;/h2&gt;
+
+
+
+
+
+&lt;div class=&#34;book-tabs&#34;&gt; 
+
+  &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;tabs-uniqueid&#34; id=&#34;tabs-uniqueid-0&#34; checked=&#34;checked&#34; /&gt;
+  &lt;label for=&#34;tabs-uniqueid-0&#34;&gt;MacOS&lt;/label&gt;
+  &lt;div class=&#34;book-tabs-content markdown-inner&#34;&gt;&lt;h3 id=&#34;macos-content&#34;&gt;MacOS Content&lt;/h3&gt;
+&lt;p&gt;Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.&lt;/div&gt; 
+
+  &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;tabs-uniqueid&#34; id=&#34;tabs-uniqueid-1&#34;  /&gt;
+  &lt;label for=&#34;tabs-uniqueid-1&#34;&gt;Linux&lt;/label&gt;
+  &lt;div class=&#34;book-tabs-content markdown-inner&#34;&gt;&lt;h3 id=&#34;linux-content&#34;&gt;Linux Content&lt;/h3&gt;
+&lt;/div&gt; 
+
+  &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;tabs-uniqueid&#34; id=&#34;tabs-uniqueid-2&#34;  /&gt;
+  &lt;label for=&#34;tabs-uniqueid-2&#34;&gt;Windows&lt;/label&gt;
+  &lt;div class=&#34;book-tabs-content markdown-inner&#34;&gt;&lt;h3 id=&#34;windows-content&#34;&gt;Windows Content&lt;/h3&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&#34;buttons&#34;&gt;Buttons&lt;/h2&gt;
+
+
+
+
+
+  
+  
+
+
+
+  
+
+&lt;a rel=&#34;noopener noreferrer&#34;  title=&#34;Go Home Fucking Tourists&#34;   href=&#34;https://youtu.be/QRcrsHro6xI&#34;   target=&#34;_blank&#34;  class=&#34;sample-btn&#34;&gt;
+  Go Home
+&lt;/a&gt;
+
+
+
+
+
+  
+  
+
+
+
+  
+
+&lt;a rel=&#34;noopener noreferrer&#34;  title=&#34;Contribute button&#34;   href=&#34;https://github.com/subversive-eu/hugo-subversive&#34;   target=&#34;_blank&#34;  class=&#34;sample-btn&#34;&gt;
+  Contribute
+&lt;/a&gt;
+&lt;h2 id=&#34;colunms&#34;&gt;Colunms&lt;/h2&gt;
+&lt;div class=&#34;book-columns flex flex-wrap&#34;&gt;
+    
+    &lt;div class=&#34;flex-even markdown-inner&#34;&gt;
+      &lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;left-content&#34;&gt;Left Content&lt;/h3&gt;
+&lt;p&gt;Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;flex-even markdown-inner&#34;&gt;
+      &lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;mid-content&#34;&gt;Mid Content&lt;/h3&gt;
+&lt;p&gt;Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter!
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;flex-even markdown-inner&#34;&gt;
+      &lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;right-content&#34;&gt;Right Content&lt;/h3&gt;
+&lt;p&gt;Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
+    &lt;/div&gt;
+    
+  &lt;/div&gt;
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+  &lt;div class=&#34;book-expand&#34;&gt;
+    &lt;label&gt;
+      &lt;div class=&#34;book-expand-head flex justify-between&#34;&gt;
+        &lt;span&gt;Expandre
+            
+          &lt;/span&gt;
+        &lt;span&gt;↕&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;&#34; /&gt;
+      &lt;div class=&#34;book-expand-content markdown-inner&#34;&gt;
+        &lt;h4 id=&#34;markdown-content&#34;&gt;Markdown content&lt;/h4&gt;
+&lt;p&gt;Lorem markdownum insigne&amp;hellip;
+      &lt;/div&gt;
+    &lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;book-expand&#34;&gt;
+    &lt;label&gt;
+      &lt;div class=&#34;book-expand-head flex justify-between&#34;&gt;
+        &lt;span&gt;Custom label
+            
+          &lt;/span&gt;
+        &lt;span&gt;↕&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;&#34; /&gt;
+      &lt;div class=&#34;book-expand-content markdown-inner&#34;&gt;
+        &lt;h4 id=&#34;markdown-content&#34;&gt;Markdown content&lt;/h4&gt;
+&lt;p&gt;Lorem markdownum insigne&amp;hellip;
+      &lt;/div&gt;
+    &lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;book-expand&#34;&gt;
+    &lt;label&gt;
+      &lt;div class=&#34;book-expand-head flex justify-between&#34;&gt;
+        &lt;span&gt;Custom Label
+            
+          &lt;/span&gt;
+        &lt;span&gt;...&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;&#34; /&gt;
+      &lt;div class=&#34;book-expand-content markdown-inner&#34;&gt;
+        &lt;h4 id=&#34;markdown-content&#34;&gt;Markdown content&lt;/h4&gt;
+&lt;p&gt;Lorem markdownum insigne&amp;hellip;
+      &lt;/div&gt;
+    &lt;/label&gt;
+  &lt;/div&gt;
+&lt;h2 id=&#34;blockquote&#34;&gt;Blockquote&lt;/h2&gt;
+&lt;h3 id=&#34;blockquote-sample&#34;&gt;Blockquote sample&lt;/h3&gt;
+&lt;p&gt;The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code&gt;footer&lt;/code&gt; or &lt;code&gt;cite&lt;/code&gt; element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p&gt;
+&lt;h4 id=&#34;blockquote-without-attribution&#34;&gt;Blockquote without attribution&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;blockquote-with-attribution&#34;&gt;Blockquote with attribution&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;!-- raw HTML omitted --&gt;
+— &lt;!-- raw HTML omitted --&gt;Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;https://subversive.eu/markdown-syntax/#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;blockquote-hard&#34;&gt;Blockquote Hard&lt;/h3&gt;
+&lt;p&gt;Normal quote:
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a simple quote.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+        
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote with only an Author named Author2.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author2&lt;/strong&gt;
+    
+      
+        
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and source
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author3 and source &amp;ldquo;source.&amp;rdquo;&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author3&lt;/strong&gt;
+    
+      &lt;cite&gt;Source&lt;/cite&gt;
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and link
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author4 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt;.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author4&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;google.com&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author, link and title
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt; with title &amp;ldquo;Google.&amp;rdquo;&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author5&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;Google&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;https://twitter.com/CryptoGangsta/status/716427930126196737&lt;/a&gt; which is longer than 32 characters.
+&lt;!-- raw HTML omitted --&gt;And this is a new line in the quote with the HTML br tag.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author6&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34; title=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;twitter.com/CryptoGangsta/...&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;figure&#34;&gt;figure&lt;/h2&gt;
+&lt;p&gt;Figure (image insertion) playing with text !&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;right&#34;&gt;
+    &lt;img src=&#34;https://via.placeholder.com/400x280&#34;
+         alt=&#34;image&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;figure-right&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;figure class=&#34;left&#34;&gt;
+    &lt;img src=&#34;https://via.placeholder.com/400x280&#34;
+         alt=&#34;image&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;figure-left&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://via.placeholder.com/1600x800&#34;
+         alt=&#34;image&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;figure-normal (without any classes)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;figure class=&#34;big&#34;&gt;
+    &lt;img src=&#34;https://via.placeholder.com/1600x800&#34;
+         alt=&#34;image&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;figure-big&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;h2 id=&#34;tables&#34;&gt;Tables&lt;/h2&gt;
+&lt;p&gt;Table:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Left-Aligned&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Center Aligned&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Right Aligned&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;col 3 is&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;some wordy text&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;$1600&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;col 2 is&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;centered&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;$12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;zebra stripes&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;are neat&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;$1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Left-Aligned&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Center Aligned&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;col 3 is&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$1600&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;col 2 is&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;zebra stripes&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Age&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Bob&lt;/td&gt;
+&lt;td&gt;27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alice&lt;/td&gt;
+&lt;td&gt;23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;inline-markdown-within-tables&#34;&gt;Inline Markdown within tables&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Italics&lt;/th&gt;
+&lt;th&gt;Bold&lt;/th&gt;
+&lt;th&gt;Code&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;italics&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;highlight&#34;&gt;Highlight&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-angular2&#34; data-lang=&#34;angular2&#34;&gt;highlight shortcode Here testing angular2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://gohugo.io/content-management/syntax-highlighting/#highlight-shortcode&#34; title=&#34;Liens vers check More here&#34; &gt;check More here&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;code-blocks&#34;&gt;Code Blocks&lt;/h2&gt;
+&lt;h4 id=&#34;code-block-with-backticks&#34;&gt;Code block with backticks&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;charset&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&amp;gt;
+  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;Example HTML5 Document&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;Test&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;code-block-indented-with-four-spaces&#34;&gt;Code block indented with four spaces&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;code-block-with-hugos-internal-highlight-shortcode&#34;&gt;Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;charset&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&amp;gt;
+  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;Example HTML5 Document&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;Test&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;list-types&#34;&gt;List Types&lt;/h2&gt;
+&lt;h4 id=&#34;ordered-list&#34;&gt;Ordered List&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;First item&lt;/li&gt;
+&lt;li&gt;Second item&lt;/li&gt;
+&lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;unordered-list&#34;&gt;Unordered List&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;List item&lt;/li&gt;
+&lt;li&gt;Another item&lt;/li&gt;
+&lt;li&gt;And another item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;nested-list&#34;&gt;Nested list&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fruit
+&lt;ul&gt;
+&lt;li&gt;Apple&lt;/li&gt;
+&lt;li&gt;Orange&lt;/li&gt;
+&lt;li&gt;Banana&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dairy
+&lt;ul&gt;
+&lt;li&gt;Milk&lt;/li&gt;
+&lt;li&gt;Cheese&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;other-elements&#34;&gt;Other Elements&lt;/h2&gt;
+&lt;h3 id=&#34;hr&#34;&gt;hr&lt;/h3&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;abbr-sub-sup-kbd-mark&#34;&gt;abbr, sub, sup, kbd, mark&lt;/h3&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;GIF&lt;!-- raw HTML omitted --&gt; is a bitmap image format.&lt;/p&gt;
+&lt;p&gt;H&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt;O&lt;/p&gt;
+&lt;p&gt;X&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt; + Y&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt; = Z&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;Press &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;CTRL&lt;!-- raw HTML omitted --&gt;+&lt;!-- raw HTML omitted --&gt;ALT&lt;!-- raw HTML omitted --&gt;+&lt;!-- raw HTML omitted --&gt;Delete&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; to end the session.&lt;/p&gt;
+&lt;p&gt;Most &lt;!-- raw HTML omitted --&gt;salamanders&lt;!-- raw HTML omitted --&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;youtube&lt;/h2&gt;
+&lt;div class=&#34;video-responsive&#34;&gt;
+&lt;iframe
+
+src=&#34;https://www.youtube-nocookie.com/embed/8IZ9Cqi2rGM&#34;
+frameborder=&#34;0&#34;
+allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34;
+allowfullscreen
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h2 id=&#34;tweeter&#34;&gt;tweeter&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;With mobile, Tweeter appear simple blockquote.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Hugo 0.24 Released: Big archetype update + &lt;a href=&#34;https://twitter.com/Netlify?ref_src=twsrc%5Etfw&#34;&gt;@Netlify&lt;/a&gt; _redirects etc. file support&lt;a href=&#34;https://t.co/X94FmYDEZJ&#34;&gt;https://t.co/X94FmYDEZJ&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/gohugo?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#gohugo&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#golang&lt;/a&gt; &lt;a href=&#34;https://twitter.com/spf13?ref_src=twsrc%5Etfw&#34;&gt;@spf13&lt;/a&gt; &lt;a href=&#34;https://twitter.com/bepsays?ref_src=twsrc%5Etfw&#34;&gt;@bepsays&lt;/a&gt;&lt;/p&gt;&amp;mdash; GoHugo.io (@GoHugoIO) &lt;a href=&#34;https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw&#34;&gt;June 21, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;vimeo&#34;&gt;vimeo&lt;/h2&gt;
+
+
+
+
+
+&lt;style&gt;
+.__h_video {
+   position: relative;
+   padding-bottom: 56.23%;
+   height: 0;
+   overflow: hidden;
+   width: 100%;
+   background: #000;
+}
+.__h_video img {
+   width: 100%;
+   height: auto;
+   color: #000;
+}
+.__h_video .play {
+   height: 72px;
+   width: 72px;
+   left: 50%;
+   top: 50%;
+   margin-left: -36px;
+   margin-top: -36px;
+   position: absolute;
+   cursor: pointer;
+}
+&lt;/style&gt;
+
+
+&lt;div class=&#34;s_video_simple __h_video&#34;&gt;
+&lt;a href=&#34;https://vimeo.com/1.46022717e&amp;#43;08&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;
+
+
+&lt;img src=&#34;https://i.vimeocdn.com/video/544362910_295x166.jpg&#34; srcset=&#34;https://i.vimeocdn.com/video/544362910_295x166.jpg 1x, https://i.vimeocdn.com/video/544362910.jpg 2x&#34; alt=&#34;The Clock of the Long Now&#34;&gt;
+&lt;div class=&#34;play&#34;&gt;&lt;svg version=&#34;1&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 61 61&#34;&gt;&lt;circle cx=&#34;30.5&#34; cy=&#34;30.5&#34; r=&#34;30.5&#34; opacity=&#34;.8&#34; fill=&#34;#000&#34;&gt;&lt;/circle&gt;&lt;path d=&#34;M25.3 19.2c-2.1-1.2-3.8-.2-3.8 2.2v18.1c0 2.4 1.7 3.4 3.8 2.2l16.6-9.1c2.1-1.2 2.1-3.2 0-4.4l-16.6-9z&#34; fill=&#34;#fff&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;h2 id=&#34;ifram-pdf&#34;&gt;Ifram PDF&lt;/h2&gt;
+&lt;iframe
+class=&#34;iframepdf&#34;
+frameborder=&#34;0&#34;
+allowfullscreen
+src=&#34;./media/gt-metrix-report.pdf&#34;
+&gt;
+&lt;/iframe&gt;
+&lt;h2 id=&#34;definition-lists&#34;&gt;Definition lists.&lt;/h2&gt;
+&lt;dl&gt;
+&lt;dt&gt;Cat&lt;/dt&gt;
+&lt;dd&gt;Fluffy animal everyone likes&lt;/dd&gt;
+&lt;dt&gt;Internet&lt;/dt&gt;
+&lt;dd&gt;Vector of transmission for pictures of cats&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;h2 id=&#34;link&#34;&gt;Link&lt;/h2&gt;
+&lt;p&gt;&lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://gallica.bnf.fr/ark:/12148/bpt6k5772863h/f19.image&#34; title=&#34;Liens vers Histoire du Béarn&#34; &gt;Histoire du Béarn&lt;/a&gt;&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34; title=&#34;Liens vers talk&#34; &gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015. &lt;a href=&#34;https://subversive.eu/markdown-syntax/#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;</description>
+
+    
+    
+    
+    
+    <enclosure url="http://subversive.eu/media/markdown-cover-min.jpg" length="25169" type="image/png" />
+    </item>
+    
+    <item>
       <title>Bitcoin Cryptomonnaie Universelle ? Ou Simple Monnaie ?</title>
       <link>https://subversive.eu/bitcoin-monnaie-universelle/</link>
+      <author>map[]</author>
       <pubDate>Sun, 01 Nov 2020 18:00:00 +0200</pubDate>
       
       <guid>https://subversive.eu/bitcoin-monnaie-universelle/</guid>
@@ -218,10 +923,11 @@ décentralisé. Mais les Hommes avides et cupides risquent tous de ne pas en pro
     
     <item>
       <title>Trump n&#39;est pas un danger pour le commerce international</title>
-      <link>https://subversive.eu/trump-nest-pas-un-danger-pour-le-commerce-international.html</link>
-      <pubDate>Fri, 09 Oct 2020 13:19:18 +0200</pubDate>
+      <link>https://subversive.eu/trump-nest-pas-un-danger-pour-le-commerce-international/</link>
+      <author>map[]</author>
+      <pubDate>Fri, 09 Oct 2020 18:00:00 +0200</pubDate>
       
-      <guid>https://subversive.eu/trump-nest-pas-un-danger-pour-le-commerce-international.html</guid>
+      <guid>https://subversive.eu/trump-nest-pas-un-danger-pour-le-commerce-international/</guid>
       <description>&lt;p&gt;TRUMP n&amp;rsquo;est pas un danger pour le commerce international.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Copie d&#39;une plaidoirie en droit des affaires.&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;TRUMP n&amp;rsquo;est pas un danger pour le commerce international.&lt;/p&gt;
@@ -277,15 +983,21 @@ D’une part, les puissances économiques mondiales ont su réagir et mettre en 
 &lt;h3 id=&#34;pour-penser-plus-loin&#34;&gt;Pour penser plus loin&lt;/h3&gt;
 &lt;p&gt;C&amp;rsquo;est probablement pour cela que cela ce met en place, la hausse des échanges entraînent une modification de la gestion. Prenons la réflexion à l&amp;rsquo;envers.&lt;/p&gt;</description>
 
+    
+    
+    
+    
+    <enclosure url="http://subversive.eu/media/trump-cover-min.jpg" length="18851" type="image/png" />
     </item>
     
     <item>
-      <title>Conseiller en relations publiques</title>
-      <link>https://subversive.eu/conseiller-en-relations-publiques.html</link>
-      <pubDate>Tue, 29 Sep 2020 18:00:00 +0000</pubDate>
+      <title>Conseiller en relations publiques l&#39;importance de se métier</title>
+      <link>https://subversive.eu/conseiller-en-relations-publiques/</link>
+      <author>map[]</author>
+      <pubDate>Tue, 29 Sep 2020 18:00:00 +0200</pubDate>
       
-      <guid>https://subversive.eu/conseiller-en-relations-publiques.html</guid>
-      <description>&lt;p&gt;Résumé bref, et précis du métier de conseiller en relations publiques (CRP), un métier indispensable dans les démocraties actuelles.&lt;/p&gt;
+      <guid>https://subversive.eu/conseiller-en-relations-publiques/</guid>
+      <description>&lt;p&gt;Résumé bref, et précis du métier de conseiller en relations publiques (CRP) un métier indispensable dans les démocraties actuelles à partir du livre propaganda.&lt;/p&gt;
 &lt;p&gt;Suite à la lecture du livre Propaganda de Bernays, l&amp;rsquo;aperçu et l&amp;rsquo;appréciation d&amp;rsquo;une réalité, celle d&amp;rsquo;un métier sans équivalent, capable de transcender les foules comme les élus.&lt;/p&gt;
 &lt;h2 id=&#34;plan-de-travail&#34;&gt;Plan de travail&lt;/h2&gt;
 &lt;ul&gt;
@@ -364,12 +1076,13 @@ Que votre objectif principal est de traduire la nature même de l&amp;rsquo;entr
     </item>
     
     <item>
-      <title>Les intérêts du sars-cov-2</title>
-      <link>https://subversive.eu/les-int%C3%A9r%C3%AAts-du-sars-cov-2.html</link>
-      <pubDate>Sun, 02 Aug 2020 18:00:00 +0000</pubDate>
+      <title>Les intérêts du sars-cov-2 covid19 l&#39;arnaque du siècle</title>
+      <link>https://subversive.eu/les-interets-du-sars-cov-2/</link>
+      <author>map[]</author>
+      <pubDate>Sun, 02 Aug 2020 18:00:00 +0200</pubDate>
       
-      <guid>https://subversive.eu/les-int%C3%A9r%C3%AAts-du-sars-cov-2.html</guid>
-      <description>&lt;p&gt;Nous sommes le 02 Août, le virus SArs-cov-2 responsable de la maladie covid19 (maladie infectieuse) ne semble toujours pas stoppé. Tous les pays de l&amp;rsquo;hémisphère nord ont passé leur pic respectif.&lt;/p&gt;
+      <guid>https://subversive.eu/les-interets-du-sars-cov-2/</guid>
+      <description>&lt;p&gt;Le virus SArs-cov-2 responsable de la maladie covid19 (maladie infectieuse) ne semble pas stoppé. Tous les pays de l’hémisphère nord ont passé leur pic.&lt;/p&gt;
 &lt;p&gt;La première particularité est la diversité des chiffres selon les pays, quelque chose d’affolant que tout le monde semble oublier. S’en suit une explosion de la folie et une confusion générale.&lt;/p&gt;
 &lt;h2 id=&#34;diversité-entre-pays&#34;&gt;Diversité entre pays&lt;/h2&gt;
 &lt;p&gt;Entre le Japon et la Nouvelle-Zélande, il y a très peu de contaminé et très de peu de mortalité. Cependant les techniques pour protéger la population ne sont radicalement pas les mêmes, d’un côté le confinement total et strict pour tous dans l’hémisphère sud et de l’autre rien, très peu de mesure, une forte densité mais pas de covid-19. Sachant que le Japon a une population très vieille. Ce week-end la hausse des cas au Japon provient des bases américaines du secteur.&lt;/p&gt;
@@ -434,10 +1147,11 @@ En Chine, il y aura plus de vie sauvée de la pollution que de mort du covid-19.
     
     <item>
       <title>Corrélation entre inflation et chute des civilisations</title>
-      <link>https://subversive.eu/corr%C3%A9lation-entre-inflation-et-chute-des-civilisations.html</link>
-      <pubDate>Tue, 30 Jun 2020 18:00:00 +0000</pubDate>
+      <link>https://subversive.eu/corr%C3%A9lation-entre-inflation-et-chute-des-civilisations/</link>
+      <author>map[]</author>
+      <pubDate>Tue, 30 Jun 2020 18:00:00 +0200</pubDate>
       
-      <guid>https://subversive.eu/corr%C3%A9lation-entre-inflation-et-chute-des-civilisations.html</guid>
+      <guid>https://subversive.eu/corr%C3%A9lation-entre-inflation-et-chute-des-civilisations/</guid>
       <description>&lt;p&gt;Cet article ne mettra pas en cause l&amp;rsquo;inflation dans la chute d&amp;rsquo;une civilisation, mais essaiera de collaborer le fait qu&amp;rsquo;elle soit là avant la décadence.&lt;/p&gt;
 &lt;p&gt;Qu&amp;rsquo;elle soit la cause ou bien une conséquence. Ainsi nous ferons un détour historique assez flou, nous étudierons l&amp;rsquo;Histoire, analyserons les raisons des chutes et pour finir nous reviendrons dans l&amp;rsquo;actualité.&lt;/p&gt;
 &lt;p&gt;De par l&amp;rsquo;histoire, l&amp;rsquo;inflation est un processus de hausse cumulative et auto-entretenue du niveau général des prix. Il lui faut une multitude de paramètres, des variables de longue durée pour évoluer. Voyons cela.&lt;/p&gt;
@@ -544,12 +1258,14 @@ Des théories affirment que la modernisation permet la domination, or la récent
     </item>
     
     <item>
-      <title>La fin de l&#39;hégémonie us</title>
-      <link>https://subversive.eu/la-fin-de-lh%C3%A9g%C3%A9monie-us.html</link>
-      <pubDate>Tue, 23 Jun 2020 18:00:00 +0000</pubDate>
+      <title>La fin de l&#39;hégémonie us  - l&#39;amérique perd sa puissance</title>
+      <link>https://subversive.eu/la-fin-de-lhegemonie-us/</link>
+      <author>map[]</author>
+      <pubDate>Tue, 23 Jun 2020 18:00:00 +0200</pubDate>
       
-      <guid>https://subversive.eu/la-fin-de-lh%C3%A9g%C3%A9monie-us.html</guid>
-      <description>&lt;p&gt;Tout le monde en a entendu parler, la taxe gafa initiée par la France est en route à travers le globe. Certes elle ne représente rien réellement, en termes financiers que de maigre sommes comparées aux cibles à atteindre.&lt;/p&gt;
+      <guid>https://subversive.eu/la-fin-de-lhegemonie-us/</guid>
+      <description>&lt;p&gt;Tout le monde connaît le président américain, c&amp;rsquo;est du soft-power. Preuve d&amp;rsquo;une puissance hégémonique impressionnante et inégalée . Ont-ils entamé leur déclin ?&lt;/p&gt;
+&lt;p&gt;Tout le monde en a entendu parler, la taxe gafa initiée par la France est en route à travers le globe. Certes elle ne représente rien réellement, en termes financiers que de maigre sommes comparées aux cibles à atteindre.&lt;/p&gt;
 &lt;p&gt;Mais elle invite Washington à se poser les bonnes questions sur l&amp;rsquo;avenir de sa superpuissance. Elle appuie la thèse supposée de la fin de l&amp;rsquo;hégémonie us sur la Terre. Elle amorce la question des outils européens de défense commerciale.&lt;/p&gt;
 &lt;h2 id=&#34;les-outils-de-défense-commerciale-enjeu-de-puissance&#34;&gt;Les outils de défense commerciale, enjeu de puissance&lt;/h2&gt;
 &lt;p&gt;L&amp;rsquo;objectif, affaiblir les multinationales non-européennes. Entre 2016 et 2019, le département du commerce affirme que les enquêtes pour antidumping et droits compensateurs ont augmenté de 235% par rapport à la même période sous l’administration Obama. Est-ce la faute à une administration Trump incompétente ? Certains pourraient le croire, croire que la politique étrangère des États-Unis d&amp;rsquo;Amérique change selon les administrations ? Trop risqué et absurde. Ces statistiques nous montrent bien que les usa (Etats-Unis d&amp;rsquo;Amérique) sont en déroute, lente et prudente, comme les grand empires plus tôt avant eux.&lt;/p&gt;
@@ -570,11 +1286,12 @@ Des théories affirment que la modernisation permet la domination, or la récent
     </item>
     
     <item>
-      <title>Covid19 Réflexion</title>
-      <link>https://subversive.eu/covid19-r%C3%A9flexion.html</link>
-      <pubDate>Mon, 04 May 2020 18:00:00 +0000</pubDate>
+      <title>Covid19 Réflexion disparités entre pays</title>
+      <link>https://subversive.eu/covid19-r%C3%A9flexion/</link>
+      <author>map[]</author>
+      <pubDate>Mon, 04 May 2020 18:00:00 +0200</pubDate>
       
-      <guid>https://subversive.eu/covid19-r%C3%A9flexion.html</guid>
+      <guid>https://subversive.eu/covid19-r%C3%A9flexion/</guid>
       <description>&lt;p&gt;Données prise le 24/04/2020 21:30&lt;br&gt;
 Sources : covinfo.fr + IHU Marseille + Google Data.&lt;br&gt;
 Echantillon, toute la population.&lt;/p&gt;
@@ -663,59 +1380,71 @@ Durant ce confinement, j&amp;rsquo;ai eu confirmation que 30 000 ans d&amp;rsquo
     
     <item>
       <title>La croix occitane (crotz occitana)</title>
-      <link>https://subversive.eu/la-croix-occitane-crotz-occitana.html</link>
-      <pubDate>Fri, 24 Apr 2020 18:00:00 +0000</pubDate>
+      <link>https://subversive.eu/la-croix-occitane/</link>
+      <author>map[]</author>
+      <pubDate>Fri, 24 Apr 2020 18:00:00 +0200</pubDate>
       
-      <guid>https://subversive.eu/la-croix-occitane-crotz-occitana.html</guid>
-      <description>&lt;p&gt;Occitanie, Occitània. Béziers fut la première ville de France. La plus vieille donc.&lt;br&gt;
-Vient du Diocèse de Vienne de l’Empire romain en - 300 av Jc.&lt;/p&gt;
-&lt;p&gt;En 400 ap Jc, il existe 7 provinces, le Diocèse des Septs Provinces (en latin Septem Provinciae).&lt;/p&gt;
-&lt;h2 id=&#34;unification-possible&#34;&gt;Unification possible&lt;/h2&gt;
-&lt;p&gt;Fin du Douzième siècle, trois grandes Maisons dominent le Monde, elles sont Occitanes, on y retrouve :&lt;/p&gt;
-&lt;p&gt;Les comtes de Poitiers ont autorité sur la « Grande Aquitaine » qui s&amp;rsquo;étend des Pyrénées à la Loire et jusqu&amp;rsquo;au Massif Central.&lt;br&gt;
-Les comtes de Barcelone dirigent leur comté, ainsi que le royaume d&amp;rsquo;Aragon et le comté de Provence.&lt;br&gt;
-La Maison de Saint-Gilles contrôle le comté de Toulouse (de Marmande à Avignon) et le marquisat de Provence.&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;Toutes trois sont alors parmi les plus puissantes de l&amp;rsquo;Europe : elles ont toutes trois une vocation européenne ; elles sont riches ; leurs terres sont bien défrichées par les campagnes de colonisation monastique ; elles sont traversées par les routes des grands pèlerinages, surtout Saint-Jacques-de-Compostelle ; leurs villes, leurs entrepôts, leurs ports, Toulouse, Marseille, Bordeaux, Auch, Bayonne, Beaucaire, Narbonne, Poitiers, Carcassonne, Béziers, Avignon, Saint-Gilles, Fréjus, Saragosse, Barcelone, sont parmi les plus actifs et les plus brillants. Attirantes, bien urbanisées, ces terres sont, comme la Sicile, l&amp;rsquo;objet de la convoitise des puissances ambitieuses que sont la royauté française et l&amp;rsquo;Empire.&amp;rdquo; — Réalités de l&amp;rsquo;Occitanie, p. 27&lt;/p&gt;
-&lt;p&gt;Toulouse est en réalité, toute comme Béziers à plus petite échelle, une capitale européenne, derrière Venise et Rome, dotée d’une République Toulousaine démocratique et libre, où les Capitouls dirigent le comté malgré ses pouvoirs.&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;Les comtes [de Toulouse] ont donc la grande ville, qui est pour eux à la fois une force et une faiblesse. Elle leur vaut d&amp;rsquo;importants revenus ; elle est une vraie capitale, plus puissante, et plus rayonnante que Paris. Mais elle est habitée par une bourgeoisie opulente, qui s&amp;rsquo;est donnée ses propres institutions et, en fait, le comte n&amp;rsquo;est maître de Toulouse qu&amp;rsquo;autant que les bourgeois le veulent bien. Il faut donc se représenter Toulouse comme une libre République, en tout semblable aux Républiques italiennes de la même époque, mais qui vit dans une paix relative avec le comte ; et c&amp;rsquo;est là une des grandes originalités de la situation.&amp;rdquo; — Jacques Madaule, Le Drame albigeois et l&amp;rsquo;Unité française, 1973, p. 27&lt;/p&gt;
-&lt;h2 id=&#34;xiiième-siècle&#34;&gt;XIIIème siècle&lt;/h2&gt;
-&lt;p&gt;En 1209, l’Occitanie est grande et rayonne via le Comte de Toulouse, Raymond VI de Toulouse, possédant par testament le comté de Melgueil, puis épouse une Trencavel, d’où le frère est vicomte de Carcassonne, la place forte du Carcassès, et vicomte de Béziers, une ville riche et puissante, où le commerce y fait bon vivre.&lt;br&gt;
-En 1202, il se lie au Royaume d’Aragon, par un mariage. Espérant ainsi le calme et la sagesse de l’Eglise.&lt;/p&gt;
-&lt;h2 id=&#34;catharisme-et-hérésie&#34;&gt;Catharisme et Hérésie&lt;/h2&gt;
-&lt;p&gt;Le Catharisme qui vient du grec signifiant pur. A l’époque, l’eglise les nomme hérétiques, et les Occitans, les Albigeois, d’où le nom donnée à la Croisade des Albigeois.
-Au XIIIème siècle, l’Occitanie accueille une grande diversité de culture, ouverte au monde, elle regroupe ainsi, Juif fuyant l’église, Islam venue d’Espagne, et Chrétien Arien.&lt;/p&gt;
-&lt;p&gt;Le Catharisme n’a pas de mal à évoluer en terre Occitane et n’est pas rejeté par la population. De plus, de part ses pratiques, le peuple y trouve son compte, en effet le catharisme est contre la propriété privée et rejette la féodalité. Ils rejettent également la guerre, les sacrements chrétiens, l’enfer et l’incarnation. Jusque là l’Eglise contrôlant indirectement les comtes et vicomtes via le royaume de France, laisse faire.&lt;/p&gt;
-&lt;p&gt;Petit à petit le vicomte Trencavel, lui-même cathare, attire les foudres de l’Eglise qui les considères alors comme protecteurs d’hérétiques. La proximité des Cathares avec le peuple commence alors à faire de l’ombre aux finances et au rayonnement de l’Eglise, même si malgré eux, le catharisme se définit en chrétienté.&lt;/p&gt;
-&lt;h2 id=&#34;la-croisade-des-albigeois&#34;&gt;La Croisade des Albigeois&lt;/h2&gt;
-&lt;p&gt;En 1209 donc, l’Eglise lança la Croisade des Albigeois, elle regroupe une puissante armée d’au moins 50 milles hommes, un “ost”, on y retrouve, les seigneurs du nord et leurs vassaux, français d’île de france, Bretons, Bourguignons, Picards mais aussi des hommes venus de Rhénanie, d’Angleterre et des Flamands.  A sa tête, le légat du Pape Innocent III, Arnaud Amaury, le chef spirituel de cette expédition. Raymond VI comte de Toulouse, pas trop fou, se retourne contre le languedoc et ainsi rejoint la croisade avec une centaine de Chevaliers, mais n’y participe pas de trop.&lt;/p&gt;
-&lt;p&gt;Le vicomte de Trencavel alors à Béziers, rentra vite à Carcassonne, capitale, riche et puissante ville, pour y organiser la défense espérant que Béziers tiennent quelques semaines. Mais il n’en fut pas Béziers tenue seulement deux jours, sans seulement établir un siège.&lt;/p&gt;
-&lt;p&gt;Le 22 Juillet, une horde de brigands sortie harceler les troupes ennemis, (c’est courant au douzième siècle lors des établissements de sièges), prise en chasse, elle rejoignit la porte principale mais ce fut trop tard, une colonne ou plutôt un flot incessant de scélérats (parce qu’au XIIIème siècle une armée se compose de professionnel : les chevaliers, les artilleurs et les archers, les autres sont des brigands, sorte de mercenaires qui s’enrichissent en pillant)  entra dans Béziers, les gardes ne purent rien faire, et béziers tomba sans qu’un cailloux ne soit tiré. Trencavel savait qu&amp;rsquo;à cet instant, tenir seul avec Carcassonne serait compliqué.&lt;/p&gt;
-&lt;p&gt;En plein mois d&amp;rsquo;Août, l’eau commencera à manquer dans les puits de la cité. Il commis une erreur stratégique que le Roi Pierre II d’Aragon (ne pas confondre avec la petite bourgade d’Aragon - nord de l’Aude) lui rappela lors des négociations du siège de la cité de Carcassonne. Il fit entrée, en bon Seigneur Cathare, tout son peuple dans la cité, ce qui restreint ses capacités de siège.&lt;/p&gt;
-&lt;p&gt;Le 15 Août sonne la reddition de la cité, un pacte est signé par le médiateur Roi d’Aragon, suzerain des provinces de la Maison Trencavel et Maison de Toulouse. Les habitants et chevaliers sont libre en échange de l’emprisonnement du vicomte Trencavel, un brave homme.&lt;/p&gt;
-&lt;h2 id=&#34;velléités&#34;&gt;Velléités&lt;/h2&gt;
-&lt;p&gt;Simon IV de Montfort fut nommé vicomte de Carcassonne, Albi et Béziers, dans le but de continuer la lutte contre l&amp;rsquo;hérésie. Dès l’année 1210, la lutte se concentra sur les terres reculées, Minerve tomba, Lastours,.. Raymond VI de Toulouse ne faisant rien pour lutter contre l’hérésie fut la cible de l’Eglise, mais le Roi Pierre II d’Aragon, allié historique du comté de Toulouse, ne peut laisser partir ses terres, dont il est le suzerain, à Simon de Montfort.&lt;/p&gt;
-&lt;p&gt;En 1213, lors de la bataille de Muret, le Roi est tué, Raymond VI pris la fuite, lâche qu’il a toujours était. Arnaud Amaury, mis Simon IV de  Montfort, comte de Toulouse, vicomte de Foix. Ainsi il fit sa fortune sur le dos de l’Eglise.&lt;/p&gt;
-&lt;p&gt;En 1218, une révolte surprend de Montfort qui décéda, laissant la place aux deux  Raimonds ( Raimond de Trencavel et Raymond VII de Toulouse). Personne ne peut alors lutter contre leur puissance et leur richesse.&lt;/p&gt;
-&lt;p&gt;En 1226 le Roi de France lança la Croisade du Capétien contre l’Occitanie, enfin à l’époque, le languedoc et l’albigeois. La région est alors très affaibli de 10 années de guerre et de révoltes, et se laisse vaincre avec peu de résistance par la couronne de France.&lt;/p&gt;
-&lt;p&gt;Jusqu&amp;rsquo;en 1249 les comtes de Toulouse et Trencavel luttent pour tenter des révoltes contre le Roi envain qui instaura les administrations du royaume pour réduire les pouvoirs des seigneuries.&lt;/p&gt;
-&lt;h2 id=&#34;pour-penser-plus-loin&#34;&gt;Pour penser plus loin&lt;/h2&gt;
-&lt;p&gt;Au cours de l’Histoire, l’Occitanie que l’on nomme aujourd’hui connu d’autre termes, l’Aquitaine, le Comté de Province, on nous surnomme aussi la petite France, du fait de nos attraits géographique. Inutile de vous expliquer les raisons des deux croisades. Rome et Paris étaient sont et resteront vos capitales religieuse et politique.&lt;/p&gt;
-&lt;h3 id=&#34;sources&#34;&gt;Sources&lt;/h3&gt;
-&lt;p&gt;&lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://gallica.bnf.fr/ark:/12148/bpt6k5772863h/f19.image&#34; title=&#34;Liens vers Histoire du Béarn&#34; &gt;Histoire du Béarn&lt;/a&gt; - Emile Garet&lt;br&gt;
-Albigeois et Cathares - Fernand Niel&lt;br&gt;
-Histoire des Aquitains - Antoine Lebègue&lt;/p&gt;</description>
+      <guid>https://subversive.eu/la-croix-occitane/</guid>
+      <description>&lt;p&gt;La Croix Occitane présente sur le drapeau et le blason de la région administrative - L’Occitanie - depuis fin 2016 a une origine encore inconnue, forte de son histoire, elle persiste depuis 16 siècles !&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://subversive.eu/media/FlagofOccitania.png&#34;
+         alt=&#34;Drapeau Occitan&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;figure-normal&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
 
+&lt;p&gt;“ Croix grecque, pattée, cléchée, vuidiée (vidée), et pommetée ”. Notez bien le nombre douze.&lt;br&gt;
+Grecque car les branches sont de même longueur.&lt;br&gt;
+Pattée car ses branches s’élargissent vers l’extérieur.&lt;br&gt;
+Cléchée par ses extrémités saillantes.&lt;br&gt;
+Vuidiée car évidée à l’intérieur.&lt;br&gt;
+Pommetée car il y a des pièces d’or (3 par branches).&lt;/p&gt;
+&lt;p&gt;“ De gueules, à la croix vuidée, cléchée et pommetée de 12 pièces d&amp;rsquo;or ”. Ici gueules signifie le sang (le fond rouge), l’âme des Occitans. L’or lui montre l’être suprême, le Soleil. C’est l’hypothèse de l’origine Wisigoth.&lt;/p&gt;
+&lt;p&gt;En réalité, il n’y a pas ce jour d’origine prouvée de la croix, seulement des hypothèses. Pour ce pan de l’histoire, elle est à lire au conditionnel.&lt;/p&gt;
+&lt;h2 id=&#34;la-révolte-des-bagaudes&#34;&gt;La Révolte des Bagaudes&lt;/h2&gt;
+&lt;p&gt;En 285, la Gaule appartenant à l’Empire Romain, commence à se révolter. Le climat se refroidit, les peuples crèvent de faim, se révoltèrent. Rome ne tolérant pas cela, et à cette époque profondément contre la chrétienté, décida d’envoyer une légion romaine nettoyer ses terres. La Legio I Maximiana dites la Légion Thébaine arriva dans les alpes Suisses (actuelles). Il ne faut pas la confondre avec la Légion Sacrée, corps d’élite de l’armée de Carthage ou encore le Bataillon Sacré Grec. C’est une légion qui a déjà servi à la répression en Égypte où elle fut créée. Le commandant de cette légion est Maurice d’Agaune, fervent chrétien aux ordres du co-empereur Maximien Hercule.&lt;/p&gt;
+&lt;p&gt;Il est fort probable qu’il y ait eu en réalité trois légions venues renforcer l’Occitanie. La Legio II Flavia Constantia et la Legio III Diocletiana en plus. En l’an 306 après avoir triomphé, Rome demande à sa Légion de sacrifier les chrétiens, mais le commandant refuse catégoriquement, la légion sera donc sacrifier. Tout ceci n’est que légende. Les tentatives de révoltes ont eu lieu de 284 à 305 après JC sous le règne de l’empereur Dioclétien. L’origine du mot “ Bagaudes “ est sujette à beaucoup de possibilité, de l’irlandais du nord qui signifierait combatif, du latin combattant, et du breton troupeaux, groupes.&lt;/p&gt;
+&lt;p&gt;Ainsi pour remercier l’église de son geste envers les Occitans, les seigneurs et hommes forts des provinces décidèrent de s’inspirer de la croix de l’église pour leur revendications. Il est envisageable que la croix copte tréflée soit l’origine de la croix Occitane.&lt;/p&gt;
+&lt;h2 id=&#34;la-croix-de-toulouse&#34;&gt;La Croix de Toulouse&lt;/h2&gt;
+&lt;p&gt;Au début du XI siècles par des mariages les comtes de Toulouse fîrent de la Croix Occitane leur blason et emblème. Puis Toulouse devient capitale de l’Occitanie, et ainsi tous les comtés, vicomtés portaient la croix sur leur seigneurie. Aujourd’hui à Toulouse, place du capitole on retrouve la Croix Occitane sur laquelle sont apposés les signes du Zodiaque. En cherchant l’on peut retrouver la croix à plusieurs endroits de Toulouse&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Voilà ce que l’on dit à Toulouse : “La croix de Toulouse, semble avoir des origines très anciennes. Cette croix aux douze points semble avoir été l&amp;rsquo;un des symboles d&amp;rsquo;un peuple gaulois implanté au IIIe siècle avant Jésus Christ (av. JC). Elle s&amp;rsquo;impose dans le domaine toulousain au début du XIIIe siècle. Elle apparaît sur le sceau de Raymond VI en 1211 et figurera, dès lors, les armes de la ville de Toulouse puis celle du Languedoc, du XIVe au XVIIIe siècle. ….Mairie de Toulouse La plus ancienne représentation des armes de Toulouse est celle figurant dans le sceau attaché à une lettre des Capitouls au Roi Pierre II d&amp;rsquo;Aragon, en 1211, pendant la Croisade des Albigeois. Au verso du blason, on trouve l&amp;rsquo;agneau nimbé, portant la Croix de Toulouse en bannière.”&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://subversive.eu/media/pays-occitanie.png&#34;
+         alt=&#34;pays d&amp;#39;occitanie&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;figure-normal&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Tous les comtés de Provence, les comtes de Forcalquier, les comtes de Provence, les marquis de Provence portent tous la croix Occitane sur leur blason. Les nobles de la région les portent aussi, La maison de Gigondas, les Vicomtes de Marseille, les Adhémar de la Garde. Tous ont la même origine, le Marquis de Provence qui obtient le vicomté de Marseille en l’an 940, Arlufe de Marseille.&lt;/p&gt;
+&lt;h2 id=&#34;chronologie&#34;&gt;Chronologie&lt;/h2&gt;
+&lt;p&gt;Au XV siècle le Roi de France reconnaît la croix Occitane comme emblème du Languedoc. En 1200, les comtés Occitans prennent la croix Occitane a l’unanimité. Au VI siècle, une monnaie wisigothe à la croix cléchée à douze extrémité, dites Triens à la croix, ces monnaies sont très rares, conservées par de rare collectionneur.
+En l’an 450, on retrouve la “croix Occitane” au Turkestan chinois ainsi qu’au Tibet. L’église d’Orient avait envoyé des moines pour convertir les peuples et leur dirigeants.&lt;/p&gt;
+&lt;p&gt;Au IV siècles après JC, un peuple Gaulois l’aurait eu comme emblème contre l&amp;rsquo;oppression Romaine. Mais cela va encore plus loin ! Comme dit plus haut, une croix copte tréflée serait une inspiration probable dont les wisigoth l’auraient interprété. Les 4 branches montres les 4 points cardinaux vers lequel le christ a commandé à ses 12 apôtres de prêcher l&amp;rsquo;évangile à tous. Les Wisigoths y verront une autre symbolique (voir au début).
+Au IV siècle, Rome adopte le chrisme..
+Je ne commenterai pas l’orientation des châteaux cathares dans le Midi, qui se seraient inspiré donc des wisigoths (par rapport au soleil) et de l’église d’Orient d’Alexandrie (pour leur croix).&lt;/p&gt;
+&lt;h2 id=&#34;le-nombre-douze&#34;&gt;Le Nombre Douze&lt;/h2&gt;
+&lt;p&gt;Pas d’apologie à la sainte somme, mais un rappel s’impose. Pourquoi douze pièces d’or ? 3 par branches pour 4 branches 4 Saisons de 3 mois, 12 mois une année, ici on reste dans le rapport des wisigoths et de leur idée proche du Soleil. Douze comme le nombre approximatif de tour de la Lune autour de la Terre (le rôle de la Lune est clairement sous estimé). Douze pour nous situer dans le temps. Douze dans la mythologie, les trois religions (Juive, Chrétienne et Musulmane + les astres chinois). Douze comme le nombre maximal d’un groupe social d’individu. Douze multiple de trois, chiffre tout aussi important. Je rappelle que dans le Midi, le vent tient toujours le temps d’un multiple de trois, actuellement nous sommes au jour 13 d’un vent marin, donc il tiendra jusqu&amp;rsquo;à 15 jours minimum. Les théories des douze univers font prospérer toute la mysticité de ce nombre.&lt;/p&gt;
+&lt;h2 id=&#34;résumé&#34;&gt;Résumé&lt;/h2&gt;
+&lt;p&gt;La Croix Occitane aujourd’hui reflète surtout un patois, une langue ancienne en perte de vitesse, et donc sa culture par définition. Les origines sont probablement de circonstances accumulées, entre l’église Copte et l’interprétation des Wisigoths et Cathares. Persécutés pendant des siècles, les historiens ont bien du mal à tout nous raconter.&lt;/p&gt;
+</description>
+
+    
+    
+    
+    
+    <enclosure url="http://subversive.eu/media/FlagofOccitania.png" length="3751" type="image/png" />
     </item>
     
     <item>
       <title>Les acteurs de demain</title>
-      <link>https://subversive.eu/les-acteurs-de-demain.html</link>
-      <pubDate>Thu, 12 Mar 2020 18:00:00 +0000</pubDate>
+      <link>https://subversive.eu/les-acterus-de-demain/</link>
+      <author>map[]</author>
+      <pubDate>Thu, 12 Mar 2020 18:00:00 +0200</pubDate>
       
-      <guid>https://subversive.eu/les-acteurs-de-demain.html</guid>
-      <description>&lt;p&gt;Leur nombre a explosé après 2008, face à la faillite des banques riches, malgré une baisse du brut, les fonds souverain ont la côte. &lt;!-- raw HTML omitted --&gt;
-Ils gèrent toujours plus de cash. Le premier fut français en 1816, la Caisse des Dépôts et Consignation (CDC), qui gère plus de 30 milliards €.
-En 2008, la France en a créé un nouveau, le FSI ( Fonds Stratégique d’Investissement ), fermé en 2013, remplacé par BpiFrance fin 2012, doté de 19 Milliards €.&lt;/p&gt;
+      <guid>https://subversive.eu/les-acterus-de-demain/</guid>
+      <description>&lt;p&gt;Leur nombre a explosé après la crise de 2008, les fonds souverain ont la côte. Le premier fut français en 1816, la Caisse des Dépôts et Consignation (CDC).&lt;/p&gt;
+&lt;p&gt;Ils gèrent toujours plus de cash. La CDC gère plus de 30 milliards €.
+En 2008, la France en a créé un nouveau, le FSI (Fonds Stratégique d’Investissement), fermé en 2013, remplacé par BpiFrance fin 2012, doté de 19 Milliards €.&lt;/p&gt;
 &lt;h2 id=&#34;a-la-lutte-&#34;&gt;A la lutte ?&lt;/h2&gt;
 &lt;p&gt;Vous l’aurez compris avec 19 milliards, on ne pèse vraiment pas lourd, et quand même, sur plus 70 fonds souverains dans le monde, nous sommes classé 21ème. Depuis quelques années, les fonds changent de profil, ils cherchent la rentabilité avant tout, prennent donc plus de risque sur les marchés, finis les bons du trésor US. Aujourd’hui ces fonds détiennent minimum 2000 milliards de cash. Les principaux propriétaires sont les pays rentier, minier, comme la Norvège, les monarchies du golfe. La Chine en a plusieurs, la Russie en a un également.&lt;br&gt;
 Deux tier des fonds sont détenus par des pays producteur de pétrole.&lt;/p&gt;
@@ -733,17 +1462,17 @@ pour soutenir leur États, entre 20 et 30%, ainsi ils négligent les placements 
 &lt;p&gt;Il ne faut pas voir que le mauvaise part du gâteau. D’un autre côté ces fonds nous permettent de créer des échanges, des accords de partage. Par exemple, nous avons signé un partenariat, entre le fond souverain russe et la CDC, le but est d’investir chez eux, et eux investissent chez nous. Cela renforce la coopération et améliore la communication. Le fond russe ne fonctionne que de cette manière.&lt;/p&gt;
 &lt;h2 id=&#34;pour-conclure&#34;&gt;Pour Conclure&lt;/h2&gt;
 &lt;p&gt;Les fonds ont des avantages et des inconvénients pour tous. A nous Européens de modifier notre espace afin de gérer et contrôler les fonds étranger. A nous de profiter de cette manne afin d’améliorer nos coopérations bilatérales. A nous d’espérer que nos dirigeants face de même pour nous assurer prospérité.&lt;/p&gt;
-&lt;p&gt;Encore une fois, on voit bien que personne ne pense au peuple, au nord c’est priorité au libéralisme, on préfère la dette et la croissance. Au sud, on préfère enrichir sa famille sur la croissance des pays pauvres.&lt;/p&gt;
-</description>
+&lt;p&gt;Encore une fois, on voit bien que personne ne pense au peuple, au nord c’est priorité au libéralisme, on préfère la dette et la croissance. Au sud, on préfère enrichir sa famille sur la croissance des pays pauvres.&lt;/p&gt;</description>
 
     </item>
     
     <item>
-      <title>Creer un site internet statique en 2020</title>
-      <link>https://subversive.eu/creer-un-site-internet-statique-en-2020.html</link>
-      <pubDate>Fri, 06 Mar 2020 18:00:00 +0000</pubDate>
+      <title>Creer un site internet ou un blog statique en 2020</title>
+      <link>https://subversive.eu/creer-un-site-internet-statique-en-2020/</link>
+      <author>map[]</author>
+      <pubDate>Fri, 06 Mar 2020 18:00:00 +0200</pubDate>
       
-      <guid>https://subversive.eu/creer-un-site-internet-statique-en-2020.html</guid>
+      <guid>https://subversive.eu/creer-un-site-internet-statique-en-2020/</guid>
       <description>&lt;p&gt;Méthode utilisée pour ce site.&lt;br&gt;
 La création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.&lt;/p&gt;
 &lt;h3 id=&#34;a-télécharger-et-installer&#34;&gt;A télécharger et installer&lt;/h3&gt;
@@ -841,12 +1570,13 @@ Exercez votre mise à jour avec &amp;lsquo;hugo server -D&amp;rsquo; désactivé
     </item>
     
     <item>
-      <title>Légion Etrangère, rapide tour du propriétaire</title>
-      <link>https://subversive.eu/l%C3%A9gion-etrang%C3%A8re-rapide-tour-du-propri%C3%A9taire.html</link>
-      <pubDate>Fri, 28 Feb 2020 18:00:00 +0000</pubDate>
+      <title>Légion Etrangère, des troupes étrangères pour la france</title>
+      <link>https://subversive.eu/l%C3%A9gion-etrang%C3%A8re/</link>
+      <author>map[]</author>
+      <pubDate>Fri, 28 Feb 2020 18:00:00 +0200</pubDate>
       
-      <guid>https://subversive.eu/l%C3%A9gion-etrang%C3%A8re-rapide-tour-du-propri%C3%A9taire.html</guid>
-      <description>&lt;p&gt;La Légion Etrangère est une armée privée de l&amp;rsquo;État français. Je vous propose un petit tour rapide de géopolitique. Depuis que la guerre existe, tous se posent la question : Comment gérer le courage et le moral de nos troupes ?&lt;/p&gt;
+      <guid>https://subversive.eu/l%C3%A9gion-etrang%C3%A8re/</guid>
+      <description>&lt;p&gt;La Légion Etrangère est une armée privée de l’État français. Pendant les guerres, tous cherchent à gérer le courage et le moral de ses troupes. Comment faire ?&lt;/p&gt;
 &lt;h2 id=&#34;résumé&#34;&gt;Résumé&lt;/h2&gt;
 &lt;p&gt;A Sparte, les Grecs avaient des troupes d’élites avec des couples homosexuels. Ainsi chaque membre se bat pour son conjoint. L’amour les tiens. C’est une bonne doctrine qui servira d’alimenter la puissance de Sparte. La Légion a trouvé l’autre solution, il faut que les hommes soient soudés par la souffrance commune, l’amour vous lie et la souffrance aussi. Dans ces débuts, l’Etat possédait d’autres régiments Étrangers comme les infanteries Suisses, Polonaises. Rien de bien différent.&lt;/p&gt;
 &lt;p&gt;Mais à la disparition des autres bataillons étrangers, et surtout en 1863, la légion pris un autre rôle majeur, celui de la gestion de l’empire colonial français. Aujourd’hui encore, certains régiments sont affiliés hors métropole (Mayotte et Guyane). Aucune autre armée du monde ne possède de telles troupes dans leur rang. Ils ont fait toutes les guerres où la France a été engagé. Ils sont venus défendre au front de la Seconde Guerre Mondiale.&lt;/p&gt;
@@ -865,11 +1595,13 @@ La protection des bases et convois de ravitaillement est réalisé par des troup
     
     <item>
       <title>L&#39;Europe de la défense, pour bientôt</title>
-      <link>https://subversive.eu/leurope-de-la-d%C3%A9fense-pour-bient%C3%B4t.html</link>
-      <pubDate>Wed, 26 Feb 2020 18:00:00 +0000</pubDate>
+      <link>https://subversive.eu/europe-de-la-defense/</link>
+      <author>map[]</author>
+      <pubDate>Wed, 26 Feb 2020 18:00:00 +0200</pubDate>
       
-      <guid>https://subversive.eu/leurope-de-la-d%C3%A9fense-pour-bient%C3%B4t.html</guid>
-      <description>&lt;p&gt;Mr Maas a annoncé qu’il travaillait étroitement avec son homologue Mr Le Drian, afin de présenter pour le second trimestre 2020, lors de la présidence allemande, un Conseil Européen de Sécurité.&lt;/p&gt;
+      <guid>https://subversive.eu/europe-de-la-defense/</guid>
+      <description>&lt;p&gt;Ou en sommes-nous en France et en europe d&amp;rsquo;une armée commune entre les 27 de l&amp;rsquo;union ? Les intérêts d&amp;rsquo;une europe de la défense pour la france et l&amp;rsquo;Allemagne.&lt;/p&gt;
+&lt;p&gt;Mr Maas a annoncé qu’il travaillait étroitement avec son homologue Mr Le Drian, afin de présenter pour le second trimestre 2020, lors de la présidence allemande, un Conseil Européen de Sécurité.&lt;/p&gt;
 &lt;h2 id=&#34;pas-un-peu-tard-&#34;&gt;Pas un peu tard ?&lt;/h2&gt;
 &lt;p&gt;Face au monde demain, la France a compris que ses intérêts étaient ceux de l’Europe, dans un monde multipolaire. Paris a toujours cherché à être dans les deux camps, et elle va continuer. L’Allemagne réticente à toute modification de l’Europe, ralentit les négociations d’une Europe de la Défense. Noté qu’on parle de sécurité et non de défense.&lt;/p&gt;
 &lt;h2 id=&#34;lotan-ça-sent-la-fin-&#34;&gt;L’OTAN, ça sent la fin ?&lt;/h2&gt;
@@ -890,12 +1622,13 @@ La protection des bases et convois de ravitaillement est réalisé par des troup
     </item>
     
     <item>
-      <title>Réflexion probabilité d&#39;effondrement</title>
-      <link>https://subversive.eu/r%C3%A9flexion-probabilit%C3%A9-deffondrement.html</link>
-      <pubDate>Wed, 05 Feb 2020 18:00:00 +0000</pubDate>
+      <title>Réflexion probabilité d&#39;effondrement économique climatique</title>
+      <link>https://subversive.eu/reflexion-probabilite-deffondrement/</link>
+      <author>map[]</author>
+      <pubDate>Wed, 05 Feb 2020 18:00:00 +0200</pubDate>
       
-      <guid>https://subversive.eu/r%C3%A9flexion-probabilit%C3%A9-deffondrement.html</guid>
-      <description>&lt;p&gt;Comment définir un effondrement ? Celui d’une civilisation, c’est cela donc il sera question ici. On peut le traduire par une survie des individus, qui ont fuis une région. Une éradication de leur culture et tradition, la langue, les rites et croyances. Leur disparition totale.&lt;/p&gt;
+      <guid>https://subversive.eu/reflexion-probabilite-deffondrement/</guid>
+      <description>&lt;p&gt;Comment définir un effondrement civilisationnel ? On peut le traduire par une survie des individus, qui ont fuis une région. Leur disparition totale, culture&amp;hellip;&lt;/p&gt;
 &lt;h2 id=&#34;causes&#34;&gt;Causes&lt;/h2&gt;
 &lt;p&gt;Posons nous donc les causes, et les raisons qui provoquent cela. La faim, facile, l&amp;rsquo;extermination, facile. Ces deux causes peuvent survenir à la suite d’un changement climatique, comme cela a été le cas pour l’égypte antique, à la suite d’une éruption volcanique, le cas de la première révolution française. Le peuple crevant de faim fuit, meurt ou se révolte.&lt;/p&gt;
 &lt;p&gt;Il y aussi la guerre, les armées détruisent tout sur leur passage, semant la faim. Le vainqueur se voit la possibilité d’exterminer totalement la population adverse, pour ainsi faire disparaître leur culture qu’il juge néfaste, exemple en crimée où Staline a envoyé de nombreux criméens dans les camps sibériens. Ainsi aujourd’hui il est compréhensible que le référendum soit passé facilement, puisque Staline a remplacé la population, donc la culture.&lt;/p&gt;
@@ -906,36 +1639,6 @@ La protection des bases et convois de ravitaillement est réalisé par des troup
 &lt;h2 id=&#34;corrélation&#34;&gt;Corrélation&lt;/h2&gt;
 &lt;p&gt;Aujourd’hui avec les évènements actuels, le mouvement dit véganisme, et certes correct, nous ne pouvons nous passer de viande d’origine animale si nous souhaitons nous assurer un apport juste et proportionné pour notre corps.&lt;/p&gt;
 &lt;p&gt;Qui plus ait est financé par des multinationales commerçant et produisant des plats tout prêt, pratique, peu cher à la production. Au port d’amsterdam, arrive des céréaliers rempli de maïs, où est extrait la cellulose pour en faire des plats tout prêt.&lt;/p&gt;</description>
-
-    </item>
-    
-    <item>
-      <title>Un sens à la Vie</title>
-      <link>https://subversive.eu/un-sens-%C3%A0-la-vie.html</link>
-      <pubDate>Wed, 29 Jan 2020 18:00:00 +0000</pubDate>
-      
-      <guid>https://subversive.eu/un-sens-%C3%A0-la-vie.html</guid>
-      <description>&lt;p&gt;De réflexion en réflexion, je me suis penché sur le sens de la vie ? Mais qu’est-ce que la vie ? Comment la définir ? Pourrions nous admettre qu’elle ait un sens ?&lt;/p&gt;
-&lt;p&gt;Vie, vient du latin vita, qui s’étends sur plusieurs notions, la période de la naissance à la mort d’un être humain. En passant par son rapport à sa subsistance. En passant par des personnes qui nous sont chères. Ainsi le terme reste flou et large. Couplée avec sens, la notion s’oriente vers un chemin, une destinée fixée ou suivie.&lt;/p&gt;
-&lt;p&gt;La notion scientifique est simple, c’est la capacité à se reproduire d’un objet, un organisme, donc de perpétuer. Logique après tout, les peuples se révoltent quand ils ont peur, parce que la faim cri dans leur ventre, parce que leur environnement pourrait ne plus devenir viable. La peur, émotion primaire, rempli son objectif de perpétuer la vie.&lt;/p&gt;
-&lt;p&gt;Dans ce sens, la vie est à l’échelle de la Terre, notre capacité à survivre dans le temps, il faut considérer des durées très longues, difficilement concevable, de plusieurs millions d’années.&lt;/p&gt;
-&lt;h2 id=&#34;étendre-son-champ-relationnel&#34;&gt;Étendre son champ relationnel&lt;/h2&gt;
-&lt;p&gt;Ainsi en regardant l’histoire, on constate que la vie réponds à une soif d’étendre son champ relationnel. Il faut comprendre par là, que chaque organisme, et l’on peut considérer que nous, Hommes de la Terre sommes un organisme, étends son champ relationnel afin de prospérer. Nos chasseur-cueilleurs ne communiquent pas sur de grande distance, aujourd’hui l’on peut le faire avec des sud-américains par exemple.&lt;/p&gt;
-&lt;p&gt;L’on peut imaginer et accepter de se voir offrir la possibilités de rencontrer de la vie extraterrestre. Ainsi, notre champ relationnel irait toujours plus loin, a notre galaxie, puis à notre univers. Bon, admettons, et quand même chaque être humain de cette Terre, collabore-t-il à ce but ? Sûrement de manière inconsciente alors. D’ailleurs la vie nous assure-t-elle un but ? Nous le donne-t-elle ? Sous qu’elle forme ? N’ayant pas l’impression de l’avoir décrypté, nous allons continuer notre réflexion.&lt;/p&gt;
-&lt;p&gt;Comment se fait-il que dès notre naissance, nous fassions tout pour survivre ? Qu’elle est la réponse de la science à cela ? Je ne l’ai pas trouvée, la vie réponds a une soif de survivre. Ainsi sans trouver de réponse claire et précise, J’ai volontairement retourner la question. Qu’attends de nous la vie ? Je me suis retrouvé face à un mur immense, une question sans réponse.&lt;/p&gt;
-&lt;p&gt;Vous me direz, bon une de plus. Sauf que celle ci est toute particulière car elle sous-entends une vérité absolu celle où l’évolution des Hommes ne peut-être que positive. Car que vous le vouliez ou non, vous n’allez pas admettre que la vie attende de vous de la mettre en déroute. Même en changeant d’échelle, plus petite, celle d’un vie humaine ou même plus grande, une race. Cette question est catégorique.&lt;/p&gt;
-&lt;p&gt;Sa faiblesse réside dans la définition de la vie et son sens dans la question. En posant la question ainsi, l’on réduit la vie à une entité, on la personnalise. On réduit sa capacité d’action. On modifie notre façon de réfléchir puisque l’on va l’associer a un potentiel rapport entre individus.&lt;/p&gt;
-&lt;h2 id=&#34;réfutation-&#34;&gt;Réfutation ?&lt;/h2&gt;
-&lt;p&gt;De manière sérieuse la question deviendrait, la vie peut-elle attendre quelque chose de nous ? Bon sincèrement cette question est aussi un mur, plus haut que la précédente. Cela revient à définir la vie. Puisque nous le savons, l’humanité, suite à une évolution cérébrale, va disparaître par un taux de natalité ridiculement faible provoquant notre disparition.&lt;/p&gt;
-&lt;p&gt;De manière concrète la vie pourrait attendre de nous, du temps de notre existence de la rendre meilleur ? Et de transmettre nos capacités à la rendre meilleure à d’autres. Cela semble logique. Mais la vie tourne dans un univers, un univers lui aussi voué à disparaître, aurions nous la capacité technologique de le fuir ? Si la réponse advient que non, alors pourquoi ? Qu’est-ce que donc cette mascarade ?&lt;/p&gt;
-&lt;p&gt;D’autres attribueront à la vie, et à la réponse à la question de ce qu’elle attends de nous, des objectifs plus concret, plus pragmatique. D’être heureux, de partager. Pourquoi pas, mais n’y-t-il pas là, une erreur de commise ? Celle où à l’époque des dinosaures, sans animaux doués de raison comme nous, ils ont eux aussi continuer à vivre, sans pour autant étendre leur champ relationnel, comme le font nos animaux sur Terre.&lt;br&gt;
-Pourtant nous leur attribuons bien la notion de vie, puisque l’on y attribue la notion de mort. La vie ne serait finalement pas simplement le fait de survivre, notre rôle serait alors de pas l’offenser, de ne pas mettre en péril notre survie ? C’est une réponse facile et rapide.&lt;/p&gt;
-&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;/h2&gt;
-&lt;p&gt;En réalité il y a un malentendu, j’entends par le mot vie, la vie, une notion à l’échelle universelle, qui touche l’Homme, comme la bactérie. Le fait même qu’il y ait des êtres vivants dans l’univers. Je n’attribue pas la vie à l’échelle, de l’Homme, de son histoire ou pire, de ma vie, de ma naissance à ma mort, de votre naissance à votre mort.&lt;/p&gt;
-&lt;p&gt;Vous comprendrez que j’apporte plus d’intérêt à réfléchir à une plus grand échelle que certains d’entre nous. Mais là est le défie que nous retiendrons pour définir ce qu&amp;rsquo;attends la vie de nous. Car par le fait même de voir trop grand, trop loin, nous n’y répondrons jamais (en tous cas je n’ai pas trouvé la réponse), on accordera donc l’existence de Dieu, de la création.&lt;/p&gt;
-&lt;h2 id=&#34;pour-penser-plus-loin&#34;&gt;Pour penser plus loin&lt;/h2&gt;
-&lt;p&gt;Nous pourrions donc définir plusieurs sens de la vie, mais cela est-il correct ? Le premier serait celui des Hommes, agrandir leur champ relationnel, mais en y réfléchissant cela leur permet de survivre. Et nous revenons donc à l’idée apportée aux animaux, celui de la survie. Logique puisque nous sommes des animaux.&lt;/p&gt;
-&lt;p&gt;Ainsi il serait acceptable de répondre à la question, qu’attends la vie de nous, de survivre. Nous pourrions très bien ouvrir le débat sur la manière d’améliorer notre survie, mais ce n’est pas le sujet ici.&lt;/p&gt;</description>
 
     </item>
     

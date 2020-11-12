@@ -1,77 +1,67 @@
 ---
-title: La croix occitane (crotz occitana)
-author: subversive.eu
+title: "La croix occitane (crotz occitana)"
+author: "subversive.eu"
 ShowToc: true
 draft: false
+hidemeta: false
+tocopen: false
+disableShare: false
 tags:
   - Histoire
-date: 2020-04-24 18:00:00
+date: 2020-04-24T18:00:00+02:00
+images: "media/FlagofOccitania.png"
+keyword: "Croisade en Occitanie, Occitanie, croisade, 12 siècles, XII siècle, 1200 ans après JC, croisade des albigeois, les cathares, Histoire, cathares, trencavel, cité de carcassonne, cité de béziers, les comptes de Toulouse"
+pdfname: "La croix occitane (crotz occitana)"
+url: "/la-croix-occitane/"
 ---
 
-Occitanie, Occitània. Béziers fut la première ville de France. La plus vieille donc.  
-Vient du Diocèse de Vienne de l’Empire romain en - 300 av Jc. 
-<!--more-->
-En 400 ap Jc, il existe 7 provinces, le Diocèse des Septs Provinces (en latin Septem Provinciae).
 
+La Croix Occitane présente sur le drapeau et le blason de la région administrative - L’Occitanie - depuis fin 2016 a une origine encore inconnue, forte de son histoire, elle persiste depuis 16 siècles !
 
-## Unification possible
+{{< figure src="https://subversive.eu/media/FlagofOccitania.png" alt="Drapeau Occitan" caption="figure-normal" >}}
 
-Fin du Douzième siècle, trois grandes Maisons dominent le Monde, elles sont Occitanes, on y retrouve :
+“ Croix grecque, pattée, cléchée, vuidiée (vidée), et pommetée ”. Notez bien le nombre douze.  
+Grecque car les branches sont de même longueur.  
+Pattée car ses branches s’élargissent vers l’extérieur.  
+Cléchée par ses extrémités saillantes.  
+Vuidiée car évidée à l’intérieur.  
+Pommetée car il y a des pièces d’or (3 par branches).  
 
-Les comtes de Poitiers ont autorité sur la « Grande Aquitaine » qui s'étend des Pyrénées à la Loire et jusqu'au Massif Central.  
-Les comtes de Barcelone dirigent leur comté, ainsi que le royaume d'Aragon et le comté de Provence.  
-La Maison de Saint-Gilles contrôle le comté de Toulouse (de Marmande à Avignon) et le marquisat de Provence.
+“ De gueules, à la croix vuidée, cléchée et pommetée de 12 pièces d'or ”. Ici gueules signifie le sang (le fond rouge), l’âme des Occitans. L’or lui montre l’être suprême, le Soleil. C’est l’hypothèse de l’origine Wisigoth.
 
-"Toutes trois sont alors parmi les plus puissantes de l'Europe : elles ont toutes trois une vocation européenne ; elles sont riches ; leurs terres sont bien défrichées par les campagnes de colonisation monastique ; elles sont traversées par les routes des grands pèlerinages, surtout Saint-Jacques-de-Compostelle ; leurs villes, leurs entrepôts, leurs ports, Toulouse, Marseille, Bordeaux, Auch, Bayonne, Beaucaire, Narbonne, Poitiers, Carcassonne, Béziers, Avignon, Saint-Gilles, Fréjus, Saragosse, Barcelone, sont parmi les plus actifs et les plus brillants. Attirantes, bien urbanisées, ces terres sont, comme la Sicile, l'objet de la convoitise des puissances ambitieuses que sont la royauté française et l'Empire." — Réalités de l'Occitanie, p. 27
+En réalité, il n’y a pas ce jour d’origine prouvée de la croix, seulement des hypothèses. Pour ce pan de l’histoire, elle est à lire au conditionnel.
 
-Toulouse est en réalité, toute comme Béziers à plus petite échelle, une capitale européenne, derrière Venise et Rome, dotée d’une République Toulousaine démocratique et libre, où les Capitouls dirigent le comté malgré ses pouvoirs.
+## La Révolte des Bagaudes
 
-"Les comtes [de Toulouse] ont donc la grande ville, qui est pour eux à la fois une force et une faiblesse. Elle leur vaut d'importants revenus ; elle est une vraie capitale, plus puissante, et plus rayonnante que Paris. Mais elle est habitée par une bourgeoisie opulente, qui s'est donnée ses propres institutions et, en fait, le comte n'est maître de Toulouse qu'autant que les bourgeois le veulent bien. Il faut donc se représenter Toulouse comme une libre République, en tout semblable aux Républiques italiennes de la même époque, mais qui vit dans une paix relative avec le comte ; et c'est là une des grandes originalités de la situation." — Jacques Madaule, Le Drame albigeois et l'Unité française, 1973, p. 27
+En 285, la Gaule appartenant à l’Empire Romain, commence à se révolter. Le climat se refroidit, les peuples crèvent de faim, se révoltèrent. Rome ne tolérant pas cela, et à cette époque profondément contre la chrétienté, décida d’envoyer une légion romaine nettoyer ses terres. La Legio I Maximiana dites la Légion Thébaine arriva dans les alpes Suisses (actuelles). Il ne faut pas la confondre avec la Légion Sacrée, corps d’élite de l’armée de Carthage ou encore le Bataillon Sacré Grec. C’est une légion qui a déjà servi à la répression en Égypte où elle fut créée. Le commandant de cette légion est Maurice d’Agaune, fervent chrétien aux ordres du co-empereur Maximien Hercule.
 
-## XIIIème siècle
+Il est fort probable qu’il y ait eu en réalité trois légions venues renforcer l’Occitanie. La Legio II Flavia Constantia et la Legio III Diocletiana en plus. En l’an 306 après avoir triomphé, Rome demande à sa Légion de sacrifier les chrétiens, mais le commandant refuse catégoriquement, la légion sera donc sacrifier. Tout ceci n’est que légende. Les tentatives de révoltes ont eu lieu de 284 à 305 après JC sous le règne de l’empereur Dioclétien. L’origine du mot “ Bagaudes “ est sujette à beaucoup de possibilité, de l’irlandais du nord qui signifierait combatif, du latin combattant, et du breton troupeaux, groupes.
 
-En 1209, l’Occitanie est grande et rayonne via le Comte de Toulouse, Raymond VI de Toulouse, possédant par testament le comté de Melgueil, puis épouse une Trencavel, d’où le frère est vicomte de Carcassonne, la place forte du Carcassès, et vicomte de Béziers, une ville riche et puissante, où le commerce y fait bon vivre.  
-En 1202, il se lie au Royaume d’Aragon, par un mariage. Espérant ainsi le calme et la sagesse de l’Eglise.
+Ainsi pour remercier l’église de son geste envers les Occitans, les seigneurs et hommes forts des provinces décidèrent de s’inspirer de la croix de l’église pour leur revendications. Il est envisageable que la croix copte tréflée soit l’origine de la croix Occitane.
 
-## Catharisme et Hérésie
+## La Croix de Toulouse
 
-Le Catharisme qui vient du grec signifiant pur. A l’époque, l’eglise les nomme hérétiques, et les Occitans, les Albigeois, d’où le nom donnée à la Croisade des Albigeois.
-Au XIIIème siècle, l’Occitanie accueille une grande diversité de culture, ouverte au monde, elle regroupe ainsi, Juif fuyant l’église, Islam venue d’Espagne, et Chrétien Arien.
+Au début du XI siècles par des mariages les comtes de Toulouse fîrent de la Croix Occitane leur blason et emblème. Puis Toulouse devient capitale de l’Occitanie, et ainsi tous les comtés, vicomtés portaient la croix sur leur seigneurie. Aujourd’hui à Toulouse, place du capitole on retrouve la Croix Occitane sur laquelle sont apposés les signes du Zodiaque. En cherchant l’on peut retrouver la croix à plusieurs endroits de Toulouse...
 
-Le Catharisme n’a pas de mal à évoluer en terre Occitane et n’est pas rejeté par la population. De plus, de part ses pratiques, le peuple y trouve son compte, en effet le catharisme est contre la propriété privée et rejette la féodalité. Ils rejettent également la guerre, les sacrements chrétiens, l’enfer et l’incarnation. Jusque là l’Eglise contrôlant indirectement les comtes et vicomtes via le royaume de France, laisse faire.
+Voilà ce que l’on dit à Toulouse : “La croix de Toulouse, semble avoir des origines très anciennes. Cette croix aux douze points semble avoir été l'un des symboles d'un peuple gaulois implanté au IIIe siècle avant Jésus Christ (av. JC). Elle s'impose dans le domaine toulousain au début du XIIIe siècle. Elle apparaît sur le sceau de Raymond VI en 1211 et figurera, dès lors, les armes de la ville de Toulouse puis celle du Languedoc, du XIVe au XVIIIe siècle. ….Mairie de Toulouse La plus ancienne représentation des armes de Toulouse est celle figurant dans le sceau attaché à une lettre des Capitouls au Roi Pierre II d'Aragon, en 1211, pendant la Croisade des Albigeois. Au verso du blason, on trouve l'agneau nimbé, portant la Croix de Toulouse en bannière.”
 
-Petit à petit le vicomte Trencavel, lui-même cathare, attire les foudres de l’Eglise qui les considères alors comme protecteurs d’hérétiques. La proximité des Cathares avec le peuple commence alors à faire de l’ombre aux finances et au rayonnement de l’Eglise, même si malgré eux, le catharisme se définit en chrétienté. 
+{{< figure src="https://subversive.eu/media/pays-occitanie.png" alt="pays d'occitanie" caption="figure-normal" >}}
 
-## La Croisade des Albigeois
+Tous les comtés de Provence, les comtes de Forcalquier, les comtes de Provence, les marquis de Provence portent tous la croix Occitane sur leur blason. Les nobles de la région les portent aussi, La maison de Gigondas, les Vicomtes de Marseille, les Adhémar de la Garde. Tous ont la même origine, le Marquis de Provence qui obtient le vicomté de Marseille en l’an 940, Arlufe de Marseille.
 
-En 1209 donc, l’Eglise lança la Croisade des Albigeois, elle regroupe une puissante armée d’au moins 50 milles hommes, un “ost”, on y retrouve, les seigneurs du nord et leurs vassaux, français d’île de france, Bretons, Bourguignons, Picards mais aussi des hommes venus de Rhénanie, d’Angleterre et des Flamands.  A sa tête, le légat du Pape Innocent III, Arnaud Amaury, le chef spirituel de cette expédition. Raymond VI comte de Toulouse, pas trop fou, se retourne contre le languedoc et ainsi rejoint la croisade avec une centaine de Chevaliers, mais n’y participe pas de trop.
+## Chronologie
 
-Le vicomte de Trencavel alors à Béziers, rentra vite à Carcassonne, capitale, riche et puissante ville, pour y organiser la défense espérant que Béziers tiennent quelques semaines. Mais il n’en fut pas Béziers tenue seulement deux jours, sans seulement établir un siège.
+Au XV siècle le Roi de France reconnaît la croix Occitane comme emblème du Languedoc. En 1200, les comtés Occitans prennent la croix Occitane a l’unanimité. Au VI siècle, une monnaie wisigothe à la croix cléchée à douze extrémité, dites Triens à la croix, ces monnaies sont très rares, conservées par de rare collectionneur. 
+En l’an 450, on retrouve la “croix Occitane” au Turkestan chinois ainsi qu’au Tibet. L’église d’Orient avait envoyé des moines pour convertir les peuples et leur dirigeants.
 
-Le 22 Juillet, une horde de brigands sortie harceler les troupes ennemis, (c’est courant au douzième siècle lors des établissements de sièges), prise en chasse, elle rejoignit la porte principale mais ce fut trop tard, une colonne ou plutôt un flot incessant de scélérats (parce qu’au XIIIème siècle une armée se compose de professionnel : les chevaliers, les artilleurs et les archers, les autres sont des brigands, sorte de mercenaires qui s’enrichissent en pillant)  entra dans Béziers, les gardes ne purent rien faire, et béziers tomba sans qu’un cailloux ne soit tiré. Trencavel savait qu'à cet instant, tenir seul avec Carcassonne serait compliqué.
+Au IV siècles après JC, un peuple Gaulois l’aurait eu comme emblème contre l'oppression Romaine. Mais cela va encore plus loin ! Comme dit plus haut, une croix copte tréflée serait une inspiration probable dont les wisigoth l’auraient interprété. Les 4 branches montres les 4 points cardinaux vers lequel le christ a commandé à ses 12 apôtres de prêcher l'évangile à tous. Les Wisigoths y verront une autre symbolique (voir au début). 
+Au IV siècle, Rome adopte le chrisme..
+Je ne commenterai pas l’orientation des châteaux cathares dans le Midi, qui se seraient inspiré donc des wisigoths (par rapport au soleil) et de l’église d’Orient d’Alexandrie (pour leur croix).
 
-En plein mois d'Août, l’eau commencera à manquer dans les puits de la cité. Il commis une erreur stratégique que le Roi Pierre II d’Aragon (ne pas confondre avec la petite bourgade d’Aragon - nord de l’Aude) lui rappela lors des négociations du siège de la cité de Carcassonne. Il fit entrée, en bon Seigneur Cathare, tout son peuple dans la cité, ce qui restreint ses capacités de siège.
+## Le Nombre Douze
 
-Le 15 Août sonne la reddition de la cité, un pacte est signé par le médiateur Roi d’Aragon, suzerain des provinces de la Maison Trencavel et Maison de Toulouse. Les habitants et chevaliers sont libre en échange de l’emprisonnement du vicomte Trencavel, un brave homme.
+Pas d’apologie à la sainte somme, mais un rappel s’impose. Pourquoi douze pièces d’or ? 3 par branches pour 4 branches 4 Saisons de 3 mois, 12 mois une année, ici on reste dans le rapport des wisigoths et de leur idée proche du Soleil. Douze comme le nombre approximatif de tour de la Lune autour de la Terre (le rôle de la Lune est clairement sous estimé). Douze pour nous situer dans le temps. Douze dans la mythologie, les trois religions (Juive, Chrétienne et Musulmane + les astres chinois). Douze comme le nombre maximal d’un groupe social d’individu. Douze multiple de trois, chiffre tout aussi important. Je rappelle que dans le Midi, le vent tient toujours le temps d’un multiple de trois, actuellement nous sommes au jour 13 d’un vent marin, donc il tiendra jusqu'à 15 jours minimum. Les théories des douze univers font prospérer toute la mysticité de ce nombre.
 
-## Velléités
+## Résumé
 
-Simon IV de Montfort fut nommé vicomte de Carcassonne, Albi et Béziers, dans le but de continuer la lutte contre l'hérésie. Dès l’année 1210, la lutte se concentra sur les terres reculées, Minerve tomba, Lastours,.. Raymond VI de Toulouse ne faisant rien pour lutter contre l’hérésie fut la cible de l’Eglise, mais le Roi Pierre II d’Aragon, allié historique du comté de Toulouse, ne peut laisser partir ses terres, dont il est le suzerain, à Simon de Montfort.
-
-En 1213, lors de la bataille de Muret, le Roi est tué, Raymond VI pris la fuite, lâche qu’il a toujours était. Arnaud Amaury, mis Simon IV de  Montfort, comte de Toulouse, vicomte de Foix. Ainsi il fit sa fortune sur le dos de l’Eglise.
-
-En 1218, une révolte surprend de Montfort qui décéda, laissant la place aux deux  Raimonds ( Raimond de Trencavel et Raymond VII de Toulouse). Personne ne peut alors lutter contre leur puissance et leur richesse.
-
-En 1226 le Roi de France lança la Croisade du Capétien contre l’Occitanie, enfin à l’époque, le languedoc et l’albigeois. La région est alors très affaibli de 10 années de guerre et de révoltes, et se laisse vaincre avec peu de résistance par la couronne de France.
-
-Jusqu'en 1249 les comtes de Toulouse et Trencavel luttent pour tenter des révoltes contre le Roi envain qui instaura les administrations du royaume pour réduire les pouvoirs des seigneuries.
-
-## Pour penser plus loin
-
-Au cours de l’Histoire, l’Occitanie que l’on nomme aujourd’hui connu d’autre termes, l’Aquitaine, le Comté de Province, on nous surnomme aussi la petite France, du fait de nos attraits géographique. Inutile de vous expliquer les raisons des deux croisades. Rome et Paris étaient sont et resteront vos capitales religieuse et politique. 
-
-### Sources
-
-[Histoire du Béarn](https://gallica.bnf.fr/ark:/12148/bpt6k5772863h/f19.image) - Emile Garet  
-Albigeois et Cathares - Fernand Niel  
-Histoire des Aquitains - Antoine Lebègue
+La Croix Occitane aujourd’hui reflète surtout un patois, une langue ancienne en perte de vitesse, et donc sa culture par définition. Les origines sont probablement de circonstances accumulées, entre l’église Copte et l’interprétation des Wisigoths et Cathares. Persécutés pendant des siècles, les historiens ont bien du mal à tout nous raconter.

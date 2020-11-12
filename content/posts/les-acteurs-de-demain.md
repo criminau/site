@@ -1,17 +1,24 @@
 ---
-title: Les acteurs de demain
-author: subversive.eu
+title: "Les acteurs de demain"
+author: "subversive.eu"
 ShowToc: true
 draft: false
+hidemeta: false
+tocopen: false
+disableShare: false
 tags:
   - Géopolitique
-date: 2020-03-12 18:00:00
+date: 2020-03-12T18:00:00+02:00
+keyword: "fonds souverain, la caisse des dépôts et consignation, Bpifrance, fonds stratégique d'investissement, fonds souverain norvégien, fonds d'investissement quatari"
+pdfname: "Les acteurs de demain"
+url: "/les-acterus-de-demain/"
 ---
 
-Leur nombre a explosé après 2008, face à la faillite des banques riches, malgré une baisse du brut, les fonds souverain ont la côte. <!-- more -->
-Ils gèrent toujours plus de cash. Le premier fut français en 1816, la Caisse des Dépôts et Consignation (CDC), qui gère plus de 30 milliards €. 
-En 2008, la France en a créé un nouveau, le FSI ( Fonds Stratégique d’Investissement ), fermé en 2013, remplacé par BpiFrance fin 2012, doté de 19 Milliards €. 
+Leur nombre a explosé après la crise de 2008, les fonds souverain ont la côte. Le premier fut français en 1816, la Caisse des Dépôts et Consignation (CDC).
+<!--more-->
 
+Ils gèrent toujours plus de cash. La CDC gère plus de 30 milliards €. 
+En 2008, la France en a créé un nouveau, le FSI (Fonds Stratégique d’Investissement), fermé en 2013, remplacé par BpiFrance fin 2012, doté de 19 Milliards €. 
 
 ## A la lutte ?
 

@@ -1,14 +1,20 @@
 ---
-title: Réflexion probabilité d'effondrement
-author: subversive.eu
+title: "Réflexion probabilité d'effondrement économique climatique"
+author: "subversive.eu"
 ShowToc: true
 draft: false
+hidemeta: false
+tocopen: false
+disableShare: false
 tags:
   - Liberté
-date: 2020-02-05 18:00:00
+date: 2020-02-05T18:00:00+02:00
+keyword: "probabilité d'effondrement, effondrement climatique, climat, effondrement civilisationnel, effondrement economique, reflexion"
+pdfname: "Reflexion probabilite d'effondrement"
+url: "/reflexion-probabilite-d'effondrement/"
 ---
 
-Comment définir un effondrement ? Celui d’une civilisation, c’est cela donc il sera question ici. On peut le traduire par une survie des individus, qui ont fuis une région. Une éradication de leur culture et tradition, la langue, les rites et croyances. Leur disparition totale. 
+Comment définir un effondrement civilisationnel ? On peut le traduire par une survie des individus, qui ont fuis une région. Leur disparition totale, culture...
 <!--more-->
 
 ## Causes

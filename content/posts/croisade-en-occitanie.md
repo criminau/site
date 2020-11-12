@@ -1,18 +1,31 @@
 ---
-title: Croisade en Occitanie
+title: "Croisade en Occitanie - Croisade des albigeois "
 author: subversive.eu
 ShowToc: true
 draft: false
+hidemeta: false
+tocopen: false
+disableShare: false
 tags:
   - Histoire
-date: 2020-01-22 18:00:00
+date: 2020-01-22T18:00:00+02:00
+images: "media/pays-occitanie.png"
+keyword: "Croisade en Occitanie, Occitanie, croisade, 12 siècles, XII siècle, 1200 ans après JC, croisade des albigeois, les cathares, Histoire, cathares, trencavel, cité de carcassonne, cité de béziers, les comptes de Toulouse"
+pdfname: "Croisade en Occitanie"
+url: "/Croisade-en-Occitanie/"
 ---
 
 Occitanie, Occitània. Béziers fut la première ville de France. La plus vieille donc.  
 Vient du Diocèse de Vienne de l’Empire romain en - 300 av Jc. 
 <!--more-->
-En 400 ap Jc, il existe 7 provinces, le Diocèse des Septs Provinces (en latin Septem Provinciae).
 
+PS: Le document PDF a mystérieusement disparu, nous travaillons à le récupérer. Navré
+
+{{< figure src="https://subversive.eu/media/roman300AD.png" alt="Empire Romain 300 après JC" caption="figure-normal" >}}
+
+En 400 ap Jc, il existe 7 provinces, le Diocèse des Septs Provinces (en latin Septem Provinciae):
+
+{{< figure src="https://subversive.eu/media/RomanEmp400AD.png" alt="Empire Romain 400 après JC" caption="figure-normal" >}}
 
 ## Unification possible
 

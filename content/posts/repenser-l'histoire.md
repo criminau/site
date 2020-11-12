@@ -1,15 +1,25 @@
 ---
-title: Repenser l'Histoire
-author: subversive.eu
+title: "Osons repenser l'Histoire celle d'il y a 5000 ans et plus"
+author: "subversive.eu"
 ShowToc: true
 draft: false
+hidemeta: false
+tocopen: false
+disableShare: false
 tags:
   - Histoire
-date: 2020-01-09 18:00:00
+date: 2020-01-09T18:00:00+02:00
+keyword: "repenser l'histoire, histoire, macchu pitchu, 5000 ans, 3000 ans, pierre taillée,"
+pdfname: "Repenser l'Histoire"
+url: "/repenser-l'histoire/"
 ---
- 
-L’Histoire fait et est ce que nous sommes Hommes de la Terre. L’Histoire tourne avec le temps, comme notre planète, elle ne s’arrête jamais, quoi qu’il arrive tant que quelqu’un essayera de la lire, elle existera, même si nous ne sommes plus là.
+
+L’Histoire est-elle tronquée ? L'histoire que l'on apprend n'est peut-être pas la vraie. Une autre bien différente qu'il faut repenser existe d'avant l'an 0.
+
 <!--more-->
+
+L’Histoire fait et est ce que nous sommes Hommes de la Terre. L’Histoire tourne avec le temps, comme notre planète, elle ne s’arrête jamais, quoi qu’il arrive tant que quelqu’un essayera de la lire, elle existera, même si nous ne sommes plus là.
+
 L’Histoire telle qu’on la connaît évolue chaque jour en fonction de nos découvertes et de nos réflexions.
 
 ## Bref résumé

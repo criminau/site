@@ -1,14 +1,22 @@
 ---
-title: EDF le monstre est à acheter
-author: subversive.eu
+title: "EDF le monstre est à vendre Restructuration d'EDF par l'état"
+author: "subversive.eu"
 ShowToc: true
 draft: false
+hidemeta: false
+tocopen: false
+disableShare: false
 tags:
-  - Démocratie
-date: 2019-11-09 18:00:00
+ - Démocratie
+date: 2019-11-09T18:00:00+02:00
+keyword: "EDF, edf, électricité de france, barrages, france, état français, vente, restructuration, vendre, europe, production d'électricité, état, monde"
+pdfname: "EDF le monstre est a acheter"
+url: "/edf-le-monstre-est-a-acheter/"
 ---
-  
-Commençons par un petit rappel, EDF, Electricité De France, deuxième productrice d’électricité de la planète qui appartient a plus de 70% à l’Etat français va subir une restructuration. <!--more-->
+
+Rappel, EDF, Electricité De France, deuxième productrice d’électricité du monde qui appartient a plus de 70% à l’Etat français va subir une restructuration.
+<!--more-->
+
 Tous les médias nous présentent la nouvelle comme une bonne nouvelle, une renationalisation, mais vous allez découvrir en réalité une bien belle mascarade.
 
 
@@ -35,5 +43,7 @@ L’autre part, le côté sucré et juteux de la poire, la distribution, le reno
 ## Conclusion
 
 Bien sûr nous ne faisons aucunement mentions des conseils que nous donnent Bruxelles concernant les barrages français. L'eau ressource inépuisable, surtout dans les lieux où se trouvent les barrages, source d'énergie donc très conséquente. Cela assure une rente fiable à 100% pour tout barrage dédié à la production d'énergie. Tout est déjà fait, il ne reste plus qu'à se gaver, magnifique coup !
+
+### Pour penser plus loin
 
 Il semblerait évident que nos gouvernants souhaitant éviter la catastrophe gardent les producteurs d’énergie sous leur contrôle pour optimiser la capacité d’autonomie du pays – la souveraineté – et surtout ne pas subir des pressions externes d’autres pays voir d’investisseurs particuliers.

@@ -1,6 +1,6 @@
 ---
-title: La Lune seule responsable
-author: subversive.eu
+title: "La Lune seule responsable du malheur des Hommes"
+author: "subversive.eu"
 ShowToc: true
 draft: false
 tags:
@@ -12,12 +12,14 @@ cover:
     alt: "La lune Responsable du malheur des Hommes ?"
     Caption: ""
 images: "media/the-moon-cover.jpg"
-keyword: 'La lune'
-pdfname: 'La Lune seule responsable'
+keyword: "Histoire, La lune, plaques tectoniques, continent, marrée, malheur des hommes"
+pdfname: "La Lune seule responsable"
+url: "/La-Lune-seule-responsable/"
 ---
 
-Les Hommes ne vivent toujours pas comme des frères malgré quatre millions d’années d’évolution. Quels en sont les raisons et leurs probabilités ? Pourquoi autant de haine ? La Lune aurait-elle son importance ?
+Les Hommes ne vivent toujours pas comme des frères malgré quatre millions d’années d’évolution. Quels en sont les raisons et leurs probabilités ?
 <!--more-->
+Pourquoi autant de haine ? La Lune aurait-elle son importance ?
 
 Elle joue un rôle pourtant bien précis d’après nos anciens en agronomie, le calendrier lunaire serait source d’abondance. Elle régule les marées par sa masse. Mais quel est donc le rapport avec les Hommes et leur bêtise ?
 

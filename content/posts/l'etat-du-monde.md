@@ -1,16 +1,25 @@
 ---
-title: L'état du Monde
-author: subversive.eu
+title: "L'état du Monde guerre commerciale et guerre de religion"
+author: "subversive.eu"
 ShowToc: true
 draft: false
+hidemeta: false
+tocopen: false
+disableShare: false
 tags:
   - Géopolitique
-date: 2020-01-15 18:00:00
+date: 2020-01-15T18:00:00+02:00
+keyword: "L'état du monde, guerre, géopolitique, russie, américains, usa, chine, europe, asie, terre"
+pdfname: "L'Etat du Monde"
+url: "/l'etat-du-Monde/"
 ---
 
 Alors que l’Histoire tourne, les Hommes de la Terre continuent d’en écrire une toujours aussi sombre.  
-Les Hommes de la Terre passent leur temps a s’entretuer, s’accaparer du pouvoir et de la richesse matérielle. Un esprit de compétition règne dès notre plus jeune âge.
+Alors que l’Histoire tourne, les Hommes continuent d’en écrire une toujours aussi sombre. Entre guerre commerciale et religion, l'état du monde n'évolue pas.
 <!--more-->
+
+Les Hommes de la Terre passent leur temps a s’entretuer, s’accaparer du pouvoir et de la richesse matérielle. Un esprit de compétition règne dès notre plus jeune âge.
+
 Il aura fallu connaître la Seconde Guerre Mondiale pour qu’enfin certains dirigeants notamment Européens se disent qu’il ne faudrait plus avoir de guerre sur notre continent.
 
 

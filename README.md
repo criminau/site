@@ -12,6 +12,7 @@ Check more :   <https://subversive.eu/apropos/>
 
 - Automatisation RSS optimisé
     - Image enclosure
+    - Image display
 - Automatisation SEO :
     - Twitter Card
     - Opengraph
@@ -21,4 +22,7 @@ Check more :   <https://subversive.eu/apropos/>
     - alt
     - title
     - no /posts/ folder
-- pdf implication
+- Implication
+    - URL
+    - PDF
+    - Images

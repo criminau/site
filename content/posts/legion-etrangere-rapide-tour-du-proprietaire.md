@@ -1,14 +1,20 @@
 ---
-title: Légion Etrangère, rapide tour du propriétaire
-author: subversive.eu
+title: "Légion Etrangère, des troupes étrangères pour la france"
+author: "subversive.eu"
 ShowToc: true
 draft: false
+hidemeta: false
+tocopen: false
+disableShare: false
 tags:
   - Géopolitique
-date: 2020-02-28 18:00:00
+date: 2020-02-28T18:00:00+02:00
+keyword: "legion etrangère, troupes d'élites, france, armée, armée française, légion, troupes étrangères"
+pdfname: "Legion etrangere"
+url: "/Légion-Etrangère/"
 ---
 
-La Légion Etrangère est une armée privée de l'État français. Je vous propose un petit tour rapide de géopolitique. Depuis que la guerre existe, tous se posent la question : Comment gérer le courage et le moral de nos troupes ? 
+La Légion Etrangère est une armée privée de l’État français. Pendant les guerres, tous cherchent à gérer le courage et le moral de ses troupes. Comment faire ?
 <!--more-->
 
 ## Résumé

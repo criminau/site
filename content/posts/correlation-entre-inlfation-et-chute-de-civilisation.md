@@ -1,15 +1,22 @@
 ---
-title: Corrélation entre inflation et chute des civilisations
-author: subversive.eu
+title: "Corrélation entre inflation et chute des civilisations"
+author: "subversive.eu"
 ShowToc: true
 draft: false
+hidemeta: false
+tocopen: false
+disableShare: false
 tags:
   - Géopolitique
-date: 2020-06-30 18:00:00
+date: 2020-06-30T18:00:00+02:00
+keyword: "inflation, masse monétaire, chute de civilisations, monnaie, histoire de la monnaie, histoire de l'inflation, décande de civilisations, choc de civilisations"
+pdfname: "Corrélation entre inflation et chute des civilisations"
+url: "/Corrélation-entre-inflation-et-chute-des-civilisations/"
 ---
 
 Cet article ne mettra pas en cause l'inflation dans la chute d'une civilisation, mais essaiera de collaborer le fait qu'elle soit là avant la décadence. 
 <!--more-->
+
 Qu'elle soit la cause ou bien une conséquence. Ainsi nous ferons un détour historique assez flou, nous étudierons l'Histoire, analyserons les raisons des chutes et pour finir nous reviendrons dans l'actualité.  
 
 

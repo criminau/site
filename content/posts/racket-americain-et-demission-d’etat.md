@@ -1,15 +1,24 @@
 ---
-title: Racket américain et démission d’état
-author: subversive.eu
+title: "Racket américain et démission d’état - l'affaire alstom"
+author: "subversive.eu"
 ShowToc: true
 draft: false
+hidemeta: false
+tocopen: false
+disableShare: false
 tags:
   - Géopolitique
-date: 2019-12-06 18:00:00
+date: 2019-12-06T18:00:00+02:00
+keyword: "Racket américain, démission d’état,l'affaire alstom, General electrics, alstom, satellite system tracking, turboréacteurs, nucléaire, france, état français"
+pdfname: "Racket americain et demission d’etat"
+url: "/racket-americain-et-demission-d’etat/"
 ---
 
-Le 19 Décembre 2014 l’assemblée générale des actionnaires d'Alstom a adopté l’accord de cession des activités de sa branche Énergie à General Electric (GE).
+Analyse du racket américain sur les turboréacteurs français, bêtise de nos dirigeants français et leur démission. Pourquoi avons-nous perdu l'affaire asltom ?
 <!--more-->
+
+Le 19 Décembre 2014 l’assemblée générale des actionnaires d'Alstom a adopté l’accord de cession des activités de sa branche Énergie à General Electric (GE).
+
 Pourtant ce département du groupe français réunissait des savoir-faire stratégiques pour l'indépendance militaire et énergétique de notre pays. Il paraît donc étonnant que la France ait cédé sans état d’âme cette branche. 
 
 

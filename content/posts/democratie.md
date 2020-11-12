@@ -1,15 +1,22 @@
 ---
-title: Démocratie
-author: subversive.eu
+title: "Sommes-nous en démocratie en france avec l'europe ? Analyse"
+author: "subversive.eu"
 ShowToc: true
 draft: false
+hidemeta: false
+tocopen: false
+disableShare: false
 tags:
-  - Démocratie
-date: 2019-11-09 18:01:00
+ - Démocratie
+date: 2019-11-09T18:01:00+02:00
+keyword: "démocratie, france, europe, libre, c'est quoi la démocratie, democratie définition, traités européen, politique économique, BCE"
+pdfname: "democratie"
+url: "/sommes-nous-en-democratie/"
 ---
 
-Vous avez dit Démocratie ? Ceux donc qui décident pour leur communauté.
+Vous avez dit Démocratie ? Ceux donc qui décident pour leur communauté. L'Europe est-elle vraiment démocratique ? La France a-t-elle perdue sa démocratie ?
 <!--more-->
+
 Alors que l’Europe, vient de demander à la France d’ouvrir à la concurrence son parc de barrages hydrauliques, la démocratie n’est pas remise en question. Mais qui est cette Europe qui nous impose des objectifs, des politiques économiques ?
 
 

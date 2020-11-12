@@ -1,15 +1,24 @@
 ---
-title: La fin de l'hégémonie us
-author: subversive.eu
+title: "La fin de l'hégémonie us  - l'amérique perd sa puissance"
+author: "subversive.eu"
 ShowToc: true
 draft: false
+hidemeta: false
+tocopen: false
+disableShare: false
 tags:
   - Géopolitique
-date: 2020-06-23 18:00:00
+date: 2020-06-23T18:00:00+02:00
+keyword: "enjeux de puissance, puissance américaine, soft power, hégémonie, puissance hégémonique"
+pdfname: "La fin de l'hégémonie us"
+url: "/la-fin-de-l'hegemonie-us/"
 ---
 
-Tout le monde en a entendu parler, la taxe gafa initiée par la France est en route à travers le globe. Certes elle ne représente rien réellement, en termes financiers que de maigre sommes comparées aux cibles à atteindre.
+Tout le monde connaît le président américain, c'est du soft-power. Preuve d'une puissance hégémonique impressionnante et inégalée . Ont-ils entamé leur déclin ?
 <!--more-->
+
+Tout le monde en a entendu parler, la taxe gafa initiée par la France est en route à travers le globe. Certes elle ne représente rien réellement, en termes financiers que de maigre sommes comparées aux cibles à atteindre.
+
 Mais elle invite Washington à se poser les bonnes questions sur l'avenir de sa superpuissance. Elle appuie la thèse supposée de la fin de l'hégémonie us sur la Terre. Elle amorce la question des outils européens de défense commerciale.
 
 

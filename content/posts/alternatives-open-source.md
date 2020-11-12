@@ -1,17 +1,24 @@
 ---
-title: Alternatives open source
-author: subversive.eu
+title: "Alternatives open source  Outils pour ne pas utiliser google"
+author: "subversive.eu"
 ShowToc: true
 draft: false
+hidemeta: false
+tocopen: false
+disableShare: false
 tags:
-  - Internet
+ - Internet
 date: 2019-12-18 18:00:00
+keyword: "Alternatives, open source, outils, pas google, mail, OS, système d'exploitation, sans google, surveillance de masse, espionnage, NSA"
+pdfname: "Alternatives open source"
+url: "/alternatives-open-source/"
 ---
 
-Destiné à ceux qui souhaitent s’embêter pour fuir la surveillance de masse.  
-Avant de commencer il faut préciser qu’il est assez difficile d’évoluer via ses outils différents.<!--more-->
-Il faut une maîtrise minimale des langages informatiques adaptés.
+Destiné à ceux qui souhaitent fuir la surveillance de masse et la NSA.
+Avant de commencer, il faut préciser qu’il est assez difficile d’évoluer via ses outils.
+<!--more-->
 
+Il faut une maîtrise minimale des langages informatiques adaptés.
 
 ## La base
 
