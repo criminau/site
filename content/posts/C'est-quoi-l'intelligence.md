@@ -1,21 +1,21 @@
 ---
-title: "C'est quoi l'intelligence - Comment la définir ?"
+title: "C'est quoi l'intelligence et Comment la définir ?"
 author: "subversive.eu"
 ShowToc: true
-draft: true
+draft: false
 hidemeta: false
 tocopen: false
 disableShare: false
 tags:
  - Liberté
-date: 2020-11-20 18:00
+date: 2020-11-20T18:00:00+01:00
 cover:
     relative: true
     image: "media/the-neurons-cover.jpg"
     alt: "neurone dans le cerveau"
     Caption: ""
 images: "media/the-neurons-cover.jpg"
-keyword: "Intelligence, Liberté, c'est quoi l'intelligence, comment définir l'intelligence, c'est quoi le QI, QI, conscience de soi, conscience, "
+keyword: "Intelligence, Liberté, c'est quoi l'intelligence, comment définir l'intelligence, c'est quoi le QI, QI, conscience de soi, conscience"
 pdfname: "C'est quoi l'intelligence"
 url: "/c'est-quoi-l'intelligence/"
 ---
@@ -79,7 +79,7 @@ Pistons donc le cortex cérébral..
 
 Le cortex cérébral tourne grâce aux neurones. Ces neurones communiquent entre elles via un courant électrique traversant les fibres nerveuses.
 
-{{< figure src="https://subversive.eu/the-oligodendrocytes.jpg" alt="image" caption="Les oligodendrocytes protègent les axones des neurones en formant la gaine de myéline" class="right" >}}
+{{< figure src="https://subversive.eu/media/the-oligodendrocytes.jpg" alt="image" caption="Les oligodendrocytes protègent les axones des neurones en formant la gaine de myéline" class="right" >}}
 Certaines fibres sont recouvertes d'une gaine de myéline isolante constituée d'une spirale à tours jointifs de membrane plasmique particulièrement riche en lipides (cholestérol, phospholipides, glycolipides) qui leur permet d'augmenter la vitesse des signaux électriques qu'elles véhiculent.
 
 Plus le diamètre des gaines de myéline est large, plus la vitesse est élevée.
@@ -199,3 +199,8 @@ Espérons qu'un jour la science nous apporte de quoi élever notre conscience co
 ### Pour penser plus loin
 
 Il est fort probable que l'intelligence se définit par le niveau de conscience, que vous le vouliez ou non.
+
+#### Sources
+
+[Larousse](https://www.larousse.fr/dictionnaires/francais/intelligence/43555)
+[Encyclopédie du Larousse](https://www.larousse.fr/encyclopedie/divers/intelligence/61883)
