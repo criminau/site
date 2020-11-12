@@ -24,6 +24,7 @@
       <title>Subversive</title>
       <link>{{ .Site.BaseURL }}</link>
     </image>
+    <author>{{ .Site.Author }}</author>
     <link>{{ .Site.BaseURL }}</link>
 
     {{ with .Site.Params.description }}<description>{{.}}</description>{{end}}
