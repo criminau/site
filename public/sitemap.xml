@@ -122,7 +122,7 @@
   </url>
   
   <url>
-    <loc>https://subversive.eu/cr%C3%A9er-un-site-internet-statique-en-2020.html</loc>
+    <loc>https://subversive.eu/creer-un-site-internet-statique-en-2020.html</loc>
     <lastmod>2020-03-06T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
@@ -192,7 +192,7 @@
   </url>
   
   <url>
-    <loc>https://subversive.eu/cr%C3%A9er-son-blog-ou-son-site-internet.html</loc>
+    <loc>https://subversive.eu/creer-son-blog-ou-son-site-internet.html</loc>
     <lastmod>2019-12-11T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
@@ -250,6 +250,12 @@
   <url>
     <loc>https://subversive.eu/edf-le-monstre-est-%C3%A0-acheter.html</loc>
     <lastmod>2019-11-09T18:00:00+00:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>1</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive.eu/cest-quoi-lintelligence/</loc>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>

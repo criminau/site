@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Subversive</title>
-    <language>fr</language>
+    <language>fr-FR</language>
     <image>
       <url>https://www.subversive.eu/apple-touch-icon.png</url>
       <title>Subversive</title>
@@ -11,7 +11,7 @@
     <link>https://subversive.eu/posts.html</link>
 
     <description>Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description>
-    <language>fr</language>
+    
     
     
     
@@ -28,7 +28,7 @@
 &lt;p&gt;Elle joue un rôle pourtant bien précis d’après nos anciens en agronomie, le calendrier lunaire serait source d’abondance. Elle régule les marées par sa masse. Mais quel est donc le rapport avec les Hommes et leur bêtise ?&lt;/p&gt;
 &lt;h2 id=&#34;le-point-de-départ&#34;&gt;Le point de départ&lt;/h2&gt;
 &lt;p&gt;&lt;figure class=&#34;right&#34;&gt;
-    &lt;img src=&#34;https://subversive.eu/la-lune-seule-responsable.htmlhttps://subversive.eu/giant-impact.jpg&#34;
+    &lt;img src=&#34;https://subversive.eu/la-lune-seule-responsable.htmlhttps://subversive.eu/media/giant-impact.jpg&#34;
          alt=&#34;image&#34;/&gt; &lt;figcaption&gt;
             &lt;p&gt;Choc entre la Terre et la Lune&lt;/p&gt;
         &lt;/figcaption&gt;
@@ -73,7 +73,7 @@ allowfullscreen
 
 
 
-<enclosure url="http://subversive.eu/media/the-moon-cover.jpg" length="193973" type="image/png" />
+<enclosure url="http://subversive.eu/media/the-moon-cover.jpg" length="38717" type="image/png" />
 
 
 
@@ -843,11 +843,11 @@ pour soutenir leur États, entre 20 et 30%, ainsi ils négligent les placements 
     </item>
     
     <item>
-      <title>Créer un site internet statique en 2020</title>
-      <link>https://subversive.eu/cr%C3%A9er-un-site-internet-statique-en-2020.html</link>
+      <title>Creer un site internet statique en 2020</title>
+      <link>https://subversive.eu/creer-un-site-internet-statique-en-2020.html</link>
       <pubDate>Fri, 06 Mar 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/cr%C3%A9er-un-site-internet-statique-en-2020.html</guid>
+      <guid>https://subversive.eu/creer-un-site-internet-statique-en-2020.html</guid>
       <description>&lt;p&gt;Méthode utilisée pour ce site.&lt;br&gt;
 La création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.&lt;/p&gt;
 &lt;h3 id=&#34;a-télécharger-et-installer&#34;&gt;A télécharger et installer&lt;/h3&gt;

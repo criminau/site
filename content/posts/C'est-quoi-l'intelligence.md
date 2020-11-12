@@ -1,14 +1,24 @@
 ---
-title: C'est quoi l'intelligence 
-author: subversive.eu
+title: "C'est quoi l'intelligence"
+author: "subversive.eu"
 ShowToc: true
 draft: false
+hidemeta: false
+tocopen: false
+disableShare: false
 tags:
  - Liberté
-date: 2020-11-15 18:00:00
-cover: "https://subversive.eu/media/the-neurons-cover.jpg"
+date: 2020-11-151T18:00:00+02:00
+cover:
+    relative: true
+    image: "media/the-neurons-cover.jpg"
+    alt: "Les neurones"
+    Caption: ""
 images:
  - media/the-neurons-cover.jpg
+keyword: ""
+pdfname: "C'est quoi l'intelligence"
+url: "/c'est-quoi-l'intelligence/"
 ---
 
 L'intelligence se mesure-t-elle ? Comme un objet dans le ciel ?
