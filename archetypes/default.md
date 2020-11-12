@@ -13,10 +13,9 @@ cover:
     image: "media/"
     alt: "Description de l'image"
     caption: "Légende"
-images:
- - 'media/'
-keyword: ''
-pdfname: '{{ replace .Name "-" " " | title }}'
+images: "media/"
+keyword: ""
+pdfname: "{{ replace .Name "-" " " | title }}"
 ---
 
 <!--more-->

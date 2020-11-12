@@ -14,13 +14,11 @@ cover:
     image: "media/bitcoin-cover-min.jpg"
     alt: "Bitcoin cryptomonnaie"
     Caption: ""
-images:
- - 'media/bitcoin-cover-min.jpg'
-keyword: 'Bitcoin, Cryptomonnaie, TEST, TEST'
-pdfname: 'Bitcoin Monnaie Universelle'
+images: "media/bitcoin-cover-min.jpg"
+keyword: "Bitcoin, Cryptomonnaie, TEST, TEST"
+pdfname: "Bitcoin Monnaie Universelle"
 url: "/bitcoin-monnaie-universelle/"
 ---
-
 
 Le BTC, Bitcoin, est une cryptomonnaie internationale la plus connue de toutes, celle qui a
 le plus de valeur. Est-elle la monnaie universelle de demain ? 

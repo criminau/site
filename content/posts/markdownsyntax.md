@@ -14,8 +14,7 @@ cover:
     image: "media/markdown-cover-min.jpg"
     alt: "Bitcoin cryptomonnaie"
     Caption: ""
-images:
- - 'media/markdown-cover-min.jpg'
+images: "media/markdown-cover-min.jpg"
 keyword: 'Markdown syntax, copy button, figure, details, expand, columns, tabs, blockquote, youtube responsive, HTML, CSS, HUGO, hugo authors'
 pdfname: ''
 ---

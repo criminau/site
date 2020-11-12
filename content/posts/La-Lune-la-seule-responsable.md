@@ -11,8 +11,7 @@ cover:
     image: "media/the-moon-cover.jpg"
     alt: "La lune Responsable du malheur des Hommes ?"
     Caption: ""
-images:
- - 'media/the-moon-cover.jpg'
+images: "media/the-moon-cover.jpg"
 keyword: 'La lune'
 pdfname: 'La Lune seule responsable'
 ---

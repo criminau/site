@@ -50,54 +50,17 @@
 {{- $content := replaceRE "a href=\"(#.*?)\"" (printf "%s%s%s" "a href=\"" .Permalink "$1\"") .Content -}}
 {{- $content = replaceRE "img src=\"(.*?)\"" (printf "%s%s%s" "img src=\"" .Permalink "$1\"") $content -}}
       <description>{{ $content | html }}</description>
-      
-      <!-- Post individual image from opengraph -->
 
-{{ with .Params.header.image }}{{ $image_location := printf "static/img/%s" .}}{{$image := readFile $image_location }}{{$len := len $image}}<enclosure url="http://yihanwu.ca/img/{{.}}" length="{{$len}}" type="image/png" />{{end}}
-
-
-{{- if .Params.cover.image -}}
-{{- if (ne .Params.cover.relative true) }} <!-- relative: false -->
-<enclosure url="{{ .Params.cover.image | absURL }}" lenght="10000" type="image/jpg"></enclosure>
-{{- else}} <!-- relative: true -->
-{{ with .Params.cover.image }}
-{{ $image_location := printf "/static/%s" . }}
-{{$image := readFile $image_location }}
-{{$len := len $image}}
-<enclosure url="http://subversive.eu/{{.}}" length="{{$len}}" type="image/png" />
-{{ end }}
-
-{{- end}}
-{{- else }}<!-- no cover image but image: - -->
-
-{{ with $.Params.images }}{{ range first 6 . -}}
-{{ $image_location := printf "/static/%s" . }}
-{{$image := readFile $image_location }}
-{{$len := len $image}}
-<enclosure url="http://subversive.eu/{{.}}"  length="{{$len}}" type="image/png" />
-
-<enclosure url="{{ . | absURL }}" content="jamais testé" type="image/jpg"></enclosure>
-
-{{ end }}{{ else -}}
-{{- $images := $.Resources.ByType "image" -}}
-{{- $featured := $images.GetMatch "*feature*" -}}
-{{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
-{{- with $featured -}}
-<enclosure url="{{ $featured.Permalink }}"  type="image/jpg"></enclosure>
-{{ else -}} <!-- no cover no images, just config .-->
-
-
-{{- with .Site.Params.imagesdefault -}}
-
-{{ $image_location := printf "/static/%s" . }}
-{{$image := readFile $image_location }}
-{{$len := len $image}}
-<enclosure url="{{ . | absURL }}"  length="{{$len}}" type="image/png" />
-
-{{ end }}{{ end }}{{ end }}
-{{- end }}
-
-
+    <!-- Start Image -->
+    {{- if .Params.images -}}
+    {{ with .Params.images }}
+    {{ $image_location := printf "/static/%s" . }}
+    {{$image := readFile $image_location }}
+    {{$len := len $image}}
+    <enclosure url="http://subversive.eu/{{.}}" length="{{$len}}" type="image/png" />
+    {{ end }}{{- else -}}
+    NO
+    {{- end -}}
     </item>
     {{ end }}
   </channel>

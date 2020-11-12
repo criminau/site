@@ -49,22 +49,16 @@
   "name": "{{ .Title | plainify }}",
   "description": {{ .Summary | plainify | truncate 180 | safeHTML }},
   "keywords": [
-    {{- if .Params.keywords }}
-    {{ range $i, $e := .Params.keywords }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
-    {{- else }}
-    {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
-    {{- end }}
+    {{ .Params.keyword | default .Site.Params.keyword }}
   ],
   "articleBody": {{ .Content | safeJS | htmlUnescape | plainify }},
   "wordCount" : "{{ .WordCount }}",
   "inLanguage": {{ .Language.Lang | default "en-us" }},
-  {{ if .Params.cover.image -}}
+  {{ if .Params.images -}}
   "image":
-    {{- if (ne .Params.cover.relative true) -}}
-    {{ .Params.cover.image | absURL }},
-    {{- else -}}
-    {{ (path.Join .RelPermalink .Params.cover.image ) | absURL }},
-    {{- end}}
+  {{ with $.Params.images }}
+    {{ . | absURL }},
+  {{ end }}
   {{- end -}}
   "datePublished": {{ .PublishDate }},
   "dateModified": {{ .Lastmod }},

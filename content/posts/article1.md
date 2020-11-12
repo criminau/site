@@ -16,8 +16,7 @@ cover:
     # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
     alt: "Papermod profile Mod"
     caption: "Légende"
-images:
- - 'media/default-image.jpg'
+images: "media/default-image.jpg"
 ---
 
 I will show you some extras about Markdown, css, and shortcode.

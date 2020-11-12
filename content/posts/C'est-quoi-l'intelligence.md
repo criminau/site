@@ -14,8 +14,7 @@ cover:
     image: "media/the-neurons-cover.jpg"
     alt: "Les neurones"
     Caption: ""
-images:
- - media/the-neurons-cover.jpg
+images: "media/the-neurons-cover.jpg"
 keyword: ""
 pdfname: "C'est quoi l'intelligence"
 url: "/c'est-quoi-l'intelligence/"
