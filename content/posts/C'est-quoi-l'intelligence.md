@@ -2,7 +2,7 @@
 title: "C'est quoi l'intelligence"
 author: "subversive.eu"
 ShowToc: true
-draft: false
+draft: true
 hidemeta: false
 tocopen: false
 disableShare: false

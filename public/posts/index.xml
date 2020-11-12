@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Subversive</title>
-    <language>fr-FR</language>
+    <language>fr</language>
     <image>
       <url>https://www.subversive.eu/apple-touch-icon.png</url>
       <title>Subversive</title>
-      <link>https://subversive.eu/posts.html</link>
+      <link>https://subversive.eu/</link>
     </image>
-    <link>https://subversive.eu/posts.html</link>
+    <link>https://subversive.eu/</link>
 
     <description>Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description>
     
@@ -17,7 +17,10 @@
     
 
     
-    <lastBuildDate>Tue, 10 Nov 2020 18:00:00 +0000</lastBuildDate><atom:link href="https://subversive.eu/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2020 18:00:00 +0000</lastBuildDate>
+    <atom:link href="https://subversive.eu/index.xml" rel="self" type="application/rss+xml"/>
+
+    
     <item>
       <title>La Lune seule responsable</title>
       <link>https://subversive.eu/la-lune-seule-responsable.html</link>
@@ -273,7 +276,7 @@ D’une part, les puissances économiques mondiales ont su réagir et mettre en 
 &lt;h3 id=&#34;pour-penser-plus-loin&#34;&gt;Pour penser plus loin&lt;/h3&gt;
 &lt;p&gt;C&amp;rsquo;est probablement pour cela que cela ce met en place, la hausse des échanges entraînent une modification de la gestion. Prenons la réflexion à l&amp;rsquo;envers.&lt;/p&gt;</description>
 
-    NO</item>
+    </item>
     
     <item>
       <title>Conseiller en relations publiques</title>
@@ -357,7 +360,7 @@ Que votre objectif principal est de traduire la nature même de l&amp;rsquo;entr
 &lt;p&gt;Les films soulignent et exagèrent les tendances populaires au lieu de stimuler l&amp;rsquo;apparition de nouvelles manières de voir et de penser. Le cinéma ne sert que les idées et les faits à la mode. Le cinéma a pour vocation de distraire.&lt;/p&gt;
 &lt;p&gt;La propagande ne cessera jamais d&amp;rsquo;exister. Les esprits intelligents doivent comprendre qu&amp;rsquo;elle leur offre l&amp;rsquo;outil moderne dont ils doivent se saisir à des fins productives, pour créer de l&amp;rsquo;ordre à partir du chaos.&lt;/p&gt;</description>
 
-    NO</item>
+    </item>
     
     <item>
       <title>Les intérêts du sars-cov-2</title>
@@ -426,7 +429,7 @@ En Chine, il y aura plus de vie sauvée de la pollution que de mort du covid-19.
 &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://euromomo.eu&#34; title=&#34;Liens vers EuroMOMO&#34; &gt;EuroMOMO&lt;/a&gt;&lt;br&gt;
 &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://youtu.be/Gdd7dtDaYmM&#34; title=&#34;Liens vers Virus artificiel&#34; &gt;Virus artificiel&lt;/a&gt;&lt;/p&gt;</description>
 
-    NO</item>
+    </item>
     
     <item>
       <title>Corrélation entre inflation et chute des civilisations</title>
@@ -537,7 +540,7 @@ Des théories affirment que la modernisation permet la domination, or la récent
 &lt;p&gt;Nous avons été capable de s’admettre et de compenser à s’entendre entre peuple, il me semble admissible d’imaginer de nous entendre entre civilisations de même race.&lt;/p&gt;
 &lt;p&gt;Afin de réduire les risques des facteurs climatiques, je pense que produire sous terre reste la meilleure solution. Protection contre les éruptions solaire, contre l’absence de lumière, protection de la nature, protection visuelle, &amp;hellip; Bien sur il nous faudra revoir nos outils de production, notre transformation d’énergie, sa gestion et sa distribution.&lt;/p&gt;</description>
 
-    NO</item>
+    </item>
     
     <item>
       <title>La fin de l&#39;hégémonie us</title>
@@ -563,7 +566,7 @@ Des théories affirment que la modernisation permet la domination, or la récent
 &lt;h2 id=&#34;pour-penser-plus-loin&#34;&gt;Pour penser plus loin.&lt;/h2&gt;
 &lt;p&gt;Il faut une bonne dose de chauvinisme pour lire et comprendre cet article. Je pense que les Européens ont bien compris qu&amp;rsquo;être les premiers est trop compliqué, mieux vaut suivre sereinement. Les Russes et Japonais probablement. Mais pour les autres, l&amp;rsquo;Histoire nous le dira.&lt;/p&gt;</description>
 
-    NO</item>
+    </item>
     
     <item>
       <title>Covid19 Réflexion</title>
@@ -655,7 +658,7 @@ Durant ce confinement, j&amp;rsquo;ai eu confirmation que 30 000 ans d&amp;rsquo
 &lt;h2 id=&#34;pour-conclure&#34;&gt;Pour conclure&lt;/h2&gt;
 &lt;p&gt;Vous retiendrez ce qui vous intéresse.&lt;/p&gt;</description>
 
-    NO</item>
+    </item>
     
     <item>
       <title>La croix occitane (crotz occitana)</title>
@@ -701,7 +704,7 @@ Au XIIIème siècle, l’Occitanie accueille une grande diversité de culture, o
 Albigeois et Cathares - Fernand Niel&lt;br&gt;
 Histoire des Aquitains - Antoine Lebègue&lt;/p&gt;</description>
 
-    NO</item>
+    </item>
     
     <item>
       <title>Les acteurs de demain</title>
@@ -732,7 +735,7 @@ pour soutenir leur États, entre 20 et 30%, ainsi ils négligent les placements 
 &lt;p&gt;Encore une fois, on voit bien que personne ne pense au peuple, au nord c’est priorité au libéralisme, on préfère la dette et la croissance. Au sud, on préfère enrichir sa famille sur la croissance des pays pauvres.&lt;/p&gt;
 </description>
 
-    NO</item>
+    </item>
     
     <item>
       <title>Creer un site internet statique en 2020</title>
@@ -834,7 +837,7 @@ Exercez votre mise à jour avec &amp;lsquo;hugo server -D&amp;rsquo; désactivé
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Normalement votre site se met à jour directement via le dépôt Github.&lt;/p&gt;
 &lt;p&gt;Pensez à vérifier de temps en temps sur netlify, que les mises à jour soient bien publiées, il peut-y avoir des surprises !&lt;/p&gt;</description>
 
-    NO</item>
+    </item>
     
     <item>
       <title>Légion Etrangère, rapide tour du propriétaire</title>
@@ -857,7 +860,7 @@ Exercez votre mise à jour avec &amp;lsquo;hugo server -D&amp;rsquo; désactivé
 La protection des bases et convois de ravitaillement est réalisé par des troupes d’élites estonienne (oui).&lt;/p&gt;
 &lt;p&gt;Ainsi la paix dure. D’ouvrir nos armées à des personnels étrangers est un bon début si on regarde loin dans l’avenir, celui de partager nos capacités militaire entre européens semble inévitable.&lt;/p&gt;</description>
 
-    NO</item>
+    </item>
     
     <item>
       <title>L&#39;Europe de la défense, pour bientôt</title>
@@ -883,7 +886,7 @@ La protection des bases et convois de ravitaillement est réalisé par des troup
 &lt;h3 id=&#34;pour-penser-plus-loin&#34;&gt;Pour penser plus loin&lt;/h3&gt;
 &lt;p&gt;Celui qui vient trop tard punit la vie.&lt;/p&gt;</description>
 
-    NO</item>
+    </item>
     
     <item>
       <title>Réflexion probabilité d&#39;effondrement</title>
@@ -903,7 +906,7 @@ La protection des bases et convois de ravitaillement est réalisé par des troup
 &lt;p&gt;Aujourd’hui avec les évènements actuels, le mouvement dit véganisme, et certes correct, nous ne pouvons nous passer de viande d’origine animale si nous souhaitons nous assurer un apport juste et proportionné pour notre corps.&lt;/p&gt;
 &lt;p&gt;Qui plus ait est financé par des multinationales commerçant et produisant des plats tout prêt, pratique, peu cher à la production. Au port d’amsterdam, arrive des céréaliers rempli de maïs, où est extrait la cellulose pour en faire des plats tout prêt.&lt;/p&gt;</description>
 
-    NO</item>
+    </item>
     
     <item>
       <title>Un sens à la Vie</title>
@@ -933,7 +936,7 @@ Pourtant nous leur attribuons bien la notion de vie, puisque l’on y attribue l
 &lt;p&gt;Nous pourrions donc définir plusieurs sens de la vie, mais cela est-il correct ? Le premier serait celui des Hommes, agrandir leur champ relationnel, mais en y réfléchissant cela leur permet de survivre. Et nous revenons donc à l’idée apportée aux animaux, celui de la survie. Logique puisque nous sommes des animaux.&lt;/p&gt;
 &lt;p&gt;Ainsi il serait acceptable de répondre à la question, qu’attends la vie de nous, de survivre. Nous pourrions très bien ouvrir le débat sur la manière d’améliorer notre survie, mais ce n’est pas le sujet ici.&lt;/p&gt;</description>
 
-    NO</item>
+    </item>
     
   </channel>
 </rss>

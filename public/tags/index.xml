@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Subversive</title>
-    <language>fr-FR</language>
+    <language>fr</language>
     <image>
       <url>https://www.subversive.eu/apple-touch-icon.png</url>
       <title>Subversive</title>
-      <link>https://subversive.eu/tags.html</link>
+      <link>https://subversive.eu/</link>
     </image>
-    <link>https://subversive.eu/tags.html</link>
+    <link>https://subversive.eu/</link>
 
     <description>Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description>
     
@@ -17,56 +17,59 @@
     
 
     
-    <lastBuildDate>Tue, 10 Nov 2020 18:00:00 +0000</lastBuildDate><atom:link href="https://subversive.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2020 18:00:00 +0000</lastBuildDate>
+    <atom:link href="https://subversive.eu/index.xml" rel="self" type="application/rss+xml"/>
+
+    
     <item>
       <title>Histoire</title>
-      <link>https://subversive.eu/.html</link>
+      <link>https://subversive.eu/tags/histoire.html</link>
       <pubDate>Tue, 10 Nov 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/.html</guid>
+      <guid>https://subversive.eu/tags/histoire.html</guid>
       <description></description>
 
-    NO</item>
+    </item>
     
     <item>
       <title>Liberté</title>
-      <link>https://subversive.eu/.html</link>
+      <link>https://subversive.eu/tags/libert%C3%A9.html</link>
       <pubDate>Sun, 01 Nov 2020 18:00:00 +0200</pubDate>
       
-      <guid>https://subversive.eu/.html</guid>
+      <guid>https://subversive.eu/tags/libert%C3%A9.html</guid>
       <description></description>
 
-    NO</item>
+    </item>
     
     <item>
       <title>Géopolitique</title>
-      <link>https://subversive.eu/.html</link>
+      <link>https://subversive.eu/tags/g%C3%A9opolitique.html</link>
       <pubDate>Fri, 09 Oct 2020 13:19:18 +0200</pubDate>
       
-      <guid>https://subversive.eu/.html</guid>
+      <guid>https://subversive.eu/tags/g%C3%A9opolitique.html</guid>
       <description></description>
 
-    NO</item>
+    </item>
     
     <item>
       <title>Démocratie</title>
-      <link>https://subversive.eu/.html</link>
+      <link>https://subversive.eu/tags/d%C3%A9mocratie.html</link>
       <pubDate>Tue, 29 Sep 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/.html</guid>
+      <guid>https://subversive.eu/tags/d%C3%A9mocratie.html</guid>
       <description></description>
 
-    NO</item>
+    </item>
     
     <item>
       <title>Internet</title>
-      <link>https://subversive.eu/.html</link>
+      <link>https://subversive.eu/tags/internet.html</link>
       <pubDate>Fri, 06 Mar 2020 18:00:00 +0000</pubDate>
       
-      <guid>https://subversive.eu/.html</guid>
+      <guid>https://subversive.eu/tags/internet.html</guid>
       <description></description>
 
-    NO</item>
+    </item>
     
   </channel>
 </rss>

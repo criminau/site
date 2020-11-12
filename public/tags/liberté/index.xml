@@ -2,24 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Subversive</title>
-    
-    <language>fr-FR</language>
-    
+    <language>fr</language>
     <image>
       <url>https://www.subversive.eu/apple-touch-icon.png</url>
-      <title>subversive.eu</title>
-      <link>www.subversive.eu</link>
+      <title>Subversive</title>
+      <link>https://subversive.eu/</link>
     </image>
-    <link>https://subversive.eu/tags/libert%C3%A9.html</link>
+    <link>https://subversive.eu/</link>
 
     <description>Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description>
-    <language>fr-FR</language>
+    
     
     
     
 
     
-    <lastBuildDate>Sun, 01 Nov 2020 18:00:00 +0200</lastBuildDate><atom:link href="https://subversive.eu/tags/libert%C3%A9/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Nov 2020 18:00:00 +0200</lastBuildDate>
+    <atom:link href="https://subversive.eu/index.xml" rel="self" type="application/rss+xml"/>
+
+    
     <item>
       <title>Bitcoin Cryptomonnaie Universelle ? Ou Simple Monnaie ?</title>
       <link>https://subversive.eu/bitcoin-monnaie-universelle/</link>
@@ -151,11 +152,12 @@ décentralisé. Mais les Hommes avides et cupides risquent tous de ne pas en pro
 &lt;h3 id=&#34;sources&#34;&gt;Sources&lt;/h3&gt;
 &lt;p&gt;&lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.bitcoincours.com/p/livre-blanc-bitcoin.html?m=1&#34; title=&#34;Liens vers Le livre Blanc&#34; &gt;Le livre Blanc&lt;/a&gt;&lt;br&gt;
 &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://bitcoin.org/fr/&#34; title=&#34;Liens vers Site Officiel fr&#34; &gt;Site Officiel fr&lt;/a&gt;&lt;/p&gt;</description>
-      
-      
-<enclosure url="https://subversive.eu/media/bitcoin-cover-min.jpg" type="image/jpg"></enclosure>
 
-
+    
+    
+    
+    
+    <enclosure url="http://subversive.eu/media/bitcoin-cover-min.jpg" length="45307" type="image/png" />
     </item>
     
     <item>
@@ -175,11 +177,6 @@ décentralisé. Mais les Hommes avides et cupides risquent tous de ne pas en pro
 &lt;h2 id=&#34;corrélation&#34;&gt;Corrélation&lt;/h2&gt;
 &lt;p&gt;Aujourd’hui avec les évènements actuels, le mouvement dit véganisme, et certes correct, nous ne pouvons nous passer de viande d’origine animale si nous souhaitons nous assurer un apport juste et proportionné pour notre corps.&lt;/p&gt;
 &lt;p&gt;Qui plus ait est financé par des multinationales commerçant et produisant des plats tout prêt, pratique, peu cher à la production. Au port d’amsterdam, arrive des céréaliers rempli de maïs, où est extrait la cellulose pour en faire des plats tout prêt.&lt;/p&gt;</description>
-      
-      
-<enclosure url="https://subversive.eu/android-chrome-192x192.png" type="image/jpg"></enclosure>
-
-
 
     </item>
     
@@ -210,11 +207,6 @@ Pourtant nous leur attribuons bien la notion de vie, puisque l’on y attribue l
 &lt;h2 id=&#34;pour-penser-plus-loin&#34;&gt;Pour penser plus loin&lt;/h2&gt;
 &lt;p&gt;Nous pourrions donc définir plusieurs sens de la vie, mais cela est-il correct ? Le premier serait celui des Hommes, agrandir leur champ relationnel, mais en y réfléchissant cela leur permet de survivre. Et nous revenons donc à l’idée apportée aux animaux, celui de la survie. Logique puisque nous sommes des animaux.&lt;/p&gt;
 &lt;p&gt;Ainsi il serait acceptable de répondre à la question, qu’attends la vie de nous, de survivre. Nous pourrions très bien ouvrir le débat sur la manière d’améliorer notre survie, mais ce n’est pas le sujet ici.&lt;/p&gt;</description>
-      
-      
-<enclosure url="https://subversive.eu/android-chrome-192x192.png" type="image/jpg"></enclosure>
-
-
 
     </item>
     

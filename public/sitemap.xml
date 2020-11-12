@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://subversive.eu/.html</loc>
+    <loc>https://subversive.eu/tags/histoire.html</loc>
     <lastmod>2020-11-10T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
@@ -45,14 +45,14 @@
   </url>
   
   <url>
-    <loc>https://subversive.eu/.html</loc>
+    <loc>https://subversive.eu/tags/libert%C3%A9.html</loc>
     <lastmod>2020-11-01T18:00:00+02:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://subversive.eu/.html</loc>
+    <loc>https://subversive.eu/tags/g%C3%A9opolitique.html</loc>
     <lastmod>2020-10-09T13:19:18+02:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
@@ -73,7 +73,7 @@
   </url>
   
   <url>
-    <loc>https://subversive.eu/.html</loc>
+    <loc>https://subversive.eu/tags/d%C3%A9mocratie.html</loc>
     <lastmod>2020-09-29T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
@@ -129,7 +129,7 @@
   </url>
   
   <url>
-    <loc>https://subversive.eu/.html</loc>
+    <loc>https://subversive.eu/tags/internet.html</loc>
     <lastmod>2020-03-06T18:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
@@ -250,12 +250,6 @@
   <url>
     <loc>https://subversive.eu/edf-le-monstre-est-%C3%A0-acheter.html</loc>
     <lastmod>2019-11-09T18:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>1</priority>
-  </url>
-  
-  <url>
-    <loc>https://subversive.eu/cest-quoi-lintelligence/</loc>
     <changefreq>dayly</changefreq>
     <priority>1</priority>
   </url>
