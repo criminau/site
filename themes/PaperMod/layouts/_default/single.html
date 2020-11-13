@@ -40,7 +40,7 @@
     {{- if .Params.tags }}
     <ul class="post-tags">
       {{- range .Params.tags }}
-      {{- $href := print (absLangURL "tags/") (urlize .) }}
+      {{- $href := print (absLangURL "") (urlize .) }}
       <li><a rel="noopener noreferrer" Title="Tous les articles concernant le tag {{ . }}" href="{{ $href }}">{{ . }}</a></li>
       {{- end }}
     </ul>
