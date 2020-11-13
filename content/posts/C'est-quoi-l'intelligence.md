@@ -17,7 +17,7 @@ cover:
 images: "media/the-neurons-cover.jpg"
 keyword: "Intelligence, Liberté, c'est quoi l'intelligence, comment définir l'intelligence, c'est quoi le QI, QI, conscience de soi, conscience"
 pdfname: "C'est quoi l'intelligence"
-url: "/c'est-quoi-l'intelligence/"
+url: "c'est-quoi-l'intelligence"
 ---
 
 L'intelligence se mesure-t-elle ? Comme un objet dans le ciel ?
@@ -185,14 +185,16 @@ Votre pensez s'oriente-t-elle plus à l'échelle planétaire ? Universelle ? Ou 
 La trivialité est comme le QI, il faudrait observer les sujets 24/24 7/7 365.250/365.250 pour obtenir un résultat. L'objectif serait d'estimer 
 si le caractère de la pensée triviale s'adapte a telle ou telle échelle.
 
-J'entends par triviale, dans la vie quotidienne, nul besoin d'exercice ou  de tests. Pour ainsi dire, la tendance à penser a une plus grande échelle que la moyenne des autres par rapport à toutes tes pensées.
+J'entends par triviale, dans la vie quotidienne, nul besoin d'exercice ou de tests. Pour ainsi dire, la tendance à penser a une plus grande échelle que la moyenne des autres par rapport à toutes tes pensées.
 
 ## Pour conclure
 
 Le QI semble dépasser ?  
-Pourrions-nous réaliser une analyse de tous avec la technique médicales ?
+Pourrions-nous réaliser une analyse de tous avec la technique médicale ?
 
 Ou bien faudrait-il émettre un processus d'étude de l'état de conscience d'une personne. Car il est  très facile d'élever sa conscience dans un exercice de réflexion a court terme.
+
+L'imagerie médicale est la traduction même du niveau de conscience car il est impossible de tricher. Le QI vous pouvez toujours vous entraîner à répondre aux questions sous forme d'exercices. Sur une longue période de temps vous ne pouvez pas tricher sur votre niveau de conscience.
 
 Espérons qu'un jour la science nous apporte de quoi élever notre conscience commune.
 

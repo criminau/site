@@ -11,7 +11,7 @@ tags:
 date: 2020-06-23T18:00:00+02:00
 keyword: "enjeux de puissance, puissance américaine, soft power, hégémonie, puissance hégémonique"
 pdfname: "La fin de l'hégémonie us"
-url: "/la-fin-de-l'hegemonie-us/"
+url: "la-fin-de-l'hegemonie-us"
 ---
 
 Tout le monde connaît le président américain, c'est du soft-power. Preuve d'une puissance hégémonique impressionnante et inégalée . Ont-ils entamé leur déclin ?

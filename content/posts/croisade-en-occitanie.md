@@ -12,7 +12,7 @@ date: 2020-01-22T18:00:00+02:00
 images: "media/pays-occitanie.png"
 keyword: "Croisade en Occitanie, Occitanie, croisade, 12 siècles, XII siècle, 1200 ans après JC, croisade des albigeois, les cathares, Histoire, cathares, trencavel, cité de carcassonne, cité de béziers, les comptes de Toulouse"
 pdfname: "Croisade en Occitanie"
-url: "/Croisade-en-Occitanie/"
+url: "Croisade-en-Occitanie"
 ---
 
 Occitanie, Occitània. Béziers fut la première ville de France. La plus vieille donc.  

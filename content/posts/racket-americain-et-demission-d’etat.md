@@ -11,7 +11,7 @@ tags:
 date: 2019-12-06T18:00:00+02:00
 keyword: "Racket américain, démission d’état,l'affaire alstom, General electrics, alstom, satellite system tracking, turboréacteurs, nucléaire, france, état français"
 pdfname: "Racket americain et demission d’etat"
-url: "/racket-americain-et-demission-d’etat/"
+url: "racket-americain-et-demission-d’etat"
 ---
 
 Analyse du racket américain sur les turboréacteurs français, bêtise de nos dirigeants français et leur démission. Pourquoi avons-nous perdu l'affaire asltom ?

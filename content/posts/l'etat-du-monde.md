@@ -11,7 +11,7 @@ tags:
 date: 2020-01-15T18:00:00+02:00
 keyword: "L'état du monde, guerre, géopolitique, russie, américains, usa, chine, europe, asie, terre"
 pdfname: "L'Etat du Monde"
-url: "/l'etat-du-Monde/"
+url: "l'etat-du-Monde"
 ---
 
 Alors que l’Histoire tourne, les Hommes de la Terre continuent d’en écrire une toujours aussi sombre.  

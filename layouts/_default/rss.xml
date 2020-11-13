@@ -24,14 +24,13 @@
       <title>Subversive</title>
       <link>{{ .Site.BaseURL }}</link>
     </image>
-    <author>{{ .Site.Author }}</author>
+    {{ with .Site.Params.Author }}
+    <author>{{ . }}</author>
+    {{ end }}
     <link>{{ .Site.BaseURL }}</link>
 
     {{ with .Site.Params.description }}<description>{{.}}</description>{{end}}
-    
-    {{ with $.Site.Author.name }}<managingEditor> {{.}}</managingEditor>{{end}}
-    {{ with $.Site.Author.name }}<webMaster>{{.}}</webMaster>{{end}}
-    {{ with .Site.Copyright }}<copyright>{{.}}</copyright>{{end}}
+    {{ with .Site.Params.Copyright }}<copyright>{{.}}</copyright>{{end}}
 
     {{ if not .Date.IsZero }}
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
@@ -41,7 +40,9 @@
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
-      <author>{{ .Site.Author }}</author>
+      {{ with .Params.Author }}
+      <author>{{ . }}</author>
+      {{ end }}
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
@@ -60,6 +61,10 @@
     <enclosure url="http://subversive.eu/{{.}}" length="{{$len}}" type="image/png" />
     {{ end }}{{- else -}}
     {{- end -}}
+    <!-- tags -->
+    {{ with .Params.Tags }}
+    <category> {{ index . 0 }} </category>
+    {{ end }}
     </item>
     {{ end }}
   </channel>

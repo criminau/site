@@ -11,7 +11,7 @@ tags:
 date: 2019-11-25T18:00:00+02:00
 keyword: 'Climat, température terrestre'
 pdfname: 'Climat et temperature terrestre'
-url: "/climat-et-temperature-terrestre/"
+url: "climat-et-temperature-terrestre"
 ---
 
 La plupart du temps, le noyau de la Terre réchauffe la planète.

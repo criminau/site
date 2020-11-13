@@ -11,7 +11,7 @@ tags:
 date: 2020-05-04T18:00:00+02:00
 keyword: 'Covid-19, données, réflexion, critique, arnaque, système, disparités entre pays, différence entre pays, mortilité, explication covid19'
 pdfname: 'Covid19 Reflexion'
-url: "/covid19-Réflexion/"
+url: "covid19-Réflexion"
 ---
 
 Données prise le 24/04/2020 21:30  

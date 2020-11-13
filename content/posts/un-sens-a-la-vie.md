@@ -11,7 +11,7 @@ tags:
 date: 2020-01-29T18:00:00+02:00
 keyword: "sens de la vie, sens, vie, la vie a-t-elle un sens, quel est le sens de la vie, réflexion sens de la vie, c'est quoi la vie"
 pdfname: "Un sens a la vie"
-url: "/un-sens-a-la-vie/"
+url: "un-sens-a-la-vie"
 ---
 
 De réflexion en réflexion, je me suis penché sur le sens de la vie. Qu’est-ce que la vie ? Comment la définir ? Pourrions nous admettre qu’elle ait un sens ?

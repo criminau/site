@@ -11,7 +11,7 @@ tags:
 date: 2020-03-12T18:00:00+02:00
 keyword: "fonds souverain, la caisse des dépôts et consignation, Bpifrance, fonds stratégique d'investissement, fonds souverain norvégien, fonds d'investissement quatari"
 pdfname: "Les acteurs de demain"
-url: "/les-acterus-de-demain/"
+url: "les-acterus-de-demain"
 ---
 
 Leur nombre a explosé après la crise de 2008, les fonds souverain ont la côte. Le premier fut français en 1816, la Caisse des Dépôts et Consignation (CDC).

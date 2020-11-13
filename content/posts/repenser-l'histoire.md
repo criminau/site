@@ -11,7 +11,7 @@ tags:
 date: 2020-01-09T18:00:00+02:00
 keyword: "repenser l'histoire, histoire, macchu pitchu, 5000 ans, 3000 ans, pierre taillée,"
 pdfname: "Repenser l'Histoire"
-url: "/repenser-l'histoire/"
+url: "repenser-l'histoire"
 ---
 
 L’Histoire est-elle tronquée ? L'histoire que l'on apprend n'est peut-être pas la vraie. Une autre bien différente qu'il faut repenser existe d'avant l'an 0.

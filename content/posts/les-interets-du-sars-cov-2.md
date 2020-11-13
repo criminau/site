@@ -11,7 +11,7 @@ tags:
 date: 2020-08-02T18:00:00+02:00
 keyword: "covid19, arnaque du siècle, casse du siècle, sars-cov-2, a qui profite le covid, les élites et le covid, les intérêts des élites pour le covid, le virus sars-cov-2, maladie infectieuse, "
 pdfname: "Les interets du sars-cov-2"
-url: "/les-interets-du-sars-cov-2/"
+url: "les-interets-du-sars-cov-2"
 ---
 
 Le virus SArs-cov-2 responsable de la maladie covid19 (maladie infectieuse) ne semble pas stoppé. Tous les pays de l’hémisphère nord ont passé leur pic.

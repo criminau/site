@@ -14,7 +14,7 @@ cover:
 images: "media/the-moon-cover.jpg"
 keyword: "Histoire, La lune, plaques tectoniques, continent, marrée, malheur des hommes"
 pdfname: "La Lune seule responsable"
-url: "/La-Lune-seule-responsable/"
+url: La-Lune-seule-responsable"
 ---
 
 Les Hommes ne vivent toujours pas comme des frères malgré quatre millions d’années d’évolution. Quels en sont les raisons et leurs probabilités ?

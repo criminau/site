@@ -11,7 +11,7 @@ tags:
 date: 2020-02-26T18:00:00+02:00
 keyword: 'europe de la défense, europe, armée, france, otan, armée européenne, armée allemande, force européenne, europe, défense, sécurité européenne, sécurité, armée commune'
 pdfname: "L'Europe de la defense, pour bientot"
-url: "/europe-de-la-defense/"
+url: "europe-de-la-defense"
 ---
 
 Ou en sommes-nous en France et en europe d'une armée commune entre les 27 de l'union ? Les intérêts d'une europe de la défense pour la france et l'Allemagne.

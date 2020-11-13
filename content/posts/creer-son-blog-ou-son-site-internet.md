@@ -11,7 +11,7 @@ tags:
 date: 2019-12-11T18:00:00+02:00
 keyword: "HUGO, gohugo, hugo cms, site statique, blog avec hugo, creer un site internet, créer un blog"
 pdfname: "Creer son blog ou son site internet"
-url: "/creer-son-blog-ou-son-site-internet/"
+url: "creer-son-blog-ou-son-site-internet"
 ---
 
 Ouvrir un site internet sur le domaine public vous engage à respecter les lois en vigueur sur le territoire de votre résidence. Si vous ne souhaitez pas subir le droit en vigueur, vous pouvez vous orienter vers un site caché, .onion.  

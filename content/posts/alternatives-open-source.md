@@ -11,7 +11,7 @@ tags:
 date: 2019-12-18 18:00:00
 keyword: "Alternatives, open source, outils, pas google, mail, OS, système d'exploitation, sans google, surveillance de masse, espionnage, NSA"
 pdfname: "Alternatives open source"
-url: "/alternatives-open-source/"
+url: "alternatives-open-source"
 ---
 
 Destiné à ceux qui souhaitent fuir la surveillance de masse et la NSA.

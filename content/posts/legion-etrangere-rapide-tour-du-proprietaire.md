@@ -11,7 +11,7 @@ tags:
 date: 2020-02-28T18:00:00+02:00
 keyword: "legion etrangère, troupes d'élites, france, armée, armée française, légion, troupes étrangères"
 pdfname: "Legion etrangere"
-url: "/Légion-Etrangère/"
+url: "Légion-Etrangère"
 ---
 
 La Légion Etrangère est une armée privée de l’État français. Pendant les guerres, tous cherchent à gérer le courage et le moral de ses troupes. Comment faire ?

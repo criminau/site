@@ -12,7 +12,7 @@ date: 2020-04-24T18:00:00+02:00
 images: "media/FlagofOccitania.png"
 keyword: "Croisade en Occitanie, Occitanie, croisade, 12 siècles, XII siècle, 1200 ans après JC, croisade des albigeois, les cathares, Histoire, cathares, trencavel, cité de carcassonne, cité de béziers, les comptes de Toulouse"
 pdfname: "La croix occitane (crotz occitana)"
-url: "/la-croix-occitane/"
+url: "la-croix-occitane"
 ---
 
 

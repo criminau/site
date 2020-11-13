@@ -11,7 +11,7 @@ tags:
 date: 2020-09-29T18:00:00+02:00
 keyword: "Conseiller en relations publiques, propaganda, propagande, démocratie, relations publiques, fiche métier, métier, livre propaganda résumé, résumé, livre, fonctionnement démocratie actuelles, propagande démocratie, qui contrôle les médias, médias, importance des médias"
 pdfname: "Conseiller en relations publiques"
-url: "/conseiller-en-relations-publiques/"
+url: "conseiller-en-relations-publiques"
 ---
 
 Résumé bref, et précis du métier de conseiller en relations publiques (CRP) un métier indispensable dans les démocraties actuelles à partir du livre propaganda.

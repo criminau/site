@@ -11,7 +11,7 @@ tags:
 date: 2020-06-30T18:00:00+02:00
 keyword: "inflation, masse monétaire, chute de civilisations, monnaie, histoire de la monnaie, histoire de l'inflation, décande de civilisations, choc de civilisations"
 pdfname: "Corrélation entre inflation et chute des civilisations"
-url: "/Corrélation-entre-inflation-et-chute-des-civilisations/"
+url: "Corrélation-entre-inflation-et-chute-des-civilisations"
 ---
 
 Cet article ne mettra pas en cause l'inflation dans la chute d'une civilisation, mais essaiera de collaborer le fait qu'elle soit là avant la décadence. 

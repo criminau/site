@@ -21,7 +21,7 @@ minify:
 
 params:
   description: 'Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.'
-  keyword: 'Subversif, Subsersive, Démocratie, Géopolitique, Liberté, Energie, Environnement, Histoire, Informatique, Internet, Blog personnel, Système bancaire, Dette, Despotisme, Servage, Esclavage, Monnaie, Argent, Crise, Sécurité, Monde, Politique, Dictature, Europe, Occident, Ras-le-bol, Gilets-jaune'
+  keyword: 'subversive.eu, subversive, blog, pour, entretenir, votre, culture, subversive, gilets-jaune'
   images:
     - android-chrome-192x192.png
   ShowReadingTime: true
@@ -91,6 +91,7 @@ taxonomies:
 # SEO
 permalinks:
   posts: /:slug/
+  tags: /:slug/
 
 # RSS feed
 rsslimit: 15

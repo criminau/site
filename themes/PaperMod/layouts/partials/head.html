@@ -3,7 +3,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Title -->
-<title>{{ if .IsHome }} {{ .Site.Params.TitleHome }}{{else}}{{ if .Title }}{{ .Title }} - {{ end }}{{end}}{{ .Site.Title }}</title>
+<title>
+{{ if .IsHome }} {{ .Site.Params.TitleHome }}{{else}}{{ if .Title }}{{ .Title }} - {{ .Site.Title }}{{ end }}{{end}}</title>
 <!-- Balises Meta -->
 <!-- Meta Cache ON -->
 <meta http-equiv="Cache-Control" content="Public" />

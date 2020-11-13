@@ -2,30 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Subversive</title>
-    
-    <language>fr-FR</language>
-    
+    <language>fr</language>
     <image>
       <url>https://www.subversive.eu/apple-touch-icon.png</url>
-      <title>subversive.eu</title>
-      <link>www.subversive.eu</link>
+      <title>Subversive</title>
+      <link>https://subversive.eu/</link>
     </image>
-    <link>https://subversive.eu/libert%C3%A9.html</link>
+    
+    <author>subversive.eu</author>
+    
+    <link>https://subversive.eu/</link>
 
     <description>Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description>
-    <language>fr-FR</language>
-    
-    
-    
+    <copyright>Attribution - Pas d’Utilisation Commerciale 4.0 International (CC BY-NC 4.0)</copyright>
 
     
-    <lastBuildDate>Sun, 01 Nov 2020 18:00:00 +0200</lastBuildDate><atom:link href="https://subversive.eu/libert%C3%A9/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Nov 2020 18:00:00 +0200</lastBuildDate>
+    <atom:link href="https://subversive.eu/index.xml" rel="self" type="application/rss+xml"/>
+
+    
     <item>
       <title>Bitcoin Cryptomonnaie Universelle ? Ou Simple Monnaie ?</title>
-      <link>https://subversive.eu/bitcoin-cryptomonnaie-universelle-ou-simple-monnaie.html</link>
+      <link>https://subversive.eu/bitcoin-monnaie-universelle/</link>
+      
+      <author>subversive.eu</author>
+      
       <pubDate>Sun, 01 Nov 2020 18:00:00 +0200</pubDate>
       
-      <guid>https://subversive.eu/bitcoin-cryptomonnaie-universelle-ou-simple-monnaie.html</guid>
+      <guid>https://subversive.eu/bitcoin-monnaie-universelle/</guid>
       <description>&lt;p&gt;Le BTC, Bitcoin, est une cryptomonnaie internationale la plus connue de toutes, celle qui a
 le plus de valeur. Est-elle la monnaie universelle de demain ?&lt;/p&gt;
 &lt;p&gt;Aujourd’hui il est reconnu comme un simple actif, mais il s’agit de bien plus, la
@@ -151,20 +155,28 @@ décentralisé. Mais les Hommes avides et cupides risquent tous de ne pas en pro
 &lt;h3 id=&#34;sources&#34;&gt;Sources&lt;/h3&gt;
 &lt;p&gt;&lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.bitcoincours.com/p/livre-blanc-bitcoin.html?m=1&#34; title=&#34;Liens vers Le livre Blanc&#34; &gt;Le livre Blanc&lt;/a&gt;&lt;br&gt;
 &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://bitcoin.org/fr/&#34; title=&#34;Liens vers Site Officiel fr&#34; &gt;Site Officiel fr&lt;/a&gt;&lt;/p&gt;</description>
-      
-      
-<enclosure url="https://subversive.eu/media/bitcoin-cover-min.jpg" type="image/jpg"></enclosure>
 
-
+    
+    
+    
+    
+    <enclosure url="http://subversive.eu/media/bitcoin-cover-min.jpg" length="45307" type="image/png" />
+    
+    
+    <category> Liberté </category>
+    
     </item>
     
     <item>
-      <title>Réflexion probabilité d&#39;effondrement</title>
-      <link>https://subversive.eu/r%C3%A9flexion-probabilit%C3%A9-deffondrement.html</link>
-      <pubDate>Wed, 05 Feb 2020 18:00:00 +0000</pubDate>
+      <title>Réflexion probabilité d&#39;effondrement économique climatique</title>
+      <link>https://subversive.eu/reflexion-probabilite-deffondrement/</link>
       
-      <guid>https://subversive.eu/r%C3%A9flexion-probabilit%C3%A9-deffondrement.html</guid>
-      <description>&lt;p&gt;Comment définir un effondrement ? Celui d’une civilisation, c’est cela donc il sera question ici. On peut le traduire par une survie des individus, qui ont fuis une région. Une éradication de leur culture et tradition, la langue, les rites et croyances. Leur disparition totale.&lt;/p&gt;
+      <author>subversive.eu</author>
+      
+      <pubDate>Wed, 05 Feb 2020 18:00:00 +0200</pubDate>
+      
+      <guid>https://subversive.eu/reflexion-probabilite-deffondrement/</guid>
+      <description>&lt;p&gt;Comment définir un effondrement civilisationnel ? On peut le traduire par une survie des individus, qui ont fuis une région. Leur disparition totale, culture&amp;hellip;&lt;/p&gt;
 &lt;h2 id=&#34;causes&#34;&gt;Causes&lt;/h2&gt;
 &lt;p&gt;Posons nous donc les causes, et les raisons qui provoquent cela. La faim, facile, l&amp;rsquo;extermination, facile. Ces deux causes peuvent survenir à la suite d’un changement climatique, comme cela a été le cas pour l’égypte antique, à la suite d’une éruption volcanique, le cas de la première révolution française. Le peuple crevant de faim fuit, meurt ou se révolte.&lt;/p&gt;
 &lt;p&gt;Il y aussi la guerre, les armées détruisent tout sur leur passage, semant la faim. Le vainqueur se voit la possibilité d’exterminer totalement la population adverse, pour ainsi faire disparaître leur culture qu’il juge néfaste, exemple en crimée où Staline a envoyé de nombreux criméens dans les camps sibériens. Ainsi aujourd’hui il est compréhensible que le référendum soit passé facilement, puisque Staline a remplacé la population, donc la culture.&lt;/p&gt;
@@ -175,21 +187,23 @@ décentralisé. Mais les Hommes avides et cupides risquent tous de ne pas en pro
 &lt;h2 id=&#34;corrélation&#34;&gt;Corrélation&lt;/h2&gt;
 &lt;p&gt;Aujourd’hui avec les évènements actuels, le mouvement dit véganisme, et certes correct, nous ne pouvons nous passer de viande d’origine animale si nous souhaitons nous assurer un apport juste et proportionné pour notre corps.&lt;/p&gt;
 &lt;p&gt;Qui plus ait est financé par des multinationales commerçant et produisant des plats tout prêt, pratique, peu cher à la production. Au port d’amsterdam, arrive des céréaliers rempli de maïs, où est extrait la cellulose pour en faire des plats tout prêt.&lt;/p&gt;</description>
-      
-      
-<enclosure url="https://subversive.eu/android-chrome-192x192.png" type="image/jpg"></enclosure>
 
-
-
+    
+    
+    <category> Liberté </category>
+    
     </item>
     
     <item>
       <title>Un sens à la Vie</title>
-      <link>https://subversive.eu/un-sens-%C3%A0-la-vie.html</link>
-      <pubDate>Wed, 29 Jan 2020 18:00:00 +0000</pubDate>
+      <link>https://subversive.eu/un-sens-a-la-vie/</link>
       
-      <guid>https://subversive.eu/un-sens-%C3%A0-la-vie.html</guid>
-      <description>&lt;p&gt;De réflexion en réflexion, je me suis penché sur le sens de la vie ? Mais qu’est-ce que la vie ? Comment la définir ? Pourrions nous admettre qu’elle ait un sens ?&lt;/p&gt;
+      <author>subversive.eu</author>
+      
+      <pubDate>Wed, 29 Jan 2020 18:00:00 +0200</pubDate>
+      
+      <guid>https://subversive.eu/un-sens-a-la-vie/</guid>
+      <description>&lt;p&gt;De réflexion en réflexion, je me suis penché sur le sens de la vie. Qu’est-ce que la vie ? Comment la définir ? Pourrions nous admettre qu’elle ait un sens ?&lt;/p&gt;
 &lt;p&gt;Vie, vient du latin vita, qui s’étends sur plusieurs notions, la période de la naissance à la mort d’un être humain. En passant par son rapport à sa subsistance. En passant par des personnes qui nous sont chères. Ainsi le terme reste flou et large. Couplée avec sens, la notion s’oriente vers un chemin, une destinée fixée ou suivie.&lt;/p&gt;
 &lt;p&gt;La notion scientifique est simple, c’est la capacité à se reproduire d’un objet, un organisme, donc de perpétuer. Logique après tout, les peuples se révoltent quand ils ont peur, parce que la faim cri dans leur ventre, parce que leur environnement pourrait ne plus devenir viable. La peur, émotion primaire, rempli son objectif de perpétuer la vie.&lt;/p&gt;
 &lt;p&gt;Dans ce sens, la vie est à l’échelle de la Terre, notre capacité à survivre dans le temps, il faut considérer des durées très longues, difficilement concevable, de plusieurs millions d’années.&lt;/p&gt;
@@ -210,12 +224,11 @@ Pourtant nous leur attribuons bien la notion de vie, puisque l’on y attribue l
 &lt;h2 id=&#34;pour-penser-plus-loin&#34;&gt;Pour penser plus loin&lt;/h2&gt;
 &lt;p&gt;Nous pourrions donc définir plusieurs sens de la vie, mais cela est-il correct ? Le premier serait celui des Hommes, agrandir leur champ relationnel, mais en y réfléchissant cela leur permet de survivre. Et nous revenons donc à l’idée apportée aux animaux, celui de la survie. Logique puisque nous sommes des animaux.&lt;/p&gt;
 &lt;p&gt;Ainsi il serait acceptable de répondre à la question, qu’attends la vie de nous, de survivre. Nous pourrions très bien ouvrir le débat sur la manière d’améliorer notre survie, mais ce n’est pas le sujet ici.&lt;/p&gt;</description>
-      
-      
-<enclosure url="https://subversive.eu/android-chrome-192x192.png" type="image/jpg"></enclosure>
 
-
-
+    
+    
+    <category> Liberté </category>
+    
     </item>
     
   </channel>

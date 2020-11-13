@@ -11,7 +11,7 @@ tags:
 date: 2019-11-25T18:00:00+02:00
 keyword: "Europe, Investisseur, Communauté europpéenne, géopolitique, zoen euro, Bénéfice, Intérêts, atout géopolitique, puissance européenne, intérêts français"
 pdfname: "Vive l'europe !"
-url: "/a-qui-l'europe-bénéficie-t-elle/"
+url: "a-qui-l'europe-bénéficie-t-elle"
 ---
 
 Quels sont les intérêts géopolitique européen ? A qui cette Europe forte bénéficie-t-elle ? Elle prend la forme d'une corporation dans un monde qui se fracture.
