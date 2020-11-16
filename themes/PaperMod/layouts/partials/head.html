@@ -1,0 +1,77 @@
+<!-- <Head> -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="content-language" content="fr">
+<!-- Title -->
+<title>
+{{ if .IsHome }}{{ .Site.Title }} | {{ .Site.Params.HomeInfoParams.Tagline }}{{else}}{{ if .Title }}{{ .Title }} - {{ end }}{{end}}{{ .Site.Title }}
+</title>
+<!-- Balises Meta -->
+<!-- Meta Cache ON -->
+<meta http-equiv="Cache-Control" content="Public" />
+<!-- Meta robots -->
+<meta name="robots" content="index,follow"/>
+<meta name="robots" content="all"/>
+<meta name="googlebot" content="index,follow">
+<meta name="referrer" content="no-referrer">
+<!-- Meta hreflang -->
+<link rel="alternate" hreflang="fr-be" href="{{ .Permalink }}"/>
+<link rel="alternate" hreflang="fr-fr" href="{{ .Permalink }}"/>
+<link rel="alternate" hreflang="fr-ch" href="{{ .Permalink }}"/>
+<!-- Meta Simple -->
+{{- if in site.Params.mainSections .Type }}
+<meta name="description" content="{{ .Summary }}">
+{{- else }}
+<meta name="description" content="{{if .IsHome}}{{ .Site.Params.description }}{{else}}{{ .Title }} - {{ .Site.Title }}{{end}}">
+{{- end }}
+<meta name="keywords" content="{{ .Params.keyword | default .Site.Params.keyword }}">
+<meta name="author" content="{{ (partial "author.html" . ) }}">
+<!-- Canonical -->
+<link rel="canonical" href="{{ .Permalink }}" />
+<!-- License -->
+<link rel="license" href="copyright.txt">
+<!-- Twitter -->
+<meta name="twitter:widgets:theme" content="light">
+<meta name="twitter:widgets:border-color" content="#55acee">
+<meta name="twitter:dnt" content="on">
+<!-- Styles -->
+{{- $anoldhope := resources.Get "css/an-old-hope.min.css" }}
+{{- $theme := resources.Get "css/theme-vars.css" }}
+{{- $reset := resources.Get "css/reset.css" }}
+{{- $header := resources.Get "css/header.css" }}
+{{- $main := resources.Get "css/main.css" }}
+{{- $postentry := resources.Get "css/post-entry.css" }}
+{{- $postsingle := resources.Get "css/post-single.css" }}
+{{- $terms := resources.Get "css/terms.css" }}
+{{- $archive := resources.Get "css/archive.css" }}
+{{- $footer := resources.Get "css/footer.css" }}
+{{- $404 := resources.Get "css/404.css" }}
+{{- $style := slice $theme $reset $header $main $postentry $postsingle $terms $archive $footer $404 | resources.Concat "stylesheet.css" }}
+{{- $stylesheet := slice $anoldhope $style | resources.Concat "assets/css/stylesheet.css" | minify -}}
+
+<link href="{{ $stylesheet.Permalink }}"  rel="preload stylesheet"
+    as="style">
+{{- if (and (.Site.Params.profileMode.enabled) (.IsHome)) }}
+{{- $profileMode := slice (resources.Get "css/profile-mode.css") | resources.Concat "assets/css/profile-mode.css" | minify }}
+<link href="{{ $profileMode.Permalink }}" rel="preload stylesheet"
+    as="style">
+{{- end -}}
+<!-- Favicons -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<!-- Generator -->
+{{- hugo.Generator }}
+<!-- RSS -->
+<link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}index.xml" title="subversive.eu">
+
+{{- partial "extend_head.html" . -}}
+<!-- Misc -->
+{{- if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
+{{- template "_internal/google_analytics_async.html" . }}
+{{- template "partials/templates/opengraph.html" . }}
+{{- template "partials/templates/twitter_cards.html" . }}
+{{- template "partials/templates/schema_json.html" . }}
+{{- end }}

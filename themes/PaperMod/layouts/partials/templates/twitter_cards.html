@@ -1,0 +1,44 @@
+<!-- Image OK -->
+<!-- Understand my brain :  [no external link, only from /static/media/...jpg]
+For TWITTER + OPENGRAPH PROTOCOL, the post image is :   [OK]
+if page params images :
+    params image
+if not :
+    if len (rss):
+        site params imagesdefault
+    if not len :
+        site params images (with index)
+
+For RSS PROTOCOL, the post image is :
+if page params images :
+    params images with len
+if not :
+    empty
+For SCHEMA.ORG PROTOCOL, the post image is : [OK]
+if page params images :
+    params image
+if not :
+    empty
+-->
+{{- if .Params.images -}}
+{{ with $.Params.images }}
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{{ . | absURL }}"/>
+{{ end }}{{ else -}}
+{{- with $.Site.Params.images -}}
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{{ index . 0 | absURL }}"/>
+{{ end }}{{- end }}
+<!-- end image-->
+
+
+<meta name="twitter:title" content="{{ .Title }}"/>
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
+{{ with .Site.Social.twitter -}}
+<meta name="twitter:site" content="@{{ . }}"/>
+{{ end -}}
+{{ range .Site.Authors }}
+{{ with .twitter -}}
+<meta name="twitter:creator" content="@{{ . }}"/>
+{{ end -}}
+{{ end -}}

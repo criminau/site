@@ -1,0 +1,17 @@
+{{ $ref := "" }}
+{{ $target := "" }}
+{{ $title := "" }}
+
+{{ with .Get "href" }}
+  {{ $ref = . }}
+  {{ $target = "_blank" }}
+{{ end }}
+{{ with .Get "relref" }}
+  {{ $ref = relref $ . }}
+{{ end }}
+{{ with .Get "title" }}
+  {{ $title = . }}
+{{ end }}
+<a rel="noopener noreferrer" {{ with $title }} title="{{.}}" {{end}} {{ with $ref }} href="{{.}}" {{ end }} {{ with $target }} target="{{.}}" {{ end }} class="sample-btn">
+  {{ $.Inner }}
+</a>

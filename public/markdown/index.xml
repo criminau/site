@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Subversive</title>
+    <language>fr</language>
+    <image>
+      <url>https://www.subversive.eu/apple-touch-icon.png</url>
+      <title>Subversive</title>
+      <link>https://subversive.eu/</link>
+    </image>
+    
+    <author>subversive.eu</author>
+    
+    <link>https://subversive.eu/</link>
+
+    <description>Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description>
+    <copyright>Attribution - Pas d’Utilisation Commerciale 4.0 International (CC BY-NC 4.0)</copyright>
+
+    
+    <lastBuildDate>Mon, 09 Nov 2020 17:44:04 +0200</lastBuildDate>
+    <atom:link href="https://subversive.eu/index.xml" rel="self" type="application/rss+xml"/>
+
+    
+    <item>
+      <title>Markdown Syntax - How to use figure with HTML &#43; CSS and tabs</title>
+      <link>https://subversive.eu/markdown-syntax/</link>
+      
+      <author>Subversive Theme Author</author>
+      
+      <pubDate>Mon, 09 Nov 2020 17:44:04 +0200</pubDate>
+      
+      <guid>https://subversive.eu/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS like figure.&lt;/p&gt;
+&lt;p&gt;PS: Le document PDF est complet sans modification.
+PS [EN]: PDF doc is full, no changes.&lt;/p&gt;
+&lt;h1 id=&#34;h1&#34;&gt;H1&lt;/h1&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.markdownguide.org/basic-syntax/&#34; &gt;Link&lt;/a&gt; to the best Markdown Syntax Guide Ever !&lt;/p&gt;
+&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;
+&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
+&lt;h2 id=&#34;h2&#34;&gt;H2&lt;/h2&gt;
+&lt;h3 id=&#34;h3&#34;&gt;H3&lt;/h3&gt;
+&lt;h4 id=&#34;h4&#34;&gt;H4&lt;/h4&gt;
+&lt;h5 id=&#34;h5&#34;&gt;H5&lt;/h5&gt;
+&lt;h6 id=&#34;h6&#34;&gt;H6&lt;/h6&gt;
+&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
+&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;
+&lt;p&gt;Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p&gt;
+&lt;h2 id=&#34;tabs&#34;&gt;Tabs&lt;/h2&gt;
+
+
+
+
+
+&lt;div class=&#34;book-tabs&#34;&gt; 
+
+  &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;tabs-uniqueid&#34; id=&#34;tabs-uniqueid-0&#34; checked=&#34;checked&#34; /&gt;
+  &lt;label for=&#34;tabs-uniqueid-0&#34;&gt;MacOS&lt;/label&gt;
+  &lt;div class=&#34;book-tabs-content markdown-inner&#34;&gt;&lt;h3 id=&#34;macos-content&#34;&gt;MacOS Content&lt;/h3&gt;
+&lt;p&gt;Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.&lt;/div&gt; 
+
+  &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;tabs-uniqueid&#34; id=&#34;tabs-uniqueid-1&#34;  /&gt;
+  &lt;label for=&#34;tabs-uniqueid-1&#34;&gt;Linux&lt;/label&gt;
+  &lt;div class=&#34;book-tabs-content markdown-inner&#34;&gt;&lt;h3 id=&#34;linux-content&#34;&gt;Linux Content&lt;/h3&gt;&lt;/div&gt; 
+
+  &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;tabs-uniqueid&#34; id=&#34;tabs-uniqueid-2&#34;  /&gt;
+  &lt;label for=&#34;tabs-uniqueid-2&#34;&gt;Windows&lt;/label&gt;
+  &lt;div class=&#34;book-tabs-content markdown-inner&#34;&gt;&lt;h3 id=&#34;windows-content&#34;&gt;Windows Content&lt;/h3&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&#34;buttons&#34;&gt;Buttons&lt;/h2&gt;
+
+
+
+
+
+  
+  
+
+
+
+  
+
+&lt;a rel=&#34;noopener noreferrer&#34;  title=&#34;Go Home Fucking Tourists&#34;   href=&#34;https://youtu.be/QRcrsHro6xI&#34;   target=&#34;_blank&#34;  class=&#34;sample-btn&#34;&gt;
+  Go Home
+&lt;/a&gt;
+
+
+
+
+
+  
+  
+
+
+
+  
+
+&lt;a rel=&#34;noopener noreferrer&#34;  title=&#34;Contribute button&#34;   href=&#34;https://github.com/subversive-eu/hugo-subversive&#34;   target=&#34;_blank&#34;  class=&#34;sample-btn&#34;&gt;
+  Contribute
+&lt;/a&gt;
+&lt;h2 id=&#34;colunms&#34;&gt;Colunms&lt;/h2&gt;
+&lt;div class=&#34;book-columns flex flex-wrap&#34;&gt;
+    
+    &lt;div class=&#34;flex-even markdown-inner&#34;&gt;
+      &lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;left-content&#34;&gt;Left Content&lt;/h3&gt;
+&lt;p&gt;Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;flex-even markdown-inner&#34;&gt;
+      &lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;mid-content&#34;&gt;Mid Content&lt;/h3&gt;
+&lt;p&gt;Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter!
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;flex-even markdown-inner&#34;&gt;
+      &lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;right-content&#34;&gt;Right Content&lt;/h3&gt;
+&lt;p&gt;Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
+    &lt;/div&gt;
+    
+  &lt;/div&gt;
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+  &lt;div class=&#34;book-expand&#34;&gt;
+    &lt;label&gt;
+      &lt;div class=&#34;book-expand-head flex justify-between&#34;&gt;
+        &lt;span&gt;Développer
+            
+          &lt;/span&gt;
+        &lt;span&gt;↕&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;&#34; /&gt;
+      &lt;div class=&#34;book-expand-content markdown-inner&#34;&gt;
+        &lt;h4 id=&#34;markdown-content&#34;&gt;Markdown content&lt;/h4&gt;
+&lt;p&gt;Lorem markdownum insigne&amp;hellip;
+      &lt;/div&gt;
+    &lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;book-expand&#34;&gt;
+    &lt;label&gt;
+      &lt;div class=&#34;book-expand-head flex justify-between&#34;&gt;
+        &lt;span&gt;Custom label
+            
+          &lt;/span&gt;
+        &lt;span&gt;↕&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;&#34; /&gt;
+      &lt;div class=&#34;book-expand-content markdown-inner&#34;&gt;
+        &lt;h4 id=&#34;markdown-content&#34;&gt;Markdown content&lt;/h4&gt;
+&lt;p&gt;Lorem markdownum insigne&amp;hellip;
+      &lt;/div&gt;
+    &lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;book-expand&#34;&gt;
+    &lt;label&gt;
+      &lt;div class=&#34;book-expand-head flex justify-between&#34;&gt;
+        &lt;span&gt;Custom Label
+            
+          &lt;/span&gt;
+        &lt;span&gt;...&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;&#34; /&gt;
+      &lt;div class=&#34;book-expand-content markdown-inner&#34;&gt;
+        &lt;h4 id=&#34;markdown-content&#34;&gt;Markdown content&lt;/h4&gt;
+&lt;p&gt;Lorem markdownum insigne&amp;hellip;
+      &lt;/div&gt;
+    &lt;/label&gt;
+  &lt;/div&gt;
+&lt;h2 id=&#34;blockquote&#34;&gt;Blockquote&lt;/h2&gt;
+&lt;h3 id=&#34;blockquote-sample&#34;&gt;Blockquote sample&lt;/h3&gt;
+&lt;p&gt;The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code&gt;footer&lt;/code&gt; or &lt;code&gt;cite&lt;/code&gt; element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p&gt;
+&lt;h4 id=&#34;blockquote-without-attribution&#34;&gt;Blockquote without attribution&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;blockquote-with-attribution&#34;&gt;Blockquote with attribution&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;!-- raw HTML omitted --&gt;
+— &lt;!-- raw HTML omitted --&gt;Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;https://subversive.eu/markdown-syntax/#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;blockquote-hard&#34;&gt;Blockquote Hard&lt;/h3&gt;
+&lt;p&gt;Normal quote:
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a simple quote.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+        
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote with only an Author named Author2.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author2&lt;/strong&gt;
+    
+      
+        
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and source
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author3 and source &amp;ldquo;source.&amp;rdquo;&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author3&lt;/strong&gt;
+    
+      &lt;cite&gt;Source&lt;/cite&gt;
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and link
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author4 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt;.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author4&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;google.com&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author, link and title
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt; with title &amp;ldquo;Google.&amp;rdquo;&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author5&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;Google&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;https://twitter.com/CryptoGangsta/status/716427930126196737&lt;/a&gt; which is longer than 32 characters.
+&lt;!-- raw HTML omitted --&gt;And this is a new line in the quote with the HTML br tag.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author6&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34; title=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;twitter.com/CryptoGangsta/...&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;figure&#34;&gt;figure&lt;/h2&gt;
+&lt;p&gt;Figure (image insertion) playing with text !&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;right&#34;&gt;
+    &lt;img src=&#34;https://via.placeholder.com/400x280&#34;
+         alt=&#34;image&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;figure-right&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;figure class=&#34;left&#34;&gt;
+    &lt;img src=&#34;https://via.placeholder.com/400x280&#34;
+         alt=&#34;image&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;figure-left&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://via.placeholder.com/1600x800&#34;
+         alt=&#34;image&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;figure-normal (without any classes)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;figure class=&#34;big&#34;&gt;
+    &lt;img src=&#34;https://via.placeholder.com/1600x800&#34;
+         alt=&#34;image&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;figure-big&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;h2 id=&#34;tables&#34;&gt;Tables&lt;/h2&gt;
+&lt;p&gt;Table:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Left-Aligned&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Center Aligned&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Right Aligned&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;col 3 is&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;some wordy text&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;$1600&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;col 2 is&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;centered&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;$12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;zebra stripes&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;are neat&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;$1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Left-Aligned&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Center Aligned&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;col 3 is&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$1600&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;col 2 is&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;zebra stripes&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;$1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Age&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Bob&lt;/td&gt;
+&lt;td&gt;27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alice&lt;/td&gt;
+&lt;td&gt;23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;inline-markdown-within-tables&#34;&gt;Inline Markdown within tables&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Italics&lt;/th&gt;
+&lt;th&gt;Bold&lt;/th&gt;
+&lt;th&gt;Code&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;italics&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;highlight&#34;&gt;Highlight&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-angular2&#34; data-lang=&#34;angular2&#34;&gt;highlight shortcode Here testing angular2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://gohugo.io/content-management/syntax-highlighting/#highlight-shortcode&#34; &gt;check More here&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;code-blocks&#34;&gt;Code Blocks&lt;/h2&gt;
+&lt;h4 id=&#34;code-block-with-backticks&#34;&gt;Code block with backticks&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;charset&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&amp;gt;
+  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;Example HTML5 Document&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;Test&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;code-block-indented-with-four-spaces&#34;&gt;Code block indented with four spaces&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;code-block-with-hugos-internal-highlight-shortcode&#34;&gt;Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;charset&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&amp;gt;
+  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;Example HTML5 Document&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;Test&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;list-types&#34;&gt;List Types&lt;/h2&gt;
+&lt;h4 id=&#34;ordered-list&#34;&gt;Ordered List&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;First item&lt;/li&gt;
+&lt;li&gt;Second item&lt;/li&gt;
+&lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;unordered-list&#34;&gt;Unordered List&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;List item&lt;/li&gt;
+&lt;li&gt;Another item&lt;/li&gt;
+&lt;li&gt;And another item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;nested-list&#34;&gt;Nested list&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fruit
+&lt;ul&gt;
+&lt;li&gt;Apple&lt;/li&gt;
+&lt;li&gt;Orange&lt;/li&gt;
+&lt;li&gt;Banana&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dairy
+&lt;ul&gt;
+&lt;li&gt;Milk&lt;/li&gt;
+&lt;li&gt;Cheese&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;other-elements&#34;&gt;Other Elements&lt;/h2&gt;
+&lt;h3 id=&#34;hr&#34;&gt;hr&lt;/h3&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;abbr-sub-sup-kbd-mark&#34;&gt;abbr, sub, sup, kbd, mark&lt;/h3&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;GIF&lt;!-- raw HTML omitted --&gt; is a bitmap image format.&lt;/p&gt;
+&lt;p&gt;H&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt;O&lt;/p&gt;
+&lt;p&gt;X&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt; + Y&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt; = Z&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;Press &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;CTRL&lt;!-- raw HTML omitted --&gt;+&lt;!-- raw HTML omitted --&gt;ALT&lt;!-- raw HTML omitted --&gt;+&lt;!-- raw HTML omitted --&gt;Delete&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; to end the session.&lt;/p&gt;
+&lt;p&gt;Most &lt;!-- raw HTML omitted --&gt;salamanders&lt;!-- raw HTML omitted --&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;youtube&lt;/h2&gt;
+&lt;div class=&#34;video-responsive&#34;&gt;
+&lt;iframe
+
+src=&#34;https://www.youtube-nocookie.com/embed/8IZ9Cqi2rGM&#34;
+frameborder=&#34;0&#34;
+allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34;
+allowfullscreen
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h2 id=&#34;tweeter&#34;&gt;tweeter&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;With mobile, Tweeter appear simple blockquote.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Hugo 0.24 Released: Big archetype update + &lt;a href=&#34;https://twitter.com/Netlify?ref_src=twsrc%5Etfw&#34;&gt;@Netlify&lt;/a&gt; _redirects etc. file support&lt;a href=&#34;https://t.co/X94FmYDEZJ&#34;&gt;https://t.co/X94FmYDEZJ&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/gohugo?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#gohugo&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#golang&lt;/a&gt; &lt;a href=&#34;https://twitter.com/spf13?ref_src=twsrc%5Etfw&#34;&gt;@spf13&lt;/a&gt; &lt;a href=&#34;https://twitter.com/bepsays?ref_src=twsrc%5Etfw&#34;&gt;@bepsays&lt;/a&gt;&lt;/p&gt;&amp;mdash; GoHugo.io (@GoHugoIO) &lt;a href=&#34;https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw&#34;&gt;June 21, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;vimeo&#34;&gt;vimeo&lt;/h2&gt;
+
+
+
+
+
+&lt;style&gt;
+.__h_video {
+   position: relative;
+   padding-bottom: 56.23%;
+   height: 0;
+   overflow: hidden;
+   width: 100%;
+   background: #000;
+}
+.__h_video img {
+   width: 100%;
+   height: auto;
+   color: #000;
+}
+.__h_video .play {
+   height: 72px;
+   width: 72px;
+   left: 50%;
+   top: 50%;
+   margin-left: -36px;
+   margin-top: -36px;
+   position: absolute;
+   cursor: pointer;
+}
+&lt;/style&gt;
+
+
+&lt;div class=&#34;s_video_simple __h_video&#34;&gt;
+&lt;a href=&#34;https://vimeo.com/1.46022717e&amp;#43;08&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;
+
+
+&lt;img src=&#34;https://i.vimeocdn.com/video/544362910_295x166.jpg&#34; srcset=&#34;https://i.vimeocdn.com/video/544362910_295x166.jpg 1x, https://i.vimeocdn.com/video/544362910.jpg 2x&#34; alt=&#34;The Clock of the Long Now&#34;&gt;
+&lt;div class=&#34;play&#34;&gt;&lt;svg version=&#34;1&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 61 61&#34;&gt;&lt;circle cx=&#34;30.5&#34; cy=&#34;30.5&#34; r=&#34;30.5&#34; opacity=&#34;.8&#34; fill=&#34;#000&#34;&gt;&lt;/circle&gt;&lt;path d=&#34;M25.3 19.2c-2.1-1.2-3.8-.2-3.8 2.2v18.1c0 2.4 1.7 3.4 3.8 2.2l16.6-9.1c2.1-1.2 2.1-3.2 0-4.4l-16.6-9z&#34; fill=&#34;#fff&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;h2 id=&#34;ifram-pdf&#34;&gt;Ifram PDF&lt;/h2&gt;
+&lt;iframe
+class=&#34;iframepdf&#34;
+frameborder=&#34;0&#34;
+allowfullscreen
+src=&#34;../media/gt-metrix-report.pdf&#34;
+&gt;
+&lt;/iframe&gt;
+&lt;h2 id=&#34;definition-lists&#34;&gt;Definition lists.&lt;/h2&gt;
+&lt;dl&gt;
+&lt;dt&gt;Cat&lt;/dt&gt;
+&lt;dd&gt;Fluffy animal everyone likes&lt;/dd&gt;
+&lt;dt&gt;Internet&lt;/dt&gt;
+&lt;dd&gt;Vector of transmission for pictures of cats&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;h2 id=&#34;link&#34;&gt;Link&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://gallica.bnf.fr/ark:/12148/bpt6k5772863h/f19.image&#34; &gt;Histoire du Béarn&lt;/a&gt;&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34; &gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015. &lt;a href=&#34;https://subversive.eu/markdown-syntax/#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;</description>
+
+    
+    
+    
+    
+    <enclosure url="http://subversive.eu/media/markdown-cover-min.jpg" length="25169" type="image/png" />
+    
+    
+    <category> Markdown </category>
+    
+    </item>
+    
+  </channel>
+</rss>

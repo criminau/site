@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Subversive</title>
+    
+    <language>fr-FR</language>
+    
+    <image>
+      <url>https://www.subversive.eu/apple-touch-icon.png</url>
+      <title>subversive.eu</title>
+      <link>www.subversive.eu</link>
+    </image>
+    <link>https://subversive.eu/informatique.html</link>
+
+    <description>Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description>
+    <language>fr-FR</language>
+    
+    
+    
+
+    
+    <lastBuildDate>Wed, 18 Dec 2019 18:00:00 +0000</lastBuildDate><atom:link href="https://subversive.eu/informatique/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alternatives open source</title>
+      <link>https://subversive.eu/alternatives-open-source.html</link>
+      <pubDate>Wed, 18 Dec 2019 18:00:00 +0000</pubDate>
+      
+      <guid>https://subversive.eu/alternatives-open-source.html</guid>
+      <description>&lt;p&gt;Destiné à ceux qui souhaitent s’embêter pour fuir la surveillance de masse.&lt;br&gt;
+Avant de commencer il faut préciser qu’il est assez difficile d’évoluer via ses outils différents.&lt;/p&gt;
+&lt;p&gt;Il faut une maîtrise minimale des langages informatiques adaptés.&lt;/p&gt;
+&lt;h2 id=&#34;la-base&#34;&gt;La base&lt;/h2&gt;
+&lt;p&gt;Commençons par la base, les systèmes d&amp;rsquo;exploitation (OS) open source : Un rapide tour sur la toile pour obtenir une liste brève. On a testé &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://pureos.net/&#34; title=&#34;Liens vers PureOS&#34; &gt;PureOS&lt;/a&gt; et &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://getfedora.org/fr/&#34; title=&#34;Liens vers Fedora&#34; &gt;Fedora&lt;/a&gt;. PureOs est assez complexe à installer, peu de personnes l’utilise il y a donc peu de tutoriel. Fedora possède une communauté plus dense, donc est plus ouvert aux novices. Il faut maîtriser le langage des terminaux ainsi que l’anglais, le français est disponible mais les terminaux restent en anglais. Sur Linux, je vous recommande d’utiliser &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://snapcraft.io/&#34; title=&#34;Liens vers Snapcraft&#34; &gt;Snapcraft&lt;/a&gt; peu importe votre OS, a moins bien sur les plus utilisés du grand public. Snapcraft a son propre terminal qui vous permet d’installer rapidement et assez facilement leurs applications distribuées. Comme &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://protonvpn.com/&#34; title=&#34;Liens vers ProtonVPN&#34; &gt;ProtonVPN&lt;/a&gt; qui vous offre un VPN gratuit, c’est déjà ça ! Pour les fans de Windows10, ou les joueurs il existe ça : &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.winprivacy.de/english-home/&#34; title=&#34;Liens vers W10Privacy&#34; &gt;W10Privacy&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;communication&#34;&gt;Communication&lt;/h2&gt;
+&lt;p&gt;N’oubliez pas vous avez également chez eux la messagerie &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://protonmail.com/&#34; title=&#34;Liens vers ProtonMail&#34; &gt;ProtonMail&lt;/a&gt; un peu plus sécurisée que les classiques. Restons dans le partage et continuons notre découverte. Pour échanger avec plus de sécurité vous pouvez utiliser &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://retroshare.cc/&#34; title=&#34;Liens vers RetroSahre&#34; &gt;RetroSahre&lt;/a&gt; et pour partager des fichiers lourd vous avez &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://onionshare.org/&#34; title=&#34;Liens vers OnionShare&#34; &gt;OnionShare&lt;/a&gt;. Malheureusement il y a très peu d’utilisateur, et il existe une grande quantité d’autres applications. Essayez de convaincre vos proches dans leur utilisation. Il existe également des plateformes pour manipuler du texte, des classeurs, des sondages à plusieurs bien sécurisées comme &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://cryptpad.fr/&#34; title=&#34;Liens vers CryptPad&#34; &gt;CryptPad&lt;/a&gt;. Des alternatives à youtube ça existe aussi comme &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://peertube.fr/&#34; title=&#34;Liens vers PeerTube&#34; &gt;PeerTube&lt;/a&gt;, &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.bitchute.com/&#34; title=&#34;Liens vers bitChute&#34; &gt;bitChute&lt;/a&gt;, SolidTube (&lt;a href=&#34;https://solid.tube/)&#34;&gt;https://solid.tube/)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;smartphone&#34;&gt;Smartphone&lt;/h2&gt;
+&lt;p&gt;Conseil numéro un sur mobile, quittez Android et iOS. Il existe un dépôt comme google play mais en version open source français &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://f-droid.org/&#34; title=&#34;Liens vers F-Droid&#34; &gt;F-Droid&lt;/a&gt;, vous y retrouverez &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.simplemobiletools.com/&#34; title=&#34;Liens vers SimpleMobileTools&#34; &gt;SimpleMobileTools&lt;/a&gt; ainsi que le [GuardianProject]https://guardianproject.info/). Vous pouvez installer &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://exodus-privacy.eu.org/fr/&#34; title=&#34;Liens vers Exodus Privacy&#34; &gt;Exodus Privacy&lt;/a&gt; et observer qui surveille vos données. Comme navigateur nous avons tester &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://play.google.com/store/apps/details?id=com.androidbull.incognito.browser&amp;amp;hl=fr&#34; title=&#34;Liens vers Incognito Browser&#34; &gt;Incognito Browser&lt;/a&gt; ainsi que &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://play.google.com/store/apps/details?id=org.mozilla.firefox&amp;amp;hl=fr&#34; title=&#34;Liens vers Firefox&#34; &gt;Firefox&lt;/a&gt; - n’oubliez pas de le configurer -. Changer également le moteur de recherche, &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.qwant.com/?l=fr&#34; title=&#34;Liens vers Qwant&#34; &gt;Qwant&lt;/a&gt; reste très bien, dans un cas de recherche de documents &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.bing.com/&#34; title=&#34;Liens vers Bing&#34; &gt;Bing&lt;/a&gt; est très bien adapté. Pour connaître qui vous espionne sans connaissance, utilisez &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://play.google.com/store/apps/details?id=com.arcane.incognito&amp;amp;hl=fr&#34; title=&#34;Liens vers Incognito&#34; &gt;Incognito&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;sécurité&#34;&gt;Sécurité&lt;/h2&gt;
+&lt;p&gt;Pas de secret, suite aux révélations concernant l’espionnage des deux grands leader du marché de la sécurité, inutile de vous dire que les outils de défense sur le marché sont potentiellement inefficace. La clé est ailleurs, il ne faut pas faire n’importe quoi, garder tout toujours à jour, en open source comme en classique, ses OS et ses outils. N’importe quoi signifie de ne pas aller sur des sites qui grouillent de pub, ne pas ouvrir les fenêtres. Lire les objets et les expéditeurs des mails que l’on reçoit. Si suspect jetez les. Ne pas donner son adresse e-mail à n’importe qui et n’importe où. Lors des téléchargements vérifiez le fournisseur. Et si vous faites preuve de bon sens, et que vous n’avez rien à vous reprocher, tout se passera bien.&lt;br&gt;
+Petit logiciel bien utile et rapide &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://fr.malwarebytes.com/adwcleaner/&#34; title=&#34;Liens vers Adwcleaner&#34; &gt;Adwcleaner&lt;/a&gt;, malheureusement racheté. Vous avez aussi les bloqueurs de pubs comme µBlockOrigin, qui ne fonctionne plus trop depuis que Google a mis à jour sa politique d’hébergement des extensions. Faut patienter. Il existe aussi Désactivation de Google Analytics, Unblock Youtube qui permet d’éviter la censure. Si vous avez la sensation que votre ordinateur est mal en point, niveaux malware par exemple, allez faire un tour chez &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.nicolascoolman.com/fr/en/&#34; title=&#34;Liens vers Nicolas Coolman&#34; &gt;Nicolas Coolman&lt;/a&gt;, il y a tout pour un petit nettoyage.&lt;/p&gt;
+&lt;h2 id=&#34;sauvegarde&#34;&gt;Sauvegarde&lt;/h2&gt;
+&lt;p&gt;Stocker vos fichiers sur plusieurs disques dur, USB, Disque dur externes, autre PC ou Ordinateur Bureau, téléphone. Cela réduit le risque de pertes totales. Il y a la solution du cloud, avec &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://mega.nz/&#34; title=&#34;Liens vers Mega&#34; &gt;Mega&lt;/a&gt;. Vous avez également la possibilité de crypter vos données via &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://cryptomator.org/&#34; title=&#34;Liens vers Cryptomator&#34; &gt;Cryptomator&lt;/a&gt; et les envoyés sur un cloud, ou bien les crypter directement sur vos disques via &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.veracrypt.fr/en/Home.html&#34; title=&#34;Liens vers VeraCrypt&#34; &gt;VeraCrypt&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;pour-aller-plus-loin&#34;&gt;Pour aller plus loin&lt;/h2&gt;
+&lt;p&gt;Pourquoi pas envisager un tutoriel, aller sur le darknet et non le deepweb. N’oubliez pas il existe toujours un moyen de contourner. L’anonymat n’existe pas, puisque nous ne faisons que décaler les preuves. En sécurité vous ne serez jamais mieux servit que par vous-même.&lt;br&gt;
+Deux liens très utiles &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.privacytools.io/&#34; title=&#34;Liens vers PrivacyTools&#34; &gt;PrivacyTools&lt;/a&gt;.&lt;br&gt;
+Pour les élus(ues) de la République : &lt;a rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://www.openmairie.org/&#34; title=&#34;Liens vers OpenMairie&#34; &gt;OpenMairie&lt;/a&gt;.&lt;/p&gt;</description>
+      
+      
+<enclosure url="https://subversive.eu/android-chrome-192x192.png" type="image/jpg"></enclosure>
+
+
+
+    </item>
+    
+  </channel>
+</rss>

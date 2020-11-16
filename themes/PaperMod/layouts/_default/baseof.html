@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{{ if eq .Section "posts" }}
+<html lang="{{ .Site.Language }}" itemscope itemtype="https://schema.org/Article">
+{{ else }}
+<html lang="{{ .Site.Language }}">
+{{ end }}
+
+<head>
+    {{- partial "head.html" . }}
+</head>
+
+<body class="{{ if (and (eq .Kind `page` ) (ne .Layout `archives`)) }}single{{ else }}list
+        {{- if .IsHome }} home{{ end }}{{ end }}{{- if eq $.Site.Params.defaultTheme `dark` }} dark{{ end }}" id="top">
+    {{- partialCached "header.html" . .Page}}
+    <main class="main">
+        {{- block "main" . }}
+        {{- end }}
+    </main>
+    {{- partialCached "footer.html" . .Type }}
+</body>
+
+</html>

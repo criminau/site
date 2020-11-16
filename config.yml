@@ -1,0 +1,102 @@
+baseURL: 'https://subversive.eu/'
+relativeURLs: true
+uglyURLs: true
+title: "Journal Subversif"
+author: subversive.eu
+paginate: 7
+languageCode: fr-FR
+DefaultContentLanguage: fr
+enableInlineShortcodes: true
+theme: PaperMod
+
+# enableRobotsTXT: true 
+buildFuture: false # Test ok / functionnal
+buildExpored: false
+buildDraft: false
+
+# Perf Active later.
+minify:
+ disableXML: true
+ minifyOutput: true
+
+params:
+  description: 'Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.'
+  keyword: 'subversive.eu, subversive, blog, pour, entretenir, votre, culture, subversive, gilets-jaune'
+  images:
+    - android-chrome-192x192.png
+  ShowReadingTime: true
+  comments: true
+  imagesdefault: 'android-chrome-192x192.png'
+  defaultTheme: auto
+  ShowShareButtons: true
+  titleHome: 'subversive.eu Blog pour entretenir votre culture subversive'
+  author: subversive.eu
+  copyright: 'Attribution - Pas d’Utilisation Commerciale 4.0 International (CC BY-NC 4.0)'
+
+# Paper Mod
+  env: production
+  cover:
+    responsiveImages: false   # Perf
+    linkFullImages: true
+  
+  HomeInfoParams:
+    GrandTitre: "Journal Subversif"
+    Title: "Bonjour 👋"
+    Content: "Journal Subversif, Politique et Impartial"
+    Tagline: "Vitam impendere vero."
+
+  socialIcons:
+    - name: "Flux RSS"
+      url: 'https://subversive.eu/index.xml'
+    - name: "Github"
+      url: 'https://github.com/subversive-eu/site'
+    - name: "Twitter"
+      url: '@Soon'
+
+sitemap:
+  changefreq: dayly
+  filename: sitemap.xml
+  priority: 1
+
+# PaperMod Menu
+menu:
+  main:
+    - name: Archives
+      url: /archives/
+      weight: 1
+    - name: A propos
+      url: /apropos/
+      weight: 2
+
+# SEO
+permalinks:
+  posts: /articles/:slug/
+disableKinds: ["taxonomy", "taxonomyTerm", "section"]
+
+
+# RSS feed
+rsslimit: 15
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: false
+
+  instagram:
+    disabled: true
+    simple: true
+
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
