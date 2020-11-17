@@ -14,11 +14,11 @@ buildFuture: false # Test ok / functionnal
 buildExpored: false
 buildDraft: false
 
-publishDir: docs
+#publishDir: docs
 
 # Perf Active later.
-#minify:
-# minifyOutput: true
+minify:
+ minifyOutput: true
 # disableXML: true
 
 
