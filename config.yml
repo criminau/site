@@ -19,7 +19,7 @@ buildDraft: false
 # Perf Active later.
 minify:
  minifyOutput: true
-# disableXML: true
+ disableXML: true
 
 
 params:
