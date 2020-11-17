@@ -60,8 +60,8 @@
 .entry-header h2 {
     font-size: 24px;
 }
-.float-right{
-    float: right;
+.entry-content p.float-right{
+    text-align: right;
 }
 .entry-content {
     margin: 8px 0;
@@ -73,7 +73,6 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
 }
-
 .entry-footer {
     color: var(--secondary);
     font-size: 13px;

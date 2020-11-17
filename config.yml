@@ -28,7 +28,7 @@ params:
   images:
     - android-chrome-192x192.png
   ShowReadingTime: true
-  comments: true
+  comments: false
   imagesdefault: 'android-chrome-192x192.png'
   defaultTheme: auto
   ShowShareButtons: true
