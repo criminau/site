@@ -60,7 +60,7 @@
   "name": {{ .Site.Title }},
   "url": {{ .Site.BaseURL }},
   "description": {{ .Site.Params.description | plainify | truncate 180 | safeHTML }},
-  "thumbnailUrl": {{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }},
+  "logo": {{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }},
   "sameAs": [
       "https://github.com/subversive-eu/site",
   ],
