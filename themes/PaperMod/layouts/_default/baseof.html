@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-{{ if eq .Section "posts" }}
-<html lang="{{ .Site.Language }}" itemscope itemtype="https://schema.org/Article">
-{{ else }}
+
 <html lang="{{ .Site.Language }}">
-{{ end }}
+
 
 <head>
     {{- partial "head.html" . }}
