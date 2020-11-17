@@ -56,7 +56,7 @@ params:
 sitemap:
   changefreq: dayly
   filename: sitemap.xml
-  priority: 1
+  priority: 0.8
 
 # PaperMod Menu
 menu:
