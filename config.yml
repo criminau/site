@@ -56,7 +56,7 @@ params:
     - name: "Twitter"
       url: '@Soon'
     - name: "Email"
-      url: "subversive.eu@tutanota.com"
+      url: "mailto:subversive.eu@tutanota.com"
 
 sitemap:
   changefreq: dayly

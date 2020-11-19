@@ -29,39 +29,41 @@ Poutine a vécu la chute de l’URSS comme une honte, une humiliation de l'occid
 
 En Russie, son prénom est courant, il signifie "le souverain de la paix" en russe.
 
-{{< figure src="https://subversive.eu/media/vladimir-chasing.jpg" alt="vladimir Putin avec un sniper" caption="Putin à la chasse !" class="right" >}}
+{{< figure src="https://subversive.eu/media/vladimir-chasing.jpg" alt="vladimir Putin avec un sniper" caption="Poutine à la chasse !" class="right" >}}
 Parti chasser les musulmans en Tchétchénie sous un faux prétexte d'homophobie dont l'occident n'a pas manqué de nous rappeler, le message était pourtant clair, pas d'occident, pas de musulmans devant la tanière.
 
 Cela fait des années que le monde arabes gratte aux portes de la tanière. Et cela rend fou l'armée rouge. Mais tel un grand dirigeant, Poutine suit à la lettre l'art de la guerre de Sun Tzu.
 
 Ils sont allés en Syrie afin de remettre de l'ordre et chasser les hordes de terroristes pro-occidentaux.
 
-Tout l'intérêt de l'occident en Syrie est de mettre de l'huile sur le feu est de faire exploser les russes dans un conflit ouvert. La France et les Britanniques ont déjà ouvert le feu sur la Syrie, Israël également. Or depuis l'incident de l'Iliouchine la Russie joue prudence et la désescalade.
+Tout l'intérêt de l'occident en Syrie est de mettre de l'huile sur le feu est de faire exploser les russes dans un conflit ouvert. La France et les Britanniques ont déjà ouvert le feu sur la Syrie, Israël également. Or depuis [l'incident de l'Iliouchine](http://citoyens.deontolog.org/index.php?topic=2395.0) la Russie joue prudence et la désescalade.
 
 ## Le petit frère Arménien
 
 La Turquie dont le chef est acculé mais adulé agresse tout le monde. Soutient militairement ses alliés dans des conflits d'ordres religieux comme sur le plateau du Haut-Karabagh qui est une république indépendante d’Arménie. Erdogan ne peut célébrer sa victoire totale sur l'Arménie... L'ours russe est sorti de sa tanière !
 
+{{< figure src="https://subversive.eu/media/vladimir-armenia-tank-min.jpeg" alt="Tank russe en arménie 2020" caption="type d'armement léger" class="left" >}}
+
 Erdogan est exclu des négociations, exclu des pourparlers, exclu des forces de maintien de la paix. Et pire il voit débarquer sur le jardin noir des troupes militaires hostiles et lourdement armées.
 
-Pourtant une clause de l'accord de cessez-le-feu entre les deux belligérants spécifie bien un contingent armé, mais d'armes légères !
+{{< figure src="https://subversive.eu/media/vladimir-armenia-tank-stay-min.jpeg" alt="Tank russes en arménie 2020" caption="type d'armement léger" class="right" >}}
 
+Pourtant une clause de l'accord de cessez-le-feu entre les deux belligérants spécifie bien un contingent armé, mais d'armes légères !
 
 Ainsi pour la Russie de l'armement léger est dépêché sur le plateau.. 
 
 
-
-
 Mais en même temps, les troupes de l'armée rouge ne demande que cela !
 
-
+{{< figure src="https://subversive.eu/media/vladimir-orgue-min.png" alt="Orgues de Staline version années 2000" caption="Orgues de Staline version années 2000" >}}
 
 Et pire en rencontrant les autorités du Nagorno Karabagh, les russes remettent en question toute l'opération Turque..
 
+{{< tweet 1327376708790611968 >}}
 
+Il interdit même aux Azéris de rejoindre la ville conquise de Chouchi :
 
-
-Il interdit même aux Azéris de rejoindre la ville conquise de Chouchi.
+{{< tweet 1327151230897057794 >}}
 
 De quoi rappeler au monde que rien n'y personne ne lui fait vraiment peur. Imaginez la réaction Turque et à Bakou...
 
@@ -69,19 +71,19 @@ En faite il faut remonter quelques années auparavant pour comprendre cette inte
 
 Déjà en Syrie, les turques ont abattu un chasseur russe, et maintenant c'est l'Azerbaïdjan avec un hélicoptère, a quoi jouent-ils ? N'ont-ils pas compris qui ne faut pas venir gratter la tanière de l'ours russe. A croire qu'il a fallu tout de même vraiment gratter devant. Depuis le temps, combien de pays aurait tenu avec autant de maîtrise ?
 
-«  N’agissez pas sauf si cela vous procure un avantage ; n’utilisez pas vos troupes sauf s’il y a un gain potentiel ; ne combattez pas sauf si vous êtes en position critique
+> N’agissez pas sauf si cela vous procure un avantage ; n’utilisez pas vos troupes sauf s’il y a un gain potentiel ; ne combattez pas sauf si vous êtes en position critique
 
-Aucun dirigeant ne devrait engager des troupes simplement pour satisfaire ses raisons propres ; aucun général ne devrait combattre pour son simple ressentiment.
+> Aucun dirigeant ne devrait engager des troupes simplement pour satisfaire ses raisons propres ; aucun général ne devrait combattre pour son simple ressentiment.
 
-S’il y a un avantage à conquérir allez-y, sinon ne bougez pas.
+> S’il y a un avantage à conquérir allez-y, sinon ne bougez pas.
 
-La colère peut, avec le temps, se transformer en joie, l’agacement peut tourner à l’apaisement.
+> La colère peut, avec le temps, se transformer en joie, l’agacement peut tourner à l’apaisement.
 
-Mais un royaume qui est détruit ne retrouvera jamais son état d’origine ; pas plus qu’un mort peut ressusciter.
+> Mais un royaume qui est détruit ne retrouvera jamais son état d’origine ; pas plus qu’un mort peut ressusciter.
 
-Donc, le dirigeant éclairé est attentif et vigilant et le bon général plein de prudence. Telle est la manière de garder le pays en paix et l’armée intacte. »
+> Donc, le dirigeant éclairé est attentif et vigilant et le bon général plein de prudence. Telle est la manière de garder le pays en paix et l’armée intacte. »
 
-Sun Tzu1
+> — <cite>Sun Tzu, dans l'Art de la Guerre</cite>
 
 La goutte d'eau lors de l’abattage d'un hélicoptère russe Mi-24 a fait déborder le vase, ou plutôt les enfants sont venus jouer trop prêts de la tanière, la partie est finie !
 
@@ -91,14 +93,16 @@ Les USA occupés dans leur guerre civile sont incapable de se déployer, en quê
 
 Depuis cet incident, Bakou cherche à se justifier.. en vain car l'ours à enfin trouver les mots pour coucher les petits.
 
-« Si la Russie adhérait à cette maxime, notre réponse à l’incident aurait été dévastatrice. Nous attendons que le président Aliev respecte sa promesse d’enquêter et de punir les coupables. Nous espérons que l’Azerbaïdjan ne va pas se perdre en paroles vagues. » Sergueï Lavrov2
+> Si la Russie adhérait à cette maxime, notre réponse à l’incident aurait été dévastatrice. Nous attendons que le président Aliev respecte sa promesse d’enquêter et de punir les coupables. Nous espérons que l’Azerbaïdjan ne va pas se perdre en paroles vagues.
+
+> — <cite>Sergueï Lavrov, l’arrogance de Bakou oblige les russes à se justifier</cite>
 
 ## Make Russia Great Again 
 
 Voilà telle était et est la mission de Vladimir Vladimirovitch, mais tonton Russe en veut toujours plus !
 
 
-
+{{< figure src="https://subversive.eu/media/crimee-celebration-min.jpg" alt="Célébration de la victoire en Crimée" class="right" >}}
 Suite à une expansion territoriale depuis les années 2000 avec la Crimée, le Donbass, la Géorgie, la Russie s'affirme sur l'échiquier mondial comme une superpuissance. De plus leur nouveau missile « Avangard », leur assure avec l’Amérique une armée inattaquable. 
 
 

@@ -46,10 +46,6 @@ Les formats PDF sont les plus à jour et propre .
 
 * [PaperMod](https://github.com/adityatelange/hugo-PaperMod/)
 
-#### Commentaires
-
-* [Graphcomment](https://graphcomment.com/)
-
 ### Droits
 
 Application complète du [Règlement général sur la protection des données](https://gohugo.io/about/hugo-and-gdpr/) .
