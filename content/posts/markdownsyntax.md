@@ -23,6 +23,8 @@ This article offers basic Markdown syntax that can be used in Hugo content files
 PS: Le document PDF est complet sans modification.
 PS [EN]: PDF doc is full, no changes.
 
+[Visualiser la page sans formatage vie github](https://raw.githubusercontent.com/subversive-eu/site/master/content/posts/markdownsyntax.md)
+
 # H1
 
 [Link](https://www.markdownguide.org/basic-syntax/) to the best Markdown Syntax Guide Ever !
@@ -181,11 +183,15 @@ Table:
 | col 2 is      |    centered     |           $12 |
 | zebra stripes |    are neat     |            $1 |
 
+
+
 | Left-Aligned  | Center Aligned |
 | :------------ | :------------: |
 | col 3 is      |          $1600 |
 | col 2 is      |            $12 |
 | zebra stripes |             $1 |
+
+
 
 Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
 

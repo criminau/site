@@ -140,7 +140,7 @@
     min-width: 80px;
     padding: 12px 8px;
     line-height: 1.5;
-    border: 1px solid var(--border);
+    border: 1px solid red;
 }
 
 .post-content table th {

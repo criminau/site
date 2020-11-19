@@ -36,6 +36,7 @@ allowfullscreen
 &lt;p>Ainsi notre planète est unique. N’ont pas que nous sommes seuls, n’ont pas que nous sommes différents, mais bien que la vie sur notre planète est à la fois plus complexe et aussi plus similaire..&lt;/p></description><enclosure url="http://subversive.eu/media/the-moon-cover.jpg" length="38717" type="image/png"/></item><item><title>Markdown Syntax - How to use figure with HTML + CSS and tabs</title><link>https://subversive.eu/articles/markdown-syntax-how-to-use-figure-with-html-css-and-tabs.html</link><author>Subversive Theme Author</author><pubDate>Mon, 09 Nov 2020 17:44:04 +0200</pubDate><guid>https://subversive.eu/articles/markdown-syntax-how-to-use-figure-with-html-css-and-tabs.html</guid><description>&lt;p>This article offers basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS like figure.&lt;/p>
 &lt;p>PS: Le document PDF est complet sans modification.
 PS [EN]: PDF doc is full, no changes.&lt;/p>
+&lt;p>&lt;a rel="noopener noreferrer" target="_blank" href="https://raw.githubusercontent.com/subversive-eu/site/master/content/posts/markdownsyntax.md" title="Visualiser la page sans formatage vie github" >Visualiser la page sans formatage vie github&lt;/a>&lt;/p>
 &lt;h1 id="h1">H1&lt;/h1>
 &lt;p>&lt;a rel="noopener noreferrer" target="_blank" href="https://www.markdownguide.org/basic-syntax/" title="Link" >Link&lt;/a> to the best Markdown Syntax Guide Ever !&lt;/p>
 &lt;h2 id="headings">Headings&lt;/h2>

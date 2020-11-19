@@ -15,7 +15,6 @@ cover:
 images: "media/the-neurons-cover.jpg"
 keyword: "Intelligence, Liberté, c'est quoi l'intelligence, comment définir l'intelligence, c'est quoi le QI, QI, conscience de soi, conscience"
 pdfname: "C'est quoi l'intelligence"
-
 ---
 
 L'intelligence se mesure-t-elle ? Comme un objet dans le ciel ?
