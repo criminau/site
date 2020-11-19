@@ -156,6 +156,8 @@ Je ne sais pas. C'est probable.
 {{< /tab >}}
 {{< /tabs >}}
 
+La conscience est la capacité de l’être humain à percevoir la réalité et à s’y reconnaître, mais c’est aussi la connaissance morale de ce qui est bien et de ce qui est mal.
+
 ### Conscience commune
 
 Ainsi, l'on retrouve les seuils de conscience, seuil d'intelligence ?
@@ -197,9 +199,12 @@ Espérons qu'un jour la science nous apporte de quoi élever notre conscience co
 
 ### Pour penser plus loin
 
-Il est fort probable que l'intelligence se définit par le niveau de conscience, que vous le vouliez ou non.
+La capacité à percevoir la réalité et à s’y reconnaître et la connaissance morale de ce qui est bien et de ce qui est mal sont enfin et en définitive la même chose : la conscience.
+
+L'intelligence se définit par le niveau de conscience, que vous le vouliez ou non.
 
 #### Sources
 
-[Larousse](https://www.larousse.fr/dictionnaires/francais/intelligence/43555)
-[Encyclopédie du Larousse](https://www.larousse.fr/encyclopedie/divers/intelligence/61883)
+[Larousse](https://www.larousse.fr/dictionnaires/francais/intelligence/43555)  
+[Encyclopédie du Larousse](https://www.larousse.fr/encyclopedie/divers/intelligence/61883)  
+[Wiki TEDia](https://wiki.teluq.ca/wikitedia/index.php/Bienvenue_dans_Wiki-TEDia)

@@ -23,7 +23,7 @@ This article offers basic Markdown syntax that can be used in Hugo content files
 PS: Le document PDF est complet sans modification.
 PS [EN]: PDF doc is full, no changes.
 
-[Visualiser la page sans formatage vie github](https://raw.githubusercontent.com/subversive-eu/site/master/content/posts/markdownsyntax.md)
+[Visualiser la page sans formatage via github](https://raw.githubusercontent.com/subversive-eu/site/master/content/posts/markdownsyntax.md)
 
 # H1
 

@@ -6,8 +6,6 @@ ShowToc: true
 hidemeta: false
 disableShare: false
 tocopen: false
-tags:
- - 
 date: {{ .Date }}
 cover:
     image: "media/"

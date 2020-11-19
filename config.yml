@@ -55,6 +55,8 @@ params:
       url: 'https://github.com/subversive-eu/site'
     - name: "Twitter"
       url: '@Soon'
+    - name: "Email"
+      url: "subversive.eu@tutanota.com"
 
 sitemap:
   changefreq: dayly

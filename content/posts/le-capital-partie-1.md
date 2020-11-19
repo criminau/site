@@ -1,10 +1,8 @@
 ---
-title: Karl Marx Le Capital analyse
-author: subversive.eu
+title: "Karl Marx Le Capital analyse (partie 1)"
+author: "subversive.eu"
 ShowToc: true
 draft: false
-categories:
-  - Le Capital
 date: 2020-11-25T18:00:00
 cover:
     relative: true
