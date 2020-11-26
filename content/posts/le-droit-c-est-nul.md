@@ -103,7 +103,10 @@ Je comprend en lisant cela que comme écrit plus haut, la société se sent bien
 
 Ou plutôt elle n'a pas conscience que ça ne va pas, alors elle ne peut avoir conscience qu'elle doit changer.
 
- 
+Avez-vous seulement conscience que vous n'avez pas consentis à vous soumettre à la loi ?
+
+Il faut avoir conscience du consentement ou non, car sans cela, rien ne changera.
+
 ## Conclusion
 
 Toutes les réalisations technologiques glorifiées du progrès, y compris la conquête de l'espace, ne rachètent pas la pauvreté morale du XXème siècle, que personne ne pouvait imaginer, pas plus tard qu'au XIXème siècle. Et il en va de même de ce début de ce XXI siècle.
