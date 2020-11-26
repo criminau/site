@@ -20,11 +20,11 @@ Aujourd’hui il s’oriente vers un blog personnel, touchant de nombreux sujets
 
 Subversive en anglais signifie subversif en français. C'est à la fois le féminin subversive en français .
 
-Le journal a pour devise : Vitam impendere vero en latin qui signifie consacrer sa vie à la vérité en français.
+Le journal a pour devise : Vitam impendere vero en latin qui signifie consacrer sa vie à la vérité en français .
 
 Les articles sont suceptibles d’être modifié .
 
-Les formats PDF sont les plus à jour et propre .
+Les formats PDF sont les plus propres mais pas forcément à jour .
 
 ### Journal des modifications et version
 

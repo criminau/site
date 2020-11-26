@@ -11,9 +11,6 @@ images: "media/poigne-russia-min.jpg"
 keyword: "ours, russe, pose, sa, patte, géopoliqute, russe, poutine, arménie, conflit, mère, russie, vladimir, Azerbaïdjan"
 pdfname: "L'ours commence a poser sa patte"
 ---
-vladimir-armenia-tank.jpeg
-crimee-celebration-min
-
 La mère Russie est de retour !
 
 Après tant d'année à se faire marcher dessus, d'humiliation, Vladimir Vladimirovitch a remis le pays dans le sens de la marche.
@@ -25,14 +22,14 @@ Nous aborderons, dans ce présent article la Russie de Poutine. Puis son activit
 
 ## Poutine est en reconquête
 
-Poutine a vécu la chute de l’URSS comme une honte, une humiliation de l'occident,, comme tous les agents du KGB.
+Poutine a vécu la chute de l’URSS comme une honte, une humiliation de l'occident, comme tous les agents du KGB.
 
 En Russie, son prénom est courant, il signifie "le souverain de la paix" en russe.
 
 {{< figure src="https://subversive.eu/media/vladimir-chasing.jpg" alt="vladimir Putin avec un sniper" caption="Poutine à la chasse !" class="right" >}}
-Parti chasser les musulmans en Tchétchénie sous un faux prétexte d'homophobie dont l'occident n'a pas manqué de nous rappeler, le message était pourtant clair, pas d'occident, pas de musulmans devant la tanière.
+Parti chasser les musulmans en Tchétchénie sous un faux prétexte d'homophobie dont l'occident n'a pas manqué de nous rappeler, le message était pourtant clair, pas d'occident n'y de musulmans devant la tanière.
 
-Cela fait des années que le monde arabes gratte aux portes de la tanière. Et cela rend fou l'armée rouge. Mais tel un grand dirigeant, Poutine suit à la lettre l'art de la guerre de Sun Tzu.
+Cela fait des années que le monde arabe gratte aux portes de la tanière. Et cela rend fou l'armée rouge. Mais tel un grand dirigeant, Poutine suit à la lettre l'art de la guerre de Sun Tzu.
 
 Ils sont allés en Syrie afin de remettre de l'ordre et chasser les hordes de terroristes pro-occidentaux.
 
@@ -55,7 +52,7 @@ Ainsi pour la Russie de l'armement léger est dépêché sur le plateau..
 
 Mais en même temps, les troupes de l'armée rouge ne demande que cela !
 
-{{< figure src="https://subversive.eu/media/vladimir-orgue-min.png" alt="Orgues de Staline version années 2000" caption="Orgues de Staline version années 2000" >}}
+{{< figure src="https://subversive.eu/media/vladimir-orgue-min.png" alt="Orgues de Staline version années 2000" caption="Orgues de Staline version années 1980" >}}
 
 Et pire en rencontrant les autorités du Nagorno Karabagh, les russes remettent en question toute l'opération Turque..
 
