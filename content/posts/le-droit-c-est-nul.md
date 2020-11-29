@@ -107,6 +107,24 @@ Avez-vous seulement conscience que vous n'avez pas consentis à vous soumettre �
 
 Il faut avoir conscience du consentement ou non, car sans cela, rien ne changera.
 
+### Extrapolation
+
+Ils accordent bien au peuple « l’égalité des droits » mais ils se gardent bien de leur concéder l’égalité des moyens de les exercer, car même avec tous les droits du monde, sans des moyens de les exercer ils ne sont que pure fiction, que pur MENSONGE.
+
+La seule façon de prendre conscience de leur discours est bien de regarder le cours de vos vies.
+
+Observez que les Hommes s’entre-tuent pour établir leur dominance ou la conserver, comment conclure que la maladie la plus dangereuse pour notre race soit le cancer ou les maladies cardio-vasculaire ? Mais bien vos dirigeants complètement malades et leurs peuples tout autant qu’eux, car complice. Il n’y a pas de guerre dans un organisme, AUCUN organe d’un organisme ne souhaite prendre le dessus sur AUCUN autre, ne souhaite le commander ou être supérieur à lui de quelques manières que ce soit, en AUCUN cas.
+
+Cela fait tant d’années que le pillage absurde des ressources de la Terre est observée et que votre société le glorifie alors qu’il n’est qu’un moyen d’existence pour un petit nombre d’individus. Le système juridique dont émane le droit l’encadre et le protège.
+
+Comment accepter que votre droit puisse être JUSTE, avec une information tendant à imposer des automatismes de pensée et de comportement à l’Homme, occultant les opinions contraires en décrétant qu‘elles sont erronées en les présentant de telle sorte qu‘elles perdent aussitôt toute cohérence face à la solution préparée par celui qui informe, individu ou institution. C’est l‘expression d‘un mépris profond de l‘homme qui est glorifié une fois de plus, par tous.
+
+> C‘est considérer qu‘il est incapable de se faire une opinion personnelle parce qu‘ignorant, ce qui est vrai, mais au lieu de combler son ignorance en lui fournissant des opinions et des informations différentes ou contraires, c‘est le tromper que de ne lui montrer qu‘un aspect des choses. C‘est le considérer comme un sous-homme, c‘est faire preuve d‘un véritable racisme.
+
+> Le rôle d‘un pouvoir ne devrait pas être de « former » l‘opinion, mais de lui fournir des éléments d‘information nombreux et différenciés permettant à chaque individu de remettre en cause chaque jour les bases de la pérennité de ce pouvoir même.
+Autrement dit, ce serait alors se supprimer tout pouvoir centralisé. Ce serait de fournir à chaque individu les moyens d‘apporter sa part imaginative à la construction jamais finie de la société humaine.  
+> Henri Laborit
+
 ## Conclusion
 
 Toutes les réalisations technologiques glorifiées du progrès, y compris la conquête de l'espace, ne rachètent pas la pauvreté morale du XXème siècle, que personne ne pouvait imaginer, pas plus tard qu'au XIXème siècle. Et il en va de même de ce début de ce XXI siècle.
@@ -117,6 +135,8 @@ Le droit doit s'adapter a chaque individu et chaque moment (instant t) de sa vie
 LE DROIT VOLE LE CŒUR DES HOMMES.
     
 L'évolution ne peut être sur du long terme que positive.
+
+Je l'ai toujours, je le dirai toujours, qu'elle honte que d'avoir des droits.
 
 ### Pour penser plus loin
 
