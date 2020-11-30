@@ -4,8 +4,9 @@ Sample Blog.
 
 Check more :   <https://subversive.eu/apropos/>
 
-## Future release
+## Last release
 
 ### v.01.6
 
-- Journal with PaperMod
+Intégration d'un mode journal.
+Fin des commentaires.
