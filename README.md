@@ -8,6 +8,6 @@ Check more :   <https://subversive.eu/apropos/>
 
 ### v.01.6
 
-Intégration d'un mode journal.  
-Fin des commentaires.
-Hébergé avec GithubPages.
+- Intégration d'un mode journal.  
+- Fin des commentaires.  
+- Hébergé avec GithubPages.
