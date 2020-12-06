@@ -40,16 +40,25 @@ Les formats PDF sont les plus propres mais pas forcément à jour .
 #### Hébergement
 
 * [Github Pages](https://pages.github.com/)
-* Le domaine subversive.eu est financé intégralement par l'auteur de l'oeuvre .
+* Le domaine subversive.eu est financé intégralement par l'auteur de l'œuvre .
 
-#### Thème(s)
+#### Thème
 
 * [PaperMod](https://github.com/adityatelange/hugo-PaperMod/)
+
+#### Commentaires
+
+- Bientôt.
 
 ### Droits
 
 Application complète du [Règlement général sur la protection des données](https://gohugo.io/about/hugo-and-gdpr/) .
 
-L'ensemble de l'oeuvre (l'intégralité du contenu) est sous [Creative Commons License](https://creativecommons.org/licenses/by-nc/4.0/deed.fr) .
+L'ensemble de l'œuvre (l'intégralité du contenu) est sous [Creative Commons License](https://creativecommons.org/licenses/by-nc/4.0/deed.fr) .
 
 Aucune action pour suivre les visiteurs.
+
+### Contact
+
+[contact via email](mailto:subversive.eu@tutanota.com)  
+[ email sans redirection : <subversive.eu@tutanota.com> ]

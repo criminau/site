@@ -1,5 +1,5 @@
 ---
-title: "La Lune seule responsable du malheur des Hommes"
+title: "La Lune seule responsable du malheur des Hommes ?"
 author: "subversive.eu"
 ShowToc: true
 draft: false

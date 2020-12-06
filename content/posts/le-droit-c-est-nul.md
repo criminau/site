@@ -20,14 +20,14 @@ Mêlant philosophie, droit et conditions de la sociabilité cette réflexion vou
 
 Le droit était – est toujours en principe – un instrument permettant par l’édiction de la règle législative de s’assurer que la volonté générale était respectée. La souveraineté, assurée d’être source exclusive de la légalité, était en outre confortée par un contrôle juridictionnel chargé de dire les effets légitimes de la loi et le disant d’ailleurs « au nom du peuple français ».
 
-L'occident et le terme les Occidentaux regroupe toute la partie de l'Europe de l'Ouest et l’Amérique du nord. Mais historiquement c'est vraiment la partie ouest de l’Europe (disons au commencement du développement du droit)
+L'occident et le terme les Occidentaux regroupe toute la partie de l'Europe de l'Ouest et l’Amérique du nord. Mais historiquement c'est vraiment la partie ouest de l’Europe (disons au commencement du développement du droit).
 
 Une société ou la société regroupe de manière générale l'ensemble des facteurs sociaux reliant l'ensemble de la population, chaque individu, aux autres.
 
 La démocratie, concept inévitable du droit, est une notion complexe. Dont j'ai du mal à vous en faire une définition précise :
 C'est un ensemble de facteurs qui dans les faits obligent les Hommes à développer eux-mêmes pour eux-mêmes une société JUSTE (littéralement). Donc un facteur qui nuit au dialogue entre les Hommes pour eux et entre eux n'est pas à promouvoir.
 
-L'individu, cette notion sera abordée, il est donc important de la préciser. C'est un individu au sens de vous comme moi, c'est à la fois, vous comme votre voisin, ou cousin, c'est à la vous (individu) et nous (individus), vous devez être capable de comprendre les deux échelles, celle d'un individus, comme celle de l'ensemble mais vue indépendamment. 
+L'individu, cette notion sera abordée, il est donc important de la préciser. C'est un individu au sens de vous comme moi, c'est à la fois, vous comme votre voisin, ou cousin, c'est à la fois vous (individu) et nous (individus), vous devez être capable de comprendre les deux échelles, celle d'un individu, comme celle de l'ensemble mais vue indépendamment. 
 
 
 ## Critique du Contexte Social et Historique sur Terre
@@ -40,7 +40,7 @@ A tel point qu'aujourd'hui la représentation que les individus se font d’eux-
 
 On ne voit presque jamais de retenue volontaire. Tout le monde fonctionne à l'extrême limite de ces cadres légaux.
 
->Je suis d’abord un individu, accessoirement je suis un homme ou une femme mais c’est secondaire, puisque précisément j’ai le droit de définir moi-même le genre que je sens correspondre à mon identité ».  
+> « Je suis d’abord un individu, accessoirement je suis un homme ou une femme mais c’est secondaire, puisque précisément j’ai le droit de définir moi-même le genre que je sens correspondre à mon identité ».  
 > Marcel Gauchet.
  
  La démocratie ? C’est « chacun fait ce qu’il veut » ! 
@@ -127,8 +127,7 @@ Autrement dit, ce serait alors se supprimer tout pouvoir centralisé. Ce serait 
 
 ## Conclusion
 
-Toutes les réalisations technologiques glorifiées du progrès, y compris la conquête de l'espace, ne rachètent pas la pauvreté morale du XXème siècle, que personne ne pouvait imaginer, pas plus tard qu'au XIXème siècle. Et il en va de même de ce début de ce XXI siècle.
-
+Toutes les réalisations technologiques glorifiées du progrès, y compris la conquête de l'espace, ne rachètent pas la pauvreté morale du XXème siècle, que personne ne pouvait imaginer, pas plus tard qu'au XIXème siècle. Et il en va de même de ce début de ce XXIème  siècle.
 
 Le droit doit s'adapter a chaque individu et chaque moment (instant t) de sa vie est cela s'appelle les lois morales.
 
