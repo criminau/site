@@ -56,10 +56,18 @@ Application complète du [Règlement général sur la protection des données](h
 
 Aucune action pour suivre les visiteurs.
 
+Ce travail est fourni gratuitement, librement, au monde (sans publicité).
+
 ### Contact
 
 <subversive.eu@tutanota.com>
 
 ### Web Libre
+
+Soutenir la liberté dans le monde et sur Internet.
+
+REMARQUE
+
+Si vous visitez ce site, considérez soutenir la Liberté sur Internet.
 
 <https://subversive.eu/internetlibre.txt>
