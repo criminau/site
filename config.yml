@@ -21,7 +21,6 @@ minify:
  minifyOutput: true
 # disableXML: true
 
-
 params:
   description: 'Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.'
   keyword: 'subversive.eu, subversive, blog, pour, entretenir, votre, culture, subversive, gilets-jaune'
@@ -53,8 +52,6 @@ params:
       url: 'https://subversive.eu/index.xml'
     - name: "Github"
       url: 'https://github.com/subversive-eu/site'
-    - name: "Twitter"
-      url: '@Soon'
     - name: "Email"
       url: "mailto:subversive.eu@tutanota.com"
 
@@ -84,11 +81,11 @@ rsslimit: 15
 
 privacy:
   vimeo:
-    disabled: false
+    disabled: true
     simple: true
 
   twitter:
-    disabled: false
+    disabled: true
     enableDNT: true
     simple: false
 
@@ -97,7 +94,7 @@ privacy:
     simple: true
 
   youtube:
-    disabled: false
+    disabled: true
     privacyEnhanced: true
 
 services:

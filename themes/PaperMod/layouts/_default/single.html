@@ -2,7 +2,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">
+    <h1 itemprop="title" class="post-title">
       {{ .Title }}
       {{- if .Draft }}<div class="entry-isdraft"><sup>&nbsp;&nbsp;[{{ i18n "draft" }}]</sup></div>{{- end }}
     </h1>
@@ -35,7 +35,7 @@
     </details>
   </div>
   {{- end }}
-  <div class="post-content">{{ .Content }}</div>
+  <div itemprop="content" class="post-content">{{ .Content }}</div>
   <footer class="post-footer">
     {{- if .Params.tags }}
     <ul class="post-tags">

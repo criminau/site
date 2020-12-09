@@ -12,12 +12,14 @@
   "articleBody": {{ .Content | safeJS | htmlUnescape | plainify }},
   "wordCount" : "{{ .WordCount }}",
   "inLanguage": {{ .Language.Lang | default "en-us" }},
-  {{ if .Params.images -}}
   "image":
+  {{ if .Params.images }}
   {{ with $.Params.images }}
     {{ . | absURL }},
   {{ end }}
-  {{- end -}}
+  {{ else }}
+  {{ .Site.Params.imagesdefault | absURL }},
+  {{ end }}
   "datePublished": {{ .PublishDate.Format "2006-01-02" }},
   "dateModified": {{ .Lastmod.Format "2006-01-02" }},
   {{- with (.Params.author | default .Site.Params.author) }}

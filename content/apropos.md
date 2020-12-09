@@ -12,7 +12,7 @@ comments: false
 description: "A propos du blog subversive.eu, de l'origine à la conception. Observons, les outils ( Développement, Hébergement, ... ), le financement, ainsi que vos droits."
 ---
 
-### Auteur :
+### Présentation
 
 Le site subversive.eu a été développé par une seule personne, dans le but d’offrir un avis très critique de notre environnement social .  
 
@@ -20,15 +20,15 @@ Aujourd’hui il s’oriente vers un blog personnel, touchant de nombreux sujets
 
 Subversive en anglais signifie subversif en français. C'est à la fois le féminin subversive en français .
 
-Le journal a pour devise : Vitam impendere vero en latin qui signifie consacrer sa vie à la vérité en français .
+Le journal a pour devise : "Vitam impendere vero" en latin qui signifie consacrer sa vie à la vérité en français .
 
 Les articles sont suceptibles d’être modifié .
 
 Les formats PDF sont les plus propres mais pas forcément à jour .
 
-### Journal des modifications et version
+### Modifications et Version
 
-* [Version du site sur Github](https://github.com/subversive-eu/site/releases)
+* [Version du site et mise à jour](https://github.com/subversive-eu/site/releases)
 
 ### Outils
 
@@ -54,11 +54,12 @@ Les formats PDF sont les plus propres mais pas forcément à jour .
 
 Application complète du [Règlement général sur la protection des données](https://gohugo.io/about/hugo-and-gdpr/) .
 
-L'ensemble de l'œuvre (l'intégralité du contenu) est sous [Creative Commons License](https://creativecommons.org/licenses/by-nc/4.0/deed.fr) .
-
 Aucune action pour suivre les visiteurs.
 
 ### Contact
 
-[contact via email](mailto:subversive.eu@tutanota.com)  
-[ email sans redirection : <subversive.eu@tutanota.com> ]
+<subversive.eu@tutanota.com>
+
+### Web Libre
+
+<https://subversive.eu/internetlibre.txt>

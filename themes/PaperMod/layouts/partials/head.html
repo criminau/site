@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="content-language" content="fr">
 <!-- Title -->
-<title>
+<title itemprop="name" itemprop="title">
 {{ if .IsHome }}{{ .Site.Title }} | {{ .Site.Params.HomeInfoParams.Tagline }}{{else}}
 {{ if .Title }}{{ .Title }} - {{ end }}{{end}}
 </title>
@@ -22,16 +22,14 @@
 <link rel="alternate" hreflang="fr-ch" href="{{ .Permalink }}"/>
 <!-- Meta Simple -->
 {{- if in site.Params.mainSections .Type }}
-<meta name="description" content="{{ .Summary }}">
+<meta itemprop="description" name="description" content="{{ .Summary }}">
 {{- else }}
-<meta name="description" content="{{if .IsHome}}{{ .Site.Params.description }}{{else}}{{ .Title }} - {{ .Site.Title }}{{end}}">
+<meta itemprop="description" name="description" content="{{if .IsHome}}{{ .Site.Params.description }}{{else}}{{ .Title }} - {{ .Site.Title }}{{end}}">
 {{- end }}
 <meta name="keywords" content="{{ .Params.keyword | default .Site.Params.keyword }}">
 <meta name="author" content="{{ (partial "author.html" . ) }}">
 <!-- Canonical -->
 <link rel="canonical" href="{{ .Permalink }}" />
-<!-- License -->
-<link rel="license" href="copyright.txt">
 <!-- Twitter -->
 <meta name="twitter:widgets:theme" content="light">
 <meta name="twitter:widgets:border-color" content="#55acee">
@@ -68,10 +66,8 @@
 <!-- RSS -->
 <link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}index.xml" title="subversive.eu">
 
-{{- partial "extend_head.html" . -}}
 <!-- Misc -->
 {{- if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
-{{- template "_internal/google_analytics_async.html" . }}
 {{- template "partials/templates/opengraph.html" . }}
 {{- template "partials/templates/twitter_cards.html" . }}
 {{- template "partials/templates/schema_json.html" . }}
