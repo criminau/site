@@ -355,7 +355,7 @@ Il faudrait que toutes les entreprises est leur compte public, que tout le monde
 
 A cela ajouter un maximum d'épargne, de gains, et un minimum.
 
-Créer la survaleur, est le principal problème.. Car même si les comptes sont publics, alors il faudra quand même faire de la plus valu. 
+Créer la survaleur, est le principal problème.. Car même si les comptes sont publics, alors il faudra quand même faire de la plus value. 
 
 Pour cela il faudrait une propriété commune des conditions de production. Concrètement, tous les gens qui travaillent pour telle entreprise, tous y possèdent des parts égales.
 

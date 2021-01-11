@@ -1,7 +1,7 @@
 ---
 title: Les gilets jaunes triompheront
 author: subversive.eu
-ShowToc: true
+ShowToc: false
 draft: false
 hidemeta: false
 tocopen: false

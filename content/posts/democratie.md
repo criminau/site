@@ -8,7 +8,7 @@ tocopen: false
 disableShare: false
 date: 2019-11-09T18:01:00+02:00
 keyword: "démocratie, france, europe, libre, c'est quoi la démocratie, democratie définition, traités européen, politique économique, BCE"
-pdfname: "democratie"
+pdfname: "Democratie"
 ---
 
 Vous avez dit Démocratie ? Ceux donc qui décident pour leur communauté. L'Europe est-elle vraiment démocratique ? La France a-t-elle perdue sa démocratie ?

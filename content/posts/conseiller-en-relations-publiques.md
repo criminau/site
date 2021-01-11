@@ -1,5 +1,5 @@
 ---
-title: "Conseiller en relations publiques l'importance de se métier"
+title: "Conseiller en relations publiques l'importance de ce métier"
 author: "subversive.eu"
 ShowToc: true
 draft: false
