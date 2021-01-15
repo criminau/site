@@ -339,18 +339,12 @@ Le développement de la monnaie comme moyen de paiement rend nécessaire des acc
 &lt;/blockquote>
 &lt;p>La monnaie mondiale fonctionne comme moyen de paiement universel, comme moyen d&amp;rsquo;achat universel, et comme matérialisation sociale absolue de la richesse en général.&lt;/p>
 &lt;p>Le commerçant avance la monnaie pour en retirer plus dans le circuit économique. Il ne laisse partir l&amp;rsquo;argent qu&amp;rsquo;avec la sournoise intention de la récupérer. Il effectue une mise en valeur (survaleur) de la marchandise.&lt;/p>
-&lt;div class="book-tabs">
-&lt;input type="radio" class="toggle" name="tabs-uniqueid-1" id="tabs-uniqueid-1-0" checked="checked" />
-&lt;label for="tabs-uniqueid-1-0">Aristote&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">&lt;blockquote>
+&lt;blockquote>
 &lt;p>La vraie richesse consiste en valeurs d&amp;rsquo;usage de ce genre; car la mesure de biens de ce genre suffisante pour bien vivre n&amp;rsquo;est pas illimitée. Mais il est un autre art d&amp;rsquo;acquérir qui s&amp;rsquo;appelle par distinction et à juste titre la chrématistique, qui est ainsi fait qu&amp;rsquo;il semble n&amp;rsquo;y avoir pas de limites à la richesse et à la possession.&lt;!-- raw HTML omitted -->
 — &lt;!-- raw HTML omitted -->Aristote&lt;!-- raw HTML omitted -->&lt;/p>
-&lt;/blockquote>&lt;/div>
-&lt;input type="radio" class="toggle" name="tabs-uniqueid-1" id="tabs-uniqueid-1-1" />
-&lt;label for="tabs-uniqueid-1-1">Karl Marx&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">&lt;p>Karl Marx développe cette idée, en deux approches, celle du thésauriseur, l&amp;rsquo;avare et celui du capitaliste, l&amp;rsquo;investisseur. Dans les deux cas la psychologie est la même&amp;hellip;&lt;/p>
+&lt;/blockquote>
+&lt;p>Karl Marx développe cette idée, en deux approches, celle du thésauriseur, l&amp;rsquo;avare et celui du capitaliste, l&amp;rsquo;investisseur. Dans les deux cas la psychologie est la même&amp;hellip;&lt;/p>
 &lt;p>Mr Marx a complexifié le discours grec comme les grands de son époque.&lt;/p>
-&lt;/div>&lt;/div>
 &lt;p>Dans cette pulsion absolue d&amp;rsquo;enrichissement cette chasse passionnée à la valeur. Le capitaliste est le thésauriseur rationnel alors que le thésauriseur n&amp;rsquo;est que le thésauriseur détraqué.&lt;/p>
 &lt;p>La multiplication incessante de la valeur que désire le thésauriseur en tentant de sauver l&amp;rsquo;argent des risques de la circulation. Le capitaliste, plus intelligent, l&amp;rsquo;obtient en le relivrant sans cesse à la circulation.&lt;/p>
 &lt;h2 id="le-capital">Le capital&lt;/h2>
@@ -366,57 +360,32 @@ Le développement de la monnaie comme moyen de paiement rend nécessaire des acc
 &lt;/blockquote>
 &lt;p>Le capital industriel est lui même voleur, se fait voler par le capital commercial qui vole l&amp;rsquo;acheteur. Pire est le capital usuraire (paiement par crédit).&lt;/p>
 &lt;h3 id="capital-usuraire">Capital usuraire&lt;/h3>
-&lt;div class="book-expand">
-&lt;label>
-&lt;div class="book-expand-head flex justify-between">
-&lt;span>Exemple
-&lt;/span>
-&lt;span>...&lt;/span>
-&lt;/div>
-&lt;input type="checkbox" class="" />
-&lt;div class="book-expand-content markdown-inner">
 &lt;p>Je te prête de l&amp;rsquo;argent contre de l&amp;rsquo;argent (plus d&amp;rsquo;argent évidemment).&lt;/p>
 &lt;p>Cela contredit la nature de la monnaie.&lt;/p>
-&lt;/div>
-&lt;/label>
-&lt;/div>
-&lt;div class="book-tabs">
-&lt;input type="radio" class="toggle" name="tabs-uniqueid-2" id="tabs-uniqueid-2-0" checked="checked" />
-&lt;label for="tabs-uniqueid-2-0">Aristote&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">&lt;blockquote>
+&lt;h4 id="aristote">Aristote&lt;/h4>
+&lt;blockquote>
 &lt;p>Puisque la chrématistique est double, que d&amp;rsquo;un côté elle appartient au commerce, de l&amp;rsquo;autre à l'économie, que sous ce dernier rapport elle est nécessaire et louable, que sous le premier, elle est fondée sur la circulation et blâmée à juste titre (car elle ne repose pas sur la nature, mais sur une escroquerie réciproque), l&amp;rsquo;usure est à juste titre haïe parce qu&amp;rsquo;avec l&amp;rsquo;argent lui-même devient la source de l&amp;rsquo;acquisition et ne sert pas aux fins pour lesquelles il a été inventé. Car il était destiné à servir l'échange des marchandises, alors que l&amp;rsquo;intérêt fait avec de l&amp;rsquo;argent plus d&amp;rsquo;argent. D&amp;rsquo;où aussi son nom.&lt;!-- raw HTML omitted -->&lt;/p>
 &lt;/blockquote>
 &lt;blockquote>
 &lt;p>Car les enfants ressemblent aux géniteurs. Mais l&amp;rsquo;intérêt est de l&amp;rsquo;argent issu de l&amp;rsquo;argent, de sorte que de toutes les manières qu&amp;rsquo;acquérir, l&amp;rsquo;intérêt est celui qui est le plus contre nature.&lt;!-- raw HTML omitted -->
 — &lt;!-- raw HTML omitted -->Aristote&lt;!-- raw HTML omitted -->&lt;/p>
 &lt;/blockquote>
-&lt;/div>
-&lt;input type="radio" class="toggle" name="tabs-uniqueid-2" id="tabs-uniqueid-2-1" />
-&lt;label for="tabs-uniqueid-2-1">Marx&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">L&amp;rsquo;usure est pire que tout car le seul but de la monnaie est l'échange.&lt;/div>
-&lt;input type="radio" class="toggle" name="tabs-uniqueid-2" id="tabs-uniqueid-2-2" />
-&lt;label for="tabs-uniqueid-2-2">Example&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">Le paysan produit le blé. Le capital industriel achète le blé fait de la farine puis du pain. Il gagne sur le paysan. La capital commercial achète le pain 10€. Le revends 11€. Il escroque paysans, industriels et acheteurs. Le capital usuraire prête 11€ à l&amp;rsquo;acheteur du pain et lui fait payer 12€. Il vole tout le monde..&lt;/div>&lt;/div>
+&lt;h4 id="marx">Marx&lt;/h4>
+&lt;p>L&amp;rsquo;usure est pire que tout car le seul but de la monnaie est l'échange.&lt;/p>
+&lt;h4 id="exemple">Exemple&lt;/h4>
+&lt;p>Le paysan produit le blé. Le capital industriel achète le blé fait de la farine puis du pain. Il gagne sur le paysan. La capital commercial achète le pain 10€. Le revends 11€. Il escroque paysans, industriels et acheteurs. Le capital usuraire prête 11€ à l&amp;rsquo;acheteur du pain et lui fait payer 12€. Il vole tout le monde..&lt;/p>
 &lt;h3 id="capital-commercial">Capital commercial&lt;/h3>
 &lt;p>Le capital ne peut pas naître de la circulation, et ne peut pas en provenir.&lt;/p>
 &lt;blockquote>
 &lt;p>Comment créer la survaleur. Hic Rhodus, hic salta !?&lt;/p>
 &lt;/blockquote>
 &lt;p>Le paysan fait donc partout au capitaliste l&amp;rsquo;avance de la valeur d&amp;rsquo;usage de sa force de travail, le paysan fait partout crédit au capitaliste.&lt;/p>
-&lt;div class="book-columns flex flex-wrap">
-&lt;div class="flex-even markdown-inner">
 &lt;h4 id="liberté">Liberté&lt;/h4>
-&lt;p>L&amp;rsquo;acheteur et le vendeur ne se détermine que par leur libre volonté.
-&lt;/div>
-&lt;div class="flex-even markdown-inner">
+&lt;p>L&amp;rsquo;acheteur et le vendeur ne se détermine que par leur libre volonté.&lt;/p>
 &lt;h4 id="egalité">Egalité&lt;/h4>
-&lt;p>Car ils n&amp;rsquo;ont de relation qu&amp;rsquo;en tant que possesseurs de marchandises et échangent équivalent contre équivalent.
-&lt;/div>
-&lt;div class="flex-even markdown-inner">
+&lt;p>Car ils n&amp;rsquo;ont de relation qu&amp;rsquo;en tant que possesseurs de marchandises et échangent équivalent contre équivalent.&lt;/p>
 &lt;h4 id="propriété">Propriété&lt;/h4>
-&lt;p>Car chacun ne dispose que de son bien.
-&lt;/div>
-&lt;/div>
+&lt;p>Car chacun ne dispose que de son bien.&lt;/p>
 &lt;p>Le capital commercial est celui qui créé la survaleur.
 Le paysan est celui qui fait crédit de sa force de travail.&lt;/p>
 &lt;h3 id="capital-industriel">Capital industriel&lt;/h3>
@@ -424,20 +393,9 @@ Le paysan est celui qui fait crédit de sa force de travail.&lt;/p>
 &lt;p>Le produit est la propriété du capitaliste.&lt;/p>
 &lt;p>Le travailleur vend sa force de travail et donc son usage aussi, qui appartient au capitaliste.&lt;/p>
 &lt;p>Le produit est une valeur d&amp;rsquo;usage. Comment valoriser ?&lt;/p>
-&lt;div class="book-expand">
-&lt;label>
-&lt;div class="book-expand-head flex justify-between">
-&lt;span>Capital avancé
-&lt;/span>
-&lt;span>...&lt;/span>
-&lt;/div>
-&lt;input type="checkbox" class="" />
-&lt;div class="book-expand-content markdown-inner">
-La force de travail (Le travail effectué) ne permet pas la survaleur.&lt;br>
-La valeur du produit vaut la valeur du capital avancé.
-&lt;/div>
-&lt;/label>
-&lt;/div>
+&lt;h4 id="capital-avancé">Capital avancé&lt;/h4>
+&lt;p>La force de travail (Le travail effectué) ne permet pas la survaleur.&lt;br>
+La valeur du produit vaut la valeur du capital avancé.&lt;/p>
 &lt;p>Un service n&amp;rsquo;est rien d&amp;rsquo;autre que l&amp;rsquo;effet utile d&amp;rsquo;une valeur d&amp;rsquo;usage, qu&amp;rsquo;elle soit marchandise ou travail.&lt;/p>
 &lt;p>Le bénéfice se fait entre la différence de rendement.
 Pour le même capital investit dans la force de travail, il faut réduire le temps de production d&amp;rsquo;un produit. C&amp;rsquo;est à dire pour le labs de temps, produire plus, rendre la force de travail utile.&lt;/p>
@@ -445,35 +403,14 @@ Pour le même capital investit dans la force de travail, il faut réduire le tem
 &lt;blockquote>
 &lt;p>Rémunérer par rapport à la vitesse de production ?&lt;/p>
 &lt;/blockquote>
-&lt;div class="book-columns flex flex-wrap">
-&lt;div class="flex-even markdown-inner">
 &lt;h4 id="capital-constant-c">Capital constant (c)&lt;/h4>
-&lt;p>moyens de production (matières premières, moyens de travail,..)
-&lt;/div>
-&lt;div class="flex-even markdown-inner">
+&lt;p>moyens de production (matières premières, moyens de travail,..)&lt;/p>
 &lt;h4 id="capital-variable-v">Capital variable (v)&lt;/h4>
-&lt;p>la force de travail
-&lt;/div>
-&lt;div class="flex-even markdown-inner">
+&lt;p>la force de travail&lt;/p>
 &lt;h4 id="c--v--c">c + v = C&lt;/h4>
-&lt;p>A la fin, nous avons :&lt;br>
-c + v + s = C&amp;rsquo;&lt;br>
-où s est la survaleur..
-&lt;/div>
-&lt;/div>
-&lt;div class="book-expand">
-&lt;label>
-&lt;div class="book-expand-head flex justify-between">
-&lt;span>Le taux de survaleur
-&lt;/span>
-&lt;span>↕&lt;/span>
-&lt;/div>
-&lt;input type="checkbox" class="" />
-&lt;div class="book-expand-content markdown-inner">
-Le taux de survaleur = s/v . C&amp;rsquo;est le pourcentage de la force de travail surexploité par le capitaliste sur l&amp;rsquo;ouvrier.
-&lt;/div>
-&lt;/label>
-&lt;/div>
+&lt;p>A la fin, nous avons : c + v + s = C&amp;rsquo; où s est la survaleur..&lt;/p>
+&lt;h4 id="le-taux-de-survaleur">Le taux de survaleur&lt;/h4>
+&lt;p>Le taux de survaleur = s/v . C&amp;rsquo;est le pourcentage de la force de travail surexploité par le capitaliste sur l&amp;rsquo;ouvrier.&lt;/p>
 &lt;p>Le travailleur se fait voler sur le gain net, car il travaille le temps de survaleur par rapport au taux de survaleur. Mais aussi sur le temps pour transformer le capital constant(c). Ainsi il travaille pour sa paye (v), pour l'équilibre des comptes (c) et pour le gain net (s). Alors qu&amp;rsquo;il n&amp;rsquo;est payé que v&amp;hellip;.&lt;/p>
 &lt;p>Là est le vol.&lt;/p>
 &lt;p>Plus il y a de travailleurs, plus le capitaliste gagne.&lt;/p>
@@ -485,32 +422,17 @@ Le taux de survaleur = s/v . C&amp;rsquo;est le pourcentage de la force de trava
 &lt;p>Mais ou marge-t-il alors. Hic Rhodus, hic salta !?&lt;/p>
 &lt;/blockquote>
 &lt;p>Celui qui arrive à augmenter la production par de nouvelles techniques de production améliorées marge plus que ses concurrents.&lt;/p>
-&lt;div class="book-tabs">
-&lt;input type="radio" class="toggle" name="tabs-uniqueid-3" id="tabs-uniqueid-3-0" checked="checked" />
-&lt;label for="tabs-uniqueid-3-0">Valeur des marchandises&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">&lt;p>La valeur des marchandises est inversement proportionnelle à la force productive de travail.&lt;/p>
+&lt;h4 id="valeur-des-marchandises">Valeur des marchandises&lt;/h4>
+&lt;p>La valeur des marchandises est inversement proportionnelle à la force productive de travail.&lt;/p>
 &lt;p>Explication :&lt;br>
 Car en améliorant la technique, j&amp;rsquo;augmente ma production sur une même période avec la même force de travail. Donc ça me coûte moins cher à produire mais le prix affiché reste le même.. Il ne bouge jamais..&lt;/p>
-&lt;/div>
-&lt;input type="radio" class="toggle" name="tabs-uniqueid-3" id="tabs-uniqueid-3-1" />
-&lt;label for="tabs-uniqueid-3-1">Survaleur relative&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">Tandis que, la survaleur relative est directement proportionnelle à la force productive de travail. Elle croît avec la croissance de la force productive et baisse quand celle-ci baisse, puisqu&amp;rsquo;elle dépends de celle-ci.&lt;/div>&lt;/div>
+&lt;h4 id="survaleur-relative">Survaleur relative&lt;/h4>
+&lt;p>Tandis que, la survaleur relative est directement proportionnelle à la force productive de travail. Elle croît avec la croissance de la force productive et baisse quand celle-ci baisse, puisqu&amp;rsquo;elle dépends de celle-ci.&lt;/p>
 &lt;h3 id="pulsion-permanente">Pulsion permanente&lt;/h3>
 &lt;p>Celle au capital et sa tendance constante serait donc d&amp;rsquo;accroître la force productive de travail afin d&amp;rsquo;abaisser le prix de la marchandise et ce faisant, d&amp;rsquo;abaisser le prix du travailleur lui-même. Car le travailleur est payé au temps et non à sa capacité de production ou plutôt sa quantité de production.&lt;/p>
-&lt;div class="book-expand">
-&lt;label>
-&lt;div class="book-expand-head flex justify-between">
-&lt;span>Plus trivialement
-&lt;/span>
-&lt;span>;)&lt;/span>
-&lt;/div>
-&lt;input type="checkbox" class="" />
-&lt;div class="book-expand-content markdown-inner">
+&lt;h4 id="plus-trivialement">Plus trivialement&lt;/h4>
 &lt;p>Le capitaliste ne cherche qu&amp;rsquo;a augmenter la production d&amp;rsquo;une marchandise sur une même période de temps.&lt;/p>
 &lt;p>Comme vue précédemment, on cherche à augmenter le temps de travail gratuit.&lt;/p>
-&lt;/div>
-&lt;/label>
-&lt;/div>
 &lt;h2 id="définitions">Définitions&lt;/h2>
 &lt;p>Rentrons dans le vif du sujet:&lt;/p>
 &lt;h3 id="la-production-capitaliste">La production capitaliste&lt;/h3>
@@ -518,55 +440,30 @@ Car en améliorant la technique, j&amp;rsquo;augmente ma production sur une mêm
 &lt;p>Elle ne commence en fait que lorsque le même capital individuel emploie simultanément un nombre relativement important d&amp;rsquo;ouvriers, là où, en conséquence, le process de travail prend de l&amp;rsquo;ampleur et fournit des produits, quantitativement, à une plus grande échelle. Qu&amp;rsquo;un nombre important d&amp;rsquo;ouvriers travaillent dans le même temps, dans le même espace de travail à la production de la même sorte de marchandise, sous le commandement du même capitaliste, voilà ce qui constitue le point de départ tant historique que conceptuel de la production capitaliste.&lt;!-- raw HTML omitted -->
 — &lt;!-- raw HTML omitted -->Karl Marx&lt;sup id="fnref:4">&lt;a href="https://subversive.eu/articles/karl-marx-le-capital-analyse-partie-1.html#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;!-- raw HTML omitted -->&lt;/p>
 &lt;/blockquote>
-&lt;div class="book-expand">
-&lt;label>
-&lt;div class="book-expand-head flex justify-between">
-&lt;span>Avantages
-&lt;/span>
-&lt;span>...&lt;/span>
-&lt;/div>
-&lt;input type="checkbox" class="" />
-&lt;div class="book-expand-content markdown-inner">
+&lt;h4 id="avantages">Avantages&lt;/h4>
 &lt;ul>
 &lt;li>Diminutions des coûts car concentration de la production, agglomération des travailleurs, regroupement des process.&lt;/li>
 &lt;li>L&amp;rsquo;animal social, Homme, en groupe (dans un même lieu) est plus performant, excité, stimulé par la compétition.&lt;/li>
 &lt;li>Permet de fabriquer un objet d&amp;rsquo;un seul tenant de temps en divisant le travail (les tâches)&lt;/li>
 &lt;/ul>
-&lt;/div>
-&lt;/label>
-&lt;/div>
 &lt;h3 id="le-caractère-connexe-du-travail">Le caractère connexe du travail&lt;/h3>
 &lt;p>Le caractère connexe du travail se présente comment le pouvoir d&amp;rsquo;une volonté étrangère qui soumet leur action à ses propres fins (celles des travailleurs).&lt;/p>
-&lt;p>Ainsi la production capitaliste est sous deux formes :
-&lt;div class="book-tabs">
-&lt;input type="radio" class="toggle" name="tabs-uniqueid-5" id="tabs-uniqueid-5-0" checked="checked" />
-&lt;label for="tabs-uniqueid-5-0">Quant à son contenu&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">&lt;h4 id="duale">Duale&lt;/h4>
+&lt;p>Ainsi la production capitaliste est sous deux formes :&lt;/p>
+&lt;h4 id="quant-à-son-contenu">Quant à son contenu&lt;/h4>
+&lt;h5 id="duale">Duale&lt;/h5>
 &lt;ul>
 &lt;li>Fabrication d&amp;rsquo;un produit&lt;/li>
 &lt;li>Process de valorisation du produit&lt;/li>
-&lt;/ul>&lt;/div>
-&lt;input type="radio" class="toggle" name="tabs-uniqueid-5" id="tabs-uniqueid-5-1" />
-&lt;label for="tabs-uniqueid-5-1">Quant à sa forme&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">&lt;h4 id="despotique">Despotique&lt;/h4>
-&lt;p>Simplement despotique.&lt;/div>&lt;/div>&lt;/p>
+&lt;/ul>
+&lt;h4 id="quant-à-sa-forme">Quant à sa forme&lt;/h4>
+&lt;h5 id="despotique">Despotique&lt;/h5>
+&lt;p>Simplement despotique.&lt;/p>
 &lt;p>Ce travail, fonction de surveillance immédiate et permanente de chaque travailleur et même de certains groupes de travailleurs, à une espèce particulière de travailleur eux-mêmes salariés.&lt;/p>
-&lt;div class="book-expand">
-&lt;label>
-&lt;div class="book-expand-head flex justify-between">
-&lt;span>Analogie avec l&amp;#39;armée
-&lt;/span>
-&lt;span>...&lt;/span>
-&lt;/div>
-&lt;input type="checkbox" class="" />
-&lt;div class="book-expand-content markdown-inner">
+&lt;h4 id="analogie-avec-larmée">Analogie avec l&amp;rsquo;armée&lt;/h4>
 &lt;ul>
 &lt;li>Les officiers (dirigeants, managers,..) et&lt;/li>
 &lt;li>Sous Officiers (contre-maîtres,..)&lt;/li>
 &lt;/ul>
-&lt;/div>
-&lt;/label>
-&lt;/div>
 &lt;p>Un Homme devient donneur d&amp;rsquo;ordres de process industriel parce qu&amp;rsquo;il est capitaliste.&lt;/p>
 &lt;p>Il paye individuellement 100 forces de travail (100 travailleurs). Il peut employer les 100 sans les faire coopérer. Le capitaliste paye ainsi la valeur de 100 forces de travail autonomes, mais ne paie pas la force de travail combinée des 100.&lt;/p>
 &lt;p>Ces personnes indépendantes, entre toutes en rapport avec le capitaliste, mais pas entre elles.&lt;/p>
@@ -588,15 +485,7 @@ Car en améliorant la technique, j&amp;rsquo;augmente ma production sur une mêm
 &lt;/blockquote>
 &lt;p>La division du travail permet d&amp;rsquo;augmenter les cadences de production, c&amp;rsquo;est la manufacture.&lt;/p>
 &lt;p>Cela confirme que chaque travailleur est payé au temps et non à la quantité des produits fabriqués sur une même base de temps. Ici ce trouve une Arnaque..&lt;/p>
-&lt;div class="book-expand">
-&lt;label>
-&lt;div class="book-expand-head flex justify-between">
-&lt;span>Exemple
-&lt;/span>
-&lt;span>...&lt;/span>
-&lt;/div>
-&lt;input type="checkbox" class="" />
-&lt;div class="book-expand-content markdown-inner">
+&lt;h4 id="exemple-1">Exemple&lt;/h4>
 &lt;blockquote>
 &lt;p>Je suis payé 20€ de l&amp;rsquo;heure. Je produis 100 montres/heure.&lt;br>
 Sur huit heures, je fais donc 800 montres et je suis payé 160€.&lt;br>
@@ -609,9 +498,6 @@ Sur huit heures, je fais donc 400 montres et je suis payé 160€.&lt;/p>
 &lt;blockquote>
 &lt;p>Donc le capitaliste se gagne la valeur des 400 montres que je produis en plus.&lt;/p>
 &lt;/blockquote>
-&lt;/div>
-&lt;/label>
-&lt;/div>
 &lt;blockquote>
 &lt;p>Faudrait-ils payer aux résultats ? D&amp;rsquo;un rapport entre le nombre d&amp;rsquo;objet produis / base de temps. Avec coefficient de qualité, &amp;hellip; ? Et sur une chaîne d&amp;rsquo;assemblage, payer l&amp;rsquo;ensemble des personnels (l'équipe) et non payer individuellement ?&lt;/p>
 &lt;/blockquote>

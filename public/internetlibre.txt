@@ -11,7 +11,7 @@ Pour un web libre, intégralement :
 2. Optimiser la copie et le partage
 
 - Utiliser les schémas d'item.
-- Ne pas abuser la mise en page. (exemple à ne pas faire le capital partie 1, 25/11/2020)
+- Ne pas abuser la mise en page.
 - Protocole RSS simple et efficace.
 
 3. Optimiser la lecture
