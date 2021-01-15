@@ -1,5 +1,5 @@
 ---
-title: "C'est quoi l'intelligence et Comment la définir ?"
+title: "C'est quoi l'intelligence ?"
 author: "subversive.eu"
 ShowToc: true
 draft: false
@@ -87,13 +87,11 @@ Cela est bien plus complexe en réalité.
 
 On notera deux fibres donc :
 
-{{< columns >}}
 ##### Amyéliniques
 les fibres amyéliniques (dépourvues de myéline) dont la vitesse de conduction n'excède pas 2,3 m.sec-1;
-<--->
+
 ##### Myélinisées
 les fibres myélinisées dont la vitesse de conduction, proportionnelle à l'épaisseur de myéline, peut atteindre 100 m.sec-1.
-{{< /columns >}}
 
 #### Efficacité
 
@@ -126,9 +124,6 @@ Demandons-nous d'abord ce qu'est la conscience ?
 ### Conscience de soi
 
 
-{{< tabs "uniqueid" >}}
-{{< tab "a+b" >}}
-
 #### a+b
 
 Mathématiquement, c'est la capacité d'un individu à appréhender son individualité.
@@ -137,9 +132,6 @@ Mais cette conscience est-elle le premier niveau ? Disons la base, la bêtise ?
 Les plantes communiquent entre-elles, auraient-elles donc conscience de leur existence mais comme ensemble et non comme individualité ? En attendant la réponse de nos scientifiques, poursuivons. Seraient-elles alors moins intelligentes ?
 
 L'Homme n'a pas passé ce cap.
-
-{{< /tab >}}
-{{< tab "a+b ou/et a et b" >}}
 
 #### a+b ou/et a et b
 
@@ -153,8 +145,6 @@ Mais cela est bien plus complexe, car il faut encore avoir conscience de notre c
 
 Est-il seulement possible d'avoir une conscience sans avoir conscience ?
 Je ne sais pas. C'est probable.
-{{< /tab >}}
-{{< /tabs >}}
 
 La conscience est la capacité de l’être humain à percevoir la réalité et à s’y reconnaître, mais c’est aussi la connaissance morale de ce qui est bien et de ce qui est mal.
 
