@@ -1,13 +1,12 @@
 # Subversive.eu
 
-Sample Blog.
+Blog Simple.
 
-Check more :   <https://subversive.eu/apropos/>
+En savoir plus :   <https://subversive.eu/apropos/>
 
-## Last release
+## Prochaine version
 
 ### v.01.7
-
 
 - Etude des schemas d'article pour la presse libre
 - Etude d'abus de mise en forme d'article pour la presse simple
