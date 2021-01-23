@@ -28,7 +28,7 @@ Le 4 septembre 1774, l'enseigne de vaisseau James Colnett aperçoit à l'horizon
 
 <!--more-->
 
-C'est le début de la domination des anglais au pacifique, des missionnaires protestants sont envoyés pour répandre la foi. La France donc pour lutter contre expansionnisme de le couronne britannique va s’approprier l'île de la Grande Terre en 1853, et dix ans plus tard y installer une administration pénitentiaire, car le bagne de Guyane déborde. Ils y fondent également une garnison marine pour protéger les intérêts commerciaux de l'empire colonial. Les raids meurtriers contre les anglais, kanaks ou autres peuples hostiles au commerce français sont courants, des villages entiers seront rasés.
+C'est le début de la domination des anglais au pacifique, des missionnaires protestants sont envoyés pour répandre la foi. Pour lutter contre l’expansionnisme de la couronne britannique, la France va s’approprier l'île de la Grande Terre en 1853, et dix ans plus tard y installer une administration pénitentiaire, car le bagne de Guyane déborde. Ils y fondent également une garnison marine pour protéger les intérêts commerciaux de l'empire colonial. Les raids meurtriers contre les anglais, kanaks ou autres peuples hostiles au commerce français sont courants, des villages entiers seront rasés.
 
 L'intérêt pour les ressources en nickel et la Zone Économique Exclusive (ZEE) viendra après la Seconde Guerre Mondiale.
 
@@ -78,9 +78,9 @@ Face aux revendications territoriales des kanaks, la métropole engage une réfo
 
 ### Vers ceux de Matignon
 
-Le 22 Avril 1988, une prise d'otage sanglante entre indépendantiste et force de l'ordre (gendarmerie) éclate faisant une vingtaine de morts.
+Le 22 Avril 1988, une prise d'otage sanglante entre indépendantistes et force de l'ordre (gendarmerie) éclate faisant une vingtaine de morts.
 
-Les kanaks restent minoritaire sur leur île contrairement aux autres colonies française (Algérie).
+Les kanaks restent minoritaires sur leur île contrairement aux autres colonies françaises (Algérie).
 
 Cet incident fait suite aux mesures draconiennes prise par les gouvernements successifs de la république (1986-1988) et les incidents de 1985 (raids et embuscades).
 
@@ -104,8 +104,8 @@ Aujourd'hui en Janvier 2021, les résultats négatifs aux deux premiers référe
 
 > Méfiez-vous du Loup qui dort.
 
-Résultat de 2018 : Le "non" l'emporte pour 56,7% des électeurs.  
-Résultat de 2020 : Le "non" l'emporte pour 53,3% des électeurs.  
+Résultats de 2018 : Le "non" l'emporte pour 56,7% des électeurs.  
+Résultats de 2020 : Le "non" l'emporte pour 53,3% des électeurs.  
 
 Observons la carte ci-dessous :  
 
@@ -121,13 +121,13 @@ Puis lorsque l'on écoute les parigots :
 
 Mais bien sur.
 
-Vous noterez que c'est l’État qui s'occupe d'organiser et de valider le vote...
+Vous noterez que c'est l’État qui s'occupe d'organiser et de valider le vote.
 
-En 1999, le conseil constitutionnel révise les accords de Nouméa et change "corps électoral figé" par "corps électoral glissant"...
+En 1999, le conseil constitutionnel révise les accords de Nouméa et change "corps électoral figé" par "corps électoral glissant".
 
 La cour européenne des droits de l'Homme juge que "l'Histoire tourmentée" de la nouvelle-Calédonie peut justifier cette modification.
 
-La population kanak n'a pas fortement augmenté au point de supporter les migrations.. et donc "inscrire le maximum d'électeurs potentiels" revient à diminuer la part d'électeurs kanaks...
+La population kanak n'a pas fortement augmenté au point de supporter les migrations.. et donc "inscrire le maximum d'électeurs potentiels" revient à diminuer la part d'électeurs kanaks.
 
 ## Droit à l'autodétermination
 
@@ -137,9 +137,9 @@ C'est une question morale. Elle offre le risque de s'ingérer mais aussi de les 
 
 ### Ingérence
 
-* La faille consiste à proposer la démocratie comme solution mais de "frauder" sur "les modalités électorales". Que les colons soient depuis des générations ou non chez eux, ils en sont pas eux.
+* La faille consiste à proposer la démocratie comme solution mais de "frauder" sur "les modalités électorales". Que les colons soient depuis des générations ou non chez eux, ils ne sont pas eux.
 
-* Autre faille, le développement éthique et moral, civilisationnel et économique. Nous allons les aider car nous les jugeons plus bête que nous et pour cela pratiquer l'ingérence. Comment alors aider un peuple sans s'ingérer dans des affaires ?
+* Autre faille, le développement éthique et moral, civilisationnel et économique. Nous allons les aider car nous les jugeons plus bête que nous et pour cela pratiquer l'ingérence. Comment alors aider un peuple sans s'ingérer dans ses affaires ?
 
 * Nouvelle faille, pour protéger la vie, pour protéger de la barbarie, nous allons nous ingérer dans vos affaires ?
 
