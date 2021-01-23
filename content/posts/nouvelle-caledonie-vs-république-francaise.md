@@ -26,6 +26,8 @@ Histoire d'une colonisation et d'une néo-colonisation française.
 
 Le 4 septembre 1774, l'enseigne de vaisseau James Colnett aperçoit à l'horizon une terre inconnue des Européens.
 
+<!--more-->
+
 C'est le début de la domination des anglais au pacifique, des missionnaires protestants sont envoyés pour répandre la foi. La France donc pour lutter contre expansionnisme de le couronne britannique va s’approprier l'île de la Grande Terre en 1853, et dix ans plus tard y installer une administration pénitentiaire, car le bagne de Guyane déborde. Ils y fondent également une garnison marine pour protéger les intérêts commerciaux de l'empire colonial. Les raids meurtriers contre les anglais, kanaks ou autres peuples hostiles au commerce français sont courants, des villages entiers seront rasés.
 
 L'intérêt pour les ressources en nickel et la Zone Économique Exclusive (ZEE) viendra après la Seconde Guerre Mondiale.
