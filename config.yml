@@ -12,7 +12,7 @@ theme: PaperMod
 # enableRobotsTXT: true 
 buildFuture: false # Test ok / functionnal
 buildExpored: false
-buildDraft: false
+buildDraft: true
 
 #publishDir: docs
 
@@ -33,7 +33,6 @@ params:
   ShowShareButtons: true
   titleHome: 'subversive.eu Blog pour entretenir votre culture subversive'
   author: subversive.eu
-  copyright: 'Attribution - Pas d’Utilisation Commerciale 4.0 International (CC BY-NC 4.0)'
 
 # Paper Mod
   env: production
@@ -44,7 +43,7 @@ params:
   HomeInfoParams:
     GrandTitre: "Journal Subversif"
     Title: "Bonjour 👋"
-    Content: "Journal Subversif, Politique et Impartial"
+    Content: "Journal Subversif, Politique et presque Impartial"
     Tagline: "Vitam impendere vero."
 
   socialIcons:

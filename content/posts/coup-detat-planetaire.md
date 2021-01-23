@@ -2,8 +2,8 @@
 title: "Coup d'état planétaire !"
 author: "subversive"
 ShowToc: false
-draft: false
-hidemeta: false
+draft: true
+hidemeta: true
 tocopen: false
 disableShare: true
 date: 2021-01-30 09:00:00
@@ -19,10 +19,10 @@ N'essayez pas d'interpréter ce document.
 
 Trump, tout le monde l'a pris pour un con, tout le monde a bien regardé la télé, c'est bien.  
 Tout le monde a vu "la prise du capitole" qui justifie la censure du net sans limite.  
-Un pays avec une telle armée se faire déborder à l'entrée du capitole, une telle aisance alors que sur Twitter Trump avez prévenu ?  
+Un pays avec une telle armée se faire déborder à l'entrée du capitole, avec une telle aisance alors que sur Twitter Trump avez prévenu ?  
 Trump a enrichi la Chine et Wall Street comme jamais, obéi a Mr Fauci comme personne.  
 Mais le peuple, que veut-il ? Souhaite-t-il lui aussi moins travailler, se vacciner, moins polluer et moins se reproduire ?  
-Trump a ralentit de la nation américaine, mais a bien détruit tous les vassaux.  
+Trump a ralentit la destruction de la nation américaine, mais a bien détruit tous les vassaux.  
 En 4 ans, combien de pays ont pris des révoltes ? Liban, Algérie, France, Chine (Hongkong), Biélorussie, Russie, Bolivie, Chili, Mali, Pérou, Venezuela, Iran, Espagne.  
 Les vaccins ne seront pas obligatoire.
 
@@ -34,7 +34,7 @@ Le diable contemple son œuvre.
 
 N'êtes vous pas étonné que vos intellectuels affirment que ce désastre résulte de l'incurie et de l'imbécilité de nos dirigeants ?  
 Comment nos frères intellectuels peuvent encore croire cela ?  
-Les non-professionnel pèsent 500 milliards de dollars us à la bourse dès Septembre 2020.
+Les non-professionnels pèsent 500 milliards de dollars us à la bourse dès Septembre 2020.
 Ils pesaient 100 milliards en 1999 et 100 milliards en 2007.  
 Vos dirigeants ont la conviction de bien faire sous l’œil vigilant et protecteur de vos élites. Sereinement, tous le monde va à la boucherie.  
 Vous pouvez mourir d'un cancer avec la covid19 et être noté pour mort à cause du covid19.  
@@ -51,5 +51,7 @@ Nous n'avons aucune information sur le nombre de cycle pour chaque test PCR.
 Nous n'avons aucun information sur le déploiement du vaccin, 1 dose pour 3 personnes, qui sait cela ?  
 Le virus circulait déjà dans le nord de l'Italie en Novembre et Décembre.  
 Les jeux militaires de Wuhan ? Qui était le médecin colonel qui a vu ces militaires là ? Ils étaient tous malades.  
+
+On verra bien.
 
 [^1]: [traçage des génomes](https://www.msn.com/en-sg/news/world/coronavirus-outbreak-in-france-did-not-come-directly-from-china-gene-tracing-scientists-say/ar-BB13kun3)
