@@ -3,7 +3,7 @@
 
   {{ $comments := readDir "data/comments" }}
   {{ $.Scratch.Add "hasComments" 0 }}
-  {{ $entryId := .UniqueID }}
+  {{ $entryId := .File.UniqueID }}
 
   {{ range $comments }}
     {{ if eq .Name $entryId }}
@@ -29,7 +29,7 @@
   <form class="post-new-comment" method="POST" action="https://subversive.herokuapp.com/v2/entry/subversive-eu/site/master/comments">
   <!--form class="post-new-comment" method="POST" action="http://localhost:8055/v2/entry/eduardoboucas/staticman-test/master/comments"-->
     <input type="hidden" name="options[redirect]" value="{{ .Permalink }}#comment-submitted">
-    <input type="hidden" name="options[entryId]" value="{{ .UniqueID }}">
+    <input type="hidden" name="options[entryId]" value="{{ .File.UniqueID }}">
     <input name="fields[name]" type="text" class="post-comment-field" placeholder="Your name" required>
     <input name="fields[url]" type="text" class="post-comment-field" placeholder="Votre site web">
     <input name="fields[email]" type="email" class="post-comment-field" placeholder="Your email address">
