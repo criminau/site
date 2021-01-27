@@ -15,5 +15,5 @@ En savoir plus :   <https://subversive.eu/apropos/>
  - Essai en local.
  - Charte de publication.
 -> Espace commenantaire disponible.
-- Etude pour répondre aux commentaires.
+- Etude pour complexifier les commentaires (réponses).
 - 
