@@ -8,5 +8,6 @@ En savoir plus :   <https://subversive.eu/apropos/>
 
 ### v.01.8
 
-- Etude d'un problable retour des commentaires
+- Retour des commentaires sans modération et chartre
+- Etude technique et essai des commentaires
 - 
