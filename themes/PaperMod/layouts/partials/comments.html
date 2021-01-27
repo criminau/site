@@ -1,5 +1,5 @@
 <section class="post-comments">
-  <h3>Comments</h3>
+  <h3>Commentaires</h3>
 
   {{ $comments := readDir "data/comments" }}
   {{ $.Scratch.Add "hasComments" 0 }}
@@ -21,27 +21,27 @@
   {{ end }}
 
   {{ if eq ($.Scratch.Get "hasComments") 0 }}
-    <p>Nothing yet. (Aucun commentaire)</p>
+    <p>Aucun commentaire</p>
   {{ end }}
 
-  <h3>Say something</h3>
+  <h3>Dites quelque chose</h3>
 
   <form class="post-new-comment" method="POST" action="https://subversive.herokuapp.com/v2/entry/subversive-eu/site/master/comments">
   <!--form class="post-new-comment" method="POST" action="http://localhost:8055/v2/entry/eduardoboucas/staticman-test/master/comments"-->
     <input type="hidden" name="options[redirect]" value="{{ .Permalink }}#comment-submitted">
     <input type="hidden" name="options[entryId]" value="{{ .File.UniqueID }}">
-    <input name="fields[name]" type="text" class="post-comment-field" placeholder="Your name" required>
-    <input name="fields[url]" type="text" class="post-comment-field" placeholder="Votre site web">
-    <input name="fields[email]" type="email" class="post-comment-field" placeholder="Your email address">
-    <textarea name="fields[body]" class="post-comment-field" placeholder="Your message. Feel free to use Markdown." rows="10" required></textarea>
+    <input name="fields[name]" type="text" class="post-comment-field" placeholder="Pseudonyme (requis)" required>
+    <input name="fields[url]" type="text" class="post-comment-field" placeholder="Site web (optionnel)">
+    <input name="fields[email]" type="email" class="post-comment-field" placeholder="adresse mail (optionnel)">
+    <textarea name="fields[body]" class="post-comment-field" placeholder="Commentaire, vous pouvez utiliser le Markdown." rows="10" required></textarea>
     <input type="submit" class="post-comment-field btn" value="Submit">
   </form>
 </section>
 
 <div id="comment-submitted" class="dialog">
-<h3>Thank you</h3>
-  <p>Your comment has been submitted and will be published once it has been approved.</p>
-  <p><a href="https://github.com/subversive-eu/site/pulls">Click here</a> to see the pull request you generated.</p>
+<h3>Merci</h3>
+  <p>Le commentaire est envoyé. Il sera publié après modération.Your comment has been submitted and will be published once it has been approved.</p>
+  <p>cliquez ce lien pour voir <a href="https://github.com/subversive-eu/site/pulls">la requête générée</a>.</p>
   
   <p><a href="#" class="btn">OK</a></p>
 </div>
