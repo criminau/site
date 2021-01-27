@@ -1,0 +1,5 @@
+# Groupe Tous
+User-agent: *
+Allow: /
+
+Sitemap: https://www.subversive.eu/sitemap.xml
