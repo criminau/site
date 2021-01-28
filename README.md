@@ -9,11 +9,10 @@ En savoir plus :   <https://subversive.eu/apropos/>
 ### v.01.8
 
 - Retour des commentaires.
-- Etude technique et essai(s) des commentaires
- - CSS de l'espace commentaire.
- - Modération après envoi.
- - Charte de publication.
+ - [Charte de publication](https://subversive.eu/chartedepublication.txt)
 -> Espace commenantaire disponible.
+
+### v.01.9
+
 - Etude pour complexifier les commentaires (réponses).
-- Etude Performance du site.
-- 
+- Etude pour améliorer la performance du site.

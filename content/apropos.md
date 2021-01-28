@@ -48,7 +48,9 @@ Les formats PDF sont les plus propres mais pas forcément à jour .
 
 #### Commentaires
 
-- Bientôt.
+- [Staticman](https://staticman.net/)
+- [Heroku](https://www.heroku.com/)
+- [Charte de publication](https://subversive.eu/chartedepublication.txt)
 
 ### Droits
 
@@ -57,6 +59,8 @@ Application complète du [Règlement général sur la protection des données](h
 Aucune action pour suivre les visiteurs.
 
 Ce travail est fourni gratuitement, librement, au monde (sans publicité).
+
+[Droit à l'oubi](https://subversive.eu/chartedepublication.txt)
 
 ### Contact
 

@@ -62,11 +62,23 @@
     font-weight: 700
 }
 
-/* Styles for staticman fields*/
+/* Styles for staticman fields
+-----------------------------------------------------------------------------------------------------*/
+#staticman-button{
+    color: var(--content);
+    margin-top: var(--gap);
+    border: 1px solid var(--tertiary);
+    padding-inline-start: var(--radius);
+    border-radius: var(--radius);
+    display: flex;
+    overflow-x: auto;
+}
 .staticman-comments {
+    color: var(--content);
     margin-bottom: 2rem;
 }
 .staticman-comments .comment-author, .comment-content, .comment-timestamp {
+    color: var(--content);
     margin-top: 0;
     font-size: 0.85rem;
 }
@@ -139,4 +151,23 @@ fieldset {
 }
 #staticman-comments {
     display: none; 
+}
+
+.static-comment{
+    color: var(--content);
+    margin-top: var(--gap);
+    border: 1px solid var(--tertiary);
+    padding-inline-start: var(--radius);
+    border-radius: var(--radius);
+    display: flex;
+    overflow-x: auto;
+}
+.js-form{
+    color: var(--content);
+    margin-top: var(--gap);
+    border: 1px solid var(--tertiary);
+    padding-inline-start: var(--radius);
+    border-radius: var(--radius);
+    display: flex;
+    overflow-x: auto;
 }

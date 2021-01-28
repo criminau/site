@@ -1,5 +1,8 @@
   <!-- securité On demande si il ya bien l'API -->
 {{ with .Site.Params.staticman.api }}
+<div class="classe-commentaire">
+  
+
   <!-- après l'envoi d'un commentaire, on remercie l'utilisateur. -->
 <aside aria-label="note" class="note">
     <section id="comment-thankyou" style="display: none; margin-left: 5px"> 
@@ -15,8 +18,10 @@
     }
 </script>
 
-<button id="staticman-button" onclick="showComments()">Voir les commentaires</button>
+<!-- Bouton pour ouvrir l'espace commentaire -->
+<button title="Ouvrir espace commentaire" id="staticman-button" onclick="showComments()">Voir l'espace commentaire</button>
 
+<!-- Section qui permet l'affichage et la lecture des commenaites -->
 <section id="staticman-comments" class="js-comments staticman-comments">
     <script type="application/javascript">
           {{ partial "staticman-js-common.js" . | safeJS }}
@@ -24,19 +29,21 @@
       <noscript>Activer javascript pour lire les commentaires.</noscript>
 
     {{ $slug := replace $.RelPermalink "/" "" }}
-  
+
+
     {{ if $.Site.Data.comments }}
       {{ $comments := index $.Site.Data.comments $slug }}
+  <!-- Affichage du nombre de commentaires 
       {{ if $comments }}
         {{ if gt (len $comments) 1  }}
-          <h3>{{ len $comments  }} comments</h3>
+          <h3>{{ len $comments  }} commentaires</h3>
         {{ else }}
-          <h3>{{ len $comments  }} comment</h3>
+          <h3>{{ len $comments  }} commentaire</h3>
         {{ end }}
       {{ else }}
         <h3>No comments</h3>
       {{ end }}
-  
+  Fin de l'affichage du nombre de commentaires -->
   
       {{ $.Scratch.Set "hasComments" 0 }}
       {{ range $index, $comments := (index $.Site.Data.comments $slug ) }}
@@ -58,20 +65,24 @@
     {{ end }}
   
   
-  
-  <form class="js-form form" method="post" action="{{ $.Site.Params.staticman.api }}" onsubmit="return checkForm(this);">
-    <fieldset>
-        <input type="hidden" name="options[redirect]" value="{{ $.RelPermalink | absURL }}#comment-thankyou">
-        <input type="hidden" name="options[slug]" value="{{ replace $.RelPermalink "/" "" }}">
-        <input type="hidden" name="options[parent]" value="">
-        <label for="fields[name]">Name:</label>
-        <input name="fields[name]" id="yourname" type="text" placeholder="Votre pseudonyme"/>
-        <label for="fields[comment]">Comment:</label>
-        <textarea name="fields[comment]" id="yourcomment" placeholder="A quoi pensez vous ?"></textarea>
-        <output id="warningComment"></output>
-        <button class="button" id="submitButton">Envoyer</button>
-    </fieldset>
-  </form>
-</section>
-{{ end }}
+  <!-- Formulaire pour écrire un commentaire -->
+<form class="js-form form" method="post" action="{{ $.Site.Params.staticman.api }}" onsubmit="return checkForm(this);">
+  <fieldset>
+      <input type="hidden" name="options[redirect]" value="{{ $.RelPermalink | absURL }}#comment-thankyou">
+      <input type="hidden" name="options[slug]" value="{{ replace $.RelPermalink "/" "" }}">
+      <input type="hidden" name="options[parent]" value="">
+      <label for="fields[name]">Pseudonyme:</label>
+      <input name="fields[name]" id="yourname" type="text" placeholder="Votre pseudonyme"/>
+      <label for="fields[comment]">Commentaire:</label>
+      <textarea name="fields[comment]" id="yourcomment" placeholder="A quoi pensez vous ?"></textarea>
+      <output id="warningComment"></output>
+      <button class="button" id="submitButton">Envoyer</button>
+  </fieldset>
+</form>
 
+</section>
+
+  <!-- Fin class-commentaire -->
+</div>
+  <!-- Fin sécurité -->
+{{ end }}
