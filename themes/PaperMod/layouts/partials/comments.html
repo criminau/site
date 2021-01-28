@@ -1,7 +1,7 @@
 {{ with .Site.Params.staticman.api }}
 <aside aria-label="note" class="note">
     <section id="comment-thankyou" style="display: none; margin-left: 5px"> 
-        Merci de votre commentaire, il apparaîtra après modération.
+        Merci de votre commentaire, il apparaîtra après la build du site (quelques secondes a quelques minutes).
     </section>
 </aside>
 <script type="application/javascript">
@@ -18,7 +18,7 @@
     <script type="application/javascript">
           {{ partial "staticman-js-common.js" . | safeJS }}
       </script>
-      <noscript>Activer les commentaires pour lire les commentaires.</noscript>
+      <noscript>Activer javascript pour lire les commentaires.</noscript>
 
     {{ $slug := replace $.RelPermalink "/" "" }}
   
