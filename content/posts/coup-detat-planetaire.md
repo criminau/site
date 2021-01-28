@@ -2,11 +2,12 @@
 title: "Coup d'état planétaire !"
 author: "subversive"
 ShowToc: false
-draft: true
+draft: false
 hidemeta: true
 tocopen: false
 disableShare: true
-date: 2021-01-30 09:00:00
+comments: false
+date: 2021-01-28 14:00:00
 keyword: ""
 pdfname: ""
 ---
@@ -40,12 +41,12 @@ Vos dirigeants ont la conviction de bien faire sous l’œil vigilant et protect
 Vous pouvez mourir d'un cancer avec la covid19 et être noté pour mort à cause du covid19.  
 Article L1111-4 Code de la santé publique.  
 Le drame ce passe mais pour votre bonheur vous comptez en rester dégagé.  
-Quand vos dirigeants vous disent que la vie ne reviendra pas à la normale, si vous n'en avez pas conscience alors elle ne reviendra pas.  
+Quand vos dirigeants vous disent que la vie ne reviendra pas à la normale, c'est vrai.
 
 Tout ce qui peut amener les individus à penser et à vivre par eux-mêmes est potentiellement subversif.
 
 Nous n'avons aucune information sur le nombre de cycle pour chaque test PCR.  
-Nous n'avons aucun information sur le déploiement du vaccin, 1 dose pour 3 personnes, qui sait cela ?  
+Nous n'avons aucune information sur le déploiement du vaccin, 1 dose pour 3 personnes, qui sait cela ?  
 Le virus circulait déjà dans le nord de l'Italie en Novembre et Décembre.  
 Les jeux militaires de Wuhan ? Qui était le médecin colonel qui a vu ces militaires là ? Ils étaient tous malades.  
 
