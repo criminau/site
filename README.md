@@ -16,3 +16,5 @@ En savoir plus :   <https://subversive.eu/apropos/>
 
 - Etude pour complexifier les commentaires (réponses).
 - Etude pour améliorer la performance du site.
+- Etude pour complexifier la demande de contact.
+- 

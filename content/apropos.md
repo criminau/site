@@ -60,7 +60,7 @@ Aucune action pour suivre les visiteurs.
 
 Ce travail est fourni gratuitement, librement, au monde (sans publicité).
 
-[Droit à l'oubi](https://subversive.eu/chartedepublication.txt)
+[Droit à l'oubli](https://subversive.eu/chartedepublication.txt)
 
 ### Contact
 
