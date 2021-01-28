@@ -1,7 +1,7 @@
 comments:
   allowedFields: ["name", "comment"]
   branch: "master"
-  commitMessage: "New comment in {options.slug}"
+  commitMessage: "Nouveau commentaire"
   filename: "comment-{@timestamp}"
   format: "yaml"
   generatedFields:
@@ -9,9 +9,9 @@ comments:
       type: date
       options:
         format: "iso8601"
-  moderation: true
+  moderation: false
   name: "Subversive.eu"
-  path: "data/comments/{options.slug}"
+  path: "data/comments/{options.entryId}"
   requiredFields: ["name", "comment"]
   transforms:
     email: md5
