@@ -27,12 +27,14 @@ params:
   images:
     - android-chrome-192x192.png
   ShowReadingTime: true
-  comments: false
+  comments: true
   imagesdefault: 'android-chrome-192x192.png'
   defaultTheme: auto
   ShowShareButtons: true
   titleHome: 'subversive.eu Blog pour entretenir votre culture subversive'
   author: subversive.eu
+  staticman:
+    api: 'https://subversive.herokuapp.com/v2/entry/subversive-eu/site/master/comments'
 
 # Paper Mod
   env: production

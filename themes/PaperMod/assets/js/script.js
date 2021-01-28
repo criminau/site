@@ -58,3 +58,6 @@
 })();
 
 // END copybutton Js
+
+/* Script js FOR staticman API */
+
