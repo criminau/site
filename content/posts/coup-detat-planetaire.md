@@ -2,7 +2,7 @@
 title: "Coup d'état planétaire !"
 author: "subversive"
 ShowToc: false
-draft: false
+draft: true
 hidemeta: true
 tocopen: false
 disableShare: true
@@ -49,6 +49,10 @@ Nous n'avons aucune information sur le nombre de cycle pour chaque test PCR.
 Nous n'avons aucune information sur le déploiement du vaccin, 1 dose pour 3 personnes, qui sait cela ?  
 Le virus circulait déjà dans le nord de l'Italie en Novembre et Décembre.  
 Les jeux militaires de Wuhan ? Qui était le médecin colonel qui a vu ces militaires là ? Ils étaient tous malades.  
+
+Le gouvernement ment, tous les gouvernements mentent.
+Affectation monétaire financière individuelle.
+Les trois agences de presses mondiale : AFP Reuters Associated Press
 
 On enferme les gens pour ne pas qu'ils attrapent un rhume.  
 Combattre le mal donne de la valeur a une vie.  
