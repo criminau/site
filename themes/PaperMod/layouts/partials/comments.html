@@ -6,7 +6,7 @@
   <!-- après l'envoi d'un commentaire, on remercie l'utilisateur. -->
 <aside aria-label="note" class="note">
     <section id="comment-thankyou" style="display: none; margin-left: 5px"> 
-        Merci de votre commentaire, il apparaîtra après la build du site (quelques secondes a quelques minutes).
+        Merci pour le commentaire ! Il apparaîtra après la construction (quelques secondes).
     </section>
 </aside>
 
@@ -19,7 +19,7 @@
 </script>
 
 <!-- Bouton pour ouvrir l'espace commentaire -->
-<button title="Ouvrir espace commentaire" id="staticman-button" onclick="showComments()">Voir l'espace commentaire</button>
+<button title="Ouvrir espace commentaire" id="staticman-button" onclick="showComments()">Espace commentaire</button>
 
 <!-- Section qui permet l'affichage et la lecture des commenaites -->
 <section id="staticman-comments" class="js-comments staticman-comments">
@@ -54,7 +54,7 @@
                 <strong>{{ .name }}</strong>
             </div>
             <div class="comment-timestamp">
-                <a href="#comment-{{ $.Scratch.Get "hasComments" }}" title="Permalink to this comment">
+                <a href="#comment-{{ $.Scratch.Get "hasComments" }}" title="Lien vers ce commentaire">
                     <time datetime="{{ .date }}">{{ dateFormat "2 Jan 2006 15:04 MST" .date}}</time>
                 </a>
             </div>
@@ -75,8 +75,8 @@
       <input name="fields[name]" id="yourname" type="text" placeholder="Votre pseudonyme"/>
       <label for="fields[comment]">Commentaire:</label>
       <textarea name="fields[comment]" id="yourcomment" placeholder="A quoi pensez vous ?"></textarea>
-      <output id="warningComment"></output>
-      <button class="button" id="submitButton">Envoyer</button>
+      <output id="warningComment">En cliquant sur envoyer vous acceptez la <a class="" href="https://subversive.eu/chartedepublication.txt">Charte de publication</a></output>
+      <button title="Envoyer le commentaire" class="button" id="submitButton">Envoyer</button>
   </fieldset>
 </form>
 
