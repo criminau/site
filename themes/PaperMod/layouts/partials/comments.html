@@ -1,9 +1,12 @@
+  <!-- securité On demande si il ya bien l'API -->
 {{ with .Site.Params.staticman.api }}
+  <!-- après l'envoi d'un commentaire, on remercie l'utilisateur. -->
 <aside aria-label="note" class="note">
     <section id="comment-thankyou" style="display: none; margin-left: 5px"> 
         Merci de votre commentaire, il apparaîtra après la build du site (quelques secondes a quelques minutes).
     </section>
 </aside>
+
 <script type="application/javascript">
     if (/comment-thankyou/.test(window.location.href)) {
         document.getElementById('comment-thankyou').style.display = 'block';

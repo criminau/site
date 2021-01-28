@@ -8,12 +8,12 @@ En savoir plus :   <https://subversive.eu/apropos/>
 
 ### v.01.8
 
-- Retour des commentaires (sans modération ? avec charte ?)
+- Retour des commentaires.
 - Etude technique et essai(s) des commentaires
  - CSS de l'espace commentaire.
- - Essai de la modération.
- - Essai en local.
+ - Modération après envoi.
  - Charte de publication.
 -> Espace commenantaire disponible.
 - Etude pour complexifier les commentaires (réponses).
+- Etude Performance du site.
 - 
