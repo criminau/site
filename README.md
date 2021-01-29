@@ -8,6 +8,7 @@ En savoir plus :   <https://subversive.eu/apropos/>
 
 ### v.01.9
 
+- Anti-spam.
 - Etude pour complexifier les commentaires (réponses).
 - Etude pour améliorer la performance du site.
 - Etude pour complexifier la demande de contact.
