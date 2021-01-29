@@ -148,7 +148,7 @@ params:
     api: 'https://nomdevotreapp.herokuapp.com/v2/entry/githubprincipal/repositorydusite/master/comments'
 ```
 
-Ajoutez également un dossier /data/ puis /comments/ et un fichier .gitkeep.  
+Ajoutez également un dossier ```/data/ puis /comments/``` et un fichier .gitkeep.  
 Cela permet de maintenir le git push avec les dossiers. Essayez sans, les dossiers vides ne suivront pas sur github.
 
 La variable "comments" vous permet de désactiver les commentaires simplement, vous pouvez aussi l'utiliser dans les params d'un article (ou page : comments: false).
@@ -157,7 +157,7 @@ La variable "comments" vous permet de désactiver les commentaires simplement, v
 
 ### default
 
-Dans layout/_default/single.html insérez :
+Dans ```layout/_default/single.html``` insérez :
 
 ```go
 {{- if and ($.Site.Params.comments) (ne .Params.comments false) }}
@@ -169,13 +169,13 @@ Exemple ici avec [cette option](https://github.com/subversive-eu/site/blob/maste
 
 ### partials
 
-Dans layouts/partials/comments.html (créez le fichier si besoin "comments.html") insérez-y [ce code là](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/partials/comments.html)
+Dans ```layouts/partials/comments.html``` (créez le fichier si besoin "comments.html") insérez-y [ce code là](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/partials/comments.html)
 
 ### javascript
 
 Le javascript est nécessaire dans cette config, à vous de le personnaliser en fonction de vos désirs.
 
-Toujours dans layouts/partials/, créez le fihcier "staticman-js-common.js" et collez-y [ce qu'il y a ici](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/partials/staticman-js-common.js).
+Toujours dans ```layouts/partials/```, créez le fihcier "staticman-js-common.js" et collez-y [ce qu'il y a ici](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/partials/staticman-js-common.js).
 
 Pour des soucis de performance, les liens risquent de ne plus être valide. Aucune importante, allez naviguer sur le github du site.
 
@@ -188,9 +188,12 @@ A vous de choisir en fonction de votre architecture css, en fonction du thème c
 ## Protection contre le spam
 
 [Buster: Captcha Solver for Humans](https://github.com/dessant/buster)  
+A la recherche de l'utilité.  
+[Une liste de possibilité](https://www.cssscript.com/tag/captcha/)  
 A la recherche de la vie privée et de la perfomance.  
 Les CAPTCHA diminuent les performances de vos sites web /apps.  
 
+J'utilise [js-captcha de robiveli](https://github.com/robiveli/js-captcha), je n'ai pas réussi à le styliser comme je voulais.
 
 ## Notes importantes
 
@@ -203,6 +206,11 @@ Les CAPTCHA diminuent les performances de vos sites web /apps.
 ## Astuce
 
 Je maitrîse mal le vocabulaire git mais avant de push -u vers le dépôt github, pensez à utiliser "git pull" pour "rapatrier" les nouveaux commentaires sur votre dépôt local.
+
+### Problème(s) rencontré(s)
+
+L'utilisation de ```{{ $slug := replace $.RelPermalink "/" "-" }}``` avec ```name="options[slug]"``` ne permet l'affichage des commentaires sur les articles où les titres ont des accents.
+
 
 ## Sources
 [Tuto en anglais de 2018](https://www.datascienceblog.net/post/other/staticman_comments/)  

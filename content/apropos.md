@@ -51,6 +51,7 @@ Les formats PDF sont les plus propres mais pas forcément à jour .
 - [Staticman](https://staticman.net/)
 - [Heroku](https://www.heroku.com/)
 - [Charte de publication](https://subversive.eu/chartedepublication.txt)
+- [js-captcha](https://github.com/robiveli/js-captcha)
 
 ### Droits
 

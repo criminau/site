@@ -23,10 +23,11 @@
 
 <!-- Section qui permet l'affichage et la lecture des commenaites -->
 <section id="staticman-comments" class="js-comments staticman-comments">
-      <noscript>Activez javascript pour lire les commentaires.</noscript>
 
-    {{ $slug := replace $.RelPermalink "/" "" }}
+  <noscript>Activez javascript pour lire les commentaires.</noscript>
 
+    <!-- {{ $slug := replace $.RelPermalink "/" "-" }}  -->
+    {{ $slug := replace $.File.Path "/" "-" }}
 
     {{ if $.Site.Data.comments }}
       {{ $comments := index $.Site.Data.comments $slug }}
@@ -66,16 +67,26 @@
 <form class="js-form form" method="post" action="{{ $.Site.Params.staticman.api }}" onsubmit="return checkForm(this);">
   <fieldset>
       <input type="hidden" name="options[redirect]" value="{{ $.RelPermalink | absURL }}#comment-thankyou">
-      <input type="hidden" name="options[slug]" value="{{ replace $.RelPermalink "/" "" }}">
+      <input type="hidden" name="options[slug]" value="{{ replace $.File.Path "/" "-" }}">
       <input type="hidden" name="options[parent]" value="">
       <label for="fields[name]">Pseudonyme:</label>
-      <input name="fields[name]" id="yourname" type="text" placeholder="Votre pseudonyme"/>
+      <input name="fields[name]" id="yourname" type="text" placeholder="Votre pseudonyme" required/>
       <label for="fields[comment]">Commentaire:</label>
-      <textarea name="fields[comment]" id="yourcomment" placeholder="A quoi pensez vous ?"></textarea>
+      <textarea name="fields[comment]" id="yourcomment" placeholder="A quoi pensez vous ?" required></textarea>
       <output id="warningComment">En cliquant sur envoyer vous acceptez la <a class="" href="https://subversive.eu/chartedepublication.txt">Charte de publication</a></output>
-      <button title="Envoyer le commentaire" class="button" id="submitButton">Envoyer</button>
+      
+      <button title="Envoyer le commentaire" class="button" id="submitButton" >Envoyer</button>
   </fieldset>
 </form>
+
+<!-- 
+        <input class="jCaptcha" type="text" name="fields[captcha]" id="youarenotarobot" placeholder="Tapez le résultat s’il vous plaît" >
+        <input class="jCaptcha" type="text" placeholder="Tapez le résultat s’il vous plaît" required>
+      <button title="Envoyer le commentaire" class="button" id="submitButton" type="submit">Envoyer</button>
+
+  -->
+
+
 
 </section>
 

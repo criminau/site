@@ -126,3 +126,13 @@ fieldset {
     font-size: 16px;
     line-height: 1.6;
 }
+
+/* Js antispam css */
+#jCaptchaCanvas{
+/* properties for captcha stylings*/
+background-color: blue;
+
+}
+.jCaptcha.disabled~.button {
+    cursor: not-allowed;
+}
