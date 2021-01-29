@@ -47,7 +47,7 @@ Nommez le, sélectionnez (select scopes) : repo (tous) + user (tous) => Generate
 
 [Télécharger staticman via github](https://github.com/eduardoboucas/staticman) avec le lien https :
 
-```
+```js
 git clone https://github.com/eduardoboucas/staticman.git
 ```
 
@@ -56,7 +56,7 @@ Créez un fichier, nommez-le "Procfile", insérez-y "npm start".
 
 Créez une clé RSA :
 
-```
+```js
 openssl genrsa -out key.pem
 ```
 
@@ -66,7 +66,7 @@ Créez un fichier, nommez-le "config.production.json", insérez-y :
  - votretoken ressemble a celui ci : b81f780f9f5f3be15a5595e618379756344cdsdk2
  - rsakey, collez l'intégralité du fichier key.pem
 
-```
+```js
 {
   "githubToken": "votretoken",
   "rsaPrivateKey": "-----BEGIN RSA PRIVATE KEY\n-----la clé entier-----\nEND RSA PRIVATE KEY-----",
@@ -76,13 +76,13 @@ Créez un fichier, nommez-le "config.production.json", insérez-y :
 
 Connectez votre compte heroku avec :
 
-```
+```js
 heroku login
 ```
 
 Toujours dans le dossier cloné plus haut (staticman), créez une application heroku :
 
-```
+```js
 heroku create nomdevotreapplication
 ```
 
@@ -90,7 +90,7 @@ heroku create nomdevotreapplication
 
 votretoken ressemble a celui ci : b81f780f9f5f3be15a5595e618379756344cdsdk2
 
-```
+```js
 heroku config:set NODE_ENV="production"
 heroku config:set GITHUB_TOKEN="votretoken"
 heroku config:set RSA_PRIVATE_KEY="$(cat ./key.pem)"
@@ -98,7 +98,7 @@ heroku config:set RSA_PRIVATE_KEY="$(cat ./key.pem)"
 
 Créez une branche de production :
 
-```
+```js
 git checkout -b production 55d1430
 ```
 
@@ -107,7 +107,7 @@ Ajoutez dans le fichier .gitignore pour ignorer le fichier configuration.
 
 ### Déploiment
 
-```
+```c++
 git add .
 git commit -m "Set up Staticman v3 for deployment to Heroku"
 git push heroku production:master
@@ -131,7 +131,7 @@ Acceptez l'invitation via le mail de votre githubBOT.
 
 J'ai choisi volontairement de désactiver la modération, mais faites à votre guise.  
 
-```
+```yml
 moderation: true
 ```
 
@@ -141,7 +141,7 @@ A la source (LA RACINE) de votre site, créez un fichier "staticman.yml" , insé
 
 Dans votre fichier config.yml, ajoutez ou complétez :
 
-```
+```yml
 params:
   comments: true
   staticman:
@@ -159,10 +159,10 @@ La variable "comments" vous permet de désactiver les commentaires simplement, v
 
 Dans layout/_default/single.html insérez :
 
-```
-  {{- if and ($.Site.Params.comments) (ne .Params.comments false) }}
-  {{- partial "comments.html" . }}
-  {{- end }}
+```go
+{{- if and ($.Site.Params.comments) (ne .Params.comments false) }}
+{{- partial "comments.html" . }}
+{{- end }}
 ```
 
 Exemple ici avec [cette option](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/_default/single.html) pour activer/désactiver depuis le fichier config.
@@ -187,10 +187,10 @@ A vous de choisir en fonction de votre architecture css, en fonction du thème c
 
 ## Protection contre le spam
 
-[Akismet](askimet.com) me semble correct.
-[ReCaptcha](https://developers.google.com/recaptcha) également.
-[HCaptcha](https://www.hcaptcha.com/)
-Je n'ai pas lu leur respect de la vie privée.
+[Buster: Captcha Solver for Humans](https://github.com/dessant/buster)  
+A la recherche de la vie privée et de la perfomance.  
+Les CAPTCHA diminuent les performances de vos sites web /apps.  
+
 
 ## Notes importantes
 

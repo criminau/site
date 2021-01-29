@@ -23,10 +23,7 @@
 
 <!-- Section qui permet l'affichage et la lecture des commenaites -->
 <section id="staticman-comments" class="js-comments staticman-comments">
-    <script type="application/javascript">
-          {{ partial "staticman-js-common.js" . | safeJS }}
-      </script>
-      <noscript>Activer javascript pour lire les commentaires.</noscript>
+      <noscript>Activez javascript pour lire les commentaires.</noscript>
 
     {{ $slug := replace $.RelPermalink "/" "" }}
 
@@ -71,7 +68,6 @@
       <input type="hidden" name="options[redirect]" value="{{ $.RelPermalink | absURL }}#comment-thankyou">
       <input type="hidden" name="options[slug]" value="{{ replace $.RelPermalink "/" "" }}">
       <input type="hidden" name="options[parent]" value="">
-      <input type="hidden" class="" >
       <label for="fields[name]">Pseudonyme:</label>
       <input name="fields[name]" id="yourname" type="text" placeholder="Votre pseudonyme"/>
       <label for="fields[comment]">Commentaire:</label>

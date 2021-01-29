@@ -235,6 +235,7 @@ highlight shortcode Here testing angular2
 
 #### Code block indented with four spaces
 
+```
     <!doctype html>
     <html lang="en">
     <head>
@@ -245,6 +246,7 @@ highlight shortcode Here testing angular2
       <p>Test</p>
     </body>
     </html>
+```
 
 #### Code block with Hugo's internal highlight shortcode
 

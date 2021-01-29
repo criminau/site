@@ -35,7 +35,7 @@
 <meta name="twitter:widgets:border-color" content="#55acee">
 <meta name="twitter:dnt" content="on">
 <!-- Styles -->
-{{- $anoldhope := resources.Get "css/an-old-hope.min.css" }}
+{{- $anoldhope := resources.Get "css/an-old-hope.css" }}
 {{- $theme := resources.Get "css/theme-vars.css" }}
 {{- $reset := resources.Get "css/reset.css" }}
 {{- $header := resources.Get "css/header.css" }}
@@ -46,8 +46,8 @@
 {{- $archive := resources.Get "css/archive.css" }}
 {{- $footer := resources.Get "css/footer.css" }}
 {{- $404 := resources.Get "css/404.css" }}
-{{- $style := slice $theme $reset $header $main $postentry $postsingle $terms $archive $footer $404 | resources.Concat "stylesheet.css" }}
-{{- $stylesheet := slice $anoldhope $style | resources.Concat "assets/css/stylesheet.css" | minify -}}
+{{- $style := slice $anoldhope $theme $reset $header $main $postentry $postsingle $terms $archive $footer $404 | resources.Concat "stylesheet.css" }}
+{{- $stylesheet := slice $style | resources.Concat "assets/css/stylesheet.css" | minify -}}
 
 <link href="{{ $stylesheet.Permalink }}"  rel="preload stylesheet"
     as="style">
