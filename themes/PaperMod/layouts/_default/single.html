@@ -50,9 +50,12 @@
     {{- end }}
   </footer>
 
+  <!-- Espace commentaire (s1), est-ce que les commentaires sont activés ? -->
   {{- if and ($.Site.Params.comments) (ne .Params.comments false) }}
   {{- partial "comments.html" . }}
   {{- end }}
+  <!-- Fin de l'espace commentaire -->
+  
 </article>
 
 {{- end  }}{{/* end main */}}

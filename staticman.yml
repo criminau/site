@@ -1,5 +1,5 @@
 comments:
-  allowedFields: ["name", "comment", "captcha"]
+  allowedFields: ["name", "comment"]
   branch: "master"
   commitMessage: "Nouveau commentaire"
   filename: "comment-{@timestamp}"

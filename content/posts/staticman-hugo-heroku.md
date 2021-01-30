@@ -20,14 +20,14 @@ Objectif, offrir a vos visiteurs la possibilité d'écrire des commentaires (ou 
 
 Tous les tutos disponibles sur le net (que j'ai lu) sont en anglais, ils datent et certains liens ne fonctionnent plus, bref j'ai du faire un mix de tuto pour y arriver, du coup je vous propose un tuto en français.
 
-N'oubliez jamais que ce qui fonctionne est sur les codes sources des sites. En ce sens si vous copiez-collez et qu'il y a une erreur, cherchez la mise à jour dans le code source sur github.
+N'oubliez jamais que ce qui fonctionne est sur les codes sources des sites. En ce sens si vous copiez-collez et qu'il y a une erreur, cherchez la mise à jour dans le code source sur github des sites qui tournent avec.
 
 ## Requis
 
-Votre compte github principal.  
-Un compte github vérifié qui sera votre bot (ex: githubbot). Conservez les identifiants et mots de passe.  
-Un compte vérifié [heroku](heroku.com). Conservez les identifiants et mot de passe.  
-Heroku cli.
+- Votre compte github principal.  
+- Un compte github vérifié qui sera votre bot (ex: githubbot). Conservez les identifiants et mots de passe.  
+- Un compte vérifié [heroku](https://heroku.com). Conservez les identifiants et mot de passe.  
+- Heroku CLI.
 
 J'utilise [heroku pour ubuntu 20.04](https://snapcraft.io/install/heroku/ubuntu), les commandes sont un petit peu différentes mais la procédure reste la même.
 
@@ -39,7 +39,7 @@ Commençons !
 
 ## Compte githubBOT
 
-Connectez vous à votre compte github BOT, allez dans paramètres du compte (settings du compte) -> Developer settings -> Personal access tokens -> Generate new token.
+Connectez vous à votre compte GithubBOT, allez dans paramètres du compte (settings du compte) -> Developer settings -> Personal access tokens -> Generate new token.
 
 Nommez le, sélectionnez (select scopes) : repo (tous) + user (tous) => Generate token. SAUVEGARDEZ bien votre token sur un fichier txt.
 
@@ -63,8 +63,8 @@ openssl genrsa -out key.pem
 Créez un fichier, nommez-le "config.production.json", insérez-y :
 
 * notes :
- - votretoken ressemble a celui ci : b81f780f9f5f3be15a5595e618379756344cdsdk2
- - rsakey, collez l'intégralité du fichier key.pem
+> votretoken ressemble a celui ci : b81f780f9f5f3be15a5595e618379756344cdsdk2
+> pour la rsaPrivateKey, collez l'intégralité du fichier key.pem
 
 ```js
 {
@@ -73,6 +73,8 @@ Créez un fichier, nommez-le "config.production.json", insérez-y :
   "port": 8080
 }
 ```
+
+(toujours dans le dossier staticman)
 
 Connectez votre compte heroku avec :
 
@@ -88,7 +90,7 @@ heroku create nomdevotreapplication
 
 ### Configuration
 
-votretoken ressemble a celui ci : b81f780f9f5f3be15a5595e618379756344cdsdk2
+(votretoken ressemble a celui ci : b81f780f9f5f3be15a5595e618379756344cdsdk2)
 
 ```js
 heroku config:set NODE_ENV="production"
@@ -102,7 +104,7 @@ Créez une branche de production :
 git checkout -b production 55d1430
 ```
 
-Ajoutez dans le fichier .gitignore pour ignorer le fichier configuration.  
+Ajoutez dans le fichier .gitignore pour ignorer le fichier configuration:  
 "!config.production.json"
 
 ### Déploiment
@@ -123,7 +125,7 @@ Votre app est disponible.
 
 Connectons votre githubBOT avec votre compteGITHUBprincipal.
 
-Pour cela, depuis le dépôt de votre site, allez dans "settings" (paramètres de ce répertoire) -> Manage Access -> Invite a colaborator -> yourgithubBOT -> Invite.
+Pour cela, depuis le dépôt de votre site, allez dans "settings" (paramètres de ce dépôt) -> Manage Access -> Invite a colaborator -> yourgithubBOT -> Invite.
 
 Acceptez l'invitation via le mail de votre githubBOT.
 
@@ -135,9 +137,9 @@ J'ai choisi volontairement de désactiver la modération, mais faites à votre g
 moderation: true
 ```
 
-Cela va créer une "pull request"
+Cela va créer une "pull request" sur votre branche sélectionnée dans staticman.yml.
 
-A la source (LA RACINE) de votre site, créez un fichier "staticman.yml" , insérez-y [ce qu'il y a dans le miens](https://github.com/subversive-eu/site/blob/master/staticman.yml)
+A la source (la RACINE) de votre site, créez un fichier "staticman.yml" , insérez-y [ce qu'il y a dans le miens](https://github.com/subversive-eu/site/blob/master/staticman.yml)
 
 Dans votre fichier config.yml, ajoutez ou complétez :
 
@@ -149,9 +151,9 @@ params:
 ```
 
 Ajoutez également un dossier ```/data/ puis /comments/``` et un fichier .gitkeep.  
-Cela permet de maintenir le git push avec les dossiers. Essayez sans, les dossiers vides ne suivront pas sur github.
+(Cela permet de maintenir le git push avec les dossiers. Essayez sans, les dossiers vides ne suivront pas sur github).
 
-La variable "comments" vous permet de désactiver les commentaires simplement, vous pouvez aussi l'utiliser dans les params d'un article (ou page : comments: false).
+La variable "comments" vous permet de désactiver les commentaires depuis le fichier ```single.html```, vous pouvez aussi l'utiliser dans les params d'un article (ou page : comments: false).
 
 ## Afficher et écrire des commentaires depuis le site
 
@@ -165,57 +167,87 @@ Dans ```layout/_default/single.html``` insérez :
 {{- end }}
 ```
 
-Exemple ici avec [cette option](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/_default/single.html) pour activer/désactiver depuis le fichier config.
+[fichier single.html](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/_default/single.html). (cf juste au-dessus pour activer/désactiver)
 
-### partials
+### html
 
-Dans ```layouts/partials/comments.html``` (créez le fichier si besoin "comments.html") insérez-y [ce code là](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/partials/comments.html)
+Dans ```layouts/partials/comments.html``` (créez le fichier si besoin "comments.html") insérez-y [partials comments.html](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/partials/comments.html).
 
 ### javascript
 
 Le javascript est nécessaire dans cette config, à vous de le personnaliser en fonction de vos désirs.
 
-Toujours dans ```layouts/partials/```, créez le fihcier "staticman-js-common.js" et collez-y [ce qu'il y a ici](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/partials/staticman-js-common.js).
+Pour des soucis de perfomance, le script se trouve dans le fichier [script.js](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/assets/js/script.js).
 
-Pour des soucis de performance, les liens risquent de ne plus être valide. Aucune importante, allez naviguer sur le github du site.
+> Notes: Dans [le partials footer](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/partials/footer.html), mettez votre script en bas des pages pour éviter les erreurs.
 
 ### css
 
-Pour styliser le formulaire et l'affichage avec les boutons [c'est ici](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/assets/css/an-old-hope.min.css)
+Pour styliser le formulaire et l'affichage avec les boutons c'est ici : [CSS styles](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/assets/css/an-old-hope.css)
 
 A vous de choisir en fonction de votre architecture css, en fonction du thème choisi.
 
+Pour styliser le captcha c'est plus complexe cherchez ```// Captcha SETUP Initial``` dans [script.js](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/assets/js/script.js).
+
 ## Protection contre le spam
 
+A la recherche de l'utilité, de la vie privée et de la performance.  
 [Buster: Captcha Solver for Humans](https://github.com/dessant/buster)  
-A la recherche de l'utilité.  
-[Une liste de possibilité](https://www.cssscript.com/tag/captcha/)  
-A la recherche de la vie privée et de la perfomance.  
+
 Les CAPTCHA diminuent les performances de vos sites web /apps.  
 
-J'utilise [js-captcha de robiveli](https://github.com/robiveli/js-captcha), je n'ai pas réussi à le styliser comme je voulais.
+Le REcaptcha favorise a outrance chromium et les comptes google.
+
+Il faut que la réponse soit sur un server distant, sinon le robot (peut) lire la réponse ? En attente de confirmation.
+
+Inutile si peu de visiteurs, car le spam est un marché, qui va ouvrir un commerce où il n'y a personne ?
+
+J'utilise 3 protections (toutes dépassées):
+
+- Pas de javascript = pas de commentaire. Il faut javascript pour afficher les commentaires car il faut cliquer sur le bouton "ouvrir espace commentaire".
+- Un input caché ```<input type="hidden" id="youarenotarobot1">```, le visiteur(non-robot/humain) ne le voit pas mais le robot oui, si il le remplit alor ce n'est pas un humain.
+- [js-captcha de robiveli ](https://github.com/robiveli/js-captcha).
+
+### autre solution
+
+Posséder un serveur, y ajouter staticman + [visual captcha](https://visualcaptcha.net/).  
+Vous pouvez également interdire les url dans le contenu des commentaires.
 
 ## Notes importantes
 
-- Il n'y pas de protection contre le spam, si jamais lisez l'article [Tuto en anglais de 2020](https://jvblog.net/configuring-staticman-hugo/).
+- Il n'y pas de protection contre le spam vraiment active, si jamais lisez l'article [Tuto en anglais de 2020](https://jvblog.net/configuring-staticman-hugo/).
 - Il n'y a pas de modération avant affichage.
 - Ne pas hésiter à observer [le code source du site](https://github.com/subversive-eu/site)
-- Cette version est très simple, sans réponse entre commentaires, avec deux champs requis seulement.
-- Pour observer [où se stocke un commentaire](https://github.com/subversive-eu/site/tree/master/data/comments)
+- Cette version est très simple, sans réponse entre commentaires, avec trois champs requis seulement.
+- Pour observer [où se stocke un commentaire](https://github.com/subversive-eu/site/tree/master/data/comments).
 
 ## Astuce
 
-Je maitrîse mal le vocabulaire git mais avant de push -u vers le dépôt github, pensez à utiliser "git pull" pour "rapatrier" les nouveaux commentaires sur votre dépôt local.
+* Je maitrîse mal le vocabulaire git mais avant de push -u vers le dépôt github, pensez à utiliser "git pull" pour "rapatrier" les nouveaux commentaires sur votre dépôt local.
+
+* Dans la version (v3) de staticman, il n'y aurait plus besoin du Personal access tokens. Mais je ne sais comment procéder.
 
 ### Problème(s) rencontré(s)
 
-L'utilisation de ```{{ $slug := replace $.RelPermalink "/" "-" }}``` avec ```name="options[slug]"``` ne permet l'affichage des commentaires sur les articles où les titres ont des accents.
-
+- L'utilisation de ```{{ $slug := replace $.RelPermalink "/" "-" }}``` avec ```name="options[slug]"``` ne permet l'affichage des commentaires sur les articles où les titres ont des accents. Solution trouvée avec ```{{ replace $.File.Path "/" "-" }}```.
+- J'ai supprimé du script de js-captcha, je ne sais a quoi il sert, il se peut qu'il ne fallait pas le faire.
+- De même pour staticman, le script ReCaptcha n'est pas dispo sur les fichiers de ce site.
+- J'ai un souci de cache-control.
+- Il faut reconstruire le site pour afficher un commentaire, ce qui peu prendre du temps, surtout si le dino (herokuapp) dort..
 
 ## Sources
+
+### tutos
+
 [Tuto en anglais de 2018](https://www.datascienceblog.net/post/other/staticman_comments/)  
 [Tuto en anglais de 2019](https://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/)  
 [Tuto en anglais de 2020](https://jvblog.net/configuring-staticman-hugo/)  
 [Tuto en anglais de 2020 2](https://spinningnumbers.org/a/staticman-heroku.html#site-configuration-files)  
 
+### fichiers
 
+[staticman-js-common.js](https://gist.github.com/JulioV/8f3bfd3113764fc9c66726a12d651820)  
+[staticman-styles.css](https://gist.github.com/JulioV/5e0297961e4425054ec94c44c880fc70)  
+[staticman.html](https://gist.github.com/JulioV/c1386fde8920406f3871666bf059d1a3)  
+[js-captcha-index.js](https://github.com/robiveli/js-captcha/blob/master/src/js/index.js)  
+[js-captcha-index.html](https://github.com/robiveli/js-captcha/blob/master/src/index.html)  

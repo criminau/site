@@ -1,5 +1,5 @@
 
-/* Styles for staticman fields
+/* Styles for Staticman
 -----------------------------------------------------------------------------------------------------*/
 /* Bouton pour ouvrir l'espace commentaire */
 #staticman-button{
@@ -63,7 +63,7 @@
 .staticman-comments .comment-content p {
     padding: 5px 1rem 5px 1rem;
 }
-/* formulaire */
+/* Formulaire */
 .js-form{
     color: var(--content);
     margin-top: var(--gap);
@@ -76,7 +76,7 @@
 fieldset {
     border:none;
 }
-/* input du formulaire pseudo */
+/* les Inputs du Formulaire (pseudo+jscaptcha) */
 .staticman-comments input {
     color: var(--content);
     border: 1px solid var(--tertiary);
@@ -87,7 +87,7 @@ fieldset {
     margin-top: 0.5rem;
     margin-bottom: 1rem;
 }
-/* input du formulaire content */
+/* le textarea du formulaire (comment) */
 .staticman-comments textarea {
     color: var(--content);
     border: 1px solid var(--tertiary);
@@ -100,6 +100,7 @@ fieldset {
     margin-top: 0.5rem;
     margin-bottom: 1rem;
 }
+/* label et bouton */
 .staticman-comments label, .staticman-comments button {
     margin-top: 0.5rem;
     font-size: 0.85rem;
@@ -118,21 +119,33 @@ fieldset {
 #submitButton{
     color: var(--content);
 }
-/* post envoi du commentaire  aside note + section id thankyou*/
+/* post envoi du commentaire  aside note + section id thankyou + p*/
 .note{
     color: var(--content);
 }
-#comment-thankyou{
-    font-size: 16px;
-    line-height: 1.6;
+.comment-merci{
+    color: var(--content);
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    padding: 0.25em 0.75em;
+    margin-bottom: 1rem;
 }
 
-/* Js antispam css */
-#jCaptchaCanvas{
-/* properties for captcha stylings*/
-background-color: blue;
-
-}
+/* Anti-Spam limite d'essai atteinte css*/
 .jCaptcha.disabled~.button {
     cursor: not-allowed;
+}
+/* JS NoScript Message*/
+.no-script-text{
+    color: var(--content);
+    margin-top: var(--gap);
+    border: 1px solid var(--tertiary);
+    padding-inline-start: var(--radius);
+    border-radius: var(--radius);
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    padding: 0.25em 0.75em;
+    margin-bottom: 1rem;
 }

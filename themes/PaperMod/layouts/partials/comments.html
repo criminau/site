@@ -1,32 +1,26 @@
-  <!-- securité On demande si il ya bien l'API -->
+  <!-- On demande s'il ya bien l'API dans config.yml (s2) -->
 {{ with .Site.Params.staticman.api }}
+  <!-- L'API est présent, on peut continuer -->
 <div class="classe-commentaire">
-  
 
-  <!-- après l'envoi d'un commentaire, on remercie l'utilisateur. -->
+  <!-- Si le commentaire est BIEN parti, on remercie l'utilisateur. -->
 <aside aria-label="note" class="note">
-    <section id="comment-thankyou" style="display: none; margin-left: 5px"> 
-        Merci pour le commentaire ! Il apparaîtra après la construction (quelques secondes).
-    </section>
+  <section id="comment-thankyou" style="display: none; margin-left: 5px"> 
+    <p class="comment-merci">Merci pour le commentaire ! Il apparaîtra après la construction (quelques secondes).
+    </p>
+  </section>
 </aside>
 
-<script type="application/javascript">
-    if (/comment-thankyou/.test(window.location.href)) {
-        document.getElementById('comment-thankyou').style.display = 'block';
-    }else{
-        document.getElementById('comment-thankyou').style.display = 'none';
-    }
-</script>
-
-<!-- Bouton pour ouvrir l'espace commentaire -->
+<!-- Bouton pour ouvrir l'espace commentaire (Anti-Spam1)-->
 <button title="Ouvrir espace commentaire" id="staticman-button" onclick="showComments()">Espace commentaire</button>
+
+<!-- Commentaire concernant la désactivation de javascript -->
+<noscript><p class="no-script-text">Activez javascript pour lire les commentaires.</p></noscript>
 
 <!-- Section qui permet l'affichage et la lecture des commenaites -->
 <section id="staticman-comments" class="js-comments staticman-comments">
 
-  <noscript>Activez javascript pour lire les commentaires.</noscript>
-
-    <!-- {{ $slug := replace $.RelPermalink "/" "-" }}  -->
+    <!-- Récupération des commentaires par fichier dans /data/comments/ -->
     {{ $slug := replace $.File.Path "/" "-" }}
 
     {{ if $.Site.Data.comments }}
@@ -43,6 +37,7 @@
       {{ end }}
   Fin de l'affichage du nombre de commentaires -->
   
+  <!-- Affichage d'un commentaire -->
       {{ $.Scratch.Set "hasComments" 0 }}
       {{ range $index, $comments := (index $.Site.Data.comments $slug ) }}
         {{ if not .parent }}
@@ -64,7 +59,7 @@
   
   
   <!-- Formulaire pour écrire un commentaire -->
-<form class="js-form form" method="post" action="{{ $.Site.Params.staticman.api }}" onsubmit="return checkForm(this);">
+<form class="js-form form" method="post" action="{{ $.Site.Params.staticman.api }}">
   <fieldset>
       <input type="hidden" name="options[redirect]" value="{{ $.RelPermalink | absURL }}#comment-thankyou">
       <input type="hidden" name="options[slug]" value="{{ replace $.File.Path "/" "-" }}">
@@ -73,20 +68,14 @@
       <input name="fields[name]" id="yourname" type="text" placeholder="Votre pseudonyme" required/>
       <label for="fields[comment]">Commentaire:</label>
       <textarea name="fields[comment]" id="yourcomment" placeholder="A quoi pensez vous ?" required></textarea>
-      <output id="warningComment">En cliquant sur envoyer vous acceptez la <a class="" href="https://subversive.eu/chartedepublication.txt">Charte de publication</a></output>
-      
-      <button title="Envoyer le commentaire" class="button" id="submitButton" >Envoyer</button>
+      <output id="warningComment">En cliquant sur Envoyer vous acceptez la <a class="" href="https://subversive.eu/chartedepublication.txt">Charte de publication</a></output>
+      <!-- Anti-Spam2 -->
+      <input type="hidden" id="youarenotarobot1">
+      <!-- Anti-Spam3 -->
+      <input class="jCaptcha" type="text" id="youarenotarobot2" placeholder="Tapez le résultat s’il vous plaît">
+      <button title="Envoyer le commentaire" class="button" id="submitButton">Envoyer</button>
   </fieldset>
 </form>
-
-<!-- 
-        <input class="jCaptcha" type="text" name="fields[captcha]" id="youarenotarobot" placeholder="Tapez le résultat s’il vous plaît" >
-        <input class="jCaptcha" type="text" placeholder="Tapez le résultat s’il vous plaît" required>
-      <button title="Envoyer le commentaire" class="button" id="submitButton" type="submit">Envoyer</button>
-
-  -->
-
-
 
 </section>
 

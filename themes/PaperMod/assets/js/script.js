@@ -1,8 +1,8 @@
-
-/* copybutton Js
-Fonctionnement, cf voir markdownsyntax.md
-Add code-copy buttons using progressive enhancement
+/* script.js (tous le javascript du site en bas du site pour ne rien omettre)
+   Bouton copier/coller dans le code des articles
+   Thanks! to :
 https://www.fiznool.com/blog/2018/09/14/adding-click-to-copy-buttons-to-a-hugo-powered-blog/
+   Fonctionnement : cf voir markdownsyntax.md
 --------------------------------------------------------------------------------------------------*/
 (function() {
     'use strict';
@@ -53,18 +53,17 @@ https://www.fiznool.com/blog/2018/09/14/adding-click-to-copy-buttons-to-a-hugo-p
     var highlightBlocks = document.getElementsByClassName('highlight');
     Array.prototype.forEach.call(highlightBlocks, addCopyButton);
 })();
+    /* FIN Bouton copier/coller */
 
-    /* END copybutton JS */
-
-    /* Back to TOP button
+    /* Bouton Retour Haut de la page
 ------------------------------------------------------------------------------------------------*/
-window.onload = function () {
+window.onload = function() {
     if (localStorage.getItem("menu-scroll-position")) {
         document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
     }
 }
 var mybutton = document.getElementById("top-link");
-window.onscroll = function () {
+window.onscroll = function() {
     if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
         mybutton.style.visibility = "visible";
         mybutton.style.opacity = "1";
@@ -73,7 +72,7 @@ window.onscroll = function () {
         mybutton.style.opacity = "0";
     }
 };
-mybutton.onclick = function () {
+mybutton.onclick = function() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
     window.location.hash = ''
@@ -82,12 +81,23 @@ mybutton.onclick = function () {
 function menu_on_scroll() {
     localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
 }
-    /* end */
+    /* FIN bouton haut de page */
 
-    /* JS antispan
------------------------------------------------------------------------------------------------ */
-          /* partie 2 fichier index.js */
-        (function (root, factory) {
+    /* Saticman + Anti-Spam
+-----------------------------------------------------------------------------------*/
+
+// Permet d'afficher l'espace commentaire.
+function showComments() {
+    // Remove button
+    var staticmanButton = document.getElementById('staticman-button');
+    staticmanButton.parentNode.removeChild(staticmanButton); 
+    // Un-hide comments
+    var staticmanComments = document.getElementById('staticman-comments');
+    staticmanComments.style.display = 'block'; 
+}
+
+// Permet de calculer le captcha.
+(function (root, factory) {
   if (root === undefined && window !== undefined) root = window;
   if (typeof define === 'function' && define.amd) {
     // AMD. Register as an anonymous module unless amdModuleId is set
@@ -112,11 +122,10 @@ function menu_on_scroll() {
     num2 = Math.round(Math.random() * 8) + 1;
     sumNum = num1 + num2;
   };
-  /**
-   * @param {Object}
-   * @param {Object}
-   * @param {Boolean}
-  */
+  //
+  // @param {Object}
+  // @param {Object}
+  // @param {Boolean}
 
 
   var setCaptcha = function setCaptcha($el, options, shouldReset) {
@@ -130,13 +139,11 @@ function menu_on_scroll() {
     this.$captchaTextContext.clearRect(0, 0, options.canvasStyle.width, options.canvasStyle.height);
     this.$captchaTextContext.fillText("".concat(num1, " + ").concat(num2, " ").concat(options.requiredValue), 0, 0);
   };
-  /**
-   * @param {Object}
-  */
+  // @param {Object}
+  
 
 
   var jCaptcha = function jCaptcha() {
-
     var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
     this.options = Object.assign({}, {
       el: '.jCaptcha',
@@ -146,8 +153,7 @@ function menu_on_scroll() {
       focusOnError: true,
       clearOnSubmit: true,
       callback: null,
-      canvasStyle: {
-      }
+      canvasStyle: {}
     }, options);
 
     this._init();
@@ -187,32 +193,33 @@ return jCaptcha;
 
 }));
 
-  // optionally, set maximum number of captcha validation on event:
+// Permet d'afficher/déployer un Captcha.
+// Option, choisissez un nombre d'essai maximum pour valider le captcha.
         const maxNumberOfTries = 5;
 
-        // captcha initial setup
+        // Captcha SETUP Initial
         var myCaptcha = new jCaptcha({
             el: '.jCaptcha',
             canvasClass: 'jCaptchaCanvas',
             canvasStyle: {
-                // properties for captcha stylings
-                width: 100,
-                height: 15,
-                textBaseline: 'top',
-                font: '15px Segoe UI bolder',
-                textAlign: 'left',
-                fillStyle: 'red',
+        // properties for captcha stylings
+        width: 100,
+        height: 15,
+        textBaseline: 'top',
+        font: '15px Segoe UI bolder',
+        textAlign: 'left',
+        fillStyle: 'red',
             },
 
             // set callback function
             callback: function (response, $captchaInputElement, numberOfTries) {
 
                 if (maxNumberOfTries === numberOfTries) {
-                    // maximum attempts reached, so do something
+                  // nombre maximum de tentatives atteintes!
                     // e.g. disable the form:
                     document.querySelector('form').removeEventListener('submit', formSubmit);
                     $captchaInputElement.classList.add('disabled');
-                    $captchaInputElement.placeholder = 'Maximum de tentatives atteintes!';
+                    $captchaInputElement.placeholder = 'Maximum attempts reached!';
                     $captchaInputElement.setAttribute('disabled', 'true');
                     document.querySelector('button').setAttribute('disabled', 'true');
 
@@ -220,20 +227,43 @@ return jCaptcha;
                 }
 
                 if (response == 'success') {
-
+                  // réponse valide !
                     $captchaInputElement.classList.remove('error');
                     $captchaInputElement.classList.add('success');
-                    $captchaInputElement.placeholder = 'Succès!';
+                    $captchaInputElement.placeholder = sumNum;
 
-                    // now continue with form submit
-
+                    // Donc maintenant on continue l'envoi du formulaire!
+                 
+                  // pseudonyme vide
+                  if(form.yourname.value == ""){
+                      form.warningComment.style.display = 'block'; 
+                      form.warningComment.innerText = "Veuillez saisir votre pseudonyme";
+                      return false;
+                  }
+                  // commentaire vide
+                  else if(form.yourcomment.value == ""){
+                      form.warningComment.style.display = 'block'; 
+                      form.warningComment.innerText = "S'il vous plait tapez un commentaire";
+                      return false;
+                  }
+                  // input caché n'est pas vide -> pas humain
+                  else if(form.youarenotarobot1.value != ""){
+                    return false;
+                  }
+                  // tout est bon !
+                  else{
+                      form.submitButton.disabled = true;
+                      form.warningComment.style.display = 'none'; 
+                      form.warningComment.innerText = "";
+                      form.submitButton.innerText = "Envoi...";
+                      return true;}
                 }
 
                 if (response == 'error') {
-
+                  // le résultat n'est pas le bon
                     $captchaInputElement.classList.remove('success');
                     $captchaInputElement.classList.add('error');
-                    $captchaInputElement.placeholder = 'S’il vous plaît essayer à nouveau!';
+                    $captchaInputElement.placeholder = 'Please try again!';
 
                 }
 
@@ -241,57 +271,11 @@ return jCaptcha;
 
         });
 
-        function formSubmit(e) {
-
-            e.preventDefault();
-
-            // myCaptcha validate
-            myCaptcha.validate();
-
-        };
-
-        // validate captcha on form submit event
-        document.querySelector('form').addEventListener('submit', formSubmit);
-
-        /* fin*/
-
-    /* staticman-js-common
------------------------------------------------------------------------------------------------*/
-function showComments() {
-    // Remove button
-    var staticmanButton = document.getElementById('staticman-button');
-    staticmanButton.parentNode.removeChild(staticmanButton); 
-    // Un-hide comments
-    var staticmanComments = document.getElementById('staticman-comments');
-    staticmanComments.style.display = 'block'; 
+// Le commentaire bien parti, script pour afficher le message merci!
+if (/comment-thankyou/.test(window.location.href)) {
+    document.getElementById('comment-thankyou').style.display = 'block';
+}else{
+    document.getElementById('comment-thankyou').style.display = 'none';
 }
 
-    function checkForm(form){
-
-
-    if(form.yourname.value == ""){
-        form.warningComment.style.display = 'block'; 
-        form.warningComment.innerText = "Veuillez saisir votre pseudonyme";
-        return false;
-    }
-    else if(form.yourcomment.value == ""){
-        form.warningComment.style.display = 'block'; 
-        form.warningComment.innerText = "S'il vous plait tapez un commentaire";
-        return false;
-    }
-    else if(form.youarenotarobot.value == ""){
-        form.warningComment.style.display = 'block'; 
-        form.warningComment.innerText = "S'il vous plait tapez le résultat!";
-        return false;
-    }
-    else{
-        form.submitButton.disabled = true;
-        form.warningComment.style.display = 'none'; 
-        form.warningComment.innerText = "";
-        form.submitButton.innerText = "Envoi...";
-        return true;
-    }
-    
-}
-
-    /* end staticman js */
+  /* FIN Staticman + Anti-Spam section */
