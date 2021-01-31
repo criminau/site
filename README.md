@@ -12,7 +12,7 @@ En savoir plus :   <https://subversive.eu/apropos/>
 - SecureJS sheet Fingerprint + Minify.
 - SecureCSS sheet Fingerprint + Minify.
 - RSS Atom conservé, peu utilisé mais plus de fonctionnalité.
-- .htaccess
+- .htaccess -> githubpages
 
 /
 

@@ -1,3 +1,5 @@
+RewriteEngine On
+
 # Prevent browsers from incorrectly detecting non-scripts as scripts.
 Header append X-Content-Type-Options: nosniff
 # Prevent click-jacking attacks.
