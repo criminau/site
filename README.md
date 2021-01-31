@@ -15,12 +15,16 @@ En savoir plus :   <https://subversive.eu/apropos/>
 - Noscript message et css.
 - Css style pour le commentaire de remerciement.
 - Anti-Spam respectant la vie privée avec un peu de style.
-- Cache-Control OFF.
+- Cache-Control no-store (OFF).
+- Complément "Respect des visiteurs" internetlibre.txt.
+- Aucune complexification de la demande de contact.
+- .htaccess -> header x-content-type-options.
+- site.webmanifest -> name + short-name.
 
 /
 
 - Confirmer efficacité de l'anti-spam ?
 - Css pour le captcha.
-- Etude pour complexifier la demande de contact.
-- Etude pour un document concernant la vie privée ou complément internetlibre.txt.
 - Cache-Control problèmes.
+- Problèmes de sécurité.
+- 

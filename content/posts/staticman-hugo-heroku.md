@@ -107,7 +107,7 @@ git checkout -b production 55d1430
 Ajoutez dans le fichier .gitignore pour ignorer le fichier configuration:  
 "!config.production.json"
 
-### Déploiment
+### Déploiement
 
 ```c++
 git add .

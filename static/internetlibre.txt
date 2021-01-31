@@ -7,6 +7,7 @@ Pour un web libre, intégralement :
 - Pas de zone/page/section restreinte.
 - Pas de copyrights.
 - Pas de blocage de robots. (A méditer si censure)
+- Pas de censure.
 
 2. Optimiser la copie et le partage
 
@@ -23,6 +24,13 @@ Pour un web libre, intégralement :
 4. Pas de pub
 
 - Pour la section article. (individuellement ou le groupe)
+
+5. Respect des visiteurs
+
+- Aucune action pour suivre les visiteurs.
+- Droit à l'oubli.
+- Protocole https.
+- Pas d'utilisation commerciale des données utilisateurs.
 
 Pour résumer :
 
