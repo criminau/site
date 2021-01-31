@@ -1,4 +1,5 @@
 
+<!-- Version RSS ATOM -->
 {{- $pctx := . -}}
 {{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
 {{- $pages := slice -}}

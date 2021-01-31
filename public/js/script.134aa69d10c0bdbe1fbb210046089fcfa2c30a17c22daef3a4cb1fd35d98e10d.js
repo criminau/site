@@ -55,6 +55,34 @@ https://www.fiznool.com/blog/2018/09/14/adding-click-to-copy-buttons-to-a-hugo-p
 })();
     /* FIN Bouton copier/coller */
 
+    /* Bouton Retour Haut de la page
+------------------------------------------------------------------------------------------------*/
+window.onload = function() {
+    if (localStorage.getItem("menu-scroll-position")) {
+        document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+    }
+}
+var mybutton = document.getElementById("top-link");
+window.onscroll = function() {
+    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+        mybutton.style.visibility = "visible";
+        mybutton.style.opacity = "1";
+    } else {
+        mybutton.style.visibility = "hidden";
+        mybutton.style.opacity = "0";
+    }
+};
+mybutton.onclick = function() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    window.location.hash = ''
+}
+
+function menu_on_scroll() {
+    localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+}
+    /* FIN bouton haut de page */
+
     /* Saticman + Anti-Spam
 -----------------------------------------------------------------------------------*/
 
