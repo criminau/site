@@ -1,12 +1,12 @@
 RewriteEngine On
 
 # Prevent browsers from incorrectly detecting non-scripts as scripts.
-Header append X-Content-Type-Options: nosniff
+Header add X-Content-Type-Options: nosniff
 # Prevent click-jacking attacks.
-Header append X-Frame-Options: DENY
+Header add X-Frame-Options: DENY
 # Prevent reflected cross-site scripting (XSS) attacks.
-Header append X-XSS-Protection: 1; mode=block
+Header add X-XSS-Protection: 1; mode=block
 # Controls how much referrer information should be included with requests.
-Header append Referrer-Policy: strict-origin
+Header add Referrer-Policy: no-referrer
 # Content-Security-Policy by https://github.com/april/laboratory
-Header append Content-Security-Policy: default-src 'none'
+Header add Content-Security-Policy: default-src 'none'
