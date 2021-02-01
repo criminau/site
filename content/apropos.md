@@ -39,7 +39,7 @@ Les formats PDF sont les plus propres mais pas forcément à jour .
 
 #### Hébergement
 
-* [Github Pages](https://pages.github.com/)
+* [Netlify](https://netlify.com.com/)
 * Le domaine subversive.eu est financé intégralement par l'auteur de l'œuvre .
 
 #### Thème

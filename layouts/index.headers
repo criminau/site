@@ -1,7 +1,6 @@
 /*
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 1; mode=block
-  Content-Security-Policy: default-src 'none'
   X-Frame-Options: DENY
   Referrer-Policy: no-referrer
   

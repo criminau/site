@@ -15,8 +15,12 @@
 <meta name="robots" content="index,follow"/>
 <meta name="robots" content="all"/>
 <meta name="googlebot" content="index,follow">
-
+<!-- Meta security PROBLEMS !!
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'">
+-->
+<meta http-equiv="x-dns-prefetch-control" content="off">
 <meta name="referrer" content="no-referrer">
+
 <!-- Meta hreflang -->
 <link rel="alternate" hreflang="fr-be" href="{{ .Permalink }}"/>
 <link rel="alternate" hreflang="fr-fr" href="{{ .Permalink }}"/>
@@ -35,23 +39,7 @@
 <meta name="twitter:widgets:theme" content="light">
 <meta name="twitter:widgets:border-color" content="#55acee">
 <meta name="twitter:dnt" content="on">
-<!-- Styles 
-{{- $anoldhope := resources.Get "css/an-old-hope.css" }}
-{{- $theme := resources.Get "css/theme-vars.css" }}
-{{- $reset := resources.Get "css/reset.css" }}
-{{- $header := resources.Get "css/header.css" }}
-{{- $main := resources.Get "css/main.css" }}
-{{- $postentry := resources.Get "css/post-entry.css" }}
-{{- $postsingle := resources.Get "css/post-single.css" }}
-{{- $terms := resources.Get "css/terms.css" }}
-{{- $archive := resources.Get "css/archive.css" }}
-{{- $footer := resources.Get "css/footer.css" }}
-{{- $404 := resources.Get "css/404.css" }}
-{{- $style := slice $anoldhope $theme $reset $header $main $postentry $postsingle $terms $archive $footer $404 | resources.Concat "stylesheet.css" }}
-{{- $stylesheet := slice $style | resources.Concat "assets/css/stylesheet.css" | minify -}}
-
-<link href="{{ $stylesheet.Permalink }}"  rel="preload stylesheet"
-    as="style">-->
+<!-- Styles -->
 {{- $anoldhope := resources.Get "css/an-old-hope.css" }}
 {{- $theme := resources.Get "css/theme-vars.css" }}
 {{- $reset := resources.Get "css/reset.css" }}
@@ -65,9 +53,9 @@
 {{- $404 := resources.Get "css/404.css" }}
 {{- $style := slice $anoldhope $theme $reset $header $main $postentry $postsingle $terms $archive $footer $404 | resources.Concat "secureCSS.css" }}
 {{- $secureCSS := slice $style | resources.Concat "assets/css/secureCSS.css" | minify | fingerprint -}}
-
 <link href="{{ $secureCSS.Permalink }}"  rel="preload stylesheet"
     as="style" integrity="{{ $secureCSS.Data.Integrity }}">
+    
 <!-- SI Mode Profil activé -->
 {{- if (and (.Site.Params.profileMode.enabled) (.IsHome)) }}
 {{- $profileMode := slice (resources.Get "css/profile-mode.css") | resources.Concat "assets/css/profile-mode.css" | minify }}
