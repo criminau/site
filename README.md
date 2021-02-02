@@ -15,11 +15,11 @@ En savoir plus :   <https://subversive.eu/apropos/>
 - SecureCSS sheet Fingerprint + Minify.
 - RSS Atom conservé, peu utilisé mais plus de fonctionnalité.
 - Hugo version xtended v.80.0.
-- Back to netlify
+- Back to Netlify.com.
 - Secure headers
 - Fix subversive.eu custom domain with DNS verified-for-netlify.subversive.eu !
-/
 
+/
 
 - Confirmer efficacité de l'anti-spam ?
 - Css pour le captcha.
