@@ -17,7 +17,7 @@ cover:
     Caption: ""
 images: "media/640px-Flag_of_FLNKS.png"
 keyword: "collectivité, Nouvelle-Calédonie, République Française, histoire de la colonisation, kanak,"
-pdfname: "nouvelle-caledonie-vs-french-republic.pdf"
+pdfname: "nouvelle-caledonie-vs-french-republic"
 ---
 
 Histoire d'une colonisation et d'une néo-colonisation française.
