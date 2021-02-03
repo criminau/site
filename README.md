@@ -10,4 +10,14 @@ En savoir plus :   <https://subversive.eu/apropos/>
 
 ### v.02.1
 
-- 
+- Cache-Control
+- Nettoyage head.html
+- X-DNS-Prefetch-Control
+- Commentaire de retour
+- SecureJS end
+- Bouton Haut de page accessibilité + JS
+- Correction mineure accessibilité
+
+/
+
+- Problème javascript avec Fingerprint

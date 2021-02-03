@@ -31,7 +31,7 @@
     </style>
 </noscript>
 <header class="header">
-    <nav class="nav">
+    <nav class="nav ">
         <div class="logo">
             <a Title="Page d'accueil du site subversive.eu" href="{{ "" | absLangURL }}">
                 {{- if .Site.Params.label.icon }}
@@ -43,7 +43,7 @@
             <span class="logo-switches">
                 {{- if (and (not .Site.Params.disableThemeToggle) (not (or (eq .Site.Params.defaultTheme "light") (eq .Site.Params.defaultTheme "dark")))) }}
                 <span class="theme-toggle">
-                    <a title="Changer le thème" id="theme-toggle" name="Changer le thème">
+                    <a title="Changer le thème" id="theme-toggle">
                         <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round">
