@@ -2,7 +2,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 <!-- Title -->
 <title>
 {{ if .IsHome }}{{ .Site.Title }} | {{ .Site.Params.HomeInfoParams.Tagline }}{{else}}
@@ -15,16 +14,15 @@
 <meta name="googlebot" content="index,follow">
 <!-- Meta ? -->
 <meta name="referrer" content="no-referrer">
-
 <!-- Meta hreflang -->
 <link rel="alternate" hreflang="fr-be" href="{{ .Permalink }}"/>
 <link rel="alternate" hreflang="fr-fr" href="{{ .Permalink }}"/>
 <link rel="alternate" hreflang="fr-ch" href="{{ .Permalink }}"/>
 <!-- Meta Simple -->
 {{- if in site.Params.mainSections .Type }}
-<meta itemprop="description" name="description" content="{{ .Summary }}">
+<meta name="description" content="{{ .Summary }}">
 {{- else }}
-<meta itemprop="description" name="description" content="{{if .IsHome}}{{ .Site.Params.description }}{{else}}{{ .Title }} - {{ .Site.Title }}{{end}}">
+<meta name="description" content="{{if .IsHome}}{{ .Site.Params.description }}{{else}}{{ .Title }} - {{ .Site.Title }}{{end}}">
 {{- end }}
 <meta name="keywords" content="{{ .Params.keyword | default .Site.Params.keyword }}">
 <meta name="author" content="{{ (partial "author.html" . ) }}">
