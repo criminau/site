@@ -7,7 +7,7 @@ hidemeta: false
 tocopen: false
 disableShare: false
 comments: true
-date: 2021-02-05 18:00:00
+date: 2021-02-05 17:00:00
 keyword: "Commentaires, site, statique, hugo, gohugo, staticman, heroku, open-source, github, netlify"
 pdfname: "staticman-hugo-heroku"
 ---

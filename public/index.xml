@@ -1,4 +1,153 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Subversive</title><language>fr</language><image><url>https://www.subversive.eu/apple-touch-icon.png</url><title>Subversive</title><link>https://subversive.eu/</link></image><author>subversive.eu</author><link>https://subversive.eu/</link><description>Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description><lastBuildDate>Fri, 22 Jan 2021 09:00:00 +0200</lastBuildDate><atom:link href="https://subversive.eu/index.xml" rel="self" type="application/rss+xml"/><item><title>La Nouvelle-Calédonie, collectivité de la République Française</title><link>https://subversive.eu/articles/la-nouvelle-cal%C3%A9donie-collectivit%C3%A9-de-la-r%C3%A9publique-fran%C3%A7aise.html</link><author>subversive.eu</author><pubDate>Fri, 22 Jan 2021 09:00:00 +0200</pubDate><guid>https://subversive.eu/articles/la-nouvelle-cal%C3%A9donie-collectivit%C3%A9-de-la-r%C3%A9publique-fran%C3%A7aise.html</guid><description>&lt;p>Histoire d&amp;rsquo;une colonisation et d&amp;rsquo;une néo-colonisation française.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Subversive</title><language>fr</language><image><url>https://www.subversive.eu/apple-touch-icon.png</url><title>Subversive</title><link>https://subversive.eu/</link></image><author>subversive.eu</author><link>https://subversive.eu/</link><description>Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description><lastBuildDate>Fri, 05 Feb 2021 17:00:00 +0000</lastBuildDate><atom:link href="https://subversive.eu/index.xml" rel="self" type="application/rss+xml"/><item><title>Ecrire des commentaires sur un site statique (hugo) avec staticman et heroku</title><link>https://subversive.eu/articles/ecrire-des-commentaires-sur-un-site-statique-hugo-avec-staticman-et-heroku.html</link><author>subversive.eu</author><pubDate>Fri, 05 Feb 2021 17:00:00 +0000</pubDate><guid>https://subversive.eu/articles/ecrire-des-commentaires-sur-un-site-statique-hugo-avec-staticman-et-heroku.html</guid><description>&lt;p>Bonjour !&lt;/p>
+&lt;p>Tutoriel pour permettre l&amp;rsquo;écriture de commentaires sur un site internet statique avec &lt;a rel="noopener noreferrer" target="_blank" href="https://gohugo.io/" title="hugo cms" >hugo cms&lt;/a>, &lt;a rel="noopener noreferrer" target="_blank" href="https://staticman.net/docs/" title="staticman" >staticman&lt;/a> et &lt;a rel="noopener noreferrer" target="_blank" href="https://www.heroku.com/" title="heroku" >heroku&lt;/a>.&lt;/p>
+&lt;p>Objectif, offrir a vos visiteurs la possibilité d&amp;rsquo;écrire des commentaires (ou autres) sans passer par un organisme tel que Graphcomment ou Disqus,&amp;hellip; Ainsi vous respectez la vie privée de vos utilisateurs.&lt;/p>
+&lt;p>Tous les tutos disponibles sur le net (que j&amp;rsquo;ai lu) sont en anglais, ils datent et certains liens ne fonctionnent plus, bref j&amp;rsquo;ai du faire un mix de tuto pour y arriver, du coup je vous propose un tuto en français.&lt;/p>
+&lt;p>N&amp;rsquo;oubliez jamais que ce qui fonctionne est sur les codes sources des sites. En ce sens si vous copiez-collez et qu&amp;rsquo;il y a une erreur, cherchez la mise à jour dans le code source sur github des sites qui tournent avec.&lt;/p>
+&lt;h2 id="requis">Requis&lt;/h2>
+&lt;ul>
+&lt;li>Votre compte github principal.&lt;/li>
+&lt;li>Un compte github vérifié qui sera votre bot (ex: githubbot). Conservez les identifiants et mots de passe.&lt;/li>
+&lt;li>Un compte vérifié &lt;a rel="noopener noreferrer" target="_blank" href="https://heroku.com" title="heroku" >heroku&lt;/a>. Conservez les identifiants et mot de passe.&lt;/li>
+&lt;li>Heroku CLI.&lt;/li>
+&lt;/ul>
+&lt;p>J&amp;rsquo;utilise &lt;a rel="noopener noreferrer" target="_blank" href="https://snapcraft.io/install/heroku/ubuntu" title="heroku pour ubuntu 20.04" >heroku pour ubuntu 20.04&lt;/a>, les commandes sont un petit peu différentes mais la procédure reste la même.&lt;/p>
+&lt;p>Considérant que vous souhaitez installer staticman sur votre site, vous avez donc la capacité de gérer correctement votre site sous hugo (ou autre), de traduire les .toml en .yml et vice versa.&lt;/p>
+&lt;p>Bien il vous faudra de la patience pour ne manquer aucune étape.&lt;/p>
+&lt;p>Commençons !&lt;/p>
+&lt;h2 id="compte-githubbot">Compte githubBOT&lt;/h2>
+&lt;p>Connectez vous à votre compte GithubBOT, allez dans paramètres du compte (settings du compte) -&amp;gt; Developer settings -&amp;gt; Personal access tokens -&amp;gt; Generate new token.&lt;/p>
+&lt;p>Nommez le, sélectionnez (select scopes) : repo (tous) + user (tous) =&amp;gt; Generate token. SAUVEGARDEZ bien votre token sur un fichier txt.&lt;/p>
+&lt;h2 id="application-heroku">Application Heroku&lt;/h2>
+&lt;p>&lt;a rel="noopener noreferrer" target="_blank" href="https://github.com/eduardoboucas/staticman" title="Télécharger staticman via github" >Télécharger staticman via github&lt;/a> avec le lien https :&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-js" data-lang="js">&lt;span style="color:#a6e22e">git&lt;/span> &lt;span style="color:#a6e22e">clone&lt;/span> &lt;span style="color:#a6e22e">https&lt;/span>&lt;span style="color:#f92672">:&lt;/span>&lt;span style="color:#75715e">//github.com/eduardoboucas/staticman.git
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Allez dans le dossier staticman.&lt;br>
+Créez un fichier, nommez-le &amp;ldquo;Procfile&amp;rdquo;, insérez-y &amp;ldquo;npm start&amp;rdquo;.&lt;/p>
+&lt;p>Créez une clé RSA :&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-js" data-lang="js">&lt;span style="color:#a6e22e">openssl&lt;/span> &lt;span style="color:#a6e22e">genrsa&lt;/span> &lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">out&lt;/span> &lt;span style="color:#a6e22e">key&lt;/span>.&lt;span style="color:#a6e22e">pem&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Créez un fichier, nommez-le &amp;ldquo;config.production.json&amp;rdquo;, insérez-y :&lt;/p>
+&lt;ul>
+&lt;li>notes :&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>votretoken ressemble a celui ci : b81f780f9f5f3be15a5595e618379756344cdsdk2
+pour la rsaPrivateKey, collez l&amp;rsquo;intégralité du fichier key.pem&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-js" data-lang="js">{
+&lt;span style="color:#e6db74">&amp;#34;githubToken&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#34;votretoken&amp;#34;&lt;/span>,
+&lt;span style="color:#e6db74">&amp;#34;rsaPrivateKey&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#34;-----BEGIN RSA PRIVATE KEY\n-----la clé en entier-----\nEND RSA PRIVATE KEY-----&amp;#34;&lt;/span>,
+&lt;span style="color:#e6db74">&amp;#34;port&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#ae81ff">8080&lt;/span>
+}
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>(toujours dans le dossier staticman)&lt;/p>
+&lt;p>Connectez votre compte heroku avec :&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-js" data-lang="js">&lt;span style="color:#a6e22e">heroku&lt;/span> &lt;span style="color:#a6e22e">login&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Toujours dans le dossier cloné plus haut (staticman), créez une application heroku :&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-js" data-lang="js">&lt;span style="color:#a6e22e">heroku&lt;/span> &lt;span style="color:#a6e22e">create&lt;/span> &lt;span style="color:#a6e22e">nomdevotreapplication&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="configuration">Configuration&lt;/h3>
+&lt;p>(votretoken ressemble a celui ci : b81f780f9f5f3be15a5595e618379756344cdsdk2)&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-js" data-lang="js">&lt;span style="color:#a6e22e">heroku&lt;/span> &lt;span style="color:#a6e22e">config&lt;/span>&lt;span style="color:#f92672">:&lt;/span>&lt;span style="color:#a6e22e">set&lt;/span> &lt;span style="color:#a6e22e">NODE_ENV&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;production&amp;#34;&lt;/span>
+&lt;span style="color:#a6e22e">heroku&lt;/span> &lt;span style="color:#a6e22e">config&lt;/span>&lt;span style="color:#f92672">:&lt;/span>&lt;span style="color:#a6e22e">set&lt;/span> &lt;span style="color:#a6e22e">GITHUB_TOKEN&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;votretoken&amp;#34;&lt;/span>
+&lt;span style="color:#a6e22e">heroku&lt;/span> &lt;span style="color:#a6e22e">config&lt;/span>&lt;span style="color:#f92672">:&lt;/span>&lt;span style="color:#a6e22e">set&lt;/span> &lt;span style="color:#a6e22e">RSA_PRIVATE_KEY&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;$(cat ./key.pem)&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Créez une branche de production :&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-js" data-lang="js">&lt;span style="color:#a6e22e">git&lt;/span> &lt;span style="color:#a6e22e">checkout&lt;/span> &lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">b&lt;/span> &lt;span style="color:#a6e22e">production&lt;/span> &lt;span style="color:#ae81ff">55&lt;/span>&lt;span style="color:#a6e22e">d1430&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Ajoutez dans le fichier .gitignore pour ignorer le fichier configuration:&lt;br>
+&amp;ldquo;!config.production.json&amp;rdquo;&lt;/p>
+&lt;h3 id="déploiement">Déploiement&lt;/h3>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-c++" data-lang="c++">git add .
+git commit &lt;span style="color:#f92672">-&lt;/span>m &lt;span style="color:#e6db74">&amp;#34;Set up Staticman v3 for deployment to Heroku&amp;#34;&lt;/span>
+git push heroku production:master
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Si tout c&amp;rsquo;est bien passé, en se rendant sur &lt;a href="https://nomdevotreapplication.herokuapp.com/">https://nomdevotreapplication.herokuapp.com/&lt;/a> vous devez lire :&lt;/p>
+&lt;p>Hello from Staticman version 3.0.0!&lt;/p>
+&lt;p>Votre app est disponible.&lt;/p>
+&lt;h2 id="api-sur-github">API sur github&lt;/h2>
+&lt;p>Connectons votre githubBOT avec votre compteGITHUBprincipal.&lt;/p>
+&lt;p>Pour cela, depuis le dépôt de votre site, allez dans &amp;ldquo;settings&amp;rdquo; (paramètres de ce dépôt) -&amp;gt; Manage Access -&amp;gt; Invite a colaborator -&amp;gt; yourgithubBOT -&amp;gt; Invite.&lt;/p>
+&lt;p>Acceptez l&amp;rsquo;invitation via le mail de votre githubBOT.&lt;/p>
+&lt;h2 id="api-ponts-et-config">API ponts et config&lt;/h2>
+&lt;p>Depuis le fichier staticman.yml, j&amp;rsquo;ai choisi volontairement de désactiver la modération, mais faites à votre guise.&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#f92672">moderation&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Cela va créer une &amp;ldquo;pull request&amp;rdquo; sur votre branche sélectionnée dans staticman.yml.&lt;/p>
+&lt;p>A la source (la RACINE) de votre site, créez un fichier &amp;ldquo;staticman.yml&amp;rdquo; , insérez-y &lt;a rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/site/blob/master/staticman.yml" title="ce qu&amp;amp;rsquo;il y a dans le miens" >ce qu’il y a dans le miens&lt;/a>&lt;/p>
+&lt;p>Dans votre fichier config.yml, ajoutez ou complétez :&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#f92672">params&lt;/span>:
+&lt;span style="color:#f92672">comments&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;span style="color:#f92672">staticman&lt;/span>:
+&lt;span style="color:#f92672">api&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;https://nomdevotreapp.herokuapp.com/v2/entry/githubprincipal/repositorydusite/master/comments&amp;#39;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Ajoutez également un dossier &lt;code>/data/ puis /comments/&lt;/code> et un fichier .gitkeep.&lt;br>
+(Cela permet de maintenir le git push avec les dossiers. Essayez sans, les dossiers vides ne suivront pas sur github).&lt;/p>
+&lt;p>La variable &amp;ldquo;comments&amp;rdquo; vous permet de désactiver les commentaires depuis le fichier &lt;code>single.html&lt;/code>, vous pouvez aussi l&amp;rsquo;utiliser dans les params d&amp;rsquo;un article (ou page : comments: false).&lt;/p>
+&lt;h2 id="afficher-et-écrire-des-commentaires-depuis-le-site">Afficher et écrire des commentaires depuis le site&lt;/h2>
+&lt;h3 id="default">default&lt;/h3>
+&lt;p>Dans &lt;code>layout/_default/single.html&lt;/code> insérez :&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">{{&lt;span style="color:#f92672">-&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#a6e22e">and&lt;/span> (&lt;span style="color:#960050;background-color:#1e0010">$&lt;/span>.&lt;span style="color:#a6e22e">Site&lt;/span>.&lt;span style="color:#a6e22e">Params&lt;/span>.&lt;span style="color:#a6e22e">comments&lt;/span>) (&lt;span style="color:#a6e22e">ne&lt;/span> .&lt;span style="color:#a6e22e">Params&lt;/span>.&lt;span style="color:#a6e22e">comments&lt;/span> &lt;span style="color:#66d9ef">false&lt;/span>) }}
+{{&lt;span style="color:#f92672">-&lt;/span> &lt;span style="color:#a6e22e">partial&lt;/span> &lt;span style="color:#e6db74">&amp;#34;comments.html&amp;#34;&lt;/span> . }}
+{{&lt;span style="color:#f92672">-&lt;/span> &lt;span style="color:#a6e22e">end&lt;/span> }}
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/_default/single.html" title="fichier single.html" >fichier single.html&lt;/a>. (cf juste au-dessus pour activer/désactiver)&lt;/p>
+&lt;h3 id="html">html&lt;/h3>
+&lt;p>Dans &lt;code>layouts/partials/comments.html&lt;/code> (créez le fichier si besoin &amp;ldquo;comments.html&amp;rdquo;) insérez-y &lt;a rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/partials/comments.html" title="partials comments.html" >partials comments.html&lt;/a>.&lt;/p>
+&lt;h3 id="javascript">javascript&lt;/h3>
+&lt;p>Le javascript est nécessaire dans cette config, à vous de le personnaliser en fonction de vos désirs.&lt;/p>
+&lt;p>Pour des soucis de performance, le script se trouve dans le fichier &lt;a rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/site/blob/master/themes/PaperMod/assets/js/script.js" title="script.js" >script.js&lt;/a>.&lt;/p>
+&lt;blockquote>
+&lt;p>Notes: Dans &lt;a rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/partials/footer.html" title="le partials footer" >le partials footer&lt;/a>, mettez votre script en bas des pages pour éviter les erreurs.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="css">css&lt;/h3>
+&lt;p>Pour styliser le formulaire et l&amp;rsquo;affichage avec les boutons c&amp;rsquo;est ici : &lt;a rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/site/blob/master/themes/PaperMod/assets/css/an-old-hope.css" title="CSS styles" >CSS styles&lt;/a>&lt;/p>
+&lt;p>A vous de choisir en fonction de votre architecture css, en fonction du thème choisi.&lt;/p>
+&lt;p>Pour styliser le captcha c&amp;rsquo;est plus complexe cherchez &lt;code>// Captcha SETUP Initial&lt;/code> dans &lt;a rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/site/blob/master/themes/PaperMod/assets/js/script.js" title="script.js" >script.js&lt;/a>.&lt;/p>
+&lt;h2 id="protection-contre-le-spam">Protection contre le spam&lt;/h2>
+&lt;p>A la recherche de l&amp;rsquo;utilité, de la vie privée et de la performance.&lt;br>
+&lt;a rel="noopener noreferrer" target="_blank" href="https://github.com/dessant/buster" title="Buster: Captcha Solver for Humans" >Buster: Captcha Solver for Humans&lt;/a>&lt;/p>
+&lt;p>Les CAPTCHA diminuent les performances de vos sites web /apps.&lt;/p>
+&lt;p>Le REcaptcha favorise a outrance chromium et les comptes google.&lt;/p>
+&lt;p>Il faut que la réponse soit sur un serveur distant, sinon le robot (peut) lire la réponse ? En attente de confirmation.&lt;/p>
+&lt;p>Inutile si peu de visiteurs, car le spam est un marché, qui va ouvrir un commerce où il n&amp;rsquo;y a personne ?&lt;/p>
+&lt;p>J&amp;rsquo;utilise 3 protections (toutes dépassées):&lt;/p>
+&lt;ul>
+&lt;li>Pas de javascript = pas de commentaire. Il faut javascript pour afficher les commentaires car il faut cliquer sur le bouton &amp;ldquo;ouvrir espace commentaire&amp;rdquo;.&lt;/li>
+&lt;li>Un input caché &lt;code>&amp;lt;input type=&amp;quot;hidden&amp;quot; id=&amp;quot;youarenotarobot1&amp;quot;&amp;gt;&lt;/code>, le visiteur(non-robot/humain) ne le voit pas mais le robot oui, si il le remplit alors ce n&amp;rsquo;est pas un humain.&lt;/li>
+&lt;li>&lt;a rel="noopener noreferrer" target="_blank" href="https://github.com/robiveli/js-captcha" title="js-captcha de robiveli " >js-captcha de robiveli&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="autre-solution">autre solution&lt;/h3>
+&lt;p>Posséder un serveur, y ajouter staticman + &lt;a rel="noopener noreferrer" target="_blank" href="https://visualcaptcha.net/" title="visual captcha" >visual captcha&lt;/a>.&lt;br>
+Vous pouvez également interdire les url dans le contenu des commentaires.&lt;/p>
+&lt;h2 id="notes-importantes">Notes importantes&lt;/h2>
+&lt;ul>
+&lt;li>Il n&amp;rsquo;y pas de protection contre le spam vraiment active, si jamais lisez l&amp;rsquo;article &lt;a rel="noopener noreferrer" target="_blank" href="https://jvblog.net/configuring-staticman-hugo/" title="Tuto en anglais de 2020" >Tuto en anglais de 2020&lt;/a>.&lt;/li>
+&lt;li>Il n&amp;rsquo;y a pas de modération avant affichage.&lt;/li>
+&lt;li>Ne pas hésiter à observer &lt;a rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/site" title="le code source du site" >le code source du site&lt;/a>&lt;/li>
+&lt;li>Cette version est très simple, sans réponse entre commentaires, avec trois champs requis seulement.&lt;/li>
+&lt;li>Pour observer &lt;a rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/site/tree/master/data/comments" title="où se stocke un commentaire" >où se stocke un commentaire&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="astuce">Astuce&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Je maîtrise mal le vocabulaire git mais avant de push -u vers le dépôt github, pensez à utiliser &amp;ldquo;git pull&amp;rdquo; pour &amp;ldquo;rapatrier&amp;rdquo; les nouveaux commentaires sur votre dépôt local.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Dans la version (v3) de staticman, il n&amp;rsquo;y aurait plus besoin du Personal access tokens. Mais je ne sais comment procéder.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="problèmes-rencontrés">Problème(s) rencontré(s)&lt;/h3>
+&lt;ul>
+&lt;li>L&amp;rsquo;utilisation de &lt;code>{{ $slug := replace $.RelPermalink &amp;quot;/&amp;quot; &amp;quot;-&amp;quot; }}&lt;/code> avec &lt;code>name=&amp;quot;options[slug]&amp;quot;&lt;/code> ne permet l&amp;rsquo;affichage des commentaires sur les articles où les titres ont des accents. Solution trouvée avec &lt;code>{{ replace $.File.Path &amp;quot;/&amp;quot; &amp;quot;-&amp;quot; }}&lt;/code>.&lt;/li>
+&lt;li>J&amp;rsquo;ai supprimé du script de js-captcha, je ne sais a quoi il sert, il se peut qu&amp;rsquo;il ne fallait pas le faire.&lt;/li>
+&lt;li>De même pour staticman, le script ReCaptcha n&amp;rsquo;est pas dispo sur les fichiers de ce site.&lt;/li>
+&lt;li>J&amp;rsquo;ai un souci de cache-control depuis que les commentaires sont disponibles [résolus].&lt;/li>
+&lt;li>Il faut reconstruire le site pour afficher un commentaire, ce qui peu prendre du temps, surtout si le dino (herokuapp) dort..&lt;/li>
+&lt;/ul>
+&lt;h2 id="sources">Sources&lt;/h2>
+&lt;h3 id="tutos">tutos&lt;/h3>
+&lt;p>&lt;a rel="noopener noreferrer" target="_blank" href="https://www.datascienceblog.net/post/other/staticman_comments/" title="Tuto en anglais de 2018" >Tuto en anglais de 2018&lt;/a>&lt;br>
+&lt;a rel="noopener noreferrer" target="_blank" href="https://yasoob.me/posts/running_staticman_on_static_hugo_blog_with_nested_comments/" title="Tuto en anglais de 2019" >Tuto en anglais de 2019&lt;/a>&lt;br>
+&lt;a rel="noopener noreferrer" target="_blank" href="https://jvblog.net/configuring-staticman-hugo/" title="Tuto en anglais de 2020" >Tuto en anglais de 2020&lt;/a>&lt;br>
+&lt;a rel="noopener noreferrer" target="_blank" href="https://spinningnumbers.org/a/staticman-heroku.html#site-configuration-files" title="Tuto en anglais de 2020 2" >Tuto en anglais de 2020 2&lt;/a>&lt;/p>
+&lt;h3 id="fichiers">fichiers&lt;/h3>
+&lt;p>Ceux au complet dont je me suis servi.&lt;/p>
+&lt;p>&lt;a rel="noopener noreferrer" target="_blank" href="https://gist.github.com/JulioV/8f3bfd3113764fc9c66726a12d651820" title="staticman-js-common.js" >staticman-js-common.js&lt;/a>&lt;br>
+&lt;a rel="noopener noreferrer" target="_blank" href="https://gist.github.com/JulioV/5e0297961e4425054ec94c44c880fc70" title="staticman-styles.css" >staticman-styles.css&lt;/a>&lt;br>
+&lt;a rel="noopener noreferrer" target="_blank" href="https://gist.github.com/JulioV/c1386fde8920406f3871666bf059d1a3" title="staticman.html" >staticman.html&lt;/a>&lt;br>
+&lt;a rel="noopener noreferrer" target="_blank" href="https://github.com/robiveli/js-captcha/blob/master/src/js/index.js" title="js-captcha-index.js" >js-captcha-index.js&lt;/a>&lt;br>
+&lt;a rel="noopener noreferrer" target="_blank" href="https://github.com/robiveli/js-captcha/blob/master/src/index.html" title="js-captcha-index.html" >js-captcha-index.html&lt;/a>&lt;/p></description></item><item><title>La Nouvelle-Calédonie, collectivité de la République Française</title><link>https://subversive.eu/articles/la-nouvelle-cal%C3%A9donie-collectivit%C3%A9-de-la-r%C3%A9publique-fran%C3%A7aise.html</link><author>subversive.eu</author><pubDate>Fri, 22 Jan 2021 09:00:00 +0200</pubDate><guid>https://subversive.eu/articles/la-nouvelle-cal%C3%A9donie-collectivit%C3%A9-de-la-r%C3%A9publique-fran%C3%A7aise.html</guid><description>&lt;p>Histoire d&amp;rsquo;une colonisation et d&amp;rsquo;une néo-colonisation française.&lt;/p>
 &lt;h2 id="histoire">Histoire&lt;/h2>
 &lt;p>Le 4 septembre 1774, l&amp;rsquo;enseigne de vaisseau James Colnett aperçoit à l&amp;rsquo;horizon une terre inconnue des Européens.&lt;/p>
 &lt;p>C&amp;rsquo;est le début de la domination des anglais au pacifique, des missionnaires protestants sont envoyés pour répandre la foi. Pour lutter contre l’expansionnisme de la couronne britannique, la France va s’approprier l&amp;rsquo;île de la Grande Terre en 1853, et dix ans plus tard y installer une administration pénitentiaire, car le bagne de Guyane déborde. Ils y fondent également une garnison marine pour protéger les intérêts commerciaux de l&amp;rsquo;empire colonial. Les raids meurtriers contre les anglais, kanaks ou autres peuples hostiles au commerce français sont courants, des villages entiers seront rasés.&lt;/p>
@@ -1646,86 +1795,4 @@ Des théories affirment que la modernisation permet la domination, or la récent
 &lt;p>Les États-Unis ont une histoire courte mais chargée. En 2 ans, ils se sont aliénés de l’Europe, de la Russie, du Mexique, de la Chine, du Japon et de l’Inde pour ne nommer que les grands ensembles. Les alliances de l&amp;rsquo;OTAN, ne servent que les intérêts du multilatéralisme en Europe. La peur du Russe ne semble plus présente, les menaces viennent d&amp;rsquo;ailleurs. Au 19e siècle, les usa marquent leur territoire et leur domination sur l&amp;rsquo;amérique centrale et du sud. Une vingtaine d&amp;rsquo;interventions militaires, imposent de lourdes closes aux pays du sud. Avant, à partir de Pearl Harbor de sortir de leur isolationnisme, et c&amp;rsquo;est vers quoi ils tendent. L&amp;rsquo;arrivée de la Chine sur les capitaux aux Caraïbes et surtout a panama, montre bien le début d&amp;rsquo;une nouvelle ère, où le numéro 2 fait vaciller le numéro 1, avant de lui passer devant. Les Investissements direct étrangers proviennent majoritairement de chine. A noter qu&amp;rsquo;en France les Usa investissent à nouveau. Point que je n&amp;rsquo;arrive pas à comprendre.&lt;/p>
 &lt;p>Le rapprochement avec la Russie de l&amp;rsquo;Allemagne et la France, montre que les Usa ne font plus peur mais que la menace vient d&amp;rsquo;ailleurs. Malgré leurs grognements, l&amp;rsquo;Europe de la défense continue son chemin, les agressions turques nous permettrons de nous souder, le nouveau cloud européen ajoute la notion de corporation et de superpuissance. La France a son rôle à jouer car elle est la seule à posséder et maîtriser une armée invincible. Il nous faudra donc négocier avec les Allemands afin d&amp;rsquo;envisager, une défense plus approfondie, je ne pense pas que nous soyons prêt, et que les nations européennes le soit aussi, a prêter et utiliser notre bombe. Dès 2016, la France disait à l&amp;rsquo;OTAN que la menace n&amp;rsquo;était plus la Russie d&amp;rsquo;après elle. Et on le voit aujourd&amp;rsquo;hui. Les tentatives d&amp;rsquo;accords entre la France et les Anglais sur l&amp;rsquo;arme atomique nous témoigne que nous ne sommes toujours pas prêt à partager notre arme. Mais nul doute que personne n&amp;rsquo;osera taper un pays de l&amp;rsquo;Europe tant qu&amp;rsquo;un possède la bombe. C&amp;rsquo;est sur ce point là, notamment vis à vis de la Grèce, que le Sultan Turc ne viendra pas en face à face.&lt;/p>
 &lt;h2 id="pour-penser-plus-loin">Pour penser plus loin.&lt;/h2>
-&lt;p>Il faut une bonne dose de chauvinisme pour lire et comprendre cet article. Je pense que les Européens ont bien compris qu&amp;rsquo;être les premiers est trop compliqué, mieux vaut suivre sereinement. Les Russes et Japonais probablement. Mais pour les autres, l&amp;rsquo;Histoire nous le dira.&lt;/p></description></item><item><title>Covid19 Réflexion disparités entre pays</title><link>https://subversive.eu/articles/covid19-r%C3%A9flexion-disparit%C3%A9s-entre-pays.html</link><author>subversive.eu</author><pubDate>Mon, 04 May 2020 18:00:00 +0200</pubDate><guid>https://subversive.eu/articles/covid19-r%C3%A9flexion-disparit%C3%A9s-entre-pays.html</guid><description>&lt;p>Données prise le 24/04/2020 21:30&lt;br>
-Sources : covinfo.fr + IHU Marseille + Google Data.&lt;br>
-Echantillon, toute la population.&lt;/p>
-&lt;p>Monde :&lt;br>
-/ Absence&lt;br>
-0.0033 % Contaminé&lt;br>
-6.76 % de mortalité&lt;/p>
-&lt;p>France : 184 140 / 22 150&lt;br>
-/ Absence&lt;br>
-0.27 % Contaminé&lt;br>
-12.02 % Mortalité&lt;/p>
-&lt;p>Marseille : 1 045 823 / 38 372 / 4 651 / 109&lt;br>
-3,669 % de la Population testé&lt;br>
-0.44 % Contaminé&lt;br>
-2.34 % de Mortalité&lt;/p>
-&lt;p>Marseille HCQ + AZ : 1061 / 8&lt;br>
-0.75 % Mortalité&lt;/p>
-&lt;p>Allemagne : 154 000 / 5 653&lt;br>
-/ Absence&lt;br>
-0.18 % Contaminé&lt;br>
-3.67 % Mortalité&lt;/p>
-&lt;p>Corée du Sud : 10 708 / 240&lt;br>
-/ Absence&lt;br>
-0.02 % Contaminé&lt;br>
-2.2 % Mortalité&lt;/p>
-&lt;p>Islande : 364 134 / 36 420 / 1789 / 10&lt;br>
-10 % Testé&lt;br>
-0.49 % Contaminé&lt;br>
-0.55 % Mortalité&lt;/p>
-&lt;p>Sénégal HCQ + AZ: 545 / 6&lt;br>
-/ Absence&lt;br>
-0.0003 % Contaminé&lt;br>
-1.1 % Mortalité&lt;br>
-/ Absence de donnée concernant les traitements&lt;/p>
-&lt;p>Chili : 12 306 / 174&lt;br>
-/ Absence&lt;br>
-0.06 % Contaminé&lt;br>
-1.41 % Mortalité&lt;/p>
-&lt;h2 id="notes">Notes&lt;/h2>
-&lt;p>Les patients reçoivent le traitement avant la chute virale.&lt;br>
-2% des enfants (moins de 13 ans) sont susceptibles de contracter le virus.&lt;br>
-1% des enfants ont des charges virales suffisamment élevées pour transmettre le virus.&lt;br>
-Beaucoup de patients meurent sans être atteints du virus, mais le virus les a détruit.&lt;br>
-Il faut agir vite afin de faire baisser la charge virale. Si elle vient à baisser d&amp;rsquo;elle même il est souvent trop tard.&lt;br>
-Les patients testés à l&amp;rsquo;HCQ hors Marseille sont pour la plupart en phase terminale.&lt;/p>
-&lt;h3 id="a-retenir">A retenir&lt;/h3>
-&lt;p>Le traitement casse la charge virale en peu de temps, permet ainsi au patient de ne pas subir le virus.&lt;br>
-Le traitement ne contient pas la maladie et ne vous guérit pas.&lt;/p>
-&lt;p>Les tests semblent non négociable afin de réduire la propagation.&lt;br>
-Il est fort probable qu&amp;rsquo;un confinement même tardif ait eu une importance majeure même sans test.&lt;br>
-Il est fort probable que le port du masque par protection contre la pollution est réduit la transmission du virus. (Notamment en Asie -Corée du Sud-)&lt;br>
-L&amp;rsquo;incompréhension par idiotie me cloue le bec concernant les pays scandinaves.&lt;br>
-L&amp;rsquo;absence de données en chine (300 millions de personnes) est justifiée par une pauvreté terrible, de même que l&amp;rsquo;Afrique, qui a une population jeune, l’Amérique du Sud et le Moyen-Orient.&lt;br>
-Ainsi il semble compliqué d&amp;rsquo;analyser les données à grande échelle comme à petite échelle, l&amp;rsquo;absence de données et de connaissance nous aveugle trop.&lt;br>
-De plus le manque de tests en France laisse une vide considérable concernant le taux de population touchée.
-L&amp;rsquo;islande est un sujet sensible également.&lt;br>
-L&amp;rsquo;île a une très faible densité, comparé à Marseille. De plus une chose qui passe inaperçu, la différence génétique à Marseille est trop grande pour être comparé à celle de l&amp;rsquo;Islande.&lt;/p>
-&lt;p>Dans l&amp;rsquo;hémisphère Nord, seul les pays avec un grand nombre de tests ont des mortalités plus faible.&lt;br>
-Globalement l&amp;rsquo;Hémisphère Sud a moins de cas et de mortalité. La zone équatoriale semble être elle aussi épargnée.&lt;br>
-Personne n&amp;rsquo;a donné à ce jour d&amp;rsquo;explication scientifique fiable concernant une explication des capacités de transmissions des virus selon les hémisphères.&lt;br>
-Considérons alors qu&amp;rsquo;il est fort probable, comme plus de 2000 coronavirus, que ceux sévissant en Europe ne se transmettent à partir de Juillet. Mais qu&amp;rsquo;ils reviendront.&lt;/p>
-&lt;p>Concernant les pays moins développés que l&amp;rsquo;Europe, leur population voyage moins, leurs échanges sont plus petits, donc l&amp;rsquo;importation du virus a été moindre que les pays riches.&lt;br>
-Nous manquons de données fiable pour le Sénégal et le Maroc concernant les traitements HCQ + AZ.&lt;br>
-Les chiffres du Chili sont complétements faux et ont probablement plusieurs semaines de retard.&lt;br>
-Jusqu&amp;rsquo;à présent seule Marseille teste les morts et les patients hospitalisés. Les hôpitaux par chez moi commence - à la fin de l’épidémie- à sortir les patients des services réa + med car leurs charges virales sont faible et leur moral est au plus bas.&lt;br>
-Il est à noter que d&amp;rsquo;après nos historiens, aucun pays du monde, aucune ethnie, a aucun moment ne se soit préparé à des pandémies.&lt;/p>
-&lt;p>Le nombre de mort par jour sur la Terre est de 150 000 en moyenne en temps normal.&lt;br>
-Nous avons connu des trimestres français beaucoup plus triste que celui-ci.&lt;br>
-Nous nous devons d&amp;rsquo;être prêt pour les prochaines maladies.&lt;/p>
-&lt;p>L&amp;rsquo;annulation des dettes africaines permettrait de ralentir le développement Chinois.&lt;br>
-L&amp;rsquo;Europe après avoir constatée une agressivité étrangère, fait de même, triste sort.&lt;br>
-La Russie a jouée la sagesse au début de la crise, puis deux trois pays du monde ont chatouillé les orteils de l&amp;rsquo;ours russe. Jouer avec des barils ne leur a pas été bénéfique sur du court terme.&lt;br>
-Mais notons que l&amp;rsquo;ennemi est toujours le même, le peuple, il gronde sur yandex.map &amp;hellip;&lt;/p>
-&lt;p>Je note un agacement, traduisant une incompréhension générale envers nos parisiens qui savent pour nous.&lt;/p>
-&lt;h2 id="pour-penser-plus-loin-">Pour penser plus loin :&lt;/h2>
-&lt;p>Comme l&amp;rsquo;a dit le président Sénégalais, il serait temps que l&amp;rsquo;Humanité pense Humanité.&lt;br>
-Il est certain que les gouvernements mentent.&lt;br>
-Tout comme il est évidemment qu&amp;rsquo;ils en profitent pour poursuivre leur dérive autoritaire que la soif de terrorisme n&amp;rsquo;arrive pas à éteindre.&lt;br>
-Est-il envisageable que cette maladie soit un avertissement envers une race d&amp;rsquo;homme trop nombreux, enfermés sur une planète et incapable de se réguler ? Un avertissement de dame nature (appelé cela comme vous le souhaitez, Dieu, la création, la vie, la nature,..)&lt;br>
-Est-il envisageable que cette maladie soit un énième coup de Trafalgar de nos richous ?&lt;br>
-Durant ce confinement, j&amp;rsquo;ai eu confirmation que 30 000 ans d&amp;rsquo;histoire n&amp;rsquo;assure pas une évolution cérébrale telle que la différence sautera aux yeux.&lt;/p>
-&lt;h2 id="pour-conclure">Pour conclure&lt;/h2>
-&lt;p>Vous retiendrez ce qui vous intéresse.&lt;/p></description></item></channel></rss>
+&lt;p>Il faut une bonne dose de chauvinisme pour lire et comprendre cet article. Je pense que les Européens ont bien compris qu&amp;rsquo;être les premiers est trop compliqué, mieux vaut suivre sereinement. Les Russes et Japonais probablement. Mais pour les autres, l&amp;rsquo;Histoire nous le dira.&lt;/p></description></item></channel></rss>
