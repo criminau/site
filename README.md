@@ -19,10 +19,10 @@ En savoir plus :   <https://subversive.eu/apropos/>
 - Correction mineure accessibilité
 - Correction mineure HTML5
 - Affichage du nombre de commentaires
+- RSS 2 correction majeure
 
 /
 
 - Problème javascript avec Fingerprint
 - Itemscope redéfinir
 - Content-Security-Policy
-- Atom RSS correction mineure

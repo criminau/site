@@ -18,7 +18,7 @@ buildDraft: true
 
 # Perf Active later.
 minify:
- minifyOutput: true
+ minifyOutput: false
 # disableXML: true
 
 params:
@@ -32,9 +32,11 @@ params:
   defaultTheme: auto
   ShowShareButtons: true
   titleHome: 'subversive.eu Blog pour entretenir votre culture subversive'
-  author: subversive
+  author: subversive.eu
+  RSSauthor: subversive.eu@tutanota.com
   staticman:
     api: 'https://subversive.herokuapp.com/v2/entry/subversive-eu/site/master/comments'
+  copyright: 'https://subversive.eu/internetlibre.txt'
 
 # Paper Mod
   env: production
