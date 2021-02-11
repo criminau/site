@@ -24,5 +24,5 @@ En savoir plus :   <https://subversive.eu/apropos/>
 /
 
 - Problème javascript avec Fingerprint
-- Itemscope redéfinir
+- Itemscope Définition complète.
 - Content-Security-Policy
