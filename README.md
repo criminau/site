@@ -10,17 +10,19 @@ En savoir plus :   <https://subversive.eu/apropos/>
 
 ### v.02.1
 
-- Cache-Control
+- Cache-Control (nope?)
 - Nettoyage head.html
 - X-DNS-Prefetch-Control
 - Commentaire de retour
 - SecureJS end
 - Bouton Haut de page accessibilité + JS
-- Correction mineure accessibilité
+- Corrections accessibilités.
 - Correction HTML5
 - Affichage du nombre de commentaires
 - RSS 2 corrections majeures
 - Itemscope correction.
+- Emoji support
+- Head HTML corrections
 
 /
 

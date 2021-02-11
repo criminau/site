@@ -5,7 +5,7 @@
 
 <!-- le bouton retour haut de page -->
 
-  <button class="top-link" id="top-link" type="button" name="Haut de page" >
+  <button aria-label="Retour en haut de la page" class="top-link" id="top-link" type="button" name="Haut de page" >
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <polyline points="18 15 12 9 6 15" /></svg>
   </button>
@@ -32,4 +32,4 @@ localStorage.setItem("pref-theme", 'dark');
 <!-- fichier script.js minifié + (garantie de l'intégrité) -->
 {{ $js := resources.Get "js/script.js" }}
 {{ $JS := $js | resources.Minify }}
-<script src="{{ $JS.Permalink }}"></script>
+<script rel="preload" async type="text/javascript" src="{{ $JS.Permalink }}"></script>

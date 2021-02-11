@@ -1,6 +1,5 @@
 <!-- <Head> -->
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Title -->
 <title>
@@ -12,12 +11,19 @@
 <meta name="robots" content="index,follow"/>
 <meta name="robots" content="all"/>
 <meta name="googlebot" content="index,follow">
+
 <!-- Meta ? -->
 <meta name="referrer" content="no-referrer">
+
+<!-- Meta Apple -> To run web application in full-screen  -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
 <!-- Meta hreflang -->
 <link rel="alternate" hreflang="fr-be" href="{{ .Permalink }}"/>
 <link rel="alternate" hreflang="fr-fr" href="{{ .Permalink }}"/>
 <link rel="alternate" hreflang="fr-ch" href="{{ .Permalink }}"/>
+
 <!-- Meta Simple -->
 {{- if in site.Params.mainSections .Type }}
 <meta name="description" content="{{ .Summary }}">
@@ -59,7 +65,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+<link rel="manifest" type="application/manifest+json" href="/site.webmanifest">
 <!-- Generator -->
 {{- hugo.Generator }}
 <!-- RSS -->
@@ -71,3 +77,13 @@
 {{- template "partials/templates/twitter_cards.html" . }}
 {{- template "partials/templates/schema_json.html" . }}
 {{- end }}
+
+<!--
+
+
+ Microsoft Tiles 
+<meta name="msapplication-config" content="browserconfig.xml">
+
+	<element dir="ltr|rtl|auto"> 
+
+-->

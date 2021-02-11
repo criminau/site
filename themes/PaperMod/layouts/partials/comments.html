@@ -12,7 +12,7 @@
 </aside>
 
 <!-- Bouton pour ouvrir l'espace commentaire (Anti-Spam1)-->
-<button title="Ouvrir espace commentaire" id="staticman-button" onclick="showComments()">Espace commentaire</button>
+<button aria-label="Ouvrir espace commentaire" title="Ouvrir espace commentaire" id="staticman-button" onclick="showComments()">Espace commentaire</button>
 
 <!-- Commentaire concernant la désactivation de javascript -->
 <noscript><p class="no-script-text">Activez javascript pour lire les commentaires.</p></noscript>
@@ -64,16 +64,16 @@
       <input type="hidden" name="options[redirect]" value="{{ $.RelPermalink | absURL }}#comment-thankyou">
       <input type="hidden" name="options[slug]" value="{{ replace $.File.Path "/" "-" }}">
       <input type="hidden" name="options[parent]" value="">
-      <label for="yourname">Pseudonyme:</label>
+      <label aria-label="Pseudonyme" for="yourname">Pseudonyme:</label>
       <input name="fields[name]" id="yourname" type="text" placeholder="Votre pseudonyme" required/>
-      <label for="yourcomment">Commentaire:</label>
+      <label aria-label="Commentaire" for="yourcomment">Commentaire:</label>
       <textarea name="fields[comment]" id="yourcomment" placeholder="A quoi pensez vous ?" required></textarea>
       <output id="warningComment">En cliquant sur Envoyer vous acceptez la <a target="_blank" rel="noopener noreferrer" title="Charte de publication" class="" href="https://subversive.eu/chartedepublication.txt">Charte de publication</a></output>
       <!-- Anti-Spam2 -->
       <input type="hidden" id="youarenotarobot1">
       <!-- Anti-Spam3 -->
-      <input class="jCaptcha" type="text" id="youarenotarobot2" placeholder="Tapez le résultat s’il vous plaît">
-      <button title="Envoyer le commentaire" class="button" id="submitButton">Envoyer</button>
+      <input aria-label="Résultat du Captcha" class="jCaptcha" type="text" id="youarenotarobot2" placeholder="Tapez le résultat s’il vous plaît">
+      <button aria-label="Envoyer le commentaire" title="Envoyer le commentaire" class="button" id="submitButton">Envoyer</button>
   </fieldset>
 </form>
 
