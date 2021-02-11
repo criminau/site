@@ -1,0 +1,26 @@
+  <!-- On demande s'il ya bien l'API dans config.yml (s2) -->
+{{ with .Site.Params.staticman.api }}
+  <!-- L'API est présent, on peut continuer -->
+
+
+    <!-- Récupération des commentaires par fichier dans /data/comments/ -->
+    {{ $slug := replace $.File.Path "/" "-" }}
+
+    {{ if $.Site.Data.comments }}
+      {{ $comments := index $.Site.Data.comments $slug }}
+  <!-- Affichage du nombre de commentaires -->
+      {{ if $comments }}
+        {{ if gt (len $comments) 1  }}
+          {{ len $comments  }} commentaires
+        {{ else }}
+          {{ len $comments  }} commentaire
+        {{ end }}
+      {{ else }}
+        Aucun commentaire
+      {{ end }}
+  <!-- Fin de l'affichage du nombre de commentaires -->
+  
+  {{ end }}
+
+  <!-- Fin sécurité -->
+{{ end }}

@@ -16,6 +16,10 @@
 {{ $scratch.Add "meta" . }} 
 {{ end }}
 
+{{ with (partial "affichage-comments.html" . ) }}
+{{ $scratch.Add "meta" . }} 
+{{ end }}
+
 {{- with ($scratch.Get "meta")}}
 {{- delimit . "&nbsp;·&nbsp;"}}
 {{- end }}

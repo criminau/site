@@ -17,8 +17,12 @@ En savoir plus :   <https://subversive.eu/apropos/>
 - SecureJS end
 - Bouton Haut de page accessibilité + JS
 - Correction mineure accessibilité
+- Correction mineure HTML5
+- Affichage du nombre de commentaires
 
 /
 
 - Problème javascript avec Fingerprint
 - Itemscope redéfinir
+- Content-Security-Policy
+- Atom RSS correction mineure

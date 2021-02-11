@@ -32,7 +32,7 @@ params:
   defaultTheme: auto
   ShowShareButtons: true
   titleHome: 'subversive.eu Blog pour entretenir votre culture subversive'
-  author: subversive.eu
+  author: subversive
   staticman:
     api: 'https://subversive.herokuapp.com/v2/entry/subversive-eu/site/master/comments'
 
