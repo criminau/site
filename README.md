@@ -17,13 +17,12 @@ En savoir plus :   <https://subversive.eu/apropos/>
 - SecureJS end
 - Bouton Haut de page accessibilité + JS
 - Correction mineure accessibilité
-- Correction mineure HTML5
+- Correction HTML5
 - Affichage du nombre de commentaires
-- RSS 2 correction majeure
-- Accessiblité liens
+- RSS 2 corrections majeures
+- Itemscope correction.
 
 /
 
 - Problème javascript avec Fingerprint
-- Itemscope Définition complète.
 - Content-Security-Policy
