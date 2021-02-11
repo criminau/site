@@ -1,5 +1,4 @@
 {{- if or .Params.author .Site.Params.author }}
-<span itemprop="author">
 {{- $author := (.Params.author | default .Site.Params.author)}}
 {{- $author_type := (printf "%T" $author) }}
 {{- if (or (eq $author_type "[]string") (eq $author_type "[]interface {}") ) }}
@@ -7,5 +6,4 @@
 {{- else }}
 {{- $author }}
 {{- end }}
-</span>
 {{- end -}}

@@ -1,7 +1,7 @@
 {{- with .cxt}} {{/* Apply proper context from dict */}}
 {{- if .Params.cover.image }}
 {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
-<figure itemprop="image" class="entry-cover">
+<figure class="entry-cover">
     {{- $addLink := (and .Site.Params.cover.linkFullImages (not $.IsHome)) }}
     {{- $cover := (.Page.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
     {{- if $cover -}}{{/* i.e it is present in page bundle */}}
