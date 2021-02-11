@@ -20,6 +20,7 @@ En savoir plus :   <https://subversive.eu/apropos/>
 - Correction mineure HTML5
 - Affichage du nombre de commentaires
 - RSS 2 correction majeure
+- Accessiblité liens
 
 /
 
