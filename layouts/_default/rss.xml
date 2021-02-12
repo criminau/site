@@ -1,5 +1,5 @@
 
-<!-- Version RSS ATOM -->
+<!-- Version RSS 2.0 -->
 {{- $pctx := . -}}
 {{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
 {{- $pages := slice -}}
@@ -25,9 +25,6 @@
       <title>Subversive</title>
       <link>{{ .Site.BaseURL }}</link>
     </image>
-    {{ with .Site.Params.RSSauthor }}
-    <author>{{ . }}</author>
-    {{ end }}
     <link>{{ .Site.BaseURL }}</link>
 
     {{ with .Site.Params.description }}<description>{{.}}</description>{{end}}
@@ -36,16 +33,18 @@
     {{ if not .Date.IsZero }}
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
     {{ end }}
+
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <atom:link href="{{ .Site.BaseURL }}index.xml" rel="self" type="application/rss+xml"/>
 
     {{ range $pages }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
-      <source>{{ .Permalink }}</source>
       {{ with .Params.RSSauthor }}
       <author>{{ . }}</author>
       {{ end }}
+      <source url="https://subversive.eu/index.xml">{{ .Site.Title }}</source>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid>{{ .Permalink }}</guid>
       <!-- Content with Image -->
@@ -63,6 +62,7 @@
     <enclosure url="http://subversive.eu/{{.}}" length="{{$len}}" type="image/png" />
     {{ end }}{{- else -}}
     {{- end -}}
+
     </item>
     {{ end }}
   </channel>

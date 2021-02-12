@@ -10,21 +10,21 @@ En savoir plus :   <https://subversive.eu/apropos/>
 
 ### v.02.1
 
-- Cache-Control (nope?)
-- Nettoyage head.html
-- X-DNS-Prefetch-Control
-- Commentaire de retour
-- SecureJS end
-- Bouton Haut de page accessibilité + JS
-- Corrections accessibilités.
-- Correction HTML5
+- Cache-Control.
+- Emoji Support.
+- RSS 2.0 Corrections.
+- HTML5 Corrections.
+- Accessibilité Corrections.
+- HEAD Nettoyage.
+- X-DNS-Prefetch-Control.
+- Commentaire Corrections.
+- Bouton Haut de page avec JS
 - Affichage du nombre de commentaires
-- RSS 2 corrections majeures
-- Itemscope correction.
-- Emoji support
-- Head HTML corrections
+- Itemscope Corrections.
+
 
 /
 
+- SecureJS end
 - Problème javascript avec Fingerprint
 - Content-Security-Policy
