@@ -14,7 +14,7 @@ https://www.fiznool.com/blog/2018/09/14/adding-click-to-copy-buttons-to-a-hugo-p
     function flashCopyMessage(el, msg) {
         el.textContent = msg;
         setTimeout(function() {
-            el.textContent = "Copy";
+            el.textContent = "Copier";
         }, 1000);
     }
 
@@ -39,10 +39,10 @@ https://www.fiznool.com/blog/2018/09/14/adding-click-to-copy-buttons-to-a-hugo-p
                 document.execCommand('copy');
                 selection.removeAllRanges();
 
-                flashCopyMessage(copyBtn, 'Copied!')
+                flashCopyMessage(copyBtn, 'Copié!')
             } catch (e) {
                 console && console.log(e);
-                flashCopyMessage(copyBtn, 'Failed :\'(')
+                flashCopyMessage(copyBtn, 'Erreur :\'(')
             }
         });
 

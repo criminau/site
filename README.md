@@ -21,10 +21,8 @@ En savoir plus :   <https://subversive.eu/apropos/>
 - Bouton Haut de page avec JS
 - Affichage du nombre de commentaires
 - Itemscope Corrections.
-
+- SecureJS OK.
 
 /
 
-- SecureJS end
-- Problème javascript avec Fingerprint
-- Content-Security-Policy
+- Content-Security-Policy ?

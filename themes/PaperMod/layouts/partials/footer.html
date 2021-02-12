@@ -31,5 +31,5 @@ localStorage.setItem("pref-theme", 'dark');
 
 <!-- fichier script.js minifié + (garantie de l'intégrité) -->
 {{ $js := resources.Get "js/script.js" }}
-{{ $JS := $js | resources.Minify }}
-<script rel="preload" async type="text/javascript" src="{{ $JS.Permalink }}"></script>
+{{ $JS := $js | resources.Minify | fingerprint }}
+<script rel="preload" async type="text/javascript" src="{{ $JS.Permalink }}" integrity="{{ $JS.Data.Integrity }}"></script>
