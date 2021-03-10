@@ -12,7 +12,7 @@ comments: false
 description: "A propos du blog subversive.eu, de l'origine à la conception. Observons, les outils ( Développement, Hébergement, ... ), le financement, ainsi que vos droits."
 ---
 
-### Présentation
+## Présentation
 
 Le site subversive.eu a été développé par une seule personne, dans le but d’offrir un avis très critique de notre environnement social .  
 
@@ -26,34 +26,34 @@ Les articles sont suceptibles d’être modifié .
 
 Les formats PDF sont les plus propres mais pas forcément à jour .
 
-### Modifications et Version
+## Modifications et Version
 
 * [Version du site et mise à jour](https://github.com/subversive-eu/site/releases)
 
-### Outils
+## Outils
 
-#### CMS
+### CMS
 
 * [Hugo CMS](https://gohugo.io)
 * [Code source](https://github.com/subversive-eu/site)
 
-#### Hébergement
+### Hébergement
 
-* [Netlify](https://netlify.com.com/)
+* [Netlify](https://netlify.com/)
 * Le domaine subversive.eu est financé intégralement par l'auteur de l'œuvre .
 
-#### Thème
+### Thème
 
 * [PaperMod](https://github.com/adityatelange/hugo-PaperMod/)
 
-#### Commentaires
+### Commentaires
 
 - [Staticman](https://staticman.net/)
 - [Heroku](https://www.heroku.com/)
 - [Charte de publication](https://subversive.eu/chartedepublication.txt)
 - [js-captcha](https://github.com/robiveli/js-captcha)
 
-### Droits
+## Droits
 
 Application complète du [Règlement général sur la protection des données](https://gohugo.io/about/hugo-and-gdpr/) .
 
@@ -63,11 +63,11 @@ Ce travail est fourni gratuitement, librement, au monde (sans publicité).
 
 [Droit à l'oubli](https://subversive.eu/chartedepublication.txt)
 
-### Contact
+## Contact
 
 <subversive.eu@tutanota.com>
 
-### Web Libre
+## Web Libre
 
 Soutenir la liberté dans le monde et sur Internet.
 

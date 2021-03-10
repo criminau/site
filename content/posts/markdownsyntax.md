@@ -200,7 +200,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
     Bob | 27
   Alice | 23
 
-#### Inline Markdown within tables
+### Inline Markdown within tables
 
 | Italics   | Bold     | Code   |
 | --------  | -------- | ------ |
@@ -218,7 +218,7 @@ highlight shortcode Here testing angular2
 
 ## Code Blocks
 
-#### Code block with backticks
+### Code block with backticks
 
 ```html
 <!doctype html>
@@ -233,7 +233,7 @@ highlight shortcode Here testing angular2
 </html>
 ```
 
-#### Code block indented with four spaces
+### Code block indented with four spaces
 
 ```
     <!doctype html>
@@ -248,7 +248,7 @@ highlight shortcode Here testing angular2
     </html>
 ```
 
-#### Code block with Hugo's internal highlight shortcode
+### Code block with Hugo's internal highlight shortcode
 
 {{< highlight html >}}
 <!doctype html>
@@ -265,19 +265,19 @@ highlight shortcode Here testing angular2
 
 ## List Types
 
-#### Ordered List
+### Ordered List
 
 1. First item
 2. Second item
 3. Third item
 
-#### Unordered List
+### Unordered List
 
 * List item
 * Another item
 * And another item
 
-#### Nested list
+### Nested list
 
 * Fruit
   * Apple

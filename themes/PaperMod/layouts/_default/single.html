@@ -28,7 +28,7 @@
   <div class="toc">
     <details {{if .Params.TocOpen }} open{{ end }}>
       <summary>
-        <p class="details">{{- i18n "toc" | default "Table of Contents" }}</p>
+        <p title="Table des matières" class="details">{{- i18n "toc" | default "Table of Contents" }}</p>
       </summary>
       <blockquote>
         {{- partial "toc.html" . }}

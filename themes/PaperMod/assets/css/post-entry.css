@@ -65,7 +65,7 @@
 }
 .entry-content {
     margin: 8px 0;
-    color: var(--secondary);
+    color: var(--primary);
     font-size: 14px;
     line-height: 1.6;
     overflow: hidden;
@@ -74,12 +74,12 @@
     -webkit-line-clamp: 2;
 }
 .entry-footer {
-    color: var(--secondary);
+    color: var(--primary);
     font-size: 13px;
 }
 
 .entry-footer a{
-    color: var(--secondary);
+    color: var(--primary);
     font-size: 13px;
 }
 .entry-footer a.sidebar-nav-item:hover{

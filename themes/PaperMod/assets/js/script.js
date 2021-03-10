@@ -4,6 +4,7 @@
 https://www.fiznool.com/blog/2018/09/14/adding-click-to-copy-buttons-to-a-hugo-powered-blog/
    Fonctionnement : cf voir markdownsyntax.md
 --------------------------------------------------------------------------------------------------*/
+
 (function() {
     'use strict';
 
@@ -99,7 +100,8 @@ function showComments() {
   // @param {Object}
   // @param {Boolean}
 
-
+/// PROBLEMS HERE
+/// LE CANVAS NE FONCTIONNE PAS!!
   var setCaptcha = function setCaptcha($el, options, shouldReset) {
     if (!shouldReset) {
       $el.insertAdjacentHTML('beforebegin', "<canvas class=\"".concat(options.canvasClass, "\"\n                    width=\"").concat(options.canvasStyle.width, "\" height=\"").concat(options.canvasStyle.height, "\">\n                </canvas>\n            "));
@@ -191,7 +193,7 @@ return jCaptcha;
                     // e.g. disable the form:
                     document.querySelector('form').removeEventListener('submit', formSubmit);
                     $captchaInputElement.classList.add('disabled');
-                    $captchaInputElement.placeholder = 'Maximum attempts reached!';
+                    $captchaInputElement.placeholder = 'Nombre maximal de tentatives atteint!';
                     $captchaInputElement.setAttribute('disabled', 'true');
                     document.querySelector('button').setAttribute('disabled', 'true');
 
@@ -215,7 +217,7 @@ return jCaptcha;
                   // commentaire vide
                   else if(form.yourcomment.value == ""){
                       form.warningComment.style.display = 'block'; 
-                      form.warningComment.innerText = "S'il vous plait tapez un commentaire";
+                      form.warningComment.innerText = "Veuillez taper un commentaire";
                       return false;
                   }
                   // input caché n'est pas vide -> pas humain
@@ -235,13 +237,24 @@ return jCaptcha;
                   // le résultat n'est pas le bon
                     $captchaInputElement.classList.remove('success');
                     $captchaInputElement.classList.add('error');
-                    $captchaInputElement.placeholder = 'Please try again!';
+                    $captchaInputElement.placeholder = 'Veuillez réessayer!';
 
                 }
 
             }
 
         });
+
+// validate captcha on form submit event (Très important)
+function formSubmit(e) {
+    e.preventDefault();
+
+    // myCaptcha validate
+    myCaptcha.validate();
+};
+
+document.querySelector("form").addEventListener("submit", formSubmit);
+
 
 // Le commentaire bien parti, script pour afficher le message merci!
 if (/comment-thankyou/.test(window.location.href)) {
@@ -251,6 +264,7 @@ if (/comment-thankyou/.test(window.location.href)) {
 }
 
   /* FIN Staticman + Anti-Spam section */
+
 
   /* Bouton Retour Haut de la page */
 

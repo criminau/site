@@ -66,7 +66,7 @@ git push heroku production:master
 &lt;p>Depuis le fichier staticman.yml, j&amp;rsquo;ai choisi volontairement de désactiver la modération, mais faites à votre guise.&lt;/p>
 &lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#f92672">moderation&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Cela va créer une &amp;ldquo;pull request&amp;rdquo; sur votre branche sélectionnée dans staticman.yml.&lt;/p>
-&lt;p>A la source (la RACINE) de votre site, créez un fichier &amp;ldquo;staticman.yml&amp;rdquo; , insérez-y &lt;a rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/site/blob/master/staticman.yml" title="ce qu&amp;amp;rsquo;il y a dans le miens" >ce qu’il y a dans le miens&lt;/a>&lt;/p>
+&lt;p>A la source (la RACINE) de votre site, créez un fichier &amp;ldquo;staticman.yml&amp;rdquo; , insérez-y &lt;a rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/site/blob/master/staticman.yml" title="ce qu’il y a dans le miens" >ce qu’il y a dans le miens&lt;/a>&lt;/p>
 &lt;p>Dans votre fichier config.yml, ajoutez ou complétez :&lt;/p>
 &lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#f92672">params&lt;/span>:
 &lt;span style="color:#f92672">comments&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
@@ -105,7 +105,7 @@ git push heroku production:master
 &lt;ul>
 &lt;li>Pas de javascript = pas de commentaire. Il faut javascript pour afficher les commentaires car il faut cliquer sur le bouton &amp;ldquo;ouvrir espace commentaire&amp;rdquo;.&lt;/li>
 &lt;li>Un input caché &lt;code>&amp;lt;input type=&amp;quot;hidden&amp;quot; id=&amp;quot;youarenotarobot1&amp;quot;&amp;gt;&lt;/code>, le visiteur(non-robot/humain) ne le voit pas mais le robot oui, si il le remplit alors ce n&amp;rsquo;est pas un humain.&lt;/li>
-&lt;li>&lt;a rel="noopener noreferrer" target="_blank" href="https://github.com/robiveli/js-captcha" title="js-captcha de robiveli " >js-captcha de robiveli&lt;/a>.&lt;/li>
+&lt;li>&lt;a rel="noopener noreferrer" target="_blank" href="https://github.com/robiveli/js-captcha" title="js-captcha de robiveli" >js-captcha de robiveli&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;h3 id="autre-solution">autre solution&lt;/h3>
 &lt;p>Posséder un serveur, y ajouter staticman + &lt;a rel="noopener noreferrer" target="_blank" href="https://visualcaptcha.net/" title="visual captcha" >visual captcha&lt;/a>.&lt;br>
@@ -457,8 +457,8 @@ Henri Laborit&lt;/p>
 &lt;p>Tout cela donne l&amp;rsquo;impression que la majorité des individus ne désirent pas être libres, en tous cas ils ne montrent rien qui pourrait nous faire penser qu&amp;rsquo;ils veulent l&amp;rsquo;être.&lt;/p>
 &lt;p>Dans ce cas là il n&amp;rsquo;y a aucun problème, juste quelques malades mentaux qui profitent bien de la faiblesse psychologique d&amp;rsquo;autres malades mentaux.&lt;/p>
 &lt;h2 id="sources">Sources&lt;/h2>
-&lt;p>&lt;a rel="noopener noreferrer" target="_blank" href="https://www.fondation-res-publica.org/Les-droits-de-l-homme-avec-la-democratie-et-contre-la-democratie_a1171.html" title="Les Droits de l&amp;amp;rsquo;Homme avec la Démocratie" >Les Droits de l’Homme avec la Démocratie&lt;/a>&lt;br>
-&lt;a rel="noopener noreferrer" target="_blank" href="https://www.fondation-res-publica.org/Conclusion-de-Jean-Pierre-Chevenement_a938.html" title="Conclusion - Les Droits de l&amp;amp;rsquo;Homme contre la Démocratie" >Conclusion - Les Droits de l’Homme contre la Démocratie&lt;/a>&lt;/p></description></item><item><title>L'ours commence à poser sa patte !</title><link>https://subversive.eu/articles/lours-commence-%C3%A0-poser-sa-patte.html</link><source url="https://subversive.eu/index.xml">Journal Subversif</source><pubDate>Mon, 30 Nov 2020 18:00:00 +0100</pubDate><guid>https://subversive.eu/articles/lours-commence-%C3%A0-poser-sa-patte.html</guid><description>&lt;p>La mère Russie est de retour !&lt;/p>
+&lt;p>&lt;a rel="noopener noreferrer" target="_blank" href="https://www.fondation-res-publica.org/Les-droits-de-l-homme-avec-la-democratie-et-contre-la-democratie_a1171.html" title="Les Droits de l’Homme avec la Démocratie" >Les Droits de l’Homme avec la Démocratie&lt;/a>&lt;br>
+&lt;a rel="noopener noreferrer" target="_blank" href="https://www.fondation-res-publica.org/Conclusion-de-Jean-Pierre-Chevenement_a938.html" title="Conclusion - Les Droits de l’Homme contre la Démocratie" >Conclusion - Les Droits de l’Homme contre la Démocratie&lt;/a>&lt;/p></description></item><item><title>L'ours commence à poser sa patte !</title><link>https://subversive.eu/articles/lours-commence-%C3%A0-poser-sa-patte.html</link><source url="https://subversive.eu/index.xml">Journal Subversif</source><pubDate>Mon, 30 Nov 2020 18:00:00 +0100</pubDate><guid>https://subversive.eu/articles/lours-commence-%C3%A0-poser-sa-patte.html</guid><description>&lt;p>La mère Russie est de retour !&lt;/p>
 &lt;p>Après tant d&amp;rsquo;année à se faire marcher dessus, d&amp;rsquo;humiliation, Vladimir Vladimirovitch a remis le pays dans le sens de la marche.&lt;/p>
 &lt;p>Mais Moscou fait peur. La moindre erreur, la moindre faute, l&amp;rsquo;ours pose la patte !&lt;/p>
 &lt;p>Nous aborderons, dans ce présent article la Russie de Poutine. Puis son activité militaire dans le monde, les pays dangereux et ceux alliés. Le conflit arménien est un point central ainsi que la nouvelle politique russe dans la reconquête post-soviétique.&lt;/p>
@@ -474,7 +474,7 @@ alt="vladimir Putin avec un sniper"/> &lt;figcaption>
 Parti chasser les musulmans en Tchétchénie sous un faux prétexte d&amp;rsquo;homophobie dont l&amp;rsquo;occident n&amp;rsquo;a pas manqué de nous rappeler, le message était pourtant clair, pas d&amp;rsquo;occident n&amp;rsquo;y de musulmans devant la tanière.&lt;/p>
 &lt;p>Cela fait des années que le monde arabe gratte aux portes de la tanière. Et cela rend fou l&amp;rsquo;armée rouge. Mais tel un grand dirigeant, Poutine suit à la lettre l&amp;rsquo;art de la guerre de Sun Tzu.&lt;/p>
 &lt;p>Ils sont allés en Syrie afin de remettre de l&amp;rsquo;ordre et chasser les hordes de terroristes pro-occidentaux.&lt;/p>
-&lt;p>Tout l&amp;rsquo;intérêt de l&amp;rsquo;occident en Syrie est de mettre de l&amp;rsquo;huile sur le feu est de faire exploser les russes dans un conflit ouvert. La France et les Britanniques ont déjà ouvert le feu sur la Syrie, Israël également. Or depuis &lt;a rel="noopener noreferrer" target="_blank" href="http://citoyens.deontolog.org/index.php?topic=2395.0" title="l&amp;amp;rsquo;incident de l&amp;amp;rsquo;Iliouchine" >l’incident de l’Iliouchine&lt;/a> la Russie joue prudence et la désescalade.&lt;/p>
+&lt;p>Tout l&amp;rsquo;intérêt de l&amp;rsquo;occident en Syrie est de mettre de l&amp;rsquo;huile sur le feu est de faire exploser les russes dans un conflit ouvert. La France et les Britanniques ont déjà ouvert le feu sur la Syrie, Israël également. Or depuis &lt;a rel="noopener noreferrer" target="_blank" href="http://citoyens.deontolog.org/index.php?topic=2395.0" title="l’incident de l’Iliouchine" >l’incident de l’Iliouchine&lt;/a> la Russie joue prudence et la désescalade.&lt;/p>
 &lt;h2 id="le-petit-frère-arménien">Le petit frère Arménien&lt;/h2>
 &lt;p>La Turquie dont le chef est acculé mais adulé agresse tout le monde. Soutient militairement ses alliés dans des conflits d&amp;rsquo;ordres religieux comme sur le plateau du Haut-Karabagh qui est une république indépendante d’Arménie. Erdogan ne peut célébrer sa victoire totale sur l&amp;rsquo;Arménie&amp;hellip; L&amp;rsquo;ours russe est sorti de sa tanière !&lt;/p>
 &lt;figure class="left">
@@ -915,6 +915,7 @@ src="https://www.youtube-nocookie.com/embed/6SrsZVdU740"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen
+title="Vidéo Youtube sans cookies"
 >
 &lt;/iframe>
 &lt;/div>
@@ -1203,7 +1204,7 @@ alt="image"/> &lt;figcaption>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h4 id="inline-markdown-within-tables">Inline Markdown within tables&lt;/h4>
+&lt;h3 id="inline-markdown-within-tables">Inline Markdown within tables&lt;/h3>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -1224,7 +1225,7 @@ alt="image"/> &lt;figcaption>
 &lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-angular2" data-lang="angular2">highlight shortcode Here testing angular2&lt;/code>&lt;/pre>&lt;/div>
 &lt;p>&lt;a rel="noopener noreferrer" target="_blank" href="https://gohugo.io/content-management/syntax-highlighting/#highlight-shortcode" title="check More here" >check More here&lt;/a>&lt;/p>
 &lt;h2 id="code-blocks">Code Blocks&lt;/h2>
-&lt;h4 id="code-block-with-backticks">Code block with backticks&lt;/h4>
+&lt;h3 id="code-block-with-backticks">Code block with backticks&lt;/h3>
 &lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html">&lt;span style="color:#75715e">&amp;lt;!doctype html&amp;gt;&lt;/span>
 &amp;lt;&lt;span style="color:#f92672">html&lt;/span> &lt;span style="color:#a6e22e">lang&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;en&amp;#34;&lt;/span>&amp;gt;
 &amp;lt;&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
@@ -1235,7 +1236,7 @@ alt="image"/> &lt;figcaption>
 &amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt;Test&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
 &amp;lt;/&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
 &amp;lt;/&lt;span style="color:#f92672">html&lt;/span>&amp;gt;
-&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces&lt;/h4>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="code-block-indented-with-four-spaces">Code block indented with four spaces&lt;/h3>
 &lt;pre>&lt;code> &amp;lt;!doctype html&amp;gt;
 &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
 &amp;lt;head&amp;gt;
@@ -1246,7 +1247,7 @@ alt="image"/> &lt;figcaption>
 &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
-&lt;/code>&lt;/pre>&lt;h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;/h4>
+&lt;/code>&lt;/pre>&lt;h3 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;/h3>
 &lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html">&lt;span style="color:#75715e">&amp;lt;!doctype html&amp;gt;&lt;/span>
 &amp;lt;&lt;span style="color:#f92672">html&lt;/span> &lt;span style="color:#a6e22e">lang&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;en&amp;#34;&lt;/span>&amp;gt;
 &amp;lt;&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
@@ -1258,19 +1259,19 @@ alt="image"/> &lt;figcaption>
 &amp;lt;/&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
 &amp;lt;/&lt;span style="color:#f92672">html&lt;/span>&amp;gt;&lt;/code>&lt;/pre>&lt;/div>
 &lt;h2 id="list-types">List Types&lt;/h2>
-&lt;h4 id="ordered-list">Ordered List&lt;/h4>
+&lt;h3 id="ordered-list">Ordered List&lt;/h3>
 &lt;ol>
 &lt;li>First item&lt;/li>
 &lt;li>Second item&lt;/li>
 &lt;li>Third item&lt;/li>
 &lt;/ol>
-&lt;h4 id="unordered-list">Unordered List&lt;/h4>
+&lt;h3 id="unordered-list">Unordered List&lt;/h3>
 &lt;ul>
 &lt;li>List item&lt;/li>
 &lt;li>Another item&lt;/li>
 &lt;li>And another item&lt;/li>
 &lt;/ul>
-&lt;h4 id="nested-list">Nested list&lt;/h4>
+&lt;h3 id="nested-list">Nested list&lt;/h3>
 &lt;ul>
 &lt;li>Fruit
 &lt;ul>
@@ -1304,6 +1305,7 @@ src="https://www.youtube-nocookie.com/embed/8IZ9Cqi2rGM"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen
+title="Vidéo Youtube sans cookies"
 >
 &lt;/iframe>
 &lt;/div>
@@ -1349,6 +1351,7 @@ class="iframepdf"
 frameborder="0"
 allowfullscreen
 src="./media/gt-metrix-report.pdf"
+title="aperçu gt-metrix-report"
 >
 &lt;/iframe>
 &lt;h2 id="definition-lists">Definition lists.&lt;/h2>

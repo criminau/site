@@ -14,15 +14,17 @@ En savoir plus :   <https://subversive.eu/apropos/>
 - Emoji Support.
 - RSS 2.0 Corrections.
 - HTML5 Corrections.
-- Accessibilité Corrections.
+- Accessibilité Corrections majeures.
 - HEAD Nettoyage.
 - X-DNS-Prefetch-Control.
 - Commentaire Corrections.
-- Bouton Haut de page avec JS
-- Affichage du nombre de commentaires
+- Bouton Haut de page avec JS.
+- Affichage du nombre de commentaires.
 - Itemscope Corrections.
-- SecureJS OK.
+- SecureJS.
+- Js-Captcha Correction.
+- Correction Titre des sources.
+- disableLiveReload: true
 
-/
 
-- Content-Security-Policy ?
+- mobile : espace entre sources.

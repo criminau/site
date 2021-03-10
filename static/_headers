@@ -4,4 +4,4 @@
   Referrer-Policy: no-referrer
   X-DNS-Prefetch-Control: off
   Cache-Control: no-store
-  X-Frame-Options: DENY
+  X-Frame-Options: SAMEORIGIN

@@ -35,12 +35,15 @@
 {{- end }}
 <meta name="keywords" content="{{ .Params.keyword | default .Site.Params.keyword }}">
 <meta name="author" content="{{ (partial "author.html" . ) }}">
+
 <!-- Canonical -->
 <link rel="canonical" href="{{ .Permalink }}" />
+
 <!-- Twitter -->
 <meta name="twitter:widgets:theme" content="light">
 <meta name="twitter:widgets:border-color" content="#55acee">
 <meta name="twitter:dnt" content="on">
+
 <!-- Styles -->
 {{- $anoldhope := resources.Get "css/an-old-hope.css" }}
 {{- $theme := resources.Get "css/theme-vars.css" }}
@@ -64,13 +67,16 @@
 <link href="{{ $profileMode.Permalink }}" rel="preload stylesheet"
     as="style">
 {{- end -}}
+
 <!-- Favicons -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" type="application/manifest+json" href="/site.webmanifest">
+
 <!-- Generator -->
 {{- hugo.Generator }}
+
 <!-- RSS -->
 <link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}index.xml" title="subversive.eu">
 
@@ -80,13 +86,3 @@
 {{- template "partials/templates/twitter_cards.html" . }}
 {{- template "partials/templates/schema_json.html" . }}
 {{- end }}
-
-<!--
-
-
- 
-
-
-	<element dir="ltr|rtl|auto"> 
-
--->

@@ -18,11 +18,11 @@ Vient du Diocèse de Vienne de l’Empire romain en - 300 av Jc.
 
 PS: Le document PDF a mystérieusement disparu, nous travaillons à le récupérer. Navré
 
-{{< figure src="https://subversive.eu/media/roman300AD.png" alt="Empire Romain 300 après JC" caption="figure-normal" >}}
+{{< figure src="https://subversive.eu/media/roman300AD.png" alt="Empire Romain 300 après JC" caption="Empire Romain 300 après JC" >}}
 
 En 400 ap Jc, il existe 7 provinces, le Diocèse des Septs Provinces (en latin Septem Provinciae):
 
-{{< figure src="https://subversive.eu/media/RomanEmp400AD.png" alt="Empire Romain 400 après JC" caption="figure-normal" >}}
+{{< figure src="https://subversive.eu/media/RomanEmp400AD.png" alt="Empire Romain 400 après JC" caption="Empire Romain 400 après JC" >}}
 
 ## Unification possible
 
