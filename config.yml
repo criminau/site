@@ -21,7 +21,7 @@ minify:
  minifyOutput: true
 # disableXML: true
 
-#LiveReload Hugoreload A voir?
+#LiveReload Hugoreload
 disableLiveReload: true
 
 params:

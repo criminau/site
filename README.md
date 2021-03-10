@@ -8,20 +8,10 @@ En savoir plus :   <https://subversive.eu/apropos/>
 
 ## Prochaine version
 
-### v.02.1
+### v.02.2
 
-- Cache-Control.
-- Emoji Support.
-- RSS 2.0 Corrections.
-- HTML5 Corrections.
-- Accessibilité Corrections majeures.
-- HEAD Nettoyage.
-- X-DNS-Prefetch-Control.
-- Commentaire Corrections.
-- Bouton Haut de page avec JS.
-- Affichage du nombre de commentaires.
-- Itemscope Corrections.
-- SecureJS.
-- Js-Captcha Correction.
-- Correction Titre des sources.
-- disableLiveReload: true
+- Optimisation de la ressource JS / utilisation.
+- Ajout retour haut de page homepage + archive.
+- Archetypes.
+
+- Accessibilité correction mineures ?

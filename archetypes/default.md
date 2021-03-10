@@ -4,6 +4,7 @@ author: "{{ .Site.Params.author }}"
 draft: false
 ShowToc: true
 hidemeta: false
+comments: true
 disableShare: false
 tocopen: false
 date: {{ .Date }}

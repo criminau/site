@@ -1,17 +1,24 @@
 ---
-title: "Hugo 100% LigtHouse"
+title: "Hugo 100% Lighthouse"
 author: "subversive.eu"
 ShowToc: true
 draft: false
 hidemeta: false
+comments: true
 tocopen: false
 disableShare: false
-date: 2021-03-10 18:00:00
-keyword: "A"
+date: 2021-03-10 15:00:00
+cover:
+    relative: true
+    image: "media/lighthouse-100x4.jpg"
+    alt: "100% Lighthouse perf !"
+    Caption: "100% Lighthouse perf !"
+images: "media/lighthouse-100x4.jpg"
+keyword: "hugo, static, web, site, internet, performance, efficience, lighthouse, google chrome, chrome tools, seo, accessibilité, meilleures pratiques, vitesse, site internet, rapidité, best practices, hugo"
 pdfname: "hugo-100-lighthouse"
 ---
 
-Une fois le [site hugo créé](https://subversive.eu/articles/creer-un-site-internet-ou-un-blog-statique-en-2020.html) il ne sera pas optimisé, consommant des ressources inutilement, offrant peu de confort aux visiteurs.
+Une fois le [site hugo créé](https://subversive.eu/articles/creer-un-site-internet-ou-un-blog-statique-en-2020.html), il ne sera pas optimisé, consommant des ressources inutilement, offrant peu de confort aux visiteurs.
 <!--more-->
 
 ## Introduction
@@ -19,7 +26,7 @@ Une fois le [site hugo créé](https://subversive.eu/articles/creer-un-site-inte
 En commençant avec hugo, si vous cherchez un petit peu sur le net, vous entendrez parler de lighthouse.
 C'est un outil, fiable et simple d'utilisation pour noter votre site.
 
-Cet outils prendra en compte la *performance* de votre site, *l'accessibilité*, *les meilleures pratiques*, *le SEO* et si votre site est un application.
+Cet outils prendra en compte la *performance* de votre site, *l'accessibilité*, *les meilleures pratiques*, *le SEO* et si votre site est une application.
 
 Tout est résumé sur [awesome-hugo-book](https://subversive-eu.github.io/awesome-hugo-book/).
 
@@ -37,22 +44,26 @@ Ainsi l'on nomme par erreur la performance d'un site web pour aborder son effici
 
 L'accessibilité concerne les consignes pour offrir à tous la possibilité de naviguer sur le web.
 
-Le SEO est en anglais Search Engine Optimization, l'optimisation dans les moteurs de recherches.
+Le SEO viens de l'anglais Search Engine Optimization, l'optimisation dans les moteurs de recherches.
 
-Mais cet outil ne juge pas votre contenu, cela se fait par l'affluence sur votre site et les algorithmes de Google non open source.
+Cet outil ne juge pas votre contenu, cela se fait par l'affluence sur votre site et les algorithmes de Google qui ne sont pas open source.
 
 ## Utilisation
 
-Installer chromium sur votre OS (peu importe disponible n'importe où).
+Installer chromium sur votre OS (peu importe, disponible n'importe où).
 N'ajoutez pas d'extensions qui utilisent des ressources du site.
 
--(trois extension size resposive..)
+Quelques Outils et Astuces :
 
+- [Viewport Resizer – Responsive Testing Tool](https://chrome.google.com/webstore/detail/viewport-resizer-%E2%80%93-respon/kapnjjcfcncngkadhpmijlkblpibdcgm?hl=fr)
+- [Dimensions](https://chrome.google.com/webstore/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj?hl=fr)
+- [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=fr)
+- Le site [mydevice.io](https://www.mydevice.io/) complet.
 - Utilisez la navigation privée pour ne pas utiliser le cache.
 
 Lancer le site avec ``` hugo server ```
 
-Visitez le site avec chromium puis faites CRTL+MAJ+I ou bien dans les trois points alignés verticalement en haut à gauche -> Plus d'Outils -> Outils de développement -> Ligthouse
+Visitez le site avec chromium puis faites CRTL+MAJ+I ou bien dans les trois points alignés verticalement en haut à droite -> Plus d'Outils -> Outils de développement -> Lighthouse.
 
 Vous aurez le choix entre version ordinateur portable ou mobile.
 
@@ -68,21 +79,44 @@ Rien à rajouter [des consignes hugo-book](https://subversive-eu.github.io/aweso
 ```html
 <html lang="{{ .Site.Language }}">
 ```
+Dans config.yml :
+```yml
+languageCode: fr-FR
+DefaultContentLanguage: fr
+```
 - Attributs [alt] pour les images et vidéos, [name] pour les boutons et [title] pour les liens.
 ```html
 <button name="Description du bouton" ></button>
 ```
 
+- N'oubliez AUCUN attributs.
+- Sur mobile ou tablette pensez aux espaces entre chaque lien ou bouton.
+
 ## Meilleures pratiques
 
 - Protocole https
 - Ajouter  `rel="noopener"` ou `rel="noreferrer"` pour TOUS les liens.
-- HTML doctype
+- HTML5 doctype
 
 ## SEO
 
 - Copier le [head.html](https://raw.githubusercontent.com/subversive-eu/site/master/themes/PaperMod/layouts/partials/head.html)
 - Plus de détails sur la [liste awesome-hugo-book](https://subversive-eu.github.io/awesome-hugo-book/#contenu)
 
-C'est assez simple en soit, suivez simplement les conseils lorsque vous avez une critique, une recherche sur le net et hop.
+Lisez bien avec attention le OpenGraph Protocol + Les twitters Cards, et schema.org.
+Le fichier robots.txt et le sitemap.xml.
+
+## De manière générale
+
+C'est assez simple en soit, suivez simplement les conseils lorsque vous avez une critique, une recherche sur le net et hop.  
 Concentrez vous sur la page d'accueil de votre site avant de commencer à travailler sur les autres pages.
+
+Puis les pages simples, sans images, ou vidéos, ou autres, juste du texte. Ensuite, observez les pages plus complexes.
+
+Pour les plus curieux vous avez tout sur [web.dev](https://web.dev).
+
+### Exemple
+
+{{< iframepdf lighthouse-report >}}
+
+Pour les templates SEO, pensez a bien respecter l'architecture ainsi que langage, de même pour pour le flux rss.

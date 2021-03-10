@@ -4,12 +4,10 @@
 </footer>
 
 <!-- le bouton retour haut de page -->
-
   <button aria-label="Retour en haut de la page" class="top-link" id="top-link" type="button" name="Haut de page" >
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <polyline points="18 15 12 9 6 15" /></svg>
   </button>
-
 
 
 <!-- Tous les scripts en bas des pages -->
@@ -29,7 +27,16 @@ localStorage.setItem("pref-theme", 'dark');
 </script>
 {{- end }}
 
-<!-- fichier script.js minifié + (garantie de l'intégrité) -->
+<!-- fichier script.js minifié + garantie de l'intégrité -->
+
 {{ $js := resources.Get "js/script.js" }}
 {{ $JS := $js | resources.Minify | fingerprint }}
-<script rel="preload" async type="text/javascript" src="{{ $JS.Permalink }}" integrity="{{ $JS.Data.Integrity }}"></script>
+<script rel="preload" async src="{{ $JS.Permalink }}" integrity="{{ $JS.Data.Integrity }}"></script>
+
+<!-- fichier comments.js (uniquement SI les commentaires sont activés) -->
+
+	{{- if and ($.Site.Params.comments) (ne .Params.comments false) }}
+		{{ $js := resources.Get "js/comments.js" }}
+		{{ $JS1 := $js | resources.Minify | fingerprint }}
+		<script rel="preload" async src="{{ $JS1.Permalink }}" integrity="{{ $JS1.Data.Integrity }}"></script>
+    {{- end }}
