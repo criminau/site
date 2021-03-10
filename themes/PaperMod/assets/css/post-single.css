@@ -496,17 +496,16 @@
     border: 0;
     border-radius: 4px;
     padding: 1px;
-    font-size: 0.7em;
+    font-size: 0.8em;
     line-height: 1.8;
-    color: #fff;
-    background-color: #777;
+    color: white;
     opacity: 0.6;
     min-width: 55px;
     text-align: center;
     cursor:pointer;
 }
 .highlight .highlight-copy-btn:hover {
-    background-color: #666;
+    font-weight: bolder
 }
 /* Buttons.html */
 .sample-btn{

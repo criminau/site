@@ -13,5 +13,11 @@ En savoir plus :   <https://subversive.eu/apropos/>
 - Optimisation de la ressource JS / utilisation.
 - Ajout retour haut de page homepage + archive.
 - Archetypes.
+- Accessibilité corrections mineures.
 
-- Accessibilité correction mineures ?
+
+- A la recherche d'un md2pdf!
+
+<blockquote>Hey I'm in blockquote!</blockquote>
+
+---
