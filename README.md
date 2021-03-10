@@ -25,6 +25,3 @@ En savoir plus :   <https://subversive.eu/apropos/>
 - Js-Captcha Correction.
 - Correction Titre des sources.
 - disableLiveReload: true
-
-
-- mobile : espace entre sources.
