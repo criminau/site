@@ -277,40 +277,53 @@
 .toc li ul {
     margin-inline-start: var(--gap);
 }
+/* PagiNavLinks */
 
-.post-footer {
-    margin-top: 56px;
-}
-
-.post-tags li {
-    display: inline-block;
-    margin-inline-end: 3px;
-    margin-bottom: 5px;
-}
-
-.post-tags a {
-    display: block;
-    padding-inline-start: 14px;
-    padding-inline-end: 14px;
-    color: var(--secondary);
-    font-size: 14px;
-    line-height: 34px;
-    background: var(--code-bg);
-    border-radius: 4px;
+.paginav {
+    color: var(--content);
+    margin-top: var(--gap);
     border: 1px solid var(--tertiary);
+    border-radius: var(--radius);
+    display: flex;
+    line-height: 30px;
+}
+.paginav a {
+    padding: 10px;
 }
 
-.post-tags a:hover {
-    background: var(--border);
+.paginav .title {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: small;
+    color: var(--secondary);
+}
+.paginav a:hover {
+    background: var(--border)
+}
+.paginav .prev,
+.paginav .next {
+    width: 50%;
+}
+.paginav span:hover:not(.title) {
+    box-shadow: 0 1px 0;
+}
+.paginav .next {
+    margin-inline-start: auto;
+    text-align: right;
+}
+[dir="rtl"] .paginav .next {
+    text-align: left;
 }
 
+/*share buttons*/
 .share-buttons {
     margin-top: var(--gap);
     border: 1px solid var(--tertiary);
     padding-inline-start: var(--radius);
     border-radius: var(--radius);
     display: flex;
-    overflow-x: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .share-buttons a {
@@ -326,11 +339,11 @@
     height: 30px;
     width: 30px;
     fill: currentColor;
-    transition: transform 0.1s;
+    transition: transform 0.2s;
 }
 
 .share-buttons svg:hover {
-    transform: scale(0.96);
+    transform: scale(1.08);
 }
 
 @media screen and (max-width: 600px) {
@@ -415,7 +428,7 @@
     padding: 8px 16px;
     text-align: center;
     transition-duration: 0.4s;
-    color: var(--secondary);
+    color: var(--content);
     font-size: 14px;
     line-height: 34px;
     background: var(--theme);
@@ -516,7 +529,7 @@
     padding: 8px 16px;
     text-align: center;
     transition-duration: 0.4s;
-    color: var(--secondary);
+    color: var(--content);
     font-size: 14px;
     line-height: 34px;
     background: var(--theme);
@@ -541,4 +554,20 @@
 	height:100%;
 	width:100%;
 	position:absolute;
+}
+/* abbr, sub, sup, kbd, mark
+--------------------------------------------------------- */
+.post-single kbd {
+    border-radius: 2px;
+    padding: 5px;
+    border: 1px solid var(--primary);
+}
+.post-single kbd kbd{
+    padding: 2px;
+}
+
+.post-single mark {
+    background-color: var(--content) !important;
+    color: var(--entry);
+    padding: 3px;
 }

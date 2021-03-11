@@ -35,8 +35,8 @@ localStorage.setItem("pref-theme", 'dark');
 
 <!-- fichier comments.js (uniquement SI les commentaires sont activés) -->
 
-	{{- if and ($.Site.Params.comments) (ne .Params.comments false) }}
-		{{ $js := resources.Get "js/comments.js" }}
-		{{ $JS1 := $js | resources.Minify | fingerprint }}
-		<script rel="preload" async src="{{ $JS1.Permalink }}" integrity="{{ $JS1.Data.Integrity }}"></script>
-    {{- end }}
+{{- if and ($.Site.Params.comments) (ne .Params.comments false) }}
+{{ $js := resources.Get "js/comments.js" }}
+{{ $JS1 := $js | resources.Minify | fingerprint }}
+<script rel="preload" async src="{{ $JS1.Permalink }}" integrity="{{ $JS1.Data.Integrity }}"></script>
+{{- end }}

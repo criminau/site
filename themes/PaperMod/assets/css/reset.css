@@ -70,7 +70,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     display: block;
-    overflow-x: scroll;
+    overflow-x: auto;
     word-break: keep-all;
 }
 
@@ -108,8 +108,8 @@ img {
 }
 
 *::-webkit-scrollbar {
-    width: 10px;
-    height: 6px;
+    width: 13px;
+    height: 9px;
 }
 
 *::-webkit-scrollbar-track {
@@ -127,8 +127,8 @@ img {
 
 @media screen and (max-width: 800px) {
     *::-webkit-scrollbar {
-        width: 8px;
-        height: 2px;
+        width: 9px;
+        height: 3px;
     }
 }
 

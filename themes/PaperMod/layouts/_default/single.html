@@ -37,25 +37,20 @@
   </div>
   {{- end }}
   <div itemprop="content" class="post-content">{{ .Content }}</div>
-  <footer class="post-footer">
-    {{- if .Params.tags }}
-    <ul class="post-tags">
-      {{- range .Params.tags }}
-      {{- $href := print (absLangURL "") (urlize .) }}
-      <li><a rel="noopener noreferrer" Title="Tous les articles concernant le tag {{ . }}" href="{{ $href }}">{{ . }}</a></li>
-      {{- end }}
-    </ul>
-    {{- end }}
-    {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true) ) }}
-    {{- partial "share_icons.html" . }}
-    {{- end }}
-  </footer>
 
-  <!-- Espace commentaire (s1), est-ce que les commentaires sont activés ? -->
-  {{- if and ($.Site.Params.comments) (ne .Params.comments false) }}
-  {{- partial "comments.html" . }}
-  {{- end }}
-  <!-- Fin de l'espace commentaire -->
+<!-- PostNavLinks -->
+{{- if (.Param "ShowPostNavLinks") }}
+{{- partial "postnavlinks.html" . -}}
+{{- end }}
+<!-- ShareButtons -->
+{{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true) ) }}
+{{- partial "share_icons.html" . }}
+{{- end }}
+
+<!-- Espace commentaire -->
+{{- if and ($.Site.Params.comments) (ne .Params.comments false) }}
+{{- partial "comments.html" . }}
+{{- end }}
   
 </article>
 

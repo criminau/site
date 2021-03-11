@@ -2,8 +2,8 @@
 title: "Karl Marx Le Capital analyse (partie 3)"
 author: "subversive.eu"
 ShowToc: true
-draft: false
-date: 2021-00-01T18:00:00
+draft: true
+date: 2025-00-01T18:00:00
 cover:
     relative: true
     image: "media/industry-4k-cover-3-min.jpg"

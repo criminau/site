@@ -4,10 +4,10 @@ author: "subversive.eu"
 ShowToc: true
 draft: false
 hidemeta: false
-comments: true
 tocopen: false
 disableShare: false
-date: 2021-03-10 15:00:00
+comments: true
+date: 2021-03-10T18:00:00
 cover:
     relative: true
     image: "media/lighthouse-100x4.jpg"
@@ -17,6 +17,7 @@ images: "media/lighthouse-100x4.jpg"
 keyword: "hugo, static, web, site, internet, performance, efficience, lighthouse, google chrome, chrome tools, seo, accessibilité, meilleures pratiques, vitesse, site internet, rapidité, best practices, hugo"
 pdfname: "hugo-100-lighthouse"
 ---
+
 
 Une fois le [site hugo créé](https://subversive.eu/articles/creer-un-site-internet-ou-un-blog-statique-en-2020.html), il ne sera pas optimisé, consommant des ressources inutilement, offrant peu de confort aux visiteurs.
 <!--more-->
@@ -74,8 +75,10 @@ Rien à rajouter [des consignes hugo-book](https://subversive-eu.github.io/aweso
 ## Accessibilité
 
 - Contraste élevé entre le fond et la couleur de la police d'écriture.
-- Balise <title>
-- [lang] attribute for <html>
+- Balise `<title>`
+- [lang] attribute for `<html>`
+
+
 ```html
 <html lang="{{ .Site.Language }}">
 ```
@@ -119,4 +122,4 @@ Pour les plus curieux vous avez tout sur [web.dev](https://web.dev).
 
 {{< iframepdf lighthouse-report >}}
 
-Pour les templates SEO, pensez a bien respecter l'architecture ainsi que langage, de même pour pour le flux rss.
+Pour les templates SEO, pensez a bien respecter l'architecture ainsi que le langage, de même pour le flux rss.

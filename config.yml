@@ -9,7 +9,7 @@ DefaultContentLanguage: fr
 enableInlineShortcodes: true
 theme: PaperMod
 
-# enableRobotsTXT: true 
+enableRobotsTXT: false
 buildFuture: false # Test ok / functionnal
 buildExpored: false
 buildDraft: true
@@ -34,7 +34,7 @@ params:
   imagesdefault: 'android-chrome-192x192.png'
   defaultTheme: auto
   ShowShareButtons: true
-  titleHome: 'subversive.eu Blog pour entretenir votre culture subversive'
+  ShowPostNavLinks: true
   author: subversive.eu
   RSSauthor: subversive.eu@tutanota.com
   staticman:
@@ -48,7 +48,6 @@ params:
     linkFullImages: true
   
   HomeInfoParams:
-    GrandTitre: "Journal Subversif"
     Title: "Bonjour 👋"
     Content: "Journal Subversif, Politique et presque Impartial"
     Tagline: "Vitam impendere vero."
@@ -81,9 +80,17 @@ permalinks:
   posts: /articles/:slug/
 disableKinds: ["taxonomy", "taxonomyTerm", "section"]
 
-
 # RSS feed
 rsslimit: 15
+
+# Emoji support
+enableEmoji: true
+
+# Allow raw html in markdown file
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 privacy:
   vimeo:
@@ -94,20 +101,14 @@ privacy:
     disabled: true
     enableDNT: true
     simple: false
-
+# insta back **** facebook
   instagram:
     disabled: true
     simple: true
 
-  youtube:
-    disabled: true
-    privacyEnhanced: true
-
-services:
-  instagram:
-    disableInlineCSS: true
-  twitter:
-    disableInlineCSS: true
-
-# Emoji support
-enableEmoji: true
+    #  X-Content-Type-Options: nosniff
+#  X-XSS-Protection: 1; mode=block
+ # Referrer-Policy: no-referrer
+  #X-DNS-Prefetch-Control: off
+  #Cache-Control: no-store
+  #X-Frame-Options: SAMEORIGIN

@@ -45,29 +45,20 @@
 <meta name="twitter:dnt" content="on">
 
 <!-- Styles -->
+{{- $reset := resources.Get "css/reset.css" }}
 {{- $anoldhope := resources.Get "css/an-old-hope.css" }}
 {{- $theme := resources.Get "css/theme-vars.css" }}
-{{- $reset := resources.Get "css/reset.css" }}
 {{- $header := resources.Get "css/header.css" }}
 {{- $main := resources.Get "css/main.css" }}
 {{- $postentry := resources.Get "css/post-entry.css" }}
 {{- $postsingle := resources.Get "css/post-single.css" }}
-{{- $terms := resources.Get "css/terms.css" }}
 {{- $archive := resources.Get "css/archive.css" }}
 {{- $footer := resources.Get "css/footer.css" }}
-{{- $404 := resources.Get "css/404.css" }}
-{{- $style := slice $anoldhope $theme $reset $header $main $postentry $postsingle $terms $archive $footer $404 | resources.Concat "secureCSS.css" }}
+{{- $style := slice $reset $anoldhope $theme $header $main $postentry $postsingle $archive $footer | resources.Concat "secureCSS.css" }}
 {{- $secureCSS := slice $style | resources.Concat "assets/css/secureCSS.css" | minify | fingerprint -}}
 <link href="{{ $secureCSS.Permalink }}"  rel="preload stylesheet"
     as="style" integrity="{{ $secureCSS.Data.Integrity }}">
     
-<!-- SI Mode Profil activé -->
-{{- if (and (.Site.Params.profileMode.enabled) (.IsHome)) }}
-{{- $profileMode := slice (resources.Get "css/profile-mode.css") | resources.Concat "assets/css/profile-mode.css" | minify }}
-<link href="{{ $profileMode.Permalink }}" rel="preload stylesheet"
-    as="style">
-{{- end -}}
-
 <!-- Favicons -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">

@@ -107,48 +107,15 @@ The blockquote element represents content that is quoted from another source, op
 
 #### Blockquote without attribution
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  
 > **Note** that you can use *Markdown syntax* within a blockquote.
 
 #### Blockquote with attribution
 
-> Don't communicate by sharing memory, share memory by communicating.<br>
+> Don't communicate by sharing memory, share memory by communicating.  
 > — <cite>Rob Pike[^1]</cite>
 
 [^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
-
-### Blockquote Hard
-
-Normal quote:
-{{< blockquote >}}
-  This is a simple quote.
-{{< /blockquote >}}
-
-Quote with author
-{{< blockquote author="Author2" >}}
-  This is a quote with only an Author named Author2.
-{{< /blockquote >}}
-
-Quote with author and source
-{{< blockquote author="Author3" source="Source" >}}
-  This is a quote from Author3 and source "source."
-{{< /blockquote >}}
-
-Quote with author and link
-{{< blockquote author="Author4" link="https://www.google.com" >}}
-  This is a quote from Author4 and links to https://www.google.com.
-{{< /blockquote >}}
-
-Quote with author, link and title
-{{< blockquote author="Author5" link="https://www.google.com" title="Google" >}}
-  This is a quote from Author5 and links to https://www.google.com with title "Google."
-{{< /blockquote >}}
-
-Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
-{{< blockquote author="Author6" link="https://twitter.com/CryptoGangsta/status/716427930126196737" >}}
-  This is a quote from Author5 and links to https://twitter.com/CryptoGangsta/status/716427930126196737 which is longer than 32 characters.
-  <br>And this is a new line in the quote with the HTML br tag.
-{{< /blockquote >}}
 
 ## figure
 
@@ -222,15 +189,15 @@ highlight shortcode Here testing angular2
 
 ```html
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Example HTML5 Document</title>
+    </head>
+    <body>
+      <p>Test</p>
+    </body>
+  </html>
 ```
 
 ### Code block indented with four spaces
@@ -315,7 +282,8 @@ Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and ot
 
 ## tweeter
 
-* With mobile, Tweeter appear simple blockquote.
+**With mobile and some privacy browser.., Tweeter appear like simple blockquote**  
+**If not, appear like twetter want**
 
 {{< tweet 877500564405444608 >}}
 

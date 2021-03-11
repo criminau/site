@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Subversive</title><language>fr</language><image><url>https://www.subversive.eu/apple-touch-icon.png</url><title>Subversive</title><link>https://subversive.eu/</link></image><link>https://subversive.eu/</link><description>Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description><copyright>https://subversive.eu/internetlibre.txt</copyright><lastBuildDate>Wed, 10 Mar 2021 15:00:00 +0000</lastBuildDate><docs>https://validator.w3.org/feed/docs/rss2.html</docs><atom:link href="https://subversive.eu/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 100% Lighthouse</title><link>https://subversive.eu/articles/hugo-100-lighthouse.html</link><source url="https://subversive.eu/index.xml">Journal Subversif</source><pubDate>Wed, 10 Mar 2021 15:00:00 +0000</pubDate><guid>https://subversive.eu/articles/hugo-100-lighthouse.html</guid><description>&lt;p>Une fois le &lt;a rel="noopener noreferrer" target="_blank" href="https://subversive.eu/articles/creer-un-site-internet-ou-un-blog-statique-en-2020.html" title="site hugo créé" >site hugo créé&lt;/a>, il ne sera pas optimisé, consommant des ressources inutilement, offrant peu de confort aux visiteurs.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Subversive</title><language>fr</language><image><url>https://www.subversive.eu/apple-touch-icon.png</url><title>Subversive</title><link>https://subversive.eu/</link></image><link>https://subversive.eu/</link><description>Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description><copyright>https://subversive.eu/internetlibre.txt</copyright><lastBuildDate>Wed, 10 Mar 2021 18:00:00 +0000</lastBuildDate><docs>https://validator.w3.org/feed/docs/rss2.html</docs><atom:link href="https://subversive.eu/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 100% Lighthouse</title><link>https://subversive.eu/articles/hugo-100-lighthouse.html</link><source url="https://subversive.eu/index.xml">Journal Subversif</source><pubDate>Wed, 10 Mar 2021 18:00:00 +0000</pubDate><guid>https://subversive.eu/articles/hugo-100-lighthouse.html</guid><description>&lt;p>Une fois le &lt;a rel="noopener noreferrer" target="_blank" href="https://subversive.eu/articles/creer-un-site-internet-ou-un-blog-statique-en-2020.html" title="site hugo créé" >site hugo créé&lt;/a>, il ne sera pas optimisé, consommant des ressources inutilement, offrant peu de confort aux visiteurs.&lt;/p>
 &lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>En commençant avec hugo, si vous cherchez un petit peu sur le net, vous entendrez parler de lighthouse.
 C&amp;rsquo;est un outil, fiable et simple d&amp;rsquo;utilisation pour noter votre site.&lt;/p>
@@ -32,8 +32,8 @@ N&amp;rsquo;ajoutez pas d&amp;rsquo;extensions qui utilisent des ressources du s
 &lt;h2 id="accessibilité">Accessibilité&lt;/h2>
 &lt;ul>
 &lt;li>Contraste élevé entre le fond et la couleur de la police d&amp;rsquo;écriture.&lt;/li>
-&lt;li>Balise &lt;!-- raw HTML omitted -->&lt;/li>
-&lt;li>[lang] attribute for &lt;!-- raw HTML omitted -->&lt;/li>
+&lt;li>Balise &lt;code>&amp;lt;title&amp;gt;&lt;/code>&lt;/li>
+&lt;li>[lang] attribute for &lt;code>&amp;lt;html&amp;gt;&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html">&amp;lt;&lt;span style="color:#f92672">html&lt;/span> &lt;span style="color:#a6e22e">lang&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;{{ .Site.Language }}&amp;#34;&lt;/span>&amp;gt;
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Dans config.yml :&lt;/p>
@@ -74,7 +74,7 @@ src="./media/lighthouse-report.pdf"
 title="aperçu lighthouse-report"
 >
 &lt;/iframe>
-&lt;p>Pour les templates SEO, pensez a bien respecter l&amp;rsquo;architecture ainsi que langage, de même pour pour le flux rss.&lt;/p></description><enclosure url="http://subversive.eu/media/lighthouse-100x4.jpg" length="54872" type="image/png"/></item><item><title>Ecrire des commentaires sur un site statique (hugo) avec staticman et heroku</title><link>https://subversive.eu/articles/ecrire-des-commentaires-sur-un-site-statique-hugo-avec-staticman-et-heroku.html</link><source url="https://subversive.eu/index.xml">Journal Subversif</source><pubDate>Fri, 05 Feb 2021 17:00:00 +0000</pubDate><guid>https://subversive.eu/articles/ecrire-des-commentaires-sur-un-site-statique-hugo-avec-staticman-et-heroku.html</guid><description>&lt;p>Bonjour !&lt;/p>
+&lt;p>Pour les templates SEO, pensez a bien respecter l&amp;rsquo;architecture ainsi que le langage, de même pour le flux rss.&lt;/p></description><enclosure url="http://subversive.eu/media/lighthouse-100x4.jpg" length="54872" type="image/png"/></item><item><title>Ecrire des commentaires sur un site statique (hugo) avec staticman et heroku</title><link>https://subversive.eu/articles/ecrire-des-commentaires-sur-un-site-statique-hugo-avec-staticman-et-heroku.html</link><source url="https://subversive.eu/index.xml">Journal Subversif</source><pubDate>Fri, 05 Feb 2021 17:00:00 +0000</pubDate><guid>https://subversive.eu/articles/ecrire-des-commentaires-sur-un-site-statique-hugo-avec-staticman-et-heroku.html</guid><description>&lt;p>Bonjour !&lt;/p>
 &lt;p>Tutoriel pour permettre l&amp;rsquo;écriture de commentaires sur un site internet statique avec &lt;a rel="noopener noreferrer" target="_blank" href="https://gohugo.io/" title="hugo cms" >hugo cms&lt;/a>, &lt;a rel="noopener noreferrer" target="_blank" href="https://staticman.net/docs/" title="staticman" >staticman&lt;/a> et &lt;a rel="noopener noreferrer" target="_blank" href="https://www.heroku.com/" title="heroku" >heroku&lt;/a>.&lt;/p>
 &lt;p>Objectif, offrir a vos visiteurs la possibilité d&amp;rsquo;écrire des commentaires (ou autres) sans passer par un organisme tel que Graphcomment ou Disqus,&amp;hellip; Ainsi vous respectez la vie privée de vos utilisateurs.&lt;/p>
 &lt;p>Tous les tutos disponibles sur le net (que j&amp;rsquo;ai lu) sont en anglais, ils datent et certains liens ne fonctionnent plus, bref j&amp;rsquo;ai du faire un mix de tuto pour y arriver, du coup je vous propose un tuto en français.&lt;/p>
@@ -502,7 +502,7 @@ Car justement les systèmes sociaux terrestres doivent être corrigés.&lt;/p>
 &lt;p>L&amp;rsquo;individu devrait faire évoluer le droit quotidiennement par rapport aux normes morales suivies avec rigueur en étant pro-actif (ex: la désobéissance civile, qui est un concept étonnant sur Terre). Mais la crainte en fait taire plus d&amp;rsquo;un ou du moins tant à diminuer leur influence et leurs rayons d&amp;rsquo;actions.&lt;/p>
 &lt;blockquote>
 &lt;p>Les sociétés se font aussi en fonction de l’idée qu’elles se font d’elles-mêmes.&lt;br>
-&lt;!-- raw HTML omitted -->Marcel Gauchet&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;cite>Marcel Gauchet&lt;/cite>&lt;/p>
 &lt;/blockquote>
 &lt;p>Je comprend en lisant cela que comme écrit plus haut, la société se sent bien, elle n&amp;rsquo;a besoin d&amp;rsquo;évoluer..&lt;/p>
 &lt;p>Ou plutôt elle n&amp;rsquo;a pas conscience que ça ne va pas, alors elle ne peut avoir conscience qu&amp;rsquo;elle doit changer.&lt;/p>
@@ -603,7 +603,7 @@ alt="Orgues de Staline version années 2000"/> &lt;figcaption>
 &lt;p>Donc, le dirigeant éclairé est attentif et vigilant et le bon général plein de prudence. Telle est la manière de garder le pays en paix et l’armée intacte. »&lt;/p>
 &lt;/blockquote>
 &lt;blockquote>
-&lt;p>— &lt;!-- raw HTML omitted -->Sun Tzu, dans l&amp;rsquo;Art de la Guerre&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>— &lt;cite>Sun Tzu, dans l&amp;rsquo;Art de la Guerre&lt;/cite>&lt;/p>
 &lt;/blockquote>
 &lt;p>La goutte d&amp;rsquo;eau lors de l’abattage d&amp;rsquo;un hélicoptère russe Mi-24 a fait déborder le vase, ou plutôt les enfants sont venus jouer trop prêts de la tanière, la partie est finie !&lt;/p>
 &lt;p>Sur ce dossier Moscou joue double jeu, s&amp;rsquo;affirmer sur la scène internationale et s&amp;rsquo;affirmer sur sa zone d&amp;rsquo;affluence régionale et bien sur ne pas froisser l&amp;rsquo;opinion publique n&amp;rsquo;y leurs personnels militaires qui il faut le dire, en ont marre d&amp;rsquo;un Turc constamment fauteur de troubles.&lt;/p>
@@ -613,7 +613,7 @@ alt="Orgues de Staline version années 2000"/> &lt;figcaption>
 &lt;p>Si la Russie adhérait à cette maxime, notre réponse à l’incident aurait été dévastatrice. Nous attendons que le président Aliev respecte sa promesse d’enquêter et de punir les coupables. Nous espérons que l’Azerbaïdjan ne va pas se perdre en paroles vagues.&lt;/p>
 &lt;/blockquote>
 &lt;blockquote>
-&lt;p>— &lt;!-- raw HTML omitted -->Sergueï Lavrov, l’arrogance de Bakou oblige les russes à se justifier&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>— &lt;cite>Sergueï Lavrov, l’arrogance de Bakou oblige les russes à se justifier&lt;/cite>&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="make-russia-great-again">Make Russia Great Again&lt;/h2>
 &lt;p>Voilà telle était et est la mission de Vladimir Vladimirovitch, mais tonton Russe en veut toujours plus !&lt;/p>
@@ -641,8 +641,8 @@ Sachant que 80% du commerce mondiale se fait par voix maritime et que la grande 
 &lt;p>Est la monnaie, la marchandise qui fonctionne comme une mesure de valeur et comme moyen de circulation (en chair et en os ou pas le biais d&amp;rsquo;un représentant).&lt;/p>
 &lt;p>La société antique dénonce la monnaie comme le billon fatal à son ordre économique et moral.&lt;/p>
 &lt;blockquote>
-&lt;p>L&amp;rsquo;Homme ne connaît pas de mal plus honteux que celui de l&amp;rsquo;argent.&lt;!-- raw HTML omitted -->
-— &lt;!-- raw HTML omitted -->Sophocle&lt;sup id="fnref:1">&lt;a href="https://subversive.eu/articles/karl-marx-le-capital-analyse-partie-1.html#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>L&amp;rsquo;Homme ne connaît pas de mal plus honteux que celui de l&amp;rsquo;argent.&lt;br>
+— &lt;cite>Sophocle&lt;sup id="fnref:1">&lt;a href="https://subversive.eu/articles/karl-marx-le-capital-analyse-partie-1.html#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/cite>&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="la-marchandise">La marchandise&lt;/h2>
 &lt;p>La marchandise en tant que valeur d&amp;rsquo;usage satisfait un besoin particulier et constitue un élément particulier de la richesse matérielle. Mais la valeur de la marchandise mesure le degré de sa force d’attraction sur tous les éléments de la richesse matérielle, et donc la richesse sociale de son possesseur.&lt;/p>
@@ -658,8 +658,8 @@ Le développement de la monnaie comme moyen de paiement rend nécessaire des acc
 &lt;p>La monnaie mondiale fonctionne comme moyen de paiement universel, comme moyen d&amp;rsquo;achat universel, et comme matérialisation sociale absolue de la richesse en général.&lt;/p>
 &lt;p>Le commerçant avance la monnaie pour en retirer plus dans le circuit économique. Il ne laisse partir l&amp;rsquo;argent qu&amp;rsquo;avec la sournoise intention de la récupérer. Il effectue une mise en valeur (survaleur) de la marchandise.&lt;/p>
 &lt;blockquote>
-&lt;p>La vraie richesse consiste en valeurs d&amp;rsquo;usage de ce genre; car la mesure de biens de ce genre suffisante pour bien vivre n&amp;rsquo;est pas illimitée. Mais il est un autre art d&amp;rsquo;acquérir qui s&amp;rsquo;appelle par distinction et à juste titre la chrématistique, qui est ainsi fait qu&amp;rsquo;il semble n&amp;rsquo;y avoir pas de limites à la richesse et à la possession.&lt;!-- raw HTML omitted -->
-— &lt;!-- raw HTML omitted -->Aristote&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>La vraie richesse consiste en valeurs d&amp;rsquo;usage de ce genre; car la mesure de biens de ce genre suffisante pour bien vivre n&amp;rsquo;est pas illimitée. Mais il est un autre art d&amp;rsquo;acquérir qui s&amp;rsquo;appelle par distinction et à juste titre la chrématistique, qui est ainsi fait qu&amp;rsquo;il semble n&amp;rsquo;y avoir pas de limites à la richesse et à la possession.&lt;br>
+— &lt;cite>Aristote&lt;/cite>&lt;/p>
 &lt;/blockquote>
 &lt;p>Karl Marx développe cette idée, en deux approches, celle du thésauriseur, l&amp;rsquo;avare et celui du capitaliste, l&amp;rsquo;investisseur. Dans les deux cas la psychologie est la même&amp;hellip;&lt;/p>
 &lt;p>Mr Marx a complexifié le discours grec comme les grands de son époque.&lt;/p>
@@ -674,7 +674,7 @@ Le développement de la monnaie comme moyen de paiement rend nécessaire des acc
 &lt;p>La circulation ou l&amp;rsquo;échange de marchandises ne créé pas de survaleur.&lt;/p>
 &lt;blockquote>
 &lt;p>La guerre est pillage, le commerce est escroquerie.
-— &lt;!-- raw HTML omitted -->Franklin&lt;!-- raw HTML omitted -->&lt;/p>
+— &lt;cite>Franklin&lt;/cite>&lt;/p>
 &lt;/blockquote>
 &lt;p>Le capital industriel est lui même voleur, se fait voler par le capital commercial qui vole l&amp;rsquo;acheteur. Pire est le capital usuraire (paiement par crédit).&lt;/p>
 &lt;h3 id="capital-usuraire">Capital usuraire&lt;/h3>
@@ -682,11 +682,11 @@ Le développement de la monnaie comme moyen de paiement rend nécessaire des acc
 &lt;p>Cela contredit la nature de la monnaie.&lt;/p>
 &lt;h4 id="aristote">Aristote&lt;/h4>
 &lt;blockquote>
-&lt;p>Puisque la chrématistique est double, que d&amp;rsquo;un côté elle appartient au commerce, de l&amp;rsquo;autre à l&amp;rsquo;économie, que sous ce dernier rapport elle est nécessaire et louable, que sous le premier, elle est fondée sur la circulation et blâmée à juste titre (car elle ne repose pas sur la nature, mais sur une escroquerie réciproque), l&amp;rsquo;usure est à juste titre haïe parce qu&amp;rsquo;avec l&amp;rsquo;argent lui-même devient la source de l&amp;rsquo;acquisition et ne sert pas aux fins pour lesquelles il a été inventé. Car il était destiné à servir l&amp;rsquo;échange des marchandises, alors que l&amp;rsquo;intérêt fait avec de l&amp;rsquo;argent plus d&amp;rsquo;argent. D&amp;rsquo;où aussi son nom.&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>Puisque la chrématistique est double, que d&amp;rsquo;un côté elle appartient au commerce, de l&amp;rsquo;autre à l&amp;rsquo;économie, que sous ce dernier rapport elle est nécessaire et louable, que sous le premier, elle est fondée sur la circulation et blâmée à juste titre (car elle ne repose pas sur la nature, mais sur une escroquerie réciproque), l&amp;rsquo;usure est à juste titre haïe parce qu&amp;rsquo;avec l&amp;rsquo;argent lui-même devient la source de l&amp;rsquo;acquisition et ne sert pas aux fins pour lesquelles il a été inventé. Car il était destiné à servir l&amp;rsquo;échange des marchandises, alors que l&amp;rsquo;intérêt fait avec de l&amp;rsquo;argent plus d&amp;rsquo;argent. D&amp;rsquo;où aussi son nom.&lt;br>&lt;/p>
 &lt;/blockquote>
 &lt;blockquote>
-&lt;p>Car les enfants ressemblent aux géniteurs. Mais l&amp;rsquo;intérêt est de l&amp;rsquo;argent issu de l&amp;rsquo;argent, de sorte que de toutes les manières qu&amp;rsquo;acquérir, l&amp;rsquo;intérêt est celui qui est le plus contre nature.&lt;!-- raw HTML omitted -->
-— &lt;!-- raw HTML omitted -->Aristote&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>Car les enfants ressemblent aux géniteurs. Mais l&amp;rsquo;intérêt est de l&amp;rsquo;argent issu de l&amp;rsquo;argent, de sorte que de toutes les manières qu&amp;rsquo;acquérir, l&amp;rsquo;intérêt est celui qui est le plus contre nature.&lt;br>
+— &lt;cite>Aristote&lt;/cite>&lt;/p>
 &lt;/blockquote>
 &lt;h4 id="marx">Marx&lt;/h4>
 &lt;p>L&amp;rsquo;usure est pire que tout car le seul but de la monnaie est l&amp;rsquo;échange.&lt;/p>
@@ -755,8 +755,8 @@ Car en améliorant la technique, j&amp;rsquo;augmente ma production sur une mêm
 &lt;p>Rentrons dans le vif du sujet:&lt;/p>
 &lt;h3 id="la-production-capitaliste">La production capitaliste&lt;/h3>
 &lt;blockquote>
-&lt;p>Elle ne commence en fait que lorsque le même capital individuel emploie simultanément un nombre relativement important d&amp;rsquo;ouvriers, là où, en conséquence, le process de travail prend de l&amp;rsquo;ampleur et fournit des produits, quantitativement, à une plus grande échelle. Qu&amp;rsquo;un nombre important d&amp;rsquo;ouvriers travaillent dans le même temps, dans le même espace de travail à la production de la même sorte de marchandise, sous le commandement du même capitaliste, voilà ce qui constitue le point de départ tant historique que conceptuel de la production capitaliste.&lt;!-- raw HTML omitted -->
-— &lt;!-- raw HTML omitted -->Karl Marx&lt;sup id="fnref:4">&lt;a href="https://subversive.eu/articles/karl-marx-le-capital-analyse-partie-1.html#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>Elle ne commence en fait que lorsque le même capital individuel emploie simultanément un nombre relativement important d&amp;rsquo;ouvriers, là où, en conséquence, le process de travail prend de l&amp;rsquo;ampleur et fournit des produits, quantitativement, à une plus grande échelle. Qu&amp;rsquo;un nombre important d&amp;rsquo;ouvriers travaillent dans le même temps, dans le même espace de travail à la production de la même sorte de marchandise, sous le commandement du même capitaliste, voilà ce qui constitue le point de départ tant historique que conceptuel de la production capitaliste.&lt;br>
+— &lt;cite>Karl Marx&lt;sup id="fnref:4">&lt;a href="https://subversive.eu/articles/karl-marx-le-capital-analyse-partie-1.html#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;/cite>&lt;/p>
 &lt;/blockquote>
 &lt;h4 id="avantages">Avantages&lt;/h4>
 &lt;ul>
@@ -951,8 +951,8 @@ Une conscience globale (échelle planétaire) est-elle la cause d&amp;rsquo;un i
 &lt;p>Comment définir ce lien intrinsèque entre connaissance, intelligence et conscience ?&lt;/p>
 &lt;p>Devons-nous attendre la science ? Il le faudra bien car sans preuve, n&amp;rsquo;y mathématiques, nos paroles ne sont qu&amp;rsquo;hypothèses.&lt;/p>
 &lt;blockquote>
-&lt;p>L&amp;rsquo;intelligence est un capitaine qui est toujours en retard d&amp;rsquo;une bataille. Et qui discute après la bataille.&lt;!-- raw HTML omitted -->
-— &lt;!-- raw HTML omitted -->Léon-Paul Fargue&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>L&amp;rsquo;intelligence est un capitaine qui est toujours en retard d&amp;rsquo;une bataille. Et qui discute après la bataille.&lt;br>
+— &lt;cite>Léon-Paul Fargue&lt;/cite>&lt;/p>
 &lt;/blockquote>
 &lt;p>Voilà où j&amp;rsquo;en suis.&lt;/p>
 &lt;h3 id="de-la-trivialité">De la trivialité&lt;/h3>
@@ -1049,17 +1049,17 @@ Contribute
 &lt;h2 id="colunms">Colunms&lt;/h2>
 &lt;div class="book-columns flex flex-wrap">
 &lt;div class="flex-even markdown-inner">
-&lt;!-- raw HTML omitted -->
+&lt;!-- begin columns block -->
 &lt;h3 id="left-content">Left Content&lt;/h3>
 &lt;p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
 &lt;/div>
 &lt;div class="flex-even markdown-inner">
-&lt;!-- raw HTML omitted -->
+&lt;!-- magic separator, between columns -->
 &lt;h3 id="mid-content">Mid Content&lt;/h3>
 &lt;p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter!
 &lt;/div>
 &lt;div class="flex-even markdown-inner">
-&lt;!-- raw HTML omitted -->
+&lt;!-- magic separator, between columns -->
 &lt;h3 id="right-content">Right Content&lt;/h3>
 &lt;p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
 &lt;/div>
@@ -1112,74 +1112,14 @@ Contribute
 &lt;p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code>footer&lt;/code> or &lt;code>cite&lt;/code> element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p>
 &lt;h4 id="blockquote-without-attribution">Blockquote without attribution&lt;/h4>
 &lt;blockquote>
-&lt;p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.&lt;br>
 &lt;strong>Note&lt;/strong> that you can use &lt;em>Markdown syntax&lt;/em> within a blockquote.&lt;/p>
 &lt;/blockquote>
 &lt;h4 id="blockquote-with-attribution">Blockquote with attribution&lt;/h4>
 &lt;blockquote>
-&lt;p>Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;!-- raw HTML omitted -->
-— &lt;!-- raw HTML omitted -->Rob Pike&lt;sup id="fnref:1">&lt;a href="https://subversive.eu/articles/markdown-syntax-how-to-use-figure-with-html-css-and-tabs.html#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;br>
+— &lt;cite>Rob Pike&lt;sup id="fnref:1">&lt;a href="https://subversive.eu/articles/markdown-syntax-how-to-use-figure-with-html-css-and-tabs.html#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/cite>&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="blockquote-hard">Blockquote Hard&lt;/h3>
-&lt;p>Normal quote:
-&lt;blockquote>
-&lt;p>This is a simple quote.&lt;/p>
-&lt;footer>
-&lt;strong>&lt;/strong>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author
-&lt;blockquote>
-&lt;p>This is a quote with only an Author named Author2.&lt;/p>
-&lt;footer>
-&lt;strong>Author2&lt;/strong>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author and source
-&lt;blockquote>
-&lt;p>This is a quote from Author3 and source &amp;ldquo;source.&amp;rdquo;&lt;/p>
-&lt;footer>
-&lt;strong>Author3&lt;/strong>
-&lt;cite>Source&lt;/cite>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author and link
-&lt;blockquote>
-&lt;p>This is a quote from Author4 and links to &lt;a href="https://www.google.com">https://www.google.com&lt;/a>.&lt;/p>
-&lt;footer>
-&lt;strong>Author4&lt;/strong>
-&lt;cite>
-&lt;a href="https://www.google.com" title="https://www.google.com">google.com&lt;/a>
-&lt;/cite>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author, link and title
-&lt;blockquote>
-&lt;p>This is a quote from Author5 and links to &lt;a href="https://www.google.com">https://www.google.com&lt;/a> with title &amp;ldquo;Google.&amp;rdquo;&lt;/p>
-&lt;footer>
-&lt;strong>Author5&lt;/strong>
-&lt;cite>
-&lt;a href="https://www.google.com" title="https://www.google.com">Google&lt;/a>
-&lt;/cite>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
-&lt;blockquote>
-&lt;p>This is a quote from Author5 and links to &lt;a href="https://twitter.com/CryptoGangsta/status/716427930126196737">https://twitter.com/CryptoGangsta/status/716427930126196737&lt;/a> which is longer than 32 characters.
-&lt;!-- raw HTML omitted -->And this is a new line in the quote with the HTML br tag.&lt;/p>
-&lt;footer>
-&lt;strong>Author6&lt;/strong>
-&lt;cite>
-&lt;a href="https://twitter.com/CryptoGangsta/status/716427930126196737" title="https://twitter.com/CryptoGangsta/status/716427930126196737">twitter.com/CryptoGangsta/...&lt;/a>
-&lt;/cite>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
 &lt;h2 id="figure">figure&lt;/h2>
 &lt;p>Figure (image insertion) playing with text !&lt;/p>
 &lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
@@ -1369,11 +1309,11 @@ alt="image"/> &lt;figcaption>
 &lt;hr>
 &lt;hr>
 &lt;h3 id="abbr-sub-sup-kbd-mark">abbr, sub, sup, kbd, mark&lt;/h3>
-&lt;p>&lt;!-- raw HTML omitted -->GIF&lt;!-- raw HTML omitted --> is a bitmap image format.&lt;/p>
-&lt;p>H&lt;!-- raw HTML omitted -->2&lt;!-- raw HTML omitted -->O&lt;/p>
-&lt;p>X&lt;!-- raw HTML omitted -->n&lt;!-- raw HTML omitted --> + Y&lt;!-- raw HTML omitted -->n&lt;!-- raw HTML omitted --> = Z&lt;!-- raw HTML omitted -->n&lt;!-- raw HTML omitted -->&lt;/p>
-&lt;p>Press &lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->CTRL&lt;!-- raw HTML omitted -->+&lt;!-- raw HTML omitted -->ALT&lt;!-- raw HTML omitted -->+&lt;!-- raw HTML omitted -->Delete&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted --> to end the session.&lt;/p>
-&lt;p>Most &lt;!-- raw HTML omitted -->salamanders&lt;!-- raw HTML omitted --> are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p>
+&lt;p>&lt;abbr title="Graphics Interchange Format">GIF&lt;/abbr> is a bitmap image format.&lt;/p>
+&lt;p>H&lt;sub>2&lt;/sub>O&lt;/p>
+&lt;p>X&lt;sup>n&lt;/sup> + Y&lt;sup>n&lt;/sup> = Z&lt;sup>n&lt;/sup>&lt;/p>
+&lt;p>Press &lt;kbd>&lt;kbd>CTRL&lt;/kbd>+&lt;kbd>ALT&lt;/kbd>+&lt;kbd>Delete&lt;/kbd>&lt;/kbd> to end the session.&lt;/p>
+&lt;p>Most &lt;mark>salamanders&lt;/mark> are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p>
 &lt;h2 id="youtube">youtube&lt;/h2>
 &lt;div class="video-responsive">
 &lt;iframe
@@ -1386,9 +1326,8 @@ title="Vidéo Youtube sans cookies"
 &lt;/iframe>
 &lt;/div>
 &lt;h2 id="tweeter">tweeter&lt;/h2>
-&lt;ul>
-&lt;li>With mobile, Tweeter appear simple blockquote.&lt;/li>
-&lt;/ul>
+&lt;p>&lt;strong>With mobile and some privacy browser.., Tweeter appear like simple blockquote&lt;/strong>&lt;br>
+&lt;strong>If not, appear like twetter want&lt;/strong>&lt;/p>
 &lt;blockquote class="twitter-tweet" data-dnt="true">&lt;p lang="en" dir="ltr">Hugo 0.24 Released: Big archetype update + &lt;a href="https://twitter.com/Netlify?ref_src=twsrc%5Etfw">@Netlify&lt;/a> _redirects etc. file support&lt;a href="https://t.co/X94FmYDEZJ">https://t.co/X94FmYDEZJ&lt;/a> &lt;a href="https://twitter.com/hashtag/gohugo?src=hash&amp;amp;ref_src=twsrc%5Etfw">#gohugo&lt;/a> &lt;a href="https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw">#golang&lt;/a> &lt;a href="https://twitter.com/spf13?ref_src=twsrc%5Etfw">@spf13&lt;/a> &lt;a href="https://twitter.com/bepsays?ref_src=twsrc%5Etfw">@bepsays&lt;/a>&lt;/p>&amp;mdash; GoHugo.io (@GoHugoIO) &lt;a href="https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw">June 21, 2017&lt;/a>&lt;/blockquote>
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
 &lt;h2 id="vimeo">vimeo&lt;/h2>

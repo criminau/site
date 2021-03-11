@@ -122,9 +122,15 @@ fieldset {
     font-family:inherit;
     font-size: 0.85rem;
 }
+#warningComment a:hover{
+    font-weight: bolder;
+}
 /* bouton envoyer */
 #submitButton{
     color: var(--content);
+}
+#submitButton:hover{
+    font-weight: bolder;
 }
 /* post envoi du commentaire  aside note + section id thankyou + p*/
 .note{
