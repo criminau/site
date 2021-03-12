@@ -17,8 +17,9 @@ pdfname: "Karl Marx Le Capital 2"
 
 Ceci est la base universelle du capitalisme.
 
-D’après Karl Marx, l’urbanisme provient de la production de masse, de la manufacture. On retrouve cette vision manufacturière en division territoriale, a tel endroit l’on fait telle chose, a d’autre d’autre chose. Cela développe le compartimentage de la société, des spécialisations, une forme de parcellisation de l’Homme.
-<!--more-->
+D’après Karl Marx, l’urbanisme provient de la production de masse, de la manufacture. On retrouve cette vision manufacturière en division territoriale, a tel endroit l’on fait telle chose, a d’autre d’autre chose. <!--more-->
+Cela développe le compartimentage de la société, des spécialisations, une forme de parcellisation de l’Homme.
+
 > Ferguson disait, « Nous sommes une nation d’idoles et il n’y a pas d’hommes libres parmi nous »  
 > History of civil society, p285, 1767 part IV, sect II.
 

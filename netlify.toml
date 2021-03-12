@@ -1,7 +1,7 @@
 [build]
 publish = "public"
 #command = "hugo --gc --minify"
-command = "hugo --minify --buildDrafts"
+command = "hugo --gc --minify --buildDrafts"
 
 [context.production.environment]
 HUGO_VERSION = "0.80.0"
@@ -38,5 +38,5 @@ for = "/*"
   Referrer-Policy = "no-referrer"
   Strict-Transport-Security = "max-age=15768000"
   X-Content-Type-Options = "nosniff"
-  X-Frame-Options = "DENY"
+  X-Frame-Options = "SAMEORIGIN"
   X-XSS-Protection = "1; mode=block"
