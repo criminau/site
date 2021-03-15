@@ -25,7 +25,7 @@ En savoir plus :   <https://subversive.eu/apropos/>
 - Ajout fieldset dans reset.css.
 - Refonte CSS Complet Espace Commentaire, responsive.
 - Optimisation des ressources JS dans footer.html.
-- Config.yml néttoyé.
+- Config.yml nettoyé.
 
 
 ---
@@ -34,5 +34,5 @@ En savoir plus :   <https://subversive.eu/apropos/>
 
 - A la recherche d'un md2pdf!
 - A la recherche d'un plugin de recherche.
-- Options de traduction
-- Etudier pour changer la taille de police / taille de l'écran.
+- Options de traduction ?
+- Etudier pour changer la taille de police / taille de l'écran ?
