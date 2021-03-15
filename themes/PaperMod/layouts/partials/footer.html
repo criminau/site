@@ -27,16 +27,16 @@ localStorage.setItem("pref-theme", 'dark');
 </script>
 {{- end }}
 
-<!-- fichier script.js minifié + garantie de l'intégrité -->
 
-{{ $js := resources.Get "js/script.js" }}
-{{ $JS := $js | resources.Minify | fingerprint }}
-<script rel="preload" async src="{{ $JS.Permalink }}" integrity="{{ $JS.Data.Integrity }}"></script>
-
-<!-- fichier comments.js (uniquement SI les commentaires sont activés) -->
-
+<!-- with comments.js -->
 {{- if and ($.Site.Params.comments) (ne .Params.comments false) }}
-{{ $js := resources.Get "js/comments.js" }}
-{{ $JS1 := $js | resources.Minify | fingerprint }}
-<script rel="preload" async src="{{ $JS1.Permalink }}" integrity="{{ $JS1.Data.Integrity }}"></script>
+{{ $all := resources.Get "js/script.js" }}
+{{ $com := resources.Get "js/comments.js" }}
+{{ $secureJS := slice $all $com | resources.Concat "assets/js/secureJS-w-com.js" | minify | fingerprint }}
+<script rel="preload" async src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+{{- else }}
+<!-- only script.js minify + integrity -->
+{{ $js := resources.Get "js/script.js" }}
+{{ $secureJS1 := $js | resources.Minify | fingerprint }}
+<script rel="preload" async src="{{ $secureJS1.Permalink }}" integrity="{{ $secureJS1.Data.Integrity }}"></script>
 {{- end }}

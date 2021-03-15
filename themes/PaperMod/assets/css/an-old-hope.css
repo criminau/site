@@ -10,8 +10,7 @@
     border-radius: var(--radius);
     display: flex;
     overflow-x: auto;
-}
-#staticman-button {
+    font-size: 1em;
     width: 100%;
     padding: 0.25em 0.75em;
     margin-bottom: 1rem;
@@ -38,7 +37,6 @@
 .staticman-comments .comment-author, .comment-content, .comment-timestamp {
     margin-top: 0;
     color: var(--content);
-    font-size: 16px;
     line-height: 1.6;
 }
 .staticman-comments article{
@@ -48,17 +46,33 @@
 .staticman-comments .comment-author {
     grid-column: 1;
     grid-row: 1;
+    font-size: 0.8em;
 }
 .staticman-comments .comment-timestamp {
     grid-column: 2;
     grid-row: 1;
     text-align: right;
     margin-right: 5px;
+    font-size: 0.8em;
+}
+.staticman-comments .comment-timestamp a{
+    box-shadow: 0 1px 0;
+}
+.staticman-comments .comment-timestamp a:hover {
+    font-weight: bolder;
 }
 .staticman-comments .comment-content{
     margin-top: 0.5rem;
     grid-column: 1/3;
     grid-row: 2;
+    font-size: 1em;
+}
+.comment-content a{
+    color: var(--content);
+    border-bottom: 1px solid var(--content);
+}
+.comment-content a:hover{
+    font-weight: bolder;
 }
 .staticman-comments .comment-content p {
     padding: 5px 1rem 5px 1rem;
@@ -74,13 +88,13 @@
     overflow-x: auto;
 }
 fieldset {
-    border:none;
+    padding: 15px;
 }
+
 /* les Inputs du Formulaire (pseudo+jscaptcha) */
 .staticman-comments input {
     color: var(--content);
     border: 1px solid var(--tertiary);
-    padding: 4px 5px;
     width: 100%;
     font-family:inherit;
     font-size: 0.85rem;
@@ -89,16 +103,18 @@ fieldset {
 }
 /* Les placeholder ^^ */
 .js-form input::placeholder{
-    color: var(--primary);
+    color: var(--content);
+        font-size: 1em;
+
 }
 .js-form textarea::placeholder{
-    color: var(--primary);
+    color: var(--content);
+        font-size: 1em;
 }
 /* le textarea du formulaire (comment) */
 .staticman-comments textarea {
     color: var(--content);
     border: 1px solid var(--tertiary);
-    padding: 4px 5px;
     vertical-align: top;
     height: 10em;
     width: 100%;
@@ -111,6 +127,7 @@ fieldset {
 .staticman-comments label, .staticman-comments button {
     margin-top: 0.5rem;
     font-size: 0.85rem;
+    font-size: 1em;
 }
 /* warning comment ouput */
 #warningComment{
@@ -122,12 +139,19 @@ fieldset {
     font-family:inherit;
     font-size: 0.85rem;
 }
+#warningComment a{
+    color: var(--content);
+    border-bottom: 1px solid var(--content);
+}
 #warningComment a:hover{
     font-weight: bolder;
 }
+
 /* bouton envoyer */
 #submitButton{
     color: var(--content);
+    border-bottom: 1px solid var(--content);
+    font-size: 1em;
 }
 #submitButton:hover{
     font-weight: bolder;
@@ -161,4 +185,14 @@ fieldset {
     width: 100%;
     padding: 0.25em 0.75em;
     margin-bottom: 1rem;
+}
+
+/* écran < 800 */
+@media screen and (max-width: 800px) {
+  .static-comment .comment-content p{
+    padding: 2.5px 0.5rem 2.5px 0.5rem;
+  }
+  fieldset {
+    padding: 5px;
+  }
 }

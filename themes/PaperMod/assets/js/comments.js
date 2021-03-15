@@ -123,7 +123,7 @@ return jCaptcha;
         width: 100,
         height: 15,
         textBaseline: 'top',
-        font: '15px Segoe UI bolder',
+        font: '16px Segoe UI bolder',
         textAlign: 'left',
         fillStyle: 'red',
             },

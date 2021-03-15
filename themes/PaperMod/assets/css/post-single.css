@@ -73,6 +73,9 @@
 .post-content a {
     text-decoration: underline;
 }
+.post-content a:hover{
+    font-weight: bolder;
+}
 /* ET (en plus) sur tablette ou smartphone, ajout d'un espace -> Tap targets are not sized appropriately */
 @media screen and (max-width: 700px) {
 .post-content p a{
@@ -248,37 +251,39 @@
     border-radius: 4px;
 }
 
+/* Table Of Contents */
 .toc {
     margin-bottom: 40px;
     border: 1px solid var(--border);
     border-radius: var(--radius);
     padding: .5em;
 }
-
 .toc details summary {
     cursor: zoom-in;
     margin-inline-start: 20px;
 }
-
 .toc details[open] summary {
     cursor: zoom-out;
 }
-
 .toc .details {
     display: inline;
     font-weight: 500;
 }
-
+.toc .details:hover{
+    font-weight: bolder;
+}
 .toc blockquote {
     margin: 0 20px;
     padding: 10px 20px;
 }
-
 .toc li ul {
     margin-inline-start: var(--gap);
 }
-/* PagiNavLinks */
+.toc a:hover{
+    font-weight: bolder;
+}
 
+/* PagiNavLinks */
 .paginav {
     color: var(--content);
     margin-top: var(--gap);
@@ -304,7 +309,7 @@
 .paginav .next {
     width: 50%;
 }
-.paginav span:hover:not(.title) {
+.paginav span:not(.title) {
     box-shadow: 0 1px 0;
 }
 .paginav .next {
@@ -313,6 +318,9 @@
 }
 [dir="rtl"] .paginav .next {
     text-align: left;
+}
+.paginav span:hover:not(.title) {
+    font-weight: bolder;
 }
 
 /*share buttons*/
