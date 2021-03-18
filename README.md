@@ -26,7 +26,7 @@ En savoir plus :   <https://subversive.eu/apropos/>
 - Refonte CSS Complet Espace Commentaire, responsive.
 - Optimisation des ressources JS dans footer.html.
 - Config.yml nettoyé.
-
+- CSS markdown columns responsive.
 
 ---
 

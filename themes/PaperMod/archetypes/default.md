@@ -7,6 +7,7 @@ hidemeta: false
 comments: true
 disableShare: false
 tocopen: false
+noindex: false
 date: {{ .Date }}
 cover:
     image: "media/"
