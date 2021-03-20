@@ -19,6 +19,7 @@ pdfname: "les-etats-uniens-nos-copains"
 ---
 
 Depuis 2011, Nord Stream 1 sert l'Europe en gaz russe via la baltique et l'Allemagne. La demande Européenne augmentant, Nord Stream 2 doit relier la Russie et l'Allemagne, tracé de 1230 km, permettant de doubler l'approvisionnement.
+<!--more-->
 
 ## Introduction
 

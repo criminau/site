@@ -4,15 +4,18 @@
 </footer>
 
 <!-- le bouton retour haut de page -->
-  <button aria-label="Retour en haut de la page" class="top-link" id="top-link" type="button" name="Haut de page" >
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <polyline points="18 15 12 9 6 15" /></svg>
-  </button>
-
+<button aria-label="Retour en haut de la page" class="top-link" id="top-link" type="button" name="Haut de page" >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polyline points="18 15 12 9 6 15" /></svg>
+</button>
 
 <!-- Tous les scripts en bas des pages -->
+<!-- fichier script.js minifié -->
+{{ $js := resources.Get "js/script.js" }}
+{{ $SecureJS := $js | resources.Minify | fingerprint }}
+<script rel="preload stylesheet" async src="{{ $SecureJS.Permalink }}" integrity="{{ $SecureJS.Data.Integrity }}"></script>
 
-    <!-- bouton pour changer de thème, couleur du site avec option activer/desactiver -->
+<!-- Bouton pour changer de thème, couleur du site avec option activer/desactiver -->
 {{- if (not .Site.Params.disableThemeToggle) }}
 <script>
 document.getElementById("theme-toggle").addEventListener("click", () => {
@@ -25,18 +28,4 @@ localStorage.setItem("pref-theme", 'dark');
 }
 })
 </script>
-{{- end }}
-
-
-<!-- with comments.js -->
-{{- if and ($.Site.Params.comments) (ne .Params.comments false) }}
-{{ $all := resources.Get "js/script.js" }}
-{{ $com := resources.Get "js/comments.js" }}
-{{ $secureJS := slice $all $com | resources.Concat "assets/js/secureJS-w-com.js" | minify | fingerprint }}
-<script rel="preload" async src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
-{{- else }}
-<!-- only script.js minify + integrity -->
-{{ $js := resources.Get "js/script.js" }}
-{{ $secureJS1 := $js | resources.Minify | fingerprint }}
-<script rel="preload" async src="{{ $secureJS1.Permalink }}" integrity="{{ $secureJS1.Data.Integrity }}"></script>
 {{- end }}

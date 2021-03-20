@@ -17,7 +17,7 @@
 }
 /* Section staticman-comments Ou js-comments */
 #staticman-comments {
-    display: none; 
+    display: none;
 }
 .staticman-comments {
     color: var(--content);
@@ -167,6 +167,12 @@ fieldset {
     width: 100%;
     padding: 0.25em 0.75em;
     margin-bottom: 1rem;
+}
+.comment-merci a{
+  border-bottom: 1px solid var(--content);
+}
+.comment-merci a:hover{
+  font-weight: bolder;
 }
 
 /* Anti-Spam limite d'essai atteinte css*/

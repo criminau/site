@@ -1,14 +1,15 @@
   <!-- On demande s'il ya bien l'API dans config.yml (s2) -->
-{{ with .Site.Params.staticman.api }}
-  <!-- L'API est présent, on peut continuer -->
-<div class="classe-commentaire">
 
   <!-- Si le commentaire est BIEN parti, on remercie l'utilisateur. -->
 <aside aria-label="note" class="note">
-  <section id="comment-thankyou" style="display: none; margin-left: 5px"> 
-    <p class="comment-merci">Merci pour le commentaire!</p>
+  <section id="comment-thankyou" style="display: none;">
+    <p class="comment-merci">Merci pour le commentaire !&nbsp;<a rel="noopener noreferrer" title="Rafraîchir la page ?" href="{{ .Permalink }}">Rafraîchir la page ?</a></p>
   </section>
 </aside>
+
+{{ with .Site.Params.staticman.api }}
+  <!-- L'API est présent, on peut continuer -->
+<div class="classe-commentaire">
 
 <!-- Bouton pour ouvrir l'espace commentaire (Anti-Spam1)-->
 <button aria-label="Ouvrir espace commentaire" title="Ouvrir espace commentaire" id="staticman-button" onclick="showComments()">Espace commentaire</button>
@@ -24,7 +25,7 @@
 
     {{ if $.Site.Data.comments }}
       {{ $comments := index $.Site.Data.comments $slug }}
-  
+
   <!-- Affichage d'un commentaire -->
       {{ $.Scratch.Set "hasComments" 0 }}
       {{ range $index, $comments := (index $.Site.Data.comments $slug ) }}
@@ -44,8 +45,8 @@
         {{ end }}
       {{ end }}
     {{ end }}
-  
-  
+
+
   <!-- Formulaire pour écrire un commentaire -->
 <form class="js-form form" method="post" action="{{ $.Site.Params.staticman.api }}">
   <fieldset>

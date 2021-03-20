@@ -37,6 +37,7 @@ params:
   ShowPostNavLinks: true
   author: subversive.eu
   RSSauthor: subversive.eu@tutanota.com
+  enableSearch: false
   staticman:
     api: 'https://subversive.herokuapp.com/v2/entry/subversive-eu/site/master/comments'
   copyright: 'https://subversive.eu/internetlibre.txt'
@@ -46,7 +47,7 @@ params:
   cover:
     responsiveImages: false   # Perf
     linkFullImages: true
-  
+
   HomeInfoParams:
     Title: "Bonjour 👋"
     Content: "Journal Subversif, Politique et presque Impartial"
