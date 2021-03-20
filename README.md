@@ -10,9 +10,13 @@ En savoir plus :   <https://subversive.eu/apropos/>
 
 ### v.02.4
 
+- Recherche Interne :
+  * Permet la recherche de certains articles.
+  * Accès depuis n'importe où sur le site.
+  * Option 1 : noindex: false.
+  * Option 2 : enableSearch: false.
+  * Option 3 : i18n disponible.
 -
--
-
 
 
 ---

@@ -26,3 +26,6 @@
 
 - id: draft
   translation: "brouillon"
+
+- id: search
+  translation: "Barre de Recherche"

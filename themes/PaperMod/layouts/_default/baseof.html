@@ -10,10 +10,16 @@
 <body class="{{ if (and (eq .Kind `page` ) (ne .Layout `archives`)) }}single{{ else }}list
         {{- if .IsHome }} home{{ end }}{{ end }}{{- if eq $.Site.Params.defaultTheme `dark` }} dark{{ end }}" id="top">
     {{- partial "header.html" . .Page}}
+
     <main class="main">
         {{- block "main" . }}
         {{- end }}
     </main>
+
+    {{ if .Site.Params.enableSearch }}
+    {{ partial "search.html" . }}
+    {{ end }}
+
     {{- partial "footer.html" . .Type }}
 </body>
 
