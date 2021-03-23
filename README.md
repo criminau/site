@@ -16,10 +16,14 @@ En savoir plus :   <https://subversive.eu/apropos/>
   * Option 3 : i18n disponible.
   *
 - Commentaires:
-  * De Retour anticipé.
+  * Retour anticipé.
   * 100% fonctionnel.
-
-
+  * Option pour rafraîchir la page.
+- Boutons de partage :
+  * aria-label en français.
+- .Summary :
+  * plainify + truncate 180 + safeHTML
+- CacheControl /media/* 7 jours
 
 ---
 
@@ -36,6 +40,6 @@ En savoir plus :   <https://subversive.eu/apropos/>
   * Optimisation
 - Cover :
   * Préparer les web.dev.
-  
+
 - Options de traduction ?
 - Etudier pour changer la taille de police / taille de l'écran ?

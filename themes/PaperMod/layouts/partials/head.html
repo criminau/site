@@ -29,7 +29,7 @@
 
 <!-- Meta Simple -->
 {{- if in site.Params.mainSections .Type }}
-<meta name="description" content="{{ .Summary }}">
+<meta name="description" content="{{ .Summary | plainify | truncate 180 | safeHTML }}">
 {{- else }}
 <meta name="description" content="{{if .IsHome}}{{ .Site.Params.description }}{{else}}{{ .Title }} - {{ .Site.Title }}{{end}}">
 {{- end }}
@@ -58,7 +58,7 @@
 {{- $secureCSS := slice $style | resources.Concat "assets/css/secureCSS.css" | minify | fingerprint -}}
 <link href="{{ $secureCSS.Permalink }}"  rel="preload stylesheet"
     as="style" integrity="{{ $secureCSS.Data.Integrity }}">
-    
+
 <!-- Favicons -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
