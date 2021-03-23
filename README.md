@@ -16,6 +16,7 @@ En savoir plus :   <https://subversive.eu/apropos/>
   * Option 3 : i18n disponible.
   * Permet la recherche de certains articles.
   * Accès depuis n'importe où sur le site.
+  * [En savoir plus](https://subversive.eu/apropos/)
 - Commentaires:
   * Retour anticipé.
   * 100% fonctionnel.
@@ -31,8 +32,9 @@ En savoir plus :   <https://subversive.eu/apropos/>
   * Optimisation
 - CSS :
   * Optimisation
-  - Cover :
-    * Préparer les web.dev.
+- Cover :
+  * Préparer les web.dev.
+- noscript supprimé, mauvais rendu SEO.
 
 ---
 

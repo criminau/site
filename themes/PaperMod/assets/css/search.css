@@ -1,5 +1,8 @@
 /* Search
 --------------------------------------------------------------------- */
+#search-form .noscript{
+	display: none;
+}
 #search-form{
 		display: block;
 		position: fixed;
@@ -12,6 +15,7 @@
 		max-height: 100vh;
 		z-index: 1000;
 }
+
 #search-form.search--display,
 #search-form[data-focus='false'] .search--display {
 	display: none;

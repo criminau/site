@@ -48,12 +48,18 @@ Les formats PDF sont les plus propres mais pas forcément à jour .
 
 * [PaperMod](https://github.com/adityatelange/hugo-PaperMod/)
 
+### Recherche Interne
+
+* [Arty2](https://gist.github.com/Arty2/8b0c43581013753438a3d35c15091a9f)
+* [Fuse.io](https://fuse.io)
+* Utilisation : <kbd> <kbd>CTRL</kbd>+<kbd>MAJ</kbd>+<kbd> :</kbd> </kbd>
+
 ### Commentaires
 
 - [Staticman](https://staticman.net/)
 - [Heroku](https://www.heroku.com/)
 - [Charte de publication](https://subversive.eu/chartedepublication.txt)
-- [js-captcha](https://github.com/robiveli/js-captcha)
+- [Js-captcha](https://github.com/robiveli/js-captcha)
 
 ## Droits
 
