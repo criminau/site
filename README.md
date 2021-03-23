@@ -14,7 +14,8 @@ En savoir plus :   <https://subversive.eu/apropos/>
   * Option 1 : noindex: false.
   * Option 2 : enableSearch: false.
   * Option 3 : i18n disponible.
-  *
+  * Permet la recherche de certains articles.
+  * Accès depuis n'importe où sur le site.
 - Commentaires:
   * Retour anticipé.
   * 100% fonctionnel.
@@ -23,21 +24,20 @@ En savoir plus :   <https://subversive.eu/apropos/>
   * aria-label en français.
 - .Summary :
   * plainify + truncate 180 + safeHTML
-- CacheControl /media/* 7 jours
-
+- CacheControl
+  * /media/* 7 jours
+  * partialCached -> footer + share_icons
+- JS :
+  * Optimisation
+- CSS :
+  * Optimisation
 ---
 
 <blockquote>Some Tasks :</blockquote>
 
 - Refaire article staticman...
 - A la recherche d'un md2pdf!
-- Recherche Interne :
-  * Permet la recherche de certains articles.
-  * Accès depuis n'importe où sur le site.
-- JS :
-  * Optimisation
-- CSS :
-  * Optimisation
+
 - Cover :
   * Préparer les web.dev.
 

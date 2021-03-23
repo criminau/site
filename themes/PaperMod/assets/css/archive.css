@@ -33,12 +33,17 @@
     padding: 5px;
     margin: 10px 0;
 }
-
 .archive-entry-title {
     margin: 5px 0;
     font-weight: 400;
 }
-
+.entry-link {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
 .archive-meta {
     color: var(--secondary);
     font-size: 14px;

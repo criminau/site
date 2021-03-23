@@ -1,15 +1,19 @@
 /* Post single
 -------------------------------------------------- */
+.entry-cover{
+  text-align: center;
+  margin-bottom: var(--gap);
+  font-size: 14px;
+  color: var(--secondary);
+}
 .post-header {
     margin: 24px auto var(--content-gap) auto
 }
-
 .post-title {
     margin-bottom: 2px;
     font-size: 40px;
     transform: translateX(-2px);
 }
-
 .post-meta {
     color: var(--primary);
     font-size: 14px;
@@ -28,39 +32,32 @@
     margin: auto 3px;
     box-shadow: 0 1px 0 var(--primary);
 }
-
 .post-content {
     color: var(--content);
 }
-
 .post-content h3,
 .post-content h4,
 .post-content h5,
 .post-content h6 {
     margin: 24px 0 16px 0;
 }
-
 .post-content h1 {
     margin: 40px auto 32px auto;
     font-size: 40px;
 }
-
 .post-content h2 {
     margin: 32px auto 24px auto;
     font-size: 32px;
     margin-left: 1%;
 }
-
 .post-content h3 {
     font-size: 24px;
     margin-left: 2%;
 }
-
 .post-content h4 {
     font-size: 16px;
     margin-left: 3%;
 }
-
 .post-content h5 {
     font-size: 14px;
     margin-left: 4%;

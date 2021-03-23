@@ -9,13 +9,9 @@
   <polyline points="18 15 12 9 6 15" /></svg>
 </button>
 
-<!-- Tous les scripts en bas des pages -->
-<!-- fichier script.js minifié -->
-{{ $js := resources.Get "js/script.js" }}
-{{ $SecureJS := $js | resources.Minify | fingerprint }}
-<script rel="preload stylesheet" async src="{{ $SecureJS.Permalink }}" integrity="{{ $SecureJS.Data.Integrity }}"></script>
+<!--Tous les SCRIPTS en bas de toutes les pages-->
 
-<!-- Bouton pour changer de thème, couleur du site avec option activer/desactiver -->
+<!--button change theme-->
 {{- if (not .Site.Params.disableThemeToggle) }}
 <script>
 document.getElementById("theme-toggle").addEventListener("click", () => {
@@ -28,4 +24,30 @@ localStorage.setItem("pref-theme", 'dark');
 }
 })
 </script>
+{{- end }}
+
+<!-- fichier script.js minifié et fingerprinté -> script commun à toutes les pages-->
+{{ $js := resources.Get "js/script.js" }}
+{{ $SecureJS := $js | resources.Minify | fingerprint }}
+<script rel="preload" async src="{{ $SecureJS.Permalink }}" integrity="{{ $SecureJS.Data.Integrity }}"></script>
+
+{{ if .Site.Params.enableSearch }}
+
+  {{ $search := resources.Get "js/fixedsearch.js" }}
+  {{ $SecureSearchJS := $search | resources.Minify | fingerprint }}
+  <script rel="preload" async src="{{ $SecureSearchJS.Permalink }}" integrity="{{ $SecureSearchJS.Data.Integrity }}"></script>
+
+  <!-- fuse.io -->
+  {{ $fuse := resources.Get "js/fuse.js" }}
+  {{ $FuseJS := $fuse | resources.Minify }}
+  <script rel="preload" async src="{{ $FuseJS.Permalink }}"></script>
+
+{{ end }}
+
+{{- if and (.Site.Params.comments) (ne .Params.comments false) (not .IsHome) }}
+
+    {{ $comments := resources.Get "js/comments.js" }}
+    {{ $SecureCommentsJS := $comments | resources.Minify | fingerprint }}
+    <script rel="preload" async src="{{ $SecureCommentsJS.Permalink }}" integrity="{{ $SecureCommentsJS.Data.Integrity }}"></script>
+
 {{- end }}

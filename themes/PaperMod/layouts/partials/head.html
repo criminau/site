@@ -44,20 +44,61 @@
 <meta name="twitter:widgets:border-color" content="#55acee">
 <meta name="twitter:dnt" content="on">
 
-<!-- Styles -->
+<!-- START STYLEs -->
+
+<!-- css commun à toutes les pages -->
 {{- $reset := resources.Get "css/reset.css" }}
-{{- $anoldhope := resources.Get "css/an-old-hope.css" }}
 {{- $theme := resources.Get "css/theme-vars.css" }}
-{{- $header := resources.Get "css/header.css" }}
-{{- $main := resources.Get "css/main.css" }}
-{{- $postentry := resources.Get "css/post-entry.css" }}
+{{- $global := resources.Get "css/global.css" }}
+{{- $style := slice $reset $theme $global | resources.Concat "globalCSS.css" }}
+{{- $CSSglobal := slice $style | resources.Concat "css/globalCSS.css" | minify | fingerprint -}}
+<link href="{{ $CSSglobal.Permalink }}"  rel="preload stylesheet"
+    as="style" integrity="{{ $CSSglobal.Data.Integrity }}">
+
+<!-- si homepage-->
+{{ if .IsHome }}
+{{- $homepage := resources.Get "css/homepage.css" }}
+{{- $CSShomepage := $homepage | minify | fingerprint }}
+<link href="{{ $CSShomepage.Permalink }}"  rel="preload stylesheet"
+    as="style" integrity="{{ $CSShomepage.Data.Integrity }}">
+{{ end }}
+
+<!--si dans le dossier /posts/-->
+{{ if or (eq .Section "posts") (.Params.pages) }}
 {{- $postsingle := resources.Get "css/post-single.css" }}
+{{- $CSSpostsingle := $postsingle | minify | fingerprint }}
+<link href="{{ $CSSpostsingle.Permalink }}"  rel="preload stylesheet"
+    as="style" integrity="{{ $CSSpostsingle.Data.Integrity }}">
+{{ end }}
+
+<!--si la page est bien archives-->
+{{ if .Params.archives }}
 {{- $archive := resources.Get "css/archive.css" }}
-{{- $footer := resources.Get "css/footer.css" }}
-{{- $style := slice $reset $anoldhope $theme $header $main $postentry $postsingle $archive $footer | resources.Concat "secureCSS.css" }}
-{{- $secureCSS := slice $style | resources.Concat "assets/css/secureCSS.css" | minify | fingerprint -}}
-<link href="{{ $secureCSS.Permalink }}"  rel="preload stylesheet"
-    as="style" integrity="{{ $secureCSS.Data.Integrity }}">
+{{- $CSSarchive := $archive | minify | fingerprint }}
+<link href="{{ $CSSarchive.Permalink }}"  rel="preload stylesheet"
+    as="style" integrity="{{ $CSSarchive.Data.Integrity }}">
+{{ end }}
+
+<!--si la recherche est activée-->
+{{ if .Site.Params.enableSearch }}
+{{- $search := resources.Get "css/search.css" }}
+{{- $CSSsearch := $search | minify | fingerprint }}
+<link href="{{ $CSSsearch.Permalink }}"  rel="preload stylesheet"
+    as="style" integrity="{{ $CSSsearch.Data.Integrity }}">
+{{ end }}
+
+<!-- si les commentaires sont activés, si ce n'est pas la page d'accueil-->
+<!-- + si les commentaires ne sont pas désacivés-->
+{{- if and (.Site.Params.comments) (ne .Params.comments false) (not .IsHome) }}
+{{ if .Site.Params.staticman.api }}
+{{- $comments := resources.Get "css/an-old-hope.css" }}
+{{- $CSScomments := $comments | minify | fingerprint }}
+<link href="{{ $CSScomments.Permalink }}"  rel="preload stylesheet"
+    as="style" integrity="{{ $CSScomments.Data.Integrity }}">
+{{ end }}
+{{- end }}
+
+<!-- END STYLEs -->
 
 <!-- Favicons -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">

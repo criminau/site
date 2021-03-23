@@ -42,17 +42,17 @@
 {{- if (.Param "ShowPostNavLinks") }}
 {{- partial "postnavlinks.html" . -}}
 {{- end }}
+
 <!-- ShareButtons -->
 {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true) ) }}
-{{- partial "share_icons.html" . }}
+{{- partialCached "share_icons.html" . }}
 {{- end }}
 
 <!-- Espace commentaire -->
 {{- if and ($.Site.Params.comments) (ne .Params.comments false) }}
 {{- partial "comments.html" . }}
 {{- end }}
-  
+
 </article>
 
 {{- end  }}{{/* end main */}}
-

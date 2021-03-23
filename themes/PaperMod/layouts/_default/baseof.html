@@ -20,7 +20,7 @@
     {{ partial "search.html" . }}
     {{ end }}
 
-    {{- partial "footer.html" . .Type }}
+    {{- partialCached "footer.html" . .Type }}
 </body>
 
 </html>

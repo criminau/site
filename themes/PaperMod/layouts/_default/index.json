@@ -1,0 +1,15 @@
+{{/* layouts/_default/index.json */}}
+{{- $index := slice -}}
+{{- range where .Site.RegularPages.ByDate.Reverse ".Params.noindex" "ne" true -}}
+	{{ if .Params.dateCreated }}
+			{{ $.Scratch.Set "date" (.Params.dateCreated) }}
+	{{ else }}
+			{{- if isset site.Params "date_format" -}}
+				{{- $.Scratch.Set "date" (.Date.Format site.Params.date_format) -}}
+			{{- else -}}
+				{{- $.Scratch.Set "date" (.Date.Format "2006-01-02") -}}
+			{{- end -}}
+	{{ end }}
+    {{- $index = $index | append (dict "title" ( .Title ) "permalink" .Permalink "keyword" .Params.keyword "date" ($.Scratch.Get "date") ) -}}
+{{- end -}}
+{{- $index | jsonify -}}
