@@ -1,0 +1,4 @@
+_id: 02a18b30-8bcd-11eb-aeba-81eff4f8ae6f
+name: webmaster
+comment: "Probable bot ->  comment-1616096727207.yml .\r\n*les commentaires ne fonctionnaient pas...*\r\n\r\nAujourd'hui, les commentaires fonctionnent, impossible de casser le nombre limite de tentatives fixé à 5. Impossible de casser le canvas.\r\n\r\nDans tous les cas, les calculs et l'affichage se font côté client (visiteurs) car js, ainsi un bot peut facilement le breakdown.\r\n\r\nda bisous."
+date: '2021-03-23T11:43:39.485Z'
