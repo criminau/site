@@ -12,7 +12,6 @@ staticmanComments.style.display = 'block';
 };
 
 // Permet de calculer le captcha.
-
 (function (root, factory) {
 if (root === undefined && window !== undefined) root = window;
 if (typeof define === 'function' && define.amd) {
@@ -137,6 +136,7 @@ return jCaptcha;
                 $captchaInputElement.classList.add('disabled');
                 $captchaInputElement.placeholder = 'Maximum attempts reached!';
                 $captchaInputElement.setAttribute('disabled', 'true');
+                // On désactive correctement le bouton submit.
                 document.getElementById("submitButton").setAttribute('disabled', 'true');
                 return;
             }
@@ -148,6 +148,8 @@ return jCaptcha;
                 $captchaInputElement.placeholder = "Succès !";
 
                 // Donc maintenant on continue l'envoi du formulaire!
+
+                // Voici le script si aucun captcha personnalisé.
 
               // pseudonyme vide
               if(form.yourname.value == ""){
@@ -171,6 +173,8 @@ return jCaptcha;
                   form.warningComment.style.display = 'none';
                   form.warningComment.innerText = "";
                   form.submitButton.innerText = "Envoi...";
+                  // Tout est toujours sur la bonne voix
+                  // On envoi donc le formulaire vers Action avec la Methode POST
                   document.getElementById("commentsform").submit();
                   return true;
                 }

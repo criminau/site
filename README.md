@@ -31,15 +31,13 @@ En savoir plus :   <https://subversive.eu/apropos/>
   * Optimisation
 - CSS :
   * Optimisation
+  - Cover :
+    * Préparer les web.dev.
+
 ---
 
 <blockquote>Some Tasks :</blockquote>
 
-- Refaire article staticman...
 - A la recherche d'un md2pdf!
-
-- Cover :
-  * Préparer les web.dev.
-
 - Options de traduction ?
 - Etudier pour changer la taille de police / taille de l'écran ?

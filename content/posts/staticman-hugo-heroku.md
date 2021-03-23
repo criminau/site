@@ -12,7 +12,7 @@ keyword: "Commentaires, site, statique, hugo, gohugo, staticman, heroku, open-so
 pdfname: "staticman-hugo-heroku"
 ---
 
-Bonjour ! 
+Bonjour !
 
 Tutoriel pour permettre l'écriture de commentaires sur un site internet statique avec [hugo cms](https://gohugo.io/), [staticman](https://staticman.net/docs/) et [heroku](https://www.heroku.com/).
 <!--more-->
@@ -21,6 +21,8 @@ Objectif, offrir a vos visiteurs la possibilité d'écrire des commentaires (ou 
 Tous les tutos disponibles sur le net (que j'ai lu) sont en anglais, ils datent et certains liens ne fonctionnent plus, bref j'ai du faire un mix de tuto pour y arriver, du coup je vous propose un tuto en français.
 
 N'oubliez jamais que ce qui fonctionne est sur les codes sources des sites. En ce sens si vous copiez-collez et qu'il y a une erreur, cherchez la mise à jour dans le code source sur github des sites qui tournent avec.
+
+<kbd>Edité le 23/01/21, le pdf n'est pas à jour.</kbd>  
 
 ## Requis
 
@@ -69,7 +71,7 @@ Créez un fichier, nommez-le "config.production.json", insérez-y :
 ```js
 {
   "githubToken": "votretoken",
-  "rsaPrivateKey": "-----BEGIN RSA PRIVATE KEY\n-----la clé en entier-----\nEND RSA PRIVATE KEY-----",
+  "rsaPrivateKey": "-----BEGIN RSA PRIVATE KEY\n-----la clé entière-----\nEND RSA PRIVATE KEY-----",
   "port": 8080
 }
 ```
@@ -150,7 +152,7 @@ params:
     api: 'https://nomdevotreapp.herokuapp.com/v2/entry/githubprincipal/repositorydusite/master/comments'
 ```
 
-Ajoutez également un dossier ```/data/ puis /comments/``` et un fichier .gitkeep.  
+Ajoutez également un dossier ```/data/comments/.gitkeep```.  
 (Cela permet de maintenir le git push avec les dossiers. Essayez sans, les dossiers vides ne suivront pas sur github).
 
 La variable "comments" vous permet de désactiver les commentaires depuis le fichier ```single.html```, vous pouvez aussi l'utiliser dans les params d'un article (ou page : comments: false).
@@ -177,9 +179,9 @@ Dans ```layouts/partials/comments.html``` (créez le fichier si besoin "comments
 
 Le javascript est nécessaire dans cette config, à vous de le personnaliser en fonction de vos désirs.
 
-Pour des soucis de performance, le script se trouve dans le fichier [script.js](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/assets/js/script.js).
+Pour des soucis de performance, le script se trouve dans [le fichier comments.js](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/assets/js/comments.js).
 
-> Notes: Dans [le partials footer](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/partials/footer.html), mettez votre script en bas des pages pour éviter les erreurs.
+> Notes: Dans [le partial footer](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/partials/footer.html), mettez votre script en bas des pages pour éviter les erreurs.
 
 ### css
 
@@ -187,18 +189,22 @@ Pour styliser le formulaire et l'affichage avec les boutons c'est ici : [CSS sty
 
 A vous de choisir en fonction de votre architecture css, en fonction du thème choisi.
 
-Pour styliser le captcha c'est plus complexe cherchez ```// Captcha SETUP Initial``` dans [script.js](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/assets/js/script.js).
+Pour styliser le captcha c'est plus complexe cherchez ```// Captcha SETUP Initial``` dans [le fichier comments.js](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/assets/js/comments.js).
 
 ## Protection contre le spam
 
 A la recherche de l'utilité, de la vie privée et de la performance.  
-[Buster: Captcha Solver for Humans](https://github.com/dessant/buster)  
 
-Les CAPTCHA diminuent les performances de vos sites web /apps.  
+Bon l'utilité, a part gêner le handicap...
+Tout se fait côté client donc tout peut se casser.
+
+- [Buster: Captcha Solver for Humans](https://github.com/dessant/buster)  
+
+Les CAPTCHA diminuent les performances de vos sites web/apps.  
 
 Le REcaptcha favorise a outrance chromium et les comptes google.
 
-Il faut que la réponse soit sur un serveur distant, sinon le robot (peut) lire la réponse ? En attente de confirmation.
+Il faut que la réponse soit sur un serveur distant, sinon le robot (peut) lire la réponse.
 
 Inutile si peu de visiteurs, car le spam est un marché, qui va ouvrir un commerce où il n'y a personne ?
 
@@ -206,7 +212,7 @@ J'utilise 3 protections (toutes dépassées):
 
 - Pas de javascript = pas de commentaire. Il faut javascript pour afficher les commentaires car il faut cliquer sur le bouton "ouvrir espace commentaire".
 - Un input caché ```<input type="hidden" id="youarenotarobot1">```, le visiteur(non-robot/humain) ne le voit pas mais le robot oui, si il le remplit alors ce n'est pas un humain.
-- [js-captcha de robiveli ](https://github.com/robiveli/js-captcha).
+- [js-captcha de robiveli](https://github.com/robiveli/js-captcha).
 
 ### autre solution
 
@@ -227,13 +233,16 @@ Vous pouvez également interdire les url dans le contenu des commentaires.
 
 * Dans la version (v3) de staticman, il n'y aurait plus besoin du Personal access tokens. Mais je ne sais comment procéder.
 
+* L'on peut passer directement via le [bouton deploy to heroku](https://github.com/eduardoboucas/staticman#introduction), avec [ce commentaire](https://github.com/eduardoboucas/staticman/issues/402#issuecomment-770758147) vous devriez pouvoir y arriver sans passer par heroku CLI.
+
 ### Problème(s) rencontré(s)
 
 - L'utilisation de ```{{ $slug := replace $.RelPermalink "/" "-" }}``` avec ```name="options[slug]"``` ne permet l'affichage des commentaires sur les articles où les titres ont des accents. Solution trouvée avec ```{{ replace $.File.Path "/" "-" }}```.
-- J'ai supprimé du script de js-captcha, je ne sais a quoi il sert, il se peut qu'il ne fallait pas le faire.
-- De même pour staticman, le script ReCaptcha n'est pas dispo sur les fichiers de ce site.
-- J'ai un souci de cache-control depuis que les commentaires sont disponibles [résolus].
-- Il faut reconstruire le site pour afficher un commentaire, ce qui peu prendre du temps, surtout si le dino (herokuapp) dort..
+- J'ai supprimé du script de js-captcha, je ne sais a quoi il sert. <kbd>Il ne fallait pas le faire</kbd>.  
+- Pour utilsier ReCaptcha avec staticman, le script n'est pas dispo sur les fichiers de ce site.
+- J'ai un souci de cache-control depuis que les commentaires sont disponibles <kbd>[résolu]</kbd>.
+- Il faut reconstruire le site pour afficher un commentaire, ce qui peu prendre du temps, surtout si le dino (herokuapp) dort..<kbd>C'est faux !</kbd>
+- Il faut patienter le temps que le dino (votreapp) envoi les données vers le dossier `/data/`, rafraîchir la page, r-ouvrir l'espace commentaire et hop. La données dans le dossier `/data/` s'affichent sans latence.
 
 ## Sources
 

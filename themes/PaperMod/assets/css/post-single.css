@@ -3,6 +3,8 @@
 .entry-cover{
   text-align: center;
   margin-bottom: var(--gap);
+}
+.cover-caption{
   font-size: 14px;
   color: var(--secondary);
 }
