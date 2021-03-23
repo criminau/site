@@ -1,9 +1,23 @@
-
 <!-- layouts/partials/search.html -->
 <form id="search-form" class="noscript" method="GET" action="https://duckduckgo.com/" data-language-prefix="{{ site.LanguagePrefix }}">
 	<div class="search-bar">
 		<input id="search-input" class="search--display" name="q" tabindex="0" autocomplete="off" {{ with site.BaseURL }}value=" site:{{ . }}"{{ end }} placeholder="{{ i18n "search" }}">
-		<input id="search-submit" class="icon" type="submit" value="⌕">
+		<button aria-label="Rechercher un article" name="Rechercher un article" id="search-submit" class="icon" type="submit">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <circle cx="11" cy="11" r="8" />
+        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+      </svg>
+    </button>
 	</div>
 	<ul id="search-results" class="search--display"></ul>
 </form>

@@ -14,9 +14,6 @@
 <!-- Bouton pour ouvrir l'espace commentaire (Anti-Spam1)-->
 <button aria-label="Ouvrir espace commentaire" title="Ouvrir espace commentaire" id="staticman-button" onclick="showComments()">Espace commentaire</button>
 
-<!-- Commentaire concernant la désactivation de javascript -->
-<noscript><p class="no-script-text">Activez javascript pour lire les commentaires.</p></noscript>
-
 <!-- Section qui permet l'affichage et la lecture des commenaites -->
 <section id="staticman-comments" class="js-comments staticman-comments">
 
@@ -48,7 +45,7 @@
 
 
   <!-- Formulaire pour écrire un commentaire -->
-<form class="js-form form" method="post" action="{{ $.Site.Params.staticman.api }}">
+<form class="js-form form" method="post" id="commentsform" action="{{ $.Site.Params.staticman.api }}">
   <fieldset>
       <input type="hidden" name="options[redirect]" value="{{ $.RelPermalink | absURL }}#comment-thankyou">
       <input type="hidden" name="options[slug]" value="{{ replace $.File.Path "/" "-" }}">
@@ -61,7 +58,7 @@
       <!-- Anti-Spam2 -->
       <input type="hidden" id="youarenotarobot1">
       <!-- Anti-Spam3 -->
-      <input aria-label="Résultat du Captcha" class="jCaptcha" type="text" id="youarenotarobot2" placeholder="Tapez le résultat s’il vous plaît">
+      <input aria-label="Résultat du Captcha" class="jCaptcha" type="text" placeholder="Tapez le résultat s’il vous plaît">
       <button aria-label="Envoyer le commentaire" title="Envoyer le commentaire" class="button" id="submitButton">Envoyer</button>
   </fieldset>
 </form>

@@ -10,6 +10,7 @@ comments: false
 date: 2021-01-28 14:00:00
 keyword: ""
 pdfname: ""
+noindex: true
 ---
 
 Un bref état du monde au brouillon en attendant ce printemps 2021. No PDF.
