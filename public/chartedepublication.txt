@@ -1,0 +1,62 @@
+# Définitions :
+
+- visiteur : personne qui visite le site.
+- service : possibilité technique de laisser un commentaire.
+- utilisateur : visiteur qui laisse un commentaire, qui utilise un service du site.
+- œuvre et site : l'ensemble du site subversive.eu
+- auteur : cf https://subversive.eu/apropos/
+- données personnelles: Ensemble des données stockées dans le dossier site/data/comments/ qui ne proviennent pas de l'auteur de l'œuvre mais de l'utilisateur.
+- espace commentaire : Espace regroupant les commentaires du site.
+- commentaire : cf https://github.com/subversive-eu/site/tree/master/data/comments
+- charte de publication : contrat entre l'utilisateur et l'auteur de l'œuvre, définit par le présent fichier.
+
+# Objet :
+
+Le présent fichier chartedepublication.txt est accepté dès lors qu'un commentaire est envoyé.
+
+- objectif : couvrir les risques de folie, de pulsion des utilisateurs et/ou visiteurs.
+
+En cas de non-acception de la présente charte de publication, le visiteur se doit de renoncer aux services du site.
+
+# Service :
+
+L'accès aux services du site peut à tout moment faire l'objet d'une interruption, d'une suspension, d'une modification sans préavis pour une maintenance ou pour tout autre cas.
+
+# Données personnelles :
+
+- données collectées (uniquement lors de l'envoi d'un nouveau commentaire) : pseudonyme et commentaire.
+
+Si aucun problème technique, vos données se retrouvent sur le domaine public.
+
+- retrouvez les ici :
+
+https://github.com/subversive-eu/site/tree/master/data/comments
+
+- Le site assure à l'utilisateur la non-utilisation de ses données à des fins commerciales.
+
+- Concernant le droit à l'oubli :
+
+  - N'ayant la capacité de filtrer le contenu afficher entre les différentes législations du monde;
+  - N'ayant la capacité de m'assurer que l'utilisateur demandant sont droit à l'oubli soit bien le même que l'utilisateur ayant envoyé les données à supprimer.
+  - L'utilisateur disposant d'une capacité d'anonymat.
+
+  Le droit à l'oubli n'est pas disponible.
+
+# Responsabilité et Modération
+
+- Le site subversive.eu n'est en aucun cas responsable des données collectées via les utilisateurs, des commentaires postés.
+
+- Le site effectue une modération, en aucun cas l'auteur devra justifier de cette modération devant le visiteur et/ou utilisateur ou tout autre personne ou juridiction.
+
+- La modération peut entraîner une suppression du commentaire.
+
+# Évolution du contrat
+
+Le site se réserve à tout moment le droit de modifier les clauses stipulées dans le présent contrat sans avoir a en avertir l'utilisateur, n'y à se justifier.
+
+# Durée
+
+La durée du présent contrat est indéterminée. Le contrat produit ses effets à l'égard de l'utilisateur à compter de l'utilisation du service.
+
+Proposé le 28/01/2021.  
+Relu le 31/01/2021.
