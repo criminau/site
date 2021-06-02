@@ -8,33 +8,10 @@ En savoir plus :   <https://subversive.eu/apropos/>
 
 ## Prochaine version
 
-### v.02.4
+### V.02.5
 
-- Recherche Interne :
-  * Option 1 : noindex: false.
-  * Option 2 : enableSearch: false.
-  * Option 3 : i18n disponible.
-  * Permet la recherche de certains articles.
-  * Accès depuis n'importe où sur le site.
-  * [En savoir plus](https://subversive.eu/apropos/)
-- Commentaires:
-  * Retour anticipé.
-  * 100% fonctionnel.
-  * Option pour rafraîchir la page.
-- Boutons de partage :
-  * aria-label en français.
-- .Summary :
-  * plainify + truncate 180 + safeHTML
-- CacheControl
-  * /media/* 7 jours
-  * partialCached -> footer + share_icons
-- JS :
-  * Optimisation
-- CSS :
-  * Optimisation
-- Cover :
-  * Préparer les web.dev.
-- noscript supprimé, mauvais rendu SEO.
+-
+-
 
 ---
 
