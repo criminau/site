@@ -1,0 +1,78 @@
+{{ if eq .Section "posts" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ .Title | plainify}},
+  "name": "{{ .Title | plainify }}",
+  "description": {{ .Summary | plainify | truncate 180 | safeHTML }},
+  "keywords": [
+    {{ .Params.keyword | default .Site.Params.keyword }}
+  ],
+  "articleBody": {{ .Content | safeJS | htmlUnescape | plainify }},
+  "wordCount" : "{{ .WordCount }}",
+  "inLanguage": {{ .Language.Lang | default "en-us" }},
+  "image":
+  {{ if .Params.images }}
+  {{ with $.Params.images }}
+    {{ . | absURL }},
+  {{ end }}
+  {{ else }}
+  {{ .Site.Params.imagesdefault | absURL }},
+  {{ end }}
+  "datePublished": {{ .PublishDate.Format "2006-01-02" }},
+  "dateModified": {{ .Lastmod.Format "2006-01-02" }},
+  {{- with (.Params.author | default .Site.Params.author) }}
+  "author":
+  {
+    "@type": "Person",
+    "name": {{ . }}
+  }, {{- end }}
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ .Permalink | safeHTML }}
+  },
+  "publisher": {
+    "@type": "{{- ( .Site.Params.schema.publisherType | default "Organization") | humanize -}}",
+    "name": {{ .Site.Title }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }}
+    }
+  }
+}
+</script>
+{{ else }}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{{- ( .Site.Params.schema.publisherType | default "Organization") | humanize -}}",
+  "name": {{ .Site.Title }},
+  "url": {{ .Site.BaseURL }},
+  "description": {{ .Site.Params.description | plainify | truncate 180 | safeHTML }},
+  "logo": {{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }},
+  "sameAs": [
+      "https://github.com/subversive-eu/site",
+  ],
+  "@graph": 
+  [
+      {
+          "@context": "https://schema.org",
+          "@type":"SiteNavigationElement",
+          "name": "A propos",
+          "description": "A propos du blog",
+          "url": "https://subversive.eu/apropos/"
+      },
+      {
+          "@context": "https://schema.org",
+          "@type":"SiteNavigationElement",
+          "name": "Archives",
+          "description": "Tous les articles classés par date de publication",
+          "url": "https://subversive.eu/archives/"
+      },
+  ],
+}    
+</script>
+{{ end }}
+

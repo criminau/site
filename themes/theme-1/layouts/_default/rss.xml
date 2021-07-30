@@ -1,0 +1,69 @@
+
+<!-- Version RSS 2.0 -->
+{{- $pctx := . -}}
+{{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
+{{- $pages := slice -}}
+{{- if or $.IsHome $.IsSection -}}
+{{- $pages = $pctx.RegularPages -}}
+{{- else -}}
+{{- $pages = $pctx.Pages -}}
+{{- end -}}
+{{- $limit := .Site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 -}}
+{{- $pages = $pages | first $limit -}}
+{{- end -}}
+
+
+
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Subversive</title>
+    <language>fr</language>
+    <image>
+      <url>https://www.subversive.eu/apple-touch-icon.png</url>
+      <title>Subversive</title>
+      <link>{{ .Site.BaseURL }}</link>
+    </image>
+    <link>{{ .Site.BaseURL }}</link>
+
+    {{ with .Site.Params.description }}<description>{{.}}</description>{{end}}
+    {{ with .Site.Params.Copyright }}<copyright>{{.}}</copyright>{{end}}
+
+    {{ if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{ end }}
+
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <atom:link href="{{ .Site.BaseURL }}index.xml" rel="self" type="application/rss+xml"/>
+
+    {{ range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      {{ with .Params.RSSauthor }}
+      <author>{{ . }}</author>
+      {{ end }}
+      <source url="https://subversive.eu/index.xml">{{ .Site.Title }}</source>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <guid>{{ .Permalink }}</guid>
+      <!-- Content with Image -->
+
+{{- $content := replaceRE "a href=\"(#.*?)\"" (printf "%s%s%s" "a href=\"" .Permalink "$1\"") .Content -}}
+{{- $content = replaceRE "img src=\"(.*?)\"" (printf "%s%s" "img src=\"" "$1\"") $content -}}
+      <description>{{ $content | html }}</description>
+
+    <!-- Start Image -->
+    {{- if .Params.images -}}
+    {{ with .Params.images }}
+    {{ $image_location := printf "/static/%s" . }}
+    {{$image := readFile $image_location }}
+    {{$len := len $image}}
+    <enclosure url="http://subversive.eu/{{.}}" length="{{$len}}" type="image/png" />
+    {{ end }}{{- else -}}
+    {{- end -}}
+
+    </item>
+    {{ end }}
+  </channel>
+</rss>

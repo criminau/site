@@ -1,0 +1,109 @@
+baseURL: 'https://subversive.eu/'
+relativeURLs: true
+uglyURLs: true
+title: "Journal Subversif"
+author: subversive.eu
+paginate: 7
+languageCode: fr-FR
+DefaultContentLanguage: fr
+enableInlineShortcodes: true
+theme: theme-1
+
+enableRobotsTXT: false
+buildFuture: false # Test ok / functionnal
+buildExpored: false
+buildDraft: true
+
+
+# Perf Active later.
+minify:
+ minifyOutput: true
+
+#LiveReload Hugoreload
+disableLiveReload: true
+
+params:
+  description: 'Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.'
+  keyword: 'subversive.eu, subversive, blog, pour, entretenir, votre, culture, subversive'
+  images:
+    - android-chrome-192x192.png
+  ShowReadingTime: true
+  imagesdefault: 'android-chrome-192x192.png'
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  author: subversive.eu
+  RSSauthor: subversive.eu@tutanota.com
+  copyright: 'https://subversive.eu/internetlibre.txt'
+
+# Paper Mod
+  env: production
+  cover:
+    responsiveImages: false   # Perf
+    linkFullImages: true
+
+  HomeInfoParams:
+    Title: "Bonjour 👋"
+    Content: "Journal Subversif, Politique et presque Impartial"
+    Tagline: "Qui tacet consentire videtur."
+
+  socialIcons:
+    - name: "Flux RSS"
+      url: 'https://subversive.eu/index.xml'
+    - name: "Github"
+      url: 'https://github.com/criminau/site'
+
+sitemap:
+  changefreq: dayly
+  filename: sitemap.xml
+  priority: 0.8
+
+# PaperMod Menu
+menu:
+  main:
+    - name: Archives
+      url: /archives/
+      weight: 1
+    - name: A propos
+      url: /apropos/
+      weight: 2
+
+# SEO
+permalinks:
+  posts: /articles/:slug/
+disableKinds: ["taxonomy", "taxonomyTerm", "section"]
+
+# RSS feed
+rsslimit: 15
+
+# Emoji support
+enableEmoji: true
+
+# Allow raw html in markdown file
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    anonymizeIP: false
+    disable: false
+    respectDoNotTrack: false
+    useSessionStorage: false
+  instagram:
+    disable: false
+    simple: false
+  twitter:
+    disable: false
+    enableDNT: false
+    simple: false
+  vimeo:
+    disable: false
+    enableDNT: false
+    simple: false
+  youtube:
+    disable: false
+    privacyEnhanced: false

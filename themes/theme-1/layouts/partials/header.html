@@ -1,0 +1,33 @@
+
+<header class="header" id="haut">
+    <nav class="nav ">
+        <div class="logo">
+            <a Title="Page d'accueil du site subversive.eu" href="{{ "" | absLangURL }}">
+                {{- if .Site.Params.label.icon }}
+                <img src="{{- .Site.Params.label.icon -}}" alt="logo" aria-label="logo"
+                    height="{{- .Site.Params.label.iconHeight | default "30px" -}}">
+                {{- end -}}
+                {{- if not .IsHome }}
+                <p class="">{{- .Site.Params.label.text | default .Site.Title -}}</p>
+                {{- else }}
+                <h1>{{- .Site.Params.label.text | default .Site.Title -}}</h1>
+                {{ end }}
+            </a>
+        </div>
+        {{- $currentPage := . }}
+        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
+            {{- range .Site.Menus.main }}
+            {{- $menu_item_url := .URL | relLangURL }}
+            {{- $page_url:= $currentPage.RelPermalink | relLangURL }}
+            <li>
+                <a Title="{{ .Name }}" href="{{ .URL | absLangURL }}">
+                    <span {{- if eq $menu_item_url $page_url }}
+                        {{- /* the menu item links to the current page (with relLangURL) */}} class="active" {{- end }}>
+                        {{ .Name }}
+                    </span>
+                </a>
+            </li>
+            {{- end -}}
+        </ul>
+    </nav>
+</header>

@@ -1,0 +1,43 @@
+{{- define "main" }}
+
+<article itemscope itemtype="https://schema.org/Article" class="post-single">
+  <header class="post-header">
+    <h1 itemprop="name" class="post-title">
+      {{ .Title }}
+      {{- if .Draft }}<sup class="entry-isdraft">&nbsp;&nbsp;[brouillon]</sup>
+      {{- end }}
+    </h1>
+    {{- if .Params.hideMeta }}{{ else }}
+    <div class="post-meta">
+      {{- partial "post_meta.html" . -}}
+    </div>
+    {{- end}}
+  </header>
+  {{- partial "cover.html" (dict "cxt" . "IsHome" false) }}
+  {{- if .Params.ShowToc }}
+  <div class="toc">
+    <details {{if .Params.TocOpen }} open{{ end }}>
+      <summary>
+        <p title="Table des matières" class="details">Table des matières</p>
+      </summary>
+      <blockquote>
+        {{- partial "toc.html" . }}
+      </blockquote>
+    </details>
+  </div>
+  {{- end }}
+  <div itemprop="content" class="post-content justify">{{ .Content }}</div>
+
+<!-- PostNavLinks -->
+{{- if (.Param "ShowPostNavLinks") }}
+{{- partial "postnavlinks.html" . -}}
+{{- end }}
+
+<!-- ShareButtons -->
+{{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true) ) }}
+{{- partialCached "share_icons.html" . }}
+{{- end }}
+
+</article>
+
+{{- end  }}{{/* end main */}}

@@ -1,0 +1,101 @@
+<!-- <Head> -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Title -->
+<title>
+{{ if .IsHome }}{{ .Site.Title }} | {{ .Site.Params.HomeInfoParams.Tagline }}{{else}}
+{{ if .Title }}{{ .Title }}{{ end }}{{end}}
+</title>
+<!-- Balises Meta -->
+<!-- Meta robots -->
+<meta name="robots" content="index,follow"/>
+<meta name="robots" content="all"/>
+<meta name="googlebot" content="index,follow">
+
+<!-- Meta ? -->
+<meta name="referrer" content="no-referrer">
+
+<!-- Microsoft Tiles -->
+<meta name="msapplication-config" content="browserconfig.xml">
+
+<!-- Meta Apple -> To run web application in full-screen  -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<!-- Meta hreflang -->
+<link rel="alternate" hreflang="fr-be" href="{{ .Permalink }}"/>
+<link rel="alternate" hreflang="fr-fr" href="{{ .Permalink }}"/>
+<link rel="alternate" hreflang="fr-ch" href="{{ .Permalink }}"/>
+
+<!-- Meta Simple -->
+{{- if in site.Params.mainSections .Type }}
+<meta name="description" content="{{ .Summary | plainify | truncate 180 | safeHTML }}">
+{{- else }}
+<meta name="description" content="{{if .IsHome}}{{ .Site.Params.description }}{{else}}{{ .Title }} - {{ .Site.Title }}{{end}}">
+{{- end }}
+<meta name="keywords" content="{{ .Params.keyword | default .Site.Params.keyword }}">
+<meta name="author" content="{{ (partial "author.html" . ) }}">
+
+<!-- Canonical -->
+<link rel="canonical" href="{{ .Permalink }}" />
+
+<!-- Twitter -->
+<meta name="twitter:widgets:theme" content="light">
+<meta name="twitter:widgets:border-color" content="#55acee">
+<meta name="twitter:dnt" content="on">
+
+<!-- START STYLEs -->
+
+<!-- css commun à toutes les pages -->
+{{- $reset := resources.Get "css/reset.css" }}
+{{- $theme := resources.Get "css/theme-vars.css" }}
+{{- $global := resources.Get "css/global.css" }}
+{{- $style := slice $reset $theme $global | resources.Concat "globalCSS.css" }}
+{{- $CSSglobal := slice $style | resources.Concat "css/globalCSS.css" | minify | fingerprint -}}
+<link href="{{ $CSSglobal.Permalink }}"  rel="preload stylesheet"
+    as="style" integrity="{{ $CSSglobal.Data.Integrity }}">
+
+<!-- si homepage-->
+{{ if .IsHome }}
+{{- $homepage := resources.Get "css/homepage.css" }}
+{{- $CSShomepage := $homepage | minify | fingerprint }}
+<link href="{{ $CSShomepage.Permalink }}"  rel="preload stylesheet"
+    as="style" integrity="{{ $CSShomepage.Data.Integrity }}">
+{{ end }}
+
+<!--si dans le dossier /posts/-->
+{{ if or (eq .Section "posts") (.Params.pages) }}
+{{- $postsingle := resources.Get "css/post-single.css" }}
+{{- $CSSpostsingle := $postsingle | minify | fingerprint }}
+<link href="{{ $CSSpostsingle.Permalink }}"  rel="preload stylesheet"
+    as="style" integrity="{{ $CSSpostsingle.Data.Integrity }}">
+{{ end }}
+
+<!--si la page est bien archives-->
+{{ if .Params.archives }}
+{{- $archive := resources.Get "css/archive.css" }}
+{{- $CSSarchive := $archive | minify | fingerprint }}
+<link href="{{ $CSSarchive.Permalink }}"  rel="preload stylesheet"
+    as="style" integrity="{{ $CSSarchive.Data.Integrity }}">
+{{ end }}
+
+<!-- END STYLEs -->
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" type="application/manifest+json" href="/site.webmanifest">
+
+<!-- Generator -->
+{{- hugo.Generator }}
+
+<!-- RSS -->
+<link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}index.xml" title="subversive.eu">
+
+<!-- Misc -->
+{{- if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
+{{- template "partials/templates/opengraph.html" . }}
+{{- template "partials/templates/twitter_cards.html" . }}
+{{- template "partials/templates/schema_json.html" . }}
+{{- end }}

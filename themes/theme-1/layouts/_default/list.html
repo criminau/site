@@ -1,0 +1,65 @@
+{{- define "main" }}
+
+
+
+{{- if not .IsHome | and .Title }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+{{- end }}
+
+{{- $pages := union .RegularPages .Sections }}
+
+{{- if .IsHome }}
+{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- end}}
+
+{{ $paginator := .Paginate $pages }}
+{{ $term := .Data.Term}}
+{{- range $index, $page := $paginator.Pages }}
+
+{{- $class := "post-entry" }}
+{{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0)) }}
+{{- if .Site.Params.homeInfoParams | or .Site.Params.disableSpecial1stPost}}
+{{- partial "home_info.html" . }}
+{{- else}}
+{{- $class = "first-entry" }}
+{{- end }}
+{{- else if $term }}
+{{- $class = "post-entry tag-entry" }}
+{{- end }}
+<article class="{{ $class }}">
+  {{- partial "cover.html" (dict "cxt" . "IsHome" true) }}
+  <header class="entry-header">
+    <h2>
+      {{ .Title }}
+      {{- if .Draft }}<sup class="entry-isdraft">&nbsp;&nbsp;[brouillon]</sup>
+      {{- end }}
+    </h2>
+  </header>
+  {{- if (ne .Site.Params.hideSummary true)}}
+  <section class="entry-content">
+    <p>{{ .Summary | plainify | htmlUnescape }}...</p>
+  </section>
+  {{- end }}
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" . -}}
+  </footer>
+  <a class="entry-link" aria-label="{{ .Title | plainify }}" href="{{ .Permalink }}" title="{{ .Title | plainify }}"></a>
+</article>
+{{- end }}
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" rel="prev" href="{{ $paginator.Prev.URL }}" title="Page Précédente" >« Page Précédente</a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next"  rel="next" href="{{ $paginator.Next.URL }}" title="Page Suivante">Page Suivante »</a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
+
+{{- end  }}{{- /* end main */ -}}

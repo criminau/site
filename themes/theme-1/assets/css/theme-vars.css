@@ -1,0 +1,51 @@
+/* Theme
+-------------------------------------------------- */
+:root {
+    --gap: 24px;
+    --content-gap: 20px;
+    --nav-width: 1024px;
+    --main-width: 720px;
+    --header-height: 60px;
+    --footer-height: 60px;
+    --radius: 8px;
+
+
+    --theme: #D3D3D3;
+    --entry: rgb(85,43,85);
+    --primary: rgb(85,43,85);
+    --secondary: rgb(85,43,85);
+    --tertiary: rgb(85,43,85);
+    --content: rgb(85,43,85);
+
+    --hljs-bg: #1c1d21;
+    --code-bg: #D6D6D6;
+    --border: rgb(85,43,85);
+    --border-width: 2.5px;
+}
+
+@media screen and (max-width: 600px) {
+    :root {
+        --gap: 14px;
+    }
+}
+
+.dark {
+    --theme: #1d1e20;
+    --entry: #2e2e33;
+    --primary: rgba(255, 255, 255, 0.84);
+    --secondary: rgba(255, 255, 255, 0.56);
+    --tertiary: rgba(255, 255, 255, 0.16);
+    --content: rgba(255, 255, 255, 0.74);
+
+    --hljs-bg: #2e2e33;
+    --code-bg: #37383e;
+    --border: #5b5d67;
+}
+
+.list {
+    background: var(--theme);
+}
+
+.dark.list {
+    background: var(--theme);
+}

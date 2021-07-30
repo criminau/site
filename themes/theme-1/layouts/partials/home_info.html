@@ -1,0 +1,25 @@
+{{- $currentPage := . }}
+
+{{- with $.Site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h2>{{- .Title | markdownify }}</h2>
+    </header>
+    <section class="entry-content">
+        <p>{{- .Content | markdownify }}</p>
+    </section>
+    <section class="entry-content">
+    	<p class="float-right">{{- .Tagline | markdownify }}</p>
+    </section>
+    <footer class="entry-footer">
+
+{{- with $.Site.Params.socialIcons -}}
+{{- range . -}}
+<a class="sidebar-nav-item" href="{{ .url }}" rel="noopener noreferrer"
+ title="{{ .name | humanize }}">{{ .name }}</a>&nbsp;&nbsp;
+{{- end -}} 
+{{- end -}}
+        
+    </footer>
+</article>
+{{- end}}
