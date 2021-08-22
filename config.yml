@@ -33,6 +33,8 @@ params:
   author: criminau.xyz
   RSSauthor: oc-criminua@tutanota.com
   copyright: 'https://criminau.xyz/internetlibre.txt'
+  label:
+    icon: apple-touch-icon.png
 
 # Paper Mod
   env: production

@@ -14,7 +14,7 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 
 - Modification des couleurs
 - Fin des commentaires
-- Fin du javascript
+- Fin de la recherche interne
 -
 -
 
