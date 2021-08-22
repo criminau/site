@@ -1,7 +1,7 @@
 [build]
 publish = "public"
 #command = "hugo --gc --minify"
-command = "hugo --gc --minify --buildDrafts"
+command = "hugo --gc --minify "
 
 [context.production.environment]
 HUGO_VERSION = "0.80.0"
@@ -29,7 +29,6 @@ HUGO_VERSION = "0.80.0"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
-
 
 # Security Headers
 [[headers]]

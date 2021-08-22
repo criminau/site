@@ -2,10 +2,10 @@
 
 Blog Simple.
 
-En savoir plus :   <https://subversive.eu/apropos/>
+En savoir plus :   <https://criminau.xyz/apropos/>
 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f6104326-809a-4b92-8914-4a7a34467c5c/deploy-status)](https://app.netlify.com/sites/subversive-eu-site/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f6104326-809a-4b92-8914-4a7a34467c5c/deploy-status)](https://app.netlify.com/sites/criminau-site/deploys)
 
 
 ## Prochaine version
@@ -15,7 +15,7 @@ En savoir plus :   <https://subversive.eu/apropos/>
 - Modification des couleurs
 - Fin des commentaires
 - Fin du javascript
-- 
+-
 -
 
 ---

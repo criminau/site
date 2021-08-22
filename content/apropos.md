@@ -1,19 +1,16 @@
 ---
 title: "A Propos"
-author: subversive.eu
+author: criminau.xyz
 ShowToc: false
 date: 2019-11-19T08:37:55+02:00
 url: "/apropos/"
 hidemeta: true
 disableShare: true
 comments: false
-description: "A propos du blog subversive.eu, de l'origine à la conception. Observons, les outils ( Développement, Hébergement, ... ), le financement, ainsi que vos droits."
+description: "A propos du blog criminau.xyz, de l'origine à la conception. Observons, les outils ( Développement, Hébergement, ... ), le financement, ainsi que vos droits."
 noindex: true
 pages: true
 ---
-
-**PS: Le site changera son nom de domaine quelques jours avant le 24/08/2021. sous criminau.xyz
-J'essaierai de fournir la redirection pendant ces 3 jours.**
 
 Le site a été développé par une seule personne, dans le but d’offrir un avis très critique de notre environnement social.
 
@@ -27,14 +24,18 @@ Aucune action pour suivre les visiteurs.
 
 Ces notes sont fournies gratuitement et librement au monde.
 
-<https://subversive.eu/internetlibre.txt>
+### Documentation
 
-<https://subversive.eu/couleurs.txt>
+- [InternetLibre](https://criminau.xyz/internetlibre.txt)
 
-[Hugo CMS](https://gohugo.io)
+- [Couleurs](https://criminau.xyz/couleurs.txt)
 
-[Code source](https://github.com/criminau/site)
+- [Code source](https://github.com/criminau/site)
 
-[Netlify](https://netlify.com/)
+### Outils
 
-Le domaine subversive.eu est financé intégralement par l'auteur de l'œuvre.
+- [Hugo CMS](https://gohugo.io)
+
+- [Netlify](https://netlify.com/)
+
+Le domaine criminau.xyz est financé intégralement par l'auteur de l'œuvre.

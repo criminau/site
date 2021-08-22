@@ -1,8 +1,8 @@
-baseURL: 'https://subversive.eu/'
+baseURL: 'https://criminau.xyz/'
 relativeURLs: true
 uglyURLs: true
 title: "Journal Subversif"
-author: subversive.eu
+author: criminau
 paginate: 7
 languageCode: fr-FR
 DefaultContentLanguage: fr
@@ -12,8 +12,7 @@ theme: theme-1
 enableRobotsTXT: false
 buildFuture: false # Test ok / functionnal
 buildExpored: false
-buildDraft: true
-
+buildDraft: false
 
 # Perf Active later.
 minify:
@@ -23,17 +22,17 @@ minify:
 disableLiveReload: true
 
 params:
-  description: 'Subversive est un blog accueillant, développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.'
-  keyword: 'subversive.eu, subversive, blog, pour, entretenir, votre, culture, subversive'
+  description: 'Criminau est un blog développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.'
+  keyword: 'criminau.xyz, criminau, criminel, blog, pour, entretenir, votre, culture, subversive'
   images:
     - android-chrome-192x192.png
   ShowReadingTime: true
   imagesdefault: 'android-chrome-192x192.png'
   ShowShareButtons: true
   ShowPostNavLinks: true
-  author: subversive.eu
-  RSSauthor: subversive.eu@tutanota.com
-  copyright: 'https://subversive.eu/internetlibre.txt'
+  author: criminau.xyz
+  RSSauthor: oc-criminua@tutanota.com
+  copyright: 'https://criminau.xyz/internetlibre.txt'
 
 # Paper Mod
   env: production
@@ -48,7 +47,7 @@ params:
 
   socialIcons:
     - name: "Flux RSS"
-      url: 'https://subversive.eu/index.xml'
+      url: 'https://criminau.xyz/index.xml'
     - name: "Github"
       url: 'https://github.com/criminau/site'
 
