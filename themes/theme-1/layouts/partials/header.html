@@ -4,7 +4,7 @@
         <div class="logo">
             <a Title="Page d'accueil du site criminau.xyz" href="{{ "" | absLangURL }}">
                 {{- if .Site.Params.label.icon }}
-                <img src="{{.URL}}{{- .Site.Params.label.icon -}}" alt="logo" aria-label="logo"
+                <img src="{{ .Site.BaseURL }}{{.Site.Params.label.icon }}" alt="logo" aria-label="logo"
                     height="{{- .Site.Params.label.iconHeight | default "30px" -}}">
                 {{- else if not .IsHome -}}
                 <p class="">{{- .Site.Params.label.text | default .Site.Title -}}</p>

@@ -35,6 +35,7 @@ params:
   copyright: 'https://criminau.xyz/internetlibre.txt'
   label:
     icon: apple-touch-icon.png
+    text: texte du logo?
 
 # Paper Mod
   env: production
