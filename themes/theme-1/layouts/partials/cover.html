@@ -5,13 +5,15 @@
 {{- $addLink := (and .Site.Params.cover.linkFullImages (not $.IsHome)) }}
 {{- $cover := (.Page.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
 
-<figure class="entry-cover">
+<figure class="entry-cover" role="group">
 
 {{- if $addLink }}
 <a title="{{ $alt }}" rel="noopener noreferrer" href="{{ (.Params.cover.image) | absURL }}" target="_blank">
 {{ end -}}
 
-<img src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}">
+{{- if $alt }}
+<img title="{{ $alt }}" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}">
+{{- end }}
 
 {{- if $addLink }}</a>{{ end -}}
 

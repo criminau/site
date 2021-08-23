@@ -1,6 +1,6 @@
 ---
 title: "L'ours commence à poser sa patte !"
-author: "subversive.eu"
+author: "subversive"
 draft: false
 ShowToc: true
 hidemeta: false
@@ -26,7 +26,8 @@ Poutine a vécu la chute de l’URSS comme une honte, une humiliation de l'occid
 
 En Russie, son prénom est courant, il signifie "le souverain de la paix" en russe.
 
-{{< figure src="https://subversive.eu/media/vladimir-chasing.jpg" alt="vladimir Putin avec un sniper" caption="Poutine à la chasse !" class="right" >}}
+{{< figure src="https://criminau.xyz/media/vladimir-chasing.jpg" alt="vladimir Putin avec un sniper" caption="Poutine à la chasse !" class="right" >}}
+
 Parti chasser les musulmans en Tchétchénie sous un faux prétexte d'homophobie dont l'occident n'a pas manqué de nous rappeler, le message était pourtant clair, pas d'occident n'y de musulmans devant la tanière.
 
 Cela fait des années que le monde arabe gratte aux portes de la tanière. Et cela rend fou l'armée rouge. Mais tel un grand dirigeant, Poutine suit à la lettre l'art de la guerre de Sun Tzu.
@@ -39,20 +40,20 @@ Tout l'intérêt de l'occident en Syrie est de mettre de l'huile sur le feu est 
 
 La Turquie dont le chef est acculé mais adulé agresse tout le monde. Soutient militairement ses alliés dans des conflits d'ordres religieux comme sur le plateau du Haut-Karabagh qui est une république indépendante d’Arménie. Erdogan ne peut célébrer sa victoire totale sur l'Arménie... L'ours russe est sorti de sa tanière !
 
-{{< figure src="https://subversive.eu/media/vladimir-armenia-tank-min.jpeg" alt="Tank russe en arménie 2020" caption="type d'armement léger" class="left" >}}
+{{< figure src="https://criminau.xyz/media/vladimir-armenia-tank-min.jpeg" alt="Tank russe en arménie 2020" caption="type d'armement léger" class="left" >}}
 
 Erdogan est exclu des négociations, exclu des pourparlers, exclu des forces de maintien de la paix. Et pire il voit débarquer sur le jardin noir des troupes militaires hostiles et lourdement armées.
 
-{{< figure src="https://subversive.eu/media/vladimir-armenia-tank-stay-min.jpeg" alt="Tank russes en arménie 2020" caption="type d'armement léger" class="right" >}}
+{{< figure src="https://criminau.xyz/media/vladimir-armenia-tank-stay-min.jpeg" alt="Tank russes en arménie 2020" caption="type d'armement léger" class="right" >}}
 
 Pourtant une clause de l'accord de cessez-le-feu entre les deux belligérants spécifie bien un contingent armé, mais d'armes légères !
 
-Ainsi pour la Russie de l'armement léger est dépêché sur le plateau.. 
+Ainsi pour la Russie de l'armement léger est dépêché sur le plateau..
 
 
 Mais en même temps, les troupes de l'armée rouge ne demande que cela !
 
-{{< figure src="https://subversive.eu/media/vladimir-orgue-min.png" alt="Orgues de Staline version années 2000" caption="Orgues de Staline version années 1980" >}}
+{{< figure src="https://criminau.xyz/media/vladimir-orgue-min.png" alt="Orgues de Staline version années 2000" caption="Orgues de Staline version années 1980" >}}
 
 Et pire en rencontrant les autorités du Nagorno Karabagh, les russes remettent en question toute l'opération Turque..
 
@@ -94,18 +95,15 @@ Depuis cet incident, Bakou cherche à se justifier.. en vain car l'ours à enfin
 
 > — <cite>Sergueï Lavrov, l’arrogance de Bakou oblige les russes à se justifier</cite>
 
-## Make Russia Great Again 
+## Make Russia Great Again
 
 Voilà telle était et est la mission de Vladimir Vladimirovitch, mais tonton Russe en veut toujours plus !
 
+{{< figure src="https://criminau.xyz/media/crimee-celebration-min.jpg" alt="Célébration de la victoire en Crimée" class="right" >}}
 
-{{< figure src="https://subversive.eu/media/crimee-celebration-min.jpg" alt="Célébration de la victoire en Crimée" class="right" >}}
-Suite à une expansion territoriale depuis les années 2000 avec la Crimée, le Donbass, la Géorgie, la Russie s'affirme sur l'échiquier mondial comme une superpuissance. De plus leur nouveau missile « Avangard », leur assure avec l’Amérique une armée inattaquable. 
-
-
+Suite à une expansion territoriale depuis les années 2000 avec la Crimée, le Donbass, la Géorgie, la Russie s'affirme sur l'échiquier mondial comme une superpuissance. De plus leur nouveau missile « Avangard », leur assure avec l’Amérique une armée inattaquable.
 
 Tout comme le Donbass, la Crimée, tous sont des territoires peuplés de Russes.
-
 
 En Novembre 2020, la Russie a lancé la construction de sa nouvelle base logistique extra-territoriale après celle de Tartous, au Soudan.
 Sachant que 80% du commerce mondiale se fait par voix maritime et que la grande majorité utilise les deux voix maritime de la mer Rouge, inutile de vous préciser l'importance d'une telle base (et pourtant je le fais).

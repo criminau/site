@@ -71,17 +71,13 @@ Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat str
 
 ## Colunms
 
-{{< columns >}} <!-- begin columns block -->
+{{< columns >}}<!-- begin columns block -->
 ### Left Content
 Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
-
-<---> <!-- magic separator, between columns -->
-
+<---><!-- separator between columns -->
 ### Mid Content
 Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter!
-
-<---> <!-- magic separator, between columns -->
-
+<---><!-- separator between columns -->
 ### Right Content
 Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
 {{< /columns >}}
@@ -90,16 +86,13 @@ Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat str
 
 {{< details >}}
 #### Markdown content
-
 Le CSS ne prendra en charge que les titres en h4 soit 4 #(hashtag).  
 La couleur de font est "content" du thème foncé, nommé "dark".  
 {{< /details >}}
-
 {{< details "Custom label" >}}
 #### Markdown content
 Lorem markdownum insigne...
 {{< /details >}}
-
 {{< details "Custom Label" "..." >}}
 #### Markdown content
 Lorem markdownum insigne...
@@ -126,25 +119,15 @@ The blockquote element represents content that is quoted from another source, op
 ## figure
 
 Figure (image insertion) playing with text !
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
 {{< figure src="https://via.placeholder.com/400x280" alt="image" caption="figure-right" class="right" >}}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 {{< figure src="https://via.placeholder.com/400x280" alt="image" caption="figure-left" class="left" >}}
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 {{< figure src="https://via.placeholder.com/1600x800" alt="image" caption="figure-normal (without any classes)" >}}
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 {{< figure src="https://via.placeholder.com/1600x800" alt="image" caption="figure-big" class="big" >}}
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 
 ## Tables
 
@@ -156,15 +139,13 @@ Table:
 | col 2 is      |    centered     |           $12 |
 | zebra stripes |    are neat     |            $1 |
 
-
-
 | Left-Aligned  | Center Aligned |
-| :------------ | :------------: |
+| :-----------: | -------------- |
 | col 3 is      |          $1600 |
 | col 2 is      |            $12 |
 | zebra stripes |             $1 |
 
-
+PS: align attribute works fine but it is obsolete.
 
 Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
 
@@ -253,6 +234,16 @@ reboot
 2. Second item
 3. Third item
 
+### Ordered List with links
+
+4. [Link to Link](#Link)
+5. [Second item](https://criminau.xyz)
+6. [Third item](https://criminau.xyz)
+
+This no work :
+
+[Link to Link](#Link)
+
 ### Unordered List
 
 * List item
@@ -294,6 +285,7 @@ Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and ot
 ## youtube
 
 {{< youtube "xuvCYZMWWMw" >}}
+
 {{< youtube "falFFuZEPd4" >}}
 
 ## tweeter

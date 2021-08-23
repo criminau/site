@@ -47,7 +47,7 @@ params:
 
   HomeInfoParams:
     Title: "Bonjour 👋"
-    Content: "Journal Subversif, Politique et presque Impartial"
+    Content: "Journal Subversif, Politique et presque Impartial."
     Tagline: "Qui tacet consentire videtur."
 
   socialIcons:
@@ -83,18 +83,9 @@ rsslimit: 15
 enableEmoji: true
 
 # Allow raw html in markdown file
-#markup:
-#  defaultMarkdownHandler: goldmark
-#  goldmark:
-#    renderer:
-#      unsafe: true
-#    extensions:
-#      footnote: true
-
 markup:
   defaultMarkdownHandler: blackfriday
   blackFriday:
-    footnoteAnchorPrefix: ""
     footnoteReturnLinkContents: "↑"
 
 privacy:

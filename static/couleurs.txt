@@ -8,7 +8,7 @@ Je ferai un article une fois fini.
 
 # Pré-requis
 
-- Un bon contraste de 4.95 minimum.
+- Un bon contraste de 8 minimum.
 - Des couleurs qui ne fatiguent pas les yeux.
 
 # Contraintes

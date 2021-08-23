@@ -17,7 +17,7 @@ Pour un web libre, intégralement :
 
 3. Optimiser la lecture
 
-- Website responsive et rapide. (< https://subversive-eu.github.io/awesome-hugo-book/ >)
+- Website responsive et rapide. (< https://criminau.github.io/awesome-hugo-book/ >)
 - Ne pas lancer la lecture automatique de fichier mp3 (interne ou externe) ou mp4.
 - Ne pas utiliser de ressources inutiles.
 

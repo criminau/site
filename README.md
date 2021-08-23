@@ -20,8 +20,8 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - Markup -> blackfriday
 - Nouveaux thèmes
 - Correction des articles et retour des pdf (petit à petit)
--
--
+- Ajout shortcode figure (role="group")
+- Protocole A11y.css
 -
 
 
@@ -32,11 +32,14 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - Etudier pour changer la taille de police par rapport taille de l'écran ?
 - Etudier vitesse des Images
 - Que faire des brouillons ?
-- Tester headers
 - Retour des catégories ?
+- Protocole totA11y
+-
+-
 
 ---
 /*
 hugo netlify toml :
 --buildDrafts
+https://talk.commonmark.org/t/tables-in-pure-markdown/81/115
 */

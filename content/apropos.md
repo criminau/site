@@ -6,7 +6,6 @@ date: 2019-11-19T08:37:55+02:00
 url: "/apropos/"
 hidemeta: true
 disableShare: true
-comments: false
 description: "A propos du blog criminau.xyz, de l'origine à la conception. Observons, les outils ( Développement, Hébergement, ... ), le financement, ainsi que vos droits."
 noindex: true
 pages: true

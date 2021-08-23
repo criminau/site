@@ -2,8 +2,9 @@
 {{ $id := .Get 0 }}
 {{ $group := printf "tabs-%s" $id }}
 
-
-<div class="book-tabs">
+<!--
+<div class="book-tabs"> -->
+<fieldset class="book-tabs">
 {{- range $index, $tab := .Scratch.Get $group -}}
 
 {{ $link := printf "%s-%d" $group $index }} <!-- TIPS :
@@ -16,8 +17,12 @@ And now i can do my css .. !
   <label for="{{ $link }}">
     {{- $tab.Name -}}
   </label>
-  <div class="book-tabs-content markdown-inner">
+  <span class="book-tabs-content markdown-inner">
     {{- .Content | markdownify -}}
-  </div>
+  </span>
+
 {{- end -}}
+</fieldset>
+<!--
 </div>
+-->

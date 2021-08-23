@@ -7,21 +7,17 @@
     margin: auto;
     padding: var(--gap);
 }
-
 @media screen and (max-width: 400px) {
     .main {
         min-height: calc(100vh - var(--header-height) - var(--footer-height) - 24px);
     }
 }
-
 .page-header {
     margin-bottom: 24px;
 }
-
 .page-header h1 {
     font-size: 40px;
 }
-
 /* Add css tricks
 ------------------------------------------------------------------------- */
 .flex{
@@ -56,23 +52,19 @@
     margin-inline-end: auto;
     line-height: var(--header-height);
 }
-
 .nav a {
     display: block;
 }
-
 .logo,
 .menu {
     display: flex;
     margin: auto var(--gap);
     flex-wrap: inherit;
 }
-
 .logo a {
     font-size: 24px;
     font-weight: 700;
 }
-
 .logo a img {
     display: inline;
     vertical-align: middle;
@@ -82,7 +74,7 @@
     margin-inline-end: 8px;
 }
 .logo a:hover {
-  transform:rotate(25 deg);
+  transform:rotate(25deg);
   -ms-transform:rotate(25deg);
   -webkit-transform:rotate(25deg);
 }
@@ -97,7 +89,6 @@ body.dark #moon {
     vertical-align: middle;
     display: none;
 }
-
 body:not(.dark) #sun {
     display: none;
 }
@@ -108,11 +99,9 @@ body:not(.dark) #sun {
     overflow-x: auto;
     white-space: nowrap;
 }
-
 .menu li+li {
     margin-inline-start: var(--gap);
 }
-
 .menu a {
     font-size: 16px;
 }
@@ -147,7 +136,9 @@ body:not(.dark) #sun {
 .footer a:hover {
     font-weight: bolder;
 }
-/* Bouton Haut de page */
+
+/* Bouton Haut de page
+---------------------------------------------------------------------------*/
 .top-link {
     font-size: 12px;
     visibility: hidden;
@@ -166,9 +157,12 @@ body:not(.dark) #sun {
     fill-opacity: 80%;
     transition: visibility 0.5s,
     opacity 0.8s linear;
-    font-weight: bolder;
 }
-
+.top-link:hover{
+    width: 48px;
+    height: 48px;
+    padding: 6px;
+}
 /* Mobile
 ----------------------------------------------------- */
 @media screen and (max-width: 500px) {

@@ -6,7 +6,7 @@
 
 <!-- retour haut de page -->
 <button aria-label="Retour en haut de la page" class="top-link" id="top-link" type="button" name="Haut de page" >
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<svg [role="img"] xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 <polyline points="18 15 12 9 6 15" /></svg>
 </button>
 
@@ -31,3 +31,7 @@ localStorage.setItem("pref-theme", 'dark');
 {{ $js := resources.Get "js/script.js" }}
 {{ $SecureJS := $js | resources.Minify | fingerprint }}
 <script rel="preload" async src="{{ $SecureJS.Permalink }}" integrity="{{ $SecureJS.Data.Integrity }}"></script>
+
+<!--
+  <script src="tota11y.min.js"></script>
+  -->

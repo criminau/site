@@ -33,6 +33,7 @@ https://www.fiznool.com/blog/2018/09/14/adding-click-to-copy-buttons-to-a-hugo-p
         var copyBtn = document.createElement("button");
         copyBtn.className = "highlight-copy-btn";
         copyBtn.textContent = "Copier";
+        copyBtn.type = "button";
 
         var codeEl = containerEl.firstElementChild;
         copyBtn.addEventListener('click', function() {
@@ -58,6 +59,7 @@ https://www.fiznool.com/blog/2018/09/14/adding-click-to-copy-buttons-to-a-hugo-p
 /***** FIN Bouton copier/coller */
 
 
+
 /***** Bouton Retour Haut de la page */
 
 window.onload = function() {
@@ -81,8 +83,6 @@ mybutton.onclick = function() {
     window.location.hash = ''
 }
 
-function menu_on_scroll() {
-    localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
-}
+
 
 /***** FIN bouton haut de page */
