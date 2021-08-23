@@ -1,5 +1,5 @@
 ---
-title: "L'ours commence à poser sa patte !"
+title: "L'ours commence a poser sa patte !"
 author: "subversive"
 draft: false
 ShowToc: true

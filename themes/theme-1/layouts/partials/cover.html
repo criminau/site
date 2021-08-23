@@ -1,3 +1,5 @@
+{{ if (and .Params.cover.image .Params.cover.alt) }}
+
 {{- with .cxt}} {{/* Apply proper context from dict */}}
 
 {{/* VARIABLES */}}
@@ -10,12 +12,10 @@
 {{- if $addLink }}
 <a title="{{ $alt }}" rel="noopener noreferrer" href="{{ (.Params.cover.image) | absURL }}" target="_blank">
 {{ end -}}
-
 {{- if $alt }}
 <img title="{{ $alt }}" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}">
 {{- end }}
-
-{{- if $addLink }}</a>{{ end -}}
+{{- if $addLink }}test??</a>{{ end -}}
 
 {{/*  Display Caption  */}}
 {{- if not $.IsHome }}
@@ -25,3 +25,4 @@
 </figure>
 
 {{- end -}}{{/* End context */}}
+{{ end }}

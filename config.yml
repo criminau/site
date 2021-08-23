@@ -42,7 +42,7 @@ params:
 # Paper Mod
   env: production
   cover:
-    responsiveImages: false   # Perf
+    responsiveImages: false   # Perf ! A CHECK
     linkFullImages: true
 
   HomeInfoParams:
