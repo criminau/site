@@ -10,7 +10,7 @@
 }
 
 .archive-year:not(:last-of-type) {
-    border-bottom: 2px solid var(--border);
+    border-bottom: 2px solid var(--content);
 }
 
 .archive-month {
@@ -25,7 +25,7 @@
 }
 
 .archive-month:not(:last-of-type) {
-    border-bottom: 1px solid var(--border);
+    border-bottom: 1px solid var(--content);
 }
 
 .archive-entry {
@@ -45,15 +45,15 @@
     bottom: 0;
 }
 .archive-meta {
-    color: var(--secondary);
+    color: var(--content);
     font-size: 14px;
 }
 .archive-meta a{
-    color: var(--secondary);
+    color: var(--content);
     font-size: 14px;
 }
 .archive-count {
-    color: var(--secondary);
+    color: var(--content);
     font-size: 14px;
 }
 

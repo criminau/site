@@ -35,10 +35,10 @@ HUGO_ENABLEGITINFO = "true"
 for = "/*"
 [headers.values]
   Referrer-Policy = "no-referrer"
-  Strict-Transport-Security = "max-age=15768000"
-  X-Content-Type-Options = "nosniff"
-  X-Frame-Options = "SAMEORIGIN"
-  X-XSS-Protection = "1; mode=block"
+#  Strict-Transport-Security = "max-age=15768000"
+#  X-Content-Type-Options = "nosniff"
+#  X-Frame-Options = "SAMEORIGIN"
+#  X-XSS-Protection = "1; mode=block"
 [[headers]]
 for = "/media/*" # in the media folder for 7 days (60*60*24*7)
 [headers.values]

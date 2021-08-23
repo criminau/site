@@ -16,7 +16,7 @@ buildDraft: false
 
 # Perf Active later.
 minify:
- minifyOutput: true
+ minifyOutput: false
 
 #LiveReload Hugoreload
 disableLiveReload: true
@@ -33,6 +33,8 @@ params:
   author: criminau.xyz
   RSSauthor: oc-criminua@tutanota.com
   copyright: 'https://criminau.xyz/internetlibre.txt'
+  disableThemeToggle: false
+  defaultTheme: auto
   label:
     icon: apple-touch-icon.png
     text: texte du logo?
@@ -81,11 +83,19 @@ rsslimit: 15
 enableEmoji: true
 
 # Allow raw html in markdown file
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
+#markup:
+#  defaultMarkdownHandler: goldmark
+#  goldmark:
+#    renderer:
+#      unsafe: true
+#    extensions:
+#      footnote: true
 
+markup:
+  defaultMarkdownHandler: blackfriday
+  blackFriday:
+    footnoteAnchorPrefix: ""
+    footnoteReturnLinkContents: "↑"
 
 privacy:
   disqus:

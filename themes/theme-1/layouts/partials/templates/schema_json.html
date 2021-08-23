@@ -53,26 +53,25 @@
   "description": {{ .Site.Params.description | plainify | truncate 180 | safeHTML }},
   "logo": {{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }},
   "sameAs": [
-      "https://github.com/subversive-eu/site",
+      "https://github.com/criminau/site",
   ],
-  "@graph": 
+  "@graph":
   [
       {
           "@context": "https://schema.org",
           "@type":"SiteNavigationElement",
           "name": "A propos",
           "description": "A propos du blog",
-          "url": "https://subversive.eu/apropos/"
+          "url": "https://criminau.xyz/apropos/"
       },
       {
           "@context": "https://schema.org",
           "@type":"SiteNavigationElement",
           "name": "Archives",
           "description": "Tous les articles classés par date de publication",
-          "url": "https://subversive.eu/archives/"
+          "url": "https://criminau.xyz/archives/"
       },
   ],
-}    
+}
 </script>
 {{ end }}
-

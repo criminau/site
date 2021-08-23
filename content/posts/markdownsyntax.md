@@ -10,7 +10,7 @@ disableShare: false
 cover:
     relative: true
     image: "media/markdown-cover-min.jpg"
-    alt: "Bitcoin cryptomonnaie"
+    alt: "Markdown Syntax"
     Caption: ""
 images: "media/markdown-cover-min.jpg"
 keyword: "Markdown syntax, copy button, figure, details, expand, columns, tabs, blockquote, youtube responsive, HTML, CSS, HUGO, hugo authors, gohugo, hugo cms, Markdown"
@@ -23,11 +23,11 @@ This article offers basic Markdown syntax that can be used in Hugo content files
 PS: Le document PDF est complet sans modification.
 PS [EN]: PDF doc is full, no changes.
 
-[Visualiser la page sans formatage via github](https://raw.githubusercontent.com/subversive-eu/site/master/content/posts/markdownsyntax.md)
+[Visualiser la page sans formatage via github](https://raw.githubusercontent.com/criminau/site/master/content/posts/markdownsyntax.md)
 
 # H1
 
-[Link](https://www.markdownguide.org/basic-syntax/) to the best Markdown Syntax Guide Ever !
+[Le meilleur guide de Syntaxe Markdown](https://www.markdownguide.org/basic-syntax/) trouvé !
 
 ## Headings
 
@@ -55,15 +55,19 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
 
 {{< /tab >}}
-{{< tab "Linux" >}} ### Linux Content {{< /tab >}}
-{{< tab "Windows" >}} ### Windows Content {{< /tab >}}
+{{< tab "Linux" >}}
+### Linux Content
+{{< /tab >}}
+{{< tab "Windows" >}}
+### Windows Content
+{{< /tab >}}
 {{< /tabs >}}
 
 ## Buttons
 
-{{< button href="https://youtu.be/QRcrsHro6xI" title="Go Home Fucking Tourists" >}}Go Home{{< /button >}}
+{{< button href="https://youtu.be/QRcrsHro6xI" title="Go Home Fucking Tourists" >}}Go Home Fucking Tourists{{< /button >}}
 
-{{< button href="https://github.com/subversive-eu/hugo-subversive" title="Contribute button" >}}Contribute{{< /button >}}
+{{< button href="https://github.com/criminau/" title="Contribute button" >}}Contribute{{< /button >}}
 
 ## Colunms
 
@@ -86,7 +90,9 @@ Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat str
 
 {{< details >}}
 #### Markdown content
-Lorem markdownum insigne...
+
+Le CSS ne prendra en charge que les titres en h4 soit 4 #(hashtag).  
+La couleur de font est "content" du thème foncé, nommé "dark".  
 {{< /details >}}
 
 {{< details "Custom label" >}}
@@ -185,11 +191,11 @@ highlight shortcode Here testing angular2
 
 ## Code Blocks
 
-### Code block with backticks
+### Code block with language
 
 ```html
 <!doctype html>
-  <html lang="en">
+  <html lang="fr">
     <head>
       <meta charset="utf-8">
       <title>Example HTML5 Document</title>
@@ -200,11 +206,11 @@ highlight shortcode Here testing angular2
   </html>
 ```
 
-### Code block indented with four spaces
+### Code block without language
 
 ```
-    <!doctype html>
-    <html lang="en">
+<!doctype html>
+  <html lang="en">
     <head>
       <meta charset="utf-8">
       <title>Example HTML5 Document</title>
@@ -212,7 +218,7 @@ highlight shortcode Here testing angular2
     <body>
       <p>Test</p>
     </body>
-    </html>
+  </html>
 ```
 
 ### Code block with Hugo's internal highlight shortcode
@@ -228,6 +234,15 @@ highlight shortcode Here testing angular2
   <p>Test</p>
 </body>
 </html>
+{{< /highlight >}}
+
+### Code block with Hugo's internal highlight and white color
+
+{{< highlight angular2 >}}
+localectl set-locale LANG=fr_FR.UTF-8
+localectl set-keymap fr
+localectl set-x11-keymap fr
+reboot
 {{< /highlight >}}
 
 ## List Types
@@ -279,6 +294,7 @@ Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and ot
 ## youtube
 
 {{< youtube "xuvCYZMWWMw" >}}
+{{< youtube "falFFuZEPd4" >}}
 
 ## tweeter
 

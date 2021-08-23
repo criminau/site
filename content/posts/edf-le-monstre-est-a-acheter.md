@@ -1,6 +1,6 @@
 ---
-title: "EDF le monstre est à vendre Restructuration d'EDF par l'état"
-author: "subversive.eu"
+title: "EDF le monstre est à acheter"
+author: "subversive"
 ShowToc: true
 draft: false
 hidemeta: false
@@ -16,7 +16,6 @@ Rappel, EDF, Electricité De France, deuxième productrice d’électricité du 
 
 Tous les médias nous présentent la nouvelle comme une bonne nouvelle, une renationalisation, mais vous allez découvrir en réalité une bien belle mascarade.
 
-
 Voyons les faits : Ne croyait pas qu'EDF est une entreprise comme les autres, c'est avant tout une multinationale d'une puissance colossale, elle est présente sur tous les continents de la planète avec ses filiales toutes aussi imposantes les unes que les autres. En Inde, via des parcs éoliens et solaires, en Belgique avec ses réacteurs nucléaires, de même en Angleterre, en Chine, Brésil, bref partout.
 
 Gestionnaire de réseaux de distribution comme c’est le cas en France, de réseaux de production, notamment avec son parc nucléaire gigantesque, de ses parcs éoliens ou solaires, sur la terre ferme ou bientôt en mer, de la quantité de barrages en gestion, EDF est partout aux quatre coins de la planète.
@@ -27,7 +26,7 @@ Et voit-il pas que deux problèmes se posent. Le premier est de vendre EDF aux p
 
 Le budget prévu est de 100 milliards que pour une minorité de réacteurs français. Connaissant EDF et son secteur très risqué, inutile de vous avertir que la note sera bien plus salée. Il va falloir surement tripler le budget, voire pire. La gestion des déchets va être infernale, coincée entre les écolos, repoussé par des pays étrangers, ou leurs convictions, coincée car personne ne voudra payer, et surtout personne, y compris l’Afrique, ne les voudront sur leur sol.
 
-Mais comment faire alors pour assurer une privatisation sans faille, sans arnaque. Qui voudra nous acheter un parc dangereux, qui coule la dette d’EDF ?
+Mais comment faire alors pour assurer une privatisation sans faille, sans arnaque. Qui voudra nous acheter un parc dangereux qui coule la dette d’EDF ?
 
 ## Solution
 

@@ -40,9 +40,11 @@
 <link rel="canonical" href="{{ .Permalink }}" />
 
 <!-- Twitter -->
-<meta name="twitter:widgets:theme" content="light">
-<meta name="twitter:widgets:border-color" content="#55acee">
+<!-- https://developer.twitter.com/en/docs/twitter-for-websites/webpage-properties -->
+<meta name="twitter:widgets:theme" content="dark">
+<meta name="twitter:widgets:border-color" content="#ff00ff">
 <meta name="twitter:dnt" content="on">
+<meta name="twitter:widgets:csp" content="on">
 
 <!-- START STYLEs -->
 
@@ -91,7 +93,7 @@
 {{- hugo.Generator }}
 
 <!-- RSS -->
-<link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}index.xml" title="subversive.eu">
+<link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}index.xml" title="criminau.xyz">
 
 <!-- Misc -->
 {{- if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}

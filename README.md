@@ -1,4 +1,4 @@
-# Subversive.eu
+# Criminau.xyz
 
 Blog Simple.
 
@@ -15,15 +15,28 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - Modification des couleurs
 - Fin des commentaires
 - Fin de la recherche interne
+- Embedded css
+- Footnote css
+- Markup -> blackfriday
+- Nouveaux thèmes
+- Correction des articles et retour des pdf (petit à petit)
 -
 -
+-
+
 
 ---
 
 <blockquote>Quelques taches :</blockquote>
 
-- Etudier pour changer la taille de police / taille de l'écran ?
-- Etudier vitesse Image
--
+- Etudier pour changer la taille de police par rapport taille de l'écran ?
+- Etudier vitesse des Images
+- Que faire des brouillons ?
+- Tester headers
+- Retour des catégories ?
 
 ---
+/*
+hugo netlify toml :
+--buildDrafts
+*/

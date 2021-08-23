@@ -1,6 +1,6 @@
 ---
 title: "Hugo 100% Lighthouse"
-author: "subversive.eu"
+author: "subversive"
 ShowToc: true
 draft: false
 hidemeta: false
@@ -19,7 +19,7 @@ pdfname: "hugo-100-lighthouse"
 ---
 
 
-Une fois le [site hugo créé](https://subversive.eu/articles/creer-un-site-internet-ou-un-blog-statique-en-2020.html), il ne sera pas optimisé, consommant des ressources inutilement, offrant peu de confort aux visiteurs.
+Une fois le [site hugo créé](https://criminau.xyz/articles/creer-un-site-internet-ou-un-blog-statique-en-2020.html), il ne sera pas optimisé, consommant des ressources inutilement, offrant peu de confort aux visiteurs.
 <!--more-->
 
 ## Introduction
@@ -29,7 +29,7 @@ C'est un outil, fiable et simple d'utilisation pour noter votre site.
 
 Cet outils prendra en compte la *performance* de votre site, *l'accessibilité*, *les meilleures pratiques*, *le SEO* et si votre site est une application.
 
-Tout est résumé sur [awesome-hugo-book](https://subversive-eu.github.io/awesome-hugo-book/).
+Tout est résumé sur [awesome-hugo-book](https://criminau.github.io/awesome-hugo-book/).
 
 Nous aborderons les détails.
 
@@ -70,7 +70,7 @@ Vous aurez le choix entre version ordinateur portable ou mobile.
 
 ## Performance
 
-Rien à rajouter [des consignes hugo-book](https://subversive-eu.github.io/awesome-hugo-book/#performance)
+Rien à rajouter [des consignes hugo-book](https://criminau.github.io/awesome-hugo-book/#performance)
 
 ## Accessibilité
 
@@ -103,8 +103,8 @@ DefaultContentLanguage: fr
 
 ## SEO
 
-- Copier le [head.html](https://raw.githubusercontent.com/subversive-eu/site/master/themes/PaperMod/layouts/partials/head.html)
-- Plus de détails sur la [liste awesome-hugo-book](https://subversive-eu.github.io/awesome-hugo-book/#contenu)
+- Copier le [head.html](https://raw.githubusercontent.com/criminau/site/master/themes/PaperMod/layouts/partials/head.html)
+- Plus de détails sur la [liste awesome-hugo-book](https://criminau.github.io/awesome-hugo-book/#contenu)
 
 Lisez bien avec attention le OpenGraph Protocol + Les twitters Cards, et schema.org.
 Le fichier robots.txt et le sitemap.xml.

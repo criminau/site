@@ -1,3 +1,27 @@
+<!-- Script pour conserver le thème sur l'ensemble du site -->
+{{- if (and (not .Site.Params.disableThemeToggle) (not (or (eq .Site.Params.defaultTheme "light") (eq .Site.Params.defaultTheme "dark")))) }}
+<script>
+    // load memory
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add('dark');
+        }
+    }
+
+</script>
+{{- end }}
+{{- if (and (.Site.Params.disableThemeToggle) (eq .Site.Params.defaultTheme "auto")) }}
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+</script>
+{{- end }}
+<!-- Fin du script -->
 
 <header class="header">
     <nav class="nav ">
@@ -38,7 +62,6 @@
                 </span>
                 {{- end}}
             </span>
-
         </div>
         {{- $currentPage := . }}
         <ul class="menu" id="menu" onscroll="menu_on_scroll()">

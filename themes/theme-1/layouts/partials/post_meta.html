@@ -1,10 +1,8 @@
 {{- $scratch := newScratch}}
 
-
 {{- if not .Date.IsZero -}}
 {{- $scratch.Add "meta" (slice (.Date.Format (default "2 Jan, 2006" .Site.Params.DateFormat))) }}
 {{- end -}}
-
 
 {{- if $.Site.Params.ShowReadingTime -}}
 {{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%s min" .ReadingTime))) }}
@@ -13,6 +11,10 @@
 {{ with (partial "author.html" . ) }}
 {{ $scratch.Add "meta" (slice .)}}
 {{end}}
+
+{{ with (partial "pdf.html" . ) }}
+{{ $scratch.Add "meta" . }}
+{{ end }}
 
 {{- with ($scratch.Get "meta")}}
 {{- delimit . "&nbsp;·&nbsp;"}}

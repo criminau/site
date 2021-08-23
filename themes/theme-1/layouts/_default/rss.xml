@@ -18,11 +18,11 @@
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Subversive</title>
+    <title>Journal Subversif</title>
     <language>fr</language>
     <image>
-      <url>https://www.subversive.eu/apple-touch-icon.png</url>
-      <title>Subversive</title>
+      <url>https://criminau.xyz/apple-touch-icon.png</url>
+      <title>Journal Subversif</title>
       <link>{{ .Site.BaseURL }}</link>
     </image>
     <link>{{ .Site.BaseURL }}</link>
@@ -44,7 +44,7 @@
       {{ with .Params.RSSauthor }}
       <author>{{ . }}</author>
       {{ end }}
-      <source url="https://subversive.eu/index.xml">{{ .Site.Title }}</source>
+      <source url="https://criminau.xyz/index.xml">{{ .Site.Title }}</source>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid>{{ .Permalink }}</guid>
       <!-- Content with Image -->
@@ -59,7 +59,7 @@
     {{ $image_location := printf "/static/%s" . }}
     {{$image := readFile $image_location }}
     {{$len := len $image}}
-    <enclosure url="http://subversive.eu/{{.}}" length="{{$len}}" type="image/png" />
+    <enclosure url="http://criminau.xyz/{{.}}" length="{{$len}}" type="image/png" />
     {{ end }}{{- else -}}
     {{- end -}}
 
