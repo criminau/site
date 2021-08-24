@@ -1,6 +1,7 @@
 ---
-title: "Un sens à la Vie"
-author: "subversive.eu"
+title: Un sens à la vie
+author: "subversive"
+url: un-sens-a-la-vie.html
 ShowToc: true
 draft: false
 hidemeta: false
@@ -8,7 +9,7 @@ tocopen: false
 disableShare: false
 date: 2020-01-29T18:00:00+02:00
 keyword: "sens de la vie, sens, vie, la vie a-t-elle un sens, quel est le sens de la vie, réflexion sens de la vie, c'est quoi la vie"
-pdfname: "Un sens a la vie"
+pdfname: un-sens-a-la-vie
 ---
 
 De réflexion en réflexion, je me suis penché sur le sens de la vie. Qu’est-ce que la vie ? Comment la définir ? Pourrions nous admettre qu’elle ait un sens ?
@@ -27,7 +28,7 @@ Ainsi en regardant l’histoire, on constate que la vie réponds à une soif d�
 
 L’on peut imaginer et accepter de se voir offrir la possibilités de rencontrer de la vie extraterrestre. Ainsi, notre champ relationnel irait toujours plus loin, a notre galaxie, puis à notre univers. Bon, admettons, et quand même chaque être humain de cette Terre, collabore-t-il à ce but ? Sûrement de manière inconsciente alors. D’ailleurs la vie nous assure-t-elle un but ? Nous le donne-t-elle ? Sous qu’elle forme ? N’ayant pas l’impression de l’avoir décrypté, nous allons continuer notre réflexion.
 
-Comment se fait-il que dès notre naissance, nous fassions tout pour survivre ? Qu’elle est la réponse de la science à cela ? Je ne l’ai pas trouvée, la vie réponds a une soif de survivre. Ainsi sans trouver de réponse claire et précise, J’ai volontairement retourner la question. Qu’attends de nous la vie ? Je me suis retrouvé face à un mur immense, une question sans réponse.
+Comment se fait-il que dès notre naissance, nous fassions tout pour survivre ? Qu’elle est la réponse de la science à cela ? Je ne l’ai pas trouvée, la vie réponds a une soif de survivre. Ainsi sans trouver de réponse claire et précise, j’ai volontairement retourner la question. Qu’attends de nous la vie ? Je me suis retrouvé face à un mur immense, une question sans réponse.
 
 Vous me direz, bon une de plus. Sauf que celle ci est toute particulière car elle sous-entends une vérité absolu celle où l’évolution des Hommes ne peut-être que positive. Car que vous le vouliez ou non, vous n’allez pas admettre que la vie attende de vous de la mettre en déroute. Même en changeant d’échelle, plus petite, celle d’un vie humaine ou même plus grande, une race. Cette question est catégorique.
 
@@ -37,7 +38,7 @@ Sa faiblesse réside dans la définition de la vie et son sens dans la question.
 
 De manière sérieuse la question deviendrait, la vie peut-elle attendre quelque chose de nous ? Bon sincèrement cette question est aussi un mur, plus haut que la précédente. Cela revient à définir la vie. Puisque nous le savons, l’humanité, suite à une évolution cérébrale, va disparaître par un taux de natalité ridiculement faible provoquant notre disparition.
 
-De manière concrète la vie pourrait attendre de nous, du temps de notre existence de la rendre meilleur ? Et de transmettre nos capacités à la rendre meilleure à d’autres. Cela semble logique. Mais la vie tourne dans un univers, un univers lui aussi voué à disparaître, aurions nous la capacité technologique de le fuir ? Si la réponse advient que non, alors pourquoi ? Qu’est-ce que donc cette mascarade ?
+De manière concrète la vie pourrait attendre de nous, du temps de notre existence de la rendre meilleur ? Et de transmettre nos capacités à la rendre meilleure à d’autres. Cela semble logique. Mais la vie tourne dans un univers, un univers lui aussi voué à disparaître, aurions nous la capacité de le fuir ? Si la réponse advient que non, alors pourquoi ? Qu’est-ce que donc que cette mascarade ?
 
 D’autres attribueront à la vie, et à la réponse à la question de ce qu’elle attends de nous, des objectifs plus concret, plus pragmatique. D’être heureux, de partager. Pourquoi pas, mais n’y-t-il pas là, une erreur de commise ? Celle où à l’époque des dinosaures, sans animaux doués de raison comme nous, ils ont eux aussi continuer à vivre, sans pour autant étendre leur champ relationnel, comme le font nos animaux sur Terre.  
 Pourtant nous leur attribuons bien la notion de vie, puisque l’on y attribue la notion de mort. La vie ne serait finalement pas simplement le fait de survivre, notre rôle serait alors de pas l’offenser, de ne pas mettre en péril notre survie ? C’est une réponse facile et rapide.

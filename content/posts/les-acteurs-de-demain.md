@@ -1,6 +1,7 @@
 ---
 title: "Les acteurs de demain"
-author: "subversive.eu"
+author: "subversive"
+url: les-acteurs-de-demain.html
 ShowToc: true
 draft: false
 hidemeta: false
@@ -8,14 +9,14 @@ tocopen: false
 disableShare: false
 date: 2020-03-12T18:00:00+02:00
 keyword: "fonds souverain, la caisse des dépôts et consignation, Bpifrance, fonds stratégique d'investissement, fonds souverain norvégien, fonds d'investissement quatari"
-pdfname: "Les acteurs de demain"
+pdfname: "les-acteurs-de-demain"
 ---
 
 Leur nombre a explosé après la crise de 2008, les fonds souverain ont la côte. Le premier fut français en 1816, la Caisse des Dépôts et Consignation (CDC).
 <!--more-->
 
-Ils gèrent toujours plus de cash. La CDC gère plus de 30 milliards €. 
-En 2008, la France en a créé un nouveau, le FSI (Fonds Stratégique d’Investissement), fermé en 2013, remplacé par BpiFrance fin 2012, doté de 19 Milliards €. 
+Ils gèrent toujours plus de cash. La CDC gère plus de 30 milliards €.
+En 2008, la France en a créé un nouveau, le FSI (Fonds Stratégique d’Investissement), fermé en 2013, remplacé par BpiFrance fin 2012, doté de 19 Milliards €.
 
 ## A la lutte ?
 
@@ -30,13 +31,13 @@ Par exemple, dès 2007, LSE (La Bourse de Londres), a été racheté par le fond
 
 De plus ces fonds abusent de leur pouvoir, ils ne sont pas obligés de se justifier sur la gestion de leurs actifs, sur la gestion de leur intérêt, dans ce libéralisme actuel, les fonds souverain semblent être au dessus. Ils ne communiquent rien, même pas à des patrons si ils sont dans leur conseil d’administration. Bref, l’opacité laisse tout soupçonner, surtout le pire.
 
-Ainsi l’OCDE, se demande si ces fonds sont la pour servir l’économie, ou pour améliorer les capacités de certains états à des fins géopolitique, surtout de domination, comme la Chine et les pays du Golfe. 
+Ainsi l’OCDE, se demande si ces fonds sont la pour servir l’économie, ou pour améliorer les capacités de certains états à des fins géopolitique, surtout de domination, comme la Chine et les pays du Golfe.
 
 ## Fonds publics ?
 
 En Europe, quand on parle de fond souverain, la notion de bien public est là. Par exemple les Norvégiens ont assuré gérer leurs actifs dans le but de fournir la retraite de leur population en cas de décroissance, ou pire. Mais les monarchies du Golfe, ou encore Singapour où des familles (littéralement) dirigent ces pays, servent-elles réellement leur peuple ?  
 
-Heureusement pour l’Europe, ces mêmes fonds, ont besoin de rentabilité 
+Heureusement pour l’Europe, ces mêmes fonds, ont besoin de rentabilité
 pour soutenir leur États, entre 20 et 30%, ainsi ils négligent les placements les plus importants. Ils se concentrent sur les pays émergents où la croissance est certaine et plus forte, donc la rente assurée.
 
 ## Bon ou mauvais rôle ?
@@ -49,4 +50,4 @@ Il ne faut pas voir que le mauvaise part du gâteau. D’un autre côté ces fon
 
 Les fonds ont des avantages et des inconvénients pour tous. A nous Européens de modifier notre espace afin de gérer et contrôler les fonds étranger. A nous de profiter de cette manne afin d’améliorer nos coopérations bilatérales. A nous d’espérer que nos dirigeants face de même pour nous assurer prospérité.
 
-Encore une fois, on voit bien que personne ne pense au peuple, au nord c’est priorité au libéralisme, on préfère la dette et la croissance. Au sud, on préfère enrichir sa famille sur la croissance des pays pauvres. 
+Encore une fois, on voit bien que personne ne pense au peuple, au nord c’est priorité au libéralisme, on préfère la dette et la croissance. Au sud, on préfère enrichir sa famille sur la croissance des pays pauvres.

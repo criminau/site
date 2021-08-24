@@ -1,6 +1,7 @@
 ---
-title: "Covid19 Réflexion disparités entre pays"
-author: "subversive.eu"
+title: "Covid19 Réflexion"
+author: "subversive"
+url: "covid19-reflexion.html"
 ShowToc: true
 draft: false
 hidemeta: false
@@ -8,18 +9,18 @@ tocopen: false
 disableShare: false
 date: 2020-05-04T18:00:00+02:00
 keyword: 'Covid-19, données, réflexion, critique, arnaque, système, disparités entre pays, différence entre pays, mortilité, explication covid19'
-pdfname: 'Covid19 Reflexion'
+pdfname: "covid19-reflexion"
 ---
 
 Données prise le 24/04/2020 21:30  
 Sources : covinfo.fr + IHU Marseille + Google Data.  
 Echantillon, toute la population.  
 <!--more-->
+
 Monde :  
 / Absence  
 0.0033 % Contaminé  
 6.76 % de mortalité  
-
 
 France : 184 140 / 22 150  
 / Absence  

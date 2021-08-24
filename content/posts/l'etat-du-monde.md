@@ -1,6 +1,7 @@
 ---
-title: "L'état du Monde guerre commerciale et guerre de religion"
-author: "subversive.eu"
+title: "L'état du Monde"
+author: "subversive"
+url: l-etat-du-monde.html
 ShowToc: true
 draft: false
 hidemeta: false
@@ -8,22 +9,19 @@ tocopen: false
 disableShare: false
 date: 2020-01-15T18:00:00+02:00
 keyword: "L'état du monde, guerre, géopolitique, russie, américains, usa, chine, europe, asie, terre"
-pdfname: "L'Etat du Monde"
-
+pdfname: "l-etat-du-monde"
 ---
 
-Alors que l’Histoire tourne, les Hommes de la Terre continuent d’en écrire une toujours aussi sombre.  
-Alors que l’Histoire tourne, les Hommes continuent d’en écrire une toujours aussi sombre. Entre guerre commerciale et religion, l'état du monde n'évolue pas.
+Alors que l’Histoire tourne, les Hommes de la Terre continuent d’en écrire une toujours aussi sombre. Entre guerre commerciale et religion, l'état du monde n'évolue pas.
 <!--more-->
 
 Les Hommes de la Terre passent leur temps a s’entretuer, s’accaparer du pouvoir et de la richesse matérielle. Un esprit de compétition règne dès notre plus jeune âge.
 
 Il aura fallu connaître la Seconde Guerre Mondiale pour qu’enfin certains dirigeants notamment Européens se disent qu’il ne faudrait plus avoir de guerre sur notre continent.
 
-
 ## La guerre
 
-La première raison est qu’elle est sale, la guerre est sale, toutes les guerres sont sale, inutile de rentrer dans les détails. Nos anciens dirigeant, l’ont connus. Mais elle est rentable, enfin pas pour un etat, ni le vainqueur ni le perdant. La guerre permet la vente d’armement, la reconstruction des habitations, infrastructures, bref elle est extrêmement rentable à condition de ne pas la faire chez soi !
+La première raison est qu’elle est sale, la guerre est sale, toutes les guerres sont sale, inutile de rentrer dans les détails. Nos anciens dirigeant l’ont connus. Mais elle est rentable, enfin pas pour un etat, ni le vainqueur ni le perdant. La guerre permet la vente d’armement, la reconstruction des habitations, infrastructures, bref elle est extrêmement rentable à condition de ne pas la faire chez soi !
 
 La guerre est d’un point de vue moral, inacceptable, complètement immorale. Cependant des pays la pratique sans pudeur, nous y retrouvons les Etats-Unis d’Amérique (usa), les pays du Golfe (Qatar, Arabie Saoudite, EAU), Israël, la Russie et la Chine.
 
@@ -73,7 +71,7 @@ La Russie quant à elle ne peut pas trop s’imposer dans cette région du monde
 Aujourd’hui avec le réchauffement climatique, une route commerciale s’ouvre en longeant le nord de la Russie, mais bientôt, si la hausse se poursuit, les navires prendront cap tout droit à la sortie du détroit de Béring vers l’entrée en mer du Nord.
 
 La Chine était une puissance divisée par les japonais, aujourd’hui elle s’impose, et rêve elle aussi comme les usa de devenir les maîtres du monde. Troisième puissance économique de la planète derrière l’Europe et les usa, ils sortent environ une armée française tous les trois ans. Ils sont restés longtemps dans le protectionnisme total. L’europe ainsi que les usa ont tenté de les dominer vers 1905, en vain, puis les chinois ont établit un calendrier de domination mondiale.  
-Ils ont critiqué la politique d’ingérence des usa, et de dissuasion militaire, en étant partout, tout le temps. Rappelons le les usa possèdent un budget hors catégorie par rapport au autres pays du monde, ils possèdent 1 flotte par continent. 
+Ils ont critiqué la politique d’ingérence des usa, et de dissuasion militaire, en étant partout, tout le temps. Rappelons le les usa possèdent un budget hors catégorie par rapport au autres pays du monde, ils possèdent 1 flotte par continent.
 
 Mais aujourd’hui ils s’engagent dans la même voix en construisant des bases partout sur la planète comme à Djibouti et en s’appropriant les moindre îles des deux mers de chine.
 

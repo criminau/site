@@ -1,6 +1,7 @@
 ---
-title: "Croisade en Occitanie - Croisade des albigeois "
-author: subversive.eu
+title: Croisade en Occitanie
+author: subversive
+url: croisade-en-occitanie.html
 ShowToc: true
 draft: false
 hidemeta: false
@@ -9,20 +10,18 @@ disableShare: false
 date: 2020-01-22T18:00:00+02:00
 images: "media/pays-occitanie.png"
 keyword: "Croisade en Occitanie, Occitanie, croisade, 12 siècles, XII siècle, 1200 ans après JC, croisade des albigeois, les cathares, Histoire, cathares, trencavel, cité de carcassonne, cité de béziers, les comptes de Toulouse"
-pdfname: "Croisade en Occitanie"
+pdfname: croisade-en-occitanie
 ---
 
 Occitanie, Occitània. Béziers fut la première ville de France. La plus vieille donc.  
-Vient du Diocèse de Vienne de l’Empire romain en - 300 av Jc. 
+Vient du Diocèse de Vienne de l’Empire romain en - 300 av Jc.
 <!--more-->
 
-PS: Le document PDF a mystérieusement disparu, nous travaillons à le récupérer. Navré
-
-{{< figure src="https://subversive.eu/media/roman300AD.png" alt="Empire Romain 300 après JC" caption="Empire Romain 300 après JC" >}}
+{{< figure src="https://criminau.xyz/media/roman300AD.png" alt="Empire Romain 300 après JC" caption="Empire Romain 300 après JC" >}}
 
 En 400 ap Jc, il existe 7 provinces, le Diocèse des Septs Provinces (en latin Septem Provinciae):
 
-{{< figure src="https://subversive.eu/media/RomanEmp400AD.png" alt="Empire Romain 400 après JC" caption="Empire Romain 400 après JC" >}}
+{{< figure src="https://criminau.xyz/media/RomanEmp400AD.png" alt="Empire Romain 400 après JC" caption="Empire Romain 400 après JC" >}}
 
 ## Unification possible
 
@@ -34,7 +33,7 @@ La Maison de Saint-Gilles contrôle le comté de Toulouse (de Marmande à Avigno
 
 "Toutes trois sont alors parmi les plus puissantes de l'Europe : elles ont toutes trois une vocation européenne ; elles sont riches ; leurs terres sont bien défrichées par les campagnes de colonisation monastique ; elles sont traversées par les routes des grands pèlerinages, surtout Saint-Jacques-de-Compostelle ; leurs villes, leurs entrepôts, leurs ports, Toulouse, Marseille, Bordeaux, Auch, Bayonne, Beaucaire, Narbonne, Poitiers, Carcassonne, Béziers, Avignon, Saint-Gilles, Fréjus, Saragosse, Barcelone, sont parmi les plus actifs et les plus brillants. Attirantes, bien urbanisées, ces terres sont, comme la Sicile, l'objet de la convoitise des puissances ambitieuses que sont la royauté française et l'Empire." — Réalités de l'Occitanie, p. 27
 
-Toulouse est en réalité, toute comme Béziers à plus petite échelle, une capitale européenne, derrière Venise et Rome, dotée d’une République Toulousaine démocratique et libre, où les Capitouls dirigent le comté malgré ses pouvoirs.
+Toulouse est en réalité, toute comme Béziers à plus petite échelle, une capitale européenne, derrière Venise et Rome, dotée d’une République Toulousaine, où les Capitouls dirigent le comté malgré ses pouvoirs.
 
 "Les comtes [de Toulouse] ont donc la grande ville, qui est pour eux à la fois une force et une faiblesse. Elle leur vaut d'importants revenus ; elle est une vraie capitale, plus puissante, et plus rayonnante que Paris. Mais elle est habitée par une bourgeoisie opulente, qui s'est donnée ses propres institutions et, en fait, le comte n'est maître de Toulouse qu'autant que les bourgeois le veulent bien. Il faut donc se représenter Toulouse comme une libre République, en tout semblable aux Républiques italiennes de la même époque, mais qui vit dans une paix relative avec le comte ; et c'est là une des grandes originalités de la situation." — Jacques Madaule, Le Drame albigeois et l'Unité française, 1973, p. 27
 
@@ -50,7 +49,7 @@ Au XIIIème siècle, l’Occitanie accueille une grande diversité de culture, o
 
 Le Catharisme n’a pas de mal à évoluer en terre Occitane et n’est pas rejeté par la population. De plus, de part ses pratiques, le peuple y trouve son compte, en effet le catharisme est contre la propriété privée et rejette la féodalité. Ils rejettent également la guerre, les sacrements chrétiens, l’enfer et l’incarnation. Jusque là l’Eglise contrôlant indirectement les comtes et vicomtes via le royaume de France, laisse faire.
 
-Petit à petit le vicomte Trencavel, lui-même cathare, attire les foudres de l’Eglise qui les considères alors comme protecteurs d’hérétiques. La proximité des Cathares avec le peuple commence alors à faire de l’ombre aux finances et au rayonnement de l’Eglise, même si malgré eux, le catharisme se définit en chrétienté. 
+Petit à petit le vicomte Trencavel, lui-même cathare, attire les foudres de l’Eglise qui les considères alors comme protecteurs d’hérétiques. La proximité des Cathares avec le peuple commence alors à faire de l’ombre aux finances et au rayonnement de l’Eglise, même si malgré eux, le catharisme se définit en chrétienté.
 
 ## La Croisade des Albigeois
 
@@ -78,7 +77,7 @@ Jusqu'en 1249 les comtes de Toulouse et Trencavel luttent pour tenter des révol
 
 ## Pour penser plus loin
 
-Au cours de l’Histoire, l’Occitanie que l’on nomme aujourd’hui connu d’autre termes, l’Aquitaine, le Comté de Province, on nous surnomme aussi la petite France, du fait de nos attraits géographique. Inutile de vous expliquer les raisons des deux croisades. Rome et Paris étaient sont et resteront vos capitales religieuse et politique. 
+Au cours de l’Histoire, l’Occitanie que l’on nomme aujourd’hui connu d’autre termes, l’Aquitaine, le Comté de Province, on nous surnomme aussi la petite France, du fait de nos attraits géographique. Inutile de vous expliquer les raisons des deux croisades. Rome et Paris étaient sont et resteront vos capitales religieuse et politique.
 
 ### Sources
 

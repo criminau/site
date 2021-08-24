@@ -1,6 +1,7 @@
 ---
 title: "La croix occitane (crotz occitana)"
-author: "subversive.eu"
+author: "subversive"
+url: "la-croix-occitane.html"
 ShowToc: true
 draft: false
 hidemeta: false
@@ -9,12 +10,12 @@ disableShare: false
 date: 2020-04-24T18:00:00+02:00
 images: "media/FlagofOccitania.png"
 keyword: "Croisade en Occitanie, Occitanie, croisade, 12 siècles, XII siècle, 1200 ans après JC, croisade des albigeois, les cathares, Histoire, cathares, trencavel, cité de carcassonne, cité de béziers, les comptes de Toulouse"
-pdfname: "La croix occitane (crotz occitana)"
+pdfname: "la-croix-occitane"
 ---
 
 La Croix Occitane présente sur le drapeau et le blason de la région administrative - L’Occitanie - depuis fin 2016 a une origine encore inconnue, forte de son histoire, elle persiste depuis 16 siècles !
 
-{{< figure src="https://subversive.eu/media/FlagofOccitania.png" alt="Drapeau Occitan" caption="La croix Occitane" >}}
+{{< figure src="https://criminau.xyz/media/FlagofOccitania.png" alt="Drapeau Occitan" caption="La croix Occitane" >}}
 
 “ Croix grecque, pattée, cléchée, vuidiée (vidée), et pommetée ”. Notez bien le nombre douze.  
 Grecque car les branches sont de même longueur.  
@@ -41,16 +42,16 @@ Au début du XI siècles par des mariages les comtes de Toulouse fîrent de la C
 
 Voilà ce que l’on dit à Toulouse : “La croix de Toulouse, semble avoir des origines très anciennes. Cette croix aux douze points semble avoir été l'un des symboles d'un peuple gaulois implanté au IIIe siècle avant Jésus Christ (av. JC). Elle s'impose dans le domaine toulousain au début du XIIIe siècle. Elle apparaît sur le sceau de Raymond VI en 1211 et figurera, dès lors, les armes de la ville de Toulouse puis celle du Languedoc, du XIVe au XVIIIe siècle. ….Mairie de Toulouse La plus ancienne représentation des armes de Toulouse est celle figurant dans le sceau attaché à une lettre des Capitouls au Roi Pierre II d'Aragon, en 1211, pendant la Croisade des Albigeois. Au verso du blason, on trouve l'agneau nimbé, portant la Croix de Toulouse en bannière.”
 
-{{< figure src="https://subversive.eu/media/pays-occitanie.png" alt="pays d'occitanie" caption="figure-normal" >}}
+{{< figure src="https://criminau.xyz/media/pays-occitanie.png" alt="pays d'occitanie" caption="figure-normal" >}}
 
 Tous les comtés de Provence, les comtes de Forcalquier, les comtes de Provence, les marquis de Provence portent tous la croix Occitane sur leur blason. Les nobles de la région les portent aussi, La maison de Gigondas, les Vicomtes de Marseille, les Adhémar de la Garde. Tous ont la même origine, le Marquis de Provence qui obtient le vicomté de Marseille en l’an 940, Arlufe de Marseille.
 
 ## Chronologie
 
-Au XV siècle le Roi de France reconnaît la croix Occitane comme emblème du Languedoc. En 1200, les comtés Occitans prennent la croix Occitane a l’unanimité. Au VI siècle, une monnaie wisigothe à la croix cléchée à douze extrémité, dites Triens à la croix, ces monnaies sont très rares, conservées par de rare collectionneur. 
+Au XV siècle le Roi de France reconnaît la croix Occitane comme emblème du Languedoc. En 1200, les comtés Occitans prennent la croix Occitane a l’unanimité. Au VI siècle, une monnaie wisigothe à la croix cléchée à douze extrémité, dites Triens à la croix, ces monnaies sont très rares, conservées par de rare collectionneur.
 En l’an 450, on retrouve la “croix Occitane” au Turkestan chinois ainsi qu’au Tibet. L’église d’Orient avait envoyé des moines pour convertir les peuples et leur dirigeants.
 
-Au IV siècles après JC, un peuple Gaulois l’aurait eu comme emblème contre l'oppression Romaine. Mais cela va encore plus loin ! Comme dit plus haut, une croix copte tréflée serait une inspiration probable dont les wisigoth l’auraient interprété. Les 4 branches montres les 4 points cardinaux vers lequel le christ a commandé à ses 12 apôtres de prêcher l'évangile à tous. Les Wisigoths y verront une autre symbolique (voir au début). 
+Au IV siècles après JC, un peuple Gaulois l’aurait eu comme emblème contre l'oppression Romaine. Mais cela va encore plus loin ! Comme dit plus haut, une croix copte tréflée serait une inspiration probable dont les wisigoth l’auraient interprété. Les 4 branches montres les 4 points cardinaux vers lequel le christ a commandé à ses 12 apôtres de prêcher l'évangile à tous. Les Wisigoths y verront une autre symbolique (voir au début).
 Au IV siècle, Rome adopte le chrisme..
 Je ne commenterai pas l’orientation des châteaux cathares dans le Midi, qui se seraient inspiré donc des wisigoths (par rapport au soleil) et de l’église d’Orient d’Alexandrie (pour leur croix).
 

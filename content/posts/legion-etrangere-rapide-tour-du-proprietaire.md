@@ -1,6 +1,7 @@
 ---
-title: "Légion Etrangère, des troupes étrangères pour la france"
-author: "subversive.eu"
+title: "Légion Etrangère, rapide tour du propriétaire"
+author: "subversive"
+url: "legion-etrangere.html"
 ShowToc: true
 draft: false
 hidemeta: false
@@ -8,7 +9,7 @@ tocopen: false
 disableShare: false
 date: 2020-02-28T18:00:00+02:00
 keyword: "legion etrangère, troupes d'élites, france, armée, armée française, légion, troupes étrangères"
-pdfname: "Legion etrangere"
+pdfname: "legion-etrangere"
 ---
 
 La Légion Etrangère est une armée privée de l’État français. Pendant les guerres, tous cherchent à gérer le courage et le moral de ses troupes. Comment faire ?
@@ -24,17 +25,17 @@ Mais à la disparition des autres bataillons étrangers, et surtout en 1863, la 
 
 Certains les vante comme l’élite des troupes françaises. Oui mais comment ? Eh bien ces hommes passent par les fermes (6 aux total). Dans la souffrance, et la galère ils trouvent refuge dans leur groupe, leur nouvelle famille. Ainsi, la France possède entre 6 000 et 12 000 hommes étrangers à son service, prêt n’importe quand pour n’importe où, pour tous les fronts.
 
-Ainsi vous trouverez un chinois ami avec un américain et un russe ami avec un ukrainien. Ces hommes sont désespérés pour rejoindre ses rangs, cela semble plutôt tabou, mais le rapport avec la mort lors de l’engagement est très sérieux. Evidemment il faut éviter d’en parler, cela pourrait nuire sa réputation. 
+Ainsi vous trouverez un chinois ami avec un américain et un russe ami avec un ukrainien. Ces hommes sont désespérés pour rejoindre ses rangs, cela semble plutôt tabou, mais le rapport avec la mort lors de l’engagement est très sérieux. Evidemment il faut éviter d’en parler, cela pourrait nuire sa réputation.
 
 ## Stratégie
 
 Face à une population qui vieillit, difficile de recruter des jeunes prêt à aller au front. La légion est la aussi pour ça, recruter quand ça va mal. Exemple les espagnols en masse par le passé et aujourd’hui les pays de l’est. Mais tous les pays ne le voit pas de cet oeil, alors certains, essaient de s’en inspirer. Les Russes ont ouvert les recrutements de l’armée russe a des hommes parlant le russe et venant des anciennes républiques soviétiques.
 
-Aujourd’hui, l’Allemagne parle d’ouvrir ses recrutements pour tous les Européens… Cela a de multiples avantages, celui de faire la guerre sans trop de soucis puisque l’on envoi des étrangers. Celui aussi de moins manquer de jeunes. Pour la légion, c’est vraiment très efficace. Les hommes sont très respectueux des ordres. Vous pourrez en croiser dans le sud de la France, dans un de rayon de 60 km autour des fermes. Nous restons donc le meilleur modèle d’armée étrangère se battant pour un autre pays. 
+Aujourd’hui, l’Allemagne parle d’ouvrir ses recrutements pour tous les Européens… Cela a de multiples avantages, celui de faire la guerre sans trop de soucis puisque l’on envoi des étrangers. Celui aussi de moins manquer de jeunes. Pour la légion, c’est vraiment très efficace. Les hommes sont très respectueux des ordres. Vous pourrez en croiser dans le sud de la France, dans un de rayon de 60 km autour des fermes. Nous restons donc le meilleur modèle d’armée étrangère se battant pour un autre pays.
 
 ## Pour penser plus loin
 
 Bien sur, la coopération militaire entre les Européens est forte et solide. Nous utilisons au Sahel (par exemple) des moyens aéroportés de transport anglais, des instructeurs pour les soldats maliens Allemands et Italiens.  
 La protection des bases et convois de ravitaillement est réalisé par des troupes d’élites estonienne (oui).
 
-Ainsi la paix dure. D’ouvrir nos armées à des personnels étrangers est un bon début si on regarde loin dans l’avenir, celui de partager nos capacités militaire entre européens semble inévitable. 
+Ainsi la paix dure. D’ouvrir nos armées à des personnels étrangers est un bon début si on regarde loin dans l’avenir, celui de partager nos capacités militaire entre européens semble inévitable.
