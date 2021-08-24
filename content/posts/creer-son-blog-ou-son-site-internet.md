@@ -1,6 +1,7 @@
 ---
-title: "Creer son blog ou son site internet avec hugo cms"
-author: subversive.eu
+title: Creer son blog ou son site internet
+author: subversive
+url: creer-son-blog-ou-son-site-internet.html
 ShowToc: true
 draft: false
 hidemeta: false
@@ -8,7 +9,7 @@ tocopen: false
 disableShare: false
 date: 2019-12-11T18:00:00+02:00
 keyword: "HUGO, gohugo, hugo cms, site statique, blog avec hugo, creer un site internet, créer un blog"
-pdfname: "Creer son blog ou son site internet"
+pdfname: "creer-son-blog-ou-son-site-internet"
 ---
 
 Ouvrir un site internet sur le domaine public vous engage à respecter les lois en vigueur sur le territoire de votre résidence. Si vous ne souhaitez pas subir le droit en vigueur, vous pouvez vous orienter vers un site caché, .onion.  
@@ -16,7 +17,6 @@ Ouvrir un site internet sur le domaine public vous engage à respecter les lois 
 J’ai utilisé cette méthode, je souhaitai donc vous la partager.  
 Elle n’est pas recommandable pour un site à but lucratif car il s’agit ici d’un CMS statique.  
 Bien évidemment, la création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.
-
 
 ## Préparation
 
@@ -60,7 +60,7 @@ Cliquez sur download, puis sur github téléchargez-le :
 
 Faites extraire. Allez dans les dossiers du thème. Chaque thème est unique. Afin de pouvoir le modifier, ainsi que l'optimiser à ses goûts, nous allons procéder à des petites modifications.  
 Créez un dossier 'theme1', puis y insérez les dossiers et fichiers du thème :
-* archetypes 
+* archetypes
 * assets
 * i18n
 * layouts
@@ -81,7 +81,7 @@ Egalement pour le fichier config.toml dans examplesite. Remplacez-le. Ouvrez-le 
 Nous allons le configurer :
 
 Allez dans archetypes/default.md, mettez draft : false. Faites de même dans theme1/archetypes/default.md et posts.md .
-Laissez vide la baseUrl pour l'instant. Nommez le titre de votre Blog. Nommez 'theme1' pour votre thème. Mettez le en français 'fr'. 
+Laissez vide la baseUrl pour l'instant. Nommez le titre de votre Blog. Nommez 'theme1' pour votre thème. Mettez le en français 'fr'.
 
 Config :
 
@@ -108,13 +108,13 @@ Avant toute chose, dans le dossier de votre blog, créez un fichier netlify.toml
   HUGO_VERSION = "0.60.1"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
-  
+
 [context.branch-deploy.environment]
   HUGO_VERSION = "0.60.1"
 
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.60.1"
-  
+
 [context.deploy-preview]
   command = "hugo -b $DEPLOY_PRIME_URL --buildFuture"
 
@@ -122,9 +122,9 @@ Avant toute chose, dans le dossier de votre blog, créez un fichier netlify.toml
   command = "hugo -b $DEPLOY_PRIME_URL --buildFuture"
 
 ```
-Changez la version de hugo par celle que vous utilisez. 
+Changez la version de hugo par celle que vous utilisez.
 
-Clé SSH : 
+Clé SSH :
 
 Allez dans Github settings sous votre profil &#x2192; SSH and GPG &#x2192; New SSH key. Donnez y un nom.  
 Retourner dans le dossier de votre site &#x2192; clic droit &#x2192; git bash here.  
@@ -161,13 +161,13 @@ git push -u origin master
 
 Votre Dépôt est à jour. Continuons. Allez sur [Netlify](https://www.netlify.com/). -> Get Started for free. Connectez-vous via Github.
 Puis New site from Github. Sélectionnez votre compte Github. Puis le dépôt de votre Blog. Déployez-le.
-Le site déployé dans notre exemple fonctionne. Votre site est normalement sur le net. 
+Le site déployé dans notre exemple fonctionne. Votre site est normalement sur le net.
 
 ## Intégration
 
-La première chose à faire est de renommer votre domaine. Allez dans site settings -> change site name. Vous vous retrouvez avec exemple-blog.netlify.com . Changez votre baseUrl dans config, en local comme sur Github. 
+La première chose à faire est de renommer votre domaine. Allez dans site settings -> change site name. Vous vous retrouvez avec exemple-blog.netlify.com . Changez votre baseUrl dans config, en local comme sur Github.
 
-Pour ceux ne souhaitant pas payer, la suite n'est pas pour vous. 
+Pour ceux ne souhaitant pas payer, la suite n'est pas pour vous.
 
 Si vous ne possédez pas de nom de domaine, achetez-en un. Désactivez le protocole DNSSEC. Enregistrez quatre Serveurs DNS externes :
 
@@ -181,7 +181,7 @@ Retournez sur la page overview de votre site netlify -> Domain settings -> add c
 Nous allons tenter une redirection de votre domaine netlify vers votre domaine externe, pour cela rendez-vous dans le dossier static de votre site sur le dépôt github :  
 Ouvrez le EDIWeb, créer un fichier "_redirects" Copiez-y :
 
-  
+
 ```yaml
 
 # Redirect default Netlify subdomain to primary domain
@@ -190,20 +190,20 @@ http://votresite.netlify.com/* https://votredomaine.fr/:splat 301!
 
 ```
 
-Enregistrer dans la branche master. 
+Enregistrer dans la branche master.
 Penser à mettre le dossier sur votre disque local au même endroit (static).
 
-Voilà votre site tourne ! 
-A vous de jouer pour obtenir du trafic ! Chacun sa méthode. 
+Voilà votre site tourne !
+A vous de jouer pour obtenir du trafic ! Chacun sa méthode.
 
-Dernière chose pour ne pas vous laisser dans l'embarras. 
+Dernière chose pour ne pas vous laisser dans l'embarras.
 
 ## Mettre à jour son site
 
-Assez complexe, tout d'abords ne changez jamais le nom du dépôt Github. Ainsi que le local. 
+Assez complexe, tout d'abords ne changez jamais le nom du dépôt Github. Ainsi que le local.
 Exercez votre mise à jour avec 'hugo server -D' désactivé via le cmd.
 
-Puis clic droit -> GitBash here. Voici la suite de commande : 
+Puis clic droit -> GitBash here. Voici la suite de commande :
 
 ``` yaml
 git status

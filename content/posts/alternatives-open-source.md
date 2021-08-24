@@ -1,6 +1,7 @@
 ---
-title: "Alternatives open source  Outils pour ne pas utiliser google"
-author: "subversive.eu"
+title: Alternatives open source
+author: "subversive"
+url: alternatives-open-source.html
 ShowToc: true
 draft: false
 hidemeta: false
@@ -8,7 +9,7 @@ tocopen: false
 disableShare: false
 date: 2019-12-18 18:00:00
 keyword: "Alternatives, open source, outils, pas google, mail, OS, système d'exploitation, sans google, surveillance de masse, espionnage, NSA"
-pdfname: "Alternatives open source"
+pdfname: "alternatives-open-source"
 ---
 
 Destiné à ceux qui souhaitent fuir la surveillance de masse et la NSA.
@@ -23,7 +24,7 @@ Commençons par la base, les systèmes d'exploitation (OS) open source : Un rapi
 
 ## Communication
 
-N’oubliez pas vous avez également chez eux la messagerie [ProtonMail](https://protonmail.com/) un peu plus sécurisée que les classiques. Restons dans le partage et continuons notre découverte. Pour échanger avec plus de sécurité vous pouvez utiliser [RetroShare](https://retroshare.cc/) et pour partager des fichiers lourd vous avez [OnionShare](https://onionshare.org/). Malheureusement il y a très peu d’utilisateur, et il existe une grande quantité d’autres applications. Essayez de convaincre vos proches dans leur utilisation. Il existe également des plateformes pour manipuler du texte, des classeurs, des sondages à plusieurs bien sécurisées comme [CryptPad](https://cryptpad.fr/). Des alternatives à youtube ça existe aussi comme [PeerTube](https://peertube.fr/), [bitChute](https://www.bitchute.com/), SolidTube (https://solid.tube/).
+N’oubliez pas vous avez également chez eux la messagerie [ProtonMail](https://protonmail.com/) un peu plus sécurisée que les classiques. Restons dans le partage et continuons notre découverte. Pour échanger avec plus de sécurité vous pouvez utiliser [RetroShare](https://retroshare.cc/) et pour partager des fichiers lourd vous avez [OnionShare](https://onionshare.org/). Malheureusement il y a très peu d’utilisateur, et il existe une grande quantité d’autres applications. Essayez de convaincre vos proches dans leur utilisation. Il existe également des plateformes pour manipuler du texte, des classeurs, des sondages à plusieurs bien sécurisés comme [CryptPad](https://cryptpad.fr/). Des alternatives à youtube ça existe aussi comme [PeerTube](https://peertube.fr/), [bitChute](https://www.bitchute.com/), [SolidTube](https://solid.tube/).
 
 ## Smartphone
 
@@ -34,7 +35,7 @@ Conseil numéro un sur mobile, quittez Android et iOS. Il existe un dépôt comm
 Pas de secret, suite aux révélations concernant l’espionnage des deux grands leader du marché de la sécurité, inutile de vous dire que les outils de défense sur le marché sont potentiellement inefficace. La clé est ailleurs, il ne faut pas faire n’importe quoi, garder tout toujours à jour, en open source comme en classique, ses OS et ses outils. N’importe quoi signifie de ne pas aller sur des sites qui grouillent de pub, ne pas ouvrir les fenêtres. Lire les objets et les expéditeurs des mails que l’on reçoit. Si suspect jetez les. Ne pas donner son adresse e-mail à n’importe qui et n’importe où. Lors des téléchargements vérifiez le fournisseur. Et si vous faites preuve de bon sens, et que vous n’avez rien à vous reprocher, tout se passera bien.  
 Petit logiciel bien utile et rapide [Adwcleaner](https://fr.malwarebytes.com/adwcleaner/), malheureusement racheté. Vous avez aussi les bloqueurs de pubs comme µBlockOrigin, qui ne fonctionne plus trop depuis que Google a mis à jour sa politique d’hébergement des extensions. Faut patienter. Il existe aussi Désactivation de Google Analytics, Unblock Youtube qui permet d’éviter la censure. Si vous avez la sensation que votre ordinateur est mal en point, niveaux malware par exemple, allez faire un tour chez [Nicolas Coolman](https://www.nicolascoolman.com/fr/en/), il y a tout pour un petit nettoyage.
 
-## Sauvegarde 
+## Sauvegarde
 
 Stocker vos fichiers sur plusieurs disques dur, USB, Disque dur externes, autre PC ou Ordinateur Bureau, téléphone. Cela réduit le risque de pertes totales. Il y a la solution du cloud, avec [Mega](https://mega.nz/). Vous avez également la possibilité de crypter vos données via [Cryptomator](https://cryptomator.org/) et les envoyés sur un cloud, ou bien les crypter directement sur vos disques via [VeraCrypt](https://www.veracrypt.fr/en/Home.html).
 

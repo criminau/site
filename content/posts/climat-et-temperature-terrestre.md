@@ -1,6 +1,7 @@
 ---
 title: "Climat et température terrestre"
-author: subversive.eu
+author: subversive
+url: climat-et-temperature-terrestre.html
 ShowToc: true
 draft: false
 hidemeta: false
@@ -8,7 +9,7 @@ tocopen: false
 disableShare: false
 date: 2019-11-25T18:00:00+02:00
 keyword: 'Climat, température terrestre'
-pdfname: 'Climat et temperature terrestre'
+pdfname: 'climat-et-temperature-terrestre'
 ---
 
 La plupart du temps, le noyau de la Terre réchauffe la planète.
@@ -24,7 +25,7 @@ La température du cœur de la Terre est inﬂuencée par trois facteurs princip
 
 Les deux premiers facteurs maintiennent l'ensemble du noyau dans un état d'équilibre relativement stable avec des variations de seulement quelques dizaines de degrés (°K).
 
-Seuls les changements dans le ﬂux solaire de neutrinos peuvent avoir une inﬂuence significative sur une plage de centaines de degrés. 
+Seuls les changements dans le ﬂux solaire de neutrinos peuvent avoir une inﬂuence significative sur une plage de centaines de degrés.
 
 Au contraire, lorsque l'activité solaire diminue, le noyau planétaire refroidi assez soudainement avec des réajustements endothermiques de la structure cubique. Les couches supérieures sont affectées progressivement par la même relative et soudaine baisse de température.
 

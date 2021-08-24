@@ -1,15 +1,16 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 author: "{{ .Site.Params.author }}"
-draft: false
+url: titre-de-l-article-caractere-simple.html
 ShowToc: true
+draft: false
 hidemeta: false
-comments: true
-disableShare: false
 tocopen: false
+disableShare: false
 noindex: false
 date: {{ .Date }}
 cover:
+    relative: false
     image: "media/"
     alt: "Description de l'image"
     caption: "Légende"

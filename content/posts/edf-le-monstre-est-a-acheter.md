@@ -1,6 +1,7 @@
 ---
 title: "EDF le monstre est à acheter"
 author: "subversive"
+url: edf-le-monstre-est-a-acheter.html
 ShowToc: true
 draft: false
 hidemeta: false
@@ -8,7 +9,7 @@ tocopen: false
 disableShare: false
 date: 2019-11-09T18:00:00+02:00
 keyword: "EDF, edf, électricité de france, barrages, france, état français, vente, restructuration, vendre, europe, production d'électricité, état, monde"
-pdfname: "EDF le monstre est a acheter"
+pdfname: "edf-le-monstre-est-a-acheter"
 ---
 
 Rappel, EDF, Electricité De France, deuxième productrice d’électricité du monde qui appartient a plus de 70% à l’Etat français va subir une restructuration.

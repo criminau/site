@@ -16,8 +16,9 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [X] Protocole totA11y
 - [x] Etudier vitesse des Images
 - [X] Optimisation de la vitesse de chargement avec twitter
--
--
+- [ ] Vérification des articles et retour des pdf  [progressivement]
+- [ ] Nouveaux url avec caractère lisible [progressivement]
+- [X] Redirect 301 du domaine netlify vers criminau.xyz
 
 ---
 

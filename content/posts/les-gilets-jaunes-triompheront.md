@@ -1,6 +1,7 @@
 ---
 title: Les gilets jaunes triompheront
 author: subversive
+url: les-gilets-jaunes-triompheront.html
 ShowToc: false
 draft: false
 hidemeta: false
@@ -11,10 +12,9 @@ cover:
     relative: true
     image: "media/giletsjaune-min.jpg"
     alt: "Gilets Jaune"
-    Caption: ""
 images: "media/giletsjaune-min.jpg"
 keyword: "gilets jaunes, les gilets jaunes triompheront, subversion, révolution, mouvement, groupe, repression, arc de triomphe"
-pdfname: "Les gilets jaunes triompheront"
+pdfname: "les-gilets-jaunes-triompheront"
 ---
 
 Souvenez-vous, nous sommes le 24 Novembre 2018, en début d’après-midi, c’est un peu nuageux, la télé est allumée, BFMTV affiche à l’antenne un tag noir sur l’Arc de Triomphe : “ Les Gilets Jaunes Triompheront “.

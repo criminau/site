@@ -1,6 +1,7 @@
 ---
-title: "Sommes-nous en démocratie en france avec l'europe ? Analyse"
-author: "subversive.eu"
+title: "Démocratie ?"
+author: "subversive"
+url: democratie.html
 ShowToc: true
 draft: false
 hidemeta: false
@@ -8,14 +9,13 @@ tocopen: false
 disableShare: false
 date: 2019-11-09T18:01:00+02:00
 keyword: "démocratie, france, europe, libre, c'est quoi la démocratie, democratie définition, traités européen, politique économique, BCE"
-pdfname: "Democratie"
+pdfname: "democratie"
 ---
 
 Vous avez dit Démocratie ? Ceux donc qui décident pour leur communauté. L'Europe est-elle vraiment démocratique ? La France a-t-elle perdue sa démocratie ?
 <!--more-->
 
-Alors que l’Europe, vient de demander à la France d’ouvrir à la concurrence son parc de barrages hydrauliques, la démocratie n’est pas remise en question. Mais qui est cette Europe qui nous impose des objectifs, des politiques économiques ?
-
+Alors que l’Europe vient de demander à la France d’ouvrir à la concurrence son parc de barrages hydrauliques, la démocratie n’est pas remise en question. Mais qui est cette Europe qui nous impose des objectifs, des politiques économiques ?
 
 ## Traités Européens
 
@@ -31,7 +31,7 @@ L’Europe a été créé le 1 novembre 1993 par six pays fondateurs, elle est r
 Je cite : TFUE (vc) - 2016 :
 
 “ CHAPITRE 1
- 
+
 LA POLITIQUE ÉCONOMIQUE
 
 Article 120 (ex-article 98 TCE)
@@ -56,9 +56,9 @@ Article 121 (ex-article 99 TCE)
 
 L’Europe fixe des politiques communes, des objectifs communs, dans le but d’offrir une zone d’investissement idéale. Voyons alors quel sont les pays qui s’y tiennent, et surtout ceux qui ne s’y tiennent pas, les rebelles.
 
-La France, pays fondateur, depuis la mise en place des stratégies communes, est un bon élève, élève récalcitrant sous Mr Hollande, puis premier de la classe sous Mr Macron. L’Allemagne, elle aussi pays fondateur, et poids lourd en europe, suit à la lettre les recommandations de Bruxelles. La Pologne par contre, pays moins développé que la partie ouest, est un mauvais élève, pollueur, nationaliste, bref qui prend des claques de Bruxelles pour avoir osé proposer des budgets qui ne respectent pas les traités, donc budgets rejetés à plusieurs reprises. Parlons de nous, qui avons élu un président de gauche en 2012, qui a fait une politique libérale, qui a annoncé en meeting être “l’ennemi de la finance”, voit-il pas que tous les soirs, il dû inviter tous les actionnaires des grandes FIRMEs Françaises à dîner.
+La France, pays fondateur, depuis la mise en place des stratégies communes, est un bon élève, élève récalcitrant sous Mr Hollande, puis premier de la classe sous Mr Macron. L’Allemagne, elle aussi pays fondateur, et poids lourd en europe, suit à la lettre les recommandations de Bruxelles. La Pologne par contre, pays moins développé que la partie ouest est un mauvais élève, pollueur et nationaliste, bref qui prend des claques de Bruxelles pour avoir osé proposer des budgets qui ne respectent pas les traités, donc budgets rejetés à plusieurs reprises. Parlons de nous, qui avons élu un président de gauche en 2012, qui a fait une politique libérale, qui a annoncé en meeting être “l’ennemi de la finance”, voit-il pas que tous les soirs, il dû inviter tous les actionnaires des grandes FIRMEs Françaises à dîner.
 
-Voit-il pas que la Grèce en pleine crise, a voté un partisan de l’extrême gauche, voit-il pas que le ministre de l’économie de cette période, se rendait tous les jours à Bruxelles pour proposer un plan d’austérité honnête pour son peuple. Toutes ses propositions ont été refusé, au bout de quelques semaines il fut forcé par le président grec à démissionner. Voit-il pas que son nouveau parti politique a du mal à recevoir des financements, troublant. Mais surtout que la grèce a appliqué une politique libérale, sous les ordres de Bruxelles. Votez donc, vous verrez…
+Voit-il pas que la Grèce, en pleine crise, a voté un partisan de l’extrême gauche, voit-il pas que le ministre de l’économie de cette période, se rendait tous les jours à Bruxelles pour proposer un plan d’austérité honnête pour son peuple. Toutes ses propositions ont été refusé, au bout de quelques semaines il fut forcé par le président grec à démissionner. Voit-il pas que son nouveau parti politique a du mal à recevoir des financements, troublant. Mais surtout que la grèce a appliqué une politique libérale, sous les ordres de Bruxelles. Votez donc, vous verrez…
 
 L’Italie, tout récemment, s’est mise a accepter les migrants sans broncher, à négocier avec la France la répartition de ces mêmes migrants, à recevoir le Président français à Rome. Troublant pour un pays qui il y a quelques mois, dont nous avons convoqué son ambassadeur. Un pays avec un gouvernement d’extrême droite, qui aujourd’hui n’existe plus et obéit simplement aux ordres de Bruxelles. L’Europe vous promet une telle pression que même l’Italie recule, même les “Brexiter” reculent.
 
@@ -72,6 +72,6 @@ Ah oui, vous avez dit Démocratie, mais pour qui ? A qui appartient-elle cette d
 
 #### La Démocratie, une erreur ?
 
-Alors que le monde est une guerre permanente, elle prend la forme de guerre économique, psychologique, militaire. L’union fait la force, vous connaissez. L’Europe réponds très bien à ce souhait là, ils s’unissent après de longues guerres, presque 1000 ans de guerre continue. 
+Alors que le monde est une guerre permanente, elle prend la forme de guerre économique, psychologique, militaire. L’union fait la force, vous connaissez. L’Europe réponds très bien à ce souhait là, ils s’unissent après de longues guerres, presque 1000 ans de guerre continue.
 
 Une union qui ne peut fonctionner que si chacun fait son boulot, que si les directives vont vite. Et sous cette europe peu démocratique, elles vont vites, très vite, c’est très avantageux sur la scène internationale, cela permet de ne pas perdre de temps face à des dictateurs comme en Chine, ou Russie, ainsi l’Europe conserve sa puissance et l’améliore à l’unisson. Ainsi elle ne perds pas de temps, et ne subit pas de désavantage avec les autres nations.

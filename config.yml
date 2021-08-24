@@ -16,7 +16,7 @@ buildDraft: false
 
 # Perf Active later.
 minify:
- minifyOutput: false
+ minifyOutput: true
 
 #LiveReload Hugoreload
 disableLiveReload: true
@@ -73,7 +73,7 @@ menu:
 
 # SEO
 permalinks:
-  posts: /articles/:slug/
+  posts: /:slug/
 disableKinds: ["taxonomy", "taxonomyTerm", "section"]
 
 # RSS feed
