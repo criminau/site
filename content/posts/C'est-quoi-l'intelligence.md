@@ -1,6 +1,7 @@
 ---
 title: "C'est quoi l'intelligence ?"
-author: "subversive.eu"
+author: "subversive"
+url: "c-est-quoi-l-intelligence.html"
 ShowToc: true
 draft: false
 hidemeta: false
@@ -14,7 +15,7 @@ cover:
     Caption: ""
 images: "media/the-neurons-cover.jpg"
 keyword: "Intelligence, Liberté, c'est quoi l'intelligence, comment définir l'intelligence, c'est quoi le QI, QI, conscience de soi, conscience"
-pdfname: "C'est quoi l'intelligence"
+pdfname: "c-est-quoi-l-intelligence"
 ---
 
 L'intelligence se mesure-t-elle ? Comme un objet dans le ciel ?
@@ -46,7 +47,7 @@ La connaissance conceptuelle, regroupe habituellement ce que l'on appelle les sa
 
 La connaissance factuelle, est ce qui constitue des connaissances vulgarisées a des fins de communication scientifique.
 
-Ce qui rejoindrait la racine latine. Nous voilà bien avancé. 
+Ce qui rejoindrait la racine latine. Nous voilà bien avancé.
 
 ## Quotient intellectuel
 
@@ -76,13 +77,13 @@ Pistons donc le cortex cérébral..
 
 Le cortex cérébral tourne grâce aux neurones. Ces neurones communiquent entre elles via un courant électrique traversant les fibres nerveuses.
 
-{{< figure src="https://subversive.eu/media/the-oligodendrocytes.jpg" alt="image" caption="Les oligodendrocytes protègent les axones des neurones en formant la gaine de myéline" class="right" >}}
+{{< figure src="https://criminau.xyz/media/the-oligodendrocytes.jpg" alt="image" caption="Les oligodendrocytes protègent les axones des neurones en formant la gaine de myéline" class="right" >}}
 Certaines fibres sont recouvertes d'une gaine de myéline isolante constituée d'une spirale à tours jointifs de membrane plasmique particulièrement riche en lipides (cholestérol, phospholipides, glycolipides) qui leur permet d'augmenter la vitesse des signaux électriques qu'elles véhiculent.
 
 Plus le diamètre des gaines de myéline est large, plus la vitesse est élevée.
 
 Le cortex cérébral des QI élevés (par rapport à l'écart type) contient plus de myéline que la moyenne. Ainsi, en moyenne les connexions cérébrales vont plus vites.
- 
+
 Cela est bien plus complexe en réalité.
 
 On notera deux fibres donc :
@@ -171,7 +172,7 @@ Voilà où j'en suis.
 A qu'elle échelle pensez-vous ?
 Votre pensez s'oriente-t-elle plus à l'échelle planétaire ? Universelle ? Ou bien nationaliste ? Ou régionaliste ? Ou individuelle ? Ou même familiale ..?
 
-La trivialité est comme le QI, il faudrait observer les sujets 24/24 7/7 365.250/365.250 pour obtenir un résultat. L'objectif serait d'estimer 
+La trivialité est comme le QI, il faudrait observer les sujets 24/24 7/7 365.250/365.250 pour obtenir un résultat. L'objectif serait d'estimer
 si le caractère de la pensée triviale s'adapte a telle ou telle échelle.
 
 J'entends par triviale, dans la vie quotidienne, nul besoin d'exercice ou de tests. Pour ainsi dire, la tendance à penser a une plus grande échelle que la moyenne des autres par rapport à toutes tes pensées.

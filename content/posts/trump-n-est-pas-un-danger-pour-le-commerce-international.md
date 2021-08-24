@@ -1,6 +1,7 @@
 ---
 title: "Trump n'est pas un danger pour le commerce international"
 author: "real subversive"
+url: "trump-n-est-pas-un-danger-pour-le-commerce-international.html"
 ShowToc: true
 draft: false
 hidemeta: false
@@ -9,22 +10,19 @@ disableShare: false
 date: 2020-10-09T18:00:00+02:00
 images: "media/trump-cover-min.jpg"
 keyword: "Trump n'est pas un danger pour le commerce international, trump, commerce, internationnal, guerre commerciale, nuire au commerce, make america great again, impact défavorable pour le commerce, trump guerre commerciale, trump tarif douanier, "
-pdfname: "Trump n'est pas un danger pour le commerce international"
+pdfname: "trump-n-est-pas-un-danger-pour-le-commerce-international"
 ---
 
 TRUMP n'est pas un danger pour le commerce international.
-
 <!--more-->
 
 `Copie d'une plaidoirie en droit des affaires.`
-
-TRUMP n'est pas un danger pour le commerce international.
 
 > "L'administration Trump veut aider à construire un meilleur système commercial multilatéral et restera active au sein de l'Organisation mondiale du commerce"  
 
 établissait le rapport annuel du Président des États-Unis sur les accords commerciaux de libre-échange en 2018.
 
-Pour vous, cet engagement s’apparente-t-il à une menace ou danger quelconque pour le commerce international ? 
+Pour vous, cet engagement s’apparente-t-il à une menace ou danger quelconque pour le commerce international ?
 
 Alors, qu’est-ce qu’un danger pour le commerce international ?
 Si le commerce international est défini comme l'ensemble des flux de marchandises et de services entre au moins deux espaces économiques. Alors ne devrions-nous pas constater son impact dans les chiffres ?
@@ -34,7 +32,7 @@ Par danger entendez-vous source potentielle de dommage ou de préjudice l’éga
 En termes d’efficacité ? Très bien, nous vous démontrerons qu’en ce sens la politique de Donald Trump dans le domaine du commerce international est belle et bien performante, elle n’est pas un danger pour le commerce international, bien au contraire.  
 Alors me diriez-vous, au regard des traités signés ? Et bien toujours pas, au vu des avancées historiques en la matière qui se sont produites sous l’égide de Donald Trump.  
 
-Si ce n’est ni en termes d’efficacité, ni en termes de traités, serait-ce alors au regard de ses défaillances vis-à-vis des organisations internationales relatives au commerce ? 
+Si ce n’est ni en termes d’efficacité, ni en termes de traités, serait-ce alors au regard de ses défaillances vis-à-vis des organisations internationales relatives au commerce ?
 Et pourtant la réalité n’est toujours pas celle que l’on a voulu vous démontrer, il faut creuser jusqu’au fond du problème pour y découvrir que Donald Trump est un simple instrument du commerce international bénéfique à ce dernier, et non un tyran protectionniste comme ses détracteurs le dépeindront. En effet, Donald Trump dans le respect des règles du commerce international se borne à appliquer les normes mises en place et adoptées par tous les pays membres de l’OMC.
 
 Dans le même temps, vous chercherez à constater les effets néfastes de la politique du tyran sur le commerce international. Néanmoins, j’ai le regret de vous annoncer que vous n’en trouverez pas. Sur le plan fiscal, au niveau de son bilan, de ses résultats en termes de chiffres, ou d’application des règles, mais où cet impact défavorable s’illustre-t-il ?
@@ -53,7 +51,7 @@ Cet appel à relancer les échanges commerciaux mondiaux passe notamment par une
 Toute fois la critique reste légère :  
 D’une part, les puissances économiques mondiales ont su réagir et mettre en place des contres mesures. Cet effet de « balance » comme on pourrait l’appeler, a rééquilibré les enjeux commerciaux internationaux. L’Europe applique des droits de douane punitifs et des sanctions aux importations américaines. Finalement, ce que certains appellent « les offensives » de Donald Trump ont redynamisé les échanges commerciaux internationaux.
 
-D’autre part, le gouvernent de Trump a accepté de supprimer la taxe pour ce qui est de ses échanges avec le Mexique et le Canada lors de la renégociation de l’ALENA. Le commerce s’en trouve ainsi protégé. 
+D’autre part, le gouvernent de Trump a accepté de supprimer la taxe pour ce qui est de ses échanges avec le Mexique et le Canada lors de la renégociation de l’ALENA. Le commerce s’en trouve ainsi protégé.
 
 ## Les traités qui démontrent le contraire
 
@@ -63,7 +61,7 @@ Le président Trump a également signé un premier accord commercial avec la Chi
 
 Donald Trump a aussi conclu deux accords bilatéraux en Asie, avec le Japon et la Corée du Sud qui répondent aux inquiétudes face à son retrait du partenariat Transpacifique.
 
-## Une application pure et simple du droit du commerce international : 
+## Une application pure et simple du droit du commerce international :
 
 L’OCDE a accepté de reconnaître la loi des états unis anti -corruption. Effectivement les EU ont une loi anti-corruption depuis 1977 qui leur permet de sanctionner les entreprises des EU ou étrangère qui n’en respecteraient pas les règles. EN 1998, l’OCDE reprend ces mêmes règles dans la convention anticorruption. En ce sens, la politique punitive de Donald Trump vis-à-vis des entreprises et états étrangers n’est aujourd’hui qu’une application des normes internationales.
 

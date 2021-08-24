@@ -1,12 +1,12 @@
 ---
-title: "Bitcoin Cryptomonnaie Universelle ? Ou Simple Monnaie ?"
-author: "subversive.eu"
+title: "Bitcoin cryptomonnaie universelle ?"
+author: "subversive"
+url: "bitcoin-cryptomonnaie-universelle.html"
 ShowToc: true
 draft: false
 hidemeta: false
 tocopen: false
 disableShare: false
-
 date: 2020-11-01T18:00:00+02:00
 cover:
     relative: true
@@ -15,11 +15,11 @@ cover:
     Caption: ""
 images: "media/bitcoin-cover-min.jpg"
 keyword: "Bitcoin, Cryptomonnaie, monnaie, monnaie universelle, monnaie du futur, futur des monnaies, BTC, BTC/USD, décentralsiation, désintermédiation, Blockchain, autonomie bitcoin, futures, CME futures, BTC/EUR, liberté avec le bitcoin"
-pdfname: "Bitcoin Monnaie Universelle"
+pdfname: "bitcoin-cryptomonnaie-universelle"
 ---
 
 Le BTC, Bitcoin, est une cryptomonnaie internationale la plus connue de toutes, celle qui a
-le plus de valeur. Est-elle la monnaie universelle de demain ? 
+le plus de valeur. Est-elle la monnaie universelle de demain ?
 <!--more-->
 
 Aujourd’hui il est reconnu comme un simple actif, mais il s’agit de bien plus, la

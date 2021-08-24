@@ -1,6 +1,7 @@
 ---
-title: "La Lune seule responsable du malheur des Hommes ?"
-author: "subversive.eu"
+title: "La Lune seule responsable ?"
+author: "subversive"
+url: "la-lune-seule-responsable.html"
 ShowToc: true
 draft: false
 date: 2020-11-10 18:00:00
@@ -11,7 +12,7 @@ cover:
     Caption: ""
 images: "media/the-moon-cover.jpg"
 keyword: "Histoire, La lune, plaques tectoniques, continent, marrée, malheur des hommes"
-pdfname: "La lune seule responsable"
+pdfname: "la-lune-seule-responsable"
 ---
 
 Les Hommes ne vivent toujours pas comme des frères malgré quatre millions d’années d’évolution. Quels en sont les raisons et leurs probabilités ?
@@ -22,7 +23,7 @@ Elle joue un rôle pourtant bien précis d’après nos anciens en agronomie, le
 
 ## Le point de départ
 
-{{< figure src="https://subversive.eu/media/giant-impact.jpg" alt="Choc entre la Terre et la Lune" caption="Choc entre la Terre et la Lune" class="right" >}}
+{{< figure src="https://criminau.xyz/media/giant-impact.jpg" alt="Choc entre la Terre et la Lune" caption="Choc entre la Terre et la Lune" class="right" >}}
 Il y a environ 4,468 milliards d’années, la Lune se serait formée par un choc entre deux planètes. Anodin non ? Pas tant que ça, cet impact serait à l’origine de la vie sur Terre.
 
 Ainsi la Terre par sa plus grande masse aurait amassé plus d’atmosphère indispensable à la vie. De même que le noyau de la Terre, alors plus gros nous protégea mieux des vents solaires. Une planète trop petite ne pourrait donc abriter de la vie. Mais ce qui me semble essentiel a été oublié.
@@ -37,7 +38,7 @@ En effet par la dérive des continents que nous connaissons, les fossiles entre 
 
 Imaginez une planète qui a un seul et même climat car elle n’a pas la tectonique des plaques, donc pas de zones arides ou très froide. Les gens de cette planète, au début de leur évolution (leur préhistoire) se sont rencontrés assez vite et ont pu communiquer, interagir et échanger très vite.
 
-Nous, sur notre planète, la géographie a rendu cela très compliqué, et a mis du temps. Il aura fallu 4 millions d’années pour connaître toutes les ethnies existantes. 
+Nous, sur notre planète, la géographie a rendu cela très compliqué, et a mis du temps. Il aura fallu 4 millions d’années pour connaître toutes les ethnies existantes.
 
 Sur la planète imaginaire, on peut supposer sans difficulté qu’ils ont été plus rapide que nous. Et même en pensant plus loin, un même climat, un même continent facilite le choc des civilisations et donc il est probable que cette terre imaginaire soit ou eu été occupé par la même ethnie. Cela change beaucoup de paramètres.
 
@@ -57,4 +58,4 @@ La vie n’a peur de rien, tout change, tout bouge, tout le temps. La vie tourne
 
 ### Pour penser plus loin
 
-Ainsi notre planète est unique. N’ont pas que nous sommes seuls, n’ont pas que nous sommes différents, mais bien que la vie sur notre planète est à la fois plus complexe et aussi plus similaire.. 
+Ainsi notre planète est unique. N’ont pas que nous sommes seuls, n’ont pas que nous sommes différents, mais bien que la vie sur notre planète est à la fois plus complexe et aussi plus similaire..

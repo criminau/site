@@ -1,6 +1,7 @@
 ---
-title: "Conseiller en relations publiques l'importance de ce métier"
-author: "subversive.eu"
+title: "Conseiller en relations publiques"
+author: "subversive"
+url: "conseiller-en-realtions-publiques.html"
 ShowToc: true
 draft: false
 hidemeta: false
@@ -8,7 +9,7 @@ tocopen: false
 disableShare: false
 date: 2020-09-29T18:00:00+02:00
 keyword: "Conseiller en relations publiques, propaganda, propagande, démocratie, relations publiques, fiche métier, métier, livre propaganda résumé, résumé, livre, fonctionnement démocratie actuelles, propagande démocratie, qui contrôle les médias, médias, importance des médias"
-pdfname: "Conseiller en relations publiques"
+pdfname: "conseiller-en-realtions-publiques"
 ---
 
 Résumé bref, et précis du métier de conseiller en relations publiques (CRP) un métier indispensable dans les démocraties actuelles à partir du livre propaganda.
@@ -64,11 +65,11 @@ Ensuite il vous faudra penser à bien gérer l'encadrement de votre travail
 
 La foule réponds facilement à trois grandes idées :
 
-* L'impulsion 
+* L'impulsion
 Faire apparaître un idole, la foule suivra dans l'impulsion
 * L'habitude
 Créer des réflexes conditionnés dans une norme sociale
-* L'émotion 
+* L'émotion
 Créer une émotion, ou faire prendre conscience d'une émotion à une foule qui vous servira à rejeter ou accepter une cause
 
 ## Du service après vente
@@ -76,7 +77,7 @@ Créer une émotion, ou faire prendre conscience d'une émotion à une foule qui
 Selon votre client, vous prendrez en compte une interprétation continue du problème.
 Ou bien vous pratiquerez une exaltation des points forts de votre client, si vous avez des capacités réduites, ou s'il s'agit d'un problème difficile.
 
-N'oubliez jamais que vous avez la capacité de créer le désir. 
+N'oubliez jamais que vous avez la capacité de créer le désir.
 Que votre objectif principal est de traduire la nature même de l'entreprise.
 
 ## Conclusion

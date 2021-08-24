@@ -1,6 +1,7 @@
 ---
-title: "Les intérêts du sars-cov-2 covid19 l'arnaque du siècle"
-author: "subversive.eu"
+title: "Les intérêts du SArs-Cov-2"
+author: "subversive"
+url: "les-interets-du-sars-cov-2.html"
 ShowToc: true
 draft: false
 hidemeta: false
@@ -8,10 +9,10 @@ tocopen: false
 disableShare: false
 date: 2020-08-02T18:00:00+02:00
 keyword: "covid19, arnaque du siècle, casse du siècle, sars-cov-2, a qui profite le covid, les élites et le covid, les intérêts des élites pour le covid, le virus sars-cov-2, maladie infectieuse, "
-pdfname: "Les interets du sars-cov-2"
+pdfname: "les-interets-du-sars-cov-2"
 ---
 
-Le virus SArs-cov-2 responsable de la maladie covid19 (maladie infectieuse) ne semble pas stoppé. Tous les pays de l’hémisphère nord ont passé leur pic.
+Le virus SArs-Cov-2 responsable de la maladie covid19 (maladie infectieuse) ne semble pas stoppé. Tous les pays de l’hémisphère nord ont passé leur pic.
 <!--more-->
 
 La première particularité est la diversité des chiffres selon les pays, quelque chose d’affolant que tout le monde semble oublier. S’en suit une explosion de la folie et une confusion générale.  
@@ -106,7 +107,7 @@ Fin Juillet, la hausse des cas en Espagne et en Afrique du sud est probablement 
 L’opération DefenderEurope20 est probablement responsable d’un surplus en Europe de cas de covid-19 depuis Juin, les américains feront de cette maladie un opération en direct à échelle mondiale.  
 En quelques jours tous les gouvernants du monde se sont affolés subitement aux propos de cette maladie.  
 En Chine, il y aura plus de vie sauvée de la pollution que de mort du covid-19.  
- 
+
 ### Sources
 
 [Différente souche du virus en Iran](https://www.naturalnews.com/2020-02-25-iranian-strain-coronavirus-morphed-version-wuhan.html)  
