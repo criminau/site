@@ -7,12 +7,6 @@ hidemeta: false
 tocopen: false
 disableShare: false
 date: 2021-07-25T14:00:00
-cover:
-    relative: true
-    image: ""
-    alt: ""
-    Caption: ""
-images: ""
 keyword: "JP Morgan, Goldman Sachs, monnaie, technologie, système, monétaire, création, économie, finance"
 ---
 
@@ -22,7 +16,6 @@ Une recherche incomplète. En réalité, l'on peut définir le titre comme étan
 C'est une recherche qui prend du temps.
 <!--more-->
 Bien comprendre les mécanismes décrits sans effort demande du temps, beaucoup de temps. Les accepter demande encore plus de temps, c'est un défi.
-
 
 ## Notes avant lecture
 
@@ -183,7 +176,7 @@ Il faut à la banque déposer sa réserve obligatoire.
 | :-------------------------- | ------------------: |
 | Billets : 7.92€             | Dépôts crédit : 10€ |
 | Réserve Obligatoire : 0.08€ | Autres Dépôts : 8€  |
-| Crédit : 10€                |                     | 
+| Crédit : 10€                |                     |
 
 
 Les calculs mathématiques théoriques démontrent que plus une banque à de part de marché, plus elle peut faire crédit.  
@@ -342,7 +335,7 @@ On prétend l'inverse de ce que l'on fait, je vais décrire tout cela sur ce cha
 ### Influence de la masse monétaire
 
 Le solde moyen de chacun, x nombre de personnes = masse monétaire.
-  
+
 Jean arrive avec 100 000 €, il distrubue au boucher , au plombier, au maçon ,..  
 La masse monétaire augmente avec le crédit.  
 La monnaie crée-t-elle la richesse ? Evidement elle ne la crée pas.  
@@ -367,7 +360,7 @@ A un moment donné il n'y a plus personne pour emprunter donc il n'y a plus d'ac
 A un autre moment donné, les gens ne peuvent pas rembourser donc il y a d'un seul coup trop de vendeur car ils veulent vite vendre pour rembourser.
 
 Les prix s'écroulent, c'est une bulle immobilière, l'effet procyclique s'inverse.
-  
+
 Le banquier fait moins crédit car la valeur du bien baisse → trop de risque → tous ses gens en remboursant, détruisent de la monnaie → l'activité s'écroule.  
 
 Le batôn = les intérêts, moins tu es solvable (tu ne peux rembourser), plus tu payes d'intérêts.
@@ -399,7 +392,7 @@ Pour que toute aille bien, il faut que la masse injecté (le crédit) soit supé
 Tout va mal c'est la crise, par les mécanismes de compensation (chapitre III, les banques centrales) les banques commerciales sont liées entres elles.
 
 Les banquiers exercent donc la menace du risque systèmique. Si je tombe, tu tombes avec moi, tout le monde tombe, redonne moi de la monnaie, renfloue mes caisses car mes actionnaires ne veulent pas donner un seul sous. Cela signifie, redonne moi de la monnaie dette de ton pays. Et les Etats se soumettent, leur peuple avec.
- 
+
 
 ### Mise en application d'une attaque spéculative
 
@@ -482,7 +475,7 @@ La Chine fait exactement pareil, voici ce qu'elle fait : elle construit des infr
 
 Vers fin 2018, un pays, je ne vais pas le citer car ce n'est pas le but ici, a subit un tir de barrage, mais cette fois cette attaque n'était pas une simple attaque, le but n'était pas le profit (comme tout le monde le croit), mais l'asservissement.  
 
-D'ailleurs les dirigeants ont répétés à mainte reprise qu'ils ne rejoindraient pas les programmes d'aide du FMI et de la BM. 
+D'ailleurs les dirigeants ont répétés à mainte reprise qu'ils ne rejoindraient pas les programmes d'aide du FMI et de la BM.
 
 Et pour cause, les dirigeants savent sans doute à quoi rime cela.
 
@@ -499,7 +492,7 @@ Après que leur dirigeant soit passé sur bloomberg pour faire le malin, la monn
 
 Bref en 3 ans le bilan est terrible, ça fait mal de se prendre la JP MORGAN et la GOLDMAN SACHS aux fesses.
 
-Ils saignent à blanc un peuple sans que le moindre gugus de chez nous ne dise quelque chose. Nos gugus ont-ils vraiment compris ces mécanismes ?	
+Ils saignent à blanc un peuple sans que le moindre gugus de chez nous ne dise quelque chose. Nos gugus ont-ils vraiment compris ces mécanismes ?
 
 
 ### Résumé du chapitre VI.
@@ -547,7 +540,7 @@ l’Etat :  8,360 Md€ (Md = Milliards d'€)
 Et en bas du classement nous avons : (en remontant)
 
 - Travail  et  emploi :  1,122  Md€
-- Solidarité, insertion et égalité des 
+- Solidarité, insertion et égalité des
 chances :  1,186  Md€
 
 
@@ -679,7 +672,7 @@ L’empire de l’argent, Episode 2 : XVIIIe et XIXe siècle
 III.  
 [Pouvoir d'une banque centrale](http://www.bayard-macroeconomie.com/pouvoirbanquecentrale.html)  
 [La monnaie : un instrument de domination économique](https://iteroni.com/watch?v=LaavzafKNa8)  
-[La création monétaire expliqué par l'état](https://www.economie.gouv.fr/facileco/banques-centrales-creation-monetaire#)  
+[La création monétaire expliqué par l'état](https://www.economie.gouv.fr/facileco/banques-centrales-creation-monetaire)
 
 IV.  
 [Le Second Empire Britannique](https://iteroni.com/watch?v=hizj_6EH34M)  
@@ -702,7 +695,7 @@ VII.
 
 
 Générales.  
-[Le film "Les Grandes Familles" avec Jean Gabin](https://archive.org/details/1958LesGrandesFamilles)
+[Le film "Les Grandes Familles" avec Jean Gabin](https://archive.org/details/1958LesGrandesFamilles)  
 [creationmonnaiepourlesnuls.pdf](https://inventin.lautre.net/livres/creationmonnaiepourlesnuls.pdf)  
 [creationmonétaire.pdf](https://www.lafinancepourtous.com/html/IMG/pdf/modules/142_activite_creation_monetaire.pdf)  
 [SONG Hongbing La Guerre Des Monnaies 2007](https://ia802901.us.archive.org/12/items/songhongbinglaguerredesmonnaies2007/SONG%20Hongbing%20-%20La%20guerre%20des%20monnaies-2007.pdf)  

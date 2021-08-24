@@ -1,0 +1,32 @@
+{{- $pc := .Page.Site.Config.Privacy.Twitter -}}
+{{- $sc := .Page.Site.Config.Services.Twitter -}}
+{{- if not $pc.Disable -}}
+{{- $id := .Get 0 -}}
+{{- $json := getJSON "https://api.twitter.com/1/statuses/oembed.json?id=" $id "&omit_script=true" -}}
+{{- if not $sc.DisableInlineCSS -}}
+{{ template "__h_simple_twitter_css" $ }}
+{{- end -}}
+{{ $json.html | safeHTML }}
+{{- end -}}
+
+{{ define "__h_simple_twitter_css" }}
+{{ if not (.Page.Scratch.Get "__h_simple_twitter_css") }}
+{{/* Only include once */}}
+{{  .Page.Scratch.Set "__h_simple_twitter_css" true }}
+<style type="text/css">
+  .twitter-tweet {
+
+}
+  .twitter-tweet a {
+    color: var(--content);
+  text-decoration: underline;
+  text-decoration-color: var(--content);
+}
+  blockquote.twitter-tweet a:hover,
+  blockquote.twitter-tweet a:focus {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+</style>
+{{ end }}
+{{ end }}

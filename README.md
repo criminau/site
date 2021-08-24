@@ -12,34 +12,42 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 
 ### V.02.5
 
-- Modification des couleurs
-- Fin des commentaires
-- Fin de la recherche interne
-- Embedded css
-- Footnote css
-- Markup -> blackfriday
-- Nouveaux thèmes
-- Correction des articles et retour des pdf (petit à petit)
-- Ajout shortcode figure (role="group")
-- Protocole A11y.css
+- [x] Protocole Revenge.css
+- [X] Protocole totA11y
+- [x] Etudier vitesse des Images
+- [X] Optimisation de la vitesse de chargement avec twitter
 -
-
+-
 
 ---
 
 <blockquote>Quelques taches :</blockquote>
 
-- Etudier pour changer la taille de police par rapport taille de l'écran ?
-- Etudier vitesse des Images
-- Que faire des brouillons ?
-- Retour des catégories ?
-- Protocole totA11y
--
--
+Acme Website task list
+ - [ ] Optimiser la vitesse des Images
+ - [ ] Etudier retour des catégories
+ - [ ] Que faire des brouillons ?
+ - [ ] Etudier pour changer la taille de police par rapport taille de l'écran
+ - [ ] Protocole wave.webaim.org
+ - [ ] Protocole tachyons-x-ray
+ - [ ] Enable contact us
+ - [ ] Enable contact us
+ - [ ] Enable contact us
+
 
 ---
 /*
 hugo netlify toml :
 --buildDrafts
 https://talk.commonmark.org/t/tables-in-pure-markdown/81/115
+
+https://github.com/alex-shpak/hugo-book
+
 */
+---
+
+### Tools
+css/revenge.css
+{{- $revenge := resources.Get "css/revenge.css" }}
+<link href="{{ $revenge.Permalink }}"  rel="preload stylesheet">
+---

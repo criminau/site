@@ -1,14 +1,12 @@
-  <div class="book-expand">
-    <label>
-      <div class="book-expand-head flex justify-between">
-        <span>{{- default "Expandre" (.Get 0) }}
-
-          </span>
+<div class="book-expand">
+  <label for="{{- replaceRE "(\\s)" "" (.Get 0) | default "Expandre" }}">
+      <span class="book-expand-head flex justify-between">
+        <span>{{- default "Expandre" (.Get 0) }}</span>
         <span>{{ default "↕" (.Get 1) }}</span>
-      </div>
-      <input type="checkbox" class="" />
-      <div class="book-expand-content markdown-inner">
+      </span>
+      <input id="{{- replaceRE "(\\s)" "" (.Get 0) | default "Expandre" }}" type="checkbox" />
+      <span class="book-expand-content markdown-inner">
         {{ .Inner | markdownify }}
-      </div>
-    </label>
-  </div>
+      </span>
+  </label>
+</div>

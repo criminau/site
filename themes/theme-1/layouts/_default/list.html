@@ -1,7 +1,5 @@
 {{- define "main" }}
 
-
-
 {{- if not .IsHome | and .Title }}
 <header class="page-header">
   <h1>{{ .Title }}</h1>
@@ -28,7 +26,8 @@
 {{- else if $term }}
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
-<article class="{{ $class }}">
+
+<article class="{{ $class }}" role="article">
   {{- partial "cover.html" (dict "cxt" . "IsHome" true) }}
   <header class="entry-header">
     <h2>
@@ -45,7 +44,7 @@
   <footer class="entry-footer">
     {{- partial "post_meta.html" . -}}
   </footer>
-  <a class="entry-link" aria-label="{{ .Title | plainify }}" href="{{ .Permalink }}" title="{{ .Title | plainify }}"></a>
+  <a class="entry-link" aria-label="{{ .Title | plainify }}" href="{{ .Permalink }}" title="{{ .Title | plainify }}"> </a>
 </article>
 {{- end }}
 

@@ -23,7 +23,7 @@
 {{- end }}
 <!-- Fin du script -->
 
-<header class="header">
+<header class="header" role="banner">
     <nav class="nav ">
         <div class="logo">
             <a class="" Title="Page d'accueil" href="{{ "" | absLangURL }}">
@@ -38,7 +38,7 @@
             </a>
             {{- if (and (not .Site.Params.disableThemeToggle) (not (or (eq .Site.Params.defaultTheme "light") (eq .Site.Params.defaultTheme "dark")))) }}
             <span class="theme-toggle">
-                <a title="Changer le thème" id="theme-toggle" aria-label="Changer le thème">
+                <a href="#menu" title="Changer le thème" id="theme-toggle" aria-label="Changer le thème">
                   <svg id="moon" [role="img"] xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                       fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                       stroke-linejoin="round">

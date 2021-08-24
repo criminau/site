@@ -1,4 +1,4 @@
-{{ if (and .Params.cover.image .Params.cover.alt) }}
+
 
 {{- with .cxt}} {{/* Apply proper context from dict */}}
 
@@ -7,6 +7,7 @@
 {{- $addLink := (and .Site.Params.cover.linkFullImages (not $.IsHome)) }}
 {{- $cover := (.Page.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
 
+{{ if (and .Params.cover.image .Params.cover.alt) }}
 <figure class="entry-cover" role="group">
 
 {{- if $addLink }}
@@ -15,7 +16,7 @@
 {{- if $alt }}
 <img title="{{ $alt }}" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}">
 {{- end }}
-{{- if $addLink }}test??</a>{{ end -}}
+{{- if $addLink }}</a>{{ end -}}
 
 {{/*  Display Caption  */}}
 {{- if not $.IsHome }}
@@ -23,6 +24,5 @@
 {{- end }}
 
 </figure>
-
-{{- end -}}{{/* End context */}}
 {{ end }}
+{{- end -}}{{/* End context */}}

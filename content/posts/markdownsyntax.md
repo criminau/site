@@ -51,15 +51,19 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 {{< tab "MacOS" >}}
 
 ### MacOS Content
-
 Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
 
 {{< /tab >}}
 {{< tab "Linux" >}}
+
 ### Linux Content
+This is Linux content.
+
 {{< /tab >}}
 {{< tab "Windows" >}}
 ### Windows Content
+This is Windows XP content. Prank.
+
 {{< /tab >}}
 {{< /tabs >}}
 
@@ -86,17 +90,23 @@ Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat str
 
 {{< details >}}
 #### Markdown content
+
 Le CSS ne prendra en charge que les titres en h4 soit 4 #(hashtag).  
 La couleur de font est "content" du thème foncé, nommé "dark".  
 {{< /details >}}
+
 {{< details "Custom label" >}}
 #### Markdown content
+
 Lorem markdownum insigne...
 {{< /details >}}
+
 {{< details "Custom Label" "..." >}}
 #### Markdown content
+
 Lorem markdownum insigne...
 {{< /details >}}
+
 
 ## Blockquote
 
@@ -119,14 +129,23 @@ The blockquote element represents content that is quoted from another source, op
 ## figure
 
 Figure (image insertion) playing with text !
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 {{< figure src="https://via.placeholder.com/400x280" alt="image" caption="figure-right" class="right" >}}
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 {{< figure src="https://via.placeholder.com/400x280" alt="image" caption="figure-left" class="left" >}}
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 {{< figure src="https://via.placeholder.com/1600x800" alt="image" caption="figure-normal (without any classes)" >}}
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 {{< figure src="https://via.placeholder.com/1600x800" alt="image" caption="figure-big" class="big" >}}
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ## Tables
@@ -236,9 +255,9 @@ reboot
 
 ### Ordered List with links
 
-4. [Link to Link](#Link)
-5. [Second item](https://criminau.xyz)
-6. [Third item](https://criminau.xyz)
+1. [Link to Link](#Link)
+2. [Second item](https://criminau.xyz)
+3. [Third item](https://criminau.xyz)
 
 This no work :
 
@@ -293,7 +312,11 @@ Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and ot
 **With mobile and some privacy browser.., twitter appear like simple blockquote**  
 **If not, appear like twitter want**
 
-{{< tweet 877500564405444608 >}}
+{{< tweet 877500564405444608 >}}  
+
+**twitter with conversation ?**  
+
+{{< tweet 495719809695621121 >}}
 
 ## vimeo
 
