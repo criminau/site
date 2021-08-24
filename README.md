@@ -20,21 +20,36 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [ ] Nouveaux url avec caractère lisible [progressivement]
 - [X] Redirect 301 du domaine netlify vers criminau.xyz
 
+- [ ] Optimiser la vitesse de chargement des images
+- [ ] Optimiser la lecture et l'affichage des images
 ---
 
 <blockquote>Quelques taches :</blockquote>
 
-Acme Website task list
- - [ ] Optimiser la vitesse des Images
- - [ ] Etudier retour des catégories
- - [ ] Que faire des brouillons ?
- - [ ] Etudier pour changer la taille de police par rapport taille de l'écran
- - [ ] Protocole wave.webaim.org
- - [ ] Protocole tachyons-x-ray
- - [ ] Enable contact us
- - [ ] Enable contact us
- - [ ] Enable contact us
+- [ ] Protocole wave.webaim.org
+- [ ] Protocole tachyons-x-ray
+- [ ] Etudier pour changer la taille de police par rapport taille de l'écran
+- [ ] Définir une politique à propos des brouillons
+- [ ] Définir une politique à propos des catégories
+- [ ] Définir une politique à propos des images
 
+
+<blockquote>Politiques :</blockquote>
+
+- [ ] Des catégories :
+ -
+ -
+- [ ] Des brouillons :
+ -
+ -
+- [x] De la taille de la police d'écriture, responsive.
+ - responsive
+ - lisible
+- [ ] Des images
+ - explicit height and widht
+ - responsive
+ - format ?
+ - attribute ?
 
 ---
 /*
