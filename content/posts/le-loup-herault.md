@@ -12,7 +12,6 @@ cover:
     relative: true
     image: "media/loup-min.jpg"
     alt: "Photo d'un loup"
-
 keyword: "Loup, hérault, nombre, brebis, occitanie, languedoc, caroux, sommail, tarn, aveyron"
 pdfname: "le-loup-dans-l-herault"
 ---

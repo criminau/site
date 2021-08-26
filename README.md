@@ -18,6 +18,7 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [X] Optimisation de la vitesse de chargement avec twitter
 - [X] Redirect 301 du domaine netlify vers criminau.xyz
 - [X] Cache control politique 1 an.
+- [X] Définir une politique à propos des images
 - [ ] Vérification des articles et retour des pdf  [progressivement]
 - [ ] Nouveaux url avec caractère lisible [progressivement]
 

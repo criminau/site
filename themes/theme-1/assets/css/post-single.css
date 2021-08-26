@@ -4,6 +4,11 @@
   text-align: center;
   margin-bottom: var(--gap);
 }
+.entry-cover img{
+  border-radius: 4px;
+  width: 100%;
+  height: auto;
+}
 .cover-caption{
   font-size: 14px;
   color: var(--content);
@@ -249,10 +254,6 @@
 .post-content iframe {
     max-width: 100%;
 }
-.post-content img {
-    border-radius: 4px;
-}
-
 /* Table Of Contents */
 .toc {
     margin-bottom: 40px;
@@ -413,7 +414,7 @@
 
 .post-content img{
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     margin: auto;
     border-radius: 4px;
@@ -469,54 +470,6 @@
 .book-tabs input[type="radio"]:checked + label + .book-tabs-content {
     display: block;
 }
-*/
-/*   < tabs > VERSION INITIALE
----------------------------------------------------------------------------------------------
-.book-tabs {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 2px solid var(--border);
-    border-radius: var(--radius);
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-}
-.book-tabs label{
-    display: inline-block;
-    cursor: pointer;
-    margin: 7px;
-    padding: 8px 16px;
-    text-align: center;
-    transition-duration: 0.4s;
-    color: var(--content);
-    font-size: 14px;
-    line-height: 34px;
-    background: var(--theme);
-    border-radius: var(--radius);
-    border: 2px solid var(--content);
-}
-.book-tabs .book-tabs-content {
-    order: 999;
-    width: 100%;
-    border-top: 1px solid var(--content);
-    padding: 16px;
-    display: none;
-}
-.book-tabs input[type="radio"]{
-    display: none;
-}
-
-.book-tabs input[type="radio"]:checked + label{
-  background: var(--content);
-  color: var(--theme );
-  font-weight: bolder;
-  border: 2px solid var(--theme);
-  border-radius: var(--radius);
-}
-.book-tabs input[type="radio"]:checked + label + .book-tabs-content {
-    display: block;
-}
-
 
 /*
        < columns >
@@ -660,21 +613,6 @@ a.footnote-return{
 a.footnote-return:hover {
   font-weight: 800;
 }
-
-
-/*
-a.footnote-ref::before {
-    content: '[';
-}
-a.footnote-ref::after {
-    content: ']';
-}
-*/
-a.footnote-backref{
-
-}
-
-
 
 /* Mobile */
 /* écran < 600 */
