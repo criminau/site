@@ -17,10 +17,11 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [x] Etudier vitesse des Images
 - [X] Optimisation de la vitesse de chargement avec twitter
 - [X] Redirect 301 du domaine netlify vers criminau.xyz
-
+- [X] Cache control politique 1 an.
 - [ ] Vérification des articles et retour des pdf  [progressivement]
 - [ ] Nouveaux url avec caractère lisible [progressivement]
 
+- [X] Définir une politique à propos des images
 - [ ] Optimiser la vitesse de chargement des images
 - [ ] Optimiser la lecture et l'affichage des images
 ---
@@ -32,7 +33,7 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [ ] Etudier pour changer la taille de police par rapport taille de l'écran
 - [ ] Définir une politique à propos des brouillons
 - [ ] Définir une politique à propos des catégories
-- [ ] Définir une politique à propos des images
+
 
 
 <blockquote>Politiques :</blockquote>
@@ -46,11 +47,7 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [x] De la taille de la police d'écriture, responsive.
  - responsive
  - lisible
-- [ ] Des images
- - explicit height and widht
- - responsive
- - format ?
- - attribute ?
+
 
 ---
 /*

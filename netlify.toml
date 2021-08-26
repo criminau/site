@@ -35,11 +35,11 @@ HUGO_ENABLEGITINFO = "true"
 for = "/*"
 [headers.values]
   Referrer-Policy = "no-referrer"
-  Strict-Transport-Security = "max-age=15768000"
+  Strict-Transport-Security = "max-age=31536000"
   X-Content-Type-Options = "nosniff"
   X-Frame-Options = "SAMEORIGIN"
   X-XSS-Protection = "1; mode=block"
 [[headers]]
-for = "/media/*" # in the media folder for 7 days (60*60*24*7)
+for = "/media/*" # in the media folder for 7 days (60*60*24*7), now 365 days
 [headers.values]
-  Cache-Control = "public, max-age=604800"
+  Cache-Control = "must-revalidate, public, max-age=31536000"

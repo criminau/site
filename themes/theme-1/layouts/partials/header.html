@@ -29,7 +29,7 @@
             <a class="" Title="Page d'accueil" href="{{ "" | absLangURL }}">
                 {{- if .Site.Params.label.icon }}
                 <img title="Logo du Journal Subversif" src="{{ .Site.BaseURL }}{{.Site.Params.label.icon }}" alt="Logo du Journal Subversif" aria-label="Logo du Journal Subversif"
-                    height="{{- .Site.Params.label.iconHeight | default "30px" -}}">
+                    height="{{- .Site.Params.label.iconHeight | default "30px" -}}" width="{{- .Site.Params.label.iconwidth | default "30px" -}}" >
                 {{- else if not .IsHome -}}
                 <p class="">{{- .Site.Params.label.text | default .Site.Title -}}</p>
                 {{- else }}

@@ -16,7 +16,7 @@ buildDraft: false
 
 # Perf Active later.
 minify:
- minifyOutput: true
+ minifyOutput: false
 
 #LiveReload Hugoreload
 disableLiveReload: true
