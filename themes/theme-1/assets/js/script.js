@@ -5,7 +5,6 @@
 https://www.fiznool.com/blog/2018/09/14/adding-click-to-copy-buttons-to-a-hugo-powered-blog/
    Fonctionnement : cf voir markdownsyntax.md
 --------------------------------------------------------------------------------------------------*/
-
 (function() {
     'use strict';
 
@@ -48,20 +47,14 @@ https://www.fiznool.com/blog/2018/09/14/adding-click-to-copy-buttons-to-a-hugo-p
                 flashCopyMessage(copyBtn, 'Erreur :\'(')
             }
         });
-
         containerEl.appendChild(copyBtn);
     }
-
     // Add copy button to code blocks
     var highlightBlocks = document.getElementsByClassName('highlight');
     Array.prototype.forEach.call(highlightBlocks, addCopyButton);
 })();
 /***** FIN Bouton copier/coller */
-
-
-
 /***** Bouton Retour Haut de la page */
-
 window.onload = function() {
     if (localStorage.getItem("menu-scroll-position")) {
         document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
@@ -82,7 +75,4 @@ mybutton.onclick = function() {
     document.documentElement.scrollTop = 0;
     window.location.hash = ''
 }
-
-
-
 /***** FIN bouton haut de page */
