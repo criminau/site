@@ -77,7 +77,7 @@ permalinks:
 disableKinds: ["taxonomy", "taxonomyTerm", "section"]
 
 # RSS feed
-rsslimit: 15
+rsslimit: 20
 
 # Emoji support
 enableEmoji: true
