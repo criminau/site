@@ -1,14 +1,15 @@
 ---
 title: "Le Droit c'est nul ! Réflexion."
-author: "subversive.eu"
+author: "subversive"
+url: "le-droit-c-est-nul.html"
 draft: false
 ShowToc: true
 hidemeta: false
 disableShare: false
 tocopen: false
 date: 2020-12-05T18:00:00+01:00
-keyword: ""
-pdfname: "le droit c'est nul"
+keyword: "le droit c'est nul"
+pdfname: "le-droit-c-est-nul"
 ---
 
 Le droit régit vos vies, nos vies, mais est-il si juste ? Si bien que nous pourrions ne plus nous en passer ?
@@ -27,14 +28,14 @@ Une société ou la société regroupe de manière générale l'ensemble des fac
 La démocratie, concept inévitable du droit, est une notion complexe. Dont j'ai du mal à vous en faire une définition précise :
 C'est un ensemble de facteurs qui dans les faits obligent les Hommes à développer eux-mêmes pour eux-mêmes une société JUSTE (littéralement). Donc un facteur qui nuit au dialogue entre les Hommes pour eux et entre eux n'est pas à promouvoir.
 
-L'individu, cette notion sera abordée, il est donc important de la préciser. C'est un individu au sens de vous comme moi, c'est à la fois, vous comme votre voisin, ou cousin, c'est à la fois vous (individu) et nous (individus), vous devez être capable de comprendre les deux échelles, celle d'un individu, comme celle de l'ensemble mais vue indépendamment. 
+L'individu, cette notion sera abordée, il est donc important de la préciser. C'est un individu au sens de vous comme moi, c'est à la fois, vous comme votre voisin, ou cousin, c'est à la fois vous (individu) et nous (individus), vous devez être capable de comprendre les deux échelles, celle d'un individu, comme celle de l'ensemble mais vue indépendamment.
 
 
 ## Critique du Contexte Social et Historique sur Terre
 
 Les Occidentaux ont acquis une grande compétence dans l'interprétation et la manipulation du droit. Tout conflit est résolu conformément à la lettre de la loi et est considérée comme la solution suprême.
 
-Ces lettres de loi sont plus importantes que toutes formes de lois morales. Rien n'est au dessus. Même la guerre est régit par des droits de la guerre... 
+Ces lettres de loi sont plus importantes que toutes formes de lois morales. Rien n'est au dessus. Même la guerre est régit par des droits de la guerre...
 
 A tel point qu'aujourd'hui la représentation que les individus se font d’eux-mêmes et qu'ils se définissent d’abord en droit. "J'ai le droit"
 
@@ -42,11 +43,11 @@ On ne voit presque jamais de retenue volontaire. Tout le monde fonctionne à l'e
 
 > « Je suis d’abord un individu, accessoirement je suis un homme ou une femme mais c’est secondaire, puisque précisément j’ai le droit de définir moi-même le genre que je sens correspondre à mon identité ».  
 > Marcel Gauchet.
- 
- La démocratie ? C’est « chacun fait ce qu’il veut » ! 
- 
+
+ La démocratie ? C’est « chacun fait ce qu’il veut » !
+
 Le droit, la LOI définit l'homme comme ayant des DROITS... Ou sa vie est fixée par ses(ces, les deux à la fois) droits. Et pire, puisque qu'aujourd'hui l'identité du genre d'un individu est complètement biaisée par le droit.
- 
+
 Dans ce contexte, la loi prévaut, et cette médiocrité morale est très néfaste pour le développement des Hommes.
 
 - La notion de conscience abordée dans la définition des sociétés ouvre un champ des possibles inimaginable.
@@ -73,7 +74,7 @@ Car justement les systèmes sociaux terrestres doivent être corrigés.
 La question du consentement est essentielle :
 
  > Qu'ils sont-ils pour me donner des droits ?
- 
+
  > De quels droits me donnent-ils des droits ?
 
 La loi doit être un guide et non une limite décisionnelle.
@@ -92,7 +93,7 @@ C'est un peu comme une double lame, pour nous obliger à bien faire, il faut jug
 
 Ainsi il n'y pas de frein a l'évolution positive du droit, car il est conditionné a être pensé et critiqué avant même d'être accepté. L'acceptation doit être INTÉGRALE. Car elle est JUSTE, et moralement acceptable du fait même de ce facteur d'acceptation. Ainsi l'individu s'y dévouera toute sa vie physique.
 
-Le droit comme aujourd'hui vous rend passif, craintif et inactif, or le droit dans ce cas ne peut évoluer dans un sens optimal pour tous. Nous devons être actif du droit est non passif. Dans ce sens les lois morales ouvrent des portes sans les fermer. Personne ne doit fermer la porte à l'individu et dans ce sens les formes de gouvernement y participent, quel qu’ils soient. 
+Le droit comme aujourd'hui vous rend passif, craintif et inactif, or le droit dans ce cas ne peut évoluer dans un sens optimal pour tous. Nous devons être actif du droit est non passif. Dans ce sens les lois morales ouvrent des portes sans les fermer. Personne ne doit fermer la porte à l'individu et dans ce sens les formes de gouvernement y participent, quel qu’ils soient.
 
 L'individu devrait faire évoluer le droit quotidiennement par rapport aux normes morales suivies avec rigueur en étant pro-actif (ex: la désobéissance civile, qui est un concept étonnant sur Terre). Mais la crainte en fait taire plus d'un ou du moins tant à diminuer leur influence et leurs rayons d'actions.
 
@@ -132,7 +133,7 @@ Toutes les réalisations technologiques glorifiées du progrès, y compris la co
 Le droit doit s'adapter a chaque individu et chaque moment (instant t) de sa vie est cela s'appelle les lois morales.
 
 LE DROIT VOLE LE CŒUR DES HOMMES.
-    
+
 L'évolution ne peut être sur du long terme que positive.
 
 Je l'ai toujours, je le dirai toujours, qu'elle honte que d'avoir des droits.

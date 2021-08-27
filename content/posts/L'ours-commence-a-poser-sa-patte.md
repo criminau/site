@@ -1,6 +1,7 @@
 ---
 title: "L'ours commence a poser sa patte !"
 author: "subversive"
+ulr: "l-ours-commence-a-poser-sa-patte.html"
 draft: false
 ShowToc: true
 hidemeta: false
@@ -9,7 +10,7 @@ tocopen: false
 date: 2020-11-30T18:00:00+01:00
 images: "media/poigne-russia-min.jpg"
 keyword: "ours, russe, pose, sa, patte, géopoliqute, russe, poutine, arménie, conflit, mère, russie, vladimir, Azerbaïdjan"
-pdfname: "L'ours commence a poser sa patte"
+pdfname: "l-ours-commence-a-poser-sa-patte"
 ---
 La mère Russie est de retour !
 

@@ -1,6 +1,7 @@
 ---
-title: "Karl Marx Le Capital analyse (partie 1)"
-author: "subversive.eu"
+title: "Karl Marx, Le Capital (1)"
+author: "subversive"
+url: "karl-marx-le-capital-1.html"
 ShowToc: true
 draft: false
 date: 2020-11-25T18:00:00
@@ -9,13 +10,13 @@ cover:
     alt: "Industrie"
 images: "media/industry-4k-cover-4.jpg"
 keyword: "Karl, Marx, le, capital, analyse, résumé, réflexion, livre, monnaie, capital industriel,"
-pdfname: "Karl Marx Le Capital 1"
+pdfname: "karl-marx-le-capital-1"
 ---
 
 Comment introduire une série, dont le thème central est le résumé corrélé d'une réflexion personnelle sur un livre ? Le livre choisi est Le capital de Karl Marx.
+<!--more-->
 
 L'objectif est d'analyser le problème et de chercher à l'évincer.
-<!--more-->
 
 Les article suivent l'ordre d'apparition du livre à quelques paragraphes prêts.
 

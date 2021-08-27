@@ -14,6 +14,7 @@ pdfname: "la-croix-occitane"
 ---
 
 La Croix Occitane présente sur le drapeau et le blason de la région administrative - L’Occitanie - depuis fin 2016 a une origine encore inconnue, forte de son histoire, elle persiste depuis 16 siècles !
+<!--more-->
 
 {{< figure src="https://criminau.xyz/media/FlagofOccitania.png" alt="Drapeau Occitan" caption="La croix Occitane" >}}
 

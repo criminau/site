@@ -1,12 +1,12 @@
 ---
 title: "Le loup dans l'Hérault"
-author: "subversive.eu"
+author: "subversive"
+url: "le-loup-dans-l-herault.html"
 ShowToc: true
 draft: false
 hidemeta: false
 tocopen: false
 disableShare: false
-comments: true
 date: 2021-06-02T08:00:00
 cover:
     image: "media/loup-min.jpg"
@@ -14,7 +14,6 @@ cover:
 keyword: "Loup, hérault, nombre, brebis, occitanie, languedoc, caroux, sommail, tarn, aveyron"
 pdfname: "le-loup-dans-l-herault"
 ---
-
 
 On se concentrera sur la zone du Caroux-Espinouse, celle du Somail et le secteur Causse du Larzac Méridional.
 Trois départements sont concernés à petite et à plus grande échelle, le Tarn, l'Hérault et l'Aveyron.
@@ -91,7 +90,7 @@ Il faudra trouver une solution concernant les dommages sur les troupeaux, et per
 
 ## Le paradoxe étatique
 
-L'ont débourse toujours plus d'argent à l'indemnisation des éleveurs, à la communications [les relations publiques](https://subversive.eu/articles/conseiller-en-relations-publiques-limportance-de-ce-m%C3%A9tier.html), à la mise en place d'étude large entre pays européen. On lâche de l'argent pour faire taire la gronde, comme avec l'ours, l'on accepte donc que le loup est le problème. Mais l'ont refuse de noter officiellement, "prédatée par un loup" sur une carcasse de brebis où l'on note je cite "Loup non écarté". Mais qu'est-ce que cela veut dire ?.
+L'ont débourse toujours plus d'argent à l'indemnisation des éleveurs, à la communication [les relations publiques ](https://criminau.xyz/conseiller-en-realtions-publiques.html), à la mise en place d'étude large entre pays européen. On lâche de l'argent pour faire taire la gronde, comme avec l'ours, l'on accepte donc que le loup est le problème. Mais l'ont refuse de noter officiellement, "prédatée par un loup" sur une carcasse de brebis où l'on note je cite "Loup non écarté". Mais qu'est-ce que cela veut dire ?.
 
 
 ## Sources

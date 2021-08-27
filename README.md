@@ -21,7 +21,9 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [X] Définir une politique à propos des images
 - [ ] Vérification des articles et retour des pdf  [progressivement]
 - [ ] Nouveaux url avec caractère lisible [progressivement]
+- [ ] Correction des liens internes [progressivement]
 - [X] Opt out FLoC
+- [X] Suppression des shortcodes tabs + details + Mark -> problème RSS
 - [X] Définir une politique à propos des images
 - [ ] Optimiser la vitesse de chargement des images
 - [ ] Optimiser la lecture et l'affichage des images

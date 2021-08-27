@@ -1,6 +1,7 @@
 ---
 title: "Installation de ArchLinux avec Astuces"
-author: "subversive"
+author: "criminau"
+url: "installation-archlinux.html"
 ShowToc: true
 draft: false
 hidemeta: false
@@ -8,10 +9,10 @@ tocopen: false
 disableShare: false
 date: 2021-07-20T14:00:00
 keyword: "archlinux, informatique, fr tuto, tutoriel, installer, archfi, xfce, usb"
+prd: "installation-archlinux"
 ---
 
 Notes concernant l'installation d'un système d'exploitation sous linux.
-
 <!--more-->
 
 ## I. Le choix d'Archlinux
@@ -50,13 +51,13 @@ Si vous n'en avez pas, faites crtl+alt+f2 ou alt+f2.
 
 Normalement le clavier est toujours en anglais, tapez :
 
-```
+```angular2
 localectl
 ```
 
 (il vous affiche les paramètres), passons le en FR et continuons pour l'interface de connexion.
 
-```
+```angular2
 localectl set-locale LANG=fr_FR.UTF-8
 localectl set-keymap fr
 localectl set-x11-keymap fr
@@ -69,7 +70,7 @@ La le pc redémarre avec cette fois-ci un clavier en français (enfin vous pouve
 
 Maintenant on va installer yay l'outils pour installer rapidement les paquets de la communauté, via le terminal :
 
-```
+```angular2
 git clone yay
 cd yay
 makepkg -si
@@ -79,7 +80,7 @@ makepkg -si
 
 #### a. Pour installer un paquet (AUR=yay) via le terminal
 
-```
+```angular2
 yay -S nomdupaquet
 sudo pacman -S nomdupaquet
 ```
@@ -93,7 +94,7 @@ RSS/atom -> rssowl.org (rssowlnix-bin)
 
 #### c. Désinstaller un paquet
 
-```
+```angular2
 yay -R nomdupaquet
 sudo pacman -Rns nomdupaquet
 ```
@@ -104,7 +105,7 @@ Astuce pour récupérer une clé usb passée par balena.io/etcher/ depuis window
 
 Tout se fait au clavier.
 
-```
+```angular2
 windows+R
 CMD
 diskpart.exe

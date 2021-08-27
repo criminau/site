@@ -1,12 +1,12 @@
 ---
 title: "Les Etats-Uniens nos copains"
-author: "subversive.eu"
+author: "subversive"
+url: "les-etats-uniens-nos-copains.html"
 ShowToc: true
 draft: false
 hidemeta: false
 tocopen: false
 disableShare: false
-comments: true
 date: 2021-03-17T14:00:00
 cover:
     image: "media/02-solitaire_small_rgb-min.jpeg"
@@ -24,7 +24,7 @@ Depuis 2011, Nord Stream 1 sert l'Europe en gaz russe via la baltique et l'Allem
 
 Remettons tous les points à plat pour avoir une vue d'ensemble.
 
-{{< figure src="https://subversive.eu/media/NorthStream-min.png" alt="Nord Stream carte" caption="Carte du tracé du North Stream." >}}
+{{< figure src="https://criminau.xyz/media/NorthStream-min.png" alt="Nord Stream carte" caption="Carte du tracé du North Stream." >}}
 
 Par rapport au droit international, les pays concernés par le tracé (soit le tracé passe par leur zone et/ou leur eaux territoriales) sont Russie (118km), Finlande (369km), Suède (482km), Danemark (149km), Allemagne (66km).
 

@@ -1,26 +1,23 @@
 ---
 title: "La Nouvelle-Calédonie, collectivité de la République Française"
-author: "subversive.eu"
+author: "subversive"
+url: "nouvelle-caledonie-vs-french-republic.html"
 ShowToc: true
 draft: false
 hidemeta: false
 tocopen: false
 disableShare: false
 date: 2021-01-22T09:00:00+02:00
-hidemeta: false
-tocopen: false
-disableShare: false
 cover:
     image: "media/640px-Flag_of_FLNKS.png"
     alt: "Drapeau de la Nouvelle-Calédonie"
-    Caption: ""
+    Caption: "Drapeau de la Nouvelle-Calédonie"
 images: "media/640px-Flag_of_FLNKS.png"
 keyword: "collectivité, Nouvelle-Calédonie, République Française, histoire de la colonisation, kanak,"
 pdfname: "nouvelle-caledonie-vs-french-republic"
 ---
 
 Histoire d'une colonisation et d'une néo-colonisation française.
-
 <!--more-->
 
 ## Histoire
@@ -108,7 +105,7 @@ Résultats de 2020 : Le "non" l'emporte pour 53,3% des électeurs.
 
 Observons la carte ci-dessous :  
 
-{{< figure src="https://subversive.eu/media/referendum-nvlle-cal-web.png" alt="image" caption="referendum du 4 Octobre 2020" class="right" >}}
+{{< figure src="https://criminau.xyz/media/referendum-nvlle-cal-web.png" alt="image" caption="referendum du 4 Octobre 2020" class="right" >}}
 
 L'on remarque très vite que les kanaks ont voté pour l'indépendance et les non-kanak contre. Cela pause un problème d'autodétermination.
 

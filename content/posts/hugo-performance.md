@@ -1,12 +1,12 @@
 ---
 title: "Hugo 100% Lighthouse"
 author: "subversive"
+url: "hugo-100-lighthouse.html"
 ShowToc: true
 draft: false
 hidemeta: false
 tocopen: false
 disableShare: false
-comments: true
 date: 2021-03-10T18:00:00
 cover:
     image: "media/lighthouse-100x4.jpg"
@@ -18,7 +18,7 @@ pdfname: "hugo-100-lighthouse"
 ---
 
 
-Une fois le [site hugo créé](https://criminau.xyz/articles/creer-un-site-internet-ou-un-blog-statique-en-2020.html), il ne sera pas optimisé, consommant des ressources inutilement, offrant peu de confort aux visiteurs.
+Une fois le [site hugo créé](https://criminau.xyz/creer-un-site-internet-statique-en-2020.html), il ne sera pas optimisé, consommant des ressources inutilement, offrant peu de confort aux visiteurs.
 <!--more-->
 
 ## Introduction
@@ -102,7 +102,7 @@ DefaultContentLanguage: fr
 
 ## SEO
 
-- Copier le [head.html](https://raw.githubusercontent.com/criminau/site/master/themes/PaperMod/layouts/partials/head.html)
+- Copier le [head.html](https://raw.githubusercontent.com/criminau/site/master/themes/theme-1/layouts/partials/head.html)
 - Plus de détails sur la [liste awesome-hugo-book](https://criminau.github.io/awesome-hugo-book/#contenu)
 
 Lisez bien avec attention le OpenGraph Protocol + Les twitters Cards, et schema.org.

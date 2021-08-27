@@ -1,6 +1,7 @@
 ---
 title: "Qui dirige le monde ?"
-author: "subversive"
+author: "criminau"
+url: "qui-dirige-le-monde.html"
 ShowToc: true
 draft: false
 hidemeta: false
@@ -8,6 +9,7 @@ tocopen: false
 disableShare: false
 date: 2021-07-25T14:00:00
 keyword: "JP Morgan, Goldman Sachs, monnaie, technologie, système, monétaire, création, économie, finance"
+pdf: "qui-dirige-le-monde"
 ---
 
 Qui dirige le monde ?
@@ -19,8 +21,8 @@ Bien comprendre les mécanismes décrits sans effort demande du temps, beaucoup 
 
 ## Notes avant lecture
 
-Je vous invite à lire ou relire l'article sur la [Corrélation entre inflation et chute des civilisations](https://subversive.eu/articles/corr%C3%A9lation-entre-inflation-et-chute-des-civilisations.html).  
-Vous pouvez également lire Karl Marx [Le capital 1](https://subversive.eu/articles/karl-marx-le-capital-analyse-partie-1.html) et [Le capital 2](https://subversive.eu/articles/karl-marx-le-capital-analyse-partie-2.html).  
+Je vous invite à lire ou relire l'article sur la [corrélation entre inflation et chute des civilisations](https://criminau.xyz/correlation-entre-inflation-et-chute-des-civilisations.html).  
+Vous pouvez également lire Karl Marx [Le capital 1](https://criminau.xyz/karl-marx-le-capital-1.html) et [Le capital 2](https://criminau.xyz/karl-marx-le-capital-2.html).  
 
 Décrire et comprendre les phénomènes décrits demande énormément de temps. Les assimiler encore plus de temps.
 
@@ -304,7 +306,7 @@ Ses [directeurs](https://en.wikipedia.org/wiki/Structure_of_the_Federal_Reserve_
 
 Les directeurs, présidents, l'ensemble des personnels sont des travailleurs qui éxécutent le travail demandé par les actionnaires via les administrateurs. Dans le cas d'une association ceux sont les membres qui prennent la décision.
 
-Dans ses deux cas, chaque citoyen états-unien ne possède par des parts égales dans les réserves régionales ? Et chaque réserve régionale n'ont pas la même influence.
+Dans ses deux cas, chaque citoyen états-unien ne possède-t-il pas des parts égales dans les réserves régionales ? Et chaque réserve régionale n'ont pas la même influence.
 
 Le trouble est donc permanent. Rien ne prouve qu'elle est publique, et rien ne prouve qu'elle est privée.  
 Sa création est racontée dans le livre de [SONG Hongbing La Guerre Des Monnaies 2007](https://ia802901.us.archive.org/12/items/songhongbinglaguerredesmonnaies2007/SONG%20Hongbing%20-%20La%20guerre%20des%20monnaies-2007.pdf)
@@ -323,7 +325,7 @@ Dans ces deux exemples, nous voyons à quel point, en corrélation avec le chapi
 
 ## V. Le contrôle de la masse monétaire
 
-Nous l'avons vu sur les articles du [capital de karl max](https://subversive.eu/articles/karl-marx-le-capital-analyse-partie-1.html), la monnaie est une marchandise, l'on spécule à la hausse ou à la baisse. Elle est régit par l'offre et la demande.  
+Nous l'avons vu sur les articles du [capital de karl max](https://criminau.xyz/karl-marx-le-capital-1.html), la monnaie est une marchandise, l'on spécule à la hausse ou à la baisse. Elle est régit par l'offre et la demande.  
 Les banques centrales via les taux d'intérêts prétendent en contrôler leurs valeurs d'échanges [^9].
 
 [^9]: [Taux des banques centrales](https://forex.tradingsat.com/outils-forex/taux-banques-centrales/)
@@ -512,7 +514,7 @@ C'est une lutte à mort pour la monnaie. Et c'est exactement ce que va faire la 
 ### La France
 
 La france est en europe et nous avons signé des traités européens.  
-L'article [sommes-nous en démocratie ?](https://subversive.eu/articles/sommes-nous-en-d%C3%A9mocratie-en-france-avec-leurope-analyse.html) récapitule cette section.  
+L'article [démocratie ?](https://criminau.xyz/democratie.html) récapitule cette section.  
 La France donc s'endette chez le privée et le paye pour le remercier d'avoir créé de la monnaie qu'elle a lui-même autorisé à créer...
 
 Cette philosophie ce nomme la clause de non solidarité → l'idée est qu'il faut encourager les pays à ne pas être dépensier et donc il n'y aura pas solidarité.  
@@ -691,8 +693,6 @@ VI.
 VII.  
 [Comprendre la dette publique (en quelques minutes)](https://iteroni.com/watch?v=ZE8xBzcLYRs)  
 [Quand l'état perd le controle de sa monnaie, il court à la faillite](https://iteroni.com/watch?v=n8vGU0Z5-lc)  
-
-
 
 Générales.  
 [Le film "Les Grandes Familles" avec Jean Gabin](https://archive.org/details/1958LesGrandesFamilles)  

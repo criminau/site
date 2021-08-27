@@ -1,6 +1,7 @@
 ---
-title: "Ecrire des commentaires sur un site statique (hugo) avec staticman et heroku"
-author: "subversive.eu"
+title: "Des commentaires avec hugo, staticman et heroku"
+author: "subversive"
+url: "staticman-hugo-heroku.html"
 ShowToc: true
 draft: false
 hidemeta: false
@@ -23,7 +24,10 @@ Tous les tutos disponibles sur le net (que j'ai lu) sont en anglais, ils datent 
 N'oubliez jamais que ce qui fonctionne est sur les codes sources des sites. En ce sens si vous copiez-collez et qu'il y a une erreur, cherchez la mise à jour dans le code source sur github des sites qui tournent avec.
 
 <kbd>Edité le 23/01/21, le pdf n'est pas à jour.</kbd>  
+<kbd>Re-édité le 27/08/21, le pdf n'est tjrs pas à jour + les liens vers mon github son cassé.</kdb>
+<kbd> Les robots cassent ce tuto, il est donc inutile.</kbd>
 
+ 
 ## Requis
 
 - Votre compte github principal.  
