@@ -1,7 +1,7 @@
 ---
-title: Racket américain et démission d’état
+title: "Racket américain et démission d’état"
 author: "subversive"
-url: racket-americain-et-demission-d-etat.html
+url: "racket-americain-et-demission-d-etat.html"
 ShowToc: true
 draft: false
 hidemeta: false

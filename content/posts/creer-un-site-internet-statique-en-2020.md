@@ -62,21 +62,20 @@ git clone votreliendutheme
 Ouvrez votre editeur de text, ouvrez le dossier de votre blog, puis ouvrez le fichier config.yml.
 Pour le thème, mettez le nom du dossier de votre thème choisi.  
 Pour Deploy, ne mettez rien, nous passerons par git.  
-Langage, fr.  
+Language, fr.  
 Vérifier bien le format des dates, mettez les en français pour une lecture plus rapide de vos utilisateurs.
 
 ## Déploiement
 
 Clé SSH :
 
-Allez dans Github settings sous votre profil -> SSH and GPG -> New SSH key. Donnez y un nom.  
-Retourner dans le dossier de votre site -> clic droit -> git bash here.  
+Allez dans Github settings sous votre profil &#x2192; SSH and GPG &#x2192; New SSH key. Donnez y un nom.  
+Retourner dans le dossier de votre site &#x2192; clic droit &#x2192; git bash here.  
 Commande :
 
 ```angular2
 ssh-keygen -t rsa -b 4096 -C "votremail@mail.com"
 ```
-
 
 ```angular2
 clip < ~/.ssh/id_rsa.pub
@@ -91,7 +90,7 @@ Poursuivons sur votre dépôt :
 
 PS: Pour coller du texte dans Git, clic droit paste.
 
-Hugo/Blog -> clic droit -> git bash here.  
+Hugo/Blog &#x2192; clic droit &#x2192; git bash here.  
 Commandes :
 
 ```angular2
@@ -102,13 +101,13 @@ git commit -m "Premier envoi"
 git push -u origin master  
 ```
 
-Votre Dépôt est à jour. Continuons. Allez sur [Netlify](https://www.netlify.com/). -> Get Started for free. Connectez-vous via Github.
+Votre Dépôt est à jour. Continuons. Allez sur [Netlify](https://www.netlify.com/). &#x2192; Get Started for free. Connectez-vous via Github.
 Puis New site from Github. Sélectionnez votre compte Github. Puis le dépôt de votre Blog. Déployez-le.
 Le site déployé dans notre exemple fonctionne. Votre site est normalement sur le net.
 
 ## Intégration (payant, pas obligatoire)
 
-La première chose à faire est de renommer votre domaine. Allez dans site settings -> change site name. Vous vous retrouvez avec exemple-blog.netlify.com . Changez votre baseUrl dans config, en local comme sur Github.
+La première chose à faire est de renommer votre domaine. Allez dans site settings &#x2192; change site name. Vous vous retrouvez avec exemple-blog.netlify.com . Changez votre baseUrl dans config, en local comme sur Github.
 
 Pour ceux ne souhaitant pas payer, sautez ce chapitre.
 
@@ -121,10 +120,10 @@ dns3.p02.nsone.net
 dns4.p02.nsone.net
 ```
 
-Retournez sur la page overview de votre site netlify -> Domain settings -> add custom domain -> collez le vôtre. Forcez et/ou attendez la mise en route HTTPS.
+Retournez sur la page overview de votre site netlify &#x2192; Domain settings &#x2192; add custom domain &#x2192; collez le vôtre. Forcez et/ou attendez la mise en route HTTPS.
 
 Nous allons tenter une redirection de votre domaine netlify vers votre domaine externe, pour cela rendez-vous dans le dossier static de votre site sur le dépôt github :  
-Ouvrez le EDIWeb, créer un fichier ```_redirects``` Copiez-y :
+Ouvrez le EDIWeb, créer un fichier `_redirects` Copiez-y :
 
 
 ```angular2
@@ -135,7 +134,7 @@ http://votresite.netlify.com/* https://votredomaine.fr/:splat 301!
 ```
 
 Enregistrer dans la branche master.
-Penser à mettre le dossier sur votre disque local au même endroit - static -.
+Penser à mettre le dossier sur votre disque local au même endroit /static.
 
 Voilà votre site tourne !
 A vous de jouer pour obtenir du trafic ! Chacun sa méthode.
@@ -145,9 +144,9 @@ Dernière chose pour ne pas vous laisser dans l'embarras.
 ## Mettre à jour son site
 
 Assez complexe, tout d'abords ne changez jamais le nom du dépôt Github. Ainsi que le local.
-Exercez votre mise à jour avec 'hugo server -D' désactivé via le cmd.
+Exercez votre mise à jour avec `hugo server -D` désactivé via le cmd.
 
-Puis clic droit -> GitBash here. Voici la suite de commande :
+Puis clic droit &#x2192; GitBash here. Voici la suite de commande :
 
 ```angular2
 git status

@@ -1,7 +1,7 @@
 ---
-title: Un sens à la vie
+title: "Un sens à la vie"
 author: "subversive"
-url: un-sens-a-la-vie.html
+url: "un-sens-a-la-vie.html"
 ShowToc: true
 draft: false
 hidemeta: false
@@ -9,14 +9,13 @@ tocopen: false
 disableShare: false
 date: 2020-01-29T18:00:00+02:00
 keyword: "sens de la vie, sens, vie, la vie a-t-elle un sens, quel est le sens de la vie, réflexion sens de la vie, c'est quoi la vie"
-pdfname: un-sens-a-la-vie
+pdfname: "un-sens-a-la-vie"
 ---
 
 De réflexion en réflexion, je me suis penché sur le sens de la vie. Qu’est-ce que la vie ? Comment la définir ? Pourrions nous admettre qu’elle ait un sens ?
 <!--more-->
 
 Vie, vient du latin vita, qui s’étends sur plusieurs notions, la période de la naissance à la mort d’un être humain. En passant par son rapport à sa subsistance. En passant par des personnes qui nous sont chères. Ainsi le terme reste flou et large. Couplée avec sens, la notion s’oriente vers un chemin, une destinée fixée ou suivie.
-
 
 La notion scientifique est simple, c’est la capacité à se reproduire d’un objet, un organisme, donc de perpétuer. Logique après tout, les peuples se révoltent quand ils ont peur, parce que la faim cri dans leur ventre, parce que leur environnement pourrait ne plus devenir viable. La peur, émotion primaire, rempli son objectif de perpétuer la vie.
 

@@ -1,7 +1,7 @@
 ---
-title: Vive l'Europe !
+title: "Vive l'Europe !"
 author: "subversive"
-url: vive-l-europe.html
+url: "vive-l-europe.html"
 ShowToc: true
 draft: false
 hidemeta: false

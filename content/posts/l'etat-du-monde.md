@@ -1,7 +1,7 @@
 ---
 title: "L'état du Monde"
 author: "subversive"
-url: l-etat-du-monde.html
+url: "l-etat-du-monde.html"
 ShowToc: true
 draft: false
 hidemeta: false

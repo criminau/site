@@ -1,7 +1,7 @@
 ---
-title: Creer son blog ou son site internet
-author: subversive
-url: creer-son-blog-ou-son-site-internet.html
+title: "Creer son blog ou son site internet"
+author: "subversive"
+url: "creer-son-blog-ou-son-site-internet.html"
 ShowToc: true
 draft: false
 hidemeta: false
@@ -14,6 +14,7 @@ pdfname: "creer-son-blog-ou-son-site-internet"
 
 Ouvrir un site internet sur le domaine public vous engage à respecter les lois en vigueur sur le territoire de votre résidence. Si vous ne souhaitez pas subir le droit en vigueur, vous pouvez vous orienter vers un site caché, .onion.  
 <!--more-->
+
 J’ai utilisé cette méthode, je souhaitai donc vous la partager.  
 Elle n’est pas recommandable pour un site à but lucratif car il s’agit ici d’un CMS statique.  
 Bien évidemment, la création d’un site n’est pas une ligne parfaite, vous devrez affronter des inconvénients techniques.
@@ -28,7 +29,7 @@ Un peu de place dans vos documents - Votre dépôt local -
 Un [thème hugo](https://themes.gohugo.io/) -  
 Un éditeur de code, dans l'exemple nous prendrons [sublime text](https://www.sublimetext.com/) -
 
-Créez votre compte, téléchargez les applications, choisissez votre thème -Il est possible d'en avoir plusieurs bien sur).
+Créez votre compte, téléchargez les applications, choisissez votre thème (Il est possible d'en avoir plusieurs bien sur).
 
 ## Installation
 
@@ -36,17 +37,17 @@ Installez 7-zip.
 Installez Git.  
 Sur Github, téléchargez la dernière release Hugo pour votre OS, dans notre exemple, on prendra 60.1-Windows-64bit.  
 Extraire le dossier.  
-Dans vos documents créez un dossier que vous nommez 'Hugo' (respectez la majuscule).  
-Dans ce dossier, créez un dossier 'bin', copiez-y les fichiers extraits de la release Hugo.
+Dans vos documents créez un dossier que vous nommez `Hugo` (respectez la majuscule).  
+Dans ce dossier, créez un dossier `bin`, copiez-y les fichiers extraits de la release Hugo.
 Allez dans le dossier bin, en haut dans l'adresse locale, tapez cmd, puis entrée. Une fois dans l'invite de commande(cmd) collez-y :  
 
-```yaml
+```angular2
 set PATH=%PATH%;C:\Hugo\bin
 ```
 
 Fermez l'onglet cmd, allez dans le dossier Hugo, ouvrez-y cmd.
 
-```yaml
+```angular2
 hugo new site Blog
 ```
 
@@ -59,7 +60,7 @@ Pour plus de souplesse, nous n'allons pas suivre la procédure recommandé par l
 Cliquez sur download, puis sur github téléchargez-le :
 
 Faites extraire. Allez dans les dossiers du thème. Chaque thème est unique. Afin de pouvoir le modifier, ainsi que l'optimiser à ses goûts, nous allons procéder à des petites modifications.  
-Créez un dossier 'theme1', puis y insérez les dossiers et fichiers du thème :
+Créez un dossier `theme1`, puis y insérez les dossiers et fichiers du thème :
 * archetypes
 * assets
 * i18n
@@ -68,7 +69,8 @@ Créez un dossier 'theme1', puis y insérez les dossiers et fichiers du thème :
 * .gitattributes
 
 Allez dans le dossier de votre site hugo/Blog, lancez le cmd. Dictez les commandes :
-```yaml
+
+```angular2
 hugo new about.md
 hugo new posts/article1.md
 ```
@@ -76,16 +78,16 @@ hugo new posts/article1.md
 Copiez votre dossier theme1, puis collez le dans Hugo/Blog/thèmes/ .
 
 Copiez le dossier static du thème et collez-le dans votre Blog. Faites de-même pour le dossier resources.  
-Egalement pour le fichier config.toml dans examplesite. Remplacez-le. Ouvrez-le avec votre éditeur de code.
+Egalement pour le fichier `config.toml` dans examplesite. Remplacez-le. Ouvrez-le avec votre éditeur de code.
 
 Nous allons le configurer :
 
-Allez dans archetypes/default.md, mettez draft : false. Faites de même dans theme1/archetypes/default.md et posts.md .
-Laissez vide la baseUrl pour l'instant. Nommez le titre de votre Blog. Nommez 'theme1' pour votre thème. Mettez le en français 'fr'.
+Allez dans archetypes/default.md, mettez `draft : false`. Faites de même dans theme1/archetypes/default.md et posts.md .
+Laissez vide la baseUrl pour l'instant. Nommez le titre de votre Blog. Nommez `theme1` pour votre thème. Mettez le en français `fr`.
 
 Config :
 
-Bien votre site tourne ! Testez le via cmd depuis Hugo/Blog, tapez 'hugo server -D', rendez vous dans votre navigateur a l'adresse : http://localhost:1313/.
+Bien votre site tourne ! Testez le via cmd depuis Hugo/Blog, tapez `hugo server -D`, rendez vous dans votre navigateur a l'adresse : http://localhost:1313/.
 
 Maintenant peaufinez votre site, via config.toml, et dans votre thème dossier layouts. Si vous avez plusieurs thèmes, il est très recommandable d'avoir un fichier config pour chaque thème et de le changer à chaque changement de thème. Dans config, le # permet de désactiver les commandes.
 
@@ -96,9 +98,9 @@ Pour écrire des articles, des pages, vous utiliserez le cmd et la commande hugo
 
 Dans cette étape, nous allons utiliser une technique peu coûteuse, vous pouvez si vous le souhaitez ne pas payer. Nous utiliserons Github.
 
-Avant toute chose, dans le dossier de votre blog, créez un fichier netlify.toml et copiez-y :
+Avant toute chose, dans le dossier de votre blog, créez un fichier `netlify.toml` et copiez-y :
 
-```yaml
+```angular2
 
 [build]
   publish = "public"
@@ -122,6 +124,7 @@ Avant toute chose, dans le dossier de votre blog, créez un fichier netlify.toml
   command = "hugo -b $DEPLOY_PRIME_URL --buildFuture"
 
 ```
+
 Changez la version de hugo par celle que vous utilisez.
 
 Clé SSH :
@@ -129,12 +132,9 @@ Clé SSH :
 Allez dans Github settings sous votre profil &#x2192; SSH and GPG &#x2192; New SSH key. Donnez y un nom.  
 Retourner dans le dossier de votre site &#x2192; clic droit &#x2192; git bash here.  
 Commande :  
-```yaml
-ssh-keygen -t rsa -b 4096 -C "votremail@mail.com" | Changez par le mail de votre compte github
 
-Enter a file in which to save the key (/c/Users/you/.ssh/id_rsa):[Press enter] | Appuyez sur Entrée
-Enter passphrase (empty for no passphrase): [Type a passphrase] | Créez un mot de passe
-Enter same passphrase again: [Type passphrase again] | Vérification du mot de passe
+```angular2
+ssh-keygen -t rsa -b 4096 -C "votremail@mail.com"
 
 clip < ~/.ssh/id_rsa.pub
 ```  
@@ -148,10 +148,10 @@ Poursuivons sur votre dépôt :
 
 PS: Pour coller du texte dans Git, clic droit paste.
 
-Hugo/Blog -> clic droit -> git bash here.  
+Hugo/Blog &#x2192; clic droit &#x2192; git bash here.  
 Commandes :
 
-```yaml
+```angular2
 git init  
 git remote add origin git@github.com:moncompte/Blog.git  
 git add .  
@@ -159,35 +159,35 @@ git commit -m "Premier envoi"
 git push -u origin master  
 ```
 
-Votre Dépôt est à jour. Continuons. Allez sur [Netlify](https://www.netlify.com/). -> Get Started for free. Connectez-vous via Github.
+Votre Dépôt est à jour. Continuons. Allez sur [Netlify](https://www.netlify.com/). &#x2192; Get Started for free. Connectez-vous via Github.
 Puis New site from Github. Sélectionnez votre compte Github. Puis le dépôt de votre Blog. Déployez-le.
 Le site déployé dans notre exemple fonctionne. Votre site est normalement sur le net.
 
 ## Intégration
 
-La première chose à faire est de renommer votre domaine. Allez dans site settings -> change site name. Vous vous retrouvez avec exemple-blog.netlify.com . Changez votre baseUrl dans config, en local comme sur Github.
+La première chose à faire est de renommer votre domaine. Allez dans site settings &#x2192; change site name. Vous vous retrouvez avec exemple-blog.netlify.com . Changez votre baseUrl dans config, en local comme sur Github.
 
 Pour ceux ne souhaitant pas payer, la suite n'est pas pour vous.
 
 Si vous ne possédez pas de nom de domaine, achetez-en un. Désactivez le protocole DNSSEC. Enregistrez quatre Serveurs DNS externes :
 
+```angular2
 dns1.p02.nsone.net  
 dns2.p02.nsone.net  
 dns3.p02.nsone.net  
 dns4.p02.nsone.net
+```
 
-Retournez sur la page overview de votre site netlify -> Domain settings -> add custom domain -> collez le vôtre. Forcez et/ou attendez la mise en route HTTPS.
+Retournez sur la page overview de votre site netlify &#x2192; Domain settings &#x2192; add custom domain &#x2192; collez le vôtre. Forcez et/ou attendez la mise en route HTTPS.
 
 Nous allons tenter une redirection de votre domaine netlify vers votre domaine externe, pour cela rendez-vous dans le dossier static de votre site sur le dépôt github :  
-Ouvrez le EDIWeb, créer un fichier "_redirects" Copiez-y :
+Ouvrez le EDIWeb, créer un fichier `_redirects` Copiez-y :
 
 
-```yaml
-
+```angular2
 # Redirect default Netlify subdomain to primary domain
 https://votresite.netlify.com/* https://votredomaine.fr/:splat 301!
 http://votresite.netlify.com/* https://votredomaine.fr/:splat 301!
-
 ```
 
 Enregistrer dans la branche master.
@@ -201,16 +201,17 @@ Dernière chose pour ne pas vous laisser dans l'embarras.
 ## Mettre à jour son site
 
 Assez complexe, tout d'abords ne changez jamais le nom du dépôt Github. Ainsi que le local.
-Exercez votre mise à jour avec 'hugo server -D' désactivé via le cmd.
+Exercez votre mise à jour avec `hugo server -D` désactivé via le cmd.
 
-Puis clic droit -> GitBash here. Voici la suite de commande :
+Puis clic droit &#x2192; GitBash here. Voici la suite de commande :
 
-``` yaml
+```angular2
 git status
 git add .  
 git commit -m "nomdelamiseajour"   
 git push -u origin master ou git push -f origin master  
 ```
+
 Normalement votre site se met à jour directement via le dépôt Github.
 
 Pensez à vérifier de temps en temps sur netlify, que les mises à jour soient bien publiées, il peut-y avoir des surprises !

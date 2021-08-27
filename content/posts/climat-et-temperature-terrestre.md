@@ -1,7 +1,7 @@
 ---
 title: "Climat et température terrestre"
-author: subversive
-url: climat-et-temperature-terrestre.html
+author: "subversive"
+url: "climat-et-temperature-terrestre.html"
 ShowToc: true
 draft: false
 hidemeta: false
