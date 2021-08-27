@@ -10,13 +10,13 @@ enableInlineShortcodes: true
 theme: theme-1
 
 enableRobotsTXT: false
-buildFuture: false # Test ok / functionnal
+buildFuture: false
 buildExpored: false
 buildDraft: false
 
 # Perf Active later.
 minify:
- minifyOutput: false
+ minifyOutput: true
 
 #LiveReload Hugoreload
 disableLiveReload: true
@@ -44,7 +44,6 @@ params:
 # Paper Mod
   env: production
   cover:
-    responsiveImages: false   # Perf ! A CHECK
     linkFullImages: true
 
   HomeInfoParams:
