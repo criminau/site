@@ -5,7 +5,6 @@ ShowToc: true
 draft: false
 date: 2021-01-11T18:00:00
 cover:
-    relative: true
     image: "media/industry-4k-cover-3-min.jpg"
     alt: "Industrie"
 images: "media/industry-4k-cover-3-min.jpg"
@@ -61,7 +60,7 @@ Cette dmt produit la complexification des machines donc de la technique donc de 
 
 Le but de la machine est, d’après tout bon capitaliste, de rendre les marchandises meilleur marché, augmenter sa vitesse de production sans toucher au salaire de l’ouvrier, elle est un moyen de produire de la survaleur et non un moyen de confort pour le travailleur.
 
-Voyons la composition d’une machinerie : 
+Voyons la composition d’une machinerie :
 La machine motrice, le mécanisme de transmission et la machine-outils ou machine de travail. C’est la troisième partie, la machine-outils qui fait le travail de production de la marchandise. C’est la traduction du travail humain en mécanique autonomes et automatisé.
 
 Cette partie de la machine est divisé en deux :
@@ -71,10 +70,10 @@ Le contrôle aujourd’hui se voit remplacer par des IA qu’il faut contrôler 
 
 Nous continuons à diviser le travail.
 
-Dans la machine motrice, il y a quelques inconvénients. Il faut que la quantité d’énergie disponible soit « domestiquée » c’est à dire qu’il ne faut pas en manquer lors de production accru et être capable de réduire son utilisation si il y a un baisse de la demande. Ce résonnement optimise les coûts.. 
+Dans la machine motrice, il y a quelques inconvénients. Il faut que la quantité d’énergie disponible soit « domestiquée » c’est à dire qu’il ne faut pas en manquer lors de production accru et être capable de réduire son utilisation si il y a un baisse de la demande. Ce résonnement optimise les coûts..
 
 On observe avec les machines la même division du travail qu’avec les hommes.
-La manufacture fabrique les machines qui supprimerons l’entreprise manufacturière. Cette nouvelle manufacture se voit elle aussi chamboulée par les avancées technologiques qui l’industrialisent. Il arrive que certaines machines modernes, comme la presse d’imprimerie, le métier à tisser à vapeur ou encore la machine à carder, ne peuvent être fournies par la même manufacture. 
+La manufacture fabrique les machines qui supprimerons l’entreprise manufacturière. Cette nouvelle manufacture se voit elle aussi chamboulée par les avancées technologiques qui l’industrialisent. Il arrive que certaines machines modernes, comme la presse d’imprimerie, le métier à tisser à vapeur ou encore la machine à carder, ne peuvent être fournies par la même manufacture.
 
 Ainsi les changements des modes de production dans une sphère de l’industrie entraînent et bouleversent des changements dans d’autres. Ces mêmes changements engagés par le capital engagent une révolution dans les moyens de communication et de transports. Tout fut adopté pour l’industrie : bateau à vapeur, chemin de fer, télégraphes.
 

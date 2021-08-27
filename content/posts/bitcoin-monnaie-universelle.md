@@ -9,7 +9,6 @@ tocopen: false
 disableShare: false
 date: 2020-11-01T18:00:00+02:00
 cover:
-    relative: true
     image: "media/bitcoin-cover-min.jpg"
     alt: "Bitcoin cryptomonnaie"
     Caption: ""

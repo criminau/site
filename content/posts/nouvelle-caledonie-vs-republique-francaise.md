@@ -11,7 +11,6 @@ hidemeta: false
 tocopen: false
 disableShare: false
 cover:
-    relative: true
     image: "media/640px-Flag_of_FLNKS.png"
     alt: "Drapeau de la Nouvelle-Calédonie"
     Caption: ""
@@ -36,7 +35,7 @@ L'intérêt pour les ressources en nickel et la Zone Économique Exclusive (ZEE)
 
 Kanak signifie "être humain" en hawaïen "kanaka", le mot Canaque est devenu péjoratif en Europe, que l'on remplacera par "indigène", "Mélanésien" et "autochtone".
 
-> Nominibus mollire licet mala 
+> Nominibus mollire licet mala
 
 ### Multiples révoltes
 
@@ -115,7 +114,7 @@ L'on remarque très vite que les kanaks ont voté pour l'indépendance et les no
 
 Puis lorsque l'on écoute les parigots :
 
-> "ne traite que la question de l'inscription d'office d'électeurs remplissant a priori les conditions pour 
+> "ne traite que la question de l'inscription d'office d'électeurs remplissant a priori les conditions pour
 > participer au scrutin, avec comme finalité d'inscrire le maximum d'électeurs potentiels"
 > Annick Girardin.
 

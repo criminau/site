@@ -1,3 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-https://criminau-site.netlify.app/* https://criminau.xyz/:splat 301!
-http://criminau-site.netlify.app/* http://criminau.xyz/:splat 301!

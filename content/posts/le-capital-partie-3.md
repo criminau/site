@@ -5,7 +5,6 @@ ShowToc: true
 draft: true
 date: 2025-00-01T18:00:00
 cover:
-    relative: true
     image: "media/industry-4k-cover-3-min.jpg"
     alt: "Industrie"
 images: "media/industry-4k-cover-3-min.jpg"

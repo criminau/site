@@ -9,7 +9,6 @@ disableShare: false
 comments: true
 date: 2021-03-10T18:00:00
 cover:
-    relative: true
     image: "media/lighthouse-100x4.jpg"
     alt: "100% Lighthouse perf !"
     Caption: "100% Lighthouse perf !"

@@ -9,7 +9,6 @@ tocopen: false
 disableShare: false
 date: 2019-11-09T18:00:00+02:00
 cover:
-    relative: true
     image: "media/giletsjaune-min.jpg"
     alt: "Gilets Jaune"
 images: "media/giletsjaune-min.jpg"

@@ -9,7 +9,6 @@ disableShare: false
 comments: true
 date: 2021-03-17T14:00:00
 cover:
-    relative: true
     image: "media/02-solitaire_small_rgb-min.jpeg"
     alt: "Pipelay of the Nord Stream 2 Pipeline has started in Finland"
     Caption: "crédits : © Allseas stock photo"

@@ -9,7 +9,6 @@ hidemeta: false
 tocopen: false
 disableShare: false
 cover:
-    relative: true
     image: "media/markdown-cover-min.jpg"
     alt: "Markdown Syntax"
     Caption: ""

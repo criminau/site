@@ -10,7 +10,6 @@ disableShare: false
 noindex: false
 date: {{ .Date }}
 cover:
-    relative: false
     image: "media/"
     alt: "Description de l'image"
     caption: "Légende"

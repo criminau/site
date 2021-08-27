@@ -7,12 +7,6 @@ hidemeta: false
 tocopen: false
 disableShare: false
 date: 2021-07-20T14:00:00
-cover:
-    relative: true
-    image: ""
-    alt: ""
-    Caption: ""
-images: ""
 keyword: "archlinux, informatique, fr tuto, tutoriel, installer, archfi, xfce, usb"
 ---
 

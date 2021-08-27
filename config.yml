@@ -16,7 +16,7 @@ buildDraft: false
 
 # Perf Active later.
 minify:
- minifyOutput: true
+ minifyOutput: false
 
 #LiveReload Hugoreload
 disableLiveReload: true
@@ -30,6 +30,7 @@ params:
   imagesdefault: 'android-chrome-192x192.png'
   ShowShareButtons: true
   ShowPostNavLinks: true
+  ShowReadingTime: true
   author: criminau.xyz
   RSSauthor: oc-criminua@tutanota.com
   copyright: 'https://criminau.xyz/internetlibre.txt'
@@ -37,7 +38,8 @@ params:
   defaultTheme: auto
   label:
     icon: apple-touch-icon.png
-    text: texte du logo?
+    iconHeight: 30px
+    iconwidth: 30px
 
 # Paper Mod
   env: production
