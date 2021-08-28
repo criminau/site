@@ -9,7 +9,7 @@ tocopen: false
 disableShare: false
 date: 2021-07-25T14:00:00
 keyword: "JP Morgan, Goldman Sachs, monnaie, technologie, système, monétaire, création, économie, finance"
-pdf: "qui-dirige-le-monde"
+pdfname: "qui-dirige-le-monde"
 ---
 
 Qui dirige le monde ?

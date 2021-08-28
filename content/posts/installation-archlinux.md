@@ -9,7 +9,7 @@ tocopen: false
 disableShare: false
 date: 2021-07-20T14:00:00
 keyword: "archlinux, informatique, fr tuto, tutoriel, installer, archfi, xfce, usb"
-prd: "installation-archlinux"
+pdfname: "installation-archlinux"
 ---
 
 Notes concernant l'installation d'un système d'exploitation sous linux.
