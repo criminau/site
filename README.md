@@ -19,20 +19,21 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [X] Redirect 301 du domaine netlify vers criminau.xyz
 - [X] Cache control politique 1 an.
 - [X] Définir une politique à propos des images
-- [ ] Vérification des articles et retour des pdf [progressivement]
+- [X] Vérification des articles et retour des pdf [progressivement]
 - [X] Nouveaux url avec caractère lisible [progressivement]
-- [ ] Correction des liens internes [progressivement]
-- [ ] Opt out FLoC ?
+- [X] Correction des liens internes [progressivement]
+- [X] Protocole tachyons-x-ray
 - [X] Suppression des shortcodes tabs + details + Mark -> problème RSS
 - [X] Définir une politique à propos des images
+- [ ] Opt out FLoC ?
 - [ ] Optimiser la vitesse de chargement des images
 - [ ] Optimiser la lecture et l'affichage des images
+
 ---
 
 <blockquote>Quelques taches :</blockquote>
 
 - [ ] Protocole wave.webaim.org
-- [X] Protocole tachyons-x-ray
 - [ ] Etudier pour changer la taille de police par rapport taille de l'écran
 - [ ] Définir une politique à propos des brouillons
 - [ ] Définir une politique à propos des catégories

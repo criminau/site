@@ -115,7 +115,13 @@
 .post-content li {
     margin-top: 5px;
 }
-
+.post-content li a{
+    text-decoration: underline;
+    text-decoration-color: var(--content);
+}
+.post-content li a:hover{
+    font-weight: bolder;
+}
 .post-content li p {
     margin-bottom: 0;
 }
