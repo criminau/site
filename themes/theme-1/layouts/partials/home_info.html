@@ -3,7 +3,13 @@
 {{- with $.Site.Params.homeInfoParams }}
 <article class="first-entry home-info">
     <header class="entry-header">
-        <h2>{{- .Title | markdownify }}</h2>
+      {{- if .Site.Params.label.icon }}
+      <h1>{{- .Title | markdownify }}</h1>
+      {{- else if not .IsHome -}}
+      <h2>{{- .Title | markdownify }}</h2>
+      {{- else }}
+      <h2>{{- .Title | markdownify }}</h2>
+      {{- end }}
     </header>
     <section class="entry-content">
         <p>{{- .Content | markdownify }}</p>
@@ -17,9 +23,9 @@
 {{- range . -}}
 <a class="sidebar-nav-item" href="{{ .url }}" rel="noopener noreferrer"
  title="{{ .name | humanize }}">{{ .name }}</a>&nbsp;&nbsp;
-{{- end -}} 
 {{- end -}}
-        
+{{- end -}}
+
     </footer>
 </article>
 {{- end}}

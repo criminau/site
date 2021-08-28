@@ -10,45 +10,24 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 
 ## Prochaine version
 
-### V.02.5
+### V.02.6
 
-- [x] Protocole Revenge.css
-- [X] Protocole totA11y
-- [x] Etudier vitesse des Images
-- [X] Optimisation de la vitesse de chargement avec twitter
-- [X] Redirect 301 du domaine netlify vers criminau.xyz
-- [X] Cache control politique 1 an.
-- [X] Définir une politique à propos des images
-- [X] Vérification des articles et retour des pdf [progressivement]
-- [X] Nouveaux url avec caractère lisible [progressivement]
-- [X] Correction des liens internes [progressivement]
-- [X] Protocole tachyons-x-ray
-- [X] Suppression des shortcodes tabs + details + Mark -> problème RSS
-- [X] Définir une politique à propos des images
+- [X] Protocole wave.webaim.org
 - [ ] Opt out FLoC ?
 - [ ] Optimiser la vitesse de chargement des images
 - [ ] Optimiser la lecture et l'affichage des images
+- [ ] Travailler les brouillons
 
 ---
 
 <blockquote>Quelques taches :</blockquote>
 
-- [ ] Protocole wave.webaim.org
-- [ ] Etudier pour changer la taille de police par rapport taille de l'écran
 - [ ] Définir une politique à propos des brouillons
-- [ ] Définir une politique à propos des catégories
-
 
 
 <blockquote>Politiques :</blockquote>
 
-- [ ] Des catégories :
- -
- -
-- [ ] Des brouillons :
- -
- -
-- [x] De la taille de la police d'écriture, responsive.
+- [X] De la taille de la police d'écriture, responsive.
  - responsive
  - lisible
 
@@ -62,10 +41,4 @@ https://talk.commonmark.org/t/tables-in-pure-markdown/81/115
 https://github.com/alex-shpak/hugo-book
 
 */
----
-
-### Tools
-css/revenge.css
-{{- $revenge := resources.Get "css/revenge.css" }}
-<link href="{{ $revenge.Permalink }}"  rel="preload stylesheet">
 ---

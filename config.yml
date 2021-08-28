@@ -84,19 +84,11 @@ rsslimit: 20
 enableEmoji: true
 
 # Allow raw html in markdown file
-# blackfrifay is good for custom footnote-return but it's bad for link title="" ..
 # Goldmark is good for render-link.html but bad for custom footnote-return ..
 markup:
   goldmark:
     renderer:
       unsafe: true
-    footnote-backref: "↑"
-  blackFriday:
-    footnoteReturnLinkContents: "↑"
-    hrefTargetBlank: true
-    nofollowLinks: true
-    noreferrerLinks: true
-
 
 privacy:
   disqus:
