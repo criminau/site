@@ -22,7 +22,7 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [ ] Vérification des articles et retour des pdf [progressivement]
 - [X] Nouveaux url avec caractère lisible [progressivement]
 - [ ] Correction des liens internes [progressivement]
-- [X] Opt out FLoC
+- [ ] Opt out FLoC ?
 - [X] Suppression des shortcodes tabs + details + Mark -> problème RSS
 - [X] Définir une politique à propos des images
 - [ ] Optimiser la vitesse de chargement des images

@@ -39,7 +39,7 @@ for = "/*"
   X-Content-Type-Options = "nosniff"
   X-Frame-Options = "SAMEORIGIN"
   X-XSS-Protection = "1; mode=block"
-  Permissions-Policy: interest-cohort=()
+#  Permissions-Policy: interest-cohort=()
 [[headers]]
 for = "/media/*" # in the media folder for 7 days (60*60*24*7), now 365 days
 [headers.values]
