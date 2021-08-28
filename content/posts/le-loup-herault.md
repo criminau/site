@@ -1,7 +1,7 @@
 ---
 title: "Le loup dans l'Hérault"
 author: "subversive"
-url: "le-loup-dans-l-herault.html"
+slug: "le-loup-dans-l-herault"
 ShowToc: true
 draft: false
 hidemeta: false

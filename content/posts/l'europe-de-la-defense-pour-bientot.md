@@ -1,7 +1,7 @@
 ---
 title: "L'Europe de la défense, pour bientôt"
 author: "subversive"
-url: "l-europe-de-la-defense-pour-bientot.html"
+slug: "l-europe-de-la-defense-pour-bientot"
 ShowToc: true
 draft: false
 hidemeta: false

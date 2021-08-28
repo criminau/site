@@ -1,7 +1,7 @@
 ---
-title: Les gilets jaunes triompheront
-author: subversive
-url: les-gilets-jaunes-triompheront.html
+title: "Les gilets jaunes triompheront"
+author: "subversive"
+slug: "les-gilets-jaunes-triompheront"
 ShowToc: false
 draft: false
 hidemeta: false

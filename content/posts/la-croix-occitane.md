@@ -1,7 +1,7 @@
 ---
 title: "La croix occitane (crotz occitana)"
 author: "subversive"
-url: "la-croix-occitane.html"
+slug: "la-croix-occitane"
 ShowToc: true
 draft: false
 hidemeta: false

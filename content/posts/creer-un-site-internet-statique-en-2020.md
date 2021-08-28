@@ -1,7 +1,7 @@
 ---
 title: "Creer un site internet ou un blog statique en 2020"
 author: "subversive"
-url: "creer-un-site-internet-statique-en-2020.html"
+slug: "creer-un-site-internet-statique-en-2020"
 ShowToc: true
 draft: false
 hidemeta: false

@@ -1,13 +1,14 @@
 ---
 title: "Karl Marx, Le Capital (2)"
 author: "subversive"
-url: "karl-marx-le-capital-2.html"
+slug: "karl-marx-le-capital-2"
 ShowToc: true
 draft: false
 date: 2021-01-11T18:00:00
 cover:
     image: "media/industry-4k-cover-3-min.jpg"
     alt: "Industrie"
+    caption: ""
 images: "media/industry-4k-cover-3-min.jpg"
 keyword: "Karl, Marx, le, capital, analyse, résumé, réflexion, livre, monnaie, capital industriel,"
 pdfname: "karl-marx-le-capital-2"
@@ -16,6 +17,7 @@ pdfname: "karl-marx-le-capital-2"
 ## Division du travail en manufacture et dans la société (la division sociale du travail)
 
 Ceci est la base universelle du capitalisme.
+<!--more-->
 
 D’après Karl Marx, l’urbanisme provient de la production de masse, de la manufacture. On retrouve cette vision manufacturière en division territoriale, a tel endroit l’on fait telle chose, a d’autre d’autre chose. <!--more-->
 Cela développe le compartimentage de la société, des spécialisations, une forme de parcellisation de l’Homme.
@@ -182,7 +184,7 @@ Vous me direz, avec ces machines je pourrais investir plus (le salaire de change
 
 Ce capitalisme s’étend entre continent, à échelle mondiale dès lorsque vous dopez la technique d’une grande industrie, celle-ci dope le transport et la communication à grande échelle et ce capitalisme divise encore plus le monde entre pays producteur de laine (l’Australie par exemple à l ‘époque) et pays agricole ou industrialisé. Ceux sont rien de plus que des territoires qui dépendent du marché.
 
-L’aptitude des fabriques à prendre par à-coups une extension énorme et leur dépendance à l’égard du marché mondial engendre nécessaire une fièvre productive suivie d’un encombrement des marchés, dont la contraction provoque alors la paralysie. [Lisez l’article sur l’histoire de l’inflation.LYNK]()
+L’aptitude des fabriques à prendre par à-coups une extension énorme et leur dépendance à l’égard du marché mondial engendre nécessaire une fièvre productive suivie d’un encombrement des marchés, dont la contraction provoque alors la paralysie. [Lisez l’article sur l’histoire de l’inflation](https://criminau.xyz/correlation-entre-inflation-et-chute-des-civilisations.html).
 
 L’Histoire nous montre et Karl Marx nous explique combien la vie de l’industrie se transforme en une suite de période de moyenne activité, de prospérité, de surproduction, de crise, et de surproduction. L’utilisation des machines et la dépendance du marché global créé l’insécurité des emplois et donc les conditions de vie précaire des ouvriers.
 A chaque cycle industriel de crise, cette crise profite au capitaliste, il en profite pour tuer la petite concurrence, baisser les salaires, et les mesures sociales, augmente les heures de travail et surtout l'intensité.

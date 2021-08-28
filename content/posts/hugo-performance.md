@@ -1,7 +1,7 @@
 ---
 title: "Hugo 100% Lighthouse"
 author: "subversive"
-url: "hugo-100-lighthouse.html"
+slug: "hugo-100-lighthouse"
 ShowToc: true
 draft: false
 hidemeta: false

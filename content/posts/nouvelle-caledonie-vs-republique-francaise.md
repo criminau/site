@@ -1,7 +1,7 @@
 ---
 title: "La Nouvelle-Calédonie, collectivité de la République Française"
 author: "subversive"
-url: "nouvelle-caledonie-vs-french-republic.html"
+slug: "nouvelle-caledonie-vs-french-republic"
 ShowToc: true
 draft: false
 hidemeta: false

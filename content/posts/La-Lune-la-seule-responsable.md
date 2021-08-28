@@ -1,7 +1,7 @@
 ---
 title: "La Lune seule responsable ?"
 author: "subversive"
-url: "la-lune-seule-responsable.html"
+slug: "la-lune-seule-responsable"
 ShowToc: true
 draft: false
 date: 2020-11-10 18:00:00
@@ -16,6 +16,7 @@ pdfname: "la-lune-seule-responsable"
 
 Les Hommes ne vivent toujours pas comme des frères malgré quatre millions d’années d’évolution. Quels en sont les raisons et leurs probabilités ?
 <!--more-->
+
 Pourquoi autant de haine ? La Lune aurait-elle son importance ?
 
 Elle joue un rôle pourtant bien précis d’après nos anciens en agronomie, le calendrier lunaire serait source d’abondance. Elle régule les marées par sa masse. Mais quel est donc le rapport avec les Hommes et leur bêtise ?

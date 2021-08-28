@@ -1,7 +1,7 @@
 ---
 title: "Légion Etrangère, rapide tour du propriétaire"
 author: "subversive"
-url: "legion-etrangere.html"
+slug: "legion-etrangere"
 ShowToc: true
 draft: false
 hidemeta: false

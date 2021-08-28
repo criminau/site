@@ -1,7 +1,7 @@
 ---
 title: "Réflexion probabilité d'effondrement"
 author: "subversive"
-url: "reflexion-probabilité-d-effondrement.html"
+slug: "reflexion-probabilité-d-effondrement"
 ShowToc: true
 draft: false
 hidemeta: false

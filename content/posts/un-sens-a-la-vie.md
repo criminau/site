@@ -1,7 +1,7 @@
 ---
 title: "Un sens à la vie"
 author: "subversive"
-url: "un-sens-a-la-vie.html"
+slug: "un-sens-a-la-vie"
 ShowToc: true
 draft: false
 hidemeta: false

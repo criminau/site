@@ -1,7 +1,7 @@
 ---
 title: "Qui dirige le monde ?"
 author: "criminau"
-url: "qui-dirige-le-monde.html"
+slug: "qui-dirige-le-monde"
 ShowToc: true
 draft: false
 hidemeta: false

@@ -1,7 +1,7 @@
 ---
 title: "Démocratie ?"
 author: "subversive"
-url: democratie.html
+slug: "democratie"
 ShowToc: true
 draft: false
 hidemeta: false

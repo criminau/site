@@ -1,7 +1,7 @@
 ---
 title: "Markdown Syntax"
 author: "Subversive Theme Author"
-url: "markdown-syntax.html"
+slug: "markdown-syntax"
 ShowToc: true
 draft: false
 date: 2020-11-09T17:44:04+02:00
@@ -21,7 +21,6 @@ This article offers basic Markdown syntax that can be used in Hugo content files
 <!--more-->
 
 PS: Le document PDF est complet sans modification.
-PS [EN]: PDF doc is full, no changes.
 
 [Visualiser la page sans formatage via github](https://raw.githubusercontent.com/criminau/site/master/content/posts/markdownsyntax.md)
 
@@ -45,28 +44,6 @@ Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptio
 
 Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
 
-## Tabs
-
-{{< tabs "uniqueid" >}}
-{{< tab "MacOS" >}}
-
-### MacOS Content
-Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
-
-{{< /tab >}}
-{{< tab "Linux" >}}
-
-### Linux Content
-This is Linux content.
-
-{{< /tab >}}
-{{< tab "Windows" >}}
-### Windows Content
-This is Windows XP content. Prank.
-
-{{< /tab >}}
-{{< /tabs >}}
-
 ## Buttons
 
 {{< button href="https://youtu.be/QRcrsHro6xI" title="Go Home Fucking Tourists" >}}Go Home Fucking Tourists{{< /button >}}
@@ -85,27 +62,6 @@ Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat str
 ### Right Content
 Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
 {{< /columns >}}
-
-## Details
-
-{{< details >}}
-#### Markdown content
-
-Le CSS ne prendra en charge que les titres en h4 soit 4 #(hashtag).  
-La couleur de font est "content" du thème foncé, nommé "dark".  
-{{< /details >}}
-
-{{< details "Custom label" >}}
-#### Markdown content
-
-Lorem markdownum insigne...
-{{< /details >}}
-
-{{< details "Custom Label" "..." >}}
-#### Markdown content
-
-Lorem markdownum insigne...
-{{< /details >}}
 
 
 ## Blockquote
@@ -158,13 +114,17 @@ Table:
 | col 2 is      |    centered     |           $12 |
 | zebra stripes |    are neat     |            $1 |
 
+
+
 | Left-Aligned  | Center Aligned |
 | :-----------: | -------------- |
 | col 3 is      |          $1600 |
 | col 2 is      |            $12 |
 | zebra stripes |             $1 |
 
+
 PS: align attribute works fine but it is obsolete.
+
 
 Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
 
@@ -172,6 +132,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 --------|------
     Bob | 27
   Alice | 23
+
 
 ### Inline Markdown within tables
 
@@ -289,7 +250,7 @@ This no work :
 
 ___
 
-### abbr, sub, sup, kbd, mark
+### abbr, sub, sup, kbd
 
 <abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
 
@@ -299,7 +260,6 @@ X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
 Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
 
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
 
 ## youtube
 

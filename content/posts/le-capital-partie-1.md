@@ -1,7 +1,7 @@
 ---
 title: "Karl Marx, Le Capital (1)"
 author: "subversive"
-url: "karl-marx-le-capital-1.html"
+slug: "karl-marx-le-capital-1"
 ShowToc: true
 draft: false
 date: 2020-11-25T18:00:00

@@ -1,7 +1,7 @@
 ---
 title: "L'ours commence a poser sa patte !"
 author: "subversive"
-ulr: "l-ours-commence-a-poser-sa-patte.html"
+slug: "l-ours-commence-a-poser-sa-patte"
 draft: false
 ShowToc: true
 hidemeta: false
@@ -12,6 +12,7 @@ images: "media/poigne-russia-min.jpg"
 keyword: "ours, russe, pose, sa, patte, géopoliqute, russe, poutine, arménie, conflit, mère, russie, vladimir, Azerbaïdjan"
 pdfname: "l-ours-commence-a-poser-sa-patte"
 ---
+
 La mère Russie est de retour !
 
 Après tant d'année à se faire marcher dessus, d'humiliation, Vladimir Vladimirovitch a remis le pays dans le sens de la marche.

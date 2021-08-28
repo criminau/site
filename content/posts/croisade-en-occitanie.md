@@ -1,7 +1,7 @@
 ---
 title: "Croisade en Occitanie"
 author: "subversive"
-url: "croisade-en-occitanie.html"
+slug: "croisade-en-occitanie"
 ShowToc: true
 draft: false
 hidemeta: false

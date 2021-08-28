@@ -1,7 +1,7 @@
 ---
 title: "Le Droit c'est nul ! Réflexion."
 author: "subversive"
-url: "le-droit-c-est-nul.html"
+slug: "le-droit-c-est-nul"
 draft: false
 ShowToc: true
 hidemeta: false
@@ -15,6 +15,7 @@ pdfname: "le-droit-c-est-nul"
 Le droit régit vos vies, nos vies, mais est-il si juste ? Si bien que nous pourrions ne plus nous en passer ?
 Disons que de réflexion en réflexion le droit est en réalité une sombre affaire.
 <!--more-->
+
 Mêlant philosophie, droit et conditions de la sociabilité cette réflexion vous fera perdre la tête !
 
 ## Définitions
@@ -29,7 +30,6 @@ La démocratie, concept inévitable du droit, est une notion complexe. Dont j'ai
 C'est un ensemble de facteurs qui dans les faits obligent les Hommes à développer eux-mêmes pour eux-mêmes une société JUSTE (littéralement). Donc un facteur qui nuit au dialogue entre les Hommes pour eux et entre eux n'est pas à promouvoir.
 
 L'individu, cette notion sera abordée, il est donc important de la préciser. C'est un individu au sens de vous comme moi, c'est à la fois, vous comme votre voisin, ou cousin, c'est à la fois vous (individu) et nous (individus), vous devez être capable de comprendre les deux échelles, celle d'un individu, comme celle de l'ensemble mais vue indépendamment.
-
 
 ## Critique du Contexte Social et Historique sur Terre
 

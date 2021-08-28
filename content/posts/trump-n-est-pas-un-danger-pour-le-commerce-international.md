@@ -1,7 +1,7 @@
 ---
 title: "Trump n'est pas un danger pour le commerce international"
 author: "real subversive"
-url: "trump-n-est-pas-un-danger-pour-le-commerce-international.html"
+slug: "trump-n-est-pas-un-danger-pour-le-commerce-international"
 ShowToc: true
 draft: false
 hidemeta: false

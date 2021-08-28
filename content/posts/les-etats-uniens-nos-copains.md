@@ -1,7 +1,7 @@
 ---
 title: "Les Etats-Uniens nos copains"
 author: "subversive"
-url: "les-etats-uniens-nos-copains.html"
+slug: "les-etats-uniens-nos-copains"
 ShowToc: true
 draft: false
 hidemeta: false

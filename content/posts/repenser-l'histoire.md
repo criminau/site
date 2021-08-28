@@ -1,7 +1,7 @@
 ---
 title: "Repenser l'Histoire"
 author: "subversive"
-url: "repenser-l-histoire.html"
+slug: "repenser-l-histoire"
 ShowToc: true
 draft: false
 hidemeta: false

@@ -1,7 +1,7 @@
 ---
 title: "Conseiller en relations publiques"
 author: "subversive"
-url: "conseiller-en-realtions-publiques.html"
+slug: "conseiller-en-realtions-publiques"
 ShowToc: true
 draft: false
 hidemeta: false

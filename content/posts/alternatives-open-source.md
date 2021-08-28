@@ -1,7 +1,7 @@
 ---
 title: "Alternatives open source"
 author: "subversive"
-url: "alternatives-open-source.html"
+slug: "alternatives-open-source"
 ShowToc: true
 draft: false
 hidemeta: false

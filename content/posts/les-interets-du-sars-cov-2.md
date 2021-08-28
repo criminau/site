@@ -1,7 +1,7 @@
 ---
 title: "Les intérêts du SArs-Cov-2"
 author: "subversive"
-url: "les-interets-du-sars-cov-2.html"
+slug: "les-interets-du-sars-cov-2"
 ShowToc: true
 draft: false
 hidemeta: false

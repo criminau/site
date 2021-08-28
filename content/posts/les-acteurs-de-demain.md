@@ -1,7 +1,7 @@
 ---
 title: "Les acteurs de demain"
 author: "subversive"
-url: les-acteurs-de-demain.html
+slug: "les-acteurs-de-demain"
 ShowToc: true
 draft: false
 hidemeta: false

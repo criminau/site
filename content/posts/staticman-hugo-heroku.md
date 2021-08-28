@@ -1,7 +1,7 @@
 ---
 title: "Des commentaires avec hugo, staticman et heroku"
 author: "subversive"
-url: "staticman-hugo-heroku.html"
+slug: "staticman-hugo-heroku"
 ShowToc: true
 draft: false
 hidemeta: false
@@ -27,7 +27,7 @@ N'oubliez jamais que ce qui fonctionne est sur les codes sources des sites. En c
 <kbd>Re-édité le 27/08/21, le pdf n'est tjrs pas à jour + les liens vers mon github son cassé.</kdb>
 <kbd> Les robots cassent ce tuto, il est donc inutile.</kbd>
 
- 
+
 ## Requis
 
 - Votre compte github principal.  

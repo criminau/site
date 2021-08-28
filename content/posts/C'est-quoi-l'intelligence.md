@@ -1,7 +1,7 @@
 ---
 title: "C'est quoi l'intelligence ?"
 author: "subversive"
-url: "c-est-quoi-l-intelligence.html"
+slug: "c-est-quoi-l-intelligence"
 ShowToc: true
 draft: false
 hidemeta: false
@@ -123,7 +123,6 @@ Car la connaissance amène le niveau de conscience, elle évite surtout de desce
 Demandons-nous d'abord ce qu'est la conscience ?
 
 ### Conscience de soi
-
 
 #### a+b
 

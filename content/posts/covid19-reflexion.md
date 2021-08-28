@@ -1,7 +1,7 @@
 ---
 title: "Covid19 Réflexion"
 author: "subversive"
-url: "covid19-reflexion.html"
+slug: "covid19-reflexion"
 ShowToc: true
 draft: false
 hidemeta: false

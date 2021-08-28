@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin cryptomonnaie universelle ?"
 author: "subversive"
-url: "bitcoin-cryptomonnaie-universelle.html"
+slug: "bitcoin-cryptomonnaie-universelle"
 ShowToc: true
 draft: false
 hidemeta: false
@@ -130,7 +130,6 @@ Qui acceptera et encouragera une monnaie décentralisé à prospérer sur son te
 
 Qui des gros commerçants autorisera à payer en BTC ses courses, ses voitures, loisirs ? Personne.
 
-
 Surtout que depuis fin Octobre le confinement vise à tuer les petites structures et
 promouvoir les grandes. Mais la probabilité est bien plus faible de voir les grandes
 adhérer au BTC..
@@ -193,6 +192,7 @@ Si des supports deviennent des résistances, il faut vendre encore plus vite.
 Exemple : si le cours passe sous le support, remonte et ne passe pas la résistance.
 
 ## Pour conclure
+
 Bitcoin est une réserve technologique qui vise à redonner le pouvoir financier, monétaire
 et économique à tous les citoyens du monde en offrant un système de paiment
 décentralisé. Mais les Hommes avides et cupides risquent tous de ne pas en profiter.

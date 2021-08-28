@@ -1,7 +1,7 @@
 ---
 title: "La fin de l'hégémonie US"
 author: "subversive"
-url: "la-fin-de-l-hegemonie-us.html"
+slug: "la-fin-de-l-hegemonie-us"
 ShowToc: true
 draft: false
 hidemeta: false

@@ -1,7 +1,7 @@
 ---
 title: "Installation de ArchLinux avec Astuces"
 author: "criminau"
-url: "installation-archlinux.html"
+slug: "installation-archlinux"
 ShowToc: true
 draft: false
 hidemeta: false

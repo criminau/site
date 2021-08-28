@@ -1,7 +1,7 @@
 ---
 title: "Creer son blog ou son site internet"
 author: "subversive"
-url: "creer-son-blog-ou-son-site-internet.html"
+slug: "creer-son-blog-ou-son-site-internet"
 ShowToc: true
 draft: false
 hidemeta: false

@@ -1,7 +1,7 @@
 ---
 title: "Corrélation entre inflation et chute des civilisations"
 author: "subversive"
-url: "correlation-entre-inflation-et-chute-des-civilisations.html"
+slug: "correlation-entre-inflation-et-chute-des-civilisations"
 ShowToc: true
 draft: false
 hidemeta: false
@@ -16,7 +16,6 @@ Cet article ne mettra pas en cause l'inflation dans la chute d'une civilisation,
 <!--more-->
 
 Qu'elle soit la cause ou bien une conséquence. Ainsi nous ferons un détour historique assez flou, nous étudierons l'Histoire, analyserons les raisons des chutes et pour finir nous reviendrons dans l'actualité.  
-
 
 De par l'histoire, l'inflation est un processus de hausse cumulative et auto-entretenue du niveau général des prix. Il lui faut une multitude de paramètres, des variables de longue durée pour évoluer. Voyons cela.  
 
