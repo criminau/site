@@ -14,8 +14,11 @@
 <a title="{{ $alt }}" rel="noopener noreferrer" href="{{ (.Params.cover.image) | absURL }}" target="_blank">
 {{ end -}}
 {{- if $alt }}
+
 <img title="{{ $alt }}" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}" height="100%"
 width="100%">
+
+
 {{- end }}
 {{- if $addLink }}</a>{{ end -}}
 

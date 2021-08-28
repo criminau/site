@@ -1,13 +1,12 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 author: "{{ .Site.Params.author }}"
-url: titre-de-l-article-caractere-simple.html
+slug: "titre-de-l-article-caractere-simple"
 ShowToc: true
 draft: false
 hidemeta: false
 tocopen: false
 disableShare: false
-noindex: false
 date: {{ .Date }}
 cover:
     image: "media/"
@@ -15,7 +14,7 @@ cover:
     caption: "Légende"
 images: "media/"
 keyword: ""
-pdfname: "{{ replace .Name "-" " " | title }}"
+pdfname: "titre-de-l-article-caractere-simple"
 ---
 
 <!--more-->

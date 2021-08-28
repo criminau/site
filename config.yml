@@ -41,7 +41,7 @@ params:
     iconHeight: 30px
     iconwidth: 30px
 
-# Paper Mod
+# Environnement
   env: production
   cover:
     linkFullImages: true
