@@ -7,7 +7,6 @@ draft: false
 hidemeta: false
 tocopen: false
 disableShare: false
-comments: true
 date: 2021-02-05 17:00:00
 keyword: "Commentaires, site, statique, hugo, gohugo, staticman, heroku, open-source, github, netlify"
 pdfname: "staticman-hugo-heroku"
@@ -17,6 +16,7 @@ Bonjour !
 
 Tutoriel pour permettre l'écriture de commentaires sur un site internet statique avec [hugo cms](https://gohugo.io/), [staticman](https://staticman.net/docs/) et [heroku](https://www.heroku.com/).
 <!--more-->
+
 Objectif, offrir a vos visiteurs la possibilité d'écrire des commentaires (ou autres) sans passer par un organisme tel que Graphcomment ou Disqus,... Ainsi vous respectez la vie privée de vos utilisateurs.
 
 Tous les tutos disponibles sur le net (que j'ai lu) sont en anglais, ils datent et certains liens ne fonctionnent plus, bref j'ai du faire un mix de tuto pour y arriver, du coup je vous propose un tuto en français.
@@ -26,7 +26,6 @@ N'oubliez jamais que ce qui fonctionne est sur les codes sources des sites. En c
 <kbd>Edité le 23/01/21, le pdf n'est pas à jour.</kbd>  
 <kbd>Re-édité le 27/08/21, le pdf n'est tjrs pas à jour + les liens vers mon github son cassé.</kdb>
 <kbd> Les robots cassent ce tuto, il est donc inutile.</kbd>
-
 
 ## Requis
 

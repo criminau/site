@@ -1,7 +1,7 @@
 ---
 title: "EDF le monstre est à acheter"
 author: "subversive"
-slug: "edf-le-monstre-est-a-acheter.html"
+slug: "edf-le-monstre-est-a-acheter"
 ShowToc: true
 draft: false
 hidemeta: false

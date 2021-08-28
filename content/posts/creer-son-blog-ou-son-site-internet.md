@@ -209,7 +209,7 @@ Puis clic droit &#x2192; GitBash here. Voici la suite de commande :
 git status
 git add .  
 git commit -m "nomdelamiseajour"   
-git push -u origin master ou git push -f origin master  
+git push -u origin master  
 ```
 
 Normalement votre site se met à jour directement via le dépôt Github.

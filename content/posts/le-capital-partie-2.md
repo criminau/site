@@ -86,7 +86,7 @@ Le caractère social, ici que l’on nomme coopératif (car machine) du procès 
 
 Vous me direz, attendez ça coûte une machine ! Hic Rhodus, hic salta !?
 
-[Souvenez-vous de la première partie](https://criminau.xyz/karl-marx-le-capital-1.html) où la machine est dans le capital constant, ainsi elle fait augmenter le prix malgré la production décuplée qui pouvait faire envisager une baisse. La machine ne créé pas la valeur, elle transforme sa valeur au produit qu’elle fabrique.
+[Souvenez-vous de la première partie](https://criminau.xyz/articles/karl-marx-le-capital-1.html) où la machine est dans le capital constant, ainsi elle fait augmenter le prix malgré la production décuplée qui pouvait faire envisager une baisse. La machine ne créé pas la valeur, elle transforme sa valeur au produit qu’elle fabrique.
 
 La machinerie ne sert que dans le procès de travail et en aucun cas dans le procès de valorisation. Elle n’ajoute jamais plus de valeur qu’elle n’en perd en moyenne par son usure.
 Mais les machines devinrent si complexe qu’elles, contrairement aux hommes, permettent d’économiser, les matières premières et l’énergie. La machine devient, comme les hommes avant elles, un moyen de survaleur par ce fait là. En réduisant l’usure sur la même période de temps et en produisant pareil. Le capitaliste gagne. On retrouve donc la même loi « universelle » du capitalisme : Moins la machine contient elle-même de travail, moins elle ajoute de valeur au produit, la production augmente lorsqu’elle cède de moins en moins de valeur.
@@ -184,7 +184,7 @@ Vous me direz, avec ces machines je pourrais investir plus (le salaire de change
 
 Ce capitalisme s’étend entre continent, à échelle mondiale dès lorsque vous dopez la technique d’une grande industrie, celle-ci dope le transport et la communication à grande échelle et ce capitalisme divise encore plus le monde entre pays producteur de laine (l’Australie par exemple à l ‘époque) et pays agricole ou industrialisé. Ceux sont rien de plus que des territoires qui dépendent du marché.
 
-L’aptitude des fabriques à prendre par à-coups une extension énorme et leur dépendance à l’égard du marché mondial engendre nécessaire une fièvre productive suivie d’un encombrement des marchés, dont la contraction provoque alors la paralysie. [Lisez l’article sur l’histoire de l’inflation](https://criminau.xyz/correlation-entre-inflation-et-chute-des-civilisations.html).
+L’aptitude des fabriques à prendre par à-coups une extension énorme et leur dépendance à l’égard du marché mondial engendre nécessaire une fièvre productive suivie d’un encombrement des marchés, dont la contraction provoque alors la paralysie. [Lisez l’article sur l’histoire de l’inflation](https://criminau.xyz/articles/correlation-entre-inflation-et-chute-des-civilisations.html).
 
 L’Histoire nous montre et Karl Marx nous explique combien la vie de l’industrie se transforme en une suite de période de moyenne activité, de prospérité, de surproduction, de crise, et de surproduction. L’utilisation des machines et la dépendance du marché global créé l’insécurité des emplois et donc les conditions de vie précaire des ouvriers.
 A chaque cycle industriel de crise, cette crise profite au capitaliste, il en profite pour tuer la petite concurrence, baisser les salaires, et les mesures sociales, augmente les heures de travail et surtout l'intensité.

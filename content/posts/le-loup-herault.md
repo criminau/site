@@ -90,7 +90,7 @@ Il faudra trouver une solution concernant les dommages sur les troupeaux, et per
 
 ## Le paradoxe étatique
 
-L'ont débourse toujours plus d'argent à l'indemnisation des éleveurs, à la communication [les relations publiques ](https://criminau.xyz/conseiller-en-realtions-publiques.html), à la mise en place d'étude large entre pays européen. On lâche de l'argent pour faire taire la gronde, comme avec l'ours, l'on accepte donc que le loup est le problème. Mais l'ont refuse de noter officiellement, "prédatée par un loup" sur une carcasse de brebis où l'on note je cite "Loup non écarté". Mais qu'est-ce que cela veut dire ?.
+L'ont débourse toujours plus d'argent à l'indemnisation des éleveurs, à la communication [les relations publiques ](https://criminau.xyz/articles/conseiller-en-realtions-publiques.html), à la mise en place d'étude large entre pays européen. On lâche de l'argent pour faire taire la gronde, comme avec l'ours, l'on accepte donc que le loup est le problème. Mais l'ont refuse de noter officiellement, "prédatée par un loup" sur une carcasse de brebis où l'on note je cite "Loup non écarté". Mais qu'est-ce que cela veut dire ?.
 
 
 ## Sources

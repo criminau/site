@@ -18,7 +18,7 @@ pdfname: "hugo-100-lighthouse"
 ---
 
 
-Une fois le [site hugo créé](https://criminau.xyz/creer-un-site-internet-statique-en-2020.html), il ne sera pas optimisé, consommant des ressources inutilement, offrant peu de confort aux visiteurs.
+Une fois le [site hugo créé](https://criminau.xyz/articles/creer-un-site-internet-statique-en-2020.html), il ne sera pas optimisé, consommant des ressources inutilement, offrant peu de confort aux visiteurs.
 <!--more-->
 
 ## Introduction
