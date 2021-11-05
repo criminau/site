@@ -10,10 +10,10 @@ disableShare: false
 date: 2020-11-20T18:00:00+01:00
 cover:
     relative: true
-    image: "media/the-neurons-cover.jpg"
+    image: "media/the-neurons-cover.avif"
     alt: "neurone dans le cerveau"
     Caption: ""
-images: "media/the-neurons-cover.jpg"
+images: "media/the-neurons-cover.avif"
 keyword: "Intelligence, Liberté, c'est quoi l'intelligence, comment définir l'intelligence, c'est quoi le QI, QI, conscience de soi, conscience"
 pdfname: "c-est-quoi-l-intelligence"
 ---
@@ -77,7 +77,7 @@ Pistons donc le cortex cérébral..
 
 Le cortex cérébral tourne grâce aux neurones. Ces neurones communiquent entre elles via un courant électrique traversant les fibres nerveuses.
 
-{{< figure src="https://criminau.xyz/media/the-oligodendrocytes.jpg" alt="image" caption="Les oligodendrocytes protègent les axones des neurones en formant la gaine de myéline" class="right" >}}
+{{< figure src="https://criminau.xyz/media/the-oligodendrocytes.avif" alt="image" caption="Les oligodendrocytes protègent les axones des neurones en formant la gaine de myéline" class="right" >}}
 Certaines fibres sont recouvertes d'une gaine de myéline isolante constituée d'une spirale à tours jointifs de membrane plasmique particulièrement riche en lipides (cholestérol, phospholipides, glycolipides) qui leur permet d'augmenter la vitesse des signaux électriques qu'elles véhiculent.
 
 Plus le diamètre des gaines de myéline est large, plus la vitesse est élevée.

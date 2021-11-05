@@ -9,10 +9,10 @@ tocopen: false
 disableShare: false
 date: 2021-01-22T09:00:00+02:00
 cover:
-    image: "media/640px-Flag_of_FLNKS.png"
+    image: "media/640px-Flag_of_FLNKS.avif"
     alt: "Drapeau de la Nouvelle-Calédonie"
     Caption: "Drapeau de la Nouvelle-Calédonie"
-images: "media/640px-Flag_of_FLNKS.png"
+images: "media/640px-Flag_of_FLNKS.avif"
 keyword: "collectivité, Nouvelle-Calédonie, République Française, histoire de la colonisation, kanak,"
 pdfname: "nouvelle-caledonie-vs-french-republic"
 ---
@@ -105,7 +105,7 @@ Résultats de 2020 : Le "non" l'emporte pour 53,3% des électeurs.
 
 Observons la carte ci-dessous :  
 
-{{< figure src="https://criminau.xyz/media/referendum-nvlle-cal-web.png" alt="image" caption="referendum du 4 Octobre 2020" class="right" >}}
+{{< figure src="https://criminau.xyz/media/referendum-nvlle-cal-web.avif" alt="image" caption="referendum du 4 Octobre 2020" class="right" >}}
 
 L'on remarque très vite que les kanaks ont voté pour l'indépendance et les non-kanak contre. Cela pause un problème d'autodétermination.
 

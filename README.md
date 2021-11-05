@@ -14,8 +14,8 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 
 - [X] Protocole wave.webaim.org
 - [ ] Opt out FLoC ?
-- [ ] Optimiser la vitesse de chargement des images
-- [ ] Optimiser la lecture et l'affichage des images
+- [ ] Optimiser la vitesse de chargement des images (en cours)
+- [ ] Optimiser la lecture et l'affichage des images (en cours)
 - [ ] Travailler les brouillons
 
 ---
@@ -27,10 +27,10 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 
 <blockquote>Politiques :</blockquote>
 
-- [X] De la taille de la police d'écriture, responsive.
+- [ ] De la taille de la police d'écriture, responsive.
  - responsive
  - lisible
-- [ ] Du format des images .avif
+- [X] Du format des images .avif
 
 ---
 /*

@@ -8,7 +8,7 @@ hidemeta: false
 disableShare: false
 tocopen: false
 date: 2020-11-30T18:00:00+01:00
-images: "media/poigne-russia-min.jpg"
+images: "media/poigne-russia-min.avif"
 keyword: "ours, russe, pose, sa, patte, géopoliqute, russe, poutine, arménie, conflit, mère, russie, vladimir, Azerbaïdjan"
 pdfname: "l-ours-commence-a-poser-sa-patte"
 ---
@@ -28,7 +28,7 @@ Poutine a vécu la chute de l’URSS comme une honte, une humiliation de l'occid
 
 En Russie, son prénom est courant, il signifie "le souverain de la paix" en russe.
 
-{{< figure src="https://criminau.xyz/media/vladimir-chasing.jpg" alt="vladimir Putin avec un sniper" caption="Poutine à la chasse !" class="right" >}}
+{{< figure src="https://criminau.xyz/media/vladimir-chasing.avif" alt="vladimir Putin avec un sniper" caption="Poutine à la chasse !" class="right" >}}
 
 Parti chasser les musulmans en Tchétchénie sous un faux prétexte d'homophobie dont l'occident n'a pas manqué de nous rappeler, le message était pourtant clair, pas d'occident n'y de musulmans devant la tanière.
 
@@ -42,11 +42,11 @@ Tout l'intérêt de l'occident en Syrie est de mettre de l'huile sur le feu est 
 
 La Turquie dont le chef est acculé mais adulé agresse tout le monde. Soutient militairement ses alliés dans des conflits d'ordres religieux comme sur le plateau du Haut-Karabagh qui est une république indépendante d’Arménie. Erdogan ne peut célébrer sa victoire totale sur l'Arménie... L'ours russe est sorti de sa tanière !
 
-{{< figure src="https://criminau.xyz/media/vladimir-armenia-tank-min.jpeg" alt="Tank russe en arménie 2020" caption="type d'armement léger" class="left" >}}
+{{< figure src="https://criminau.xyz/media/vladimir-armenia-tank-min.avif" alt="Tank russe en arménie 2020" caption="type d'armement léger" class="left" >}}
 
 Erdogan est exclu des négociations, exclu des pourparlers, exclu des forces de maintien de la paix. Et pire il voit débarquer sur le jardin noir des troupes militaires hostiles et lourdement armées.
 
-{{< figure src="https://criminau.xyz/media/vladimir-armenia-tank-stay-min.jpeg" alt="Tank russes en arménie 2020" caption="type d'armement léger" class="right" >}}
+{{< figure src="https://criminau.xyz/media/vladimir-armenia-tank-stay-min.avif" alt="Tank russes en arménie 2020" caption="type d'armement léger" class="right" >}}
 
 Pourtant une clause de l'accord de cessez-le-feu entre les deux belligérants spécifie bien un contingent armé, mais d'armes légères !
 
@@ -55,7 +55,7 @@ Ainsi pour la Russie de l'armement léger est dépêché sur le plateau..
 
 Mais en même temps, les troupes de l'armée rouge ne demande que cela !
 
-{{< figure src="https://criminau.xyz/media/vladimir-orgue-min.png" alt="Orgues de Staline version années 2000" caption="Orgues de Staline version années 1980" >}}
+{{< figure src="https://criminau.xyz/media/vladimir-orgue-min.avif" alt="Orgues de Staline version années 2000" caption="Orgues de Staline version années 1980" >}}
 
 Et pire en rencontrant les autorités du Nagorno Karabagh, les russes remettent en question toute l'opération Turque..
 
@@ -101,7 +101,7 @@ Depuis cet incident, Bakou cherche à se justifier.. en vain car l'ours à enfin
 
 Voilà telle était et est la mission de Vladimir Vladimirovitch, mais tonton Russe en veut toujours plus !
 
-{{< figure src="https://criminau.xyz/media/crimee-celebration-min.jpg" alt="Célébration de la victoire en Crimée" class="right" >}}
+{{< figure src="https://criminau.xyz/media/crimee-celebration-min.avif" alt="Célébration de la victoire en Crimée" class="right" >}}
 
 Suite à une expansion territoriale depuis les années 2000 avec la Crimée, le Donbass, la Géorgie, la Russie s'affirme sur l'échiquier mondial comme une superpuissance. De plus leur nouveau missile « Avangard », leur assure avec l’Amérique une armée inattaquable.
 

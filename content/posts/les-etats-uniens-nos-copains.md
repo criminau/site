@@ -141,7 +141,7 @@ Ils ont bien fait d'anticiper [la société russe KVT-RUS se fait attraper](http
 
 ### Analyse du petit train
 
-- [Sanctions chirugicales](https://www.cruz.senate.gov/?p=press_release&id=5524) et pressions redoutables.
+- [Sanctions chirurgicales](https://www.cruz.senate.gov/?p=press_release&id=5524) et pressions redoutables.
 - La peur des investisseurs européens et étrangers face au sanctions entrainant leur retrait du projet.
 - Manque de protection des législations européennes.
 - Manque de courage politique européen ou complicité ou problème de capacité cognitives.
