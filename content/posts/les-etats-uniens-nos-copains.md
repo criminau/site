@@ -9,10 +9,10 @@ tocopen: false
 disableShare: false
 date: 2021-03-17T14:00:00
 cover:
-    image: "media/02-solitaire_small_rgb-min.jpeg"
+    image: "media/02-solitaire_small_rgb-min.avif"
     alt: "Pipelay of the Nord Stream 2 Pipeline has started in Finland"
     Caption: "crédits : © Allseas stock photo"
-images: "media/02-solitaire_small_rgb-min.jpeg"
+images: "media/02-solitaire_small_rgb-min.avif"
 keyword: "Gazoduc, NordStream 2, affaire, nalvany, Russie, Gazprom, Allemagne, Ingérence, Etats-unis, Gaz Russe, Mer Baltique, GNL, énergie, stratégie énergétique"
 pdfname: "les-etats-uniens-nos-copains"
 ---
@@ -24,7 +24,7 @@ Depuis 2011, Nord Stream 1 sert l'Europe en gaz russe via la baltique et l'Allem
 
 Remettons tous les points à plat pour avoir une vue d'ensemble.
 
-{{< figure src="https://criminau.xyz/media/NorthStream-min.png" alt="Nord Stream carte" caption="Carte du tracé du North Stream." >}}
+{{< figure src="https://criminau.xyz/media/northstream-min.avif" alt="Nord Stream carte" caption="Carte du tracé du North Stream." >}}
 
 Par rapport au droit international, les pays concernés par le tracé (soit le tracé passe par leur zone et/ou leur eaux territoriales) sont Russie (118km), Finlande (369km), Suède (482km), Danemark (149km), Allemagne (66km).
 

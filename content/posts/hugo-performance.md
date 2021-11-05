@@ -9,10 +9,10 @@ tocopen: false
 disableShare: false
 date: 2021-03-10T18:00:00
 cover:
-    image: "media/lighthouse-100x4.jpg"
+    image: "media/lighthouse-100x4.avif"
     alt: "100% Lighthouse perf !"
     Caption: "100% Lighthouse perf !"
-images: "media/lighthouse-100x4.jpg"
+images: "media/lighthouse-100x4.avif"
 keyword: "hugo, static, web, site, internet, performance, efficience, lighthouse, google chrome, chrome tools, seo, accessibilité, meilleures pratiques, vitesse, site internet, rapidité, best practices, hugo"
 pdfname: "hugo-100-lighthouse"
 ---

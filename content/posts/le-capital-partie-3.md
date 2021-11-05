@@ -6,12 +6,9 @@ ShowToc: true
 draft: false
 date: 2021-08-28T12:00:00
 cover:
-    image: "media/industry-4k-cover-5-min.jpg"
-    imagel: "media/l/industry-4k-cover-5-min-l.jpg"
-    imagen: "media/n/industry-4k-cover-5-min-n.jpg"
-    images: "media/s/industry-4k-cover-5-min-s.jpg"
+    image: "media/industry-4k-cover-5.avif"
     alt: "Industrie"
-images: "media/industry-4k-cover-3-min.jpg"
+images: "media/industry-4k-cover-5.avif"
 keyword: "Karl, Marx, le, capital, analyse, résumé, réflexion, livre, monnaie, capital industriel,"
 pdfname: "karl-marx-le-capital-3"
 ---

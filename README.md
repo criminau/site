@@ -30,7 +30,7 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [X] De la taille de la police d'écriture, responsive.
  - responsive
  - lisible
-- [ ] Du format des images
+- [ ] Du format des images .avif
 
 ---
 /*

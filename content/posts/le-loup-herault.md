@@ -9,8 +9,9 @@ tocopen: false
 disableShare: false
 date: 2021-06-02T08:00:00
 cover:
-    image: "media/loup-min.jpg"
+    image: "media/loup-min.avif"
     alt: "Photo d'un loup"
+images: "media/loup-min.avif"
 keyword: "Loup, hérault, nombre, brebis, occitanie, languedoc, caroux, sommail, tarn, aveyron"
 pdfname: "le-loup-dans-l-herault"
 ---
