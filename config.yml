@@ -32,7 +32,7 @@ params:
   ShowPostNavLinks: true
   ShowReadingTime: true
   author: criminau.xyz
-  RSSauthor: oc-criminua@tutanota.com
+  RSSauthor: criminau
   copyright: 'https://criminau.xyz/internetlibre.txt'
   disableThemeToggle: false
   defaultTheme: auto

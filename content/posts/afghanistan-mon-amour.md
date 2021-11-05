@@ -1,6 +1,6 @@
 ---
 title: "Afghanistan Mon Amour"
-author: "criminau.xyz"
+author: "criminau"
 slug: "afghanistan-mon-amour"
 ShowToc: true
 draft: false

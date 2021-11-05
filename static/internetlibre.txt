@@ -28,7 +28,6 @@ Pour un web libre, intégralement :
 5. Respect des visiteurs
 
 - Aucune action pour suivre les visiteurs.
-- Droit à l'oubli.
 - Protocole https.
 - Pas d'utilisation commerciale des données utilisateurs.
 
