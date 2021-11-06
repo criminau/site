@@ -9,10 +9,10 @@ hidemeta: false
 tocopen: false
 disableShare: false
 cover:
-    image: "media/markdown-cover-min.jpg"
+    image: "media/markdown-cover-min.avif"
     alt: "Markdown Syntax"
     Caption: ""
-images: "media/markdown-cover-min.jpg"
+images: "media/markdown-cover-min.avif"
 keyword: "Markdown syntax, copy button, figure, details, expand, columns, tabs, blockquote, youtube responsive, HTML, CSS, HUGO, hugo authors, gohugo, hugo cms, Markdown"
 pdfname: "markdown-syntax"
 ---
@@ -262,8 +262,6 @@ Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the ses
 
 
 ## youtube
-
-{{< youtube "xuvCYZMWWMw" >}}
 
 {{< youtube "falFFuZEPd4" >}}
 
