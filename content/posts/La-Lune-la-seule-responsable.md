@@ -6,10 +6,10 @@ ShowToc: true
 draft: false
 date: 2020-11-10 18:00:00
 cover:
-    image: "media/the-moon-cover.jpg"
+    image: "media/the-moon-cover.avif"
     alt: "La lune Responsable du malheur des Hommes ?"
     Caption: ""
-images: "media/the-moon-cover.jpg"
+images: "media/the-moon-cover.avif"
 keyword: "Histoire, La lune, plaques tectoniques, continent, marrée, malheur des hommes"
 pdfname: "la-lune-seule-responsable"
 ---
