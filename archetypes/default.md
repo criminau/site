@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-author: "{{ .Site.Author }}"
+author: "{{ .Site.Params.Author }}"
 slug: "{{ .Name }}"
 ShowToc: true
 draft: false

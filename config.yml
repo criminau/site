@@ -2,7 +2,6 @@ baseURL: 'https://criminau.xyz/'
 relativeURLs: true
 uglyURLs: true
 title: "Journal Subversif"
-author: criminau
 paginate: 7
 languageCode: fr-FR
 DefaultContentLanguage: fr
@@ -12,7 +11,7 @@ theme: theme-1
 enableRobotsTXT: false
 buildFuture: false
 buildExpored: false
-buildDraft: false
+buildDraft: true
 
 # Perf Active later.
 minify:
@@ -22,6 +21,7 @@ minify:
 disableLiveReload: true
 
 params:
+  author: "criminau"
   description: 'Criminau est un blog développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.'
   keyword: 'criminau.xyz, criminau, criminel, blog, pour, entretenir, votre, culture, subversive'
   images:
@@ -31,8 +31,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowReadingTime: true
-  author: criminau.xyz
-  RSSauthor: criminau
+  RSSauthor: "criminau"
   copyright: 'https://criminau.xyz/internetlibre.txt'
   disableThemeToggle: false
   defaultTheme: auto
@@ -48,7 +47,7 @@ params:
 
   HomeInfoParams:
     Title: "Bonjour 👋"
-    Content: "Journal Subversif, Politique et presque Impartial."
+    Content: "Journal Subversif."
     Tagline: "Qui tacet consentire videtur."
 
   socialIcons:
