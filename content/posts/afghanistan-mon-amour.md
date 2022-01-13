@@ -114,7 +114,7 @@ La stratégie des talibans se confirment, l'étouffement des agglomérations urb
 Au 9 Juillet 85% du territoire Afghan "serait" sous contrôle Taliban.  
 Au 29 juillet, les talibans contrôlent 223 districts sur les 407 du pays mais aucune des trente-quatre capitales provinciales.
 
-Cette stratégie va vite payer ses fruits, le 6 Août, la première capitale provinciale tombe aux mains des talibans. Cette goûte d'eau va faire déborder le vase. La Victoire est proche, les capitales tombent sans résistances.
+Cette stratégie va vite payer ses fruits, le 6 Août, la première capitale provinciale tombe aux mains des talibans. Cette goûte d'eau va faire déborder le vase. La Victoire est proche, les capitales tombent sans résistance.
 
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Taliban_insurgency_in_Afghanistan_%282015%E2%80%93present%29.svg/1200px-Taliban_insurgency_in_Afghanistan_%282015%E2%80%93present%29.svg.png" alt="Situation en Afghanistan au 3 Août 2021" caption="Situation en Afghanistan au 3 Août 2021" class="right">}}
 En BLANC territoires contrôlés par les talibans;  
@@ -197,7 +197,7 @@ Leur stratégie est assez simple ?
 - L'objectif stratégique n'existe pas. Ils sont divisés entre Objectif colonial et Objectif sécuritaire.
 - Ils sont dans les deux camps, une stratégie de contre terrorisme et une de contre insurrection, c'est totalement contradictoire ?
 
-Bref la Victoire ne peut qu'être assurée car ils ont joués dans les deux camps.  
+Bref la Victoire ne peut qu'être assurée car ils ont joué dans les deux camps.  
 De plus sans objectif clair, ils ne peuvent avoir remplit leur objectif, et donc ils ont perdu.  
 
 Terrible paradoxe n'est-il pas ?
