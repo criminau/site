@@ -72,7 +72,7 @@ Les talibans doivent comprendre que l'Afghanistan a changé. Il n'est plus Chari
 #### Un premier accord
 
 Septembre 2020 à Doha :
-{{< figure src="https://ichef.bbci.co.uk/news/800/cpsprodpb/7E32/production/_119960323_pompeo.jpg" alt="image" caption="Mike Pompeo et Abdul Ghani Baradar en septembre 2020 à Doha" class="right">}}
+{{< figure src="https://ichef.bbci.co.uk/news/800/cpsprodpb/7E32/production/_119960323_pompeo.jpg" alt="Mike Pompeo et Abdul Ghani Baradar en septembre 2020 à Doha" caption="Mike Pompeo et Abdul Ghani Baradar en septembre 2020 à Doha" class="right">}}
 
 Le 29 février 2020, les méchants talibans avec les EUA ont signé un accord pour préparer le futur proche. 14 mois exactement après la divulgation de l'accord.
 
@@ -82,7 +82,7 @@ Il faut rajouter que le gouvernement afghan a été sorti des pourparlers de Doh
 
 #### Un second accord
 
-{{< figure src="https://images.theconversation.com/files/321347/original/file-20200318-1926-ax54sh.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=600&h=400&fit=crop&dpr=1" alt="image" caption="Ashraf Ghani (à gauche) serre la main à Mark Esper, à Kaboul le 29 février 2020" class="left">}}
+{{< figure src="https://images.theconversation.com/files/321347/original/file-20200318-1926-ax54sh.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=600&h=400&fit=crop&dpr=1" alt="Ashraf Ghani (à gauche) serre la main à Mark Esper, à Kaboul le 29 février 2020" caption="Ashraf Ghani (à gauche) serre la main à Mark Esper, à Kaboul le 29 février 2020" class="left">}}
 
 L'accord signé à Kaboul est radicalement différent de celui de Doha, et aucun des deux accords ne prend en compte l'autre. Bref, il faudra faire un choix, soit les talibans soit le Gouv-A.
 
@@ -99,7 +99,7 @@ Ils s'imposent avec force, faisant des morts des deux côtés ainsi que des civi
 
 À la fin du mois de mai, le Portugal, la Slovénie, l'Espagne et la Suède ont complètement retiré leurs forces d'Afghanistan.  
 
-{{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Afghanistan_1_May_2021.svg/1200px-Afghanistan_1_May_2021.svg.png" alt="image" caption="Situation en Afghanistan au 1er Mai 2021" class="right">}}
+{{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Afghanistan_1_May_2021.svg/1200px-Afghanistan_1_May_2021.svg.png" alt="Situation en Afghanistan au 1er Mai 2021" caption="Situation en Afghanistan au 1er Mai 2021" class="right">}}
 En BLANC territoires contrôlés par les talibans;  
 En GRIS Territoires contrôlés par l'État islamique;  
 En ROSE Territoires contrôlés par le gouvernement afghan.  
@@ -108,7 +108,7 @@ On remarque la stratégie d'étouffement de Kaboul.
 
 Dès début Juin, les talibans entreprennent la prise de contrôle au Nord de Kaboul.
 
-{{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2021_Taliban_Offensive_-_Situation_on_25_July.png/1200px-2021_Taliban_Offensive_-_Situation_on_25_July.png" alt="image" caption="Situation en Afghanistan au 25 Juillet 2021" class="left">}}
+{{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2021_Taliban_Offensive_-_Situation_on_25_July.png/1200px-2021_Taliban_Offensive_-_Situation_on_25_July.png" alt="Situation en Afghanistan au 25 Juillet 2021" caption="Situation en Afghanistan au 25 Juillet 2021" class="left">}}
 
 La stratégie des talibans se confirment, l'étouffement des agglomérations urbaines est commun.  
 Au 9 Juillet 85% du territoire Afghan "serait" sous contrôle Taliban.  
@@ -116,7 +116,7 @@ Au 29 juillet, les talibans contrôlent 223 districts sur les 407 du pays mais a
 
 Cette stratégie va vite payer ses fruits, le 6 Août, la première capitale provinciale tombe aux mains des talibans. Cette goûte d'eau va faire déborder le vase. La Victoire est proche, les capitales tombent sans résistances.
 
-{{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Taliban_insurgency_in_Afghanistan_%282015%E2%80%93present%29.svg/1200px-Taliban_insurgency_in_Afghanistan_%282015%E2%80%93present%29.svg.png" alt="image" caption="Situation en Afghanistan au 3 Août 2021" class="right">}}
+{{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Taliban_insurgency_in_Afghanistan_%282015%E2%80%93present%29.svg/1200px-Taliban_insurgency_in_Afghanistan_%282015%E2%80%93present%29.svg.png" alt="Situation en Afghanistan au 3 Août 2021" caption="Situation en Afghanistan au 3 Août 2021" class="right">}}
 En BLANC territoires contrôlés par les talibans;  
 En GRIS Territoires contrôlés par l'État islamique;  
 En ROSE Territoires contrôlés par le gouvernement afghan.
