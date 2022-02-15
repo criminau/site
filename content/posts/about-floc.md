@@ -7,13 +7,8 @@ draft: false
 hidemeta: false
 tocopen: false
 disableShare: false
-date: 2022-01-26T08:00:00
-cover:
-    image: ""
-    alt: ""
-    caption: ""
-images: ""
-keyword: ""
+date: 2022-02-14T08:00:00
+keyword: "FLoC, Federated Learning of Cohorts, google, cnil, internet"
 pdfname: "about-floc"
 ---
 
