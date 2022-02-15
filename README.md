@@ -10,35 +10,6 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 
 ## Prochaine version
 
-### V.02.6
+### V.02.7
 
-- [X] Protocole wave.webaim.org
 - [ ] Opt out FLoC ?
-- [ ] Optimiser la vitesse de chargement des images (en cours)
-- [ ] Optimiser la lecture et l'affichage des images (en cours)
-- [ ] Travailler les brouillons
-
----
-
-<blockquote>Quelques taches :</blockquote>
-
-- [ ] Définir une politique à propos des brouillons
-
-
-<blockquote>Politiques :</blockquote>
-
-- [ ] De la taille de la police d'écriture, responsive.
- - responsive
- - lisible
-- [X] Du format des images .avif
-
----
-/*
-hugo netlify toml :
---buildDrafts
-https://talk.commonmark.org/t/tables-in-pure-markdown/81/115
-
-https://github.com/alex-shpak/hugo-book
-
-*/
----
