@@ -13,3 +13,4 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 ### V.02.7
 
 - [ ] Opt out FLoC ?
+- [ ]
