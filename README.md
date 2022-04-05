@@ -12,9 +12,14 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 
 ### V.02.7
 
-- [X] hugo v0.96.0 -> tweet
+- [ ] hugo v0.96.0 -> tweet
 - [X] render-link error.
 - [X] tweeter conversation ? markdown syntax.
 - [ ] Opt out FLoC ?
 - [ ] Opt on gradient zoom, inclusive.
 - [ ]
+
+
+
+{{< tweet user="yeghig" id="1327376708790611968" >}}
+{{< tweet user="Mukhtarr_MD" id="1327151230897057794" >}}
