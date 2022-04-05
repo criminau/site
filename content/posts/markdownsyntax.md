@@ -272,13 +272,17 @@ Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the ses
 
 {{< tweet 877500564405444608 >}}  
 
-'''{{< tweet user="GoHugoIO" id="877500564405444608" >}}'''
+```
+{{< tweet user="GoHugoIO" id="877500564405444608" >}}
+```
 
 **twitter with conversation ?**  
 
 {{< tweet "495719809695621121" >}}
 
-'''{{< tweet user="NASA" id="495719809695621121" >}}'''
+```
+{{< tweet user="NASA" id="495719809695621121" >}}
+```
 
 ## vimeo
 
