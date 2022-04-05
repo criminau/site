@@ -59,11 +59,11 @@ Mais en même temps, les troupes de l'armée rouge ne demande que cela !
 
 Et pire en rencontrant les autorités du Nagorno Karabagh, les russes remettent en question toute l'opération Turque..
 
-{{< tweet 1327376708790611968 >}}
+{{< tweet user="yeghig" id="1327376708790611968" >}}
 
 Il interdit même aux Azéris de rejoindre la ville conquise de Chouchi :
 
-{{< tweet 1327151230897057794 >}}
+{{< tweet user="Mukhtarr_MD" id="1327151230897057794" >}}
 
 De quoi rappeler au monde que rien n'y personne ne lui fait vraiment peur. Imaginez la réaction Turque et à Bakou...
 

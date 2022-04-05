@@ -12,5 +12,9 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 
 ### V.02.7
 
+- [X] hugo v0.96.0 -> tweet
+- [X] render-link error.
+- [X] tweeter conversation ? markdown syntax.
 - [ ] Opt out FLoC ?
+- [ ] Opt on gradient zoom, inclusive.
 - [ ]
