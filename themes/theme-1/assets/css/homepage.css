@@ -5,13 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 320px;
-    margin: var(--gap) 0 calc(var(--gap) * 2) 0;
-}
-@media screen and (max-width: 600px) {
-    .first-entry {
-        min-height: 260px;
-    }
+    margin: var(--gap);
 }
 .first-entry .entry-header {
     overflow: hidden;
@@ -20,15 +14,12 @@
     -webkit-line-clamp: 3;
 }
 .first-entry .entry-header h2 {
-    font-size: 34px;
+    font-size: 2.5vw; /* 34px*/
 }
 .first-entry .entry-content {
     margin: 14px 0;
-    font-size: 16px;
+    font-size: 1.88vw; /*16px*/
     -webkit-line-clamp: 3;
-}
-.first-entry .entry-footer {
-    font-size: 14px;
 }
 .home-info .entry-content {
     -webkit-line-clamp: 5;
@@ -46,19 +37,21 @@
 .post-entry:active {
     transform: scale(0.96);
 }
+.post-entry .entry-header h2{
+    font-size: 1.88vw;
+}
+.post-entry .entry-content p {
+    font-size: 1.44vw;
+}
 .tag-entry .entry-cover {
     display: none;
-}
-.entry-header h2 {
-    font-size: 24px;
 }
 .entry-content p.float-right{
     text-align: right;
 }
 .entry-content {
-    margin: 8px 0;
+    margin: 0.3vw 0;
     color: var(--content);
-    font-size: 14px;
     line-height: 1.6;
     overflow: hidden;
     display: -webkit-box;
@@ -67,11 +60,13 @@
 }
 .entry-footer {
     color: var(--content);
-    font-size: 13px;
+    font-size: 1.15vw;
+    font-style: italic;
 }
 .entry-footer a{
     color: var(--content);
-    font-size: 13px;
+    font-size: 1.15vw;
+    font-style: italic;
 }
 .entry-footer a.sidebar-nav-item:hover{
     font-weight: bold;
@@ -88,12 +83,12 @@
 .entry-isdraft {
     display: inline;
     color: var(--content);
-    font-size: 14px;
+    font-size: 1.15vw;
 }
 .entry-cover {
     margin-bottom: var(--gap);
     text-align: center;
-    font-size: 14px;
+    font-size: 1.15vw;
     color: var(--content);
 }
 .entry-cover img {
@@ -106,15 +101,15 @@
     color: var(--content);
     box-shadow: 0 1px 0 var(--content);
 }
+/* page-footer */
 .pagination {
     display: flex;
 }
 .pagination a {
     color: var(--theme);
-    font-size: 13px;
-    line-height: 36px;
+    font-size: 1.44vw;
     background: var(--content);
-    border-radius: calc(36px / 2);
+    border-radius: var(--radius);
     padding: 0 16px;
 }
 .pagination a:hover{

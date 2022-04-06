@@ -5,16 +5,16 @@
   margin-bottom: var(--gap);
 }
 .entry-cover img{
-  border-radius: 4px;
+  border-radius: var(--radius);
   width: 100%;
   height: auto;
 }
 .cover-caption{
-  font-size: 14px;
+  font-size: 1.2vw;
   color: var(--content);
 }
 .post-header {
-    margin: 24px auto var(--content-gap) auto
+    margin: var(--content-gap) auto var(--content-gap) auto
 }
 .post-title {
     margin-bottom: 2px;
@@ -24,20 +24,20 @@
 }
 .post-meta {
     color: var(--content);
-    font-size: 14px;
+    font-size: 1.15vw;
     display: flex;
     flex-wrap: wrap;
 }
 .post-meta a{
     color: var(--content);
-    font-size: 14px;
+    font-size: 1.15vw;
     display: flex;
     flex-wrap: wrap;
 }
 .post-meta .i18n_list li {
     display: inline-flex;
     list-style: none;
-    margin: auto 3px;
+    margin: auto 0.3vw;
     box-shadow: 0 1px 0 var(--content);
 }
 .post-content {
@@ -47,7 +47,7 @@
 .post-content h4,
 .post-content h5,
 .post-content h6 {
-    margin: 24px 0 16px 0;
+    margin: 24px 0 1.15vw 0;
 }
 .post-content h1 {
     margin: 40px auto 32px auto;
@@ -81,12 +81,6 @@
 }
 .post-content p a:hover{
     font-weight: bolder;
-}
-/* ET (en plus) sur tablette ou smartphone, ajout d'un espace -> Tap targets are not sized appropriately */
-@media screen and (max-width: 700px) {
-.post-content p a{
-    padding-bottom: 8px;
-}
 }
 
 .post-content a code {
@@ -532,19 +526,4 @@ a.footnote-return{
 }
 a.footnote-return:hover {
   font-weight: 800;
-}
-
-/* Mobile */
-/* écran < 600 */
-@media screen and (max-width: 600px) {
-  .book-columns {
-      margin-left: 2.5px;
-      margin-right: 2.5px;
-  }
-  .book-columns div {
-      margin: 2.5px;
-      min-width: 50%;
-      padding: 1px;
-      text-align: left;
-  }
 }

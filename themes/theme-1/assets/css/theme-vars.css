@@ -1,13 +1,13 @@
 /* Theme
 -------------------------------------------------- */
 :root {
-    --gap: 24px;
-    --content-gap: 20px;
-    --nav-width: 1024px;
-    --main-width: 720px;
-    --header-height: 60px;
-    --footer-height: 60px;
-    --radius: 8px;
+    --gap: 2vw; /*24px*/
+    --content-gap: 0.5vw;
+    --nav-width: 95vw; /*1024px*/
+    --main-width: 75vw; /* 720px */
+    --header-height: 6.66vh; /*60px*/
+    --footer-height: 1vw; /*60px*/
+    --radius: 0.5vw;
     --border-width: 2.5px;
 
     --theme: #D3D3D3;
@@ -16,13 +16,18 @@
     --hljs-bg: #1c1d21;
     --hljs-color: rgb(204,204,204);
 }
-
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 1024px) {
     :root {
-        --gap: 14px;
+        --nav-width: 75vw;
+        --main-width: 60vw;
     }
 }
-
+@media screen and (max-width: 600px) {
+    :root {
+        --nav-width: 100vw;
+        --main-width: 97.5vw;
+    }
+}
 .dark {
   --theme: rgb(0,43,85); /*rgb(0,43,85);*/
   --content: #D3D3D3; /*#D3D3D3;*/

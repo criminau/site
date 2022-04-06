@@ -1,22 +1,14 @@
+/* HTML */
+.html{
+  font-size: 16px;
+}
 /* Main
 -------------------------------------------------- */
 .main {
     position: relative;
-    min-height: calc(100vh - var(--header-height) - var(--footer-height));
-    max-width: calc(var(--main-width) + var(--gap) * 2);
+    max-width: var(--main-width);
     margin: auto;
     padding: var(--gap);
-}
-@media screen and (max-width: 400px) {
-    .main {
-        min-height: calc(100vh - var(--header-height) - var(--footer-height) - 24px);
-    }
-}
-.page-header {
-    margin-bottom: 24px;
-}
-.page-header h1 {
-    font-size: 40px;
 }
 /* Add css tricks
 ------------------------------------------------------------------------- */
@@ -47,7 +39,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: calc(var(--nav-width) + var(--gap) * 2);
+    max-width: var(--nav-width);
     margin-inline-start: auto;
     margin-inline-end: auto;
     line-height: var(--header-height);
@@ -55,34 +47,42 @@
 .nav a {
     display: block;
 }
-.logo,
+.menu-left,
 .menu {
     display: flex;
     margin: auto var(--gap);
     flex-wrap: inherit;
 }
-.logo a {
-    font-size: 24px;
-    font-weight: 700;
+/* menu-left*/
+.menu-left{
+  list-style: none;
+  word-break: keep-all;
+  overflow-x: auto;
+  white-space: nowrap;
 }
-.logo a img {
+.menu-left li+li {
+    margin-inline-start: var(--gap);
+}
+.menu-left a {
+    font-size: 1.5vw; /*16px*/
+}
+.menu-left a img{
+    height: 2.5vw;
+    width: 2.5vw;
     display: inline;
     vertical-align: middle;
-    pointer-events: none;
-    transform: translate(0, -10%);
-    border-radius: 6px;
-    margin-inline-end: 8px;
+    border-radius: var(--radius);
 }
-.logo a:hover {
-  transform:rotate(25deg);
-  -ms-transform:rotate(25deg);
-  -webkit-transform:rotate(25deg);
-}
-.theme-toggle svg {
-    height: 18px;
-    margin: 0 10px;
-    user-select: none;
+.menu-left a svg{
+    height: 2.5vw;
+    width: 2.5vw
     cursor: pointer;
+    display: inline;
+    vertical-align: middle;
+}
+.menu-left a:hover{
+    font-weight: bolder;
+    color: var(--content);
 }
 
 body.dark #moon {
@@ -102,7 +102,7 @@ body:not(.dark) #sun {
     margin-inline-start: var(--gap);
 }
 .menu a {
-    font-size: 16px;
+    font-size: 1.5vw; /*16px*/
 }
 .menu a:hover{
     font-weight: bold;
@@ -116,17 +116,16 @@ body:not(.dark) #sun {
 /* Footer
 -------------------------------------------------- */
 .footer {
-    max-width: calc(var(--main-width) + var(--gap) * 2);
+    width: var(--main-width);
     margin: auto;
-    padding: calc((var(--footer-height) - (var(--gap)) - 10px) / 2) var(--gap);
+    padding: var(--footer-height);
     color: var(--content);
-    font-size: 13.5px;
+    font-size: 1.44vw;
     text-align: center;
-    line-height: 24px;
 }
 .footer span {
-    margin-inline-start: 1px;
-    margin-inline-end: 1px;
+    margin-inline-start: 0.2vw;
+    margin-inline-end: 0.2vw;
 }
 .footer a {
     color: inherit;
@@ -139,33 +138,35 @@ body:not(.dark) #sun {
 /* Bouton Haut de page
 ---------------------------------------------------------------------------*/
 .top-link {
-    font-size: 12px;
+    font-size: 0.9vw; /*12px*/
     visibility: hidden;
     opacity: 0;
     position: fixed;
-    bottom: 60px;
-    right: 30px;
-    z-index: 99;
+    bottom: 10vh;
+    right: 5vw;
+    z-index: 999;
     background: var(--content);
-    width: 42px;
-    height: 42px;
-    padding: 12px;
+    width: 2.66vw; /*42px*/
+    height: 2.66vw;
+    padding: 0.21vw;
     color: var(--theme);
-    border-radius: 64px;
+    border-radius: var(--radius);/*64px*/
     fill: currentColor;
     fill-opacity: 80%;
     transition: visibility 0.5s,
     opacity 0.8s linear;
 }
+.top-link svg{
+  font-size: 0.66vw;
+}
 .top-link:hover{
-    width: 48px;
-    height: 48px;
-    padding: 6px;
+    font-size: bolder;
+    padding: 0.1vw;
 }
 /* Mobile
 ----------------------------------------------------- */
 @media screen and (max-width: 500px) {
     .top-link {
-      bottom: 110px;
+      bottom: 20vh;
     }
 }

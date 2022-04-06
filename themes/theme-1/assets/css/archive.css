@@ -2,10 +2,10 @@
 -------------------------------------------------- */
 .archive-posts {
     width: 100%;
-    font-size: 16px;
+    font-size: 1.35vw; /*16px;*/
 }
 .archive-year {
-    margin-top: 40px;
+    margin-top: 2.599vw; /*40px;*/
 }
 .archive-year:not(:last-of-type) {
     border-bottom: 2px solid var(--content);
@@ -13,22 +13,22 @@
 .archive-month {
     display: flex;
     align-items: flex-start;
-    padding: 10px 0;
+    padding: 0.5vw 0;
 }
 .archive-month-header {
-    margin: 25px 0;
-    width: 200px;
+    margin: 2.25vw 0;
+    width: 15vw;
 }
 .archive-month:not(:last-of-type) {
     border-bottom: 1px solid var(--content);
 }
 .archive-entry {
     position: relative;
-    padding: 5px;
-    margin: 10px 0;
+    padding: 0.4vw;
+    margin: 0.75vw 0;
 }
 .archive-entry-title {
-    margin: 5px 0;
+    margin: 0.2vw 0;
     font-weight: 400;
 }
 .entry-link {
@@ -40,21 +40,13 @@
 }
 .archive-meta {
     color: var(--content);
-    font-size: 14px;
+    font-size: 1.05vw;
 }
 .archive-meta a{
     color: var(--content);
-    font-size: 14px;
+    font-size: 1.05vw;
 }
 .archive-count {
     color: var(--content);
-    font-size: 14px;
-}
-@media (max-width: 800px) {
-    .archive-month {
-        flex-direction: column;
-    }
-    .archive-year {
-        margin-top: 20px;
-    }
+    font-size: 1.05vw;
 }

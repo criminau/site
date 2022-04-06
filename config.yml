@@ -37,8 +37,8 @@ params:
   defaultTheme: auto
   label:
     icon: apple-touch-icon.png
-    iconHeight: 30px
-    iconwidth: 30px
+#    iconHeight: 30px
+#    iconwidth: 30px
 
 # Environnement
   env: production
