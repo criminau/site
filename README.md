@@ -23,3 +23,11 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [ ] nitter tweet
 - [ ] Opt out FLoC ??
 - [ ]
+
+
+stock !
+{{< tweet user="NASA" id="495719809695621121" >}}
+{{< tweet user="GoHugoIO" id="877500564405444608" >}}
+
+{{< tweet user="Mukhtarr_MD" id="1327151230897057794" >}}
+{{< tweet user="yeghig" id="1327376708790611968" >}}
