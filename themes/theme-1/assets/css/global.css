@@ -1,14 +1,10 @@
-/* HTML */
-.html{
-  font-size: 16px;
-}
 /* Main
 -------------------------------------------------- */
 .main {
     position: relative;
     max-width: var(--main-width);
     margin: auto;
-    padding: var(--gap);
+    padding: calc(var(--gap) * var(--coef-screen));
 }
 /* Add css tricks
 ------------------------------------------------------------------------- */
@@ -50,7 +46,7 @@
 .menu-left,
 .menu {
     display: flex;
-    margin: auto var(--gap);
+    margin: auto calc(var(--gap) * var(--coef-screen));
     flex-wrap: inherit;
 }
 /* menu-left*/
@@ -61,21 +57,21 @@
   white-space: nowrap;
 }
 .menu-left li+li {
-    margin-inline-start: var(--gap);
+    margin-inline-start: calc(var(--gap) * var(--coef-screen));
 }
 .menu-left a {
-    font-size: 1.5vw; /*16px*/
+    font-size: calc(1.5vw * var(--coef-screen)); /*16px*/
 }
 .menu-left a img{
-    height: 2.5vw;
-    width: 2.5vw;
+    height: calc(2.5vw * var(--coef-screen));
+    width: calc(2.5vw * var(--coef-screen));
     display: inline;
     vertical-align: middle;
-    border-radius: var(--radius);
+    border-radius: calc(var(--radius) * var(--coef-screen));
 }
 .menu-left a svg{
-    height: 2.5vw;
-    width: 2.5vw
+    height: calc(2.5vw * var(--coef-screen));
+    width: calc(2.5vw * var(--coef-screen));
     cursor: pointer;
     display: inline;
     vertical-align: middle;
@@ -99,10 +95,10 @@ body:not(.dark) #sun {
     white-space: nowrap;
 }
 .menu li+li {
-    margin-inline-start: var(--gap);
+    margin-inline-start: calc(var(--gap) * var(--coef-screen));
 }
 .menu a {
-    font-size: 1.5vw; /*16px*/
+    font-size: calc(1.5vw * var(--coef-screen)); /*16px*/
 }
 .menu a:hover{
     font-weight: bold;
@@ -120,12 +116,12 @@ body:not(.dark) #sun {
     margin: auto;
     padding: var(--footer-height);
     color: var(--content);
-    font-size: 1.44vw;
+    font-size: calc(1.44vw * var(--coef-screen));
     text-align: center;
 }
 .footer span {
-    margin-inline-start: 0.2vw;
-    margin-inline-end: 0.2vw;
+    margin-inline-start: calc(0.2vw * var(--coef-screen));
+    margin-inline-end: calc(0.2vw * var(--coef-screen));
 }
 .footer a {
     color: inherit;
@@ -138,7 +134,7 @@ body:not(.dark) #sun {
 /* Bouton Haut de page
 ---------------------------------------------------------------------------*/
 .top-link {
-    font-size: 0.9vw; /*12px*/
+    font-size: calc(0.9vw * var(--coef-screen)); /*12px*/
     visibility: hidden;
     opacity: 0;
     position: fixed;
@@ -146,22 +142,22 @@ body:not(.dark) #sun {
     right: 5vw;
     z-index: 999;
     background: var(--content);
-    width: 2.66vw; /*42px*/
-    height: 2.66vw;
+    width: calc(2.66vw * var(--coef-screen)); /*42px*/
+    height: calc(2.66vw * var(--coef-screen));
     padding: 0.21vw;
     color: var(--theme);
-    border-radius: var(--radius);/*64px*/
+    border-radius: calc(var(--radius) * var(--coef-screen));/*64px*/
     fill: currentColor;
     fill-opacity: 80%;
     transition: visibility 0.5s,
     opacity 0.8s linear;
 }
 .top-link svg{
-  font-size: 0.66vw;
+  font-size: calc(0.66vw * var(--coef-screen));
 }
 .top-link:hover{
     font-size: bolder;
-    padding: 0.1vw;
+    padding: calc(0.1vw * var(--coef-screen));
 }
 /* Mobile
 ----------------------------------------------------- */

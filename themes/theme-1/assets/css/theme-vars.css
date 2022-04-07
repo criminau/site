@@ -15,6 +15,8 @@
     --code-bg: #1c1d21;
     --hljs-bg: #1c1d21;
     --hljs-color: rgb(204,204,204);
+
+    --coef-screen: 0.8;
 }
 @media screen and (min-width: 1024px) {
     :root {
@@ -26,8 +28,10 @@
     :root {
         --nav-width: 100vw;
         --main-width: 97.5vw;
+        --coef-screen: 3;
     }
 }
+
 .dark {
   --theme: rgb(0,43,85); /*rgb(0,43,85);*/
   --content: #D3D3D3; /*#D3D3D3;*/
