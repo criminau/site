@@ -276,8 +276,6 @@ Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the ses
 
 {{< tweet user="NASA" id="495719809695621121" >}}
 
-{{< tweet "495719809695621121" >}}
-
 ## vimeo
 
 {{< vimeo 146022717 >}}
