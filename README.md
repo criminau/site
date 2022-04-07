@@ -17,8 +17,8 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [X] SEO opt head
 - [X] Responsive font-size + css.
 - [X] Cleaning CSS
-- [X] hugo v0.96.0 -> tweet
 - [X] Vidéo youtube
+- [ ] hugo v0.96.0 -> tweet
 - [ ] iteroni Vidéo
 - [ ] nitter tweet
 - [ ] Opt out FLoC ??

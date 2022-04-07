@@ -11,7 +11,7 @@
     --border-width: 2.5px;
 
     --theme: #D3D3D3;
-    --content: rgb(0,43,85);
+    --content: #002B55; /*rgb(0,43,85);*/
     --code-bg: #1c1d21;
     --hljs-bg: #1c1d21;
     --hljs-color: rgb(204,204,204);

@@ -29,9 +29,11 @@
     padding: calc(0.4vw * var(--coef-screen));
     margin: calc(0.75vw * var(--coef-screen)) 0;
 }
-.archive-entry:hover{
-    font-weight: bold;
+/*
+.archive-entry:hover, .archive-entry h3:hover{
+  font-weight: bold;
 }
+*/
 .archive-entry-title {
     margin: calc(0.2vw * var(--coef-screen)) 0;
     font-weight: 400;
