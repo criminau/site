@@ -24,6 +24,20 @@
         --main-width: 60vw;
     }
 }
+@media screen and (max-width: 1024px) {
+    :root {
+      --nav-width: 85vw;
+      --main-width: 80vw;
+      --coef-screen: 2;
+    }
+}
+@media screen and (max-width: 805px) {
+    :root {
+      --nav-width: 90vw;
+      --main-width: 90vw;
+      --coef-screen: 2.33;
+    }
+}
 @media screen and (max-width: 600px) {
     :root {
         --nav-width: 100vw;
