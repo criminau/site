@@ -100,7 +100,7 @@ privacy:
   twitter:
     disable: false
     enableDNT: true
-    simple: true
+    simple: false
   vimeo:
     disable: false
     enableDNT: true

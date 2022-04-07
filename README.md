@@ -15,23 +15,11 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [X] render-link error.
 - [X] tweeter conversation ? markdown syntax.
 - [X] SEO opt head
-- [ ] Responsive font-size, css.
-- [ ] Cleaning CSS
-- [ ] Opt out FLoC ?
-
-- [ ] hugo v0.96.0 -> tweet
+- [X] Responsive font-size + css.
+- [X] Cleaning CSS
+- [X] hugo v0.96.0 -> tweet
+- [X] Vidéo youtube
+- [ ] iteroni Vidéo
+- [ ] nitter tweet
+- [ ] Opt out FLoC ??
 - [ ]
-
-
-
-{{< tweet user="yeghig" id="1327376708790611968" >}}
-{{< tweet user="Mukhtarr_MD" id="1327151230897057794" >}}
-
-
-```
-{{< tweet user="GoHugoIO" id="877500564405444608" >}}
-```
-
-```
-{{< tweet user="NASA" id="495719809695621121" >}}
-```
