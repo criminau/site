@@ -24,6 +24,5 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [ ] Responsive fontsize+css v.2.8 (rem + clear css) (en cours)
 - [ ]
 - [ ]
-
-
-stock :
+- [ ]
+- [ ]
