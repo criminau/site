@@ -4,7 +4,7 @@ publish = "public"
 command = "hugo --gc --minify "
 
 [context.production.environment]
-HUGO_VERSION = "0.80.0"
+HUGO_VERSION = "0.96.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
@@ -25,7 +25,7 @@ HUGO_VERSION = "0.80.0"
 command = "hugo --gc -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.80.0"
+HUGO_VERSION = "0.96.0"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"

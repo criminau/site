@@ -13,10 +13,10 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 ### V.02.8
 
 - [X] retour de la recherche
-- [X] hugo v0.96.0 -> tweet.
 - [X] font-size + css, retour v.2.6.
 - [X] couleur de fond.
 - [X] mois en français sur post-meta + archives.
+- [X] hugo v0.96.0 -> tweet.
 - [ ] iteroni Vidéo
 - [ ] nitter tweet
 - [ ] Opt out FLoC ??
@@ -24,3 +24,6 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [ ] Responsive fontsize+css v.2.8 (rem + clear css) (en cours)
 - [ ]
 - [ ]
+
+
+stock :
