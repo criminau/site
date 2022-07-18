@@ -1,7 +1,7 @@
 <!--  le pied de page -->
 
 <footer class="footer" role="contentinfo">
-    <span>&copy; {{ now.Year }}&nbsp;·&nbsp;<a Title="Retour vers la page d'accueil" href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>&nbsp</span>
+    <span>&copy; {{ now.Year }}&nbsp;·&nbsp;<a Title="page d'accueil" href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>&nbsp;·&nbsp;<a href="" Title="retour en haut de la page">retour en haut</a>&nbsp;</span>
 </footer>
 
 <!-- retour haut de page -->
@@ -31,6 +31,20 @@ localStorage.setItem("pref-theme", 'dark');
 {{ $js := resources.Get "js/script.js" }}
 {{ $SecureJS := $js | resources.Minify | fingerprint }}
 <script rel="preload" async src="{{ $SecureJS.Permalink }}" integrity="{{ $SecureJS.Data.Integrity }}"></script>
+
+<!-- fichier script recherche -->
+{{ if .Site.Params.enableSearch }}
+
+  {{ $search := resources.Get "js/fixedsearch.js" }}
+  {{ $SecureSearchJS := $search | resources.Minify | fingerprint }}
+  <script rel="preload" async src="{{ $SecureSearchJS.Permalink }}" integrity="{{ $SecureSearchJS.Data.Integrity }}"></script>
+
+  <!-- fuse.io -->
+  {{ $fuse := resources.Get "js/fuse.js" }}
+  {{ $FuseJS := $fuse | resources.Minify }}
+  <script rel="preload" async src="{{ $FuseJS.Permalink }}"></script>
+
+{{ end }}
 
 <!--
   <script src="tota11y.min.js"></script>

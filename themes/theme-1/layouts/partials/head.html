@@ -1,6 +1,6 @@
 <!-- <Head> -->
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Title -->
 <title>
 {{ if .IsHome }}{{ .Site.Title }} | {{ .Site.Params.HomeInfoParams.Tagline }}{{else}}
@@ -45,7 +45,8 @@
 {{- $reset := resources.Get "css/reset.css" }}
 {{- $theme := resources.Get "css/theme-vars.css" }}
 {{- $global := resources.Get "css/global.css" }}
-{{- $style := slice $reset $theme $global | resources.Concat "globalCSS.css" }}
+{{- $search := resources.Get "css/search.css" }}
+{{- $style := slice $reset $theme $global $search | resources.Concat "globalCSS.css" }}
 {{- $CSSglobal := slice $style | resources.Concat "css/globalCSS.css" | minify | fingerprint -}}
 <link href="{{ $CSSglobal.Permalink }}"  rel="preload stylesheet"
     as="style" integrity="{{ $CSSglobal.Data.Integrity }}">

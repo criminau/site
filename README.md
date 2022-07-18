@@ -1,4 +1,4 @@
-# Criminau.xyz
+# criminau.xyz
 
 Blog Simple.
 
@@ -10,24 +10,17 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 
 ## Prochaine version
 
-### V.02.7
+### V.02.8
 
-- [X] render-link error.
-- [X] tweeter conversation ? markdown syntax.
-- [X] SEO opt head
-- [X] Responsive font-size + css.
-- [X] Cleaning CSS
-- [X] Vidéo youtube
-- [ ] hugo v0.96.0 -> tweet
+- [X] retour de la recherche
+- [X] hugo v0.96.0 -> tweet.
+- [X] font-size + css, retour v.2.6.
+- [X] couleur de fond.
+- [X] mois en français sur post-meta + archives.
 - [ ] iteroni Vidéo
 - [ ] nitter tweet
 - [ ] Opt out FLoC ??
+- [ ] préparation des catégories ou tags, autres sections.
+- [ ] Responsive fontsize+css v.2.8 (rem + clear css) (en cours)
 - [ ]
-
-
-stock !
-{{< tweet user="NASA" id="495719809695621121" >}}
-{{< tweet user="GoHugoIO" id="877500564405444608" >}}
-
-{{< tweet user="Mukhtarr_MD" id="1327151230897057794" >}}
-{{< tweet user="yeghig" id="1327376708790611968" >}}
+- [ ]

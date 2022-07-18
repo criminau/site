@@ -59,11 +59,12 @@ Mais en même temps, les troupes de l'armée rouge ne demande que cela !
 
 Et pire en rencontrant les autorités du Nagorno Karabagh, les russes remettent en question toute l'opération Turque..
 
-{{< tweet "1327376708790611968" >}}
+- Today, Az officially asked the Russian Defense Ministry to provide them with a corridor to Shushi. Russia has not responded yet. Today, General Rustam Muradov Commander of Russian peacekeepers in Artsakh met with the Pres #Artsakh which infuriated the Azerbaijani side.
+— Yeghia Tashjian #FreeArmenianPOWs (@yeghig) November 13, 2020
 
 Il interdit même aux Azéris de rejoindre la ville conquise de Chouchi :
 
-{{< tweet "1327151230897057794" >}}
+{{< tweet user="Mukhtarr_MD" id="1327151230897057794" >}}
 
 De quoi rappeler au monde que rien n'y personne ne lui fait vraiment peur. Imaginez la réaction Turque et à Bakou...
 

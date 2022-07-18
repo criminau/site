@@ -13,9 +13,19 @@ buildFuture: false
 buildExpored: false
 buildDraft: true
 
-# Perf Active later.
+# Performance
 minify:
  minifyOutput: true
+
+# Preparing search option
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  page:
+    - HTML
+    - RSS
 
 #LiveReload Hugoreload
 disableLiveReload: true
@@ -33,12 +43,14 @@ params:
   ShowReadingTime: true
   RSSauthor: "criminau"
   copyright: 'https://criminau.xyz/internetlibre.txt'
+  enableSearch: true
+  DateFormat: 2 January, 2006
   disableThemeToggle: false
   defaultTheme: auto
   label:
     icon: apple-touch-icon.png
-#    iconHeight: 30px
-#    iconwidth: 30px
+    iconHeight: 30px
+    iconwidth: 30px
 
 # Environnement
   env: production
@@ -51,7 +63,7 @@ params:
     Tagline: "Qui tacet consentire videtur."
 
   socialIcons:
-    - name: "Flux RSS"
+    - name: "RSS"
       url: 'https://criminau.xyz/index.xml'
     - name: "Github"
       url: 'https://github.com/criminau/site'

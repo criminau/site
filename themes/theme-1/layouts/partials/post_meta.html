@@ -1,7 +1,7 @@
 {{- $scratch := newScratch}}
 
 {{- if not .Date.IsZero -}}
-{{- $scratch.Add "meta" (slice (.Date.Format (default "2 Jan, 2006" .Site.Params.DateFormat))) }}
+{{.Date.Day}} {{index $.Site.Data.moisnumero (printf "%d" .Date.Month)}} {{.Date.Year}} &nbsp;·&nbsp;
 {{- end -}}
 
 {{- if $.Site.Params.ShowReadingTime -}}
@@ -9,7 +9,7 @@
 {{- end -}}
 
 {{ with (partial "author.html" . ) }}
-{{ $scratch.Add "meta" (slice .)}}
+{{ $scratch.Add "meta" (slice .) }}
 {{end}}
 
 {{ with (partial "pdf.html" . ) }}

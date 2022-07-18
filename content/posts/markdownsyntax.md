@@ -263,28 +263,24 @@ Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the ses
 
 ## youtube
 
-{{< youtube "7pO39Sh6THg" >}}
+{{< youtube "falFFuZEPd4" >}}
 
 ## tweeter
 
 **With mobile and some privacy browser.., twitter appear like simple blockquote**  
 **If not, appear like twitter want**
 
-{{< tweet "877500564405444608" >}}
+{{< tweet user="GoHugoIO" id="877500564405444608" >}}
 
 **twitter with conversation ?**  
 
-{{< tweet "495719809695621121" >}}
+{{< tweet user="NASA" id="495719809695621121" >}}
 
 ## vimeo
 
 {{< vimeo 146022717 >}}
 
-## iteroni ?
-
-## nitter ?
-
-## Iframe PDF
+## Ifram PDF
 
 {{< iframepdf gt-metrix-report >}}
 

@@ -2,9 +2,21 @@
 -------------------------------------------------- */
 .main {
     position: relative;
-    max-width: var(--main-width);
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    max-width: calc(var(--main-width) + var(--gap) * 2);
     margin: auto;
-    padding: calc(var(--gap) * var(--coef-screen));
+    padding: var(--gap);
+}
+@media screen and (max-width: 400px) {
+    .main {
+        min-height: calc(100vh - var(--header-height) - var(--footer-height) - 24px);
+    }
+}
+.page-header {
+    margin-bottom: 24px;
+}
+.page-header h1 {
+    font-size: 40px;
 }
 /* Add css tricks
 ------------------------------------------------------------------------- */
@@ -35,7 +47,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: var(--nav-width);
+    max-width: calc(var(--nav-width) + var(--gap) * 2);
     margin-inline-start: auto;
     margin-inline-end: auto;
     line-height: var(--header-height);
@@ -43,42 +55,34 @@
 .nav a {
     display: block;
 }
-.menu-left,
+.logo,
 .menu {
     display: flex;
-    margin: auto calc(var(--gap) * var(--coef-screen));
+    margin: auto var(--gap);
     flex-wrap: inherit;
 }
-/* menu-left*/
-.menu-left{
-  list-style: none;
-  word-break: keep-all;
-  overflow-x: auto;
-  white-space: nowrap;
+.logo a {
+    font-size: 24px;
+    font-weight: 700;
 }
-.menu-left li+li {
-    margin-inline-start: calc(var(--gap) * var(--coef-screen));
-}
-.menu-left a {
-    font-size: calc(1.5vw * var(--coef-screen)); /*16px*/
-}
-.menu-left a img{
-    height: calc(2.5vw * var(--coef-screen));
-    width: calc(2.5vw * var(--coef-screen));
+.logo a img {
     display: inline;
     vertical-align: middle;
-    border-radius: calc(var(--radius) * var(--coef-screen));
+    pointer-events: none;
+    transform: translate(0, -10%);
+    border-radius: 6px;
+    margin-inline-end: 8px;
 }
-.menu-left a svg{
-    height: calc(2.5vw * var(--coef-screen));
-    width: calc(2.5vw * var(--coef-screen));
+.logo a:hover {
+  transform:rotate(25deg);
+  -ms-transform:rotate(25deg);
+  -webkit-transform:rotate(25deg);
+}
+.theme-toggle svg {
+    height: 18px;
+    margin: 0 10px;
+    user-select: none;
     cursor: pointer;
-    display: inline;
-    vertical-align: middle;
-}
-.menu-left a:hover{
-    font-weight: bolder;
-    color: var(--content);
 }
 
 body.dark #moon {
@@ -95,10 +99,10 @@ body:not(.dark) #sun {
     white-space: nowrap;
 }
 .menu li+li {
-    margin-inline-start: calc(var(--gap) * var(--coef-screen));
+    margin-inline-start: var(--gap);
 }
 .menu a {
-    font-size: calc(1.5vw * var(--coef-screen)); /*16px*/
+    font-size: 16px;
 }
 .menu a:hover{
     font-weight: bold;
@@ -112,16 +116,17 @@ body:not(.dark) #sun {
 /* Footer
 -------------------------------------------------- */
 .footer {
-    width: var(--main-width);
+    max-width: calc(var(--main-width) + var(--gap) * 2);
     margin: auto;
-    padding: var(--footer-height);
+    padding: calc((var(--footer-height) - (var(--gap)) - 10px) / 2) var(--gap);
     color: var(--content);
-    font-size: calc(1.44vw * var(--coef-screen));
+    font-size: 13.5px;
     text-align: center;
+    line-height: 24px;
 }
 .footer span {
-    margin-inline-start: calc(0.2vw * var(--coef-screen));
-    margin-inline-end: calc(0.2vw * var(--coef-screen));
+    margin-inline-start: 1px;
+    margin-inline-end: 1px;
 }
 .footer a {
     color: inherit;
@@ -134,35 +139,33 @@ body:not(.dark) #sun {
 /* Bouton Haut de page
 ---------------------------------------------------------------------------*/
 .top-link {
-    font-size: calc(0.9vw * var(--coef-screen)); /*12px*/
+    font-size: 12px;
     visibility: hidden;
     opacity: 0;
     position: fixed;
-    bottom: 10vh;
-    right: 5vw;
-    z-index: 999;
+    bottom: 60px;
+    right: 30px;
+    z-index: 99;
     background: var(--content);
-    width: calc(2.66vw * var(--coef-screen)); /*42px*/
-    height: calc(2.66vw * var(--coef-screen));
-    padding: 0.21vw;
+    width: 42px;
+    height: 42px;
+    padding: 12px;
     color: var(--theme);
-    border-radius: calc(var(--radius) * var(--coef-screen));/*64px*/
+    border-radius: 64px;
     fill: currentColor;
     fill-opacity: 80%;
     transition: visibility 0.5s,
     opacity 0.8s linear;
 }
-.top-link svg{
-  font-size: calc(0.66vw * var(--coef-screen));
-}
 .top-link:hover{
-    font-size: bolder;
-    padding: calc(0.1vw * var(--coef-screen));
+    width: 48px;
+    height: 48px;
+    padding: 6px;
 }
 /* Mobile
 ----------------------------------------------------- */
 @media screen and (max-width: 500px) {
     .top-link {
-      bottom: 20vh;
+      bottom: 110px;
     }
 }

@@ -5,79 +5,73 @@
   margin-bottom: var(--gap);
 }
 .entry-cover img{
-  border-radius: var(--radius);
+  border-radius: 4px;
   width: 100%;
   height: auto;
 }
 .cover-caption{
-  font-size: calc(1.2vw * var(--coef-screen));
+  font-size: 14px;
   color: var(--content);
-    font-style: italic;
 }
 .post-header {
-    margin: var(--content-gap) auto var(--content-gap) auto
+    margin: 24px auto var(--content-gap) auto
 }
 .post-title {
-    margin-bottom: calc(0.1vw * var(--coef-screen)); /*2px;*/
-    font-size: calc(2.5vw * var(--coef-screen)); /*40px*/
+    margin-bottom: 2px;
+    font-size: 40px;
     transform: translateX(-2px);
     color: var(--content);
 }
 .post-meta {
     color: var(--content);
-    font-size: calc(1.15vw * var(--coef-screen));
+    font-size: 14px;
     display: flex;
     flex-wrap: wrap;
-    font-style: italic;
 }
 .post-meta a{
     color: var(--content);
-    font-size: calc(1.15vw * var(--coef-screen));
+    font-size: 14px;
     display: flex;
     flex-wrap: wrap;
-}
-.post-meta a:hover{
-    font-weight: bold;
 }
 .post-meta .i18n_list li {
     display: inline-flex;
     list-style: none;
-    margin: auto calc(0.3vw * var(--coef-screen));
+    margin: auto 3px;
     box-shadow: 0 1px 0 var(--content);
 }
 .post-content {
     color: var(--content);
-    font-size: calc(1.88vw * var(--coef-screen));
 }
 .post-content h3,
 .post-content h4,
 .post-content h5,
 .post-content h6 {
-    margin: 1.15vw 0 1.15vw 0;
+    margin: 24px 0 16px 0;
 }
 .post-content h1 {
-    margin: calc(2.5vw * var(--coef-screen)) auto calc(2.3vw * var(--coef-screen)) auto;
-    font-size: calc(2.5vw * var(--coef-screen)); /*40px*/
+    margin: 40px auto 32px auto;
+    font-size: 40px;
 }
 .post-content h2 {
-    margin: calc(2.3vw * var(--coef-screen)) auto calc(2vw * var(--coef-screen)); auto;
-    font-size: calc(2.3vw * var(--coef-screen)); /*32px*/
+    margin: 32px auto 24px auto;
+    font-size: 32px;
     margin-left: 1%;
 }
 .post-content h3 {
-    font-size: calc(2vw * var(--coef-screen)); /*24px*/
+    font-size: 24px;
     margin-left: 2%;
 }
 .post-content h4 {
-    font-size: calc(1.88vw * var(--coef-screen)); /*16px*/
+    font-size: 16px;
     margin-left: 3%;
 }
 .post-content h5 {
-    font-size: calc(1.68vw * var(--coef-screen)); /*14px*/
+    font-size: 14px;
     margin-left: 4%;
 }
 .post-content h6 {
-    font-size: calc(1.58vw * var(--coef-screen)); /*12px*/
+    font-size: 12px;
     margin-left: 4%;
 }
 /* liens dans le contenu des articles, soulignage*/
@@ -87,6 +81,12 @@
 }
 .post-content p a:hover{
     font-weight: bolder;
+}
+/* ET (en plus) sur tablette ou smartphone, ajout d'un espace -> Tap targets are not sized appropriately */
+@media screen and (max-width: 700px) {
+.post-content p a{
+    padding-bottom: 8px;
+}
 }
 
 .post-content a code {
@@ -109,11 +109,11 @@
 
 .post-content ul,
 .post-content ol {
-    padding-inline-start: calc(1.5vw * var(--coef-screen));
+    padding-inline-start: 20px;
 }
 
 .post-content li {
-    margin-top: calc(0.5vw * var(--coef-screen)); /*5px;*/
+    margin-top: 5px;
 }
 .post-content li a{
     text-decoration: underline;
@@ -125,29 +125,32 @@
 .post-content li p {
     margin-bottom: 0;
 }
+
 .post-content dl {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
 }
+
 .post-content dt {
     width: 25%;
     font-weight: 700;
 }
+
 .post-content dd {
     width: 75%;
     margin-inline-start: 0;
-    padding-inline-start: calc(0.66vw * var(--coef-screen)); /*10px;*/
+    padding-inline-start: 10px;
 }
 
 .post-content dt~dt,
 .post-content dd~dd {
-    margin-top: calc(0.66vw * var(--coef-screen)); /*10px;*/
+    margin-top: 10px;
 }
 
 .post-content table {
-    margin-bottom: calc(0.8vw * var(--coef-screen)); /*32px;*/
-    margin-top: calc(0.8vw * var(--coef-screen)); /*32px;*/
+    margin-bottom: 32px;
+    margin-top: 32px;
     border-collapse: collapse;
     border-spacing: 0;
     empty-cells: show;
@@ -157,14 +160,14 @@
 
 .post-content table th,
 .post-content table:not(.highlighttable) td {
-    min-width: 50%;
-    padding: 3% 1.5%;
+    min-width: 80px;
+    padding: 12px 8px;
     line-height: 1.5;
     border: 1px solid var(--content);
 }
 
 .post-content table th {
-    font-size:  calc(1.68vw * var(--coef-screen)); /*14px*/
+    font-size: 14px;
     text-align: start;
 }
 
@@ -176,7 +179,7 @@
 .post-content pre {
     margin: auto calc(var(--gap) * -1) 32px calc(var(--gap) * -1);
     background: var(--hljs-bg) !important;
-    border-radius: calc(var(--radius) * var(--coef-screen));
+    border-radius: var(--radius);
 }
 
 .post-content li>.highlight {
@@ -224,7 +227,7 @@
     font-size: 0.78em;
     line-height: 1.5;
     background: var(--code-bg);
-    border-radius: calc(var(--radius) * var(--coef-screen));
+    border-radius: 2px;
     color: var(--hljs-color);
 }
 .post-content pre code {
@@ -259,15 +262,14 @@
 }
 /* Table Of Contents */
 .toc {
-    margin-bottom: 10%;
+    margin-bottom: 40px;
     border: 1px solid var(--content);
-    border-radius: calc(var(--radius) * var(--coef-screen));
-    padding: 1%;
-    font-size: calc(1.66vw * var(--coef-screen));
+    border-radius: var(--radius);
+    padding: .5em;
 }
 .toc details summary {
     cursor: zoom-in;
-    margin-inline-start: 2.5%;
+    margin-inline-start: 20px;
 }
 .toc details[open] summary {
     cursor: zoom-out;
@@ -280,8 +282,8 @@
     font-weight: bolder;
 }
 .toc blockquote {
-    margin: 0 2%;
-    padding: 1% 2%;
+    margin: 0 20px;
+    padding: 10px 20px;
 }
 .toc li ul {
     margin-inline-start: var(--gap);
@@ -295,7 +297,7 @@
     color: var(--content);
     margin-top: var(--gap);
     border: 1px solid var(--content);
-    border-radius: calc(var(--radius) * var(--coef-screen));
+    border-radius: var(--radius);
     display: flex;
     line-height: 30px;
 }
@@ -311,7 +313,7 @@
 .paginav a:hover {
     background: var(--content);
     color: var(--theme);
-    border-radius: calc(var(--radius) * var(--coef-screen));
+    border-radius: var(--radius);
 }
 .paginav a:hover .title{
     color: var(--theme);
@@ -338,8 +340,8 @@
 .share-buttons {
     margin-top: var(--gap);
     border: 1px solid var(--content);
-    padding-inline-start: calc(var(--radius) * var(--coef-screen));
-    border-radius: calc(var(--radius) * var(--coef-screen));
+    padding-inline-start: var(--radius);
+    border-radius: var(--radius);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -444,14 +446,15 @@
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    margin: 0.5%;
-    padding: 0.66% 1.22%;
+    margin: 7px;
+    padding: 8px 16px;
     text-align: center;
     transition-duration: 0.4s;
     color: var(--content);
-    font-size: calc(1.68vw * var(--coef-screen)); /*14px*/
+    font-size: 14px;
+    line-height: 34px;
     background: var(--theme);
-    border-radius: calc(var(--radius) * var(--coef-screen));
+    border-radius: var(--radius);
     border: 2px solid var(--content);
 }
 .sample-btn:hover{
@@ -459,15 +462,15 @@
     color: var(--theme );
     font-weight: bolder;
     border: 2px solid var(--theme);
-    border-radius: calc(var(--radius) * var(--coef-screen));
+    border-radius: var(--radius);
 }
 
 /* youtube.html */
 .video-responsive {
-	margin-top: 1%;
-	margin-bottom: 1%;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	overflow:hidden;
-	padding-bottom: 56.25%;
+	padding-bottom:56.25%;
 	position:relative;
 	height:0;
 }
@@ -477,18 +480,16 @@
 	height:100%;
 	width:100%;
 	position:absolute;
-  border: 2px solid var(--theme);
-  border-radius: calc(var(--radius) * var(--coef-screen));
 }
 /* abbr, sub, sup, kbd, mark
 --------------------------------------------------------- */
 .post-single kbd {
-    border-radius: 0.25%;
-    padding: 0.5%;
+    border-radius: 2px;
+    padding: 5px;
     border: 1px solid var(--content);
 }
 .post-single kbd kbd{
-    padding: 0.25%;
+    padding: 2px;
 }
 
 /* boutton copier dans le code
@@ -501,13 +502,13 @@
     top: 3%;
     right: 5%;
     border: 0;
-    border-radius: calc(var(--radius) * var(--coef-screen));
-    padding: 0.25%;
-    font-size: calc(1.2vw * var(--coef-screen));
+    border-radius: 4px;
+    padding: 1px;
+    font-size: 0.8em;
     line-height: 1.8;
     color: var(--hljs-color);
     opacity: 0.7;
-    /*min-width: 55px;*/
+    min-width: 55px;
     text-align: center;
     cursor:pointer;
     font-weight: 700;
@@ -531,4 +532,19 @@ a.footnote-return{
 }
 a.footnote-return:hover {
   font-weight: 800;
+}
+
+/* Mobile */
+/* écran < 600 */
+@media screen and (max-width: 600px) {
+  .book-columns {
+      margin-left: 2.5px;
+      margin-right: 2.5px;
+  }
+  .book-columns div {
+      margin: 2.5px;
+      min-width: 50%;
+      padding: 1px;
+      text-align: left;
+  }
 }

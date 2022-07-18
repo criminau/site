@@ -107,7 +107,7 @@ Contenu = B&MGB
 Primaire = B  
 
 
-## 2
+## ## Côté sombre
 ### Couleur de fond
 [couleur web bleu foncé rbg hsl hexa](https://web-color.aliasdmc.fr/couleur-web-darkblue-rgb-hsl-hexa.html)  
 [couleur bleu](http://www.letoileauxsecrets.fr/couleurs/couleurs-bleu.html)
@@ -163,10 +163,9 @@ couleur de fond pour le code: 1c1d21;
 couleur de fond pour le code 2: 1c1d21;  
 couleur pour le code: rgb(204,204,204);  
 
-
 ### Mode sombre
 
-Bref après de multiple test en interne je conserve au chaud cette configuration :
+Bref après de multiple test en interne je conserve cette configuration :
 
 theme: 00008B;  
 contenu: rgb(162,246,168);  
@@ -174,7 +173,7 @@ couleur de fond pour le code: 00003B;
 couleur de fond pour le code 2: 2e2e33;  
 couleur pour le code: rgb(204,204,204);  
 
-Mais j'applique celle-ci qui est l'inverse du mode éclairé :
+L'inverse du mode éclairé :
 
 theme: rgb(0,43,85);  
 contenu: D3D3D3;  

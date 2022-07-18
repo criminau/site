@@ -1,65 +1,34 @@
 /* Theme
 -------------------------------------------------- */
 :root {
-    --gap: 2vw; /*24px*/
-    --content-gap: 0.5vw;
-    --nav-width: 95vw; /*1024px*/
-    --main-width: 75vw; /* 720px */
-    --header-height: 6.66vh; /*60px*/
-    --footer-height: 1vw; /*60px*/
-    --radius: 0.5vw;
+    --gap: 24px;
+    --content-gap: 20px;
+    --nav-width: 1024px;
+    --main-width: 720px;
+    --header-height: 60px;
+    --footer-height: 60px;
+    --radius: 8px;
     --border-width: 2.5px;
 
     --theme: #D3D3D3;
-    --content: #002B55; /*rgb(0,43,85);*/
+    --content: rgb(0,43,85);
     --code-bg: #1c1d21;
     --hljs-bg: #1c1d21;
     --hljs-color: rgb(204,204,204);
+}
 
-    --coef-screen: 0.8;
-}
-@media screen and (min-width: 1024px) {
-    :root {
-        --nav-width: 75vw;
-        --main-width: 60vw;
-    }
-}
-@media screen and (max-width: 1024px) {
-    :root {
-      --nav-width: 85vw;
-      --main-width: 80vw;
-      --coef-screen: 2;
-    }
-}
-@media screen and (max-width: 805px) {
-    :root {
-      --nav-width: 90vw;
-      --main-width: 90vw;
-      --coef-screen: 2.33;
-    }
-}
 @media screen and (max-width: 600px) {
     :root {
-        --nav-width: 100vw;
-        --main-width: 97.5vw;
-        --coef-screen: 3;
+        --gap: 14px;
     }
 }
 
 .dark {
-  --theme: rgb(0,43,85); /*rgb(0,43,85);*/
-  --content: #D3D3D3; /*#D3D3D3;*/
-  --code-bg: #1c1d21;
-  --hljs-bg: #1c1d21;
-  --hljs-color: rgb(204,204,204);
-
-/*
-  --theme: #00008B;
+  --theme: rgb(0,0,139);
   --content: rgb(162,246,168);
   --code-bg: #00003B;
   --hljs-bg: #2e2e33;
   --hljs-color: rgb(204,204,204);
-*/
 }
 
 .list {

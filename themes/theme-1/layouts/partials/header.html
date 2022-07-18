@@ -25,47 +25,6 @@
 
 <header class="header" role="banner">
     <nav class="nav ">
-      <ul class="menu-left" id="menu-left">
-          <li>
-            <a Title="Page d'accueil" href="{{ "" | absLangURL }}">
-                {{- if .Site.Params.label.icon }}
-                <img title="Logo du Journal Subversif" src="{{ .Site.BaseURL }}{{.Site.Params.label.icon }}" alt="Logo du Journal Subversif" aria-label="Logo du Journal Subversif"
-                    height="{{- .Site.Params.label.iconHeight | default "30px" -}}" width="{{- .Site.Params.label.iconwidth | default "30px" -}}" >
-                {{- else if not .IsHome -}}
-                <h1>{{- .Site.Params.label.text | default .Site.Title -}}</h1>
-                {{- else }}
-                <h1>{{- .Site.Params.label.text | default .Site.Title -}}</h1>
-                {{ end }}
-            </a>
-          </li>
-          <li>
-            {{- if (and (not .Site.Params.disableThemeToggle) (not (or (eq .Site.Params.defaultTheme "light") (eq .Site.Params.defaultTheme "dark")))) }}
-            <span class="theme-toggle">
-                <a href="#menu" title="Changer le thème" id="theme-toggle" aria-label="Changer le thème">
-                  <svg id="moon" [role="img"] xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                      stroke-linejoin="round">
-                      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                  </svg>
-                  <svg id="sun" [role="img"] xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                      stroke-linejoin="round">
-                      <circle cx="12" cy="12" r="5"></circle>
-                      <line x1="12" y1="1" x2="12" y2="3"></line>
-                      <line x1="12" y1="21" x2="12" y2="23"></line>
-                      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                      <line x1="1" y1="12" x2="3" y2="12"></line>
-                      <line x1="21" y1="12" x2="23" y2="12"></line>
-                      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                  </svg>
-                </a>
-            </span>
-            {{- end}}
-          </li>
-      </ul>
-      <!-- logo ?
         <div class="logo">
             <a class="" Title="Page d'accueil" href="{{ "" | absLangURL }}">
                 {{- if .Site.Params.label.icon }}
@@ -102,9 +61,13 @@
             </span>
             {{- end}}
         </div>
-        -->
+
         {{- $currentPage := . }}
         <ul class="menu" id="menu">
+            <!-- html recherche dans le menu -->
+            {{ if .Site.Params.enableSearch }}
+            {{- partial "search.html" . .Page}}
+            {{ end }}
             {{- range .Site.Menus.main }}
             {{- $menu_item_url := .URL | relLangURL }}
             {{- $page_url:= $currentPage.RelPermalink | relLangURL }}

@@ -2,40 +2,33 @@
 -------------------------------------------------- */
 .archive-posts {
     width: 100%;
-    font-size: calc(1.35vw * var(--coef-screen)); /*16px;*/
+    font-size: 0.88rem; /* 16px*/
 }
 .archive-year {
-    margin-top: calc(2.599vw * var(--coef-screen)); /*40px;*/
+    margin-top: calc(var(--gap) * 1.6666); /*40px*/
 }
 .archive-year:not(:last-of-type) {
-    border-bottom: 2px solid var(--content);
+    border-bottom: var(--border-width) solid var(--content);
 }
 .archive-month {
     display: flex;
     align-items: flex-start;
-    padding: calc(0.5vw * var(--coef-screen)) 0;
-    width: 100%;
+    padding: 0.55rem 0; /*10px*/
 }
 .archive-month-header {
-    margin: calc(2.25vw * var(--coef-screen)) 0;
-    font-size: calc(1.5vw * var(--coef-screen));
-    width: 27.5%;
+    margin: 1.388rem 0; /*25px*/
+    width: 11.11rem; /*200px*/
 }
 .archive-month:not(:last-of-type) {
-    border-bottom: 1px solid var(--content);
+    border-bottom: 0.05rem solid var(--content); /*1px*/
 }
 .archive-entry {
     position: relative;
-    padding: calc(0.4vw * var(--coef-screen));
-    margin: calc(0.75vw * var(--coef-screen)) 0;
+    padding: 0.27rem; /*5px*/
+    margin: 0.55rem 0; /*10px*/
 }
-/*
-.archive-entry:hover, .archive-entry h3:hover{
-  font-weight: bold;
-}
-*/
 .archive-entry-title {
-    margin: calc(0.2vw * var(--coef-screen)) 0;
+    margin: 0.27rem 0; /*5px*/
     font-weight: 400;
 }
 .entry-link {
@@ -47,19 +40,21 @@
 }
 .archive-meta {
     color: var(--content);
-    font-size: calc(1.05vw * var(--coef-screen));
+    font-size: 0.;
 }
 .archive-meta a{
     color: var(--content);
-    font-size: calc(1.05vw * var(--coef-screen));
+    font-size: 0.77rem;/*14px*/
 }
 .archive-count {
     color: var(--content);
-    font-size: calc(1.05vw * var(--coef-screen));
+    font-size: 0.77rem;/*14px*/
 }
-@media screen and (max-width: 600px) {
-  .archive-month-header {
-      margin: 2.25vw 0;
-      width: 40%;
-  }
+@media (max-width: 44.44rem) { /*800px*/
+    .archive-month {
+        flex-direction: column;
+    }
+    .archive-year {
+        margin-top: 1.11rem;/*20px*/
+    }
 }

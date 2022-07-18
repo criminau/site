@@ -31,6 +31,8 @@ Ces notes sont fournies gratuitement et librement au monde.
 
 - [Code source](https://github.com/criminau/site)
 
+- [Utiliser la recherche](https://criminau.xyz/recherche.txt)
+
 ### Outils
 
 - [Hugo CMS](https://gohugo.io)
