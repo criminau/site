@@ -12,7 +12,9 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 
 ### V.02.9
 
-- [ ] css page de texte et page d'accueil. font-size (rem) + css (clear css) (en cours)
+- [ ] css page de texte
+- [ ] page d'accueil. 
+- [ ] font-size (rem) + css (clear css) (en cours)
 - [ ] bouton partager. section "partage" !
 - [ ] iteroni vidéo
 - [ ] nitter tweet
