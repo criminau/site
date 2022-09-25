@@ -10,16 +10,9 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 
 ## Prochaine version
 
-### V.02.8
+### V.02.9
 
-- [X] retour de la recherche, assumée.
-- [X] font-size + css, retour v.2.6.
-- [X] couleur de fond assumée.
-- [X] mois en français sur post-meta + archives.
-- [X] hugo v0.96.0 -> tweet.
-- [X] css et ratio d'image cover.
-- [X] css et ratio d'image figure shortcodes.
-- [ ] css page de texte et page d'accueil. font-size (rem) + css (clear css) v.2.8 (en cours)
+- [ ] css page de texte et page d'accueil. font-size (rem) + css (clear css) (en cours)
 - [ ] bouton partager. section "partage" !
 - [ ] iteroni vidéo
 - [ ] nitter tweet
