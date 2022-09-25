@@ -10,8 +10,8 @@ disableShare: false
 date: 2022-09-25T14:51:04+02:00
 cover:
     image: "media/saint-georges-cover.avif"
-    alt: "Saint Georges tuant le mal"
-    caption: "Saint Georges tuant le mal"
+    alt: "Saint Georges tuant le dragon"
+    caption: "Saint Georges tuant le dragon"
 images: "media/saint-georges-cover.avif"
 keyword: "Moscou, Troisième, Rome"
 pdfname: "moscou-troisieme-rome"
@@ -163,11 +163,11 @@ Sur les armoiries russe :
 - L'aigle portant l'écusson de Saint-Georges (patron des Slaves) terrassant le dragon (le mal); dit «Saint-Georges le Vainqueur» et orienté vers la droite.
 - L'aigle tenant dans ses serres, sceptre et orbe, représentant respectivement le pouvoir du tsar et de l’église orthodoxe.
 
-{{< figure src="https://criminau.xyz/media/armoiries-byzantine.svg.avif" alt="Armoiries Byzantine" caption="Armoiries Byzantine" class="left" >}}
+{{< figure src="https://criminau.xyz/media/armoiries-byzantine.svg.avif" alt="Armoiries Byzantine" caption="Armoiries Byzantine" >}}
 
-{{< figure src="https://criminau.xyz/media/armoiries-emp-rus.svg.avif" alt="Armoiries de l'Empire Russe" caption="Armoiries de l'Empire Russe" class="right" >}}
+{{< figure src="https://criminau.xyz/media/armoiries-emp-rus.svg.avif" alt="Armoiries de l'Empire Russe" caption="Armoiries de l'Empire Russe" >}}
 
-{{< figure src="https://criminau.xyz/media/armoiries-fed-rus.svg.avif" alt="Armoiries de la Fédération de Russie" caption="Armoiries de la Fédération de Russie" class="left" >}}
+{{< figure src="https://criminau.xyz/media/armoiries-fed-rus.svg.avif" alt="Armoiries de la Fédération de Russie" caption="Armoiries de la Fédération de Russie" >}}
 
 **On observe une suite entre les armoiries de l'Empire byzantin, du Saint Empire germanique, de l'Empire russe et de la Fédération de Russie.**
 
