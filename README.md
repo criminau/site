@@ -12,17 +12,17 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 
 ### V.02.8
 
-- [X] retour de la recherche
+- [X] retour de la recherche, assumée.
 - [X] font-size + css, retour v.2.6.
-- [X] couleur de fond.
+- [X] couleur de fond assumée.
 - [X] mois en français sur post-meta + archives.
 - [X] hugo v0.96.0 -> tweet.
-- [ ] iteroni Vidéo
+- [ ] iteroni vidéo
 - [ ] nitter tweet
 - [ ] Opt out FLoC ??
-- [ ] préparation des catégories ou tags, autres sections.
-- [ ] Responsive fontsize+css v.2.8 (rem + clear css) (en cours)
-- [ ]
+- [ ] préparation des catégories ou tags, autres sections. notes.
+- [ ] font-size (rem) + css (clear css) v.2.8 (en cours)
+- [ ] section "partage" !
 - [ ]
 - [ ]
 - [ ]
