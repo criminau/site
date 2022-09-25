@@ -5,9 +5,10 @@
   margin-bottom: var(--gap);
 }
 .entry-cover img{
-  border-radius: 4px;
-  width: 100%;
-  height: auto;
+    border-radius: 4px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
 }
 .cover-caption{
   font-size: 14px;
@@ -420,8 +421,18 @@
 
 .post-content img{
     display: block;
-    width: 100%;
+    max-height: 300px;
+    
+    max-width: 100%;
     height: auto;
+    width: auto;
+    /*
+    
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    */
+    
     margin: auto;
     border-radius: 4px;
 }

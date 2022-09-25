@@ -17,12 +17,16 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [X] couleur de fond assumée.
 - [X] mois en français sur post-meta + archives.
 - [X] hugo v0.96.0 -> tweet.
+- [X] css et ratio d'image cover.
+- [X] css et ratio d'image figure shortcodes.
+- [ ] css page de texte et page d'accueil. font-size (rem) + css (clear css) v.2.8 (en cours)
+- [ ] bouton partager. section "partage" !
 - [ ] iteroni vidéo
 - [ ] nitter tweet
 - [ ] Opt out FLoC ??
 - [ ] préparation des catégories ou tags, autres sections. notes.
-- [ ] font-size (rem) + css (clear css) v.2.8 (en cours)
-- [ ] section "partage" !
+- [ ] 
+- [ ] 
 - [ ]
 - [ ]
 - [ ]
