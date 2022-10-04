@@ -253,7 +253,7 @@ Du chaos né l'ordre. Ordo ab chao. C'est de la démolition contrôlée. Mainten
 *On observe la volonté de l'Occident par ses actions.*
 
 - Déstabilisation et pillage du Moyen-Orient.
-- Contrôler le Heartland (ou Rimland), puis l'Iran et la Chine. 
+- Contrôler le Heartland (ou Rimland), puis l'Iran et la Chine.
 - Déstabilisation et pillage de l'Afrique.
 - Déstabilisation et pillage de l'Amérique du Sud.
 - Utilisation du dollar comme outils de contrôle et de pouvoir.
