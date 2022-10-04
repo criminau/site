@@ -38,7 +38,7 @@ for = "/*"
   X-Content-Type-Options = "nosniff"
   X-Frame-Options = "SAMEORIGIN"
   X-XSS-Protection = "1; mode=block"
-  Permissions-Policy: interest-cohort=()
+  Permissions-Policy = "interest-cohort=()"
 [[headers]]
 # for = "/media/*" # in the media folder
 for = "/*" # everywhere 3 Months = 60*60*24*90
