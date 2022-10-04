@@ -1,1 +1,8 @@
-- [Utiliser la recherche](https://criminau.xyz/recherche.txt)
+utilisation de la fonctionnalité recherche.
+
+via les touches du clavier.
+
+Entrée -> sélectionne le premier article dans la liste ou permet d'accéder à l'article sélectionné.
+Flèche vers le bas -> permet de sélectionner un article dans la liste.
+Flèche vers le haut -> permet de sélectionner un article dans la liste.
+Retour -> permet de supprimer les lettres écrites et de vider la barre de recherche.

@@ -38,12 +38,13 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [X] clear html.
 - [X] clear css.
 - [X] schema article : Rich content.
+- [X] Opt out FLoC ??
+
 
 - [ ] 
-- [ ] déployer iteroni à la place de youtube qui bouffe de la ressource.
 - [ ] .Params.image ?? -> RSS
 - [ ] RSS image (en cours)
-- [ ] Opt out FLoC ??
+
 - [ ] s'engager dans les outils de recherche et d'affichage des taxonomies
 - [ ] préparation section : note ?
 - [ ] site responsive avec css mobile (720/1320)

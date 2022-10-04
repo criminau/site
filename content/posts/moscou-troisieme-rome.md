@@ -18,7 +18,7 @@ Thème:
   - Troisième Rome
 Tags:
   - 
-pdfname: ""
+pdfname: "moscou-troisieme-rome"
 
 ---
 
@@ -30,7 +30,7 @@ Si oui pourquoi ? et pour qui ?
 
 *Le fait « d'utiliser le personnage » de Vladimir Poutine est plus « vendeur » et permet une sélection naturelle entre lecteurs avisés et non-avisés, c'est triste d'en arriver là. Mais l'exemple qu'offre ce personnage est un cas pratique.*
 
-Nous aborderons de mutilples thématiques du monde russe, de l'Histoire à la Philosophie en concluant sur la Géopolitique.
+Nous aborderons de multiples thématiques du monde russe, de l'Histoire à la Philosophie en concluant sur la Géopolitique.
 
 
 ## Définition par l'Histoire
@@ -199,17 +199,16 @@ En 2014, la capture pacifique de la Crimée montre qu'il a fait son choix, contr
 - Accès aux ressources (qui sont présentes en nombre en Nouvelle-Russie).
 - Population qui lui est favorable.
 
-2016, deuxième visite au Mont Athos, précisément au monastère Saint-Panteleimon.
-C'est le début de la renaissance, symbolisée par la Nouvelle-Russie (XVIIIe siècle avec Catherine II et l'actuelle Ukraine).
-
-Jusqu'en Novembre 2021, c'est la préparation de la grande guerre patriotique qui servira d'appui.
-
-Dans ce sens, le bolchevisme, financé par les anglais et qui a fracturé l'Empire russe, est une honte et une erreur. Exemple : 20% de russes dans les pays baltes.
-
 2015 : Intervention en Syrie où syriens et russes sont amis depuis l'URSS. Intervention d'ordre géopolitique (une fois de plus), puisque depuis plusieurs années Moscou protège Bachar d'un débarquement de l'OTAN en dépêchant continuellement une flotte active le long de ses côtes. Ce conflit s'inscrit dans un contexte plus grand au moyen-orient.
 
 2016, « les frontières de la Russie ne s'arrête pas ». (Beaucoup le verront comme une preuve de l'impérialisme). C'est la seule mention publique de « Moscou - Troisième Rome » par Poutine. C'est limite choquant.
 
+2016, deuxième visite au Mont Athos, précisément au monastère Saint-Panteleimon.
+C'est le début de la renaissance, symbolisée par la Nouvelle-Russie (XVIIIe siècle avec Catherine II et l'actuelle Ukraine).
+
+Dans ce sens, le bolchevisme, financé par les anglais et qui a fracturé l'Empire russe, est une honte et une erreur. Exemple : 20% de russes dans les pays baltes.
+
+Jusqu'en Novembre 2021, c'est la préparation de la grande guerre patriotique qui servira d'appui.
 **Hormis 2016, il n'y a absolument aucune mention de ce concept. Les visites discrètes au Mont Athos confirme Moscou, via Poutine, a conscience et suit le fil conducteur de la métaphysique/métapolitique.**
 
 **Sinon comment accomplir tout cela ?**
@@ -316,11 +315,11 @@ Pour s'assurer l'avenir, il ne faut pas s'effondrer avec l'occident, pour cela i
 La guerre des monnaies vaut bien tout l'or du monde. De Gaulle le savait bien, Poutine le sait bien, en indexant le rouble sur l'or. Moscou a sorti sa reine sur l'échiquier mondial. Poutine a anticipé un nouvel étalon-or de Moscou. Tandis que la Chine s'occupe du prix du marché. Le dollar est à bannir absolument.
 
 Plus haut je vous disait : « Jusqu'en Novembre 2021, c'est la préparation de la grande guerre patriotique qui servira d'appui. »
-Poutine s'appui sur cette guerre pour justifier ces changements monétaires nécessaires.
+Poutine s'appuie sur cette guerre pour justifier ces changements monétaires nécessaires.
 
 ### Difficultés rencontrées
 
-La bureaucratie chinoise a le temps avec elle, elle connait son histoire et son destin. Poutine lui, vieillissant a le temps contre lui. Coupé du monde Occidental, la Russie avance, la Chine reste prudente, encore forte dépendante de ses exportations vers l'occident. L'étalon-or sur le yuan n'est pas pour tout de suite. La Chine doit améliorer son marché intérieur, les marchés Asiatique et du Moyen-Orient à développer. Les quantités d'or détenus sont le nerfs de la guerre.
+La bureaucratie chinoise a le temps avec elle, elle connaît son histoire et son destin. Poutine lui, vieillissant a le temps contre lui. Coupé du monde Occidental, la Russie avance, la Chine reste prudente, encore forte dépendante de ses exportations vers l'occident. L'étalon-or sur le yuan n'est pas pour tout de suite. La Chine doit améliorer son marché intérieur, les marchés Asiatique et du Moyen-Orient à développer. Les quantités d'or détenus sont le nerfs de la guerre.
 
 **La Russie est le véritable centre géopolitique du monde, comme MacKinder l'avait prédit.**
 
@@ -411,13 +410,13 @@ Mais aussi de leur points fort :
   - Protéger l'humanité de la déshumanisation
   - Eliminer les menaces de mise au point et d'utilisation d'armes biologiques
   - Stopper l'exploitation des pays émetteurs de monnaie de réserve
-  - Mettre fin aux ingérences étrangères sur des Etats souverains
+  - Mettre fin aux ingérences étrangères sur des états souverains
 - Préparer avec les victimes des usa un nouvel système financier mondial
   - Dont la base est l'eurasisme
 - Mesures économiques interne en Russie pour le développement de celle-ci
   - → Renaissance
 - Amélioration du bien-être public et la garantie de la sécurité nationale
-  - Rennaissance « sociale orthodoxe »
+  - Renaissance « sociale orthodoxe »
 - Désoligarchisation de la Russie
   - → Purge
 
@@ -436,7 +435,7 @@ Il faudrait approfondir le mythe de la Jérusalem Céleste. « L'Ukraine est une
 
 ## Conclusion
 
-« Moscou, la Troisième Rome » a sauvé le monde d'un choc des civilisations et d'une colonisation par les peu nombreux controlant les usa. Moscou a également sauvé l'islam et appuie la Chine, elle sert de bouclier.
+« Moscou, la Troisième Rome » a sauvé le monde d'un choc des civilisations et d'une colonisation par les peu nombreux contrôlant les usa. Moscou a également sauvé l'islam et appuie la Chine, elle sert de bouclier.
 
 Ce choc des civilisations visait à détruire à la fois l'islam et la chrétienté et l'humanité tout entière.
 
