@@ -1,0 +1,47 @@
+/* Theme
+-------------------------------------------------- */
+
+:root {
+    --gap: 1.5em;
+    --gap-small: 0.416em;
+    --content-gap: 1.0416em;/*
+    --nav-width: 100%; /* nav-width nobody use it*/
+    --main-width: 47.92em;
+    --radius: 0.41664em;
+    --border-width: 0.05208em;
+    
+    --theme: #D3D3D3;
+    --content: rgb(0,43,85);
+    --code-bg: #1c1d21;
+    --hljs-bg: #1c1d21;
+    --hljs-color: rgb(204,204,204);
+    --font-size-classic: 0.888em;
+    --font-size-menu: 1.33em;
+    
+}
+
+/* <Mobile> */
+@media screen and (max-width: 630px) {
+    :root {
+        --main-width: auto;
+        --gap: 1em;
+        
+    }
+}
+
+/* <Color> */
+.dark {
+  --theme: rgb(0,0,139);
+  --content: rgb(162,246,168);
+  --code-bg: #00003B;
+  --hljs-bg: #2e2e33;
+  --hljs-color: rgb(204,204,204);
+}
+
+.list {
+    background: var(--theme);
+}
+
+.dark.list {
+    background: var(--theme);
+}

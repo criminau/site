@@ -1,0 +1,170 @@
+/* Add css tricks
+------------------------------------------------------------------------- */
+.flex{
+	display:flex;
+}
+.flex-even{
+	flex:1 1;
+}
+.flex-wrap{
+	flex-wrap:wrap;
+}
+.justify-between{
+	justify-content:space-between;
+}
+.justify{
+    text-align: justify;
+}
+.btn-right{
+	float: right;
+}
+:target {
+	margin-top: 1.302em;
+}
+.float-right{
+    float:right;
+}
+#no-display{
+    display: none;
+}
+/* Navigation
+-------------------------------------------------- */
+.nav{
+    margin: var(--gap-small) var(--gap) 0 var(--gap);
+    font-size: var(--font-size-menu);
+    max-width: var(--main-width);
+}
+.nav ul{
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: flex-start;
+	flex-wrap: wrap;
+    row-gap: var(--gap-small);
+}
+.nav li{
+    margin-right: var(--gap);
+    align-items: first baseline;
+}
+.logo{
+    vertical-align: middle;
+    border-radius: calc(var(--radius)/2);
+    width: 1.33em;
+    height: 1.33em;
+}
+.nav .logo:hover {
+  transform:rotate(25deg);
+  -ms-transform:rotate(25deg);
+  -webkit-transform:rotate(25deg);
+}
+/** theme-toggle
+-------------------------------------------------- **/
+.nav .theme-toggle{
+    cursor: pointer;
+    width: 1.33em;
+    height: 1.33em;
+}
+.nav .theme-toggle:hover{
+  transform:rotate(-25deg);
+  -ms-transform:rotate(-25deg);
+  -webkit-transform:rotate(-25deg);
+}
+/** page menu
+-------------------------------------------------- **/
+.nav a:hover{
+    font-weight: bold;
+    color: var(--content);
+}
+.nav a .active {
+    font-weight: 500;
+    border-bottom: calc(var(--border-width)*2) solid currentColor;
+}
+#theme-toggle svg{
+    vertical-align: middle;
+    pointer-events: none;
+    width: 1.33em;
+    height: 1.33em;
+}
+body.dark #moon {
+    vertical-align: middle;
+    display: none;
+}
+body:not(.dark) #sun {
+    display: none;
+}
+
+/* Footer
+-------------------------------------------------- */
+.footer {
+    margin: var(--gap) var(--gap) var(--gap-small) var(--gap);
+    color: var(--content);
+    font-size: var(--font-size-classic);
+}
+.footer span {
+}
+.footer a {
+    color: inherit;
+    border-bottom: var(--border-width) solid var(--content);
+}
+.footer a:hover {
+    font-weight: bolder;
+}
+.tl2{
+    cursor: pointer;
+    display: inline-flex;
+    color: inherit;
+    border-bottom: var(--border-width) solid var(--content);
+}
+.tl2:hover {
+    font-weight: bolder;
+}
+
+/* Bouton Haut de page
+---------------------------------------------------------------------------*/
+.top-link {
+    font-size: var(--font-size-classic);
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    bottom: 3.124em;
+    right: 1.562em;
+    z-index: 99;
+    background: var(--content);
+    width: 2.18em;
+    height: 2.18em;
+    padding: var(--radius);
+    color: var(--theme);
+    border-radius: calc(var(--radius)*8);
+    fill: currentColor;
+    fill-opacity: 80%;
+    transition: visibility 0.5s,
+    opacity 0.8s linear;
+    cursor: pointer;
+}
+.top-link svg{
+    width: 1.33em;
+    height: 1.33em;    
+}
+.top-link:hover{
+    width: 3em;
+    height: 3em;
+}
+
+/* la 404
+-------------------------------------------------- */
+.empty-page{
+    margin: var(--gap);
+    padding: calc(var(--gap)*4);
+    max-width: var(--main-width);
+    min-height: var(--main-width);
+}
+
+/* mobile
+-------------------------------------------------- */
+@media screen and (max-width: 630px) {
+    .top-link{
+        bottom: 5em;
+    }
+    .footer {
+        text-align: center;
+    }
+}

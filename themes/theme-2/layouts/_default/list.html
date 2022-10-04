@@ -1,0 +1,65 @@
+{{- define "main" }}
+
+{{ $pages := union .RegularPages .Sections }}
+{{ $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ $paginator := .Paginate $pages }}
+{{ $term := .Data.Term}}
+
+
+{{ if (and $.IsHome (.Site.Params.homeInfoParams) (eq $paginator.PageNumber 1)) }}
+{{- partial "home_info.html" . }}
+{{ end }}
+
+<p class="introducart">
+	{{ $n := len $pages }}
+	{{ $n }} articles
+	{{ partial "pagination.html" $paginator }}
+</p>
+
+{{ range $page := $paginator.Pages }}
+{{ $class := "post-entry" }}
+
+<article class="{{ $class }}" role="article">
+  
+    <div class="post-entry-content-left">
+		{{- partial "cover.html" (dict "cxt" . "IsHome" true) }}
+	</div>
+	
+	<div class="post-entry-content-right">
+		<div class="entry-header">
+			<h2>
+			  {{ .Title }}
+			  {{- if .Draft }}<sup class="entry-isdraft">&nbsp;&nbsp;[brouillon]</sup>
+			  {{- end }}
+			</h2>
+		</div>
+		{{- if (ne .Site.Params.hideSummary true)}}
+      <p class="justify entry-content" >{{ .Summary | plainify | htmlUnescape }}</p>
+		{{- end }}
+    <!--- entry-taxonomies --->
+    {{ if (.GetTerms "Thème") }}
+    <p class="entry-taxonomies">
+    {{ range (.GetTerms "Thème") }}
+      [{{ .LinkTitle }}]
+      {{ $term }} 
+    {{ end }}
+    </p>
+    {{ end }}
+    <!--- entry-taxonomies END --->
+	
+    <div class="entry-footer">
+      {{- partial "post_meta.html" . -}}
+    </div>
+	</div>
+  <a class="entry-link" aria-label="{{ .Title | plainify }}" href="{{ .Permalink }}" title="{{ .Title | plainify }}"></a>
+</article>
+
+{{- end }}
+
+<p class="introducart">
+	{{ $n := len $pages }}
+	{{ $n }} articles
+	{{ partial "pagination.html" $paginator }}
+</p>
+
+{{- end  }}{{- /* end main */ -}}

@@ -1,0 +1,112 @@
+/* Reset
+-------------------------------------------------- */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html {
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--content);
+    font-family: "Segoe WP", "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--theme);
+}
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--content);
+    line-height: 1.2;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    color: var(--content);
+    text-decoration: none;
+}
+
+figure {
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: block;
+    overflow-x: auto;
+    word-break: keep-all;
+}
+
+button,
+input,
+textarea {
+    padding: 0;
+    font: inherit;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
+
+button,
+input[type='button'],
+input[type='submit'] {
+    cursor: pointer;
+}
+
+input,
+textarea {
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+    box-shadow: 0 0 0 50px var(--theme) inset;
+}
+
+*:focus {
+    outline:none;
+}
+fieldset {
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-block-start: 0;
+    padding-block-end: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    border: none;
+    min-inline-size: min-content;
+}

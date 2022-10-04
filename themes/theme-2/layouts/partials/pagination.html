@@ -1,0 +1,35 @@
+&nbsp;·&nbsp;
+
+{{ $pag := . }}
+{{ $scratch := newScratch }}
+{{ if gt $pag.TotalPages 1 }}
+{{ $scratch.Set "dot_rendered" false }}
+
+        {{ if and (ne $pag.PageNumber 1) (ne $pag.PageNumber 2) }}
+        <a href="{{ $pag.First.URL }}" rel="Première page" class="page-link" Title="Première page">« Premiere</a>
+        {{ end }}
+        {{ if $pag.HasPrev  }}
+        <a href="{{ $pag.Prev.URL }}" rel="page précédente" class="page-link" Title="page précédente">‹ Précédent</a>
+        {{ end }}
+        {{ range $pag.Pagers }}
+            {{ if eq . $pag }}
+            <a href="{{ .URL }}" class="page-link {{- $currentPage := .URL | relLangURL}} {{- $menu_item_url := .URL | relLangURL }} 
+			{{- if eq $menu_item_url $currentPage }} active {{- end }} " Title="page {{.PageNumber}}" rel="page {{.PageNumber}}" >
+				{{ .PageNumber }}
+			</a>
+            {{ else if and (ge .PageNumber (sub $pag.PageNumber 2)) (le .PageNumber (add $pag.PageNumber 2)) }}
+            {{ $scratch.Set "dot_rendered" false }}
+            <a href="{{ .URL }}" class="page-link" Title="page {{.PageNumber}}" rel="page {{.PageNumber}}">{{ .PageNumber }}</a>
+            {{ else if eq ($scratch.Get "dot_rendered") false }}
+            {{ $scratch.Set "dot_rendered" true }}
+            &hellip;
+            {{ end }}
+        {{ end }}
+        {{ if $pag.HasNext }}
+        <a href="{{ $pag.Next.URL }}" rel="page suivante" class="page-link" Title="page suivante">Suivant ›</a>
+        {{ end }}
+        {{ if and (ne $pag.PageNumber $pag.TotalPages) ((ne $pag.PageNumber (sub $pag.TotalPages 1))) }}
+        <a href="{{ $pag.Last.URL }}" rel="dernière page" Title="Dernière page" class="page-link">Dernière »</a>
+        {{ end }}
+
+{{ end }}

@@ -9,11 +9,18 @@ tocopen: false
 disableShare: false
 date: {{ .Date }}
 cover:
-    image: "media/"
+    image: "media/sky-cover.avif"
     alt: "Description de l'image"
     caption: "Légende"
-images: "media/"
+images: "media/sky-cover.avif"
 keyword: ""
+Thème:
+  -
+Tags:
+  -
+  -
+Série:
+  -
 pdfname: "{{ .Name }}"
 ---
 

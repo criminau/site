@@ -1,14 +1,10 @@
 ---
 title: "A Propos"
-author: criminau.xyz
-ShowToc: false
-date: 2019-11-19T08:37:55+02:00
 url: "/apropos/"
-hidemeta: true
-disableShare: true
 description: "A propos du blog criminau.xyz, de l'origine à la conception. Observons, les outils ( Développement, Hébergement, ... ), le financement, ainsi que vos droits."
 noindex: true
 pages: true
+hidemeta: true
 ---
 
 Le site a été développé par une seule personne, dans le but d’offrir un avis très critique de notre environnement social.

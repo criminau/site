@@ -1,10 +1,9 @@
 [build]
 publish = "public"
-#command = "hugo --gc --minify"
-command = "hugo --gc --minify "
+command = "hugo --gc --minify -D"
 
 [context.production.environment]
-HUGO_VERSION = "0.96.0"
+HUGO_VERSION = "0.101.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
@@ -12,20 +11,20 @@ HUGO_ENABLEGITINFO = "true"
 command = "hugo --gc --enableGitInfo"
 
 [context.split1.environment]
-HUGO_VERSION = "0.80.0"
+HUGO_VERSION = "0.101.0"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
 command = "hugo --gc -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.80.0"
+HUGO_VERSION = "0.101.0"
 
 [context.branch-deploy]
 command = "hugo --gc -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.96.0"
+HUGO_VERSION = "0.101.0"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
@@ -35,12 +34,13 @@ HUGO_ENABLEGITINFO = "true"
 for = "/*"
 [headers.values]
   Referrer-Policy = "no-referrer"
-  Strict-Transport-Security = "max-age=31536000"
+  Strict-Transport-Security = "max-age=7776000"
   X-Content-Type-Options = "nosniff"
   X-Frame-Options = "SAMEORIGIN"
   X-XSS-Protection = "1; mode=block"
-#  Permissions-Policy: interest-cohort=()
+  Permissions-Policy: interest-cohort=()
 [[headers]]
-for = "/media/*" # in the media folder for 7 days (60*60*24*7), now 365 days
+# for = "/media/*" # in the media folder
+for = "/*" # everywhere 3 Months = 60*60*24*90
 [headers.values]
-  Cache-Control = "must-revalidate, public, max-age=31536000"
+  Cache-Control = "must-revalidate, public, max-age=7776000"

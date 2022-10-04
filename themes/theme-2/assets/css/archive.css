@@ -1,0 +1,70 @@
+/* Archive
+-------------------------------------------------- */
+.page-header{
+    margin: var(--gap);
+    width: var(--main-width);
+}
+.archive-list-main{
+    margin: var(--gap);
+    max-width: var(--main-width);
+    width: auto;
+}
+.archive-posts {
+    width: 100%;
+    font-size: 0.88em;
+}
+.archive-year {
+    margin-top: calc(var(--gap) * 1.6666);
+}
+.archive-year:not(:last-of-type) {
+    border-bottom: var(--border-width) solid var(--content);
+}
+.archive-month {
+    display: flex;
+    align-items: flex-start;
+    padding: 0.55rem 0;
+}
+.archive-month-header {
+    margin: 1.388em 0;
+    width: 11.11em;
+}
+.archive-month:not(:last-of-type) {
+    border-bottom: 0.05em solid var(--content);
+}
+.archive-entry {
+    position: relative;
+    padding: 0.27em;
+    margin: 0.55em 0;
+}
+.archive-entry-title {
+    margin: 0.27em 0;
+    font-weight: 400;
+}
+.entry-link {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.archive-meta {
+    color: var(--content);
+    font-size: 0.88em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.archive-count {
+    color: var(--content);
+    font-size: 0.77em;
+}
+
+/* <Mobile>
+--------------------------------------------------------------------- */
+@media (max-width: 800px) {
+    .archive-month {
+        flex-direction: column;
+    }
+    .archive-year {
+        margin-top: 1.11em;
+    }
+}

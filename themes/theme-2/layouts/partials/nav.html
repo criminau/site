@@ -1,0 +1,83 @@
+<!-- Script pour conserver le thème sur l'ensemble du site -->
+{{- if (and (not .Site.Params.disableThemeToggle) (not (or (eq .Site.Params.defaultTheme "light") (eq .Site.Params.defaultTheme "dark")))) }}
+<script>
+    // load memory
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add('dark');
+        }
+    }
+
+</script>
+{{- end }}
+{{- if (and (.Site.Params.disableThemeToggle) (eq .Site.Params.defaultTheme "auto")) }}
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+</script>
+{{- end }}
+<!-- Fin du script -->
+
+<nav class="nav">
+	<ul>
+		<li>
+		<a Title="Page d'accueil" href="{{ "" | absLangURL }}">
+			{{- if .Site.Params.label.icon }}
+			<img class="logo" title="Logo du Journal Subversif" src="{{ .Site.BaseURL }}{{.Site.Params.label.icon }}"
+			alt="Logo du Journal Subversif" aria-label="Logo du Journal Subversif" >
+			{{- else if not .IsHome -}}
+			<h1>{{- .Site.Params.label.text | default .Site.Title -}}</h1>
+			{{- else }}
+			<h1>{{- .Site.Params.label.text | default .Site.Title -}}</h1>
+			{{ end }}
+		</a>
+		</li>
+		
+		{{- if (and (not .Site.Params.disableThemeToggle) (not (or (eq .Site.Params.defaultTheme "light") (eq .Site.Params.defaultTheme "dark")))) }}
+		<li class="theme-toggle">
+			<p title="Changer le thème" id="theme-toggle" Title="Changer le thème">
+			  <svg id="moon" [role="img"] xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet"
+				  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+				  stroke-linejoin="round">
+				  <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+			  </svg>
+			  <svg id="sun" [role="img"] xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet"
+				  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+				  stroke-linejoin="round">
+				  <circle cx="12" cy="12" r="5"></circle>
+				  <line x1="12" y1="1" x2="12" y2="3"></line>
+				  <line x1="12" y1="21" x2="12" y2="23"></line>
+				  <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+				  <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+				  <line x1="1" y1="12" x2="3" y2="12"></line>
+				  <line x1="21" y1="12" x2="23" y2="12"></line>
+				  <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+				  <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+			  </svg>
+			</p>
+		</li>
+		{{- end}}
+		{{- $currentPage := . }}
+		<!-- html recherche dans le menu -->
+		{{ if .Site.Params.enableSearch }}
+		{{- partial "search.html" . .Page}}
+		{{ end }}
+		{{- range .Site.Menus.main }}
+		{{- $menu_item_url := .URL | relLangURL }}
+		{{- $page_url:= $currentPage.RelPermalink | relLangURL }}
+		<li>
+			<a Title="{{ .Name }}" href="{{ .URL | absLangURL }}">
+				<span {{- if eq $menu_item_url $page_url }}
+					{{- /* the menu item links to the current page (with relLangURL) */}} class="active" {{- end }}>
+					{{ .Name }}
+				</span>
+			</a>
+		</li>
+		{{- end -}}
+	</ul>
+</nav>

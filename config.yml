@@ -1,12 +1,12 @@
-baseURL: 'https://criminau.xyz/'
+baseURL: "https://criminau.xyz/"
 relativeURLs: true
 uglyURLs: true
 title: "Journal Subversif"
-paginate: 7
+paginate: 8
 languageCode: fr-FR
 DefaultContentLanguage: fr
 enableInlineShortcodes: true
-theme: theme-1
+theme: theme-2
 
 enableRobotsTXT: false
 buildFuture: false
@@ -47,10 +47,9 @@ params:
   DateFormat: 2 January, 2006
   disableThemeToggle: false
   defaultTheme: auto
+  emptycover: 'media/sky-cover.avif'
   label:
     icon: apple-touch-icon.png
-    iconHeight: 30px
-    iconwidth: 30px
 
 # Environnement
   env: production
@@ -86,8 +85,13 @@ menu:
 # SEO
 permalinks:
   posts: /articles/:slug/
-disableKinds: ["taxonomy", "taxonomyTerm", "section"]
 
+# Taxonomies
+taxonomies:
+  tag: Tags
+  category: Thème
+  serie: Série
+  
 # RSS feed
 rsslimit: 20
 

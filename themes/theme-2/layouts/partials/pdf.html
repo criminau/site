@@ -1,0 +1,3 @@
+{{- with $.Params.pdfname -}}
+<a class="pdf-link-post-single" href="/pdf/{{ . }}.pdf" target="_blank" rel="noopener noreferrer" title="Télécharger {{ . }} en version pdf" download>pdf</a>
+{{- end -}}

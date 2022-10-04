@@ -14,7 +14,11 @@ cover:
     caption: "Saint Georges tuant le dragon"
 images: "media/saint-georges-cover.avif"
 keyword: "Moscou, Troisième, Rome"
-pdfname: "moscou-troisieme-rome"
+Thème:
+  - Troisième Rome
+Tags:
+  - 
+pdfname: ""
 
 ---
 
@@ -130,9 +134,10 @@ L'orthodoxie est différente du catholicisme qui a perdu la connexion de Dieu av
 
 Communiquer la vérité : les symboles de leur Foi doivent être adoptés.
 
-Conscience des troupes engagés en Ukraine (hisse les bannières sur leurs véhicules de combat et leurs équipement).
+Conscience des troupes engagés en Ukraine (hisse les bannières sur leurs véhicules de combat et leurs équipements).
 
-Transmettre la conscience sacrée de la signification existentielle de cette guerre, qui leur ait imposée, cette guerre sacrée. J'ai mentionné a mainte reprise « l'appui » qu'apporte cette guerre sacrée, il se confirme et permet cette prise de conscience, et va faire chavirer le monde russe dans un nouveau monde, une guerre sacrée et totale. L'humanité aura alors une dette envers les russes. Cette prise de conscience doit s'enclencher à grande échelle, selon Glazyev S. « Le personnel militaire doit clairement comprendre qu'il se bat pour la mère patrie qui l'aime, le valorise et protège sa famille et ses valeurs. »
+Transmettre la conscience sacrée de la signification existentielle de cette guerre, qui leur ait imposée, cette guerre sacrée. J'ai mentionné a mainte reprise « l'appui » qu'apporte cette guerre sacrée, il se confirme et permet cette prise de conscience, et va faire chavirer le monde russe dans un nouveau monde, une guerre sacrée et totale. L'humanité aura alors une dette envers les russes. Cette prise de conscience doit s'enclencher à grande échelle, selon Glazyev S. :
+> « Le personnel militaire doit clairement comprendre qu'il se bat pour la mère patrie qui l'aime, le valorise et protège sa famille et ses valeurs. »
 
 **Tous les propos où volontés révèlent une position défensive : Se protéger d'une agression spirituelle et existentielle subit et non désirée.**
 
@@ -163,11 +168,11 @@ Sur les armoiries russe :
 - L'aigle portant l'écusson de Saint-Georges (patron des Slaves) terrassant le dragon (le mal); dit «Saint-Georges le Vainqueur» et orienté vers la droite.
 - L'aigle tenant dans ses serres, sceptre et orbe, représentant respectivement le pouvoir du tsar et de l’église orthodoxe.
 
-{{< figure src="https://criminau.xyz/media/armoiries-byzantine.svg.avif" alt="Armoiries Byzantine" caption="Armoiries Byzantine" >}}
+{{< figure src="https://criminau.xyz/media/armoiries-byzantine.svg.avif" alt="Armoiries Byzantine" caption="Armoiries Byzantine" class="big" >}}
 
-{{< figure src="https://criminau.xyz/media/armoiries-emp-rus.svg.avif" alt="Armoiries de l'Empire Russe" caption="Armoiries de l'Empire Russe" >}}
+{{< figure src="https://criminau.xyz/media/armoiries-emp-rus.svg.avif" alt="Armoiries de l'Empire Russe" caption="Armoiries de l'Empire Russe" class="big" >}}
 
-{{< figure src="https://criminau.xyz/media/armoiries-fed-rus.svg.avif" alt="Armoiries de la Fédération de Russie" caption="Armoiries de la Fédération de Russie" >}}
+{{< figure src="https://criminau.xyz/media/armoiries-fed-rus.svg.avif" alt="Armoiries de la Fédération de Russie" caption="Armoiries de la Fédération de Russie" class="big" >}}
 
 **On observe une suite entre les armoiries de l'Empire byzantin, du Saint Empire germanique, de l'Empire russe et de la Fédération de Russie.**
 
@@ -283,7 +288,7 @@ C'est une Histoire vieille de cinq siècles qui a convergé vers l'international
 
 L'Arabie Saoudite subit des « déstabilisations » et résiste.
 
-{{< figure src="https://criminau.xyz/media/mbs-virage-historie.avif" alt="Mohammed ben Salmane" caption="Mohammed ben Salmane" class="right" >}}
+{{< figure src="https://criminau.xyz/media/mbs_virage_historique.avif" alt="Mohammed ben Salmane" caption="Mohammed ben Salmane" class="right" >}}
 
 Les propos du prince Turki al-Faiçal : « Les Saoudiens se sentent trahis par les États-Unis » témoigne que les usa souhaitent entraîner leurs alliés dans leur auto-destruction.
 

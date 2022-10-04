@@ -210,4 +210,4 @@ Vous me direz, pourquoi ne pas avoir tout simplement inversé les rapports, je n
 Celui-ci permet d'afficher la couleur depuis un code rgb :  
 [W3 Schools color](https://www.w3schools.com/colors/colors_rgb.asp)  
 Celui-ci permet de calculer un contraste :  
-[Contraste et ratio](https://contrast-ratio.com/)
+[Contraste et ratio](https://contrast-ratio.com/)  

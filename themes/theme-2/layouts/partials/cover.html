@@ -1,0 +1,32 @@
+{{- with .cxt}} {{/* Apply proper context from dict */}}
+
+{{/* VARIABLES */}}
+{{- $alt := (.Params.cover.alt | plainify) }}
+{{- $addLink := (and .Site.Params.cover.linkFullImages (not $.IsHome)) }}
+{{- $cover := (.Page.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
+
+{{ if (and $.IsHome (eq .Params.cover.image .Params.cover.alt "")) }}
+
+<img class="img-cover" itemprop="image" title="article sans image" src="{{ (.Site.Params.emptycover) | absURL }}" height="15.625em"
+	 width="15.625em" alt="article sans image" >
+
+{{ else if (and .Params.cover.image .Params.cover.alt) }}
+<div class="entry-cover">
+{{- if $addLink }}
+<a title="{{ $alt }}" rel="noopener noreferrer" href="{{ (.Params.cover.image) | absURL }}" target="_blank">
+{{ end -}}
+{{- if $alt }}
+<img class="img-cover" itemprop="image" title="{{ $alt }}" src="{{ (.Params.cover.image) | absURL }}" height="15.625em"
+	 width="15.625em" alt="{{ $alt }}" >
+{{- end }}
+	
+{{- if $addLink }}</a>{{ end -}}
+
+{{/*  Display Caption  */}}
+{{- if not $.IsHome }}
+{{ with .Params.cover.caption }}<p class="cover-caption">{{ . | markdownify }}</p>{{- end }}
+{{- end }}
+
+</div>
+{{ end }}
+{{- end -}}{{/* End context */}}
