@@ -3,24 +3,15 @@ title: "Dette 5000 Ans"
 author: "criminau"
 slug: "dette-5000-ans"
 ShowToc: true
-draft: true
+draft: false
 hidemeta: false
 tocopen: false
 disableShare: false
 date: 2022-10-04T15:36:46+02:00
-cover:
-    image: ""
-    alt: ""
-    caption: ""
 images: "media/sky-cover.avif"
-keyword: ""
+keyword: "dette 5000 ans d'histoire, histoire dette, dette, histoire, banques, bancaire, mythe du troc, troc, monnaies, systèmes monnaires, crises"
 Thème:
-  -
-Tags:
-  - fiche-de-lecture
-  -
-Série:
-  -
+  - Livres
 pdfname: "dette-5000-ans"
 ---
 
@@ -38,7 +29,7 @@ Si une banque a la garantie de récupérer son argent et plus en intérêt quoi 
 
 L'histoire montre que le meilleur moyen de justifier des relations fondées sur la violence, de les faire passer pour morale, est de les recadrer en termes de dettes, cela créé aussitôt l'illusion que c'est la victime qui commet un méfait.
 
-Lorsque des puissances maintenait des centaines de bases militaires hors de leur territoire, on les appelait des empires et les empires exigeaint des peuples assujettis le versement régulier d'un tribut.
+Lorsque des puissances maintenait des centaines de bases militaires hors de leur territoire, on les appelait des empires et les empires exigeaient des peuples assujettis le versement régulier d'un tribut.
 
 Tous les mouvements révolutionnaires du monde antique ont eu le même programme : "annulation des dettes et redistribution des terres".
 
@@ -113,7 +104,7 @@ En chute de civilisation, les économies abandonnent simplement l'usage des piè
 
 - Le rôle de la politique de l'état ?
 
-### Etat et crédit : deux théories monétaires.
+### État et crédit : deux théories monétaires.
 
 La théorie monétaire du crédit, la monnaie n'est pas une marchandise mais une unité de compte. Elle n'est pas une chose. Historiquement, les unités monétaires ne sont que des unités de mesures abstraites. Des systèmes abstraits de comptabilité.
 
@@ -371,7 +362,7 @@ Chez ces mêmes Tiv, il fallait payer indéfiniment la tribu d'une femme, car on
 
 La monnaie sociale n'est pas l'équivalence d'un être humain. Cela serait manifestement absurde. Seul un humain pourrait être considéré comme l’équivalent d'un autre humain. Dans le cas du mariage, il s'agit d'une vie humaine qui est aussi capable d'en créer de nouvelles.
 
-La monnaie, selon rospabé, comment "comme substitut de vie". On pourrait voir en elle la reconnaissance d'une dette de vie.
+La monnaie, selon Rospabé, comment "comme substitut de vie". On pourrait voir en elle la reconnaissance d'une dette de vie.
 Il se passe la même chose dans le cas d'un meurtre.
 La monnaie est avant tout une façon de reconnaître que l'on doit quelques chose de beaucoup plus précieux que la monnaie, une vie humaine.
 Une vie ne se puise que par une autre vie.
@@ -421,7 +412,7 @@ Les histoires d'horreur reflètent toujours un aspect de la vie sociale de ceux 
 Les Tiv ont un problème majeur avec l'autorité. A l'intérieur des complexes d'habitations, une homme avait une autorité quasi absolue. A l'extérieur, les Tiv étaient farouchement égalitaristes. Les hommes se méfiaient à l'extrême de toute forme de domination. Pour eux trop de pouvoir peu faire d'eux un monstre. les hommes âgés étaient considéraient comme des sorciers.
 
 Pourquoi formuler tout cela en termes de dette ?
-Au cours des années 1760, cent milles captifs africains ont été enchaînés, descendus de la Cross River jusqu'a Calabar. Environ un million et demi ont été exportés du golfe de Biafra pendant l'ensemble de la traite. En majorité ils avaient été emmenés pour dettes. Globalement, la traite transatlantique était un gigantesque réseau d'accords de crédit. La traite était un commerce d'une duplicité et d'une brutalité extraordinaire. Les razzieurs d'esclaves risquaient fort d'être des débiteurs peu fiable. Notamment dans leur transactions avec des marchands étrangers qu'ils ne reverraient peut-être jamais.
+Au cours des années 1760, cent milles captifs africains ont été enchaînés, descendus de la Cross River jusqu'à Calabar. Environ un million et demi ont été exportés du golfe de Biafra pendant l'ensemble de la traite. En majorité ils avaient été emmenés pour dettes. Globalement, la traite transatlantique était un gigantesque réseau d'accords de crédit. La traite était un commerce d'une duplicité et d'une brutalité extraordinaire. Les razzieurs d'esclaves risquaient fort d'être des débiteurs peu fiable. Notamment dans leur transactions avec des marchands étrangers qu'ils ne reverraient peut-être jamais.
 
 D'où l'apparition rapide d'un système où les capitaines européens exigeaient en garantie des "personnes gages".
 Les débiteurs remettaient des membres de leur famille en garantie de leurs prêts, en pratique cela revenait à exiger des otages.
@@ -435,7 +426,7 @@ Ex: confédération Aro.
 Astuce ingénieuse des sociétés marchandes consistait à favoriser l’expansion d'une société secrète appelée Ekpé. Elle servait au recouvrement des créances. L'adhésion à cette société était très cher, résultat beaucoup se sont retrouvés endettés à l'égard des marchands. C'est la transformation d'une économie humaine vers une économie commerciale.
 
 La main d’œuvre est longtemps venue essentiellement des relations d'asservissements pour dettes.
-Les besoins rituels exigeaient des dépenses importantes. Ils sont le moyen le plus courant par lesquels les pauvres s'endettent aurpès des riches.
+Les besoins rituels exigeaient des dépenses importantes. Ils sont le moyen le plus courant par lesquels les pauvres s'endettent auprès des riches.
 
 En réalité, il arrivait que des pauvres empruntent à seule fin de devenir les débiteurs d'un riche patron qui pourrait leur assurer de quoi subvenir à leur besoin en cas de crise.
 
@@ -497,7 +488,7 @@ Liste de possibilités pour réduire en esclavage une personne libre :
 
 Elvahed (1931), Patterson (1982) (anthropologiquement, le capitalisme n'existe pas)
 Partout aussi, la capture à la guerre est la seule raison jugée absolument légitime.
-Pour elvahed : On devient esclave dans les situations où, sans cela, on seraient mort.
+Pour Elvahed : On devient esclave dans les situations où, sans cela, on seraient mort.
 A Rome comme en Afrique occidentale, l'esclave (le captif) est considéré 
 comme socialement mort.
 L'esclave, en un sens est un mort vivant.
@@ -533,7 +524,7 @@ L'honneur de quelqu'un repose sur sa capacité à extraire l'honneur des autres.
 
 ### Mésopotamie (aux origines du patriarcat)
 
-- En grèce antique, le mot honneur "timi" signifie à la fois "prix" et "une générosité qui donne sans compter, un mépris affiché des coûts et calculs monétaires".
+- En Grèce antique, le mot honneur "timi" signifie à la fois "prix" et "une générosité qui donne sans compter, un mépris affiché des coûts et calculs monétaires".
 
 Le mot crise, "krisis" signifie littéralement : carrefour. C'est le point où les chosent peuvent prendre soit l'une soit l'autre de deux voies différentes.
 

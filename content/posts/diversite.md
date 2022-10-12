@@ -8,9 +8,12 @@ hidemeta: false
 tocopen: false
 disableShare: false
 date: 2022-02-20T17:08:07+01:00
-keyword: ""
+keyword: "diversité des natures, diversité des cultures, ethnologie, descola, anthropologie, diversité, nature"
+Thème:
+  - Livres
 pdfname: "diversite"
 ---
+
 Lecture du livre "Diversité des natures, diversité des cultures" de Mr Descola.
 Prise de note.
 <!--more-->
