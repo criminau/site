@@ -1,0 +1,40 @@
+Pour un web libre, intégralement :
+
+1. Aucune propriété, gratuit et open source
+
+- Évitez JavaScript pour bloquer la copie de texte (même si il existe des moyens pour contourner ce problème).
+- Évitez les pages/zones/sections payantes.
+- Évitez les zones/pages/sections restreintes.
+- Évitez les copyrights.
+- Évitez le blocage de robots. (A méditer si censure)
+- Évitez la censure.
+
+2. Optimiser la copie et le partage
+
+- Utiliser les schémas d'item.
+- Évitez d'abuser la mise en page.
+- Protocole RSS simple et efficace.
+
+3. Optimiser la lecture
+
+- Site internet ergonomique et rapide. (< https://criminau.github.io/awesome-hugo-book/ >)
+- Évitez de lancer la lecture automatique de fichier mp3 (interne ou externe) ou mp4.
+- Évitez d'utiliser des ressources inutiles.
+
+4. Pas de pub
+
+- Pour la section article. (individuellement ou le groupe)
+
+5. Respect des visiteurs
+
+- Aucune action pour suivre les visiteurs.
+- Protocole https.
+- Évitez l'utilisation commerciale des données utilisateurs.
+
+Pour résumer :
+
+Le site doit respecter :
+
+- Le partage de la connaissance et de l'information.
+- Le respect des visiteurs.
+- L'économie de la charge des flux.
