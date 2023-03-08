@@ -1,0 +1,10 @@
+{{- with $.Params.tags -}}
+<a class="pdf-link-post-single" href="/tags/{{ . }}/" rel="noopener noreferrer" title="{{ . }}">{{ . }}</a>
+{{- end -}}
+{{- with $.Params.categories -}}
+<a class="pdf-link-post-single" href="/categories/{{ . }}/" rel="noopener noreferrer" title="{{ . }}">{{ . }}</a>
+{{- end -}}
+{{- with $.Params.series -}}
+<a class="pdf-link-post-single" href="/series/{{ . }}/" rel="noopener noreferrer" title="{{ . }}">{{ . }}</a>
+{{- end -}}
+

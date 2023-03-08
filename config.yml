@@ -15,6 +15,7 @@ buildDraft: true
 
 # Performance
 minify:
+ disableXML: true
  minifyOutput: true
 
 # Preparing search option
@@ -88,9 +89,9 @@ permalinks:
 
 # Taxonomies
 taxonomies:
-  tag: Tags
-  category: Thème
-  serie: Série
+    category: categories
+    tag: tags
+    series: series
   
 # RSS feed
 rsslimit: 20

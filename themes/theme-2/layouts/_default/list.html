@@ -36,16 +36,6 @@
 		{{- if (ne .Site.Params.hideSummary true)}}
       <p class="justify entry-content" >{{ .Summary | plainify | htmlUnescape }}</p>
 		{{- end }}
-    <!--- entry-taxonomies --->
-    {{ if (.GetTerms "Thème") }}
-    <p class="entry-taxonomies">
-    {{ range (.GetTerms "Thème") }}
-      [{{ .LinkTitle }}]
-      {{ $term }} 
-    {{ end }}
-    </p>
-    {{ end }}
-    <!--- entry-taxonomies END --->
 	
     <div class="entry-footer">
       {{- partial "post_meta.html" . -}}

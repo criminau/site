@@ -10,8 +10,10 @@ disableShare: false
 date: 2022-10-04T15:36:46+02:00
 images: "media/sky-cover.avif"
 keyword: "dette 5000 ans d'histoire, histoire dette, dette, histoire, banques, bancaire, mythe du troc, troc, monnaies, systèmes monnaires, crises"
-Thème:
-  - Livres
+tags:
+- Livres
+categories:
+series:
 pdfname: "dette-5000-ans"
 ---
 

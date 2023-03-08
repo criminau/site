@@ -14,12 +14,11 @@ cover:
     caption: "Saint Georges tuant le dragon"
 images: "media/saint-georges-cover.avif"
 keyword: "Moscou, Troisième, Rome"
-Thème:
-  - Troisième Rome
-Tags:
-  - 
+tags:
+- Troisième Rome
+categories:
+series:
 pdfname: "moscou-troisieme-rome"
-
 ---
 
 Vladimir Poutine a t-il trahit ses maîtres pour jouer Troisième Rome ?

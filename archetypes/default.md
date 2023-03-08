@@ -14,13 +14,9 @@ cover:
     caption: "Légende"
 images: "media/sky-cover.avif"
 keyword: ""
-Thème:
-  -
-Tags:
-  -
-  -
-Série:
-  -
+thèmes:
+catégories:
+séries:
 pdfname: "{{ .Name }}"
 ---
 

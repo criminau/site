@@ -10,8 +10,10 @@ disableShare: false
 date: 2022-10-12T11:49:22+02:00
 images: "media/sky-cover.avif"
 keyword: "anatomie de l'état, anatomy of the state"
-Thème:
-  - Livres
+tags:
+- Livres
+categories:
+series:
 pdfname: "anatomyofthestateFR"
 ---
 

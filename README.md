@@ -10,48 +10,21 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 
 ## Prochaine version
 
-### V.02.9
 
-- [X] correction article (+PDF)
-- [X] correction, développement et optimisation (html+css) cover and sky-cover.
-- [X] archetypes default.md.
-- [X] nettoyage (code+css) pagination + une en haut de la page d'accueil.
-- [X] SEO width and weight of image.
-- [X] Retour en haut de la page, optimisation et esthétique.
-- [X] cache policy (90j).
-- [X] css page d'accueil.
-- [X] responsive footer.
-- [X] responsive button footer.
-- [X] responsive nav.
-- [X] introducart.
-- [X] responsive et correction du html home-info.
-- [X] responsive search.
-- [X] préparation des thèmes, tags et séries.
-- [X] vimeo responsive shortcode + youtube work.
-- [X] css archives.
-- [X] iteroni vidéo iframe.
-- [X] bouton copier le lien. section "partage" !
-- [X] nitter tweet iframe (nitter n'autorise pas la connexion).
-- [X] 404.html css.
-- [X] css page de texte.
-- [X] understand, clear and developp markdown syntax.
-- [X] clear html.
-- [X] clear css.
-- [X] schema article : Rich content.
-- [X] Opt out FLoC ??
+### v.03.0 !
 
-
+- [X] CSS note !
 - [ ] 
 - [ ] .Params.image ?? -> RSS
 - [ ] RSS image (en cours)
-- [ ] CSS note blockote ?
 - [ ] s'engager dans les outils de recherche et d'affichage des taxonomies
 - [ ] préparation section : note ?
 - [ ] site responsive avec css mobile (720/1320)
 
 - [ ]
 
-
+https://mertbakir.gitlab.io/hugo/tag-cloud-in-hugo/
+https://mertbakir.gitlab.io/hugo/this-is-my-design/
 - les brouillons ne sont pas disponibles à la recherche.
 - déployer iteroni à la place de youtube qui bouffe de la ressource.
 

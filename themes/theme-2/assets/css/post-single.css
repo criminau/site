@@ -547,10 +547,10 @@ img.cover {object-fit: cover; }
 
 /** Footnote
 ----------------------------------------------------------------------------- **/
-cite sup a[href^="#fn:"],
-cite sup a[href^="#fnref:"] {
-  text-decoration: none;
-  font-family: monospace;
+p sup a[href^="#fn:"],
+p sup a[href^="#fnref:"] {
+    text-decoration: none;
+    font-weight: 800;
 }
 a[href^="#fn:"]:before{ content: '[' }
 a[href^="#fn:"]:after{ content: ']' }
@@ -562,6 +562,7 @@ a.footnote-return{
 a.footnote-return:hover {
   font-weight: 800;
 }
+
 
 /**
         <Mobile>

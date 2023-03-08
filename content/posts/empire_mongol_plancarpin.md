@@ -14,8 +14,10 @@ cover:
     caption: "L'Empereur Qianlong en armure cérémonielle et à cheval"
 images: "media/Qianlong_Empereur.avif"
 keyword: "dans, l'empire, mongol, tanase, peuples de la steppe, Gengis Khan, Güyük, Jean de Plancarpin, Bati"
-Thème:
-  - Livres
+tags:
+- Livres
+categories:
+series:
 pdfname: "empire_mongol_plancarpin"
 ---
 
@@ -24,8 +26,8 @@ Dans l'Empire mongol, Tanase, 2018, prise de note.
 
 ## Contexte
 
-Une fois les peuples de la steppe unis autour de Gengis Khan, les Ouighours se soumirent en 1209 et les Mongols purent s'en prendre au monde chinois.
-Pékin fut pillée en 1215 et en 1217, l'essentiel de la chine septentrionale était pris (les Jürchens ne furent définitivement éliminés qu'en 1234) - toutefois la Chine méridoniale de la dynastie des Song continua de résister jusqu'à sa conquête par Qubilai en 1279.
+Une fois les peuples de la steppe unis autour de Gengis Khan, les Ouighours se soumirent en 1209 et les Mongols purent s'en prendre au monde chinois.  
+Pékin fut pillée en 1215 et en 1217, l'essentiel de la chine septentrionale était pris (les Jürchens ne furent définitivement éliminés qu'en 1234) - toutefois la Chine méridoniale de la dynastie des Song continua de résister jusqu'à sa conquête par Qubilai en 1279.  
 Là aussi, les Mongols furent les héritiers lointains d'une histoire prestigieuse, celle des différents empires d'origine turque qui avaient uni la steppe pendant un temps, notamment lors de l'apogée aux VIIe et VIIIe siècles de l'empire des « Turcs célestes ». Cette vision du monde fut transmise aux Ouighours, qui prirent la relève au IXe siècle, ils finirent par émigrer et s'installer dans l'actuel Xinjiang, dans l'ouest de la Chine, le long de la route des oasis dont ils s'imprégnèrent au point de développer un nouvel alphabet. L'unification de la steppe turco-mongole fut l'aboutissement d'une lutte entre tribus, longue de plusieurs décennies et qui se jouait sur une échelle plus large, impliquant la Chine comme l'Asie des oasis[^1] Les nomades vivaient en intéractions avec les mondes sédentaires (tribus et échanges => pillages et guerres => richesses).
 
 [^1]: que l'on nomme aujourd'hui l'Eurasie ou Asie centrale.
@@ -58,49 +60,49 @@ L'arrivée de celui-ci à la cour de Güyük marque la véritable ouverture des 
 
 ## Chronologie
 
-1125 : les Khitai sont chassés de Chine par les Jürchens.
-1141 : le sultan seldjoukide Sanjar est battu par les Qara-Khitai.
-1202 : Gengis Khan défait les Tatars.
-1203 : Gengis Khan défait les Kereits.
-1204 : Gengis Khan défait les Naimans.
-1206 : unification des tribus de la steppe par Gengis Khan.
-1207 : soumission des Kirghizes.
-1209 : les Ouighours se soumettent aux Mongols.
-1211 : invasion du nord de la Chine.
-1215 : prise de Pékin par les Mongols.
-1218 : invasion des Qara-Khitai par les armées dirigées par Jebe.
-1219 : Gengis Khan envahit les terres du shah du Kharezm.
-1223 : bataille de la Kalka entre les troupes de Jebe et Sübötei d'une part et de l'autre une coalition de princes russes et comans.
-1223 : retour de Gengis Khan en Mongolie.
-1227 : mort de Gengis Khan. 
-1229 : Ögödei grand-khan.
-1233 : chute de Kaifeng, capta du dernier empereur Jürchen, prise par Sübötei.
-1234 : suicide du dernier empereur Jürchen. La Chine du Nord est entièrement soumise.
-1235 : Ögödei fait fortifier Qaraqorum, capitale impériale.
+1125 : les Khitai sont chassés de Chine par les Jürchens.  
+1141 : le sultan seldjoukide Sanjar est battu par les Qara-Khitai.  
+1202 : Gengis Khan défait les Tatars.  
+1203 : Gengis Khan défait les Kereits.  
+1204 : Gengis Khan défait les Naimans.  
+1206 : unification des tribus de la steppe par Gengis Khan.  
+1207 : soumission des Kirghizes.  
+1209 : les Ouighours se soumettent aux Mongols.  
+1211 : invasion du nord de la Chine.  
+1215 : prise de Pékin par les Mongols.  
+1218 : invasion des Qara-Khitai par les armées dirigées par Jebe.  
+1219 : Gengis Khan envahit les terres du shah du Kharezm.  
+1223 : bataille de la Kalka entre les troupes de Jebe et Sübötei d'une part et de l'autre une coalition de princes russes et comans.  
+1223 : retour de Gengis Khan en Mongolie.  
+1227 : mort de Gengis Khan.  
+1229 : Ögödei grand-khan.  
+1233 : chute de Kaifeng, capta du dernier empereur Jürchen, prise par Sübötei.  
+1234 : suicide du dernier empereur Jürchen. La Chine du Nord est entièrement soumise.  
+1235 : Ögödei fait fortifier Qaraqorum, capitale impériale.  
 
-1236 : début de la campagne mongole vers la Sibérie.
-1236-1237 : défaite des Bulgares de la Volga.
-1237 : début de l'attaque contre la Russie.
-1240 : le 6 décembre, chute de Kiev.
-1241 : le 9 avril, défaite des troupes germaniques et polonaises à Liegnitz.
-1241 : 11 avril, défaite des troupes hongroises lors de la bataille de la rivière Sajo.
-1242 : au printemps, retraite des troupes mongoles de Batu.
-1245-1247 : voyage de Jean de Plancarpin.
-1245 : du 28 Juin au 17 Juillet, concile de Lyon tenu par Innocent IV.
-1246 : élection de Güyük comme grand-khan.
-1248 : mort de Güyük.
-1251 : élection de Möngke comme grand-khan.
-1252-1279 : conquête de la Chine des Song par les troupes de Qubilai.
-1253-1255 : voyage jusqu'à Qaraqorum de Guillaume de Rubrouck.
-1253 : départ des armées de Hülegü vers la Perse.
-1255 : mort de Batu.
-1257 : arrivée au pouvoir de Berke.
-1258 : chute de Bagdad, Mise à mort de la lignée califale.
-1259 : mort de Möngke. Dissolution de l'unité mongole.
-1360 : la Horde d'Or commence à se diviser en khanats rivaux.
-1368 : fin du pouvoir mongol en Chine.
-1380 : défaite des troupes de la Horde d'Or face aux armées de Moscou lors de la bataille de Koulikovo.
-1552 : prise de Kazan par les Russes.
+1236 : début de la campagne mongole vers la Sibérie.  
+1236-1237 : défaite des Bulgares de la Volga.  
+1237 : début de l'attaque contre la Russie.  
+1240 : le 6 décembre, chute de Kiev.  
+1241 : le 9 avril, défaite des troupes germaniques et polonaises à Liegnitz.  
+1241 : 11 avril, défaite des troupes hongroises lors de la bataille de la rivière Sajo.  
+1242 : au printemps, retraite des troupes mongoles de Batu.  
+1245-1247 : voyage de Jean de Plancarpin.  
+1245 : du 28 Juin au 17 Juillet, concile de Lyon tenu par Innocent IV.  
+1246 : élection de Güyük comme grand-khan.  
+1248 : mort de Güyük.  
+1251 : élection de Möngke comme grand-khan.  
+1252-1279 : conquête de la Chine des Song par les troupes de Qubilai.  
+1253-1255 : voyage jusqu'à Qaraqorum de Guillaume de Rubrouck.  
+1253 : départ des armées de Hülegü vers la Perse.  
+1255 : mort de Batu.  
+1257 : arrivée au pouvoir de Berke.  
+1258 : chute de Bagdad, Mise à mort de la lignée califale.  
+1259 : mort de Möngke. Dissolution de l'unité mongole.  
+1360 : la Horde d'Or commence à se diviser en khanats rivaux.  
+1368 : fin du pouvoir mongol en Chine.  
+1380 : défaite des troupes de la Horde d'Or face aux armées de Moscou lors de la bataille de Koulikovo.  
+1552 : prise de Kazan par les Russes.  
 
 ## La lettre de Plancarpin
 
