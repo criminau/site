@@ -15,7 +15,6 @@ buildDraft: true
 
 # Performance
 minify:
- disableXML: true
  minifyOutput: true
 
 # Preparing search option
