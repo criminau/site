@@ -49,12 +49,15 @@
     margin: var(--gap) 0 0 0;
 }
 .entry-cover img{
-    border-radius: var(--radius);
-    max-height: 15.625em;
-    max-width: 100%;
+    border-radius: var(--radius);/*
+    max-height: 15.625em;*/
+    max-width: 15.625em;
     width: auto;
     height: auto;
 }
+
+img.cover {object-fit: cover; }
+
 .cover-caption{
     font-size: 0.7291em;
     color: var(--content);

@@ -44,7 +44,7 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [ ] 
 - [ ] .Params.image ?? -> RSS
 - [ ] RSS image (en cours)
-
+- [ ] CSS note blockote ?
 - [ ] s'engager dans les outils de recherche et d'affichage des taxonomies
 - [ ] préparation section : note ?
 - [ ] site responsive avec css mobile (720/1320)

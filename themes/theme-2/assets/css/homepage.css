@@ -70,14 +70,22 @@
 
 /*** post-entry-content-left
 -------------------------------------------------- ***/
+.post-entry-content-left{
+    text-align: center;
+    margin:0;
+}
 .post-entry-content-left img{
     border-radius: var(--radius);
-    pointer-events: none;
-    max-height: 15.625em;
+    pointer-events: none;/*
+    max-height: 15.625em;*/
     max-width: 15.625em;
-    width: auto;
     height: auto;
+    width: auto;
+    
 }
+
+img.cover {object-fit: cover; }
+
 .post-entry:active {
     transform: scale(0.96);
 }

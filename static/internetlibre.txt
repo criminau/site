@@ -1,25 +1,25 @@
 Pour un web libre, intégralement :
 
-1. Pas de propriété, gratuit et open source
+1. Aucune propriété, gratuit et open source
 
-- Pas de Javascript pour bloquer la copie de texte (même si il existe des moyens pour contourner ce problème).
-- Pas de page/zone/section payante.
-- Pas de zone/page/section restreinte.
-- Pas de copyrights.
-- Pas de blocage de robots. (A méditer si censure)
-- Pas de censure.
+- Évitez JavaScript pour bloquer la copie de texte (même si il existe des moyens pour contourner ce problème).
+- Évitez les pages/zones/sections payantes.
+- Évitez les zones/pages/sections restreintes.
+- Évitez les copyrights.
+- Évitez le blocage de robots. (A méditer si censure)
+- Évitez la censure.
 
 2. Optimiser la copie et le partage
 
 - Utiliser les schémas d'item.
-- Ne pas abuser la mise en page.
+- Évitez d'abuser la mise en page.
 - Protocole RSS simple et efficace.
 
 3. Optimiser la lecture
 
-- Website responsive et rapide. (< https://criminau.github.io/awesome-hugo-book/ >)
-- Ne pas lancer la lecture automatique de fichier mp3 (interne ou externe) ou mp4.
-- Ne pas utiliser de ressources inutiles.
+- Site internet ergonomique et rapide. (< https://criminau.github.io/awesome-hugo-book/ >)
+- Évitez de lancer la lecture automatique de fichier mp3 (interne ou externe) ou mp4.
+- Évitez d'utiliser des ressources inutiles.
 
 4. Pas de pub
 
@@ -29,7 +29,7 @@ Pour un web libre, intégralement :
 
 - Aucune action pour suivre les visiteurs.
 - Protocole https.
-- Pas d'utilisation commerciale des données utilisateurs.
+- Évitez l'utilisation commerciale des données utilisateurs.
 
 Pour résumer :
 

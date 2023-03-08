@@ -5,10 +5,13 @@
 {{- $addLink := (and .Site.Params.cover.linkFullImages (not $.IsHome)) }}
 {{- $cover := (.Page.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
 
-{{ if (and $.IsHome (eq .Params.cover.image .Params.cover.alt "")) }}
+{{ if (and $.IsHome .Params.cover.image .Params.cover.alt) }}
 
-<img class="img-cover" itemprop="image" title="article sans image" src="{{ (.Site.Params.emptycover) | absURL }}" height="15.625em"
-	 width="15.625em" alt="article sans image" >
+<img class="cover" itemprop="image" title="{{ $alt }}" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}" >
+
+{{ else if (and $.IsHome (eq .Params.cover.image .Params.cover.alt "")) }}
+
+<img class="cover" itemprop="image" title="article sans image" src="{{ (.Site.Params.emptycover) | absURL }}" alt="article sans image" >
 
 {{ else if (and .Params.cover.image .Params.cover.alt) }}
 <div class="entry-cover">
@@ -16,8 +19,7 @@
 <a title="{{ $alt }}" rel="noopener noreferrer" href="{{ (.Params.cover.image) | absURL }}" target="_blank">
 {{ end -}}
 {{- if $alt }}
-<img class="img-cover" itemprop="image" title="{{ $alt }}" src="{{ (.Params.cover.image) | absURL }}" height="15.625em"
-	 width="15.625em" alt="{{ $alt }}" >
+<img class="cover" itemprop="image" title="{{ $alt }}" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}" >
 {{- end }}
 	
 {{- if $addLink }}</a>{{ end -}}
@@ -29,4 +31,6 @@
 
 </div>
 {{ end }}
+
+
 {{- end -}}{{/* End context */}}
