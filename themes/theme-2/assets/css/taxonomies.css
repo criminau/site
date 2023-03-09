@@ -1,0 +1,8 @@
+/* Post single
+-------------------------------------------------- */
+.taxo-list-main{
+    margin: var(--gap) var(--gap) 0 var(--gap);
+    max-width: var(--main-width);
+    width: auto;
+    line-height: 1.5em;
+}

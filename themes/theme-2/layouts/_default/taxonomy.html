@@ -1,4 +1,7 @@
 {{ define "main" }}
+
+<div class="taxo-list-main">
+
   {{ with .Params.description }}
     <p>{{.}}</p>
   {{ end }}
@@ -12,5 +15,8 @@
        </li>
     {{ end }}
   </ul>
+
+
+</div>
 
 {{ end }}
