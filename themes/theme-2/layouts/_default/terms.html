@@ -24,42 +24,4 @@ terms.html
 
 
 
-
-
-
-
-  <ul>
-    {{ range .Data.Pages }}
-      <li>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-        <dl>
-          <dt>Link to the brand page</dt><dd><a href="{{ .Permalink }}">{{ .Permalink }}</a></dd>
-          <!-- Handling brands that don't have a corresponding page by using .With -->
-
-            <dt>Website</dt><dd>Website</dd>
-
-            <dt>Description</dt><dd>Description</dd>
-
-          <!-- Handling brands that don't have a corresponding page by usinf an if statement -->
-          <dt>Logo</dt>
-          <dd>
-<img src="http://via.placeholder.com/90x90?text=No+logo" height="90" />
-          </dd>
-        </dl>
-      </li>
-    {{ end }}
-  </ul>
-
-  <h2>List all relevant taxonomies and all the pages that belong to it</h2>
-  <ul>
-    {{ range .Data.Pages }}
-      <li>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-
-        <ul>
-title
-        </ul>
-      </li>
-    {{ end }}
-  </ul>
 {{ end }}

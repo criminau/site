@@ -1,108 +1,68 @@
-
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-
-<?xml-stylesheet type="text/css"  href="https://criminau.xyz/css/rss.min.a7d238a70b0343acd9fdca71500b8b918bb7305425764196d06a61a19f47024f.css" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Journal Subversif</title>
-    <language>fr</language>
-    <image>
-      <url>https://criminau.xyz/apple-touch-icon.png</url>
-      <title>Journal Subversif</title>
-      <link>https://criminau.xyz/</link>
-    </image>
-    <link>https://criminau.xyz/</link>
-
-    <description>Criminau est un blog développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description>
-    <copyright>https://criminau.xyz/internetlibre.txt</copyright>
-
-    
-    <lastBuildDate>Sun, 20 Feb 2022 17:08:07 +0100</lastBuildDate>
-    
-
-    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <atom:link href="https://criminau.xyz/index.xml" rel="self" type="application/rss+xml"/>
-
-    
-    <item>
-      <title>Diversité !</title>
-      <link>https://criminau.xyz/articles/diversite.html</link>
-      
-      <source url="https://criminau.xyz/index.xml">Journal Subversif</source>
-      <pubDate>Sun, 20 Feb 2022 17:08:07 +0100</pubDate>
-      <guid>https://criminau.xyz/articles/diversite.html</guid>
-      <description>&lt;p&gt;Lecture du livre &amp;ldquo;Diversité des natures, diversité des cultures&amp;rdquo; de Mr Descola.
-Prise de note.&lt;/p&gt;
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Est culturel ce qui est produit par l&amp;rsquo;Homme.&lt;br&gt;
-Est naturel ce qui est là avant, pendant et après l&amp;rsquo;Homme (mer, océan, montagne).&lt;/p&gt;
-&lt;p&gt;La culture : les institutions, les idées, les objets, le système scolaire,&amp;hellip;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Ex: le bois peut-il être produit par l&amp;rsquo;Homme ?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Les cartes restent la culture.&lt;br&gt;
-Ex: la haie. Elle est le produit d&amp;rsquo;une activité technique, d&amp;rsquo;une activité culturelle, elle a une fonction légale, une fonction culturelle.&lt;/p&gt;
-&lt;p&gt;Il y a des objets à la fois culturels et naturels.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Vérité au deça des Ppyrénées, erreur au delà&amp;rdquo;
-Pascal&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;anthropologie&#34;&gt;Anthropologie&lt;/h2&gt;
-&lt;p&gt;Inventaire des différences et expliquer leurs raisons (l&amp;rsquo;ethnographie).&lt;/p&gt;
-&lt;p&gt;Chez les Aborigènes, tout est à la fois naturel et culturel.&lt;br&gt;
-Il faut que l&amp;rsquo;Homme se sente extérieur et supérieur au monde qui l&amp;rsquo;entoure pour ne pas considérer le naturel et le cutlturel identique.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Nous ne connaissons le monde que part ses parties, et non comme un tout&amp;rdquo;
-Pessas&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Au XVIIe,&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;l&amp;rsquo;Homme &amp;ldquo;comme maître et possesseur de la nature&amp;rdquo;
-Descartes&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;L&amp;rsquo;anthropologie montre que ce qui paraît éternel, ce présent dans lequel nous sommes enfermés à l&amp;rsquo;heure actuelle est tout simplement &lt;strong&gt;une façon&lt;/strong&gt;, parmi des milliers d&amp;rsquo;autres qui ont été décrite, de vivre la condition humaine.&lt;/p&gt;
-&lt;p&gt;Un anthropologue :  qui cherche à faire l&amp;rsquo;inventaire des différentes manières de vivres qui existent en très grand nombre, et qui sont très différentes les unes des autres.&lt;/p&gt;
-&lt;p&gt;Sur la base de cet inventaire, il met en lumière la diversité des cultures, moeurs, usages, des visions du monde.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Ethnographie : Décrire un peuple ( ou communauté ex:commissariat) = Observation participante, des ethnographes.&lt;/li&gt;
-&lt;li&gt;Anthropologue : Rend compte, Intra peuple.&lt;/li&gt;
-&lt;li&gt;Ethnologue : Rend compte, Inter peuple.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Il y aurait quatre façons de concevoir les relations non-humaines :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;âme chez les non-Hummain et Hommes dans un corps différent&lt;/li&gt;
-&lt;li&gt;Hommes doués de raison&lt;/li&gt;
-&lt;li&gt;Hommes et non-Humain partagent qualités physiques et morale&lt;/li&gt;
-&lt;li&gt;Chaque Homme et non-humain est différent de TOUS les autres&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;evolution&#34;&gt;Evolution&lt;/h2&gt;
-&lt;p&gt;Au départ, l&amp;rsquo;antrohpologie n&amp;rsquo;existe qu&amp;rsquo;en Europe, sous sa forme philosophique.&lt;/p&gt;
-&lt;p&gt;Sous l&amp;rsquo;ère moderne, au XIXe siècle, l&amp;rsquo;ont définit &amp;ldquo;les primitifs&amp;rdquo; et les Européens en haut de l&amp;rsquo;échelle.&lt;/p&gt;
-&lt;h2 id=&#34;hypothèse&#34;&gt;Hypothèse&lt;/h2&gt;
-&lt;p&gt;Evolution de la chine, entre microscosme (Homme est un modèle réduit de l&amp;rsquo;univers) et macrocosme.&lt;/p&gt;
-&lt;p&gt;En Europe, en inventant la nature, nous l&amp;rsquo;avons exploitée ?
-Ce n&amp;rsquo;est pas le développement des sciences qui a changé l&amp;rsquo;idée que nous nous faisions de la nature, mais bien le contraire.&lt;br&gt;
-La nature est devenue extérieure à l&amp;rsquo;Homme.&lt;/p&gt;
-&lt;p&gt;Le marché alimentaire est pour nous la chose la plus commune du monde, pourtant cela n&amp;rsquo;a rien d&amp;rsquo;évident.&lt;/p&gt;
-&lt;h2 id=&#34;mondialisation&#34;&gt;Mondialisation&lt;/h2&gt;
-&lt;p&gt;Elle tendrait à uniformiser les modes de vie =&amp;gt; réactions de défense =&amp;gt; mise en avant des caractères distinctifs.&lt;br&gt;
-Une uniformisation des techniques.&lt;/p&gt;
-&lt;p&gt;=&amp;gt; Un appauvrissement des différences, l&amp;rsquo;Histoire le prouve.&lt;/p&gt;
-&lt;p&gt;Sociologie : Anthropologie (différences de méthode)&lt;/p&gt;
-&lt;p&gt;Anthropologie est propre au monde occidental, histoire coloniale ?&lt;/p&gt;
-&lt;p&gt;L&amp;rsquo;hypothèse de Tzvetan Tedorov : l&amp;rsquo;Anthropologie est la fille de l&amp;rsquo;expansion coloniale.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;comme tout le temps, vous avez le côté bien et mal des idées,.. c&amp;rsquo;est ça la culture !&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Les Grecs ont inventé l&amp;rsquo;anthropologie avec Hérodote.&lt;/p&gt;
-&lt;p&gt;C&amp;rsquo;est un malentendu culturel.&lt;br&gt;
-Le Japon à une ouverture tardive, puis suivit de l&amp;rsquo;occident, ils ont essayé de comprendre à l&amp;rsquo;intérieur même de l&amp;rsquo;Empire des gens qui n&amp;rsquo;étaient pas du tout comme les autres.&lt;/p&gt;
-&lt;p&gt;Ex : les Na, matrilinéaire, matrilocale, le mariage n&amp;rsquo;existe pas.&lt;/p&gt;
-&lt;p&gt;Note du livre &amp;ldquo;Diversité des natures, diversité des cultures&amp;rdquo;, Mr Descola, 2021.&lt;/p&gt;</description>
-
-    
-
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet type="text/css" href="https://criminau.xyz/css/rss.min.a7d238a70b0343acd9fdca71500b8b918bb7305425764196d06a61a19f47024f.css"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Journal Subversif</title><language>fr</language><image><url>https://criminau.xyz/apple-touch-icon.png</url><title>Journal Subversif</title><link>https://criminau.xyz/</link></image><link>https://criminau.xyz/</link><description>Criminau est un blog développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description><copyright>https://criminau.xyz/internetlibre.txt</copyright><lastBuildDate>Sun, 20 Feb 2022 17:08:07 +0100</lastBuildDate><docs>https://validator.w3.org/feed/docs/rss2.html</docs><atom:link href="https://criminau.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>Diversité !</title><link>https://criminau.xyz/articles/diversite.html</link><source url="https://criminau.xyz/index.xml">Journal Subversif</source><pubDate>Sun, 20 Feb 2022 17:08:07 +0100</pubDate><guid>https://criminau.xyz/articles/diversite.html</guid><description>&lt;p>Lecture du livre &amp;ldquo;Diversité des natures, diversité des cultures&amp;rdquo; de Mr Descola.
+Prise de note.&lt;/p>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Est culturel ce qui est produit par l&amp;rsquo;Homme.&lt;br>
+Est naturel ce qui est là avant, pendant et après l&amp;rsquo;Homme (mer, océan, montagne).&lt;/p>
+&lt;p>La culture : les institutions, les idées, les objets, le système scolaire,&amp;hellip;&lt;/p>
+&lt;blockquote>
+&lt;p>Ex: le bois peut-il être produit par l&amp;rsquo;Homme ?&lt;/p>
+&lt;/blockquote>
+&lt;p>Les cartes restent la culture.&lt;br>
+Ex: la haie. Elle est le produit d&amp;rsquo;une activité technique, d&amp;rsquo;une activité culturelle, elle a une fonction légale, une fonction culturelle.&lt;/p>
+&lt;p>Il y a des objets à la fois culturels et naturels.&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;Vérité au deça des Ppyrénées, erreur au delà&amp;rdquo;
+Pascal&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="anthropologie">Anthropologie&lt;/h2>
+&lt;p>Inventaire des différences et expliquer leurs raisons (l&amp;rsquo;ethnographie).&lt;/p>
+&lt;p>Chez les Aborigènes, tout est à la fois naturel et culturel.&lt;br>
+Il faut que l&amp;rsquo;Homme se sente extérieur et supérieur au monde qui l&amp;rsquo;entoure pour ne pas considérer le naturel et le cutlturel identique.&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;Nous ne connaissons le monde que part ses parties, et non comme un tout&amp;rdquo;
+Pessas&lt;/p>
+&lt;/blockquote>
+&lt;p>Au XVIIe,&lt;/p>
+&lt;blockquote>
+&lt;p>l&amp;rsquo;Homme &amp;ldquo;comme maître et possesseur de la nature&amp;rdquo;
+Descartes&lt;/p>
+&lt;/blockquote>
+&lt;p>L&amp;rsquo;anthropologie montre que ce qui paraît éternel, ce présent dans lequel nous sommes enfermés à l&amp;rsquo;heure actuelle est tout simplement &lt;strong>une façon&lt;/strong>, parmi des milliers d&amp;rsquo;autres qui ont été décrite, de vivre la condition humaine.&lt;/p>
+&lt;p>Un anthropologue : qui cherche à faire l&amp;rsquo;inventaire des différentes manières de vivres qui existent en très grand nombre, et qui sont très différentes les unes des autres.&lt;/p>
+&lt;p>Sur la base de cet inventaire, il met en lumière la diversité des cultures, moeurs, usages, des visions du monde.&lt;/p>
+&lt;ul>
+&lt;li>Ethnographie : Décrire un peuple ( ou communauté ex:commissariat) = Observation participante, des ethnographes.&lt;/li>
+&lt;li>Anthropologue : Rend compte, Intra peuple.&lt;/li>
+&lt;li>Ethnologue : Rend compte, Inter peuple.&lt;/li>
+&lt;/ul>
+&lt;p>Il y aurait quatre façons de concevoir les relations non-humaines :&lt;/p>
+&lt;ul>
+&lt;li>âme chez les non-Hummain et Hommes dans un corps différent&lt;/li>
+&lt;li>Hommes doués de raison&lt;/li>
+&lt;li>Hommes et non-Humain partagent qualités physiques et morale&lt;/li>
+&lt;li>Chaque Homme et non-humain est différent de TOUS les autres&lt;/li>
+&lt;/ul>
+&lt;h2 id="evolution">Evolution&lt;/h2>
+&lt;p>Au départ, l&amp;rsquo;antrohpologie n&amp;rsquo;existe qu&amp;rsquo;en Europe, sous sa forme philosophique.&lt;/p>
+&lt;p>Sous l&amp;rsquo;ère moderne, au XIXe siècle, l&amp;rsquo;ont définit &amp;ldquo;les primitifs&amp;rdquo; et les Européens en haut de l&amp;rsquo;échelle.&lt;/p>
+&lt;h2 id="hypothèse">Hypothèse&lt;/h2>
+&lt;p>Evolution de la chine, entre microscosme (Homme est un modèle réduit de l&amp;rsquo;univers) et macrocosme.&lt;/p>
+&lt;p>En Europe, en inventant la nature, nous l&amp;rsquo;avons exploitée ?
+Ce n&amp;rsquo;est pas le développement des sciences qui a changé l&amp;rsquo;idée que nous nous faisions de la nature, mais bien le contraire.&lt;br>
+La nature est devenue extérieure à l&amp;rsquo;Homme.&lt;/p>
+&lt;p>Le marché alimentaire est pour nous la chose la plus commune du monde, pourtant cela n&amp;rsquo;a rien d&amp;rsquo;évident.&lt;/p>
+&lt;h2 id="mondialisation">Mondialisation&lt;/h2>
+&lt;p>Elle tendrait à uniformiser les modes de vie =&amp;gt; réactions de défense =&amp;gt; mise en avant des caractères distinctifs.&lt;br>
+Une uniformisation des techniques.&lt;/p>
+&lt;p>=&amp;gt; Un appauvrissement des différences, l&amp;rsquo;Histoire le prouve.&lt;/p>
+&lt;p>Sociologie : Anthropologie (différences de méthode)&lt;/p>
+&lt;p>Anthropologie est propre au monde occidental, histoire coloniale ?&lt;/p>
+&lt;p>L&amp;rsquo;hypothèse de Tzvetan Tedorov : l&amp;rsquo;Anthropologie est la fille de l&amp;rsquo;expansion coloniale.&lt;/p>
+&lt;blockquote>
+&lt;p>comme tout le temps, vous avez le côté bien et mal des idées,.. c&amp;rsquo;est ça la culture !&lt;/p>
+&lt;/blockquote>
+&lt;p>Les Grecs ont inventé l&amp;rsquo;anthropologie avec Hérodote.&lt;/p>
+&lt;p>C&amp;rsquo;est un malentendu culturel.&lt;br>
+Le Japon à une ouverture tardive, puis suivit de l&amp;rsquo;occident, ils ont essayé de comprendre à l&amp;rsquo;intérieur même de l&amp;rsquo;Empire des gens qui n&amp;rsquo;étaient pas du tout comme les autres.&lt;/p>
+&lt;p>Ex : les Na, matrilinéaire, matrilocale, le mariage n&amp;rsquo;existe pas.&lt;/p>
+&lt;p>Note du livre &amp;ldquo;Diversité des natures, diversité des cultures&amp;rdquo;, Mr Descola, 2021.&lt;/p></description></item></channel></rss>

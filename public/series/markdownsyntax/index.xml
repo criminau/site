@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet type="text/css" href="https://criminau.xyz/css/rss.min.a7d238a70b0343acd9fdca71500b8b918bb7305425764196d06a61a19f47024f.css"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Journal Subversif</title><language>fr</language><image><url>https://criminau.xyz/apple-touch-icon.png</url><title>Journal Subversif</title><link>https://criminau.xyz/</link></image><link>https://criminau.xyz/</link><description>Criminau est un blog développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description><copyright>https://criminau.xyz/internetlibre.txt</copyright><lastBuildDate>Mon, 09 Nov 2020 17:44:04 +0200</lastBuildDate><docs>https://validator.w3.org/feed/docs/rss2.html</docs><atom:link href="https://criminau.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown Syntax</title><link>https://criminau.xyz/articles/markdown-syntax.html</link><source url="https://criminau.xyz/index.xml">Journal Subversif</source><pubDate>Mon, 09 Nov 2020 17:44:04 +0200</pubDate><guid>https://criminau.xyz/articles/markdown-syntax.html</guid><description>&lt;p>Cet article offre la base de la syntaxe markdown, il peut être utilisé pour les fichiers de votre contenu sur hugo, il permet la personnalisation via le css du langage html produit.
+Cet article me permet de tester de nouvelles configurations de manière étendue.&lt;/p>
+&lt;p>This article offers basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS like figure.&lt;/p>
+&lt;p>PS: Le document PDF est complet d&amp;rsquo;origine, depuis des modifications ont été apporté.&lt;/p>
+&lt;p>&lt;a href="https://raw.githubusercontent.com/criminau/site/master/content/posts/markdownsyntax.md">Visualiser la page sans formatage via github&lt;/a>&lt;/p>
+&lt;h1 id="h1">H1&lt;/h1>
+&lt;p>&lt;a href="https://www.markdownguide.org/basic-syntax/">Le meilleur guide de Syntaxe Markdown&lt;/a> trouvé !&lt;/p>
+&lt;p>« »&lt;/p>
+&lt;p>« »&lt;/p>
+&lt;h2 id="headings">Headings&lt;/h2>
+&lt;p>The following HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> elements represent six levels of section headings. &lt;code>&amp;lt;h1&amp;gt;&lt;/code> is the highest section level while &lt;code>&amp;lt;h6&amp;gt;&lt;/code> is the lowest.&lt;/p>
+&lt;h2 id="h2">H2&lt;/h2>
+&lt;h3 id="h3">H3&lt;/h3>
+&lt;h4 id="h4">H4&lt;/h4>
+&lt;h5 id="h5">H5&lt;/h5>
+&lt;h6 id="h6">H6&lt;/h6>
+&lt;h2 id="paragraph">Paragraph&lt;/h2>
+&lt;p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p>
+&lt;p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p>
+&lt;h2 id="buttons">Buttons&lt;/h2>
+&lt;a rel="noopener noreferrer" title="Go Home Fucking Tourists" href="https://youtu.be/QRcrsHro6xI" target="_blank" class="sample-btn">
+Go Home Fucking Tourists
+&lt;/a>
+&lt;a rel="noopener noreferrer" title="Contribute button" href="https://github.com/criminau/" target="_blank" class="sample-btn">
+Contribute
+&lt;/a>
+&lt;h2 id="colunms">Colunms&lt;/h2>
+&lt;div class="book-columns flex flex-wrap">
+&lt;div class="flex-even markdown-inner">
+&lt;!-- begin columns block -->
+&lt;h3 id="left-content">Left Content&lt;/h3>
+&lt;p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
+&lt;/div>
+&lt;div class="flex-even markdown-inner">
+&lt;!-- separator between columns -->
+&lt;h3 id="mid-content">Mid Content&lt;/h3>
+&lt;p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter!
+&lt;/div>
+&lt;div class="flex-even markdown-inner">
+&lt;!-- separator between columns -->
+&lt;h3 id="right-content">Right Content&lt;/h3>
+&lt;p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
+&lt;/div>
+&lt;/div>
+&lt;h2 id="blockquote">Blockquote&lt;/h2>
+&lt;h3 id="blockquote-sample">Blockquote sample&lt;/h3>
+&lt;p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code>footer&lt;/code> or &lt;code>cite&lt;/code> element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p>
+&lt;h4 id="blockquote-without-attribution">Blockquote without attribution&lt;/h4>
+&lt;blockquote>
+&lt;p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.&lt;br>
+&lt;strong>Note&lt;/strong> that you can use &lt;em>Markdown syntax&lt;/em> within a blockquote.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="blockquote-with-attribution">Blockquote with attribution&lt;/h4>
+&lt;blockquote>
+&lt;p>Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;br>
+— &lt;cite>Rob Pike&lt;sup id="fnref:1">&lt;a href="https://criminau.xyz/articles/markdown-syntax.html#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/cite>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="figure">figure&lt;/h2>
+&lt;p>Figure (image insertion) playing with text !&lt;/p>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
+&lt;figure class="right" role="group">&lt;img src="https://via.placeholder.com/400x280" class="figure-img"
+width="31.25em" height="15.625em"
+alt="image"
+title="image"/>&lt;figcaption>
+&lt;p>figure-right&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
+&lt;figure class="left" role="group">&lt;img src="https://via.placeholder.com/400x280" class="figure-img"
+width="31.25em" height="15.625em"
+alt="image"
+title="image"/>&lt;figcaption>
+&lt;p>figure-left&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
+&lt;figure class="" role="group">&lt;img src="https://via.placeholder.com/1600x800" class="figure-img"
+width="31.25em" height="15.625em"
+alt="image"
+title="image"/>&lt;figcaption>
+&lt;p>figure-normal (without any classes) do not use&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
+&lt;figure class="big" role="group">&lt;img src="https://via.placeholder.com/1600x800" class="figure-img"
+width="31.25em" height="15.625em"
+alt="image"
+title="image"/>&lt;figcaption>
+&lt;p>figure-big&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
+&lt;h2 id="tables">Tables&lt;/h2>
+&lt;p>Table:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Left-Aligned&lt;/th>
+&lt;th style="text-align:center">Center Aligned&lt;/th>
+&lt;th style="text-align:right">Right Aligned&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">col 3 is&lt;/td>
+&lt;td style="text-align:center">some wordy text&lt;/td>
+&lt;td style="text-align:right">$1600&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">col 2 is&lt;/td>
+&lt;td style="text-align:center">centered&lt;/td>
+&lt;td style="text-align:right">$12&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">zebra stripes&lt;/td>
+&lt;td style="text-align:center">are neat&lt;/td>
+&lt;td style="text-align:right">$1&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">Left-Aligned&lt;/th>
+&lt;th>Center Aligned&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">col 3 is&lt;/td>
+&lt;td>$1600&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">col 2 is&lt;/td>
+&lt;td>$12&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">zebra stripes&lt;/td>
+&lt;td>$1&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>PS: align attribute works fine but it is obsolete.&lt;/p>
+&lt;p>Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Age&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Bob&lt;/td>
+&lt;td>27&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Alice&lt;/td>
+&lt;td>23&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="inline-markdown-within-tables">Inline Markdown within tables&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Italics&lt;/th>
+&lt;th>Bold&lt;/th>
+&lt;th>Code&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;em>italics&lt;/em>&lt;/td>
+&lt;td>&lt;strong>bold&lt;/strong>&lt;/td>
+&lt;td>&lt;code>code&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="highlight">Highlight&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-angular2" data-lang="angular2">&lt;span style="display:flex;">&lt;span>highlight shortcode Here testing angular2&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;p>&lt;a href="https://gohugo.io/content-management/syntax-highlighting/#highlight-shortcode">check More here&lt;/a>&lt;/p>
+&lt;h2 id="code-blocks">Code Blocks&lt;/h2>
+&lt;h3 id="code-block-with-language">Code block with language&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&amp;lt;!doctype html&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">html&lt;/span> &lt;span style="color:#a6e22e">lang&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;fr&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">meta&lt;/span> &lt;span style="color:#a6e22e">charset&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;utf-8&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">title&lt;/span>&amp;gt;Example HTML5 Document&amp;lt;/&lt;span style="color:#f92672">title&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt;Test&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">html&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="code-block-without-language">Code block without language&lt;/h3>
+&lt;pre tabindex="0">&lt;code>&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt;
+&amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code>&lt;/pre>&lt;h3 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&amp;lt;!doctype html&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">html&lt;/span> &lt;span style="color:#a6e22e">lang&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;en&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">meta&lt;/span> &lt;span style="color:#a6e22e">charset&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;utf-8&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">title&lt;/span>&amp;gt;Example HTML5 Document&amp;lt;/&lt;span style="color:#f92672">title&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt;Test&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">html&lt;/span>&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h3 id="code-block-with-hugos-internal-highlight-and-white-color">Code block with Hugo&amp;rsquo;s internal highlight and white color&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-angular2" data-lang="angular2">&lt;span style="display:flex;">&lt;span>localectl set-locale LANG=fr_FR.UTF-8
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>localectl set-keymap fr
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>localectl set-x11-keymap fr
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>reboot&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h2 id="list-types">List Types&lt;/h2>
+&lt;h3 id="ordered-list">Ordered List&lt;/h3>
+&lt;ol>
+&lt;li>First item&lt;/li>
+&lt;li>Second item&lt;/li>
+&lt;li>Third item&lt;/li>
+&lt;/ol>
+&lt;h3 id="ordered-list-with-links">Ordered List with links&lt;/h3>
+&lt;ol>
+&lt;li>&lt;a href="https://criminau.xyz/articles/markdown-syntax.html#Link">Link to Link&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://criminau.xyz">Second item&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://criminau.xyz">Third item&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;p>This no work :&lt;/p>
+&lt;p>&lt;a href="https://criminau.xyz/articles/markdown-syntax.html#Link">Link to Link&lt;/a>&lt;/p>
+&lt;h3 id="unordered-list">Unordered List&lt;/h3>
+&lt;ul>
+&lt;li>List item&lt;/li>
+&lt;li>Another item&lt;/li>
+&lt;li>And another item&lt;/li>
+&lt;/ul>
+&lt;h3 id="nested-list">Nested list&lt;/h3>
+&lt;ul>
+&lt;li>Fruit
+&lt;ul>
+&lt;li>Apple&lt;/li>
+&lt;li>Orange&lt;/li>
+&lt;li>Banana&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Dairy
+&lt;ul>
+&lt;li>Milk&lt;/li>
+&lt;li>Cheese&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="other-elements">Other Elements&lt;/h2>
+&lt;h3 id="hr">hr&lt;/h3>
+&lt;hr>
+&lt;hr>
+&lt;hr>
+&lt;h3 id="abbr-sub-sup-kbd">abbr, sub, sup, kbd&lt;/h3>
+&lt;p>&lt;abbr title="Graphics Interchange Format">GIF&lt;/abbr> is a bitmap image format.&lt;/p>
+&lt;p>H&lt;sub>2&lt;/sub>O&lt;/p>
+&lt;p>X&lt;sup>n&lt;/sup> + Y&lt;sup>n&lt;/sup> = Z&lt;sup>n&lt;/sup>&lt;/p>
+&lt;p>Press &lt;kbd>&lt;kbd>CTRL&lt;/kbd>+&lt;kbd>ALT&lt;/kbd>+&lt;kbd>Delete&lt;/kbd>&lt;/kbd> to end the session.&lt;/p>
+&lt;h2 id="youtube">youtube&lt;/h2>
+&lt;div class="video-responsive">
+&lt;iframe
+src="https://www.youtube-nocookie.com/embed/falFFuZEPd4"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen
+title="Vidéo Youtube sans cookies"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h2 id="tweeter">tweeter&lt;/h2>
+&lt;p>&lt;strong>With mobile and some privacy browser.., twitter appear like simple blockquote&lt;/strong>&lt;br>
+&lt;strong>If not, appear like twitter want&lt;/strong>&lt;/p>
+&lt;style type="text/css">
+.twitter-tweet {
+}
+.twitter-tweet a {
+color: var(--content);
+text-decoration: underline;
+text-decoration-color: var(--content);
+}
+blockquote.twitter-tweet a:hover,
+blockquote.twitter-tweet a:focus {
+text-decoration: underline;
+font-weight: bolder;
+}
+&lt;/style>
+&lt;blockquote class="twitter-tweet" data-dnt="true">&lt;p lang="en" dir="ltr">Hugo 0.24 Released: Big archetype update + &lt;a href="https://twitter.com/Netlify?ref_src=twsrc%5Etfw">@Netlify&lt;/a> _redirects etc. file support&lt;a href="https://t.co/X94FmYDEZJ">https://t.co/X94FmYDEZJ&lt;/a> &lt;a href="https://twitter.com/hashtag/gohugo?src=hash&amp;amp;ref_src=twsrc%5Etfw">#gohugo&lt;/a> &lt;a href="https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw">#golang&lt;/a> &lt;a href="https://twitter.com/spf13?ref_src=twsrc%5Etfw">@spf13&lt;/a> &lt;a href="https://twitter.com/bepsays?ref_src=twsrc%5Etfw">@bepsays&lt;/a>&lt;/p>&amp;mdash; GoHugo.io (@GoHugoIO) &lt;a href="https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw">June 21, 2017&lt;/a>&lt;/blockquote>
+&lt;p>&lt;strong>twitter with conversation ?&lt;/strong>&lt;/p>
+&lt;blockquote class="twitter-tweet" data-dnt="true">&lt;p lang="en" dir="ltr">&lt;a href="https://twitter.com/WilliamShatner?ref_src=twsrc%5Etfw">@WilliamShatner&lt;/a> Good day, Captain. &lt;a href="https://twitter.com/hashtag/ISS?src=hash&amp;amp;ref_src=twsrc%5Etfw">#ISS&lt;/a> is in standard orbit and Commander Swanson has the conn. Hope you’re having a great weekend!&lt;/p>&amp;mdash; NASA (@NASA) &lt;a href="https://twitter.com/NASA/status/495719809695621121?ref_src=twsrc%5Etfw">August 2, 2014&lt;/a>&lt;/blockquote>
+&lt;h2 id="nitter">nitter&lt;/h2>
+&lt;p>nitter n&amp;rsquo;autorise pas la connexion.&lt;/p>
+&lt;h2 id="iteroni">iteroni&lt;/h2>
+&lt;p>ça fonctionne à merveille.&lt;/p>
+&lt;div class="video-responsive">
+&lt;iframe
+src="https://iteroni.com/embed/falFFuZEPd4"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen
+title="Vidéo Youtube sans cookies"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;div class="video-responsive">
+&lt;iframe
+src="https://iteroni.com/embed/-R0UYHS8A_A"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen
+title="Vidéo Youtube sans cookies"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;p>deux pour le plaisir&lt;/p>
+&lt;h2 id="vimeo">vimeo&lt;/h2>
+&lt;div class="video-responsive">
+&lt;iframe src="https://player.vimeo.com/video/146022717?dnt=1"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen
+Title="Vidéo Viméo avec DoNotTrack activé"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h2 id="ifram-pdf">Ifram PDF&lt;/h2>
+&lt;iframe
+class="iframepdf"
+frameborder="0"
+allowfullscreen
+src="../../media/gt-metrix-report.pdf"
+title="aperçu gt-metrix-report"
+>
+&lt;/iframe>
+&lt;h2 id="definition-lists">Definition lists.&lt;/h2>
+&lt;dl>
+&lt;dt>Cat&lt;/dt>
+&lt;dd>Fluffy animal everyone likes&lt;/dd>
+&lt;dt>Internet&lt;/dt>
+&lt;dd>Vector of transmission for pictures of cats&lt;/dd>
+&lt;/dl>
+&lt;h2 id="link">Link&lt;/h2>
+&lt;p>&lt;a href="https://gallica.bnf.fr/ark:/12148/bpt6k5772863h/f19.image">Histoire du Béarn&lt;/a>&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk&lt;/a> during Gopherfest, November 18, 2015.&amp;#160;&lt;a href="https://criminau.xyz/articles/markdown-syntax.html#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description><enclosure url="http://criminau.xyz/media/markdown-cover-min.avif" length="435600" type="image/avif"/></item></channel></rss>

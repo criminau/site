@@ -16,6 +16,7 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [X] CSS note !
 - [X] s'engager dans les outils de recherche et d'affichage des taxonomies
 - [X] tags categories series !
+- [X] du gars sur sidebar-nav-item
 - [ ] affichage par terme
 - [ ] .Params.image ?? -> RSS
 - [ ] RSS image (en cours)

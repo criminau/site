@@ -14,6 +14,9 @@ cover:
     Caption: ""
 images: "media/markdown-cover-min.avif"
 keyword: "Markdown syntax, copy button, figure, details, expand, columns, tabs, blockquote, youtube responsive, HTML, CSS, HUGO, hugo authors, gohugo, hugo cms, Markdown"
+tags: ["markdownsyntax"]
+categories: ["markdownsyntax"]
+series: ["markdownsyntax"]
 pdfname: "markdown-syntax"
 ---
 

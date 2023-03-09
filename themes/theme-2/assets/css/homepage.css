@@ -32,6 +32,9 @@
 .home-info .entry-content {
     -webkit-line-clamp: 5;
 }
+.home-info .sidebar-nav-item:hover{
+    font-weight: bolder;
+}
 
 /** introducart
 -------------------------------------------------- **/
