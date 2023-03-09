@@ -14,20 +14,20 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 ### v.03.0 !
 
 - [X] CSS note !
-- [ ] 
+- [X] s'engager dans les outils de recherche et d'affichage des taxonomies
+- [X] tags categories series !
+- [ ] affichage par terme
 - [ ] .Params.image ?? -> RSS
 - [ ] RSS image (en cours)
-- [ ] s'engager dans les outils de recherche et d'affichage des taxonomies
-- [ ] préparation section : note ?
 - [ ] site responsive avec css mobile (720/1320)
-
 - [ ]
 
-https://mertbakir.gitlab.io/hugo/tag-cloud-in-hugo/
-https://mertbakir.gitlab.io/hugo/this-is-my-design/
+
 - les brouillons ne sont pas disponibles à la recherche.
 - déployer iteroni à la place de youtube qui bouffe de la ressource.
 
 - homepage : affichage des catégories mais pas des tags ? oui CSS
-Thèmes -> categories
+categories = Livres
+série = le capital, mystery of money
+tags = motclé ex: troisième rome
 

@@ -14,8 +14,7 @@ cover:
     caption: "Saint Georges tuant le dragon"
 images: "media/saint-georges-cover.avif"
 keyword: "Moscou, Troisième, Rome"
-tags:
-- Troisième Rome
+tags: ["Troisième Rome"]
 categories:
 series:
 pdfname: "moscou-troisieme-rome"

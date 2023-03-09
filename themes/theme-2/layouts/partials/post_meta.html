@@ -17,9 +17,13 @@
 {{ end }}
 
 {{ with (partial "taxonomies.html" . ) }}
-{{ $scratch.Add "meta" . }}
+{{ $scratch.Add "nop" . }}
 {{ end }}
 
 {{- with ($scratch.Get "meta")}}
 {{- delimit . "&nbsp;·&nbsp;"}}
 {{- end }}
+
+{{ with ($scratch.Get "nop")}}
+{{ . }}
+{{ end }}

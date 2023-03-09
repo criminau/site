@@ -15,8 +15,7 @@ cover:
 images: "media/Qianlong_Empereur.avif"
 keyword: "dans, l'empire, mongol, tanase, peuples de la steppe, Gengis Khan, Güyük, Jean de Plancarpin, Bati"
 tags:
-- Livres
-categories:
+categories: ["Livres"]
 series:
 pdfname: "empire_mongol_plancarpin"
 ---

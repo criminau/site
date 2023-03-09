@@ -1,27 +1,600 @@
-<!doctype html><html lang=fr><head><meta charset=utf-8><meta name=viewport content="initial-scale=1"><title>A propos des FLoC</title><meta name=robots content="index,follow"><meta name=robots content="all"><meta name=googlebot content="index,follow"><meta name=referrer content="no-referrer-when-downgrade"><meta name=msapplication-config content="browserconfig.xml"><meta name=apple-mobile-web-app-capable content="yes"><meta name=apple-mobile-web-app-status-bar-style content="black"><link rel=alternate hreflang=fr-be href=https://criminau.xyz/articles/about-floc.html><link rel=alternate hreflang=fr-fr href=https://criminau.xyz/articles/about-floc.html><link rel=alternate hreflang=fr-ch href=https://criminau.xyz/articles/about-floc.html><meta name=description content="Une plongée profonde sur un terrain miné par l&amp;rsquo;intérêt de posséder du pouvoir sur autrui.
-"><meta name=keywords content="FLoC,Federated Learning of Cohorts,google,cnil,internet"><meta name=author content="
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1">
+
+<title>A propos des FLoC</title>
+
+
+<meta name="robots" content="index,follow"/>
+<meta name="robots" content="all"/>
+<meta name="googlebot" content="index,follow">
+
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<meta name="msapplication-config" content="browserconfig.xml">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link rel="alternate" hreflang="fr-be" href="https://criminau.xyz/articles/about-floc.html"/>
+<link rel="alternate" hreflang="fr-fr" href="https://criminau.xyz/articles/about-floc.html"/>
+<link rel="alternate" hreflang="fr-ch" href="https://criminau.xyz/articles/about-floc.html"/>
+
+<meta name="description" content="Une plongée profonde sur un terrain miné par l&amp;rsquo;intérêt de posséder du pouvoir sur autrui.
+">
+<meta name="keywords" content="FLoC, Federated Learning of Cohorts, google, cnil, internet">
+<meta name="author" content="
 
 	criminau 
 	https://criminau.xyz/
-"><meta itemprop=author content="criminau"><meta itemprop=headline content="A propos des FLoC"><link rel=canonical href=https://criminau.xyz/articles/about-floc.html><link href=https://criminau.xyz/css/globalCSS.min.63e4c9b1c664c95e65a50b03981173a55345f4c80211116ec29d022f106dae75.css rel="preload stylesheet" as=style integrity="sha256-Y+TJscZkyV5lpQsDmBFzpVNF9MgCERFuwp0CLxBtrnU="><link href=https://criminau.xyz/css/post-single.min.3782c04eccc4c8be7314bf1addd5fabc6e8cce6f41eaa6a7b710b1ba0f989a1d.css rel="preload stylesheet" as=style integrity="sha256-N4LATszEyL5zFL8a3dX6vG6Mzm9B6qantxCxug+Ymh0="><link rel=apple-touch-icon sizes=180x180 href=../apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=../favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../favicon-16x16.png><link rel=manifest type=application/manifest+json href=../site.webmanifest><meta name=generator content="Hugo 0.110.0"><link rel=alternate type=application/rss+xml href=https://criminau.xyz/index.xml title=criminau.xyz><meta property="og:title" content="A propos des FLoC"><meta property="og:description" content="Une plongée profonde sur un terrain miné par l&amp;rsquo;intérêt de posséder du pouvoir sur autrui.
-"><meta property="og:type" content="article"><meta property="og:url" content="https://criminau.xyz/articles/about-floc.html"><meta name=twitter:image content><meta property="og:image" content><meta property="article:published_time" content="2022-02-14T08:00:00+00:00"><meta property="article:modified_time" content="2022-02-14T08:00:00+00:00"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://criminau.xyz/android-chrome-192x192.png"><meta name=twitter:title content="A propos des FLoC"><meta name=twitter:description content="Une plongée profonde sur un terrain miné par l&amp;rsquo;intérêt de posséder du pouvoir sur autrui.
-"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"A propos des FLoC","name":"A propos des FLoC","abstract":"Une plongée profonde sur un terrain miné par l\u0026amp;rsquo;intérêt de posséder du pouvoir sur autrui.\n","keywords":["FLoC, Federated Learning of Cohorts, google, cnil, internet"],"articleBody":"Une plongée profonde sur un terrain miné par l’intérêt de posséder du pouvoir sur autrui.\nIntroduction FLoC pour Federated Learning of Cohorts, en français Apprentissage Fédéré des Cohortes.\nTout d’abord, nous détaillerons la technique et l’aspect social des FLoC.\nPar la suite nous chercherons une définition de la vie privée. Nous observerons son coût, nous tenterons d’en définir son importance.\nEnfin, nous finirons par comprendre le but réel derrière cet acharnement.\n“On a créé une infrastructure de surveillance dystopique juste pour que des gens cliquent sur la pub.” Zeynep Tufekci\nAspect Technique Cookies Le 25 mai 2021, la CNIL engage des mises en demeure.\nLa définition d’un cookie.\nPassons aux choses plus sérieure dont vous n’avez pas encore entendu parler..\nFingerprinting La prise d’empreinte digitale est activée sur beaucoup de navigateur comme firefox ou chrome. Concernant l’Europe et la Data Protection Commission (DPC) ils n’ont pas envie d’en avoir conscience.\nLa CNIL en donne une définition mais ne prend aucune mesure pour protéger les utilisateurs.\nEn bref, plus votre navigateur agit différemment des autres, plus il est plus facile de définir votre empreinte digitale.\nFLoC La dernière trouvaille de google sont les FLoC.\nLes FLoC n’apparaissent pas dans le glossaire de la CNIL.\nSchéma de fonctionnement de la publicité ciblée via les FLoC\nLa figure ci-dessus, vous explique le fonctionnement des FLoC :\nDes centaines de cohortes sont créées. Chaque individu est rangé dans une cohorte en fonction de son historique de navigation récent.\nL’annonceur (celui qui a besoin de publicité) et l’éditeur (celui qui affiche la publicité) partagent le trafic de leur site vers Google via l’API des FLoC document.interestCohort(). Ainsi Google, saît qui a besoin de quoi (l’annonceur a besoin des cohortes 1096) et qui est capable d’afficher quoi (un site web parlant jeux vidéos pour enfant ne va pas mettre de la pub de chaussures pour homme).\nGoogle sélectionne ainsi les annonces pour chaque cohorte/utilisateur.\nEnfin l’éditeur affiche la publicité personnalisée/ciblée en fonction de la cohorte qui navigue sur son site.\nLes cohortes vont diviser les individus, vous serez rangé dans une case et google s’occupera bien de vous.\nRefuser les FLoC sur son site internet via le header HTTP :\nPermissions-Policy: interest-cohort=() Les FLoC entreront en vigueur fin 2021 et remplaceront les cookies tiers.\nEn anglais le mot flock signifie troupeau.\nLes FloC vont améliorer la détection par fingerprinting. Un individu avec une cohorte vide (empty) sera très vite remarqué.\nContexte croisé Actuellement Google, via les cookies tiers, doit croiser les données sur vous pour comprendre le genre de personne que vous êtes. Grâce au FLoC, Google va s’approprier cette information de manière immédiate et précise.\nLa discrimination sur internet verra le jour car les cohortes pourront vous classer selon si vous êtes blanc, noir, étranger, jeune ou vieux, femme ou homme.\nGoogle vous surveillera sans croiser ses données.\nAspect social Google réfute le General Data Protection Regulation (GDPR) et le California Consumer Privacy Act (CCPA) car son modèle économique est une violation de la vie privée.\nTOUS les Gouvernements de la planète sont complices car leur modèle de pouvoir est également une violation de la vie privée.\nStatistiques (2021) 54.37% du trafic mondial est sur mobile.\n39.75% de la population est sous Android… (Android c’est Google).\n64.67% de la population mondiale utilise le navigateur Google Chrome.\n91.66% du monde passe par google.com.\nVous n’avez toujours pas compris. Google connaît 91.66% de la population mondiale….\nL’indentification unique sur votre Android.\nAcharnement sécuritaire Je n’aborderai pas le sujet des câbles sous-marins, de la NSA et du parti communiste Chinois.\nActuellement le renseignement français a accés à toutes vos données depuis la métropole, tout comme la NSA.\nLes caméras dans les bus scolaires, les gares, les trains, la rue, les supermarchés sont d’actualités.\nL’Europe laisse faire. Des sociétés privées comme veesion sont fières de participer à ce sadisme général. Avec comme argument sadique : “Détectez les vols, Automatiquement, En temps réel !”\nLa pauvreté morale de ces individus règne.\nSans commentaire La CNIL et toutes les agences gouvernementales aini qu’européenne sont complices de cette surveillence de masse.\nFirefox défend votre vie privée. C’est pourquoi son moteur de recherche par défaut est Google. Les appareils Apple protègent votre vie privée. Google est le principal moteur de recherche sur leur navigateur. GNOME est sponsorisé par Google…\nJe n’aborderai pas Google AMP.\nGoogle fera comme Apple, avec comme argument la vie privée, mais pour eux cet argument est synonyme de monopole et de conservation de la donnée.\nLa donnée continuera de circuler vers les agences de renseignement.\nJe ne mentionnerai pas les IPC (Inter-Process Communication) notemment sur les claviers d’android(gboard).\nEn 2012, IBM dénonce l’utilisation de Siri.\nIBM a bannit des salariés utilisant Cortana de Windows.\nDésactiver la géocalisation et le réseau sur Android EST UN LEURRE. La seule manière de se protéger est de controller à 100% le réseau sur lequel vous êtes connecté (wi-fi).\nJe ne mentionnerai pas les SignalBackdoors.\nQualcomm prévoit de laisser ouverte la caméra frontale de votre smartphone, pour votre sécurité\nJe vous invite a vous renseigner sur le datacenter en Utah de la NSA.\nSe renseigner sur Soli, la technologie de google ainsi que de Motion Sense et en version Apple, Digital Crown.\nVie privée La vie signifie le chemin, du latin “via”; privée vient du latin “privatus” qui signifie “séparé de, dépourvu de”.\nDonc littéralement se séparer du chemin ? Quel est donc le chemin ?\nHistoriquement La vie sociale des individus est l’apparition même de la vie privée entre l’Oikos et la Polis. Elle est considérée comme une période, un espace tranquille à l’abri des tumultes de la société.\nVie privée et droit Le Droit au Respect de la Vie Privée ne possède pas de définition de la Vie Privée.\nLe Droit essaie de garantir cette protection via des faits, des cas et des notions.\nSeule la jurisprudence est capable d’en donner des notions.\nDe plus les limites sont nombreuses comme la vie publique, la sécurité, la lutte contre la corruption, lutte contre la fraude fiscale,…\nDéfinition européenne de la vie privée L’europe aussi ne donne pas de définition.\nMais fixe rapidement ses limites :\n« Droit au respect de la vie privée et familiale\nToute personne a droit au respect de sa vie privée et familiale, de son domicile et de sa correspondance. Il ne peut y avoir ingérence d’une autorité publique dans l’exercice de ce droit que pour autant que cette ingérence est prévue par la loi et qu’elle constitue une mesure qui, dans une société démocratique, est nécessaire à la sécurité nationale, à la sûreté publique, au bien-être économique du pays, à la défense de l’ordre et à la prévention des infractions pénales, à la protection de la santé ou de la morale, ou à la protection des droits et libertés d’autrui. »\nJe cite :\n“à la protection de la santé ou de la morale”\nLa morale serait donc un ennemi de la vie privée et elle doit être protégée.\nLes propos “Droit au respect de la vie privée et familiale” semblent signifier que la vie privée serait plus une condition sociale d’existence qu’une forme de droit moral. Dans le sens où la vie privée relève plus des meurs que de la morale ce qui justifie alors le paragraphe précédent.\nElle est associé sociologiquement à l’individu dans son environnement social plutôt que moralement à son rôle d’être vivant doué de raison, être spirituel.\nDe cette façon elle se détache de son rôle protecteur, puisqu’elle rattache l’individu uniquement par sa condition sociale.\nAujourd’hui, la vie privée divise profondément, deux courants de pensée s’affrontent :\nL’un affirmant qu’elle est nécessaire et qu’elle doit être assurée intégralement, aucune forme de collecte d’information. L’autre assurant qu’elle n’est que le reflet de notre modèle social et donc qu’elle doit être partagée à tous ! Que toutes les données soient publiques. La belle affaire.\nGDPR General Data Protection Regulation.\nCes lois pour la sécurité des données sont entrées en vigueur le 25 Mai 2018 en Europe.\nEt la encore aucun mot sur la vie privée… Par contre ils donnent une définition des données personnelles.\nAucun droit à l’oubli.\nAucun droit à l’anonymat.\nJe n’ai rien a cacher ! Pour ceux qui croient encore que vous n’avez rien à cacher….\nJe ne vais pas vous expliquer le principe du panoptique.\nJe vous expliquerai le principe de l’arrêt du crime.\nCoût de la vie privée Exclusion du système bancaire. Exclusion sociale :\nLes rues regorgent de caméra. Android respire Google. Apple et ses termes d’utilisation Exclusion sociale Ceux désirant le respect de leur vie privée sont déjà exclue socialement depuis plus d’une décennie dans le plus grand silence ! Cela se nomme les pathologies de l’anonymat, où l’on fait croire que c’est la faute des gens alors que c’est de la faute de ceux qui ne désire pas l’être.\nNe pas utiliser le Play Store ou le Google Service Framework (GSF) de Google vous exclue de tout lien social puisque même Signal nécessite le GSF pour son utilisation.\nDepuis 2019, Google à renforcer la protection de la signature du GSF, il est donc devenu un calvaire de fuir la surveillance en aillant une vie “normale”.\nNotion d’anonymat Anonyme issu du grec ancien ἀνώνυμος anônymos (« sans nom »).\nCette notion d’anonymat est délicate à appréhender car il ne faut pas oublier que chacun en fonction de ses connaissances croient être anonyme.\nExemple : Une personne qui se connecte sur internet avec un pseudo qui n’est pas le sien, se sentira anonyme, mais elle ne le sera pas, car elle communiquera avec son adresse IP.\nCette personne vivra son anonymat alors qu’une autre sachant qu’elle peut être identifiable ne se sentira pas anonyme.\nEn ce sens, la notion d’anonymat est DELICATE.\nArrêtducrime Facebook continue d’espionner les adolescents1.\nLes Gouvernements sont au courant et sont complices2.\nLes termes d’utilisation, de services des sites web sont une vaste mascarade3.\nJe me balade sur le google francophone. Quand je tombe sur Google Family Link.\nL’application family link de google.\nJe voit la note sur le Play Store au 16/09/21. 1.4/5. Soit 5.6/20. C’est moche.\nBon à l’heure où j’écrit l’article (06/01/22), quelqu’un est passé nettoyer les commentaires et avis 😮.\nLa lecture des commentaires fait peur.\nLes gosses ne peuvent plus penser par eux même.\nVoilà le crime : penser à conserver sa vie privée.\nLa récente mise à jour de Youtube qui n’affiche plus les pouces rouge est une preuve de plus. Ils ne veulent plus que ce soit vous qui décidiez ce que vous regardez ou vous pensez.\nL’Arrêtducrime, c’est la faculté de s’arrêter net, comme par instinct, au seuil d’une pensée dangereuse. La pensée dangereuse ici reste l’anonymat sur internet.\nL’objectif reste que ce soit vous seul, par pure stupidité protectrice, qui commettez l’Arrêtducrime.\nDans le cas des enfants, l’objectif est d’annihiler leur capacité à prendre conscience de ce qui est bien ou mal sur ce qu’ils font sur internet. En restreignant leurs activités, ils perdent tout regard critique sur leurs agissements.\n« Ceux qui sont capables de voir au-delà des ombres et des mensonges de leur culture ne seront jamais compris et encore moins crus par les masses » Platon\nConclusion Ceux qui veulent la vie privée et la liberté sont des criminels.\nLes gens ne désirent pas être libre. Ils confondent avoir le choix et être libre.\nLa maladie du pouvoir est bien plus lourde en conséquence que celle de la cupidité.\nMAIS pour VOTRE BONHEUR vous souhaitez rester dégagé de tout cela.\nLa vie privée est un droit fondamental humain.\nPour penser plus loin A l’image de la religion qui gérait les individus, les GAFAM gère l’ordre public sur le domaine du cyber espace, ils sont complices avec les états du maintient de l’ordre et de la dérive autoritaire.\nPremière Loi de la vie Privée : Ne croyez jamais Google lorsque qu’ils promettent de faire quelque chose pour la “protection de la vie privée”. JAMAIS.\nsources What is FLoC?\nGoogle’s FLoC Is a Terrible Idea\nW3C Draft Report about FLoC\nLes cookies de Google sont toxiques le FLoC aussi\nStatistiques sur internet\nCeux qui n’ont rien à chacher\nMozilla is Broken\ncleanuptheweb.org\nFacebook continue d’espionner les adolescents. ↩︎\nDes lois pour obliger google par le Magazine Forbes. ↩︎\nLes termes d’utilisation, de services ↩︎\n","wordCount":"2046","inLanguage":"fr","image":"https://criminau.xyz/android-chrome-192x192.png","datePublished":"2022-02-14","dateModified":"2022-02-14","author":{"@type":"Person","name":"criminau","url":"https://criminau.xyz/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://criminau.xyz/articles/about-floc.html"},"publisher":{"@type":"Organization","name":"Journal Subversif","logo":{"@type":"ImageObject","url":"https://criminau.xyz/favicon.ico"}}}</script></head><body class=single><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><nav class=nav><ul><li><a title="Page d'accueil" href=https://criminau.xyz/><img class=logo title="Logo du Journal Subversif" src=https://criminau.xyz/apple-touch-icon.png alt="Logo du Journal Subversif" aria-label="Logo du Journal Subversif"></a></li><li class=theme-toggle><p title="Changer le thème" id=theme-toggle title="Changer le thème"><svg id="moon" [role="img" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" [role="img" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></p></li><li><form id=search-form class=search-form method=get data-language-prefix><input id=search-input class=search-display name=q tabindex=0 autocomplete=off placeholder=recherche><ul role=list id=search-results class=search-results></ul></form></li><li><a title=Archives href=https://criminau.xyz/archives/><span>Archives</span></a></li><li><a title="A propos" href=https://criminau.xyz/apropos/><span>A propos</span></a></li></ul></nav><article itemscope itemtype=https://schema.org/Article class=post-single><header class=post-header><h1 itemprop="name headline" class=post-title>A propos des FLoC</h1><div class=post-meta>14 Février 2022 &nbsp;·&nbsp;
-10 min&nbsp;·&nbsp;<p class=post-meta-author itemprop=author itemscope itemtype=http://schema.org/Person><span itemprop=name>criminau</span>
-<span itemprop=url id=no-display>https://criminau.xyz/</span></p>&nbsp;·&nbsp;<a class=pdf-link-post-single href=../pdf/about-floc.pdf target=_blank rel="noopener noreferrer" title="Télécharger about-floc en version pdf" download>pdf</a></div></header><div class=toc><details><summary><p title="Table des matières" class=details>Table des matières</p></summary><blockquote><ul><li><a href=#introduction>Introduction</a></li><li><a href=#aspect-technique>Aspect Technique</a><ul><li><a href=#cookies>Cookies</a></li><li><a href=#fingerprinting>Fingerprinting</a></li><li><a href=#floc>FLoC</a></li><li><a href=#contexte-crois%c3%a9>Contexte croisé</a></li></ul></li><li><a href=#aspect-social>Aspect social</a><ul><li><a href=#statistiques-2021>Statistiques (2021)</a></li><li><a href=#acharnement-s%c3%a9curitaire>Acharnement sécuritaire</a></li><li><a href=#sans-commentaire>Sans commentaire</a></li></ul></li><li><a href=#vie-priv%c3%a9e>Vie privée</a><ul><li><a href=#historiquement>Historiquement</a></li><li><a href=#vie-priv%c3%a9e-et-droit>Vie privée et droit</a></li><li><a href=#d%c3%a9finition-europ%c3%a9enne-de-la-vie-priv%c3%a9e>Définition européenne de la vie privée</a></li><li><a href=#gdpr>GDPR</a></li><li><a href=#je-nai-rien-a-cacher->Je n&rsquo;ai rien a cacher !</a></li><li><a href=#co%c3%bbt-de-la-vie-priv%c3%a9e>Coût de la vie privée</a></li><li><a href=#exclusion-sociale>Exclusion sociale</a></li></ul></li><li><a href=#notion-danonymat>Notion d&rsquo;anonymat</a></li><li><a href=#arr%c3%aatducrime>Arrêtducrime</a></li><li><a href=#conclusion>Conclusion</a><ul><li><a href=#pour-penser-plus-loin>Pour penser plus loin</a></li></ul></li><li><a href=#sources>sources</a></li></ul></blockquote></details></div><div itemprop=articleBody class="post-content justify"><p>Une plongée profonde sur un terrain miné par l&rsquo;intérêt de posséder du pouvoir sur autrui.</p><h2 id=introduction>Introduction</h2><p>FLoC pour Federated Learning of Cohorts, en français Apprentissage Fédéré des Cohortes.<br>Tout d&rsquo;abord, nous détaillerons la technique et l&rsquo;aspect social des FLoC.<br>Par la suite nous chercherons une définition de la vie privée. Nous observerons son coût, nous tenterons d&rsquo;en définir son importance.<br>Enfin, nous finirons par comprendre le but réel derrière cet acharnement.</p><blockquote><p>&ldquo;On a créé une infrastructure de surveillance dystopique juste pour que des gens cliquent sur la pub.&rdquo;
-Zeynep Tufekci</p></blockquote><h2 id=aspect-technique>Aspect Technique</h2><h3 id=cookies>Cookies</h3><p>Le 25 mai 2021, <a href=https://www.cnil.fr/fr/cookies-une-vingtaine-organismes-mis-en-demeure>la CNIL engage des mises en demeure</a>.<br><a href=https://www.cnil.fr/fr/definition/cookie>La définition d&rsquo;un cookie</a>.</p><p>Passons aux choses plus sérieure dont vous n&rsquo;avez pas encore entendu parler..</p><h3 id=fingerprinting>Fingerprinting</h3><p>La prise d&rsquo;empreinte digitale est activée sur beaucoup de navigateur comme firefox ou chrome.
-Concernant l&rsquo;Europe et la Data Protection Commission (DPC) ils n&rsquo;ont pas envie d&rsquo;en avoir conscience.<br>La <a href=https://www.cnil.fr/fr/definition/fingerprinting>CNIL en donne une définition</a> mais ne prend aucune mesure pour protéger les utilisateurs.</p><p>En bref, plus votre navigateur agit différemment des autres, plus il est plus facile de définir votre empreinte digitale.</p><h3 id=floc>FLoC</h3><p>La dernière trouvaille de google sont les FLoC.<br>Les FLoC n&rsquo;apparaissent pas dans <a href=https://www.cnil.fr/fr/glossaire>le glossaire de la CNIL</a>.</p><figure role=group><img src=https://criminau.xyz/media/floc-technique-min.avif class=figure-img width=31.25em height=15.625em alt="Schéma de fonctionnement de la publicité ciblée via les FLoC" title="Schéma de fonctionnement de la publicité ciblée via les FLoC"><figcaption><p>Schéma de fonctionnement de la publicité ciblée via les FLoC</p></figcaption></figure><p>La figure ci-dessus, vous explique le fonctionnement des FLoC :</p><p>Des centaines de cohortes sont créées. Chaque individu est rangé dans une cohorte en fonction de son historique de navigation récent.<br>L&rsquo;annonceur (celui qui a besoin de publicité) et l&rsquo;éditeur (celui qui affiche la publicité) partagent le trafic de leur site vers Google via l&rsquo;API des FLoC <code>document.interestCohort()</code>.
-Ainsi Google, saît qui a besoin de quoi (l&rsquo;annonceur a besoin des cohortes 1096) et qui est capable d&rsquo;afficher quoi (un site web parlant jeux vidéos pour enfant ne va pas mettre de la pub de chaussures pour homme).</p><p>Google sélectionne ainsi les annonces pour chaque cohorte/utilisateur.<br>Enfin l&rsquo;éditeur affiche la publicité personnalisée/ciblée en fonction de la cohorte qui navigue sur son site.</p><p>Les cohortes vont diviser les individus, vous serez rangé dans une case et google s&rsquo;occupera bien de vous.</p><p>Refuser les FLoC sur son site internet via le header HTTP :</p><pre tabindex=0><code>Permissions-Policy: interest-cohort=()
-</code></pre><p>Les FLoC entreront en vigueur fin 2021 et remplaceront les cookies tiers.</p><p>En anglais le mot flock signifie troupeau.</p><p>Les FloC vont améliorer la détection par fingerprinting. Un individu avec une cohorte vide (empty) <strong>sera très vite remarqué</strong>.</p><h3 id=contexte-croisé>Contexte croisé</h3><p>Actuellement Google, via les cookies tiers, doit croiser les données sur vous pour comprendre le genre de personne que vous êtes.
-Grâce au FLoC, Google va s&rsquo;approprier cette information de manière immédiate et précise.</p><p>La discrimination sur internet verra le jour car les cohortes pourront vous classer selon si vous êtes blanc, noir, étranger, jeune ou vieux, femme ou homme.</p><p>Google vous surveillera sans croiser ses données.</p><h2 id=aspect-social>Aspect social</h2><p>Google réfute le General Data Protection Regulation (GDPR) et le California Consumer Privacy Act (CCPA) car son modèle économique est une violation de la vie privée.<br>TOUS les Gouvernements de la planète sont complices car leur modèle de pouvoir est également une violation de la vie privée.</p><h3 id=statistiques-2021>Statistiques (2021)</h3><p>54.37% du trafic mondial est sur mobile.<br>39.75% de la population est sous Android&mldr; (Android c&rsquo;est Google).<br>64.67% de la population mondiale utilise le navigateur Google Chrome.<br>91.66% du monde passe par google.com.</p><p>Vous n&rsquo;avez toujours pas compris. Google connaît 91.66% de la population mondiale&mldr;.<br>L&rsquo;indentification unique sur votre Android.</p><h3 id=acharnement-sécuritaire>Acharnement sécuritaire</h3><p>Je n&rsquo;aborderai pas le sujet des câbles sous-marins, de la NSA et du parti communiste Chinois.<br>Actuellement le renseignement français a accés à toutes vos données depuis la métropole, tout comme la NSA.<br>Les caméras dans les bus scolaires, les gares, les trains, la rue, les supermarchés sont d&rsquo;actualités.</p><p>L&rsquo;Europe laisse faire. Des sociétés privées comme <a href=https://veesion.io>veesion</a> sont fières de participer à ce sadisme général. Avec comme argument sadique : &ldquo;Détectez les vols, Automatiquement, En temps réel !&rdquo;</p><p>La pauvreté morale de ces individus règne.</p><h3 id=sans-commentaire>Sans commentaire</h3><p>La CNIL et toutes les agences gouvernementales aini qu&rsquo;européenne sont complices de cette surveillence de masse.</p><p>Firefox défend votre vie privée. C&rsquo;est pourquoi son moteur de recherche par défaut est Google.
+">
+
+
+<meta itemprop="author" content="criminau">
+<meta itemprop="headline" content="A propos des FLoC">
+
+
+<link rel="canonical" href="https://criminau.xyz/articles/about-floc.html" />
+
+
+
+<link href="https://criminau.xyz/css/globalCSS.min.63e4c9b1c664c95e65a50b03981173a55345f4c80211116ec29d022f106dae75.css"  rel="preload stylesheet"
+    as="style" integrity="sha256-Y&#43;TJscZkyV5lpQsDmBFzpVNF9MgCERFuwp0CLxBtrnU=">
+
+
+
+
+
+
+<link href="https://criminau.xyz/css/post-single.min.3782c04eccc4c8be7314bf1addd5fabc6e8cce6f41eaa6a7b710b1ba0f989a1d.css"  rel="preload stylesheet"
+    as="style" integrity="sha256-N4LATszEyL5zFL8a3dX6vG6Mzm9B6qantxCxug&#43;Ymh0=">
+
+
+
+
+
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+<link rel="manifest" type="application/manifest+json" href="../site.webmanifest">
+<meta name="generator" content="Hugo 0.110.0">
+
+<link rel="alternate" type="application/rss+xml" href="https://criminau.xyz/index.xml" title="criminau.xyz">
+
+<meta property="og:title" content="A propos des FLoC" />
+<meta property="og:description" content="Une plongée profonde sur un terrain miné par l&amp;rsquo;intérêt de posséder du pouvoir sur autrui.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://criminau.xyz/articles/about-floc.html" />
+
+
+<meta name="twitter:image" content=""/>
+<meta property="og:image" content=""/>
+<meta property="article:published_time" content="2022-02-14T08:00:00+00:00" />
+<meta property="article:modified_time" content="2022-02-14T08:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://criminau.xyz/android-chrome-192x192.png"/>
+
+
+
+
+<meta name="twitter:title" content="A propos des FLoC"/>
+<meta name="twitter:description" content="Une plongée profonde sur un terrain miné par l&amp;rsquo;intérêt de posséder du pouvoir sur autrui.
+"/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "A propos des FLoC",
+  "name": "A propos des FLoC",
+  "abstract": "Une plongée profonde sur un terrain miné par l\u0026amp;rsquo;intérêt de posséder du pouvoir sur autrui.\n",
+  "keywords": [
+    "FLoC, Federated Learning of Cohorts, google, cnil, internet"
+  ],
+  "articleBody": "Une plongée profonde sur un terrain miné par l’intérêt de posséder du pouvoir sur autrui.\nIntroduction FLoC pour Federated Learning of Cohorts, en français Apprentissage Fédéré des Cohortes.\nTout d’abord, nous détaillerons la technique et l’aspect social des FLoC.\nPar la suite nous chercherons une définition de la vie privée. Nous observerons son coût, nous tenterons d’en définir son importance.\nEnfin, nous finirons par comprendre le but réel derrière cet acharnement.\n“On a créé une infrastructure de surveillance dystopique juste pour que des gens cliquent sur la pub.” Zeynep Tufekci\nAspect Technique Cookies Le 25 mai 2021, la CNIL engage des mises en demeure.\nLa définition d’un cookie.\nPassons aux choses plus sérieure dont vous n’avez pas encore entendu parler..\nFingerprinting La prise d’empreinte digitale est activée sur beaucoup de navigateur comme firefox ou chrome. Concernant l’Europe et la Data Protection Commission (DPC) ils n’ont pas envie d’en avoir conscience.\nLa CNIL en donne une définition mais ne prend aucune mesure pour protéger les utilisateurs.\nEn bref, plus votre navigateur agit différemment des autres, plus il est plus facile de définir votre empreinte digitale.\nFLoC La dernière trouvaille de google sont les FLoC.\nLes FLoC n’apparaissent pas dans le glossaire de la CNIL.\nSchéma de fonctionnement de la publicité ciblée via les FLoC\nLa figure ci-dessus, vous explique le fonctionnement des FLoC :\nDes centaines de cohortes sont créées. Chaque individu est rangé dans une cohorte en fonction de son historique de navigation récent.\nL’annonceur (celui qui a besoin de publicité) et l’éditeur (celui qui affiche la publicité) partagent le trafic de leur site vers Google via l’API des FLoC document.interestCohort(). Ainsi Google, saît qui a besoin de quoi (l’annonceur a besoin des cohortes 1096) et qui est capable d’afficher quoi (un site web parlant jeux vidéos pour enfant ne va pas mettre de la pub de chaussures pour homme).\nGoogle sélectionne ainsi les annonces pour chaque cohorte/utilisateur.\nEnfin l’éditeur affiche la publicité personnalisée/ciblée en fonction de la cohorte qui navigue sur son site.\nLes cohortes vont diviser les individus, vous serez rangé dans une case et google s’occupera bien de vous.\nRefuser les FLoC sur son site internet via le header HTTP :\nPermissions-Policy: interest-cohort=() Les FLoC entreront en vigueur fin 2021 et remplaceront les cookies tiers.\nEn anglais le mot flock signifie troupeau.\nLes FloC vont améliorer la détection par fingerprinting. Un individu avec une cohorte vide (empty) sera très vite remarqué.\nContexte croisé Actuellement Google, via les cookies tiers, doit croiser les données sur vous pour comprendre le genre de personne que vous êtes. Grâce au FLoC, Google va s’approprier cette information de manière immédiate et précise.\nLa discrimination sur internet verra le jour car les cohortes pourront vous classer selon si vous êtes blanc, noir, étranger, jeune ou vieux, femme ou homme.\nGoogle vous surveillera sans croiser ses données.\nAspect social Google réfute le General Data Protection Regulation (GDPR) et le California Consumer Privacy Act (CCPA) car son modèle économique est une violation de la vie privée.\nTOUS les Gouvernements de la planète sont complices car leur modèle de pouvoir est également une violation de la vie privée.\nStatistiques (2021) 54.37% du trafic mondial est sur mobile.\n39.75% de la population est sous Android… (Android c’est Google).\n64.67% de la population mondiale utilise le navigateur Google Chrome.\n91.66% du monde passe par google.com.\nVous n’avez toujours pas compris. Google connaît 91.66% de la population mondiale….\nL’indentification unique sur votre Android.\nAcharnement sécuritaire Je n’aborderai pas le sujet des câbles sous-marins, de la NSA et du parti communiste Chinois.\nActuellement le renseignement français a accés à toutes vos données depuis la métropole, tout comme la NSA.\nLes caméras dans les bus scolaires, les gares, les trains, la rue, les supermarchés sont d’actualités.\nL’Europe laisse faire. Des sociétés privées comme veesion sont fières de participer à ce sadisme général. Avec comme argument sadique : “Détectez les vols, Automatiquement, En temps réel !”\nLa pauvreté morale de ces individus règne.\nSans commentaire La CNIL et toutes les agences gouvernementales aini qu’européenne sont complices de cette surveillence de masse.\nFirefox défend votre vie privée. C’est pourquoi son moteur de recherche par défaut est Google. Les appareils Apple protègent votre vie privée. Google est le principal moteur de recherche sur leur navigateur. GNOME est sponsorisé par Google…\nJe n’aborderai pas Google AMP.\nGoogle fera comme Apple, avec comme argument la vie privée, mais pour eux cet argument est synonyme de monopole et de conservation de la donnée.\nLa donnée continuera de circuler vers les agences de renseignement.\nJe ne mentionnerai pas les IPC (Inter-Process Communication) notemment sur les claviers d’android(gboard).\nEn 2012, IBM dénonce l’utilisation de Siri.\nIBM a bannit des salariés utilisant Cortana de Windows.\nDésactiver la géocalisation et le réseau sur Android EST UN LEURRE. La seule manière de se protéger est de controller à 100% le réseau sur lequel vous êtes connecté (wi-fi).\nJe ne mentionnerai pas les SignalBackdoors.\nQualcomm prévoit de laisser ouverte la caméra frontale de votre smartphone, pour votre sécurité\nJe vous invite a vous renseigner sur le datacenter en Utah de la NSA.\nSe renseigner sur Soli, la technologie de google ainsi que de Motion Sense et en version Apple, Digital Crown.\nVie privée La vie signifie le chemin, du latin “via”; privée vient du latin “privatus” qui signifie “séparé de, dépourvu de”.\nDonc littéralement se séparer du chemin ? Quel est donc le chemin ?\nHistoriquement La vie sociale des individus est l’apparition même de la vie privée entre l’Oikos et la Polis. Elle est considérée comme une période, un espace tranquille à l’abri des tumultes de la société.\nVie privée et droit Le Droit au Respect de la Vie Privée ne possède pas de définition de la Vie Privée.\nLe Droit essaie de garantir cette protection via des faits, des cas et des notions.\nSeule la jurisprudence est capable d’en donner des notions.\nDe plus les limites sont nombreuses comme la vie publique, la sécurité, la lutte contre la corruption, lutte contre la fraude fiscale,…\nDéfinition européenne de la vie privée L’europe aussi ne donne pas de définition.\nMais fixe rapidement ses limites :\n« Droit au respect de la vie privée et familiale\nToute personne a droit au respect de sa vie privée et familiale, de son domicile et de sa correspondance. Il ne peut y avoir ingérence d’une autorité publique dans l’exercice de ce droit que pour autant que cette ingérence est prévue par la loi et qu’elle constitue une mesure qui, dans une société démocratique, est nécessaire à la sécurité nationale, à la sûreté publique, au bien-être économique du pays, à la défense de l’ordre et à la prévention des infractions pénales, à la protection de la santé ou de la morale, ou à la protection des droits et libertés d’autrui. »\nJe cite :\n“à la protection de la santé ou de la morale”\nLa morale serait donc un ennemi de la vie privée et elle doit être protégée.\nLes propos “Droit au respect de la vie privée et familiale” semblent signifier que la vie privée serait plus une condition sociale d’existence qu’une forme de droit moral. Dans le sens où la vie privée relève plus des meurs que de la morale ce qui justifie alors le paragraphe précédent.\nElle est associé sociologiquement à l’individu dans son environnement social plutôt que moralement à son rôle d’être vivant doué de raison, être spirituel.\nDe cette façon elle se détache de son rôle protecteur, puisqu’elle rattache l’individu uniquement par sa condition sociale.\nAujourd’hui, la vie privée divise profondément, deux courants de pensée s’affrontent :\nL’un affirmant qu’elle est nécessaire et qu’elle doit être assurée intégralement, aucune forme de collecte d’information. L’autre assurant qu’elle n’est que le reflet de notre modèle social et donc qu’elle doit être partagée à tous ! Que toutes les données soient publiques. La belle affaire.\nGDPR General Data Protection Regulation.\nCes lois pour la sécurité des données sont entrées en vigueur le 25 Mai 2018 en Europe.\nEt la encore aucun mot sur la vie privée… Par contre ils donnent une définition des données personnelles.\nAucun droit à l’oubli.\nAucun droit à l’anonymat.\nJe n’ai rien a cacher ! Pour ceux qui croient encore que vous n’avez rien à cacher….\nJe ne vais pas vous expliquer le principe du panoptique.\nJe vous expliquerai le principe de l’arrêt du crime.\nCoût de la vie privée Exclusion du système bancaire. Exclusion sociale :\nLes rues regorgent de caméra. Android respire Google. Apple et ses termes d’utilisation Exclusion sociale Ceux désirant le respect de leur vie privée sont déjà exclue socialement depuis plus d’une décennie dans le plus grand silence ! Cela se nomme les pathologies de l’anonymat, où l’on fait croire que c’est la faute des gens alors que c’est de la faute de ceux qui ne désire pas l’être.\nNe pas utiliser le Play Store ou le Google Service Framework (GSF) de Google vous exclue de tout lien social puisque même Signal nécessite le GSF pour son utilisation.\nDepuis 2019, Google à renforcer la protection de la signature du GSF, il est donc devenu un calvaire de fuir la surveillance en aillant une vie “normale”.\nNotion d’anonymat Anonyme issu du grec ancien ἀνώνυμος anônymos (« sans nom »).\nCette notion d’anonymat est délicate à appréhender car il ne faut pas oublier que chacun en fonction de ses connaissances croient être anonyme.\nExemple : Une personne qui se connecte sur internet avec un pseudo qui n’est pas le sien, se sentira anonyme, mais elle ne le sera pas, car elle communiquera avec son adresse IP.\nCette personne vivra son anonymat alors qu’une autre sachant qu’elle peut être identifiable ne se sentira pas anonyme.\nEn ce sens, la notion d’anonymat est DELICATE.\nArrêtducrime Facebook continue d’espionner les adolescents1.\nLes Gouvernements sont au courant et sont complices2.\nLes termes d’utilisation, de services des sites web sont une vaste mascarade3.\nJe me balade sur le google francophone. Quand je tombe sur Google Family Link.\nL’application family link de google.\nJe voit la note sur le Play Store au 16/09/21. 1.4/5. Soit 5.6/20. C’est moche.\nBon à l’heure où j’écrit l’article (06/01/22), quelqu’un est passé nettoyer les commentaires et avis 😮.\nLa lecture des commentaires fait peur.\nLes gosses ne peuvent plus penser par eux même.\nVoilà le crime : penser à conserver sa vie privée.\nLa récente mise à jour de Youtube qui n’affiche plus les pouces rouge est une preuve de plus. Ils ne veulent plus que ce soit vous qui décidiez ce que vous regardez ou vous pensez.\nL’Arrêtducrime, c’est la faculté de s’arrêter net, comme par instinct, au seuil d’une pensée dangereuse. La pensée dangereuse ici reste l’anonymat sur internet.\nL’objectif reste que ce soit vous seul, par pure stupidité protectrice, qui commettez l’Arrêtducrime.\nDans le cas des enfants, l’objectif est d’annihiler leur capacité à prendre conscience de ce qui est bien ou mal sur ce qu’ils font sur internet. En restreignant leurs activités, ils perdent tout regard critique sur leurs agissements.\n« Ceux qui sont capables de voir au-delà des ombres et des mensonges de leur culture ne seront jamais compris et encore moins crus par les masses » Platon\nConclusion Ceux qui veulent la vie privée et la liberté sont des criminels.\nLes gens ne désirent pas être libre. Ils confondent avoir le choix et être libre.\nLa maladie du pouvoir est bien plus lourde en conséquence que celle de la cupidité.\nMAIS pour VOTRE BONHEUR vous souhaitez rester dégagé de tout cela.\nLa vie privée est un droit fondamental humain.\nPour penser plus loin A l’image de la religion qui gérait les individus, les GAFAM gère l’ordre public sur le domaine du cyber espace, ils sont complices avec les états du maintient de l’ordre et de la dérive autoritaire.\nPremière Loi de la vie Privée : Ne croyez jamais Google lorsque qu’ils promettent de faire quelque chose pour la “protection de la vie privée”. JAMAIS.\nsources What is FLoC?\nGoogle’s FLoC Is a Terrible Idea\nW3C Draft Report about FLoC\nLes cookies de Google sont toxiques le FLoC aussi\nStatistiques sur internet\nCeux qui n’ont rien à chacher\nMozilla is Broken\ncleanuptheweb.org\nFacebook continue d’espionner les adolescents. ↩︎\nDes lois pour obliger google par le Magazine Forbes. ↩︎\nLes termes d’utilisation, de services ↩︎\n",
+  "wordCount" : "2046",
+  "inLanguage": "fr",
+  "image":
+  
+  "https://criminau.xyz/android-chrome-192x192.png",
+  
+  "datePublished": "2022-02-14",
+  "dateModified": "2022-02-14",
+  "author":
+  {
+    "@type": "Person",
+    "name": "criminau",
+    "url": "https://criminau.xyz/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://criminau.xyz/articles/about-floc.html"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Journal Subversif",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://criminau.xyz/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+</head>
+
+<body class="single">
+<script>
+    
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add('dark');
+        }
+    }
+
+</script>
+
+
+<nav class="nav">
+	<ul>
+		<li>
+		<a Title="Page d'accueil" href="https://criminau.xyz/">
+			<img class="logo" title="Logo du Journal Subversif" src="https://criminau.xyz/apple-touch-icon.png"
+			alt="Logo du Journal Subversif" aria-label="Logo du Journal Subversif" >
+		</a>
+		</li>
+		<li class="theme-toggle">
+			<p title="Changer le thème" id="theme-toggle" Title="Changer le thème">
+			  <svg id="moon" [role="img"] xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet"
+				  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+				  stroke-linejoin="round">
+				  <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+			  </svg>
+			  <svg id="sun" [role="img"] xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet"
+				  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+				  stroke-linejoin="round">
+				  <circle cx="12" cy="12" r="5"></circle>
+				  <line x1="12" y1="1" x2="12" y2="3"></line>
+				  <line x1="12" y1="21" x2="12" y2="23"></line>
+				  <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+				  <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+				  <line x1="1" y1="12" x2="3" y2="12"></line>
+				  <line x1="21" y1="12" x2="23" y2="12"></line>
+				  <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+				  <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+			  </svg>
+			</p>
+		</li>
+		
+		
+<li>
+	<form id="search-form" class="search-form" method="GET" action="" data-language-prefix="">
+		<input id="search-input" class="search-display" name="q" tabindex="0" autocomplete="off" placeholder="recherche">
+		<ul role="list" id="search-results" class="search-results"></ul>
+	</form>
+</li>
+		
+		<li>
+			<a Title="Archives" href="https://criminau.xyz/archives/">
+				<span>
+					Archives
+				</span>
+			</a>
+		</li>
+		<li>
+			<a Title="A propos" href="https://criminau.xyz/apropos/">
+				<span>
+					A propos
+				</span>
+			</a>
+		</li></ul>
+</nav>
+
+<article itemscope itemtype="https://schema.org/Article" class="post-single">
+  <header class="post-header">
+    <h1 itemprop="name headline" class="post-title">
+      A propos des FLoC
+    </h1>
+    <div class="post-meta">14 Février 2022 &nbsp;·&nbsp;
+
+
+
+
+
+
+
+
+
+10 min&nbsp;·&nbsp;
+<p class="post-meta-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+	<span itemprop="name">criminau </span>
+	<span itemprop="url" id="no-display">https://criminau.xyz/</span>
+</p>&nbsp;·&nbsp;
+<a class="pdf-link-post-single" href="../pdf/about-floc.pdf" target="_blank" rel="noopener noreferrer" title="Télécharger about-floc en version pdf" download>PDF</a>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </header> 
+
+
+
+
+
+  <div class="toc">
+    <details >
+      <summary>
+        <p title="Table des matières" class="details">Table des matières</p>
+      </summary>
+      <blockquote><ul><li>
+        <a href="#introduction">Introduction</a></li><li>
+        <a href="#aspect-technique">Aspect Technique</a><ul>
+            <li>
+        <a href="#cookies">Cookies</a></li><li>
+        <a href="#fingerprinting">Fingerprinting</a></li><li>
+        <a href="#floc">FLoC</a></li><li>
+        <a href="#contexte-crois%c3%a9">Contexte croisé</a></li></ul>
+    </li><li>
+        <a href="#aspect-social">Aspect social</a><ul>
+            <li>
+        <a href="#statistiques-2021">Statistiques (2021)</a></li><li>
+        <a href="#acharnement-s%c3%a9curitaire">Acharnement sécuritaire</a></li><li>
+        <a href="#sans-commentaire">Sans commentaire</a></li></ul>
+    </li><li>
+        <a href="#vie-priv%c3%a9e">Vie privée</a><ul>
+            <li>
+        <a href="#historiquement">Historiquement</a></li><li>
+        <a href="#vie-priv%c3%a9e-et-droit">Vie privée et droit</a></li><li>
+        <a href="#d%c3%a9finition-europ%c3%a9enne-de-la-vie-priv%c3%a9e">Définition européenne de la vie privée</a></li><li>
+        <a href="#gdpr">GDPR</a></li><li>
+        <a href="#je-nai-rien-a-cacher-">Je n&rsquo;ai rien a cacher !</a></li><li>
+        <a href="#co%c3%bbt-de-la-vie-priv%c3%a9e">Coût de la vie privée</a></li><li>
+        <a href="#exclusion-sociale">Exclusion sociale</a></li></ul>
+    </li><li>
+        <a href="#notion-danonymat">Notion d&rsquo;anonymat</a></li><li>
+        <a href="#arr%c3%aatducrime">Arrêtducrime</a></li><li>
+        <a href="#conclusion">Conclusion</a><ul>
+            <li>
+        <a href="#pour-penser-plus-loin">Pour penser plus loin</a></li></ul>
+    </li><li>
+        <a href="#sources">sources</a></li></ul>
+      </blockquote>
+    </details>
+  </div>
+  <div itemprop="articleBody" class="post-content justify"><p>Une plongée profonde sur un terrain miné par l&rsquo;intérêt de posséder du pouvoir sur autrui.</p>
+<h2 id="introduction">Introduction</h2>
+<p>FLoC pour Federated Learning of Cohorts, en français Apprentissage Fédéré des Cohortes.<br>
+Tout d&rsquo;abord, nous détaillerons la technique et l&rsquo;aspect social des FLoC.<br>
+Par la suite nous chercherons une définition de la vie privée. Nous observerons son coût, nous tenterons d&rsquo;en définir son importance.<br>
+Enfin, nous finirons par comprendre le but réel derrière cet acharnement.</p>
+<blockquote>
+<p>&ldquo;On a créé une infrastructure de surveillance dystopique juste pour que des gens cliquent sur la pub.&rdquo;
+Zeynep Tufekci</p>
+</blockquote>
+<h2 id="aspect-technique">Aspect Technique</h2>
+<h3 id="cookies">Cookies</h3>
+<p>Le 25 mai 2021, <a href="https://www.cnil.fr/fr/cookies-une-vingtaine-organismes-mis-en-demeure">la CNIL engage des mises en demeure</a>.<br>
+<a href="https://www.cnil.fr/fr/definition/cookie">La définition d&rsquo;un cookie</a>.</p>
+<p>Passons aux choses plus sérieure dont vous n&rsquo;avez pas encore entendu parler..</p>
+<h3 id="fingerprinting">Fingerprinting</h3>
+<p>La prise d&rsquo;empreinte digitale est activée sur beaucoup de navigateur comme firefox ou chrome.
+Concernant l&rsquo;Europe et la Data Protection Commission (DPC) ils n&rsquo;ont pas envie d&rsquo;en avoir conscience.<br>
+La <a href="https://www.cnil.fr/fr/definition/fingerprinting">CNIL en donne une définition</a> mais ne prend aucune mesure pour protéger les utilisateurs.</p>
+<p>En bref, plus votre navigateur agit différemment des autres, plus il est plus facile de définir votre empreinte digitale.</p>
+<h3 id="floc">FLoC</h3>
+<p>La dernière trouvaille de google sont les FLoC.<br>
+Les FLoC n&rsquo;apparaissent pas dans <a href="https://www.cnil.fr/fr/glossaire">le glossaire de la CNIL</a>.</p>
+<figure class="" role="group"><img src="https://criminau.xyz/media/floc-technique-min.avif" class="figure-img"
+		 width="31.25em" height="15.625em"
+		alt="Schéma de fonctionnement de la publicité ciblée via les FLoC"
+		title="Schéma de fonctionnement de la publicité ciblée via les FLoC"/><figcaption>
+            <p>Schéma de fonctionnement de la publicité ciblée via les FLoC</p>
+        </figcaption>
+</figure>
+<p>La figure ci-dessus, vous explique le fonctionnement des FLoC :</p>
+<p>Des centaines de cohortes sont créées. Chaque individu est rangé dans une cohorte en fonction de son historique de navigation récent.<br>
+L&rsquo;annonceur (celui qui a besoin de publicité) et l&rsquo;éditeur (celui qui affiche la publicité) partagent le trafic de leur site vers Google via l&rsquo;API des FLoC <code>document.interestCohort()</code>.
+Ainsi Google, saît qui a besoin de quoi (l&rsquo;annonceur a besoin des cohortes 1096) et qui est capable d&rsquo;afficher quoi (un site web parlant jeux vidéos pour enfant ne va pas mettre de la pub de chaussures pour homme).</p>
+<p>Google sélectionne ainsi les annonces pour chaque cohorte/utilisateur.<br>
+Enfin l&rsquo;éditeur affiche la publicité personnalisée/ciblée en fonction de la cohorte qui navigue sur son site.</p>
+<p>Les cohortes vont diviser les individus, vous serez rangé dans une case et google s&rsquo;occupera bien de vous.</p>
+<p>Refuser les FLoC sur son site internet via le header HTTP :</p>
+<pre tabindex="0"><code>Permissions-Policy: interest-cohort=()
+</code></pre><p>Les FLoC entreront en vigueur fin 2021 et remplaceront les cookies tiers.</p>
+<p>En anglais le mot flock signifie troupeau.</p>
+<p>Les FloC vont améliorer la détection par fingerprinting. Un individu avec une cohorte vide (empty) <strong>sera très vite remarqué</strong>.</p>
+<h3 id="contexte-croisé">Contexte croisé</h3>
+<p>Actuellement Google, via les cookies tiers, doit croiser les données sur vous pour comprendre le genre de personne que vous êtes.
+Grâce au FLoC, Google va s&rsquo;approprier cette information de manière immédiate et précise.</p>
+<p>La discrimination sur internet verra le jour car les cohortes pourront vous classer selon si vous êtes blanc, noir, étranger, jeune ou vieux, femme ou homme.</p>
+<p>Google vous surveillera sans croiser ses données.</p>
+<h2 id="aspect-social">Aspect social</h2>
+<p>Google réfute le General Data Protection Regulation (GDPR) et le California Consumer Privacy Act (CCPA) car son modèle économique est une violation de la vie privée.<br>
+TOUS les Gouvernements de la planète sont complices car leur modèle de pouvoir est également une violation de la vie privée.</p>
+<h3 id="statistiques-2021">Statistiques (2021)</h3>
+<p>54.37% du trafic mondial est sur mobile.<br>
+39.75% de la population est sous Android&hellip; (Android c&rsquo;est Google).<br>
+64.67% de la population mondiale utilise le navigateur Google Chrome.<br>
+91.66% du monde passe par google.com.</p>
+<p>Vous n&rsquo;avez toujours pas compris. Google connaît 91.66% de la population mondiale&hellip;.<br>
+L&rsquo;indentification unique sur votre Android.</p>
+<h3 id="acharnement-sécuritaire">Acharnement sécuritaire</h3>
+<p>Je n&rsquo;aborderai pas le sujet des câbles sous-marins, de la NSA et du parti communiste Chinois.<br>
+Actuellement le renseignement français a accés à toutes vos données depuis la métropole, tout comme la NSA.<br>
+Les caméras dans les bus scolaires, les gares, les trains, la rue, les supermarchés sont d&rsquo;actualités.</p>
+<p>L&rsquo;Europe laisse faire. Des sociétés privées comme <a href="https://veesion.io">veesion</a> sont fières de participer à ce sadisme général. Avec comme argument sadique : &ldquo;Détectez les vols, Automatiquement, En temps réel !&rdquo;</p>
+<p>La pauvreté morale de ces individus règne.</p>
+<h3 id="sans-commentaire">Sans commentaire</h3>
+<p>La CNIL et toutes les agences gouvernementales aini qu&rsquo;européenne sont complices de cette surveillence de masse.</p>
+<p>Firefox défend votre vie privée. C&rsquo;est pourquoi son moteur de recherche par défaut est Google.
 Les appareils Apple protègent votre vie privée. Google est le principal moteur de recherche sur leur navigateur.
-<a href=https://www.gnome.org/>GNOME</a> est sponsorisé par Google&mldr;</p><p>Je n&rsquo;aborderai pas Google AMP.</p><p>Google fera comme Apple, avec comme argument la vie privée, mais pour eux cet argument est synonyme de monopole et de conservation de la donnée.<br>La donnée continuera de circuler vers les agences de renseignement.</p><p>Je ne mentionnerai pas les IPC (Inter-Process Communication) notemment sur les claviers d&rsquo;android(gboard).</p><p>En 2012, <a href=https://theworld.org/stories/2012-05-23/ibm-bans-use-apples-siri-application>IBM dénonce l&rsquo;utilisation de Siri</a>.<br>IBM a bannit des salariés utilisant Cortana de Windows.</p><p>Désactiver la géocalisation et le réseau sur Android EST UN LEURRE. La seule manière de se protéger est de controller à 100% le réseau sur lequel vous êtes connecté (wi-fi).</p><p>Je ne mentionnerai pas les <a href=https://blogs.fsfe.org/larma/2017/signal-backdoors/>SignalBackdoors</a>.</p><p><a href=https://www.theverge.com/22811740/qualcomm-snapdragon-8-gen-1-always-on-camera-privacy-security-concerns>Qualcomm prévoit de laisser ouverte la caméra frontale de votre smartphone</a>, <a href="https://youtu.be/3H6tfcZLHfg?t=10758">pour votre sécurité</a></p><p>Je vous invite a vous renseigner sur le <strong>datacenter en Utah de la NSA</strong>.<br>Se renseigner sur <strong>Soli</strong>, la technologie de google ainsi que de <strong>Motion Sense</strong> et en version Apple, <strong>Digital Crown</strong>.</p><h2 id=vie-privée>Vie privée</h2><p>La vie signifie le chemin, du latin &ldquo;via&rdquo;; privée vient du latin &ldquo;privatus&rdquo; qui signifie &ldquo;séparé de, dépourvu de&rdquo;.<br>Donc littéralement se séparer du chemin ? Quel est donc le chemin ?</p><h3 id=historiquement>Historiquement</h3><p>La vie sociale des individus est l&rsquo;apparition même de la vie privée entre l&rsquo;Oikos et la Polis. Elle est considérée comme une période, un espace tranquille à l&rsquo;abri des tumultes de la société.</p><h3 id=vie-privée-et-droit>Vie privée et droit</h3><p>Le Droit au Respect de la Vie Privée ne possède pas de définition de la Vie Privée.<br>Le Droit essaie de garantir cette protection via des faits, des cas et des notions.<br>Seule la jurisprudence est capable d&rsquo;en donner des notions.</p><p>De plus les limites sont nombreuses comme la vie publique, la sécurité, la lutte contre la corruption, lutte contre la fraude fiscale,&mldr;</p><h3 id=définition-européenne-de-la-vie-privée>Définition européenne de la vie privée</h3><p>L&rsquo;europe aussi ne donne pas de définition.<br>Mais fixe rapidement ses limites :</p><blockquote><p>« Droit au respect de la vie privée et familiale<br>Toute personne a droit au respect de sa vie privée et familiale, de son domicile et de sa correspondance.
+<a href="https://www.gnome.org/">GNOME</a> est sponsorisé par Google&hellip;</p>
+<p>Je n&rsquo;aborderai pas Google AMP.</p>
+<p>Google fera comme Apple, avec comme argument la vie privée, mais pour eux cet argument est synonyme de monopole et de conservation de la donnée.<br>
+La donnée continuera de circuler vers les agences de renseignement.</p>
+<p>Je ne mentionnerai pas les IPC (Inter-Process Communication) notemment sur les claviers d&rsquo;android(gboard).</p>
+<p>En 2012, <a href="https://theworld.org/stories/2012-05-23/ibm-bans-use-apples-siri-application">IBM dénonce l&rsquo;utilisation de Siri</a>.<br>
+IBM a bannit des salariés utilisant Cortana de Windows.</p>
+<p>Désactiver la géocalisation et le réseau sur Android EST UN LEURRE. La seule manière de se protéger est de controller à 100% le réseau sur lequel vous êtes connecté (wi-fi).</p>
+<p>Je ne mentionnerai pas les <a href="https://blogs.fsfe.org/larma/2017/signal-backdoors/">SignalBackdoors</a>.</p>
+<p><a href="https://www.theverge.com/22811740/qualcomm-snapdragon-8-gen-1-always-on-camera-privacy-security-concerns">Qualcomm prévoit de laisser ouverte la caméra frontale de votre smartphone</a>, <a href="https://youtu.be/3H6tfcZLHfg?t=10758">pour votre sécurité</a></p>
+<p>Je vous invite a vous renseigner sur le <strong>datacenter en Utah de la NSA</strong>.<br>
+Se renseigner sur <strong>Soli</strong>, la technologie de google ainsi que de <strong>Motion Sense</strong> et en version Apple, <strong>Digital Crown</strong>.</p>
+<h2 id="vie-privée">Vie privée</h2>
+<p>La vie signifie le chemin, du latin &ldquo;via&rdquo;; privée vient du latin &ldquo;privatus&rdquo; qui signifie &ldquo;séparé de, dépourvu de&rdquo;.<br>
+Donc littéralement se séparer du chemin ? Quel est donc le chemin ?</p>
+<h3 id="historiquement">Historiquement</h3>
+<p>La vie sociale des individus est l&rsquo;apparition même de la vie privée entre l&rsquo;Oikos et la Polis. Elle est considérée comme une période, un espace tranquille à l&rsquo;abri des tumultes de la société.</p>
+<h3 id="vie-privée-et-droit">Vie privée et droit</h3>
+<p>Le Droit au Respect de la Vie Privée ne possède pas de définition de la Vie Privée.<br>
+Le Droit essaie de garantir cette protection via des faits, des cas et des notions.<br>
+Seule la jurisprudence est capable d&rsquo;en donner des notions.</p>
+<p>De plus les limites sont nombreuses comme la vie publique, la sécurité, la lutte contre la corruption, lutte contre la fraude fiscale,&hellip;</p>
+<h3 id="définition-européenne-de-la-vie-privée">Définition européenne de la vie privée</h3>
+<p>L&rsquo;europe aussi ne donne pas de définition.<br>
+Mais fixe rapidement ses limites :</p>
+<blockquote>
+<p>« Droit au respect de la vie privée et familiale<br>
+Toute personne a droit au respect de sa vie privée et familiale, de son domicile et de sa correspondance.
 Il ne peut y avoir ingérence d&rsquo;une autorité publique dans l&rsquo;exercice de ce droit que pour autant que cette ingérence est prévue par la loi et qu&rsquo;elle constitue une mesure qui, dans une société démocratique, est nécessaire à la sécurité nationale, à la sûreté publique, au bien-être économique du pays, à la défense de l&rsquo;ordre et à la prévention des infractions pénales, à la protection de la santé ou de la morale, ou à la protection des droits et libertés d&rsquo;autrui.
-»</p></blockquote><p>Je cite :</p><blockquote><p>&ldquo;à la protection de la santé ou de la morale&rdquo;</p></blockquote><p>La morale serait donc un ennemi de la vie privée et elle doit être protégée.</p><p>Les propos &ldquo;Droit au respect de la vie privée et familiale&rdquo; semblent signifier que la vie privée serait plus une condition sociale d&rsquo;existence qu&rsquo;une forme de droit moral. Dans le sens où la vie privée relève plus des meurs que de la morale ce qui justifie alors le paragraphe précédent.</p><p>Elle est associé sociologiquement à l&rsquo;individu dans son environnement social plutôt que moralement à son rôle d&rsquo;être vivant doué de raison, être spirituel.<br>De cette façon elle se détache de son rôle protecteur, puisqu&rsquo;elle rattache l&rsquo;individu uniquement par sa condition sociale.</p><p>Aujourd&rsquo;hui, la vie privée divise profondément, deux courants de pensée s&rsquo;affrontent :</p><ul><li>L&rsquo;un affirmant qu&rsquo;elle est nécessaire et qu&rsquo;elle doit être assurée intégralement, aucune forme de collecte d&rsquo;information.</li><li>L&rsquo;autre assurant qu&rsquo;elle n&rsquo;est que le reflet de notre modèle social et donc qu&rsquo;elle doit être partagée à tous ! Que toutes les données soient publiques.</li></ul><p>La belle affaire.</p><h3 id=gdpr>GDPR</h3><p>General Data Protection Regulation.<br>Ces lois pour la sécurité des données sont entrées en vigueur le 25 Mai 2018 en Europe.</p><p>Et la encore aucun mot sur la vie privée&mldr; Par contre ils donnent une définition des données personnelles.<br>Aucun droit à l&rsquo;oubli.<br>Aucun droit à l&rsquo;anonymat.</p><h3 id=je-nai-rien-a-cacher->Je n&rsquo;ai rien a cacher !</h3><p>Pour ceux qui croient encore que vous n&rsquo;avez rien à cacher&mldr;.<br>Je ne vais pas vous expliquer le principe du panoptique.<br>Je vous expliquerai le principe de <a href=https://criminau.xyz/articles/about-floc.html#arr%c3%aatducrime>l&rsquo;arrêt du crime</a>.</p><h3 id=coût-de-la-vie-privée>Coût de la vie privée</h3><p>Exclusion du système bancaire.
-Exclusion sociale :</p><ul><li>Les rues regorgent de caméra.</li><li>Android respire Google.</li><li><a href=https://tosdr.org/en/service/158>Apple et ses termes d&rsquo;utilisation</a></li></ul><h3 id=exclusion-sociale>Exclusion sociale</h3><p>Ceux désirant le respect de leur vie privée sont déjà exclue socialement depuis plus d&rsquo;une décennie dans le plus grand silence ! Cela se nomme <strong>les pathologies de l&rsquo;anonymat</strong>, où l&rsquo;on fait croire que c&rsquo;est la faute des gens alors que c&rsquo;est de la faute de ceux qui ne désire pas l&rsquo;être.</p><p>Ne pas utiliser le Play Store ou le Google Service Framework (GSF) de Google vous exclue de <strong>tout lien social</strong> puisque même Signal nécessite le GSF pour son utilisation.</p><p>Depuis 2019, Google à renforcer la protection de la signature du GSF, il est donc devenu un calvaire de fuir la surveillance en aillant une vie &ldquo;normale&rdquo;.</p><h2 id=notion-danonymat>Notion d&rsquo;anonymat</h2><p>Anonyme issu du grec ancien ἀνώνυμος anônymos (« sans nom »).</p><p>Cette notion d&rsquo;anonymat est délicate à appréhender car il ne faut pas oublier que chacun en fonction de ses connaissances croient être anonyme.</p><p>Exemple :
-Une personne qui se connecte sur internet avec un pseudo qui n&rsquo;est pas le sien, se sentira anonyme, mais elle ne le sera pas, car elle communiquera avec son adresse IP.<br>Cette personne vivra son anonymat alors qu&rsquo;une autre sachant qu&rsquo;elle peut être identifiable ne se sentira pas anonyme.</p><p>En ce sens, la notion d&rsquo;anonymat est DELICATE.</p><h2 id=arrêtducrime>Arrêtducrime</h2><p>Facebook continue d&rsquo;espionner les adolescents<cite><sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup></cite>.</p><p>Les Gouvernements sont au courant et sont complices<cite><sup id=fnref:2><a href=#fn:2 class=footnote-ref role=doc-noteref>2</a></sup></cite>.</p><p>Les termes d&rsquo;utilisation, de services des sites web sont une vaste mascarade<cite><sup id=fnref:3><a href=#fn:3 class=footnote-ref role=doc-noteref>3</a></sup></cite>.</p><p>Je me balade sur le google francophone. Quand je tombe sur <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.kids.familylink&hl=fr&gl=FR">Google Family Link</a>.</p><p>L&rsquo;application family link de google.<br>Je voit la note sur le Play Store au 16/09/21. 1.4/5. Soit 5.6/20. C&rsquo;est moche.<br><em>Bon à l&rsquo;heure où j&rsquo;écrit l&rsquo;article (06/01/22), quelqu&rsquo;un est passé nettoyer les commentaires et avis 😮.</em><br>La lecture des commentaires fait peur.<br>Les gosses ne peuvent plus penser par eux même.</p><p>Voilà le crime : penser à conserver sa vie privée.</p><p>La récente mise à jour de Youtube qui n&rsquo;affiche plus les pouces rouge est une preuve de plus. Ils ne veulent plus que ce soit vous qui décidiez ce que vous regardez ou vous pensez.</p><p>L&rsquo;Arrêtducrime, c&rsquo;est la faculté de s&rsquo;arrêter net, comme par instinct, au seuil d&rsquo;une pensée dangereuse. La pensée dangereuse ici reste l&rsquo;anonymat sur internet.</p><p>L&rsquo;objectif reste que ce soit vous seul, par pure stupidité protectrice, qui commettez l&rsquo;Arrêtducrime.</p><p>Dans le cas des enfants, l&rsquo;objectif est d&rsquo;annihiler leur capacité à prendre conscience de ce qui est bien ou mal sur ce qu&rsquo;ils font sur internet. En restreignant leurs activités, ils perdent tout regard critique sur leurs agissements.</p><blockquote><p>« Ceux qui sont capables de voir au-delà des ombres et des mensonges de leur culture ne seront jamais compris et encore moins crus par les masses »
-Platon</p></blockquote><h2 id=conclusion>Conclusion</h2><p>Ceux qui veulent la vie privée et la liberté sont des criminels.<br>Les gens ne désirent pas être libre. Ils confondent avoir le choix et être libre.<br>La maladie du pouvoir est bien plus lourde en conséquence que celle de la cupidité.<br>MAIS pour VOTRE BONHEUR vous souhaitez rester dégagé de tout cela.<br>La vie privée est un droit fondamental humain.</p><h3 id=pour-penser-plus-loin>Pour penser plus loin</h3><p>A l&rsquo;image de la religion qui gérait les individus, les GAFAM gère l&rsquo;ordre public sur le domaine du cyber espace, ils sont complices avec les états du maintient de l&rsquo;ordre et de la dérive autoritaire.</p><p>Première Loi de la vie Privée :
-Ne croyez jamais Google lorsque qu&rsquo;ils promettent de faire quelque chose pour la &ldquo;protection de la vie privée&rdquo;. JAMAIS.</p><h2 id=sources>sources</h2><p><a href=https://web.dev/floc/>What is FLoC?</a><br><a href=https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea>Google’s FLoC Is a Terrible Idea</a><br><a href=https://wicg.github.io/floc/>W3C Draft Report about FLoC</a><br><a href=https://www.laquadrature.net/2021/04/27/les-cookies-de-google-sont-toxiques-le-floc-aussi/>Les cookies de Google sont toxiques le FLoC aussi</a><br><a href=https://gs.statcounter.com/>Statistiques sur internet</a><br><a href=https://fr.wikipedia.org/wiki/Rien_%C3%A0_cacher_%28argument%29>Ceux qui n&rsquo;ont rien à chacher</a><br><a href=https://hacktivis.me/articles/Mozilla%20is%20Broken>Mozilla is Broken</a><br><a href=https://cleanuptheweb.org/>cleanuptheweb.org</a></p><div class=footnotes role=doc-endnotes><hr><ol><li id=fn:1><p><a href=https://californianewstimes.com/facebook-accused-of-continuing-to-surveil-teens-for-ad-targeting-techcrunch/593643/>Facebook continue d&rsquo;espionner les adolescents</a>.&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li><li id=fn:2><p>Des lois pour obliger google par le <a href="https://www.forbes.com/sites/thomasbrewster/2021/10/04/google-keyword-warrants-give-us-government-data-on-search-users/?sh=4df8b8a07c97">Magazine Forbes</a>.&#160;<a href=#fnref:2 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li><li id=fn:3><p><a href=https://tosdr.org>Les termes d&rsquo;utilisation, de services</a>&#160;<a href=#fnref:3 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li></ol></div></div><nav class=paginav><a class=prev href=https://criminau.xyz/articles/diversite.html title="Diversité !"><span class=title>« Page Précédente</span><br><span>Diversité !</span></a>
-<a class=next href=https://criminau.xyz/articles/karl-marx-le-capital-4.html title="Karl marx, le capital (4)"><span class=title>Page Suivante »</span><br><span>Karl Marx, Le Capital (4)</span></a></nav><div class=share-buttons><p title="Copier le lien de la page" target=_blank rel="noopener noreferrer" id=copy-page-link><svg [role="img" viewBox="0 0 512 512" onclick="Copy();"><path d="M448 0H224c-35.3.0-64 28.65-64 64v224c0 35.35 28.65 64 64 64h224c35.35.0 64-28.65 64-64V64c0-35.35-28.7-64-64-64zm16 288c0 8.822-7.178 16-16 16H224C215.2 304 208 296.8 208 288V64c0-8.822 7.178-16 16-16h224c8.822.0 16 7.178 16 16V288zM304 448c0 8.822-7.178 16-16 16H64c-8.822.0-16-7.178-16-16V224c0-8.822 7.178-16 16-16h64V160H64c-35.35.0-64 28.7-64 64v224c0 35.35 28.65 64 64 64h224c35.35.0 64-28.65 64-64v-64h-48v64z"/></svg></p><a title="Partager via Twitter" target=_blank rel="noopener noreferrer" aria-label="Partager A Propos sur Twitter" href="https://twitter.com/intent/tweet/?text=A%20Propos&url=https%3a%2f%2fcriminau.xyz%2fapropos%2f&hashtags="><svg [role="img" viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM195.519 424.544c135.939.0 210.268-112.643 210.268-210.268.0-3.218.0-6.437-.153-9.502 14.406-10.421 26.973-23.448 36.935-38.314-13.18 5.824-27.433 9.809-42.452 11.648 15.326-9.196 26.973-23.602 32.49-40.92-14.252 8.429-30.038 14.56-46.896 17.931-13.487-14.406-32.644-23.295-53.946-23.295-40.767.0-73.87 33.104-73.87 73.87.0 5.824.613 11.494 1.992 16.858-61.456-3.065-115.862-32.49-152.337-77.241-6.284 10.881-9.962 23.601-9.962 37.088.0 25.594 13.027 48.276 32.95 61.456-12.107-.307-23.448-3.678-33.41-9.196v.92c0 35.862 25.441 65.594 59.311 72.49-6.13 1.686-12.72 2.606-19.464 2.606-4.751.0-9.348-.46-13.946-1.38 9.349 29.426 36.628 50.728 68.965 51.341-25.287 19.771-57.164 31.571-91.8 31.571-5.977.0-11.801-.306-17.625-1.073 32.337 21.15 71.264 33.41 112.95 33.41z"/></svg></a><a title="Partager via Linkedin" target=_blank rel="noopener noreferrer" aria-label="Partager A Propos sur Linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fcriminau.xyz%2fapropos%2f&title=A%20Propos&summary=A%20Propos&source=https%3a%2f%2fcriminau.xyz%2fapropos%2f"><svg [role="img" viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM160.461 423.278V197.561h-75.04v225.717h75.04zm270.539.0V293.839c0-69.333-37.018-101.586-86.381-101.586-39.804.0-57.634 21.891-67.617 37.266v-31.958h-75.021c.995 21.181.0 225.717.0 225.717h75.02V297.222c0-6.748.486-13.492 2.474-18.315 5.414-13.475 17.767-27.434 38.494-27.434 27.135.0 38.007 20.707 38.007 51.037v120.768H431zM123.448 88.722C97.774 88.722 81 105.601 81 127.724c0 21.658 16.264 39.002 41.455 39.002h.484c26.165.0 42.452-17.344 42.452-39.002-.485-22.092-16.241-38.954-41.943-39.002z"/></svg></a><a title="Partager via reddit" target=_blank rel="noopener noreferrer" aria-label="Partager A Propos sur Reddit" href="https://reddit.com/submit?url=https%3a%2f%2fcriminau.xyz%2fapropos%2f&title=A%20Propos"><svg [role="img" viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM446 265.638c0-22.964-18.616-41.58-41.58-41.58-11.211.0-21.361 4.457-28.841 11.666-28.424-20.508-67.586-33.757-111.204-35.278l18.941-89.121 61.884 13.157c.756 15.734 13.642 28.29 29.56 28.29 16.407.0 29.706-13.299 29.706-29.701.0-16.403-13.299-29.702-29.706-29.702-11.666.0-21.657 6.792-26.515 16.578l-69.105-14.69c-1.922-.418-3.939-.042-5.585 1.036-1.658 1.073-2.811 2.761-3.224 4.686l-21.152 99.438c-44.258 1.228-84.046 14.494-112.837 35.232-7.468-7.164-17.589-11.591-28.757-11.591-22.965.0-41.585 18.616-41.585 41.58.0 16.896 10.095 31.41 24.568 37.918-.639 4.135-.99 8.328-.99 12.576.0 63.977 74.469 115.836 166.33 115.836s166.334-51.859 166.334-115.836c0-4.218-.347-8.387-.977-12.493 14.564-6.47 24.735-21.034 24.735-38.001zM326.526 373.831c-20.27 20.241-59.115 21.816-70.534 21.816-11.428.0-50.277-1.575-70.522-21.82-3.007-3.008-3.007-7.882.0-10.889 3.003-2.999 7.882-3.003 10.885.0 12.777 12.781 40.11 17.317 59.637 17.317 19.522.0 46.86-4.536 59.657-17.321 3.016-2.999 7.886-2.995 10.885.008 3.008 3.011 3.003 7.882-.008 10.889zm-5.23-48.781c-16.373.0-29.701-13.324-29.701-29.698.0-16.381 13.328-29.714 29.701-29.714 16.378.0 29.706 13.333 29.706 29.714.0 16.374-13.328 29.698-29.706 29.698zM160.91 295.348c0-16.381 13.328-29.71 29.714-29.71 16.369.0 29.689 13.329 29.689 29.71.0 16.373-13.32 29.693-29.689 29.693-16.386.0-29.714-13.32-29.714-29.693z"/></svg></a><a title="Partager via Facebook" target=_blank rel="noopener noreferrer" aria-label="Partager A Propos sur Facebook" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fcriminau.xyz%2fapropos%2f"><svg [role="img" viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H342.978V319.085h66.6l12.672-82.621h-79.272v-53.617c0-22.603 11.073-44.636 46.58-44.636H425.6v-70.34s-32.71-5.582-63.982-5.582c-65.288.0-107.96 39.569-107.96 111.204v62.971h-72.573v82.621h72.573V512h-191.104c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892z"/></svg></a><a title="Partager via Whatsapp" target=_blank rel="noopener noreferrer" aria-label="Partager A Propos sur Whatsapp" href="https://api.whatsapp.com/send?text=A%20Propos%20-%20https%3a%2f%2fcriminau.xyz%2fapropos%2f"><svg [role="img" viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zm-58.673 127.703c-33.842-33.881-78.847-52.548-126.798-52.568-98.799.0-179.21 80.405-179.249 179.234-.013 31.593 8.241 62.428 23.927 89.612l-25.429 92.884 95.021-24.925c26.181 14.28 55.659 21.807 85.658 21.816h.074c98.789.0 179.206-80.413 179.247-179.243.018-47.895-18.61-92.93-52.451-126.81zM263.976 403.485h-.06c-26.734-.01-52.954-7.193-75.828-20.767l-5.441-3.229-56.386 14.792 15.05-54.977-3.542-5.637c-14.913-23.72-22.791-51.136-22.779-79.287.033-82.142 66.867-148.971 149.046-148.971 39.793.014 77.199 15.531 105.329 43.692 28.128 28.16 43.609 65.592 43.594 105.4-.034 82.149-66.866 148.983-148.983 148.984zm81.721-111.581c-4.479-2.242-26.499-13.075-30.604-14.571-4.105-1.495-7.091-2.241-10.077 2.241-2.986 4.483-11.569 14.572-14.182 17.562-2.612 2.988-5.225 3.364-9.703 1.12-4.479-2.241-18.91-6.97-36.017-22.23C231.8 264.15 222.81 249.484 220.198 245s-.279-6.908 1.963-9.14c2.016-2.007 4.48-5.232 6.719-7.847 2.24-2.615 2.986-4.484 4.479-7.472 1.493-2.99.747-5.604-.374-7.846-1.119-2.241-10.077-24.288-13.809-33.256-3.635-8.733-7.327-7.55-10.077-7.688-2.609-.13-5.598-.158-8.583-.158-2.986.0-7.839 1.121-11.944 5.604-4.105 4.484-15.675 15.32-15.675 37.364.0 22.046 16.048 43.342 18.287 46.332 2.24 2.99 31.582 48.227 76.511 67.627 10.685 4.615 19.028 7.371 25.533 9.434 10.728 3.41 20.492 2.929 28.209 1.775 8.605-1.285 26.499-10.833 30.231-21.295 3.732-10.464 3.732-19.431 2.612-21.298-1.119-1.869-4.105-2.99-8.583-5.232z"/></svg></a><a title="Partager vers Telegram" target=_blank rel="noopener noreferrer" aria-label="Partager A Propos sur Telegram" href="https://telegram.me/share/url?text=A%20Propos&url=https%3a%2f%2fcriminau.xyz%2fapropos%2f"><svg [role="img" viewBox="2 2 28 28"><path d="M26.49 29.86H5.5a3.37 3.37.0 01-2.47-1 3.35 3.35.0 01-1-2.47V5.48A3.36 3.36.0 013 3 3.37 3.37.0 015.5 2h21A3.38 3.38.0 0129 3a3.36 3.36.0 011 2.46V26.37a3.35 3.35.0 01-1 2.47 3.38 3.38.0 01-2.51 1.02zm-5.38-6.71a.79.79.0 00.85-.66L24.73 9.24a.55.55.0 00-.18-.46.62.62.0 00-.41-.17q-.08.0-16.53 6.11a.59.59.0 00-.41.59.57.57.0 00.43.52l4 1.24 1.61 4.83a.62.62.0 00.63.43.56.56.0 00.4-.17L16.54 20l4.09 3A.9.9.0 0021.11 23.15zM13.8 20.71l-1.21-4q8.72-5.55 8.78-5.55c.15.0.23.0.23.16a.18.18.0 010 .06s-2.51 2.3-7.52 6.8z"/></svg></a></div></article><footer class=footer role=contentinfo><span>&copy; 2023&nbsp;·&nbsp;<a title="page d'accueil" href=https://criminau.xyz/>Journal Subversif</a>&nbsp;·&nbsp;<p class=tl2 id=tl2 title="Retour en haut de la page">retour en haut</p>&nbsp;</span></footer><button aria-label="Retour en haut de la page" class=top-link id=top-link type=button name="Haut de page"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg></button>
-<script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script><script rel=preload async src=https://criminau.xyz/js/script.min.3a608e9d986784c69adff672b858f20f4eee6e1c7d85a09cc3a5c211ef915d78.js integrity="sha256-OmCOnZhnhMaa3/ZyuFjyD07ubhx9haCcw6XCEe+RXXg="></script>
-<script rel=preload async src=https://criminau.xyz/js/fixedsearch.min.aa2f995a79c63744025c85e5c71c561769233a5d6dc3e34bee1c03c08fdf3bf7.js integrity="sha256-qi+ZWnnGN0QCXIXlxxxWF2kjOl1tw+NL7hwDwI/fO/c="></script>
-<script rel=preload async src=https://criminau.xyz/js/fuse.min.js></script></body></html>
+»</p>
+</blockquote>
+<p>Je cite :</p>
+<blockquote>
+<p>&ldquo;à la protection de la santé ou de la morale&rdquo;</p>
+</blockquote>
+<p>La morale serait donc un ennemi de la vie privée et elle doit être protégée.</p>
+<p>Les propos &ldquo;Droit au respect de la vie privée et familiale&rdquo; semblent signifier que la vie privée serait plus une condition sociale d&rsquo;existence qu&rsquo;une forme de droit moral. Dans le sens où la vie privée relève plus des meurs que de la morale ce qui justifie alors le paragraphe précédent.</p>
+<p>Elle est associé sociologiquement à l&rsquo;individu dans son environnement social plutôt que moralement à son rôle d&rsquo;être vivant doué de raison, être spirituel.<br>
+De cette façon elle se détache de son rôle protecteur, puisqu&rsquo;elle rattache l&rsquo;individu uniquement par sa condition sociale.</p>
+<p>Aujourd&rsquo;hui, la vie privée divise profondément, deux courants de pensée s&rsquo;affrontent :</p>
+<ul>
+<li>L&rsquo;un affirmant qu&rsquo;elle est nécessaire et qu&rsquo;elle doit être assurée intégralement, aucune forme de collecte d&rsquo;information.</li>
+<li>L&rsquo;autre assurant qu&rsquo;elle n&rsquo;est que le reflet de notre modèle social et donc qu&rsquo;elle doit être partagée à tous ! Que toutes les données soient publiques.</li>
+</ul>
+<p>La belle affaire.</p>
+<h3 id="gdpr">GDPR</h3>
+<p>General Data Protection Regulation.<br>
+Ces lois pour la sécurité des données sont entrées en vigueur le 25 Mai 2018 en Europe.</p>
+<p>Et la encore aucun mot sur la vie privée&hellip; Par contre ils donnent une définition des données personnelles.<br>
+Aucun droit à l&rsquo;oubli.<br>
+Aucun droit à l&rsquo;anonymat.</p>
+<h3 id="je-nai-rien-a-cacher-">Je n&rsquo;ai rien a cacher !</h3>
+<p>Pour ceux qui croient encore que vous n&rsquo;avez rien à cacher&hellip;.<br>
+Je ne vais pas vous expliquer le principe du panoptique.<br>
+Je vous expliquerai le principe de <a href="https://criminau.xyz/articles/about-floc.html#arr%c3%aatducrime">l&rsquo;arrêt du crime</a>.</p>
+<h3 id="coût-de-la-vie-privée">Coût de la vie privée</h3>
+<p>Exclusion du système bancaire.
+Exclusion sociale :</p>
+<ul>
+<li>Les rues regorgent de caméra.</li>
+<li>Android respire Google.</li>
+<li><a href="https://tosdr.org/en/service/158">Apple et ses termes d&rsquo;utilisation</a></li>
+</ul>
+<h3 id="exclusion-sociale">Exclusion sociale</h3>
+<p>Ceux désirant le respect de leur vie privée sont déjà exclue socialement depuis plus d&rsquo;une décennie dans le plus grand silence ! Cela se nomme <strong>les pathologies de l&rsquo;anonymat</strong>, où l&rsquo;on fait croire que c&rsquo;est la faute des gens alors que c&rsquo;est de la faute de ceux qui ne désire pas l&rsquo;être.</p>
+<p>Ne pas utiliser le Play Store ou le Google Service Framework (GSF) de Google vous exclue de <strong>tout lien social</strong> puisque même Signal nécessite le GSF pour son utilisation.</p>
+<p>Depuis 2019, Google à renforcer la protection de la signature du GSF, il est donc devenu un calvaire de fuir la surveillance en aillant une vie &ldquo;normale&rdquo;.</p>
+<h2 id="notion-danonymat">Notion d&rsquo;anonymat</h2>
+<p>Anonyme issu du grec ancien ἀνώνυμος anônymos (« sans nom »).</p>
+<p>Cette notion d&rsquo;anonymat est délicate à appréhender car il ne faut pas oublier que chacun en fonction de ses connaissances croient être anonyme.</p>
+<p>Exemple :
+Une personne qui se connecte sur internet avec un pseudo qui n&rsquo;est pas le sien, se sentira anonyme, mais elle ne le sera pas, car elle communiquera avec son adresse IP.<br>
+Cette personne vivra son anonymat alors qu&rsquo;une autre sachant qu&rsquo;elle peut être identifiable ne se sentira pas anonyme.</p>
+<p>En ce sens, la notion d&rsquo;anonymat est DELICATE.</p>
+<h2 id="arrêtducrime">Arrêtducrime</h2>
+<p>Facebook continue d&rsquo;espionner les adolescents<cite><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite>.</p>
+<p>Les Gouvernements sont au courant et sont complices<cite><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></cite>.</p>
+<p>Les termes d&rsquo;utilisation, de services des sites web sont une vaste mascarade<cite><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></cite>.</p>
+<p>Je me balade sur le google francophone. Quand je tombe sur <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.kids.familylink&amp;hl=fr&amp;gl=FR">Google Family Link</a>.</p>
+<p>L&rsquo;application family link de google.<br>
+Je voit la note sur le Play Store au 16/09/21. 1.4/5. Soit 5.6/20. C&rsquo;est moche.<br>
+<em>Bon à l&rsquo;heure où j&rsquo;écrit l&rsquo;article (06/01/22), quelqu&rsquo;un est passé nettoyer les commentaires et avis 😮.</em><br>
+La lecture des commentaires fait peur.<br>
+Les gosses ne peuvent plus penser par eux même.</p>
+<p>Voilà le crime : penser à conserver sa vie privée.</p>
+<p>La récente mise à jour de Youtube qui n&rsquo;affiche plus les pouces rouge est une preuve de plus. Ils ne veulent plus que ce soit vous qui décidiez ce que vous regardez ou vous pensez.</p>
+<p>L&rsquo;Arrêtducrime, c&rsquo;est la faculté de s&rsquo;arrêter net, comme par instinct, au seuil d&rsquo;une pensée dangereuse. La pensée dangereuse ici reste l&rsquo;anonymat sur internet.</p>
+<p>L&rsquo;objectif reste que ce soit vous seul, par pure stupidité protectrice, qui commettez l&rsquo;Arrêtducrime.</p>
+<p>Dans le cas des enfants, l&rsquo;objectif est d&rsquo;annihiler leur capacité à prendre conscience de ce qui est bien ou mal sur ce qu&rsquo;ils font sur internet. En restreignant leurs activités, ils perdent tout regard critique sur leurs agissements.</p>
+<blockquote>
+<p>« Ceux qui sont capables de voir au-delà des ombres et des mensonges de leur culture ne seront jamais compris et encore moins crus par les masses »
+Platon</p>
+</blockquote>
+<h2 id="conclusion">Conclusion</h2>
+<p>Ceux qui veulent la vie privée et la liberté sont des criminels.<br>
+Les gens ne désirent pas être libre. Ils confondent avoir le choix et être libre.<br>
+La maladie du pouvoir est bien plus lourde en conséquence que celle de la cupidité.<br>
+MAIS pour VOTRE BONHEUR vous souhaitez rester dégagé de tout cela.<br>
+La vie privée est un droit fondamental humain.</p>
+<h3 id="pour-penser-plus-loin">Pour penser plus loin</h3>
+<p>A l&rsquo;image de la religion qui gérait les individus, les GAFAM gère l&rsquo;ordre public sur le domaine du cyber espace, ils sont complices avec les états du maintient de l&rsquo;ordre et de la dérive autoritaire.</p>
+<p>Première Loi de la vie Privée :
+Ne croyez jamais Google lorsque qu&rsquo;ils promettent de faire quelque chose pour la &ldquo;protection de la vie privée&rdquo;. JAMAIS.</p>
+<h2 id="sources">sources</h2>
+<p><a href="https://web.dev/floc/">What is FLoC?</a><br>
+<a href="https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea">Google’s FLoC Is a Terrible Idea</a><br>
+<a href="https://wicg.github.io/floc/">W3C Draft Report about FLoC</a><br>
+<a href="https://www.laquadrature.net/2021/04/27/les-cookies-de-google-sont-toxiques-le-floc-aussi/">Les cookies de Google sont toxiques le FLoC aussi</a><br>
+<a href="https://gs.statcounter.com/">Statistiques sur internet</a><br>
+<a href="https://fr.wikipedia.org/wiki/Rien_%C3%A0_cacher_%28argument%29">Ceux qui n&rsquo;ont rien à chacher</a><br>
+<a href="https://hacktivis.me/articles/Mozilla%20is%20Broken">Mozilla is Broken</a><br>
+<a href="https://cleanuptheweb.org/">cleanuptheweb.org</a></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://californianewstimes.com/facebook-accused-of-continuing-to-surveil-teens-for-ad-targeting-techcrunch/593643/">Facebook continue d&rsquo;espionner les adolescents</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Des lois pour obliger google par le <a href="https://www.forbes.com/sites/thomasbrewster/2021/10/04/google-keyword-warrants-give-us-government-data-on-search-users/?sh=4df8b8a07c97">Magazine Forbes</a>.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://tosdr.org">Les termes d&rsquo;utilisation, de services</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div></div>
+
+
+    <nav class="paginav">
+      <a class="prev" href="https://criminau.xyz/articles/diversite.html" title="Diversité !">
+        <span class="title">« Page Précédente</span>
+        <br>
+        <span>Diversité !</span>
+      </a>
+      <a class="next" href="https://criminau.xyz/articles/karl-marx-le-capital-4.html" title="Karl marx, le capital (4)">
+        <span class="title">Page Suivante »</span>
+        <br>
+        <span>Karl Marx, Le Capital (4)</span>
+      </a>
+    </nav>
+
+
+
+
+
+<div class="share-buttons">
+	<p title="Copier le lien de la page" target="_blank" rel="noopener noreferrer" id="copy-page-link">
+		<svg [role="img"] version="1.1" viewBox="0 0 512 512"  xml:space="preserve" onclick="Copy();">
+		<path d="M448 0H224C188.7 0 160 28.65 160 64v224c0 35.35 28.65 64 64 64h224c35.35 0 64-28.65 64-64V64C512 28.65 483.3 0 448 0zM464 288c0 8.822-7.178 16-16 16H224C215.2 304 208 296.8 208 288V64c0-8.822 7.178-16 16-16h224c8.822 0 16 7.178 16 16V288zM304 448c0 8.822-7.178 16-16 16H64c-8.822 0-16-7.178-16-16V224c0-8.822 7.178-16 16-16h64V160H64C28.65 160 0 188.7 0 224v224c0 35.35 28.65 64 64 64h224c35.35 0 64-28.65 64-64v-64h-48V448z"/></svg>
+	
+	</p>
+    <a title="Partager via Twitter" target="_blank" rel="noopener noreferrer" aria-label="Partager A Propos sur Twitter"
+        href="https://twitter.com/intent/tweet/?text=A%20Propos&amp;url=https%3a%2f%2fcriminau.xyz%2fapropos%2f&amp;hashtags=">
+        <svg [role="img"] version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
+        </svg>
+    </a>
+    <a title="Partager via Linkedin" target="_blank" rel="noopener noreferrer" aria-label="Partager A Propos sur Linkedin"
+        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fcriminau.xyz%2fapropos%2f&amp;title=A%20Propos&amp;summary=A%20Propos&amp;source=https%3a%2f%2fcriminau.xyz%2fapropos%2f">
+        <svg [role="img"] version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+        </svg>
+    </a>
+    <a title="Partager via reddit" target="_blank" rel="noopener noreferrer" aria-label="Partager A Propos sur Reddit"
+        href="https://reddit.com/submit?url=https%3a%2f%2fcriminau.xyz%2fapropos%2f&title=A%20Propos">
+        <svg [role="img"] version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+        </svg>
+    </a>
+    <a title="Partager via Facebook" target="_blank" rel="noopener noreferrer" aria-label="Partager A Propos sur Facebook"
+        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fcriminau.xyz%2fapropos%2f">
+        <svg [role="img"] version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+        </svg>
+    </a>
+    <a title="Partager via Whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Partager A Propos sur Whatsapp"
+        href="https://api.whatsapp.com/send?text=A%20Propos%20-%20https%3a%2f%2fcriminau.xyz%2fapropos%2f">
+        <svg [role="img"] version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+        </svg>
+    </a>
+    <a title="Partager vers Telegram" target="_blank" rel="noopener noreferrer" aria-label="Partager A Propos sur Telegram"
+        href="https://telegram.me/share/url?text=A%20Propos&amp;url=https%3a%2f%2fcriminau.xyz%2fapropos%2f">
+        <svg [role="img"] version="1.1" xml:space="preserve" viewBox="2 2 28 28">
+            <path
+                d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+        </svg>
+    </a>
+</div>
+
+
+</article>
+
+<footer class="footer" role="contentinfo">
+    <span>&copy; 2023&nbsp;·&nbsp;<a Title="page d'accueil" href="https://criminau.xyz/">Journal Subversif</a>&nbsp;·&nbsp;
+		<p class="tl2" id="tl2" Title="Retour en haut de la page">retour en haut</p>
+		&nbsp;</span>
+</footer>
+
+
+<button aria-label="Retour en haut de la page" class="top-link" id="top-link" type="button" name="Haut de page">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+	 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<polyline points="18 15 12 9 6 15" /></svg>
+</button>
+
+
+
+
+<script>
+document.getElementById("theme-toggle").addEventListener("click", () => {
+if (document.body.className.includes("dark")) {
+document.body.classList.remove('dark');
+localStorage.setItem("pref-theme", 'light');
+} else {
+document.body.classList.add('dark');
+localStorage.setItem("pref-theme", 'dark');
+}
+})
+</script>
+
+
+
+
+<script rel="preload" async src="https://criminau.xyz/js/script.min.3a608e9d986784c69adff672b858f20f4eee6e1c7d85a09cc3a5c211ef915d78.js" integrity="sha256-OmCOnZhnhMaa3/ZyuFjyD07ubhx9haCcw6XCEe&#43;RXXg="></script>
+
+
+
+
+  
+  
+  <script rel="preload" async src="https://criminau.xyz/js/fixedsearch.min.aa2f995a79c63744025c85e5c71c561769233a5d6dc3e34bee1c03c08fdf3bf7.js" integrity="sha256-qi&#43;ZWnnGN0QCXIXlxxxWF2kjOl1tw&#43;NL7hwDwI/fO/c="></script>
+
+  
+  
+  
+  <script rel="preload" async src="https://criminau.xyz/js/fuse.min.js"></script>
+
+
+
+
+
+</body>
+</html>

@@ -1,1 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet type="text/css" href="https://criminau.xyz/css/rss.min.a7d238a70b0343acd9fdca71500b8b918bb7305425764196d06a61a19f47024f.css"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Journal Subversif</title><language>fr</language><image><url>https://criminau.xyz/apple-touch-icon.png</url><title>Journal Subversif</title><link>https://criminau.xyz/</link></image><link>https://criminau.xyz/</link><description>Criminau est un blog développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description><copyright>https://criminau.xyz/internetlibre.txt</copyright><lastBuildDate>Tue, 07 Mar 2023 16:53:39 +0100</lastBuildDate><docs>https://validator.w3.org/feed/docs/rss2.html</docs><atom:link href="https://criminau.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>Livres</title><link>https://criminau.xyz/tags/livres.html</link><source url="https://criminau.xyz/index.xml">Journal Subversif</source><pubDate>Tue, 07 Mar 2023 16:53:39 +0100</pubDate><guid>https://criminau.xyz/tags/livres.html</guid><description/></item><item><title>Troisième Rome</title><link>https://criminau.xyz/tags/troisi%C3%A8me-rome.html</link><source url="https://criminau.xyz/index.xml">Journal Subversif</source><pubDate>Sun, 25 Sep 2022 14:51:04 +0200</pubDate><guid>https://criminau.xyz/tags/troisi%C3%A8me-rome.html</guid><description/></item></channel></rss>
+
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<?xml-stylesheet type="text/css"  href="https://criminau.xyz/css/rss.min.a7d238a70b0343acd9fdca71500b8b918bb7305425764196d06a61a19f47024f.css" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journal Subversif</title>
+    <language>fr</language>
+    <image>
+      <url>https://criminau.xyz/apple-touch-icon.png</url>
+      <title>Journal Subversif</title>
+      <link>https://criminau.xyz/</link>
+    </image>
+    <link>https://criminau.xyz/</link>
+
+    <description>Criminau est un blog développant un avis critique de nos sociétés et de notre environnement social. Les articles abordent une culture subversive.</description>
+    <copyright>https://criminau.xyz/internetlibre.txt</copyright>
+
+    
+    <lastBuildDate>Sun, 25 Sep 2022 14:51:04 +0200</lastBuildDate>
+    
+
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <atom:link href="https://criminau.xyz/index.xml" rel="self" type="application/rss+xml"/>
+
+    
+    <item>
+      <title>Troisième Rome</title>
+      <link>https://criminau.xyz/tags/troisi%C3%A8me-rome.html</link>
+      
+      <source url="https://criminau.xyz/index.xml">Journal Subversif</source>
+      <pubDate>Sun, 25 Sep 2022 14:51:04 +0200</pubDate>
+      <guid>https://criminau.xyz/tags/troisi%C3%A8me-rome.html</guid>
+      <description></description>
+
+    
+
+    </item>
+    
+    <item>
+      <title>Livres</title>
+      <link>https://criminau.xyz/tags/livres.html</link>
+      
+      <source url="https://criminau.xyz/index.xml">Journal Subversif</source>
+      <pubDate>Sun, 20 Feb 2022 17:08:07 +0100</pubDate>
+      <guid>https://criminau.xyz/tags/livres.html</guid>
+      <description></description>
+
+    
+
+    </item>
+    
+  </channel>
+</rss>

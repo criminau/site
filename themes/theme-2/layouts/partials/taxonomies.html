@@ -1,10 +1,24 @@
-{{- with $.Params.tags -}}
-<a class="pdf-link-post-single" href="/tags/{{ . }}/" rel="noopener noreferrer" title="{{ . }}">{{ . }}</a>
-{{- end -}}
-{{- with $.Params.categories -}}
-<a class="pdf-link-post-single" href="/categories/{{ . }}/" rel="noopener noreferrer" title="{{ . }}">{{ . }}</a>
-{{- end -}}
-{{- with $.Params.series -}}
-<a class="pdf-link-post-single" href="/series/{{ . }}/" rel="noopener noreferrer" title="{{ . }}">{{ . }}</a>
-{{- end -}}
+{{ if .Params.tags }}
+{{- $tags := .Params.Taxonomies.tag | default "tags"}}
+{{- range ($.GetTerms $tags) }}
+&nbsp;·&nbsp;
+<a class="pdf-link-post-single" href="/tags/{{ .LinkTitle }}/" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a>
+{{- end }}
+{{ end }}
 
+{{ if .Params.categories }}
+{{- $categories := .Params.Taxonomies.category | default "categories"}}
+{{- range ($.GetTerms $categories) }}
+&nbsp;·&nbsp;
+<a class="pdf-link-post-single" href="/categories/{{ .LinkTitle }}/" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a>
+{{- end }}
+{{ end }}
+
+
+{{ if .Params.series }}
+{{- $series := .Params.Taxonomies.serie | default "series"}}
+{{- range ($.GetTerms $series) }}
+&nbsp;·&nbsp;
+<a class="pdf-link-post-single" href="/series/{{ .LinkTitle }}/" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a>
+{{- end }}
+{{ end }}

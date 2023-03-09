@@ -15,7 +15,7 @@ buildDraft: true
 
 # Performance
 minify:
- minifyOutput: true
+ minifyOutput: false
 
 # Preparing search option
 outputs:
