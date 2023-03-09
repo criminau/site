@@ -65,6 +65,15 @@
     as="style" integrity="{{ $CSSpostsingle.Data.Integrity }}">
 {{ end }}
 
+<!-- si taxonomies -->
+{{ if or (eq .Section "tags") (.Params.pages) (eq .Section "categories") (eq .Section "series")}}
+{{- $postsingle := resources.Get "css/post-single.css" }}
+{{- $CSSpostsingle := $postsingle | minify | fingerprint }}
+<link href="{{ $CSSpostsingle.Permalink }}"  rel="preload stylesheet"
+    as="style" integrity="{{ $CSSpostsingle.Data.Integrity }}">
+{{ end }}
+
+
 <!--si la page est bien archives-->
 {{ if .Params.archives }}
 {{- $archive := resources.Get "css/archive.css" }}
