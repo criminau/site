@@ -14,9 +14,7 @@ cover:
     Caption: ""
 images: "media/markdown-cover-min.avif"
 keyword: "Markdown syntax, copy button, figure, details, expand, columns, tabs, blockquote, youtube responsive, HTML, CSS, HUGO, hugo authors, gohugo, hugo cms, Markdown"
-tags: ["markdownsyntax"]
 categories: ["markdownsyntax"]
-series: ["markdownsyntax"]
 pdfname: "markdown-syntax"
 ---
 
@@ -53,6 +51,19 @@ The following HTML `<h1>`—`<h6>` elements represent six levels of section head
 Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
 
 Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
+
+
+### Saut de ligne
+
+texte nous allons sauter 5 lignes  :)
+\
+\
+\
+\
+\
+texte doit être collé
+
+:blush:
 
 ## Buttons
 
@@ -92,6 +103,7 @@ The blockquote element represents content that is quoted from another source, op
 
 [^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
 
+
 ## figure
 
 Figure (image insertion) playing with text !
@@ -112,7 +124,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {{< figure src="https://via.placeholder.com/1600x800" alt="image" caption="figure-big" class="big" >}}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris :blush: nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ## Tables
 
@@ -149,6 +161,8 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 | Italics   | Bold     | Code   |
 | --------  | -------- | ------ |
 | *italics* | **bold** | `code` |
+
+
 
 ## Highlight
 
@@ -298,7 +312,7 @@ nitter n'autorise pas la connexion.
 
 {{< iteroni "-R0UYHS8A_A" >}}
 
-deux pour le plaisir
+deux pour le plaisir :blush:
 
 ## vimeo
 
@@ -315,6 +329,15 @@ Cat
 
 Internet
 : Vector of transmission for pictures of cats
+
+## emoji
+
+:blush:
+
+[page avec liste des emojis !](https://www.webfx.com/tools/emoji-cheat-sheet/).
+
+:blush::blush:
+
 
 ## Link
 

@@ -19,7 +19,8 @@ En savoir plus :   <https://criminau.xyz/apropos/>
 - [X] du gras sur sidebar-nav-item
 - [X] procédures taxonomies achetype
 - [ ] taxonomies.css
-- [ ] comprendre architecture !
+- [X] comprendre architecture !
+- [X] markdwonsyntax.md amélioré !
 - [ ] .Params.image ?? -> RSS
 - [ ] RSS image (en cours)
 - [ ] site responsive avec css mobile (720/1320)

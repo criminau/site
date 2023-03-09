@@ -43,7 +43,7 @@ En deux mois les talibans sont renversés.
 Les EUA propose un pachtoune, Mr Karzai, pour les élections de 2004 et l'appuient, il est réélu en 2009.  
 Vers 2007, les talibans fuient au Pakistan. Ils deviennent de plus en plus actifs dans leur guerilla.  
 Les capacités opérationnelles de lutte antiguerrilla des Etats-Unis d'Amérique sont quadruplées.  
-Ils deviennent spécialistes de l'antiguerrila.  
+Ils deviennent spécialistes de l'antiguerrilla.
 En 2009, c'est l'apogée de la guerre. 132 000 hommes dont 90 000 états-uniens y sont déployés.  
 Dès 2011, Obama organise un retrait par phase.  
 En même temps se tient à Istanbul une première réunion "Coeur de l'Asie", pour négocier la paix mais le gouvernement Afghan (Gouv-A), ne désire pas traiter avec les acteurs étrangers.  
@@ -95,7 +95,7 @@ Les EUA ont fait leur choix.
 L'offensive sur le Gouv-A commence au sud de Kaboul dès l'accélération du retrait des troupes de l'OTAN en Mai 2021.  
 Comformément aux accords de Doha, et à la soumission du Gouv-A. Les talibans avancent à grand pas.  
 
-Ils s'imposent avec force, faisant des morts des deux côtés ainsi que des civils.  
+Ils s'imposent avec force, faisant des morts des deux côtés ainsi que des civils.
 
 À la fin du mois de mai, le Portugal, la Slovénie, l'Espagne et la Suède ont complètement retiré leurs forces d'Afghanistan.  
 
@@ -107,20 +107,30 @@ En ROSE Territoires contrôlés par le gouvernement afghan.
 On remarque la stratégie d'étouffement de Kaboul.
 
 Dès début Juin, les talibans entreprennent la prise de contrôle au Nord de Kaboul.
-
+\
+\
+\
+\
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2021_Taliban_Offensive_-_Situation_on_25_July.png/1200px-2021_Taliban_Offensive_-_Situation_on_25_July.png" alt="Situation en Afghanistan au 25 Juillet 2021" caption="Situation en Afghanistan au 25 Juillet 2021" class="left">}}
-
+\
+\
+\
 La stratégie des talibans se confirment, l'étouffement des agglomérations urbaines est commun.  
 Au 9 Juillet 85% du territoire Afghan "serait" sous contrôle Taliban.  
 Au 29 juillet, les talibans contrôlent 223 districts sur les 407 du pays mais aucune des trente-quatre capitales provinciales.
-
+\
+\
+\
+\
 Cette stratégie va vite payer ses fruits, le 6 Août, la première capitale provinciale tombe aux mains des talibans. Cette goûte d'eau va faire déborder le vase. La Victoire est proche, les capitales tombent sans résistance.
-
+\
+\
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Taliban_insurgency_in_Afghanistan_%282015%E2%80%93present%29.svg/1200px-Taliban_insurgency_in_Afghanistan_%282015%E2%80%93present%29.svg.png" alt="Situation en Afghanistan au 3 Août 2021" caption="Situation en Afghanistan au 3 Août 2021" class="right">}}
 En BLANC territoires contrôlés par les talibans;  
 En GRIS Territoires contrôlés par l'État islamique;  
 En ROSE Territoires contrôlés par le gouvernement afghan.
-
+\
+\
 On observe une présence de Daech a l'Est de Kaboul, proche du Pakistan.
 
 Au 14 Août Kaboul est complètement encerclée.  

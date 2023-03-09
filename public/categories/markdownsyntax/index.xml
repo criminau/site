@@ -17,6 +17,15 @@ Cet article me permet de tester de nouvelles configurations de manière étendue
 &lt;h2 id="paragraph">Paragraph&lt;/h2>
 &lt;p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p>
 &lt;p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p>
+&lt;h3 id="saut-de-ligne">Saut de ligne&lt;/h3>
+&lt;p>texte nous allons sauter 5 lignes :)
+&lt;br>
+&lt;br>
+&lt;br>
+&lt;br>
+&lt;br>
+texte doit être collé&lt;/p>
+&lt;p>😊&lt;/p>
 &lt;h2 id="buttons">Buttons&lt;/h2>
 &lt;a rel="noopener noreferrer" title="Go Home Fucking Tourists" href="https://youtu.be/QRcrsHro6xI" target="_blank" class="sample-btn">
 Go Home Fucking Tourists
@@ -89,7 +98,7 @@ title="image"/>&lt;figcaption>
 &lt;p>figure-big&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 😊 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
 &lt;h2 id="tables">Tables&lt;/h2>
 &lt;p>Table:&lt;/p>
 &lt;table>
@@ -321,7 +330,7 @@ title="Vidéo Youtube sans cookies"
 >
 &lt;/iframe>
 &lt;/div>
-&lt;p>deux pour le plaisir&lt;/p>
+&lt;p>deux pour le plaisir 😊&lt;/p>
 &lt;h2 id="vimeo">vimeo&lt;/h2>
 &lt;div class="video-responsive">
 &lt;iframe src="https://player.vimeo.com/video/146022717?dnt=1"
@@ -348,6 +357,10 @@ title="aperçu gt-metrix-report"
 &lt;dt>Internet&lt;/dt>
 &lt;dd>Vector of transmission for pictures of cats&lt;/dd>
 &lt;/dl>
+&lt;h2 id="emoji">emoji&lt;/h2>
+&lt;p>😊&lt;/p>
+&lt;p>&lt;a href="https://www.webfx.com/tools/emoji-cheat-sheet/">page avec liste des emojis !&lt;/a>.&lt;/p>
+&lt;p>😊😊&lt;/p>
 &lt;h2 id="link">Link&lt;/h2>
 &lt;p>&lt;a href="https://gallica.bnf.fr/ark:/12148/bpt6k5772863h/f19.image">Histoire du Béarn&lt;/a>&lt;/p>
 &lt;div class="footnotes" role="doc-endnotes">

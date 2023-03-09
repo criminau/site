@@ -2,16 +2,14 @@
 
 <div class="taxo-list-main">
 
-  {{ with .Params.description }}
-    <p>{{.}}</p>
-  {{ end }}
 
-  <h2>List of products labeled with "{{.Title}}" brand</h2>
+
+  <h2>Liste des articles dans la {{ .Kind }} {{.Title}}</h2>
 
   <ul>
     {{ range .Data.Pages }}
        <li>
-         <a href="{{ .Permalink}}">{{ .Title }}</a>
+         <a href="{{ .Permalink }}">{{ .Title }}</a>
        </li>
     {{ end }}
   </ul>
