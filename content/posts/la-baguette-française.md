@@ -1,5 +1,5 @@
 ---
-title: "ma baguette fraçaise"
+title: "ma baguette française"
 author: "criminau"
 slug: "ma_baguette_française"
 ShowToc: true
