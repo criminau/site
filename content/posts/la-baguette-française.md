@@ -13,8 +13,8 @@ cover:
     alt: "image d'une baguette"
     caption: ""
 images: "media/french-baguette.jpg"
-keyword: ""
-tags: ["monnaie",""]
+keyword: "monnaie, prix, baguette, française, or"
+tags: ["Monnaie",""]
 categories: ["",""]
 series: ["",""]
 pdfname: "ma_baguette_française"
@@ -30,19 +30,6 @@ Qui pourrait prétendre comprendre ce que cela signifie ? Quel est le message et
 Quel est le rôle de la monnaie ?
 
 <!--more-->
-
-
-https://www.historicalstatistics.org/
-
-https://www.historicalstatistics.org/Currencyconverter.html
-
-http://pricedingold.com/about/
-https://thegoldobserver.substack.com/
-
-https://www.insee.fr/fr/statistiques/serie/000442615 foutre ma photo !
-
-«  »
-
 
 ## Une miche de pain ?
 
@@ -64,8 +51,8 @@ Le 06/03/2023 : 1 gr d'or = 55.96€
 
 
 Calcul du prix du pain.
-Pour Janvier 2023, la baguette française (métropole) coûte 0,070228 gramme d'or le kilogramme.
-Pour 650 ans avant JC, la miche (un peu moins d'un kilo) coûtait 0,080997 gramme d'or le kilogramme.
+En Janvier 2023, la baguette française (métropole) coûte 0,070228 gramme d'or le kilogramme.
+650 ans avant JC, la miche (un peu moins d'un kilo) coûtait 0,080997 gramme d'or le kilogramme.
 
 Etonnant, n'est-il pas ? Qu'en déduire ?
 
@@ -117,7 +104,7 @@ Le petit tableau avec le prix de l'argent montre que l'argent coûte 3,7 fois mo
 | 2015  | 100             | 1,35        |
 
 Nous observons les mêmes résultats qu'auparavant à quelques marges d'erreurs.
-Continuons pour le plaisir, mais l'on pourrait dresser un tableau de d'évolution des salaires.
+Continuons pour le plaisir, mais l'on pourrait dresser un tableau de l'évolution des salaires.
 
 ### Troisième question : Quel est l'équivalent de 10 grammes d'or en 1815 avec la devise Euro (€) en 1999 ?
 
@@ -153,13 +140,13 @@ Ces comparaisons nous offrent une valeur relative via la force de travail.
 - Le dollar est il solide ?
 
 Pour valider la solidité d'une monnaie nous allons nous baser sur 3 aspects.
-A historique la balance commerciale de la zone monétaire.
-B la valeur totale de ses actifs par rapport àla valeur de sa dette.
-C le pourcentage de l'or dans les réserves.
+A) historique la balance commerciale de la zone monétaire.
+B) la valeur totale de ses actifs par rapport àla valeur de sa dette.
+C) le pourcentage de l'or dans les réserves.
 
 ### A) Historique de la balance des paiements.
 
-Quand depuis 40 ans tu tournes à perte. Bon tant qu'il y a des pigeons pour te financer tout va bien. Mais là depuis 5 ans les pigeons ne financent plus, tout au contraire même.
+Quand depuis 40 ans tu tournes à perte. Bon tant qu'il y a des pigeons pour te financer tout va bien. Mais là depuis 2 ans les pigeons ne financent plus, tout au contraire même.
 
 
 
@@ -168,12 +155,12 @@ Quand depuis 40 ans tu tournes à perte. Bon tant qu'il y a des pigeons pour te 
 
 {{< figure src="https://criminau.xyz/media/BOP USA 1970 -photo.avif" alt="Evolution de la balance des paiements des Etats-Unis depuis 1970" caption="Evolution de la balance des paiements des Etats-Unis depuis 1970" class="big" >}}
 
-Bref ils tournent à perte.
+Bref ils tournent à perte (fuite de la liquidité?!).
 
 ### B) le ratio actif/dette
 
 Actifs :
-8 133,5 tonnes officielles qui appartiennent la FED et non au gouvernement, mais l'on va considérer que la FED est mandaté par le gouvernement (ce qui est le cas d'ailleurs). [^3]
+8 133,5 tonnes officielles qui appartiennent à la FED et non au gouvernement, mais l'on va considérer que la FED est mandaté par le gouvernement (ce qui est le cas d'ailleurs). [^3]
 
 [^3]: [Possession d'or officielle par pays](https://www.goldreporter.de/wp-content/uploads/2020/03/Weltweite-Goldreserven-03-2020.pdf)
 
@@ -195,7 +182,7 @@ Surtout que dans leur calcul ils ne prennent pas la valeur du marché mais la le
 Précisément 77,9% de part d'or dans les réserves totales[^3], on peut y voir du sérieux et de la crédibilité comme du protectionnisme.
 
 
-Nous pouvons déceler trois points négatifs sur le dollar, une [banque centrale privée](https://criminau.xyz/articles/qui-dirige-le-monde.html#la-r%c3%a9serve-f%c3%a9d%c3%a9rale-des-%c3%a9tats-unis), une balance des paiements à corriger et une dette à rembourser.
+Nous pouvons déceler trois points négatifs sur le dollar, une [banque centrale privée](https://criminau.xyz/articles/qui-dirige-le-monde.html#la-r%c3%a9serve-f%c3%a9d%c3%a9rale-des-%c3%a9tats-unis), une balance des paiements à corriger et une dette à rembourser légèrement.
 
 
 
@@ -223,7 +210,7 @@ En gros certains pigeons commencent à comprendre qu'ils se font pigeonner et do
 N'oubliez pas il faut toujours rembourser ses dettes ! Mais si l'on rembourse tout il n'y a plus de devise en circulation !
 La dévaluation appauvrit la populasse qui possède des actifs dans la zone dévaluée (par exemple le cash). Par contre d'autres biens extérieurs ou qui n'appartiennent a aucun territoire eux ne perdent pas de valeur.
 
-mais pire que cela. car tout cela n'a absolument aucun sens. prenons le FMI comme exemple qui demain aura besoin de lui ? beaucoup de monde ? mais qui aura besoin de dollar ? PERSONNE. car le monde tournera sans lui;
+Mais pire que cela. Car tout cela n'a absolument aucun sens. Prenons le FMI comme exemple : qui demain aura besoin de lui ? beaucoup de monde ? mais qui aura besoin de dollar ? PERSONNE. Car le monde tournera sans lui.
 
 
 ## et demain
@@ -246,5 +233,6 @@ Voici quelques graphiques fait par pur plaisir afin de lecteur puisse appréhend
 {{< figure src="https://criminau.xyz/media/cac40-en-gr-d-or.avif" alt="Evolution du prix du CAC40 en gramme d'or" caption="Evolution du prix du CAC40 en gramme d'or" class="big" >}}
 
 Oh mon Dieu ! Si l'or était votre monnaie il aurait fallu acheter des actions du CAC40 en Janvier 2013 et les revendre en 2015 ! Vous auriez fait plus de x3! Il est donc temps d'acheter sa baguette de pain en or !
-En fait l'or eu était si manipulé par les banquiers internationnaux que toute la période allant de 1971 à 2004 est sujet à caution car le prix de l'or est faussé. Et même avant 1971, les mines et le transport de l'or dans le monde était contrôlé par très peu de famille donc son prix était souvent fixé par les banquiers internationnaux.
+En fait l'or eu était si manipulé par les banquiers internationnaux que toute la période allant de 1971 à 2004 est sujette à caution car le prix de l'or est faussé. Et même avant 1971, les mines et le transport de l'or dans le monde était contrôlé par très peu de familles donc son prix était souvent fixé par les banquiers internationnaux.
 
+PS : le seul endroit pour visionner de tel graphiques est d'accéder au site web pricedingold.com :blush:
