@@ -1,5 +1,5 @@
 ---
-title: "ma baguette française"
+title: "Ma baguette française"
 author: "criminau"
 slug: "ma_baguette_française"
 ShowToc: true
@@ -19,7 +19,6 @@ categories: ["",""]
 series: ["",""]
 pdfname: "ma_baguette_française"
 ---
-
 
 M Trump l'a annoncé : « We'll Level Playing Field »[^1] en Février 2017.
 
